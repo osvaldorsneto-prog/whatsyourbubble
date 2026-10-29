@@ -102,45 +102,85 @@ def mux(video, audio, out):
     os.replace(tmp, out)
 
 # ---------- TikTok: apresenta os 5 ----------
+# Área segura do TikTok: fora das abas (topo), da coluna de botões (direita) e da legenda (base)
+SAFE_X = 470          # centro horizontal útil (deslocado pra esquerda)
+def music(dur, sr=44100, bpm=112):
+    """Trilha original simples: bumbo, chimbal, baixo e acordes em pizzicato (C-G-Am-F)."""
+    n = int(dur * sr); t = np.arange(n) / sr; out = np.zeros(n)
+    beat = 60 / bpm
+    chords = [(261.6, 329.6, 392.0), (196.0, 246.9, 293.7), (220.0, 261.6, 329.6), (174.6, 220.0, 261.6)]
+    bass = [65.4, 49.0, 55.0, 43.7]
+    k = 0
+    while k * beat < dur:
+        t0 = k * beat; i0 = int(t0 * sr); bar = (k // 4) % 4
+        # bumbo
+        m = int(.25 * sr); tt = np.arange(m) / sr
+        kick = np.sin(2 * np.pi * (50 + 90 * np.exp(-tt * 30)) * tt) * np.exp(-tt * 9) * .55
+        out[i0:i0 + m] += kick[:max(0, min(m, n - i0))]
+        # chimbal no contratempo
+        j0 = int((t0 + beat / 2) * sr); m2 = int(.05 * sr)
+        hat = np.random.default_rng(k).standard_normal(m2) * np.exp(-np.arange(m2) / sr * 90) * .06
+        out[j0:j0 + m2] += hat[:max(0, min(m2, n - j0))]
+        # baixo
+        m3 = int(beat * .9 * sr); tt = np.arange(m3) / sr
+        bs = np.sin(2 * np.pi * bass[bar] * tt) * np.exp(-tt * 3) * .22
+        out[i0:i0 + m3] += bs[:max(0, min(m3, n - i0))]
+        # acorde em pizzicato nos tempos 2 e 4
+        if k % 2 == 1:
+            m4 = int(.4 * sr); tt = np.arange(m4) / sr
+            ch = sum(np.sin(2 * np.pi * f * 2 * tt) for f in chords[bar]) * np.exp(-tt * 7) * .07
+            out[i0:i0 + m4] += ch[:max(0, min(m4, n - i0))]
+        k += 1
+    fade = np.minimum(1, np.minimum(t / .3, (dur - t) / .8)); return out * fade
+
+def mix_wav(path, dur, pops, sr=44100):
+    tmp = path + '.p.wav'; pops_wav(tmp, pops, dur, sr)
+    import wave as _w
+    with _w.open(tmp) as w: p = np.frombuffer(w.readframes(w.getnframes()), '<i2').astype(float) / 32767
+    os.remove(tmp)
+    m = music(dur, sr)[:len(p)]
+    a = np.clip(m * .8 + p * .9, -1, 1)
+    with _w.open(path, 'wb') as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((a * 32767).astype('<i2').tobytes())
+
 def tiktok(lang, out, preview=None):
     u, N = UI[lang], NAMES[lang]
     order = ['A', 'D', 'M', 'F']
-    T_TITLE, T0, STEP, T_SECRET, T_END, DUR = 0, 2.2, 1.25, 7.4, 9.4, 12.5
-    pos = {'A': (300, 760), 'D': (780, 760), 'M': (300, 1260), 'F': (780, 1260)}
+    T0, STEP, T_SECRET, T_END, DUR = 2.2, 1.25, 7.4, 9.4, 12.5
+    pos = {'A': (255, 690), 'D': (685, 690), 'M': (255, 1040), 'F': (685, 1040)}
     def frame(t):
         im = background(t); d = ImageDraw.Draw(im)
-        # título: entra e sobe pro topo
-        a = ease_out(t / .6); ty = 700 - 480 * ease_out((t - 1.4) / .7)
+        ty = 720 - 400 * ease_out((t - 1.4) / .7)
         if t < T_END:
-            text_c(d, ty, u['q'], F(BLACK, 92), (255, 255, 255), 14) if a > 0 else None
+            text_c(d, ty, u['q'], F(BLACK, 84), (255, 255, 255), 14, x=SAFE_X)
         for i, k in enumerate(order):
             ts = T0 + i * STEP
-            if T_TITLE <= t and t >= ts and t < T_END:
+            if ts <= t < T_END:
                 s = ease_back((t - ts) / .45); bob = math.sin((t - ts) * 3 + i) * 10
-                cx, cy = pos[k]; m = mascot(k, 340 * s)
-                paste_c(im, m, cx, cy + bob)
-                if t - ts > .25: text_c(d, cy + 190, N[k], F(BLACK, 50), (255, 255, 255), x=cx)
+                cx, cy = pos[k]; paste_c(im, mascot(k, 270 * s), cx, cy + bob)
+                if t - ts > .25: text_c(d, cy + 140, N[k], F(BLACK, 42), (255, 255, 255), x=cx)
         if T_SECRET <= t < T_END:
-            s = ease_back((t - T_SECRET) / .5)
-            m = mascot('S', 230 * s).copy()
-            if t - T_SECRET < 1.2:  # silhueta antes de revelar
+            s = ease_back((t - T_SECRET) / .5); m = mascot('S', 150 * s).copy()
+            if t - T_SECRET < 1.2:
                 al = m.split()[3]; sil = Image.new('RGBA', m.size, (60, 68, 92, 255)); sil.putalpha(al); m = sil
-            paste_c(im, m, W / 2, 1660)
-            text_c(d, 1800, u['secret'], F(BLACK, 46), (242, 178, 59))
+            paste_c(im, m, SAFE_X, 1270)
+            text_c(d, 1335, u['secret'], F(BLACK, 40), (242, 178, 59), x=SAFE_X)
         if t >= T_END:
             e = t - T_END
-            text_c(d, 260, u['cta'], F(BLACK, 120), (255, 255, 255))
-            row = [('A', 190, 820), ('D', 400, 760), ('S', 540, 980), ('M', 680, 760), ('F', 890, 820)]
+            text_c(d, 330, u['cta'], F(BLACK, 110), (255, 255, 255), x=SAFE_X)
+            row = [('A', 130, 720), ('D', 300, 660), ('S', SAFE_X, 860), ('M', 640, 660), ('F', 810, 720)]
             for i, (kk, x, y) in enumerate(row):
-                sz = 300 if kk == 'S' else 230
+                sz = 260 if kk == 'S' else 190
                 sc = ease_back((e - i * .08) / .45)
                 if sc > 0: paste_c(im, mascot(kk, sz * sc), x, y + math.sin(e * 3 + i) * 12)
-            text_c(d, 1330, 'whatsyourbubble.com', F(BLACK, 76), (124, 144, 255))
-            text_c(d, 1450, '8 perguntas · 1 minuto' if lang == 'pt' else ('8 questions · 1 minute' if lang == 'en' else '8道题 · 1分钟'), F(REG, 48), (201, 209, 230))
+            text_c(d, 1090, 'whatsyourbubble.com', F(BLACK, 64), (124, 144, 255), x=SAFE_X)
+            sub = {'pt': '8 perguntas · 1 minuto · link na bio', 'en': '8 questions · 1 minute · link in bio', 'zh': '8道题 · 1分钟 · 链接在主页'}[lang]
+            text_c(d, 1190, sub, F(REG, 42), (201, 209, 230), x=SAFE_X)
         return np.asarray(im)
     if preview: [still(frame, t, f'{out[:-4]}-{t}.png') for t in preview]; return
     v = out[:-4] + '.v.mp4'; encode(v, frame, int(DUR * FPS))
-    wav = out[:-4] + '.wav'; pops_wav(wav, [(T0 + i * STEP, 520 + i * 60) for i in range(4)] + [(T_SECRET, 700), (T_SECRET + 1.2, 900), (T_END, 600)], DUR)
+    wav = out[:-4] + '.wav'
+    mix_wav(wav, DUR, [(T0 + i * STEP, 520 + i * 60) for i in range(4)] + [(T_SECRET, 700), (T_SECRET + 1.2, 900), (T_END, 600)])
     mux(v, wav, out); os.remove(v); os.remove(wav)
 
 # ---------- Story animado por perfil ----------
