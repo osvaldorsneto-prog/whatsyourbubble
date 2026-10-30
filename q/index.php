@@ -271,6 +271,7 @@ setLang(lang);
 <script src="/ai/mix.js?v=10"></script>
 <script src="/ai/share.js?v=12"></script>
 <script src="/ai/track.js?v=13"></script>
+<script src="/ai/fun.js?v=2"></script>
 <script src="/q/extras.js?v=1"></script>
 </body>
 </html>
