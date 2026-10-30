@@ -54,7 +54,7 @@ h1 em{font-style:normal;color:var(--accent)}
 h2{font-family:var(--display);font-size:clamp(21px,5.6vw,25px);font-weight:800;margin:26px 0 10px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
 h2 small{font:600 14px var(--body);color:var(--muted)}
 .novos{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin-right:calc(-1 * max(16px,env(safe-area-inset-right,0px)));padding-bottom:4px}
-.novo{flex:0 0 min(78%,300px);scroll-snap-align:start;background:var(--c);color:#fff;border-radius:22px;padding:16px;display:flex;flex-direction:column;gap:6px;position:relative;min-height:210px}
+.novo{flex:0 0 min(78%,300px);scroll-snap-align:start;background:var(--bgc);color:#fff;border-radius:22px;padding:16px;display:flex;flex-direction:column;gap:6px;position:relative;min-height:210px}
 .novo .m{width:88px;height:88px;position:absolute;right:10px;top:10px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.2))}
 .pill{font:500 12px var(--mono);letter-spacing:.08em;background:rgba(255,255,255,.22);border-radius:6px;padding:3px 8px;align-self:flex-start}
 .novo b{font-family:var(--display);font-size:clamp(21px,5.6vw,24px);line-height:1.12;margin-top:auto;padding-right:4px}
@@ -114,6 +114,9 @@ const X={
   fine:'纯属娱乐，不是科学测试，也不保存你的任何数据。',
   cat:{role:'出去玩',trabalho:'工作',familia:'家庭',viagem:'旅行',comida:'美食',jogos:'游戏',pets:'宠物',celular:'手机',estudos:'学习',casa:'家居',esporte:'运动'}}};
 const CC={A:'var(--cA)',D:'var(--cD)',M:'var(--cM)',F:'var(--cF)'};
+// Fundo dos cartões: mesma família de cor, bem mais escura, pra bolha se destacar
+const BG={A:'linear-gradient(135deg,#141C5C 0%,#22328F 100%)',D:'linear-gradient(135deg,#5A1511 0%,#8E2A23 100%)',
+ M:'linear-gradient(135deg,#083D30 0%,#11654F 100%)',F:'linear-gradient(135deg,#523807 0%,#86600D 100%)'};
 const app=document.getElementById('app');
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 const num=n=>{if(n<1000)return String(n);const v=(n/1000).toFixed(n>=10000?0:1).replace(/\.0$/,'');
@@ -136,7 +139,7 @@ function render(){
  <section class="hero"><div class="row4">${'ADMF'.split('').map(k=>`<div>${mas(k)}</div>`).join('')}</div>
   <h1>${x.h1}</h1><p class="lead">${esc(x.lead)}</p></section>
  <h2>${x.novos}</h2>
- <div class="novos">${novos.map(q=>`<a class="novo" href="${esc(q.url)}" style="--c:${CC[q.mascote]}"><div class="m">${mas(q.mascote)}</div>
+ <div class="novos">${novos.map(q=>`<a class="novo" href="${esc(q.url)}" style="--c:${CC[q.mascote]};--bgc:${BG[q.mascote]}"><div class="m">${mas(q.mascote)}</div>
    ${q.criado_em===DATA.hoje?`<span class="pill">${x.hoje}</span>`:''}<b>${esc(titulo(q))}</b>
    <span class="meta">${x.meta}${q.jogaram>=20?' · '+x.jogaram.replace('{n}',num(q.jogaram)):''}</span></a>`).join('')}</div>
  ${feitos.length?`<h2>${x.suas} <small>${x.de.replace('{a}',feitos.length).replace('{b}',Q.length)}</small></h2>
