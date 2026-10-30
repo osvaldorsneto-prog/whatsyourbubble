@@ -269,7 +269,7 @@ setLang(lang);
 <script src="/ai/home.js?v=9"></script>
 <script src="/ai/reveal.js?v=7"></script>
 <script src="/ai/mix.js?v=10"></script>
-<script src="/ai/share.js?v=12"></script>
+<script src="/ai/share.js?v=13"></script>
 <script src="/ai/track.js?v=13"></script>
 <script src="/ai/fun.js?v=4"></script>
 <script src="/q/extras.js?v=1"></script>
