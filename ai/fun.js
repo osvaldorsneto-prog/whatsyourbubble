@@ -32,9 +32,15 @@
  .opts.done .opt:not(.picked){opacity:.45}
  .pop{position:fixed;width:14px;height:14px;border-radius:50%;pointer-events:none;z-index:60;animation:fun-pop .55s ease-out forwards}
  @keyframes fun-pop{to{transform:translate(var(--dx),var(--dy)) scale(.2);opacity:0}}
+ /* Fundo colorido em todas as telas do quiz: fica no <html> pra cobrir a tela inteira e ficar atrás das bolhas */
+ html:has(body.fun){min-height:100%;background:radial-gradient(circle at 15% 10%,#FFD1E8 0,transparent 40%),radial-gradient(circle at 90% 25%,#C9F1FF 0,transparent 42%),radial-gradient(circle at 30% 95%,#E4D6FF 0,transparent 45%),linear-gradient(160deg,#FFF0F7,#F1EBFF 55%,#E3F7FF);background-attachment:fixed}
+ @media (prefers-color-scheme:dark){html:has(body.fun){background:radial-gradient(circle at 15% 10%,#5B1D52 0,transparent 42%),radial-gradient(circle at 90% 25%,#123E63 0,transparent 42%),radial-gradient(circle at 30% 95%,#3A2577 0,transparent 45%),linear-gradient(160deg,#1E1238,#151A3D 55%,#0E2236);background-attachment:fixed}}
+ body.fun{background:transparent!important}
+ body.fun .cta{background:#2F4BE8!important;color:#fff!important;border:3px solid #141B2E!important;box-shadow:5px 5px 0 #FF5C8A}
+ body.fun .bub{border:3px solid #141B2E!important;box-shadow:5px 5px 0 #141B2E}
+ body.fun .fun-bg i{opacity:.3;border-width:3px}body.fun .fun-bg b{opacity:1}
+ body.fun .fun-bg i:nth-child(3n){border-color:#FF5C8A}body.fun .fun-bg i:nth-child(3n+1){border-color:#12B5CB}body.fun .fun-bg i:nth-child(3n+2){border-color:#8C6CF5}
  /* v2: mais cor, estilo anime/sticker (só durante as perguntas) */
- body.asking{background:radial-gradient(circle at 15% 10%,#FFD1E8 0,transparent 40%),radial-gradient(circle at 90% 25%,#C9F1FF 0,transparent 42%),radial-gradient(circle at 30% 95%,#E4D6FF 0,transparent 45%),linear-gradient(160deg,#FFF0F7,#F1EBFF 55%,#E3F7FF)!important;background-attachment:fixed!important}
- @media (prefers-color-scheme:dark){body.asking{background:radial-gradient(circle at 15% 10%,#5B1D52 0,transparent 42%),radial-gradient(circle at 90% 25%,#123E63 0,transparent 42%),radial-gradient(circle at 30% 95%,#3A2577 0,transparent 45%),linear-gradient(160deg,#1E1238,#151A3D 55%,#0E2236)!important;background-attachment:fixed!important}}
  body.asking .fun-bg i{opacity:.35;border-width:3px}
  body.asking .fun-bg i:nth-child(3n){border-color:#FF5C8A}body.asking .fun-bg i:nth-child(3n+1){border-color:#12B5CB}body.asking .fun-bg i:nth-child(3n+2){border-color:#8C6CF5}
  .fun-bg b{position:absolute;width:18px;height:18px;background:#FFC93C;clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);opacity:0;animation:fun-tw 3s ease-in-out infinite}
@@ -56,12 +62,8 @@
  body.asking .opt:active{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--pc)}
  body.asking .opt.picked{background:var(--pc)!important;color:#fff!important;text-shadow:0 1px 0 rgba(0,0,0,.25)}
  body.asking .opts.done .opt:not(.picked){opacity:.5}
- html:has(body.asking),html:has(body.result){background:#E3F7FF}
- @media (prefers-color-scheme:dark){html:has(body.asking),html:has(body.result){background:#0E2236}}
  /* v3: resultado no mesmo estilo (adesivos coloridos sobre fundo colorido, igual nos dois temas) */
- body.result{--surface:#fff;--ink:#141B2E;--muted:#4A5266;--line:#C9CFDB;--bg:#F1EEFA;--accent:#2F4BE8;--accent-ink:#fff;
-   background:radial-gradient(circle at 85% 8%,#FFD1E8 0,transparent 40%),radial-gradient(circle at 5% 35%,#C9F1FF 0,transparent 40%),radial-gradient(circle at 70% 95%,#E4D6FF 0,transparent 45%),linear-gradient(160deg,#FFF0F7,#F1EBFF 55%,#E3F7FF)!important;background-attachment:fixed!important}
- @media (prefers-color-scheme:dark){body.result{background:radial-gradient(circle at 85% 8%,#5B1D52 0,transparent 42%),radial-gradient(circle at 5% 35%,#123E63 0,transparent 42%),radial-gradient(circle at 70% 95%,#3A2577 0,transparent 45%),linear-gradient(160deg,#1E1238,#151A3D 55%,#0E2236)!important;background-attachment:fixed!important}
+ body.result{--surface:#fff;--ink:#141B2E;--muted:#4A5266;--line:#C9CFDB;--bg:#F1EEFA;--accent:#2F4BE8;--accent-ink:#fff;}
    body.result .top .brand{color:#fff}body.result .langs button{color:#C9D1E6;border-color:#4A4F7A}body.result .langs button[aria-pressed="true"]{background:#fff;color:#141B2E}}
  body.result .fun-bg i{opacity:.3;border-width:3px}body.result .fun-bg b{opacity:1}
  body.result #app > .card,body.result details.card{border:3px solid #141B2E!important;border-radius:22px!important;box-shadow:6px 6px 0 #141B2E;background:#fff;color:#141B2E}
@@ -94,6 +96,7 @@
  body.result .bars .fill{border:2px solid #141B2E}
  @media (prefers-reduced-motion:reduce){.asker .who,.asker .bubble,.fun-bg i,.fun-bg b,.asker .who::before,.res-card .badge::before{animation:none!important}}`;
  document.head.appendChild(st);
+ document.body.classList.add('fun');
  if(!reduce){const bg=document.createElement('div');bg.className='fun-bg';
   for(let n=0;n<9;n++){const i=document.createElement('i');const s=20+Math.random()*60;
    i.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;animation-duration:${14+Math.random()*14}s;animation-delay:${-Math.random()*20}s`;bg.appendChild(i);}
