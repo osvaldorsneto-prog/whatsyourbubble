@@ -35,7 +35,7 @@
   if(window.isSecret&&isSecret()){q.insertAdjacentHTML('afterend',`<p class="mixline">${esc(m.secret)}</p>`);return;}
   if(qq>0&&p-qq<=12) lines.push(fmt(esc(m.mixed),{p,a:b(nm(k1)),b:b(nm(k2)),q:qq}));
   else{lines.push(fmt(esc(m[p>=75?'pure':'strong']),{p,a:b(nm(k1))}));
-       if(qq>0) lines.push(fmt(esc(m.second),{b:b(nm(k2)),q:qq,s:esc(m.S[k2])}));}
+       if(qq>0) lines.push(fmt(esc(m.second),{b:b(nm(k2)),q:qq,s:esc(((L[lang]||{}).S2||m.S)[k2])}));}
   q.insertAdjacentHTML('afterend',lines.map(l=>`<p class="mixline">${l}</p>`).join(''));
  }
  new MutationObserver(add).observe(document.getElementById('app'),{childList:true,subtree:true});

@@ -25,7 +25,7 @@
   const btns=document.querySelector('.btns');if(!btns||document.querySelector('.nets')||!last)return;
   const x=X[lang]||X.en,u=U(),t=L[lang].T[last.k];
   const text=()=>fmt(u.shareText,{type:t[0],p:last.p})+' '+x.dare;
-  btns.insertAdjacentHTML('afterend',`<p class="story">${esc(x.story)}</p><a class="btn vid" href="story/${last.k.toLowerCase()}-${lang}.mp4" download="whatsyourbubble-${last.k.toLowerCase()}-${lang}.mp4">${esc(x.vid)}</a><p class="or">${esc(x.or)}</p>
+  btns.insertAdjacentHTML('afterend',`<p class="story">${esc(x.story)}</p>${window.NO_STORY?'':`<a class="btn vid" href="story/${last.k.toLowerCase()}-${lang}.mp4" download="whatsyourbubble-${last.k.toLowerCase()}-${lang}.mp4">${esc(x.vid)}</a>`}<p class="or">${esc(x.or)}</p>
    <div class="nets">${NET.map(([n,c])=>`<a class="net" data-n="${n}" href="#" target="_blank" rel="noopener"><i style="background:${c}"></i>${n}</a>`).join('')}</div>`);
   const nmEl=document.getElementById('nm');
   const upd=()=>{const url=shareUrl(last.k,(nmEl&&nmEl.value.trim())||'');

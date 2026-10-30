@@ -1,0 +1,70 @@
+{
+  "slug": "churrasco",
+  "criado_em": "2026-10-30",
+  "pt": {
+    "titulo": "Que bolha você é no churrasco?",
+    "lead": "Todo churrasco tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": ["O Arquiteto", "Você planeja o churrasco antes de acender o carvão.", "Pra você, churrasco bom começa na planilha. Você sabe quantos vão, quanto comprar e a que horas a carne sai. Por isso nunca falta nada quando você organiza.", "Fazer a conta certa de carne e gelo.", "Planejar tanto que a grelha acende tarde.", "Quantos confirmaram? Então são 6 quilos."],
+      "D": ["O Detetive", "Nenhuma carne sai da grelha sem inspeção.", "Você confere o ponto, a validade e até a conta do racha. Ninguém te engana com uma picanha passada. É graças a você que o churrasco não vira vexame.", "Pegar o problema antes de todo mundo.", "Cortar tanto a carne pra conferir que ela esfria.", "Tá no ponto mesmo? Deixa eu ver por dentro."],
+      "M": ["O Maestro", "Você rege a grelha, a playlist e o grupo ao mesmo tempo.", "Você cuida de tudo junto: carne, música, gelo e quem chega. Enquanto os outros fazem uma coisa, você mantém a festa inteira rodando.", "Fazer tudo acontecer ao mesmo tempo.", "Abrir mil frentes e esquecer a linguiça.", "Alguém troca a música? Já solto a próxima leva."],
+      "F": ["O Finalizador", "Carne pronta é melhor que carne perfeita.", "Você não fica esperando o ponto ideal nem o carvão perfeito. Põe na grelha, serve e todo mundo come. Enquanto discutem a receita, você já encheu os pratos.", "Fazer o churrasco acontecer de verdade.", "Servir um pouco antes do ponto.", "Tá bom assim. Serve!"],
+      "S": ["A Bolha Secreta", "Você não cabe numa bolha só.", "Você muda de papel conforme o churrasco pede: planeja quando precisa, confere quando vale a pena, cuida de tudo quando a festa enche e serve quando é hora.", "Ser o que o churrasco precisa naquele momento.", "Ninguém saber em que função te colocar.", "Depende. Me diz o que tá faltando."]
+    },
+    "S2": {"A": "você ainda gosta de tudo planejado.", "D": "você não deixa nada passar sem conferir.", "M": "você cuida de mil coisas ao mesmo tempo.", "F": "na hora certa, você para de falar e serve."},
+    "Q": [
+      ["Alguém sugere um churrasco no sábado. Primeira reação?", {"A": "Já abro uma lista de quem vai e do que comprar", "D": "Pergunto quem vai mesmo, porque sempre alguém fura", "M": "Crio o grupo, chamo todo mundo e penso na playlist", "F": "Falo \"fechou\" e apareço com a carne"}],
+      ["Na hora de comprar a carne, você...", {"A": "Calcula quanto dá por pessoa e anota tudo", "D": "Confere data, cor e preço de cada peça", "M": "Divide: um compra carne, outro bebida, outro carvão", "F": "Pega o que estiver em promoção e pronto"}],
+      ["O carvão não pega de jeito nenhum. Você...", {"A": "Remonta tudo do jeito certo, do zero", "D": "Quer descobrir o motivo: será que o carvão tá úmido?", "M": "Pede ajuda a alguém e enquanto isso organiza o resto", "F": "Abana com a tampa do isopor até pegar"}],
+      ["Seu papel no churrasco é...", {"A": "Quem fez o cronograma", "D": "Quem testa o ponto de cada carne", "M": "Quem cuida da grelha, da música e do gelo", "F": "Quem garante que todo mundo comeu"}],
+      ["Alguém diz \"essa picanha tá no ponto\". Você pensa:", {"A": "\"Claro, eu calculei o tempo\"", "D": "\"Deixa eu cortar e ver por dentro\"", "M": "\"Ótimo, já vou soltando a próxima leva\"", "F": "\"Então serve logo\""}],
+      ["Começa a chover. Você...", {"A": "Já tinha um plano B com a lona", "D": "Olha o radar pra ver se vai passar", "M": "Leva todo mundo pra área coberta", "F": "Põe um guarda-chuva na grelha e segue"}],
+      ["Seu maior defeito no churrasco:", {"A": "Planejo tanto que a gente começa tarde", "D": "Confiro tanto que a carne esfria", "M": "Faço mil coisas e esqueço alguma na grelha", "F": "Sirvo antes do ponto ideal"}],
+      ["Fim do churrasco. Você...", {"A": "Anota o que sobrou pra acertar da próxima vez", "D": "Confere se a conta do racha fechou certinho", "M": "Já marca a data do próximo", "F": "Leva o que sobrou pra casa e pronto"}]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at a barbecue?",
+    "lead": "Every barbecue has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": ["The Architect", "You plan the barbecue before lighting the grill.", "For you, a good barbecue starts with a list. You know who's coming, how much to buy and when the meat comes off. That's why nothing ever runs out when you're in charge.", "Getting the amount of food and ice just right.", "Planning so long the grill gets lit late.", "How many said yes? Then it's six kilos."],
+      "D": ["The Detective", "No steak leaves the grill without inspection.", "You check the doneness, the use-by date and even the bill split. Nobody fools you with an overcooked steak. You're the reason the barbecue doesn't turn into a disaster.", "Spotting the problem before anyone else.", "Cutting the meat open so often it goes cold.", "Is it really done? Let me look inside."],
+      "M": ["The Maestro", "You run the grill, the playlist and the group at once.", "You handle it all together: food, music, ice and whoever just arrived. While others do one thing, you keep the whole party going.", "Making everything happen at the same time.", "Starting too many things and forgetting the sausages.", "Can someone change the song? Next batch is going on."],
+      "F": ["The Finisher", "Cooked beats perfect.", "You don't wait for the perfect doneness or the perfect coals. On the grill, onto the plates, everyone eats. While others debate the recipe, you've already fed the crowd.", "Actually getting the food served.", "Serving a little before it's ready.", "Good enough. Let's eat!"],
+      "S": ["The Secret Bubble", "You don't fit in just one bubble.", "You switch roles as the barbecue needs: you plan when it matters, check when it's worth it, juggle everything when the party fills up and serve when it's time.", "Being whatever the barbecue needs right now.", "Nobody knowing which job to give you.", "Depends. Tell me what's missing."]
+    },
+    "S2": {"A": "you still like everything planned.", "D": "you don't let anything slip past unchecked.", "M": "you juggle a thousand things at once.", "F": "when it counts, you stop talking and serve."},
+    "Q": [
+      ["Someone suggests a barbecue on Saturday. First reaction?", {"A": "I start a list of who's coming and what to buy", "D": "I ask who's really coming, because someone always drops out", "M": "I make the group chat, invite everyone and think about music", "F": "I say \"deal\" and turn up with the meat"}],
+      ["When buying the meat, you...", {"A": "Work out how much per person and write it all down", "D": "Check the date, colour and price of every cut", "M": "Split it up: one buys meat, one drinks, one charcoal", "F": "Grab whatever's on offer and go"}],
+      ["The charcoal just won't light. You...", {"A": "Rebuild it properly, from scratch", "D": "Want to know why: is the charcoal damp?", "M": "Get someone to help while you sort out everything else", "F": "Fan it with the cooler lid until it catches"}],
+      ["Your role at the barbecue is...", {"A": "The one who made the schedule", "D": "The one who tests every steak", "M": "The one handling the grill, the music and the ice", "F": "The one making sure everyone has eaten"}],
+      ["Someone says \"this steak is perfect\". You think:", {"A": "\"Of course, I timed it\"", "D": "\"Let me cut it and check inside\"", "M": "\"Great, next batch going on\"", "F": "\"Then serve it already\""}],
+      ["It starts to rain. You...", {"A": "Already had a plan B with a tarp", "D": "Check the radar to see if it'll pass", "M": "Move everyone under cover", "F": "Put an umbrella over the grill and carry on"}],
+      ["Your biggest flaw at a barbecue:", {"A": "I plan so much we start late", "D": "I check so much the meat goes cold", "M": "I do a hundred things and forget something on the grill", "F": "I serve before it's quite ready"}],
+      ["The barbecue's over. You...", {"A": "Note what was left over to get it right next time", "D": "Check the bill split added up exactly", "M": "Already set a date for the next one", "F": "Take the leftovers home and that's that"}]
+    ]
+  },
+  "zh": {
+    "titulo": "烧烤时你是哪个泡泡？",
+    "lead": "每次烧烤都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": ["建筑师", "还没点炭，你就已经把烧烤规划好了。", "对你来说，好的烧烤从清单开始。你知道谁会来、买多少、几点开吃。所以只要你来组织，什么都不会缺。", "把食物和冰块的量算得刚刚好。", "规划太久，炭点得太晚。", "几个人确定来？那就买六公斤。"],
+      "D": ["侦探", "没有一块肉能逃过你的检查就离开烤架。", "你会检查熟度、保质期，甚至AA账单。谁也别想用烤过头的牛排糊弄你。正因为有你，烧烤才不会翻车。", "比别人先发现问题。", "切开检查太多次，肉都凉了。", "真的熟了吗？让我切开看看。"],
+      "M": ["指挥家", "你同时指挥烤架、歌单和整个群。", "你什么都一起管：吃的、音乐、冰块，还有刚到的朋友。别人只做一件事，你让整场聚会都转起来。", "让所有事同时进行。", "开的头太多，忘了烤肠。", "谁换首歌？下一批马上上架。"],
+      "F": ["终结者", "烤熟胜过烤得完美。", "你不等完美的熟度，也不等完美的炭火。上架、装盘、大家开吃。别人还在讨论做法，你已经喂饱了所有人。", "真正把东西端上桌。", "还没完全熟就上桌。", "差不多了，开吃！"],
+      "S": ["秘密泡泡", "一个泡泡装不下你。", "你根据烧烤的需要切换角色：该规划时规划，该检查时检查，人多时什么都管，该开吃时就上菜。", "成为此刻烧烤最需要的人。", "别人不知道该给你分配什么活。", "看情况。告诉我还缺什么。"]
+    },
+    "S2": {"A": "你还是喜欢一切都有计划。", "D": "你不会让任何东西不经检查就过关。", "M": "你能同时照顾一千件事。", "F": "关键时刻，你少说话直接上菜。"},
+    "Q": [
+      ["有人提议周六烧烤。你的第一反应？", {"A": "马上列出谁来、要买什么", "D": "先问到底谁会来，总有人放鸽子", "M": "建群、拉人，顺便想想歌单", "F": "说一句“行”，然后带着肉出现"}],
+      ["买肉的时候，你会……", {"A": "算好每人多少，全部记下来", "D": "检查每块肉的日期、颜色和价格", "M": "分工：一个买肉，一个买饮料，一个买炭", "F": "拿打折的，结账走人"}],
+      ["炭怎么都点不着。你……", {"A": "从头按正确方法重新堆好", "D": "想知道原因：是不是炭受潮了？", "M": "叫人来帮忙，同时安排别的事", "F": "拿保温箱盖子扇到着为止"}],
+      ["你在烧烤中的角色是……", {"A": "做时间表的那个人", "D": "检查每块肉熟度的那个人", "M": "同时管烤架、音乐和冰块的那个人", "F": "确保每个人都吃上的那个人"}],
+      ["有人说“这块牛排烤得正好”。你心想：", {"A": "“当然，我算过时间”", "D": "“让我切开看看里面”", "M": "“好，下一批马上上”", "F": "“那就赶紧端上来”"}],
+      ["开始下雨了。你……", {"A": "早就准备了防水布当B计划", "D": "看雷达图，看雨会不会停", "M": "把大家都带到有遮挡的地方", "F": "给烤架撑把伞，继续烤"}],
+      ["你烧烤时最大的毛病：", {"A": "规划太多，开始得太晚", "D": "检查太多，肉都凉了", "M": "同时做太多事，忘了烤架上的东西", "F": "还没到最佳熟度就上桌"}],
+      ["烧烤结束了。你……", {"A": "记下剩了什么，下次更准", "D": "核对AA账单有没有算对", "M": "马上约好下一次的日期", "F": "把剩下的带回家，完事"}]
+    ]
+  }
+}

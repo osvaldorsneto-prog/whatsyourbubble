@@ -1,0 +1,16 @@
+name: Validar quizzes
+
+# Confere formato e regras de conteúdo de todo quiz novo ou alterado.
+on:
+  push:
+    paths: ["quizzes/**", "scripts/validar_quiz.py"]
+  pull_request:
+    paths: ["quizzes/**", "scripts/validar_quiz.py"]
+  workflow_dispatch:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 scripts/validar_quiz.py

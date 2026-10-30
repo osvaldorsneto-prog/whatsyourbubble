@@ -1,7 +1,7 @@
 // Contagem anônima (sem cookies, sem IP): manda só o nome do evento pro servidor
 (function(){
- const ping=(e,extra)=>{try{const q=new URLSearchParams({e,...(extra||{})});
-   const u='count.php?'+q;navigator.sendBeacon?navigator.sendBeacon(u):fetch(u,{keepalive:true});}catch(_){}};
+ const ping=(e,extra)=>{try{const q=new URLSearchParams({e,...(extra||{})});if(window.QUIZ_ID)q.set('q',window.QUIZ_ID);
+   const u=(window.COUNT_URL||'count.php')+'?'+q;navigator.sendBeacon?navigator.sendBeacon(u):fetch(u,{keepalive:true});}catch(_){}};
  ping('view');if(friend)ping('friend');
  let done=false;
  document.addEventListener('click',ev=>{
