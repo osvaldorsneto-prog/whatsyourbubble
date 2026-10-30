@@ -14,3 +14,4 @@ Observações:
 - Arquivos de texto pequenos podem ir direto com `Fileman/save_file_content`.
 - Os vídeos de `ai/story/` são gerados por `video/render.py stories`; o vídeo do TikTok por `video/render.py tiktok pt en zh`.
 - Versões de cache dos scripts ficam nas tags `?v=` dentro de `ai/index.html`.
+- `data/painel.json` é atualizado sozinho a cada 3 h pelo workflow `.github/workflows/painel-snapshot.yml` (lê o painel e salva os números). Não precisa publicar: `data/` e `scripts/` não vão pro site.
