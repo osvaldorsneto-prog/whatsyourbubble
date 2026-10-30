@@ -17,6 +17,11 @@ if ($fh && flock($fh, LOCK_EX)) {
   $d[$day][$e] = ($d[$day][$e] ?? 0) + 1;
   if ($e === 'finish' && preg_match('/^[ADMFS]$/', $k)) $d[$day]['p_'.$k] = ($d[$day]['p_'.$k] ?? 0) + 1;
   if ($e === 'start' && in_array($l, ['pt','en','zh'], true)) $d[$day]['l_'.$l] = ($d[$day]['l_'.$l] ?? 0) + 1;
+  // por quiz: só view/start/finish, e só de quizzes que o motor já carregou (evita lixo no arquivo)
+  $q = $_GET['q'] ?? '';
+  if ($q === '') $q = 'ia';
+  elseif (!preg_match('/^[a-z0-9]+(-[a-z0-9]+)*$/', $q) || strlen($q) > 40 || !is_file(dirname($_SERVER['DOCUMENT_ROOT']).'/wyb-cache/'.$q.'.json')) $q = '';
+  if ($q !== '' && in_array($e, ['view','start','finish'], true)) $d[$day]["q:$q:$e"] = ($d[$day]["q:$q:$e"] ?? 0) + 1;
   ftruncate($fh, 0); rewind($fh); fwrite($fh, json_encode($d));
   fflush($fh); flock($fh, LOCK_UN);
 }

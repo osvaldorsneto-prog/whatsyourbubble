@@ -34,6 +34,10 @@ table{border-collapse:collapse;width:100%;font-size:17px;font-variant-numeric:ta
 <?php foreach (['share'=>'Botão Compartilhar','copy'=>'Copiar link','dl'=>'Baixar selo','vid'=>'Story animado','net_WhatsApp'=>'WhatsApp','net_Facebook'=>'Facebook','net_X'=>'X','net_Telegram'=>'Telegram','net_LinkedIn'=>'LinkedIn'] as $k=>$n): ?>
 <tr><td><?= $n ?></td><td><?= $g($tot,$k) ?></td></tr><?php endforeach ?></table></div>
 <h2>Idiomas</h2><div class="k"><?php foreach (['pt'=>'Português','en'=>'English','zh'=>'中文'] as $k=>$n): ?><div class="c"><b><?= $g($tot,'l_'.$k) ?></b><span><?= $n ?></span></div><?php endforeach ?></div>
+<?php $qz = []; foreach ($tot as $key => $v) if (preg_match('/^q:([a-z0-9-]+):(view|start|finish)$/', $key, $m)) $qz[$m[1]][$m[2]] = $v;
+uasort($qz, fn($a, $b) => ($b['view'] ?? 0) <=> ($a['view'] ?? 0)); ?>
+<?php if ($qz): ?><h2>Por quiz</h2><div class="w"><table><tr><th>Quiz</th><th>Visitas</th><th>Começaram</th><th>Terminaram</th></tr>
+<?php foreach ($qz as $name=>$r): ?><tr><td><?= htmlspecialchars($name) ?></td><td><?= $g($r,'view') ?></td><td><?= $g($r,'start') ?></td><td><?= $g($r,'finish') ?></td></tr><?php endforeach ?></table></div><?php endif ?>
 <h2>Por dia</h2><div class="w"><table><tr><th>Dia</th><th>Visitas</th><th>Começaram</th><th>Terminaram</th><th>Amigo</th></tr>
 <?php foreach ($d as $day=>$r): ?><tr><td><?= htmlspecialchars($day) ?></td><td><?= $g($r,'view') ?></td><td><?= $g($r,'start') ?></td><td><?= $g($r,'finish') ?></td><td><?= $g($r,'friend') ?></td></tr><?php endforeach ?></table></div>
 </body></html>

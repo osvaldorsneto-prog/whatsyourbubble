@@ -101,6 +101,7 @@ def parse(html):
         "perfis": cartoes("Perfis"),
         "compartilhamento": {r["Canal"]: r["Toques"] for r in tabela("Compartilhamento")},
         "idiomas": cartoes("Idiomas"),
+        "por_quiz": tabela("Por quiz"),
         "por_dia": tabela("Por dia"),
     }
 
