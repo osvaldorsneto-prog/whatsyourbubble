@@ -3,9 +3,9 @@ name: Validar quizzes
 # Confere formato e regras de conteúdo de todo quiz novo ou alterado.
 on:
   push:
-    paths: ["quizzes/**", "scripts/validar_quiz.py"]
+    paths: ["quizzes/**", "scripts/validar_quiz.py", "scripts/indice_quizzes.py"]
   pull_request:
-    paths: ["quizzes/**", "scripts/validar_quiz.py"]
+    paths: ["quizzes/**", "scripts/validar_quiz.py", "scripts/indice_quizzes.py"]
   workflow_dispatch:
 
 jobs:
@@ -14,3 +14,4 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: python3 scripts/validar_quiz.py
+      - run: python3 scripts/indice_quizzes.py --conferir

@@ -13,6 +13,9 @@ Valem pra todo quiz novo, feito à mão ou pela tarefa automática. Os quizzes e
 ## Formato (`quizzes/<slug>.json`)
 
 - `slug`: minúsculas, números e hífen (ex.: `churrasco`, `grupo-da-familia`). O arquivo tem o mesmo nome.
+- `criado_em`: data de criação (AAAA-MM-DD).
+- `categoria`: uma de `role`, `trabalho`, `familia`, `viagem`, `comida`, `jogos`, `pets`, `celular`, `estudos`, `casa`, `esporte`.
+- `mascote`: `A`, `D`, `M` ou `F`, o mascote que aparece no cartão da vitrine (variar entre os quizzes do dia).
 - Três idiomas: `pt`, `en`, `zh`, cada um com:
   - `titulo` (até 60 caracteres) e `lead` (uma frase convidando).
   - `T`: os 5 perfis `A`, `D`, `M`, `F`, `S`, cada um com 6 textos, nesta ordem: nome (fixo), frase curta (até 70 caracteres), descrição, superpoder, cuidado com, bordão.
@@ -25,4 +28,4 @@ Valem pra todo quiz novo, feito à mão ou pela tarefa automática. Os quizzes e
   - **Finalizador:** resolve e entrega.
   - **Bolha Secreta:** se adapta a cada situação.
 
-Antes de subir: `python scripts/validar_quiz.py quizzes/<slug>.json`. Depois do commit, o quiz fica em `https://whatsyourbubble.com/q/?s=<slug>`.
+Antes de subir: `python scripts/validar_quiz.py quizzes/<slug>.json` e `python scripts/indice_quizzes.py` (atualiza a lista da vitrine). Depois do commit, o quiz fica em `https://whatsyourbubble.com/q/?s=<slug>`.

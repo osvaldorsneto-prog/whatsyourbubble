@@ -1,0 +1,28 @@
+{
+ "quizzes": [
+  {
+   "slug": "churrasco",
+   "url": "/q/?s=churrasco",
+   "criado_em": "2026-10-30",
+   "categoria": "comida",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é no churrasco?",
+    "en": "What's your bubble at a barbecue?",
+    "zh": "烧烤时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "ia",
+   "url": "/ai/",
+   "criado_em": "2026-10-29",
+   "categoria": "celular",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que tipo de usuário de IA é você?",
+    "en": "What kind of AI user are you?",
+    "zh": "你是哪种AI用户？"
+   }
+  }
+ ]
+}

@@ -2,44 +2,15 @@
 // Motor dos quizzes temáticos: /q/?s=<slug> carrega quizzes/<slug>.json do GitHub.
 // Guarda uma cópia por 10 min fora da pasta pública, pra não depender do GitHub a cada visita.
 header('Cache-Control: no-cache');
-$slug = strtolower($_GET['s'] ?? '');
-if (!preg_match('/^[a-z0-9]+(-[a-z0-9]+)*$/', $slug) || strlen($slug) > 40) $slug = '';
-function wyb_fetch($url) {
-  if (function_exists('curl_init')) {
-    $c = curl_init($url);
-    curl_setopt_array($c, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 6, CURLOPT_FOLLOWLOCATION => true, CURLOPT_USERAGENT => 'whatsyourbubble']);
-    $b = curl_exec($c); $code = curl_getinfo($c, CURLINFO_HTTP_CODE); curl_close($c);
-    return ($b !== false && $code == 200) ? $b : false;
-  }
-  return @file_get_contents($url, false, stream_context_create(['http' => ['timeout' => 6]]));
-}
-function wyb_ok($q) {
-  if (!is_array($q)) return false;
-  foreach (['pt', 'en', 'zh'] as $l) {
-    if (empty($q[$l]['titulo']) || count($q[$l]['Q'] ?? []) !== 8) return false;
-    foreach (['A', 'D', 'M', 'F', 'S'] as $k) if (count($q[$l]['T'][$k] ?? []) !== 6) return false;
-  }
-  return true;
-}
-$quiz = null;
-if ($slug !== '') {
-  $dir = dirname($_SERVER['DOCUMENT_ROOT']) . '/wyb-cache';
-  if (!is_dir($dir)) @mkdir($dir, 0755);
-  $file = "$dir/$slug.json";
-  $fresh = is_file($file) && time() - filemtime($file) < 600;
-  if ($fresh) $quiz = json_decode(file_get_contents($file), true);
-  if (!wyb_ok($quiz)) {
-    $raw = wyb_fetch("https://raw.githubusercontent.com/osvaldorsneto-prog/whatsyourbubble/main/quizzes/$slug.json");
-    $new = $raw ? json_decode($raw, true) : null;
-    if (wyb_ok($new)) { $quiz = $new; @file_put_contents($file, $raw); }
-    elseif (is_file($file)) { $quiz = json_decode(file_get_contents($file), true); @touch($file); }
-  }
-}
-if (!wyb_ok($quiz)) {
+require __DIR__ . '/lib.php';
+$slug = wyb_slug($_GET['s'] ?? '');
+if ($slug === '') { require __DIR__ . '/vitrine.php'; exit; }
+$quiz = wyb_json("quizzes/$slug.json", $slug, 'wyb_quiz_ok');
+if (!$quiz) {
   http_response_code(404);
   echo '<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>What\'s your bubble?</title>'
      . '<body style="font:20px system-ui;padding:24px;background:#0F1422;color:#E8ECF5"><p>Esse quiz não existe (ainda). · This quiz doesn\'t exist (yet).</p>'
-     . '<p><a style="color:#7C90FF" href="/">whatsyourbubble.com</a></p></body>';
+     . '<p><a style="color:#7C90FF" href="/q/">whatsyourbubble.com</a></p></body>';
   exit;
 }
 $h = fn($s) => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
@@ -146,7 +117,7 @@ details summary{cursor:pointer;font-weight:700;min-height:48px;display:flex;alig
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="/">whatsyour<b>bubble</b></a>
+  <a class="brand" href="/q/">whatsyour<b>bubble</b></a>
   <div class="langs" id="langs">
     <button data-l="pt">PT</button><button data-l="en">EN</button><button data-l="zh">中文</button>
   </div>
@@ -300,5 +271,6 @@ setLang(lang);
 <script src="/ai/mix.js?v=10"></script>
 <script src="/ai/share.js?v=12"></script>
 <script src="/ai/track.js?v=13"></script>
+<script src="/q/extras.js?v=1"></script>
 </body>
 </html>
