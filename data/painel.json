@@ -1,18 +1,18 @@
 {
   "fonte": "https://whatsyourbubble.com/ai/painel-7q3x.php",
-  "atualizado_em": "2026-10-30T10:07:52Z",
+  "atualizado_em": "2026-10-30T12:48:57Z",
   "resumo": {
-    "visitas": 21,
-    "começaram": 2,
-    "terminaram": 2,
+    "visitas": 45,
+    "começaram": 17,
+    "terminaram": 13,
     "ações de compartilhar": 1,
-    "chegaram por link de amigo": 2
+    "chegaram por link de amigo": 3
   },
   "perfis": {
-    "Arquiteto": 0,
-    "Detetive": 1,
-    "Maestro": 1,
-    "Finalizador": 0,
+    "Arquiteto": 1,
+    "Detetive": 5,
+    "Maestro": 5,
+    "Finalizador": 2,
     "Secreta": 0
   },
   "compartilhamento": {
@@ -27,17 +27,31 @@
     "LinkedIn": 0
   },
   "idiomas": {
-    "Português": 2,
+    "Português": 17,
     "English": 0,
     "中文": 0
   },
+  "por_quiz": [
+    {
+      "Quiz": "churrasco",
+      "Visitas": 12,
+      "Começaram": 8,
+      "Terminaram": 5
+    },
+    {
+      "Quiz": "ia",
+      "Visitas": 10,
+      "Começaram": 7,
+      "Terminaram": 6
+    }
+  ],
   "por_dia": [
     {
       "Dia": "2026-10-30",
-      "Visitas": 13,
-      "Começaram": 0,
-      "Terminaram": 0,
-      "Amigo": 0
+      "Visitas": 37,
+      "Começaram": 15,
+      "Terminaram": 11,
+      "Amigo": 1
     },
     {
       "Dia": "2026-10-29",
