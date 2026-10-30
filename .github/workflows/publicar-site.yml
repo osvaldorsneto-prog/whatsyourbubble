@@ -1,0 +1,70 @@
+name: Publicar site
+
+# Publica no whatsyourbubble.com, por FTP seguro, o que mudar em index.html, ai/ ou q/
+# depois de um merge no main. Os quizzes (quizzes/*.json) não precisam disso: o site
+# busca direto do GitHub.
+#
+# Segredos do repositório (Settings → Secrets and variables → Actions):
+#   FTP_SERVER    endereço do servidor FTP (ex.: ftp.whatsyourbubble.com)
+#   FTP_USERNAME  usuário da conta de FTP exclusiva do site
+#   FTP_PASSWORD  senha dessa conta
+# Variável opcional (aba Variables):
+#   FTP_DIR       pasta do site dentro da conta de FTP; padrão "./" (conta já aponta pra public_html)
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "ai/**", "q/**"]
+  workflow_dispatch:
+
+concurrency:
+  group: publicar-site
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conferir se os segredos existem
+        id: cfg
+        env:
+          S: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          if [ -z "$S" ] || [ -z "$U" ] || [ -z "$P" ]; then
+            echo "::notice::Segredos de FTP ainda não configurados; nada foi publicado."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v5
+        if: steps.cfg.outputs.ok == 'true'
+      - name: Separar só os arquivos do site
+        if: steps.cfg.outputs.ok == 'true'
+        run: |
+          mkdir _site
+          cp index.html _site/
+          cp -r ai q _site/
+          find _site -name '__pycache__' -prune -exec rm -rf {} +
+      - name: Enviar por FTP seguro (só o que mudou)
+        if: steps.cfg.outputs.ok == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./_site/
+          server-dir: ${{ vars.FTP_DIR || './' }}
+          state-name: .wyb-publicacao.json
+      - name: Conferir o site no ar
+        if: steps.cfg.outputs.ok == 'true'
+        run: |
+          sleep 5
+          falhou=0
+          for u in "/" "/q/" "/ai/" "/q/?s=churrasco"; do
+            c=$(curl -s -o /dev/null -w '%{http_code}' -L "https://whatsyourbubble.com$u")
+            echo "$u -> $c"
+            [ "$c" = "200" ] || falhou=1
+          done
+          exit $falhou

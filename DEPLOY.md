@@ -1,5 +1,9 @@
 # Publicar o whatsyourbubble.com
 
+**Automático:** depois que os segredos de FTP estiverem no GitHub, todo merge no `main` que mude `index.html`, `ai/` ou `q/` é publicado sozinho pelo workflow `.github/workflows/publicar-site.yml` (FTP seguro, só os arquivos que mudaram, e no fim confere se as páginas abrem). Dá pra rodar à mão em Actions → "Publicar site" → Run workflow. Enquanto os segredos não existirem, o workflow não faz nada.
+
+O passo a passo manual abaixo continua valendo como plano B.
+
 Fluxo: **repositório GitHub → aba do cPanel (Freeola) → public_html**. Ninguém precisa arrastar arquivo.
 
 1. Commit e `git push` em `main` deste repositório (`osvaldorsneto-prog/whatsyourbubble`).
