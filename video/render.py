@@ -170,8 +170,7 @@ def tiktok(lang, out, preview=None):
         im = E.background(t); d = ImageDraw.Draw(im)
         ty = 720 - 520 * ease_out((t - 1.4) / .7)
         if t < T_END:
-            sc = ease_back(t / .5)
-            if sc > .1: E.title_text(d, (SAFE_X, ty), u["q"], F(BLACK, max(8, int(84 * min(1, sc)))), sw=10)
+            E.title_text(d, (SAFE_X, ty), u["q"], F(BLACK, 84), sw=10)   # título já no 1º quadro
         for i, k in enumerate(order):
             ts = T0 + i * STEP
             if ts <= t < T_END:
@@ -263,10 +262,10 @@ def quiz(slug, lang, out, preview=None):
     def frame(t):
         im = E.background(t); d = ImageDraw.Draw(im)
         if t < T1:                                     # 1. título do quiz
-            st = E.scaled(titulo, ease_back(t / .5), -2)
+            st = E.scaled(titulo, .9 + .1 * ease_back(t / .3), -2)   # título já no 1º quadro
             if st: paste_c(im, st, SAFE_X, 640)
             for i, k in enumerate('ADMF'):
-                s = ease_back((t - .5 - i * .12) / .4)
+                s = ease_back((t - .15 - i * .1) / .35)
                 if s > 0: paste_c(im, mascot(k, 170 * s), 140 + i * 220, 1060 + math.sin(t * 4 + i) * 12)
         elif t < T2:                                   # 2. o mascote faz a pergunta 1
             e = t - T1
