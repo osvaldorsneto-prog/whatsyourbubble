@@ -2,6 +2,7 @@
 import io, re, math, os, subprocess, sys, wave, struct, random
 import numpy as np, cairosvg
 from PIL import Image, ImageDraw, ImageFont
+import estilo as E
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, '..', 'ai')
@@ -143,39 +144,60 @@ def mix_wav(path, dur, pops, sr=44100):
     with _w.open(path, 'wb') as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((a * 32767).astype('<i2').tobytes())
 
+def _mascot_rays(im, k, size, cx, cy, t, s=1.0):
+    """Mascote com raios girando atrás (estilo do site)."""
+    if s <= 0.01: return
+    r = E.rays(int(size * 1.55 * s), COL['A' if k == 'S' else k] if k != 'S' else E.GOLD, t)
+    paste_c(im, r, cx, cy)
+    paste_c(im, mascot(k, size * s), cx, cy)
+
+def _name_tag(im, txt, cx, y, font, shadow, s=1.0):
+    st = E.sticker_text(txt, font, wrap, 600, shadow=shadow, pad=(30, 14))
+    st = E.scaled(st, s)
+    if st: im.paste(st, (int(cx - st.width / 2), int(y)), st)
+
+SNAME = {'pt': 'A Bolha Secreta', 'en': 'The Secret Bubble', 'zh': '秘密泡泡'}
+DARK_S = ((28, 42, 140), (126, 30, 25))
+
 def tiktok(lang, out, preview=None):
     u, N = UI[lang], NAMES[lang]
     order = ['A', 'D', 'M', 'F']
     T0, STEP, T_SECRET, T_END, DUR = 2.2, 1.25, 7.4, 9.4, 12.5
-    pos = {'A': (255, 690), 'D': (685, 690), 'M': (255, 1040), 'F': (685, 1040)}
+    pos = {'A': (255, 760), 'D': (685, 760), 'M': (255, 1120), 'F': (685, 1120)}
+    sec = E.sticker_text(u['secret'], F(BLACK, 40), wrap, 760, fill=E.GOLD, shadow=E.INK, pad=(30, 14))
+    url = E.sticker_text('whatsyourbubble.com', F(BLACK, 58), wrap, 900, fill=E.WHITE, shadow=E.PINK, pad=(40, 22))
     def frame(t):
-        im = background(t); d = ImageDraw.Draw(im)
-        ty = 720 - 400 * ease_out((t - 1.4) / .7)
+        im = E.background(t); d = ImageDraw.Draw(im)
+        ty = 720 - 520 * ease_out((t - 1.4) / .7)
         if t < T_END:
-            text_c(d, ty, u['q'], F(BLACK, 84), (255, 255, 255), 14, x=SAFE_X)
+            sc = ease_back(t / .5)
+            if sc > .1: E.title_text(d, (SAFE_X, ty), u["q"], F(BLACK, max(8, int(84 * min(1, sc)))), sw=10)
         for i, k in enumerate(order):
             ts = T0 + i * STEP
             if ts <= t < T_END:
                 s = ease_back((t - ts) / .45); bob = math.sin((t - ts) * 3 + i) * 10
-                cx, cy = pos[k]; paste_c(im, mascot(k, 270 * s), cx, cy + bob)
-                if t - ts > .25: text_c(d, cy + 140, N[k], F(BLACK, 42), (255, 255, 255), x=cx)
+                cx, cy = pos[k]; _mascot_rays(im, k, 250, cx, cy + bob, t, s)
+                if t - ts > .25: _name_tag(im, N[k], cx, cy + 150, F(BLACK, 38), POS_OF[k], ease_back((t - ts - .25) / .3))
         if T_SECRET <= t < T_END:
             s = ease_back((t - T_SECRET) / .5); m = mascot('S', 150 * s).copy()
             if t - T_SECRET < 1.2:
                 al = m.split()[3]; sil = Image.new('RGBA', m.size, (60, 68, 92, 255)); sil.putalpha(al); m = sil
-            paste_c(im, m, SAFE_X, 1270)
-            text_c(d, 1335, u['secret'], F(BLACK, 40), (242, 178, 59), x=SAFE_X)
+            paste_c(im, m, SAFE_X, 1370)
+            st = E.scaled(sec, ease_back((t - T_SECRET - .2) / .4), -3)
+            if st: paste_c(im, st, SAFE_X, 1500)
         if t >= T_END:
             e = t - T_END
-            text_c(d, 330, u['cta'], F(BLACK, 110), (255, 255, 255), x=SAFE_X)
+            E.title_text(d, (SAFE_X, 300), u['cta'], F(BLACK, 110), sw=12)
             row = [('A', 130, 720), ('D', 300, 660), ('S', SAFE_X, 860), ('M', 640, 660), ('F', 810, 720)]
             for i, (kk, x, y) in enumerate(row):
-                sz = 260 if kk == 'S' else 190
+                sz = 250 if kk == 'S' else 180
                 sc = ease_back((e - i * .08) / .45)
-                if sc > 0: paste_c(im, mascot(kk, sz * sc), x, y + math.sin(e * 3 + i) * 12)
-            text_c(d, 1090, 'whatsyourbubble.com', F(BLACK, 64), (124, 144, 255), x=SAFE_X)
+                if kk == 'S': _mascot_rays(im, kk, sz, x, y + math.sin(e * 3 + i) * 12, t, max(sc, 0))
+                elif sc > 0: paste_c(im, mascot(kk, sz * sc), x, y + math.sin(e * 3 + i) * 12)
+            st = E.scaled(url, ease_back((e - .3) / .4), 2)
+            if st: paste_c(im, st, SAFE_X, 1110)
             sub = {'pt': '8 perguntas · 1 minuto · link na bio', 'en': '8 questions · 1 minute · link in bio', 'zh': '8道题 · 1分钟 · 链接在主页'}[lang]
-            text_c(d, 1190, sub, F(REG, 42), (201, 209, 230), x=SAFE_X)
+            text_c(ImageDraw.Draw(im), 1230, sub, F(BLACK, 40), E.INK, x=SAFE_X)
         return np.asarray(im)
     if preview: [still(frame, t, f'{out[:-4]}-{t}.png') for t in preview]; return
     v = out[:-4] + '.v.mp4'; encode(v, frame, int(DUR * FPS))
@@ -183,33 +205,108 @@ def tiktok(lang, out, preview=None):
     mix_wav(wav, DUR, [(T0 + i * STEP, 520 + i * 60) for i in range(4)] + [(T_SECRET, 700), (T_SECRET + 1.2, 900), (T_END, 600)])
     mux(v, wav, out); os.remove(v); os.remove(wav)
 
+POS_OF = {'A': E.CYAN, 'D': E.PINK, 'M': E.LIME, 'F': E.VIOLET}
+
 # ---------- Story animado por perfil ----------
 def story(lang, k, out, preview=None):
     u, N, Lx = UI[lang], NAMES[lang], LINES[lang]; col = COL[k]; DUR = 6.0
-    conf = [(random.uniform(0, W), random.uniform(-200, 600), random.uniform(-6, 6), random.uniform(6, 16), random.choice([col, col, (255, 255, 255), (242, 178, 59)]), random.random() < .35) for _ in range(90)]
+    conf = [(random.uniform(0, W), random.uniform(-200, 600), random.uniform(-6, 6), random.uniform(6, 16), random.choice([col, col, E.PINK, E.GOLD, E.CYAN]), random.random() < .35) for _ in range(90)]
+    name = E.sticker_text(N[k], F(BLACK, 96), wrap, 960, ink=E.WHITE, shadow=col, grad=E.DARK.get(k, DARK_S), pad=(50, 26))
+    line = E.sticker_text(Lx[k], F(BLACK, 50), wrap, 900, shadow=E.GOLD, pad=(40, 26))
+    url = E.sticker_text('whatsyourbubble.com', F(BLACK, 56), wrap, 900, shadow=E.PINK, pad=(40, 20))
     def frame(t):
-        im = background(t); d = ImageDraw.Draw(im)
-        text_c(d, 220, u['me'], F(REG, 64), (201, 209, 230))
+        im = E.background(t); d = ImageDraw.Draw(im)
+        E.title_text(d, (W / 2, 140), u['me'], F(BLACK, 76), sw=9)
         s = ease_back((t - .3) / .6); bob = math.sin(t * 3) * 14
-        if s > 0: paste_c(im, mascot(k, 640 * s), W / 2, 760 + bob)
+        _mascot_rays(im, k, 560, W / 2, 740 + bob, t, max(s, 0))
         if t > .9:
-            a = ease_out((t - .9) / .4); y = 1180 + 40 * (1 - a)
-            text_c(d, y, N[k], F(BLACK, 112), (255, 255, 255))
-            text_c(d, y + 160, wrap(d, Lx[k], F(REG, 54), 900), F(REG, 54), col, 12)
+            st = E.scaled(name, ease_back((t - .9) / .4), -2)
+            if st: paste_c(im, st, W / 2, 1140)
+        if t > 1.3:
+            st = E.scaled(line, ease_back((t - 1.3) / .4), 1.5)
+            if st: paste_c(im, st, W / 2, 1350)
         if t > 1.0:  # chuva de bolhas/confete
             el = t - 1.0
             for x, y0, vx, r, c, b in conf:
                 x2 = x + vx * el * 30; y2 = y0 + el * 420 + el * el * 120
                 if y2 > H + 40: continue
-                if b: d.ellipse([x2 - r * 1.6, y2 - r * 1.6, x2 + r * 1.6, y2 + r * 1.6], outline=c, width=4)
+                if b: d.ellipse([x2 - r * 1.6, y2 - r * 1.6, x2 + r * 1.6, y2 + r * 1.6], outline=c, width=5)
                 else: d.rectangle([x2 - r, y2 - r * .45, x2 + r, y2 + r * .45], fill=c)
         if t > 2.2:
-            text_c(d, 1600, u['you'], F(BLACK, 80), (255, 255, 255))
-            text_c(d, 1720, 'whatsyourbubble.com', F(BLACK, 58), (124, 144, 255))
+            E.title_text(d, (W / 2, 1560), u['you'], F(BLACK, 84), sw=10)
+            st = E.scaled(url, ease_back((t - 2.4) / .4))
+            if st: paste_c(im, st, W / 2, 1760)
         return np.asarray(im)
     if preview: [still(frame, t, f'{out[:-4]}-{t}.png') for t in preview]; return
     v = out[:-4] + '.v.mp4'; encode(v, frame, int(DUR * FPS))
     wav = out[:-4] + '.wav'; pops_wav(wav, [(.35, 560)], DUR)
+    mux(v, wav, out); os.remove(v); os.remove(wav)
+
+# ---------- Vídeo de divulgação de um quiz temático (quizzes/<slug>.json) ----------
+QUI = {'pt': {'q1': 'Pergunta 1', 'which': 'Qual bolha é a sua?', 'cta': 'Descubra a sua', 'sub': '8 perguntas · 1 minuto · link na bio'},
+       'en': {'q1': 'Question 1', 'which': "Which bubble are you?", 'cta': 'Find yours', 'sub': '8 questions · 1 minute · link in bio'},
+       'zh': {'q1': '第1题', 'which': '你是哪个泡泡？', 'cta': '测出你的', 'sub': '8道题 · 1分钟 · 链接在主页'}}
+
+def quiz(slug, lang, out, preview=None):
+    import json
+    q = json.load(open(os.path.join(ROOT, '..', 'quizzes', f'{slug}.json'), encoding='utf-8'))[lang]
+    u, N = QUI[lang], NAMES[lang]
+    pergunta, ops = q['Q'][0]
+    keys = ['D', 'F', 'A', 'M']                       # ordem fixa embaralhada: a cor não indica o perfil
+    titulo = E.sticker_text(q['titulo'], F(BLACK, 76), wrap, 860, shadow=E.PINK, pad=(46, 34))
+    tag = E.sticker_text(u['q1'], F(BLACK, 38), wrap, 500, fill=E.INK, ink=E.WHITE, shadow=E.GOLD, pad=(28, 12))
+    balao = E.sticker_text(pergunta, F(BLACK, 54), wrap, 650, shadow=E.INK, pad=(40, 30), align='left')
+    opc = [E.sticker_text(ops[k], F(BLACK, 44), wrap, 860, fill=tuple(int(c * .22 + 255 * .78) for c in E.POS[i]), shadow=E.POS[i], pad=(30, 22), align='left', dot=E.POS[i]) for i, k in enumerate(keys)]
+    url = E.sticker_text('whatsyourbubble.com', F(BLACK, 58), wrap, 900, shadow=E.PINK, pad=(40, 22))
+    T1, T2, T3, DUR = 2.4, 7.2, 10.2, 13.5
+    pos = {'A': (255, 640), 'D': (685, 640), 'M': (255, 1010), 'F': (685, 1010)}
+    def frame(t):
+        im = E.background(t); d = ImageDraw.Draw(im)
+        if t < T1:                                     # 1. título do quiz
+            st = E.scaled(titulo, ease_back(t / .5), -2)
+            if st: paste_c(im, st, SAFE_X, 640)
+            for i, k in enumerate('ADMF'):
+                s = ease_back((t - .5 - i * .12) / .4)
+                if s > 0: paste_c(im, mascot(k, 170 * s), 140 + i * 220, 1060 + math.sin(t * 4 + i) * 12)
+        elif t < T2:                                   # 2. o mascote faz a pergunta 1
+            e = t - T1
+            st = E.scaled(tag, ease_back(e / .3), -3)
+            if st: paste_c(im, st, SAFE_X - 260, 250)
+            _mascot_rays(im, 'ADMF'[0], 160, 140, 520 + math.sin(t * 3) * 8, t, ease_back(e / .4))
+            st = E.scaled(balao, ease_back((e - .2) / .4))
+            if st: im.paste(st, (250, int(520 - st.height / 2)), st)
+            y = 520 + balao.height / 2 + 50
+            for i, o in enumerate(opc):
+                s = ease_back((e - .9 - i * .35) / .35)
+                st = E.scaled(o, s)
+                if st: im.paste(st, (int(SAFE_X - st.width / 2), int(y)), st)
+                y += o.height + 18
+        elif t < T3:                                   # 3. as 4 bolhas
+            e = t - T2
+            E.title_text(d, (SAFE_X, 260), u['which'], F(BLACK, 80), sw=10)
+            for i, k in enumerate('ADMF'):
+                s = ease_back((e - i * .2) / .4)
+                cx, cy = pos[k]; _mascot_rays(im, k, 240, cx, cy + math.sin(e * 3 + i) * 10, t, max(s, 0))
+                if e - i * .2 > .25: _name_tag(im, N[k], cx, cy + 140, F(BLACK, 36), POS_OF[k], ease_back((e - i * .2 - .25) / .3))
+            if e > 1.4:
+                m = mascot('S', 130 * ease_back((e - 1.4) / .4)); al = m.split()[3]
+                sil = Image.new('RGBA', m.size, (60, 68, 92, 255)); sil.putalpha(al); paste_c(im, sil, SAFE_X, 1320)
+        else:                                          # 4. chamada final
+            e = t - T3
+            E.title_text(d, (SAFE_X, 360), u['cta'], F(BLACK, 110), sw=12)
+            st = E.scaled(titulo, .62, 0)
+            if st: paste_c(im, st, SAFE_X, 640)
+            for i, k in enumerate('ADMF'):
+                sc = ease_back((e - i * .08) / .4)
+                if sc > 0: paste_c(im, mascot(k, 170 * sc), 140 + i * 220, 930 + math.sin(e * 3 + i) * 12)
+            st = E.scaled(url, ease_back((e - .3) / .4), 2)
+            if st: paste_c(im, st, SAFE_X, 1160)
+            text_c(ImageDraw.Draw(im), 1280, u['sub'], F(BLACK, 40), E.INK, x=SAFE_X)
+        return np.asarray(im)
+    if preview: [still(frame, t, f'{out[:-4]}-{t}.png') for t in preview]; return
+    v = out[:-4] + '.v.mp4'; encode(v, frame, int(DUR * FPS))
+    wav = out[:-4] + '.wav'
+    mix_wav(wav, DUR, [(0, 600)] + [(T1 + .9 + i * .35, 520 + i * 60) for i in range(4)] + [(T2 + i * .2, 560 + i * 50) for i in range(4)] + [(T3, 700)])
     mux(v, wav, out); os.remove(v); os.remove(wav)
 
 def still(fn, t, path): Image.fromarray(fn(t)).save(path)
@@ -218,6 +315,12 @@ if __name__ == '__main__':
     what = sys.argv[1]
     if what == 'tiktok':
         for lang in sys.argv[2:]: tiktok(lang, os.path.join(ROOT, f'tiktok-{lang}.mp4'))
+    elif what == 'quiz':          # python video/render.py quiz <slug> pt en zh
+        for lang in sys.argv[3:]: quiz(sys.argv[2], lang, os.path.join(ROOT, f'quiz-{sys.argv[2]}-{lang}.mp4'))
+    elif what == 'previa':        # python video/render.py previa  -> PNGs pra conferir o visual
+        tiktok('pt', os.path.join(ROOT, 'p-tiktok.mp4'), preview=[1.0, 6.5, 8.6, 11.0])
+        story('pt', 'M', os.path.join(ROOT, 'p-story.mp4'), preview=[3.0])
+        quiz('churrasco', 'pt', os.path.join(ROOT, 'p-quiz.mp4'), preview=[1.5, 5.8, 9.5, 12.0])
     elif what == 'stories':
         os.makedirs(os.path.join(SITE, 'story'), exist_ok=True)
         for lang in ('pt', 'en', 'zh'):

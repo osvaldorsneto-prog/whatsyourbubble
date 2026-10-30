@@ -81,11 +81,10 @@ h2 small{font:600 14px var(--body);color:var(--muted)}
 .novo:focus-visible,.li:focus-visible,.g:focus-visible,.col a:focus-visible,button:focus-visible{outline:3px solid var(--warm);outline-offset:2px}
 @media (prefers-reduced-motion:no-preference){.novo,.li,.g{transition:transform .15s}.novo:active,.li:active,.g:active{transform:scale(.98)}}
 /* estilo adesivo colorido, igual às telas do quiz */
-html{background:#E3F7FF}@media (prefers-color-scheme: dark){html{background:#0E2236}}
-body{--surface:#fff;--line:#C9CFDB;
-  background:radial-gradient(circle at 12% 6%,#FFD1E8 0,transparent 38%),radial-gradient(circle at 92% 30%,#C9F1FF 0,transparent 40%),radial-gradient(circle at 20% 85%,#E4D6FF 0,transparent 42%),linear-gradient(160deg,#FFF0F7,#F1EBFF 55%,#E3F7FF);background-attachment:fixed}
-@media (prefers-color-scheme: dark){body{--ink:#F2F4FA;--muted:#C2C9DD;
-  background:radial-gradient(circle at 12% 6%,#5B1D52 0,transparent 40%),radial-gradient(circle at 92% 30%,#123E63 0,transparent 40%),radial-gradient(circle at 20% 85%,#3A2577 0,transparent 42%),linear-gradient(160deg,#1E1238,#151A3D 55%,#0E2236);background-attachment:fixed}
+body{--surface:#fff;--line:#C9CFDB;background:transparent}
+html{min-height:100%;background:radial-gradient(circle at 12% 6%,#FFD1E8 0,transparent 38%),radial-gradient(circle at 92% 30%,#C9F1FF 0,transparent 40%),radial-gradient(circle at 20% 85%,#E4D6FF 0,transparent 42%),linear-gradient(160deg,#FFF0F7,#F1EBFF 55%,#E3F7FF);background-attachment:fixed}
+@media (prefers-color-scheme: dark){body{--ink:#F2F4FA;--muted:#C2C9DD}
+ html{background:radial-gradient(circle at 12% 6%,#5B1D52 0,transparent 40%),radial-gradient(circle at 92% 30%,#123E63 0,transparent 40%),radial-gradient(circle at 20% 85%,#3A2577 0,transparent 42%),linear-gradient(160deg,#1E1238,#151A3D 55%,#0E2236);background-attachment:fixed}
  .langs button[aria-pressed="true"]{background:#fff;color:#141B2E;border-color:#fff}}
 .novo{border:3px solid #141B2E;box-shadow:6px 6px 0 var(--c)}
 .li,.g,.secret{border:3px solid #141B2E!important;color:#141B2E;box-shadow:5px 5px 0 var(--c,#8C6CF5)}

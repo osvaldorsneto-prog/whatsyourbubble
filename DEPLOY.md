@@ -19,3 +19,4 @@ Observações:
 - As imagens de prévia genéricas dos quizzes (`q/og/`) saem de `python scripts/og_generico.py`.
 - A vitrine (`/q/`, pra onde a página inicial redireciona) lê a lista `quizzes/index.json` do GitHub. Depois de criar ou mudar um quiz, rodar `python scripts/indice_quizzes.py` e subir o `index.json` junto.
 - Publicação no cPanel só é necessária quando mudar algo em `index.html`, `ai/**` ou `q/**`.
+- Vídeos (estilo adesivo, `video/estilo.py`): `python video/render.py tiktok pt en zh` (vídeo dos mascotes), `python video/render.py stories` (stories do site, em `ai/story/`), `python video/render.py quiz <slug> pt en zh` (vídeo de divulgação de um quiz temático, em `video/quiz-<slug>-<lang>.mp4`), `python video/render.py previa` (PNGs pra conferir o visual).
