@@ -17,3 +17,5 @@ Observações:
 - `data/painel.json` é atualizado sozinho a cada 3 h pelo workflow `.github/workflows/painel-snapshot.yml` (lê o painel e salva os números). Não precisa publicar: `data/` e `scripts/` não vão pro site.
 - Quizzes temáticos (`quizzes/<slug>.json`) **não precisam de publicação**: o motor `q/index.php` busca o arquivo no GitHub (cópia de 10 min no servidor, em `~/wyb-cache/`). Endereço: `https://whatsyourbubble.com/q/?s=<slug>`. Regras de conteúdo e formato em `quizzes/REGRAS.md`; conferir com `python scripts/validar_quiz.py`.
 - As imagens de prévia genéricas dos quizzes (`q/og/`) saem de `python scripts/og_generico.py`.
+- A vitrine (`/q/`, pra onde a página inicial redireciona) lê a lista `quizzes/index.json` do GitHub. Depois de criar ou mudar um quiz, rodar `python scripts/indice_quizzes.py` e subir o `index.json` junto.
+- Publicação no cPanel só é necessária quando mudar algo em `index.html`, `ai/**` ou `q/**`.

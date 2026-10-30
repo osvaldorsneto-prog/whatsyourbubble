@@ -19,6 +19,8 @@ NAMES = {
     'zh': {'A': '建筑师', 'D': '侦探', 'M': '指挥家', 'F': '终结者', 'S': '秘密泡泡'},
 }
 SLUG = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
+CATEGORIAS = ('role', 'trabalho', 'familia', 'viagem', 'comida', 'jogos', 'pets', 'celular', 'estudos', 'casa', 'esporte')
+RESERVADOS = ('ia', 'index')
 # Rede de segurança simples das regras de conteúdo (quizzes/REGRAS.md).
 # Não substitui o bom senso de quem escreve o quiz.
 # Termos com * no fim pegam qualquer palavra que comece assim; os outros, só a palavra inteira.
@@ -46,6 +48,14 @@ def erros_do_quiz(path):
     slug = q.get('slug', '')
     if not SLUG.match(slug) or len(slug) > 40:
         e.append(f'slug inválido: {slug!r}')
+    if slug in RESERVADOS:
+        e.append(f'slug reservado: {slug}')
+    if q.get('categoria') not in CATEGORIAS:
+        e.append(f'categoria precisa ser uma de: {", ".join(CATEGORIAS)}')
+    if q.get('mascote') not in KEYS:
+        e.append('mascote precisa ser A, D, M ou F (é o que aparece no cartão da vitrine)')
+    if not re.match(r'^\d{4}-\d{2}-\d{2}$', str(q.get('criado_em', ''))):
+        e.append('criado_em precisa ser uma data AAAA-MM-DD')
     if Path(path).stem != slug:
         e.append(f'o nome do arquivo precisa ser {slug}.json')
     textos = []
