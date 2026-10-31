@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "viagem-de-carro",
+   "url": "/q/?s=viagem-de-carro",
+   "criado_em": "2026-10-31",
+   "categoria": "viagem",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é na viagem de carro?",
+    "en": "What's your bubble on a road trip?",
+    "zh": "自驾游时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "trabalho-em-grupo",
+   "url": "/q/?s=trabalho-em-grupo",
+   "criado_em": "2026-10-31",
+   "categoria": "estudos",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no trabalho em grupo?",
+    "en": "What's your bubble in a group project?",
+    "zh": "小组作业里你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "mudanca",
+   "url": "/q/?s=mudanca",
+   "criado_em": "2026-10-31",
+   "categoria": "casa",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é numa mudança?",
+    "en": "What's your bubble when moving house?",
+    "zh": "搬家时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "churrasco",
    "url": "/q/?s=churrasco",
    "criado_em": "2026-10-30",

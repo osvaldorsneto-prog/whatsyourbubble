@@ -1,0 +1,384 @@
+{
+  "slug": "mudanca",
+  "criado_em": "2026-10-31",
+  "categoria": "casa",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é numa mudança?",
+    "lead": "Toda mudança revela quem você é de verdade. Qual bolha é a sua?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você etiquetou as caixas antes de comprar as caixas.",
+        "Pra você, mudança boa começa numa planta da casa nova. Cada caixa tem número, cômodo e lista do que vai dentro. Por isso, quando você organiza, nada some no caminho.",
+        "Saber exatamente onde está cada colher.",
+        "Planejar tanto que as caixas continuam vazias.",
+        "Caixa 14, cozinha, frágil. Anotado."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma caixa sai de casa sem vistoria.",
+        "Você mede a porta antes do sofá chegar, confere se a geladeira cabe e fotografa cada risco na parede. Graças a você, o sofá não fica entalado no corredor.",
+        "Prever o problema antes do caminhão chegar.",
+        "Medir a porta pela quinta vez.",
+        "Espera. Alguém mediu o elevador?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você embala, chama o frete e acalma o gato ao mesmo tempo.",
+        "Você coordena tudo junto: os amigos ajudando, o frete, a chave do prédio e a pizza do fim do dia. Enquanto cada um carrega uma caixa, você mantém a mudança inteira andando.",
+        "Fazer dez coisas andarem juntas.",
+        "Começar tudo e não fechar nenhuma caixa.",
+        "Você leva essa, eu ligo pro frete e já peço a pizza."
+      ],
+      "F": [
+        "O Finalizador",
+        "Caixa fechada é melhor que caixa organizada.",
+        "Você não perde tempo separando por cômodo. Põe tudo na caixa, passa a fita e carrega. Enquanto os outros discutem onde vai o abajur, você já esvaziou o apartamento.",
+        "Fazer a mudança acontecer no dia marcado.",
+        "Abrir a caixa e achar o controle remoto junto com o feijão.",
+        "Cabe? Então vai!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a mudança pede: planeja quando precisa, confere quando vale a pena, coordena quando a casa enche de gente e fecha caixa quando o caminhão buzina.",
+        "Ser o que a mudança precisa naquele momento.",
+        "Ninguém saber em que cômodo te colocar.",
+        "Depende. Me diz o que falta embalar."
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo etiquetado.",
+      "D": "você não deixa nada sair sem conferir.",
+      "M": "você coordena mil caixas ao mesmo tempo.",
+      "F": "na hora certa, você fecha a caixa e carrega."
+    },
+    "Q": [
+      [
+        "O caminhão chega em 1 hora e nada está embalado. Você...",
+        {
+          "A": "Faço um plano de 15 minutos",
+          "D": "Confiro se o caminhão vem mesmo",
+          "M": "Chamo três amigos e peço pizza",
+          "F": "Jogo tudo num lençol e amarro"
+        }
+      ],
+      [
+        "Na hora de montar as caixas, você...",
+        {
+          "A": "Numera cada uma e lista o que tem dentro",
+          "D": "Testa o fundo de cada caixa antes de encher",
+          "M": "Divide: cada pessoa cuida de um cômodo",
+          "F": "Enche até onde der e passa a fita"
+        }
+      ],
+      [
+        "O sofá não passa pela porta. Você...",
+        {
+          "A": "Já tinha um plano pela janela",
+          "D": "Mede tudo de novo pra ver onde travou",
+          "M": "Junta o pessoal e cada um segura um lado",
+          "F": "Vira de lado, empurra e passa"
+        }
+      ],
+      [
+        "Seu papel no dia da mudança é...",
+        {
+          "A": "Quem fez o mapa de onde vai cada coisa",
+          "D": "Quem confere se nada quebrou",
+          "M": "Quem coordena frete, amigos e chave",
+          "F": "Quem carrega mais caixas"
+        }
+      ],
+      [
+        "Alguém pergunta: \"cadê o carregador do celular?\" Você...",
+        {
+          "A": "\"Caixa 7, bolso da frente. Eu anotei\"",
+          "D": "Pergunto onde a pessoa viu ele pela última vez",
+          "M": "Empresto o meu enquanto alguém procura",
+          "F": "Abro a primeira caixa que aparecer"
+        }
+      ],
+      [
+        "Primeira noite na casa nova, nada montado. Você...",
+        {
+          "A": "Já sabia: a caixa da primeira noite tá separada",
+          "D": "Confiro se água, luz e gás estão funcionando",
+          "M": "Monto a cama, ligo o wi-fi e peço a janta",
+          "F": "Durmo no colchão no chão e tá ótimo"
+        }
+      ],
+      [
+        "Seu maior defeito numa mudança:",
+        {
+          "A": "Planejo tanto que começo a embalar tarde",
+          "D": "Confiro tanto que a fita acaba",
+          "M": "Abro mil caixas e não termino nenhuma",
+          "F": "Tudo vai pra caixa \"diversos\""
+        }
+      ],
+      [
+        "Uma semana depois da mudança, você...",
+        {
+          "A": "Já deixou cada armário do jeito planejado",
+          "D": "Conferiu tudo e achou o parafuso que faltava",
+          "M": "Já marcou o jantar de inauguração",
+          "F": "Ainda tem três caixas fechadas e vive bem"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when moving house?",
+    "lead": "Moving house shows who you really are. Which bubble is yours?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You labelled the boxes before you even bought them.",
+        "For you, a good move starts with a floor plan. Every box has a number, a room and a list of what's inside. That's why nothing goes missing when you're in charge.",
+        "Knowing exactly where every spoon is.",
+        "Planning so long the boxes are still empty.",
+        "Box 14, kitchen, fragile. Noted."
+      ],
+      "D": [
+        "The Detective",
+        "No box leaves the house without inspection.",
+        "You measure the door before the sofa arrives, check the fridge will fit and photograph every mark on the wall. Thanks to you, the sofa doesn't get stuck in the hallway.",
+        "Spotting the problem before the van turns up.",
+        "Measuring the door for the fifth time.",
+        "Wait. Did anyone measure the lift?"
+      ],
+      "M": [
+        "The Maestro",
+        "You pack, book the van and calm the cat all at once.",
+        "You run it all together: friends helping out, the van, the building keys and the pizza at the end. While everyone carries one box, you keep the whole move rolling.",
+        "Getting ten things moving at once.",
+        "Starting everything and sealing no box.",
+        "You take that one, I'll call the van and order pizza."
+      ],
+      "F": [
+        "The Finisher",
+        "A closed box beats a tidy box.",
+        "You don't waste time sorting by room. Everything goes in, tape on, out the door. While others debate where the lamp goes, the flat is already empty.",
+        "Getting the move done on the day.",
+        "Finding the remote packed in with the tins.",
+        "Does it fit? Then it goes!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the move needs: you plan when it matters, check when it's worth it, coordinate when the place fills up and tape boxes when the van honks.",
+        "Being whatever the move needs right now.",
+        "Nobody knowing which room to put you in.",
+        "Depends. Tell me what's left to pack."
+      ]
+    },
+    "S2": {
+      "A": "you still like everything labelled.",
+      "D": "you don't let anything leave unchecked.",
+      "M": "you juggle a thousand boxes at once.",
+      "F": "when it counts, you tape it up and lift."
+    },
+    "Q": [
+      [
+        "The van arrives in 1 hour and nothing's packed. You...",
+        {
+          "A": "Make a 15-minute plan",
+          "D": "Check the van is really coming",
+          "M": "Call three friends and order pizza",
+          "F": "Throw it all in a sheet and tie it"
+        }
+      ],
+      [
+        "When packing boxes, you...",
+        {
+          "A": "Number each one and list what's inside",
+          "D": "Test the bottom of every box first",
+          "M": "Split it up: one person per room",
+          "F": "Fill it to the top and tape it shut"
+        }
+      ],
+      [
+        "The sofa won't fit through the door. You...",
+        {
+          "A": "Already had a plan for the window",
+          "D": "Measure everything again to see where it sticks",
+          "M": "Get everyone to grab a corner",
+          "F": "Tilt it, push it, done"
+        }
+      ],
+      [
+        "Your role on moving day is...",
+        {
+          "A": "The one who mapped where everything goes",
+          "D": "The one checking nothing broke",
+          "M": "The one handling the van, friends and keys",
+          "F": "The one carrying the most boxes"
+        }
+      ],
+      [
+        "Someone asks: \"where's my phone charger?\" You...",
+        {
+          "A": "\"Box 7, front pocket. I wrote it down\"",
+          "D": "Ask where they last saw it",
+          "M": "Lend mine while someone looks",
+          "F": "Open the first box I see"
+        }
+      ],
+      [
+        "First night in the new place, nothing set up. You...",
+        {
+          "A": "Knew it: the first-night box is ready",
+          "D": "Check the water, power and heating work",
+          "M": "Set up the bed and wi-fi, then order dinner",
+          "F": "Sleep on the mattress on the floor, it's fine"
+        }
+      ],
+      [
+        "Your biggest flaw when moving:",
+        {
+          "A": "I plan so much I start packing late",
+          "D": "I check so much we run out of tape",
+          "M": "I open a hundred boxes and finish none",
+          "F": "Everything goes in the \"misc\" box"
+        }
+      ],
+      [
+        "A week after the move, you...",
+        {
+          "A": "Have every cupboard set up as planned",
+          "D": "Checked everything and found the missing screw",
+          "M": "Already planned the housewarming",
+          "F": "Still have three boxes taped shut, and that's fine"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "搬家时你是哪个泡泡？",
+    "lead": "搬家最能看出一个人的真面目。你是哪个泡泡？",
+    "T": {
+      "A": [
+        "建筑师",
+        "箱子还没买，你就已经想好标签了。",
+        "对你来说，好的搬家从新家的平面图开始。每个箱子都有编号、房间和物品清单。所以只要你来安排，什么都不会搬丢。",
+        "清楚知道每一把勺子在哪里。",
+        "规划太久，箱子还是空的。",
+        "14号箱，厨房，易碎。记下了。"
+      ],
+      "D": [
+        "侦探",
+        "没有一个箱子能不经检查就出门。",
+        "沙发还没到，你就量好了门；你会确认冰箱放不放得下，还会把墙上每道划痕拍下来。多亏有你，沙发才没卡在走廊里。",
+        "搬家车还没来，你就发现了问题。",
+        "第五次量门的宽度。",
+        "等等，有人量过电梯吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边打包、一边叫车、一边安抚猫。",
+        "你什么都一起管：来帮忙的朋友、搬家车、楼栋钥匙，还有收工后的披萨。别人每次搬一个箱子，你让整个搬家都转起来。",
+        "让十件事同时推进。",
+        "每件事都开了头，一个箱子都没封好。",
+        "你搬这个，我打给搬家公司，顺便点披萨。"
+      ],
+      "F": [
+        "终结者",
+        "封好的箱子胜过整齐的箱子。",
+        "你不浪费时间按房间分类。全部装进去、贴上胶带、搬走。别人还在讨论台灯放哪，你已经把房子搬空了。",
+        "按时把家搬完。",
+        "打开箱子发现遥控器和罐头装在一起。",
+        "装得下？那就走！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据搬家的需要切换角色：该规划时规划，该检查时检查，人多时统筹全场，车一按喇叭就开始封箱。",
+        "成为此刻搬家最需要的人。",
+        "别人不知道该把你安排在哪个房间。",
+        "看情况。告诉我还有什么没打包。"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都贴好标签。",
+      "D": "你不会让任何东西不经检查就出门。",
+      "M": "你能同时照顾一千个箱子。",
+      "F": "关键时刻，你封箱就搬。"
+    },
+    "Q": [
+      [
+        "搬家车一小时后到，东西一件都没装。你……",
+        {
+          "A": "先做一个15分钟计划",
+          "D": "先确认车是不是真的会来",
+          "M": "叫三个朋友，再点个披萨",
+          "F": "全部扔进床单里打个结"
+        }
+      ],
+      [
+        "装箱的时候，你会……",
+        {
+          "A": "给每个箱子编号并列清单",
+          "D": "先检查每个箱底牢不牢",
+          "M": "分工：一人负责一个房间",
+          "F": "能塞多满塞多满，封上"
+        }
+      ],
+      [
+        "沙发卡在门口过不去。你……",
+        {
+          "A": "早就想好了从窗户运",
+          "D": "重新量一遍，找出卡在哪",
+          "M": "叫大家每人抬一个角",
+          "F": "侧过来，一推，过了"
+        }
+      ],
+      [
+        "搬家当天你的角色是……",
+        {
+          "A": "画好物品摆放图的那个人",
+          "D": "检查有没有东西摔坏的那个人",
+          "M": "同时管车、朋友和钥匙的那个人",
+          "F": "搬箱子最多的那个人"
+        }
+      ],
+      [
+        "有人问：“我的充电器呢？”你……",
+        {
+          "A": "“7号箱，前面口袋，我记了”",
+          "D": "问他最后一次在哪看到的",
+          "M": "先借他我的，同时让人去找",
+          "F": "随手打开第一个箱子"
+        }
+      ],
+      [
+        "新家第一晚，什么都没装好。你……",
+        {
+          "A": "早有准备：第一晚专用箱已备好",
+          "D": "检查水、电、燃气是否正常",
+          "M": "装好床、连上网、点外卖",
+          "F": "床垫往地上一放，挺好"
+        }
+      ],
+      [
+        "你搬家时最大的毛病：",
+        {
+          "A": "规划太多，开始打包太晚",
+          "D": "检查太多，胶带都用完了",
+          "M": "开了一堆箱子，一个都没整理完",
+          "F": "什么都塞进“杂物”箱"
+        }
+      ],
+      [
+        "搬完一周后，你……",
+        {
+          "A": "每个柜子都按计划摆好了",
+          "D": "全部检查完，还找到了缺的螺丝",
+          "M": "已经约好了乔迁聚会",
+          "F": "还有三个箱子没拆，过得挺好"
+        }
+      ]
+    ]
+  }
+}

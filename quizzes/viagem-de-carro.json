@@ -1,0 +1,384 @@
+{
+  "slug": "viagem-de-carro",
+  "criado_em": "2026-10-31",
+  "categoria": "viagem",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é na viagem de carro?",
+    "lead": "Toda viagem de carro tem os mesmos 4 tipos de passageiro. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você planejou as paradas antes de tirar o carro da garagem.",
+        "Pra você, viagem boa começa no mapa. Você sabe a hora de sair, onde parar pra comer e quanto tempo falta. Por isso, quando você planeja, ninguém chega com fome.",
+        "Chegar no horário que prometeu.",
+        "Planejar tanto a saída que ela atrasa.",
+        "Se sairmos às 6h, almoçamos na serra."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum quilômetro passa sem você conferir.",
+        "Você confere o pneu, o óleo, a previsão do tempo e se alguém esqueceu o documento. Ninguém te engana com um \"falta pouco\". É graças a você que ninguém fica parado no acostamento.",
+        "Notar o barulho estranho antes de todo mundo.",
+        "Parar pra conferir o pneu de novo.",
+        "Falta pouco quanto, exatamente?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do mapa, da playlist e dos lanches ao mesmo tempo.",
+        "Você mantém tudo funcionando junto: a rota, a música, o lanche de cada um e o clima no carro. Enquanto os outros olham a paisagem, você faz a viagem inteira fluir.",
+        "Deixar o carro todo feliz ao mesmo tempo.",
+        "Cuidar de tanta coisa que perde a saída.",
+        "Quem quer biscoito? E já troco a música."
+      ],
+      "F": [
+        "O Finalizador",
+        "Na estrada é melhor que na garagem.",
+        "Você não espera o plano perfeito. Joga a mala no porta-malas, liga o carro e vai. Enquanto os outros ainda discutem o caminho, você já está na metade.",
+        "Fazer a viagem sair do papel.",
+        "Sair sem conferir se a mala entrou.",
+        "Bora, a gente resolve no caminho!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a estrada pede: planeja quando precisa, confere quando vale a pena, anima o carro quando bate o tédio e pega a estrada quando é hora.",
+        "Ser o que a viagem precisa naquele momento.",
+        "Ninguém saber em que banco te colocar.",
+        "Depende. Me diz pra onde a gente vai."
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de falar e dirige."
+    },
+    "Q": [
+      [
+        "O GPS manda entrar numa estrada de terra. Você...",
+        {
+          "A": "Já tinha outra rota salva",
+          "D": "Dou zoom no mapa pra conferir",
+          "M": "Pergunto pro grupo o que acham",
+          "F": "Confio no GPS e vou"
+        }
+      ],
+      [
+        "Antes de sair de casa, você...",
+        {
+          "A": "Monta um roteiro com o horário de cada parada",
+          "D": "Confere pneu, óleo e documentos duas vezes",
+          "M": "Divide: um leva o lanche, outro a música",
+          "F": "Pega a chave e entra no carro"
+        }
+      ],
+      [
+        "Alguém no banco de trás pergunta \"falta muito?\" pela quinta vez. Você...",
+        {
+          "A": "Mostro o horário previsto de chegada",
+          "D": "Calculo a distância exata que falta",
+          "M": "Distraio todo mundo com uma brincadeira",
+          "F": "Digo \"falta pouco\" e sigo"
+        }
+      ],
+      [
+        "Seu papel na viagem é...",
+        {
+          "A": "Quem fez o roteiro",
+          "D": "Quem confere o mapa e o combustível",
+          "M": "Quem cuida da música, do lanche e do clima",
+          "F": "Quem dirige o trecho mais longo"
+        }
+      ],
+      [
+        "A luz do combustível acende. Você pensa:",
+        {
+          "A": "\"Tranquilo, tem posto daqui a 30 km\"",
+          "D": "\"Quantos quilômetros ainda dá, exatamente?\"",
+          "M": "\"Alguém procura um posto enquanto eu aviso o grupo\"",
+          "F": "\"Dá pra chegar\""
+        }
+      ],
+      [
+        "Vocês pegam um engarrafamento enorme. Você...",
+        {
+          "A": "Já tinha um caminho alternativo",
+          "D": "Vejo no mapa até onde vai o trânsito",
+          "M": "Solto a playlist e abro os lanches",
+          "F": "Pego a primeira saída e sigo"
+        }
+      ],
+      [
+        "Seu maior defeito na estrada:",
+        {
+          "A": "Fico chateado quando a gente sai do roteiro",
+          "D": "Paro mais vezes do que precisava",
+          "M": "Cuido de tanta coisa que perco a saída",
+          "F": "Esqueço algo e só lembro na estrada"
+        }
+      ],
+      [
+        "Chegaram! Você...",
+        {
+          "A": "Anota o que deu certo pra próxima viagem",
+          "D": "Confere se nada ficou no carro",
+          "M": "Já tá planejando o passeio de amanhã",
+          "F": "Larga a mala e vai direto aproveitar"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a road trip?",
+    "lead": "Every road trip has the same 4 kinds of passenger. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You planned every stop before leaving the driveway.",
+        "For you, a good road trip starts with a map. You know when to leave, where to eat and how long is left. That's why nobody arrives hungry when you plan it.",
+        "Arriving exactly when you said you would.",
+        "Planning the departure so much it runs late.",
+        "If we leave at six, lunch is in the hills."
+      ],
+      "D": [
+        "The Detective",
+        "No mile goes by without you checking it.",
+        "You check the tyres, the oil, the forecast and whether someone forgot their licence. Nobody fools you with \"almost there\". You're the reason nobody ends up stuck on the hard shoulder.",
+        "Hearing the weird noise before anyone else.",
+        "Pulling over to check the tyres again.",
+        "Almost there how much, exactly?"
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the map, the playlist and the snacks at once.",
+        "You keep it all running together: the route, the music, everyone's snacks and the mood in the car. While the others watch the view, you keep the whole trip flowing.",
+        "Keeping the whole car happy at once.",
+        "Juggling so much you miss the exit.",
+        "Who wants biscuits? Changing the song now."
+      ],
+      "F": [
+        "The Finisher",
+        "On the road beats in the driveway.",
+        "You don't wait for the perfect plan. Bags in the boot, engine on, off you go. While the others are still debating the route, you're halfway there.",
+        "Actually getting the trip started.",
+        "Leaving without checking the bags made it in.",
+        "Let's go, we'll sort it out on the way!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the road needs: you plan when it matters, check when it's worth it, liven up the car when boredom hits and hit the road when it's time.",
+        "Being whatever the trip needs right now.",
+        "Nobody knowing which seat to give you.",
+        "Depends. Tell me where we're going."
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop talking and drive."
+    },
+    "Q": [
+      [
+        "The GPS says turn onto a dirt road. You...",
+        {
+          "A": "Already had another route saved",
+          "D": "Zoom in on the map to check",
+          "M": "Ask the group what they think",
+          "F": "Trust the GPS and go"
+        }
+      ],
+      [
+        "Before leaving home, you...",
+        {
+          "A": "Make a plan with a time for every stop",
+          "D": "Check tyres, oil and documents twice",
+          "M": "Split it up: one brings snacks, one the music",
+          "F": "Grab the keys and get in"
+        }
+      ],
+      [
+        "Someone in the back asks \"are we nearly there?\" for the fifth time. You...",
+        {
+          "A": "Show them the arrival time",
+          "D": "Work out the exact distance left",
+          "M": "Distract everyone with a game",
+          "F": "Say \"nearly\" and keep driving"
+        }
+      ],
+      [
+        "Your role on the trip is...",
+        {
+          "A": "The one who made the plan",
+          "D": "The one checking the map and the fuel",
+          "M": "The one handling music, snacks and mood",
+          "F": "The one driving the longest stretch"
+        }
+      ],
+      [
+        "The fuel light comes on. You think:",
+        {
+          "A": "\"Relax, there's a station in 20 miles\"",
+          "D": "\"How many miles left, exactly?\"",
+          "M": "\"Someone find a station while I tell the group\"",
+          "F": "\"We'll make it\""
+        }
+      ],
+      [
+        "You hit a massive traffic jam. You...",
+        {
+          "A": "Already had a back-up route",
+          "D": "Check the map to see how far it goes",
+          "M": "Put the playlist on and open the snacks",
+          "F": "Take the first exit and keep going"
+        }
+      ],
+      [
+        "Your biggest flaw on the road:",
+        {
+          "A": "I get grumpy when we go off plan",
+          "D": "I stop more often than we need to",
+          "M": "I juggle so much I miss the exit",
+          "F": "I forget something and remember on the motorway"
+        }
+      ],
+      [
+        "You've arrived! You...",
+        {
+          "A": "Note what worked for next time",
+          "D": "Check nothing's been left in the car",
+          "M": "Already planning tomorrow's day out",
+          "F": "Drop the bags and go enjoy it"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "自驾游时你是哪个泡泡？",
+    "lead": "每次自驾游都有同样的4种乘客。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "车还没开出车库，你就把每个停靠点都规划好了。",
+        "对你来说，好的自驾游从地图开始。你知道几点出发、在哪吃饭、还剩多久。所以只要你来规划，谁都不会饿着肚子到。",
+        "说几点到就几点到。",
+        "出发计划做太久，结果出发晚了。",
+        "六点出发的话，午饭就在山上吃。"
+      ],
+      "D": [
+        "侦探",
+        "每一公里你都要确认一遍。",
+        "你会检查轮胎、机油、天气预报，还有谁忘带了驾照。谁也别想用一句“快到了”糊弄你。正因为有你，才没人被困在路边。",
+        "比所有人先听到奇怪的声音。",
+        "又停下来检查一次轮胎。",
+        "“快到了”到底是还有多少公里？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管导航、歌单和零食。",
+        "你让一切同时运转：路线、音乐、每个人的零食和车里的气氛。别人只顾看风景，你让整趟旅程顺顺利利。",
+        "让全车人同时开心。",
+        "管的事太多，错过了出口。",
+        "谁要饼干？歌我马上换。"
+      ],
+      "F": [
+        "终结者",
+        "在路上胜过在车库。",
+        "你不等完美的计划。行李往后备箱一扔，发动，出发。别人还在争论走哪条路，你已经开了一半。",
+        "真正让旅行出发。",
+        "没确认行李装没装上就走了。",
+        "走吧，路上再说！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据路况切换角色：该规划时规划，该检查时检查，车里无聊时活跃气氛，该出发时马上上路。",
+        "成为此刻旅程最需要的人。",
+        "别人不知道该让你坐哪个座位。",
+        "看情况。告诉我我们去哪。"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你少说话直接开车。"
+    },
+    "Q": [
+      [
+        "导航让你开进一条土路。你……",
+        {
+          "A": "早就存了另一条路线",
+          "D": "放大地图仔细确认",
+          "M": "先问问大家的意见",
+          "F": "相信导航，直接开"
+        }
+      ],
+      [
+        "出门之前，你会……",
+        {
+          "A": "做好每个停靠点的时间表",
+          "D": "轮胎、机油、证件检查两遍",
+          "M": "分工：一个带零食，一个管音乐",
+          "F": "拿上钥匙就上车"
+        }
+      ],
+      [
+        "后座第五次问“还有多久？”你……",
+        {
+          "A": "给他看预计到达时间",
+          "D": "算出还剩多少公里",
+          "M": "带大家玩个游戏转移注意力",
+          "F": "说“快了”，继续开"
+        }
+      ],
+      [
+        "你在旅途中的角色是……",
+        {
+          "A": "做行程的那个人",
+          "D": "盯导航和油量的那个人",
+          "M": "管音乐、零食和气氛的那个人",
+          "F": "开最长一段路的那个人"
+        }
+      ],
+      [
+        "油量警示灯亮了。你心想：",
+        {
+          "A": "“放心，前面30公里有加油站”",
+          "D": "“到底还能跑多少公里？”",
+          "M": "“谁找个加油站，我在群里说一声”",
+          "F": "“开得到”"
+        }
+      ],
+      [
+        "遇到超级大堵车。你……",
+        {
+          "A": "早就准备了备用路线",
+          "D": "看地图堵到哪里",
+          "M": "放歌、拆零食",
+          "F": "从第一个出口下去继续走"
+        }
+      ],
+      [
+        "你在路上最大的毛病：",
+        {
+          "A": "一偏离计划就不开心",
+          "D": "停车次数比需要的多",
+          "M": "管的事太多，错过出口",
+          "F": "忘带东西，上了高速才想起来"
+        }
+      ],
+      [
+        "到了！你……",
+        {
+          "A": "记下哪些安排好用，下次再用",
+          "D": "检查车里有没有落东西",
+          "M": "已经在计划明天去哪玩",
+          "F": "放下行李直接去玩"
+        }
+      ]
+    ]
+  }
+}

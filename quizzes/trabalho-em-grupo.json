@@ -1,0 +1,384 @@
+{
+  "slug": "trabalho-em-grupo",
+  "criado_em": "2026-10-31",
+  "categoria": "estudos",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no trabalho em grupo?",
+    "lead": "Todo trabalho em grupo tem os mesmos 4 tipos de colega. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você dividiu as tarefas antes do professor terminar de falar.",
+        "Pra você, trabalho bom começa no cronograma. Você sabe quem faz o quê, até quando e em que ordem. Por isso, quando você organiza, ninguém descobre o prazo na véspera.",
+        "Transformar o caos num plano com datas.",
+        "Planejar tanto que o trabalho começa tarde.",
+        "Até sexta cada um manda sua parte, combinado?"
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum slide passa sem a sua revisão.",
+        "Você confere as fontes, a formatação, as regras do professor e o português de todo mundo. Ninguém te engana com uma referência inventada. É graças a você que o grupo não perde ponto bobo.",
+        "Achar o erro que todo mundo deixou passar.",
+        "Revisar tanto que a entrega fica apertada.",
+        "Calma, essa informação veio de onde?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do grupo, dos slides e da apresentação ao mesmo tempo.",
+        "Você mantém tudo andando junto: o grupo de mensagens, o documento, quem sumiu e quem apresenta. Enquanto cada um faz sua parte, você costura o trabalho inteiro.",
+        "Fazer o grupo funcionar como um time.",
+        "Acabar cuidando da parte de todo mundo.",
+        "Já atualizei o documento. Quem pode revisar?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Trabalho entregue é melhor que trabalho perfeito.",
+        "Você não espera o grupo decidir a cor do slide. Abre o documento, escreve e manda. Enquanto os outros ainda debatem o título, você já entregou.",
+        "Fazer o trabalho existir de verdade.",
+        "Entregar antes de alguém revisar.",
+        "Já mandei. Depois a gente melhora."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o grupo pede: planeja quando precisa, revisa quando vale a pena, junta todo mundo quando o grupo some e entrega quando o prazo aperta.",
+        "Ser o que o grupo precisa naquele momento.",
+        "Ninguém saber que parte te dar.",
+        "Depende. Me diz o que tá faltando."
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem revisar.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de discutir e entrega."
+    },
+    "Q": [
+      [
+        "Entrega amanhã e o grupo sumiu desde segunda. Você...",
+        {
+          "A": "Mando um plano de emergência",
+          "D": "Confiro se é amanhã mesmo",
+          "M": "Marco todo mundo no grupo",
+          "F": "Faço tudo sozinho hoje à noite"
+        }
+      ],
+      [
+        "O professor anuncia o trabalho. Você...",
+        {
+          "A": "Já divide as partes e os prazos",
+          "D": "Relê as regras e anota cada detalhe",
+          "M": "Cria o grupo e o documento compartilhado",
+          "F": "Pega uma parte e começa na hora"
+        }
+      ],
+      [
+        "Um colega manda a parte dele copiada da internet. Você...",
+        {
+          "A": "Ajusto o plano pra dar tempo de refazer",
+          "D": "Mostro de onde veio, com o link",
+          "M": "Converso com ele e a gente divide a reescrita",
+          "F": "Reescrevo eu mesmo e sigo"
+        }
+      ],
+      [
+        "Seu papel no grupo é...",
+        {
+          "A": "Quem fez o cronograma",
+          "D": "Quem revisa tudo antes de entregar",
+          "M": "Quem mantém o grupo conversando",
+          "F": "Quem aperta o botão de enviar"
+        }
+      ],
+      [
+        "Alguém pergunta: \"qual é o prazo mesmo?\" Você...",
+        {
+          "A": "Mando o cronograma fixado no grupo",
+          "D": "Mando o print da mensagem do professor",
+          "M": "Respondo e já lembro todo mundo das tarefas",
+          "F": "\"Amanhã. Bora.\""
+        }
+      ],
+      [
+        "Na véspera, o arquivo dos slides some. Você...",
+        {
+          "A": "Tenho uma cópia salva em outro lugar",
+          "D": "Procuro no histórico de versões",
+          "M": "Divido a reconstrução entre o grupo",
+          "F": "Faço slides novos em uma hora"
+        }
+      ],
+      [
+        "Seu maior defeito no trabalho em grupo:",
+        {
+          "A": "Planejo tanto que a gente começa tarde",
+          "D": "Reviso tanto que quase perco o prazo",
+          "M": "Acabo fazendo a parte de todo mundo",
+          "F": "Entrego antes de alguém revisar"
+        }
+      ],
+      [
+        "Trabalho entregue! Você...",
+        {
+          "A": "Anota o que funcionou pro próximo",
+          "D": "Confere se o arquivo chegou certinho",
+          "M": "Agradece o grupo e já marca a comemoração",
+          "F": "Fecha o notebook e vai viver"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in a group project?",
+    "lead": "Every group project has the same 4 kinds of teammate. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You split the tasks before the teacher finished talking.",
+        "For you, a good project starts with a timeline. You know who does what, by when and in what order. That's why nobody discovers the deadline the night before when you're organising.",
+        "Turning chaos into a plan with dates.",
+        "Planning so long the work starts late.",
+        "Everyone sends their part by Friday, deal?"
+      ],
+      "D": [
+        "The Detective",
+        "No slide gets past without your review.",
+        "You check the sources, the formatting, the marking criteria and everyone's spelling. Nobody fools you with a made-up reference. You're the reason the group doesn't lose silly marks.",
+        "Finding the mistake everyone else missed.",
+        "Reviewing so much the deadline gets tight.",
+        "Hang on, where did this fact come from?"
+      ],
+      "M": [
+        "The Maestro",
+        "You run the chat, the slides and the presentation at once.",
+        "You keep it all moving together: the group chat, the shared doc, who's gone quiet and who's presenting. While everyone does their bit, you stitch the whole project together.",
+        "Turning a group into a team.",
+        "Ending up doing everyone's part.",
+        "Doc's updated. Who can review it?"
+      ],
+      "F": [
+        "The Finisher",
+        "Handed in beats perfect.",
+        "You don't wait for the group to pick a slide colour. You open the doc, write it and send it. While the others are still debating the title, you've already submitted.",
+        "Making the project actually exist.",
+        "Submitting before anyone's reviewed it.",
+        "Sent it. We can improve it later."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the group needs: you plan when it matters, review when it's worth it, rally everyone when the chat goes quiet and submit when the deadline bites.",
+        "Being whatever the group needs right now.",
+        "Nobody knowing which part to give you.",
+        "Depends. Tell me what's missing."
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unreviewed.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop debating and submit."
+    },
+    "Q": [
+      [
+        "It's due tomorrow and the group's been silent since Monday. You...",
+        {
+          "A": "Send an emergency timeline",
+          "D": "Check it's really due tomorrow",
+          "M": "Tag everyone in the chat",
+          "F": "Do it all myself tonight"
+        }
+      ],
+      [
+        "The teacher announces the project. You...",
+        {
+          "A": "Split the parts and deadlines straight away",
+          "D": "Reread the brief and note every detail",
+          "M": "Set up the group chat and the shared doc",
+          "F": "Grab a part and start right now"
+        }
+      ],
+      [
+        "A teammate sends a part copied straight off the internet. You...",
+        {
+          "A": "Adjust the plan so there's time to redo it",
+          "D": "Show them where it came from, with the link",
+          "M": "Talk to them and split the rewrite",
+          "F": "Rewrite it myself and move on"
+        }
+      ],
+      [
+        "Your role in the group is...",
+        {
+          "A": "The one who made the timeline",
+          "D": "The one who reviews it all before submitting",
+          "M": "The one keeping everyone talking",
+          "F": "The one who hits submit"
+        }
+      ],
+      [
+        "Someone asks: \"when's it due again?\" You...",
+        {
+          "A": "Send the timeline pinned in the chat",
+          "D": "Send a screenshot of the teacher's message",
+          "M": "Answer and remind everyone of their tasks",
+          "F": "\"Tomorrow. Let's go.\""
+        }
+      ],
+      [
+        "The night before, the slides file disappears. You...",
+        {
+          "A": "Have a copy saved somewhere else",
+          "D": "Dig through the version history",
+          "M": "Split the rebuild across the group",
+          "F": "Make new slides in an hour"
+        }
+      ],
+      [
+        "Your biggest flaw in group projects:",
+        {
+          "A": "I plan so much we start late",
+          "D": "I review so much we nearly miss the deadline",
+          "M": "I end up doing everyone's part",
+          "F": "I submit before anyone's reviewed it"
+        }
+      ],
+      [
+        "Project submitted! You...",
+        {
+          "A": "Note what worked for next time",
+          "D": "Check the file came through properly",
+          "M": "Thank everyone and plan a celebration",
+          "F": "Close the laptop and get on with life"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "小组作业里你是哪个泡泡？",
+    "lead": "每个小组作业都有同样的4种组员。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "老师还没说完，你就已经分好工了。",
+        "对你来说，好的作业从时间表开始。你知道谁做什么、什么时候交、按什么顺序。所以只要你来组织，没人会在截止前一晚才知道要交。",
+        "把混乱变成带日期的计划。",
+        "规划太久，作业开始得太晚。",
+        "周五前每人交自己那部分，可以吗？"
+      ],
+      "D": [
+        "侦探",
+        "没有一页PPT能逃过你的检查。",
+        "你会检查资料来源、格式、评分标准，还有每个人的错别字。谁也别想用编出来的参考文献糊弄你。正因为有你，小组才不会丢冤枉分。",
+        "找到所有人都没发现的错误。",
+        "检查太久，截止时间变得很紧。",
+        "等等，这个数据是从哪来的？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管群聊、PPT和展示。",
+        "你让一切同时推进：群聊、共享文档、谁消失了、谁上台讲。每个人做自己那部分，你把整个作业串起来。",
+        "把一群人变成一个团队。",
+        "最后把所有人的部分都做了。",
+        "文档更新好了，谁来检查一下？"
+      ],
+      "F": [
+        "终结者",
+        "交上去胜过完美。",
+        "你不等大家决定PPT用什么颜色。打开文档、写完、发出去。别人还在讨论标题，你已经交了。",
+        "让作业真正存在。",
+        "还没人检查就交了。",
+        "交了。之后再改。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据小组的需要切换角色：该规划时规划，该检查时检查，群里没人说话时把大家叫回来，截止时间一到就提交。",
+        "成为此刻小组最需要的人。",
+        "别人不知道该分给你哪部分。",
+        "看情况。告诉我还缺什么。"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你不再讨论，直接提交。"
+    },
+    "Q": [
+      [
+        "明天就要交，群里从周一起就没人说话。你……",
+        {
+          "A": "发一份紧急时间表",
+          "D": "先确认是不是真的明天交",
+          "M": "在群里@所有人",
+          "F": "今晚自己全做完"
+        }
+      ],
+      [
+        "老师布置了小组作业。你……",
+        {
+          "A": "马上分好每人的部分和期限",
+          "D": "重读要求，记下每个细节",
+          "M": "建群，建共享文档",
+          "F": "领一部分，马上开工"
+        }
+      ],
+      [
+        "组员交来的部分是从网上直接复制的。你……",
+        {
+          "A": "调整计划，留出重写的时间",
+          "D": "把原文链接发给他看",
+          "M": "和他聊聊，一起分担重写",
+          "F": "自己重写，继续往下"
+        }
+      ],
+      [
+        "你在小组里的角色是……",
+        {
+          "A": "做时间表的那个人",
+          "D": "提交前全部检查一遍的那个人",
+          "M": "让大家保持沟通的那个人",
+          "F": "按下提交键的那个人"
+        }
+      ],
+      [
+        "有人问：“到底什么时候交？”你……",
+        {
+          "A": "发群里置顶的时间表",
+          "D": "发老师消息的截图",
+          "M": "回答并提醒每个人的任务",
+          "F": "“明天。开干。”"
+        }
+      ],
+      [
+        "截止前一晚，PPT文件不见了。你……",
+        {
+          "A": "我在别处存了备份",
+          "D": "去翻版本历史记录",
+          "M": "把重做的工作分给大家",
+          "F": "一小时做一份新的"
+        }
+      ],
+      [
+        "你做小组作业最大的毛病：",
+        {
+          "A": "规划太多，开始得太晚",
+          "D": "检查太久，差点错过截止时间",
+          "M": "最后把所有人的部分都做了",
+          "F": "还没人检查就交了"
+        }
+      ],
+      [
+        "作业交了！你……",
+        {
+          "A": "记下哪些做法有用，下次再用",
+          "D": "确认文件有没有成功提交",
+          "M": "感谢大家，再约个庆祝",
+          "F": "合上电脑，享受生活"
+        }
+      ]
+    ]
+  }
+}
