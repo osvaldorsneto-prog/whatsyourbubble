@@ -1,18 +1,18 @@
 {
   "fonte": "https://whatsyourbubble.com/ai/painel-7q3x.php",
-  "atualizado_em": "2026-10-30T18:42:49Z",
+  "atualizado_em": "2026-10-31T09:36:59Z",
   "resumo": {
-    "visitas": 47,
-    "começaram": 17,
-    "terminaram": 13,
+    "visitas": 54,
+    "começaram": 22,
+    "terminaram": 18,
     "ações de compartilhar": 1,
     "chegaram por link de amigo": 3
   },
   "perfis": {
-    "Arquiteto": 1,
-    "Detetive": 5,
+    "Arquiteto": 3,
+    "Detetive": 7,
     "Maestro": 5,
-    "Finalizador": 2,
+    "Finalizador": 3,
     "Secreta": 0
   },
   "compartilhamento": {
@@ -27,25 +27,50 @@
     "LinkedIn": 0
   },
   "idiomas": {
-    "Português": 17,
+    "Português": 22,
     "English": 0,
     "中文": 0
   },
   "por_quiz": [
     {
-      "Quiz": "churrasco",
-      "Visitas": 12,
+      "Quiz": "ia",
+      "Visitas": 15,
       "Começaram": 8,
-      "Terminaram": 5
+      "Terminaram": 7
     },
     {
-      "Quiz": "ia",
-      "Visitas": 12,
-      "Começaram": 7,
+      "Quiz": "churrasco",
+      "Visitas": 13,
+      "Começaram": 9,
       "Terminaram": 6
+    },
+    {
+      "Quiz": "viagem-de-carro",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 1
+    },
+    {
+      "Quiz": "trabalho-em-grupo",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 1
+    },
+    {
+      "Quiz": "mudanca",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 1
     }
   ],
   "por_dia": [
+    {
+      "Dia": "2026-10-31",
+      "Visitas": 7,
+      "Começaram": 5,
+      "Terminaram": 5,
+      "Amigo": 0
+    },
     {
       "Dia": "2026-10-30",
       "Visitas": 39,
