@@ -65,7 +65,10 @@ def wrap(d, s, font, maxw):
     lines, cur = [], ''
     for p in parts:
         test = (cur + ('' if cjk else ' ') + p) if cur else p
-        if d.textlength(test, font=font) > maxw and cur: lines.append(cur); cur = p
+        if d.textlength(test, font=font) > maxw and cur:
+            # chinês: pontuação de fechamento não pode começar linha, leva o caractere anterior junto
+            if cjk and p in '？！，。、：；）」』…?!,.:;)' and len(cur) > 1: lines.append(cur[:-1]); cur = cur[-1] + p
+            else: lines.append(cur); cur = p
         else: cur = test
     lines.append(cur); return '\n'.join(lines)
 
