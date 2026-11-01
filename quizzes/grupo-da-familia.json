@@ -1,0 +1,384 @@
+{
+  "slug": "grupo-da-familia",
+  "criado_em": "2026-11-01",
+  "categoria": "familia",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é no grupo da família?",
+    "lead": "Todo grupo da família tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você organiza o aniversário da tia com três semanas de antecedência.",
+        "Pra você, o grupo da família serve pra combinar as coisas direito. Você cria a enquete da data, fixa o endereço e lembra todo mundo um dia antes. Por isso os encontros da família acontecem.",
+        "Transformar 47 mensagens num plano.",
+        "Mandar a enquete antes de todo mundo acordar.",
+        "Pessoal, votem na enquete até sexta."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma corrente passa por você sem checagem.",
+        "Você lê tudo, confere a fonte e avisa quando a notícia é de anos atrás. Também é quem descobre de quem é o número novo no grupo. Graças a você, a família não cai em pegadinha.",
+        "Desmentir boato com educação.",
+        "Responder uma figurinha de bom dia com um link.",
+        "Isso aí é de 2019, tia."
+      ],
+      "M": [
+        "O Maestro",
+        "Você responde o tio, a avó e a prima ao mesmo tempo.",
+        "Você mantém o grupo vivo: dá parabéns, manda foto, responde áudio e ainda chama quem sumiu. Enquanto os outros só leem, você faz a família conversar.",
+        "Deixar todo mundo por dentro de tudo.",
+        "Ter 300 mensagens não lidas e responder todas.",
+        "Viu a foto que a vó mandou? Responde ela!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você resolve no privado em duas mensagens.",
+        "Você não entra na discussão de 80 mensagens sobre quem leva o quê. Lê o resumo, diz \"eu levo a sobremesa\" e pronto. Enquanto o grupo debate, você já resolveu.",
+        "Fechar o assunto que ninguém fechava.",
+        "Responder só \"ok\" e parecer bravo.",
+        "Ok. Eu levo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o grupo pede: organiza quando tem festa, confere quando chega boato, anima quando o grupo esfria e resolve quando a conversa trava.",
+        "Ser o que a família precisa naquele momento.",
+        "Ninguém saber se você vai responder.",
+        "Depende. Do que a gente tá falando?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo combinado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil conversas ao mesmo tempo.",
+      "F": "na hora certa, você para de ler e resolve."
+    },
+    "Q": [
+      [
+        "A tia manda um áudio de 7 minutos. Você...",
+        {
+          "A": "Anoto os pontos principais",
+          "D": "Ouço em 2x pra não perder nada",
+          "M": "Ouço enquanto respondo o primo",
+          "F": "Respondo \"kkk verdade\""
+        }
+      ],
+      [
+        "Alguém propõe um almoço no domingo. Você...",
+        {
+          "A": "Crio uma enquete com data e horário",
+          "D": "Pergunto quem vai mesmo, porque sempre alguém some",
+          "M": "Chamo todo mundo e já divido quem leva o quê",
+          "F": "Digo \"tô dentro\" e apareço"
+        }
+      ],
+      [
+        "Chega uma mensagem pedindo pra repassar pra 10 pessoas. Você...",
+        {
+          "A": "Ignoro, meu dia já tá planejado",
+          "D": "Procuro a origem e explico que é falsa",
+          "M": "Aviso a família toda com carinho",
+          "F": "Apago e sigo a vida"
+        }
+      ],
+      [
+        "Seu papel no grupo da família é...",
+        {
+          "A": "Quem lembra dos aniversários",
+          "D": "Quem confere se a notícia é verdade",
+          "M": "Quem responde todo mundo",
+          "F": "Quem resolve as coisas no privado"
+        }
+      ],
+      [
+        "Alguém posta 40 fotos da viagem. Você...",
+        {
+          "A": "Salvo numa pasta organizada por data",
+          "D": "Dou zoom pra ver quem tá em cada uma",
+          "M": "Comento em várias e marco os primos",
+          "F": "Mando um coração e pronto"
+        }
+      ],
+      [
+        "O nome e a foto do grupo mudam do nada. Você...",
+        {
+          "A": "Sugiro uma regra pra mudar o nome",
+          "D": "Investigo quem foi",
+          "M": "Aproveito e mando uma foto melhor",
+          "F": "Nem reparo, sigo respondendo"
+        }
+      ],
+      [
+        "Seu maior defeito no grupo:",
+        {
+          "A": "Mando lembrete do lembrete",
+          "D": "Corrijo até erro de digitação",
+          "M": "Respondo tanto que o grupo vira meu",
+          "F": "Respondo só \"ok\""
+        }
+      ],
+      [
+        "Fim do almoço de família. Você...",
+        {
+          "A": "Anoto o que dá pra melhorar no próximo",
+          "D": "Confiro se ninguém esqueceu nada",
+          "M": "Mando no grupo as fotos de todo mundo",
+          "F": "Pego um prato de sobra e vou pra casa"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in the family group chat?",
+    "lead": "Every family group chat has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You plan your aunt's birthday three weeks ahead.",
+        "For you, the family chat is for getting things sorted. You set up the poll, pin the address and remind everyone the day before. That's why family get-togethers actually happen.",
+        "Turning 47 messages into one plan.",
+        "Sending a poll before anyone's awake.",
+        "Everyone, vote in the poll by Friday."
+      ],
+      "D": [
+        "The Detective",
+        "No chain message gets past you unchecked.",
+        "You read everything, check the source and point out when the news is years old. You're also the one who works out whose new number just joined. Thanks to you, the family never falls for a hoax.",
+        "Debunking rumours politely.",
+        "Replying to a good-morning sticker with a link.",
+        "That's from 2019, Auntie."
+      ],
+      "M": [
+        "The Maestro",
+        "You reply to your uncle, gran and cousin all at once.",
+        "You keep the chat alive: birthday wishes, photos, voice notes and nudging whoever's gone quiet. While others just lurk, you get the family talking.",
+        "Keeping everyone in the loop.",
+        "Having 300 unread messages and answering every one.",
+        "Did you see Gran's photo? Reply to her!"
+      ],
+      "F": [
+        "The Finisher",
+        "You sort it out privately in two messages.",
+        "You skip the 80-message debate about who's bringing what. You read the gist, say \"I'll bring dessert\" and that's it. While the chat argues, you've already settled it.",
+        "Closing the topic nobody could close.",
+        "Replying \"ok\" and sounding annoyed.",
+        "Ok. I'll bring it."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the chat needs: you organise when there's a party, fact-check when a rumour lands, liven things up when it goes quiet and settle it when the conversation gets stuck.",
+        "Being whatever the family needs right now.",
+        "Nobody knowing if you'll reply.",
+        "Depends. What are we talking about?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything agreed in advance.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand chats at once.",
+      "F": "when it counts, you stop reading and sort it."
+    },
+    "Q": [
+      [
+        "Your aunt sends a 7-minute voice note. You...",
+        {
+          "A": "Note down the key points",
+          "D": "Play it at 2x so I miss nothing",
+          "M": "Listen while texting my cousin",
+          "F": "Reply \"haha so true\""
+        }
+      ],
+      [
+        "Someone suggests Sunday lunch. You...",
+        {
+          "A": "Make a poll with dates and times",
+          "D": "Ask who's really coming, someone always vanishes",
+          "M": "Invite everyone and split who brings what",
+          "F": "Say \"I'm in\" and just turn up"
+        }
+      ],
+      [
+        "A message says \"forward this to 10 people\". You...",
+        {
+          "A": "Ignore it, my day's already planned",
+          "D": "Find where it came from and explain it's fake",
+          "M": "Kindly warn the whole family",
+          "F": "Delete it and move on"
+        }
+      ],
+      [
+        "Your role in the family chat is...",
+        {
+          "A": "The one who remembers birthdays",
+          "D": "The one who checks if the news is true",
+          "M": "The one who replies to everyone",
+          "F": "The one who sorts things out privately"
+        }
+      ],
+      [
+        "Someone posts 40 holiday photos. You...",
+        {
+          "A": "Save them in a folder sorted by date",
+          "D": "Zoom in to see who's in each one",
+          "M": "Comment on loads and tag the cousins",
+          "F": "Send one heart and done"
+        }
+      ],
+      [
+        "The chat's name and photo change out of nowhere. You...",
+        {
+          "A": "Suggest a rule for renaming it",
+          "D": "Investigate who did it",
+          "M": "Take the chance to post a better photo",
+          "F": "Don't even notice, just keep replying"
+        }
+      ],
+      [
+        "Your biggest flaw in the family chat:",
+        {
+          "A": "I send reminders about the reminders",
+          "D": "I correct even typos",
+          "M": "I reply so much it becomes my chat",
+          "F": "I only ever reply \"ok\""
+        }
+      ],
+      [
+        "Family lunch is over. You...",
+        {
+          "A": "Note what to do better next time",
+          "D": "Check nobody left anything behind",
+          "M": "Post everyone's photos in the chat",
+          "F": "Grab a plate of leftovers and head home"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "家族群里你是哪个泡泡？",
+    "lead": "每个家族群都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "姑妈的生日，你提前三周就安排好了。",
+        "对你来说，家族群就是用来把事情商量清楚的。你发起投票、置顶地址，提前一天提醒所有人。所以家庭聚会才能真的办成。",
+        "把47条消息变成一个计划。",
+        "大家还没起床，你的投票已经发了。",
+        "各位，周五前记得投票。"
+      ],
+      "D": [
+        "侦探",
+        "没有一条转发能不经你核实就过关。",
+        "你每条都看，查来源，还会提醒大家这条新闻早就过时了。群里多了个新号码，也是你先查出是谁。有你在，全家都不会上当。",
+        "客客气气地辟谣。",
+        "别人发早安表情包，你回一个链接。",
+        "姑妈，这是2019年的消息了。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时回复舅舅、奶奶和表妹。",
+        "你让群一直热闹：祝生日、发照片、回语音，还把潜水的人叫出来。别人只看不说，你让一家人聊起来。",
+        "让每个人都知道最新情况。",
+        "攒了300条未读，还每条都回。",
+        "看到奶奶发的照片了吗？快回她！"
+      ],
+      "F": [
+        "终结者",
+        "你私聊两句就把事情搞定。",
+        "大家为谁带什么聊了80条，你不参与。你看个大概，说一句“我带甜点”，就结束了。群里还在讨论，你已经解决了。",
+        "把没人能收尾的话题收尾。",
+        "只回一个“好”，像是生气了。",
+        "好。我带。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据群里的需要切换角色：有聚会就组织，有谣言就核实，群冷了就活跃气氛，聊卡住了就拍板。",
+        "成为此刻家人最需要的人。",
+        "没人知道你会不会回消息。",
+        "看情况。我们在聊什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都提前商量好。",
+      "D": "你不会让任何消息不经核实就过关。",
+      "M": "你能同时照顾一千个对话。",
+      "F": "关键时刻，你不再刷屏，直接拍板。"
+    },
+    "Q": [
+      [
+        "姑妈发了一条7分钟的语音。你……",
+        {
+          "A": "记下重点",
+          "D": "开2倍速，一个字都不漏",
+          "M": "一边听一边回表哥",
+          "F": "回一句“哈哈说得对”"
+        }
+      ],
+      [
+        "有人提议周日聚餐。你……",
+        {
+          "A": "发起投票，列好日期和时间",
+          "D": "先问到底谁会来，总有人消失",
+          "M": "把人都叫上，顺便分好谁带什么",
+          "F": "说“我去”，然后准时出现"
+        }
+      ],
+      [
+        "群里有条消息说“转发给10个人”。你……",
+        {
+          "A": "无视，我今天的安排已经定了",
+          "D": "查出处，告诉大家是假的",
+          "M": "温柔地提醒全家别信",
+          "F": "删掉，继续过日子"
+        }
+      ],
+      [
+        "你在家族群里的角色是……",
+        {
+          "A": "记得每个人生日的那个人",
+          "D": "核实新闻真假的那个人",
+          "M": "每个人都回复的那个人",
+          "F": "私下把事情办好的那个人"
+        }
+      ],
+      [
+        "有人一口气发了40张旅游照片。你……",
+        {
+          "A": "按日期存进文件夹",
+          "D": "放大看看每张里都有谁",
+          "M": "评论好几张，还@了表亲们",
+          "F": "回一个爱心，完事"
+        }
+      ],
+      [
+        "群名和群头像突然被改了。你……",
+        {
+          "A": "建议定个改群名的规矩",
+          "D": "调查是谁改的",
+          "M": "趁机换一张更好看的",
+          "F": "根本没注意，继续聊"
+        }
+      ],
+      [
+        "你在家族群里最大的毛病：",
+        {
+          "A": "提醒完还要再提醒",
+          "D": "连错别字都要纠正",
+          "M": "回得太多，群都快成我的了",
+          "F": "永远只回一个“好”"
+        }
+      ],
+      [
+        "家庭聚餐结束了。你……",
+        {
+          "A": "记下下次可以改进的地方",
+          "D": "检查有没有人落下东西",
+          "M": "把每个人的照片都发到群里",
+          "F": "打包一盘剩菜回家"
+        }
+      ]
+    ]
+  }
+}

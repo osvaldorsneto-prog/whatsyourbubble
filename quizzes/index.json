@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "pet",
+   "url": "/q/?s=pet",
+   "criado_em": "2026-11-01",
+   "categoria": "pets",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é com seu pet?",
+    "en": "What's your bubble as a pet owner?",
+    "zh": "养宠物时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "noite-de-jogos",
+   "url": "/q/?s=noite-de-jogos",
+   "criado_em": "2026-11-01",
+   "categoria": "jogos",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é na noite de jogos?",
+    "en": "What's your bubble at games night?",
+    "zh": "桌游之夜你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "grupo-da-familia",
+   "url": "/q/?s=grupo-da-familia",
+   "criado_em": "2026-11-01",
+   "categoria": "familia",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é no grupo da família?",
+    "en": "What's your bubble in the family group chat?",
+    "zh": "家族群里你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "viagem-de-carro",
    "url": "/q/?s=viagem-de-carro",
    "criado_em": "2026-10-31",

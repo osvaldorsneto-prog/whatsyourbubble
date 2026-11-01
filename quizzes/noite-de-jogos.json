@@ -1,0 +1,384 @@
+{
+  "slug": "noite-de-jogos",
+  "criado_em": "2026-11-01",
+  "categoria": "jogos",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é na noite de jogos?",
+    "lead": "Toda noite de jogos de tabuleiro tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já tem a estratégia antes de abrir a caixa.",
+        "Pra você, jogo bom começa no plano. Você lê as regras antes, pensa três jogadas à frente e sabe exatamente o que quer. Por isso é tão difícil ganhar de você.",
+        "Ver a jogada vencedora cinco rodadas antes.",
+        "Pensar tanto que a sua vez demora uma eternidade.",
+        "Calma, deixa eu pensar na minha jogada."
+      ],
+      "D": [
+        "O Detetive",
+        "Você leu o manual inteiro e cita a página 12.",
+        "Você confere as regras, conta os pontos e percebe quando alguém pega uma carta a mais. Com você, ninguém leva vantagem. É graças a você que o jogo é justo.",
+        "Saber a regra que ninguém lembra.",
+        "Parar o jogo pra conferir o manual de novo.",
+        "Peraí, isso não pode. Tá aqui na regra."
+      ],
+      "M": [
+        "O Maestro",
+        "Você joga, explica as regras e cuida dos petiscos.",
+        "Você mantém a noite rodando: ensina quem chegou, distribui as peças, enche os copos e ainda joga bem. Enquanto os outros pensam na vez, você cuida da mesa toda.",
+        "Deixar a noite divertida pra todo mundo.",
+        "Esquecer que era a sua vez.",
+        "É sua vez! Alguém quer mais pipoca?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você joga rápido e ainda ganha.",
+        "Você não fica horas pensando na jogada. Olha a mesa, decide e joga. Enquanto os outros calculam, você já passou a vez e tá na frente.",
+        "Manter o jogo andando.",
+        "Jogar tão rápido que esquece uma carta na mão.",
+        "Pronto, joguei. Próximo!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o jogo pede: planeja quando a partida é longa, confere quando a regra é chata, anima quando a mesa esfria e decide rápido quando precisa.",
+        "Ser o jogador que a mesa precisa naquele momento.",
+        "Ninguém conseguir prever sua jogada.",
+        "Depende. Qual é o jogo de hoje?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de pensar e joga."
+    },
+    "Q": [
+      [
+        "Alguém diz \"esse jogo é rapidinho\". Você...",
+        {
+          "A": "Já monto minha estratégia",
+          "D": "Leio o manual de 40 páginas",
+          "M": "Chamo mais gente e faço pipoca",
+          "F": "Já tô jogando"
+        }
+      ],
+      [
+        "Hora de escolher o jogo. Você...",
+        {
+          "A": "Sugiro um que eu já sei como ganhar",
+          "D": "Confiro se tem todas as peças na caixa",
+          "M": "Escolho um que todo mundo consegue jogar",
+          "F": "Pego o primeiro da pilha"
+        }
+      ],
+      [
+        "Alguém faz uma jogada meio suspeita. Você...",
+        {
+          "A": "Ajusto meu plano pra próxima rodada",
+          "D": "Abro o manual na hora",
+          "M": "Faço uma piada e o jogo segue",
+          "F": "Deixo passar e jogo minha vez"
+        }
+      ],
+      [
+        "Seu papel na noite de jogos é...",
+        {
+          "A": "Quem pensa três jogadas à frente",
+          "D": "Quem conta os pontos",
+          "M": "Quem explica as regras e cuida da mesa",
+          "F": "Quem mantém o jogo andando"
+        }
+      ],
+      [
+        "Falta uma peça na caixa. Você...",
+        {
+          "A": "Já penso numa adaptação da regra",
+          "D": "Procuro em todo canto até achar",
+          "M": "Ponho todo mundo pra procurar e sirvo os petiscos",
+          "F": "Uso uma tampinha no lugar e bora"
+        }
+      ],
+      [
+        "Você tá perdendo feio. Você...",
+        {
+          "A": "Mudo a estratégia pra virar no final",
+          "D": "Reconto os pontos, vai que...",
+          "M": "Ajudo os outros e me divirto mesmo assim",
+          "F": "Jogo rápido pra começar outra"
+        }
+      ],
+      [
+        "Seu maior defeito na noite de jogos:",
+        {
+          "A": "Demoro uma eternidade na minha vez",
+          "D": "Paro o jogo pra conferir a regra",
+          "M": "Esqueço que é minha vez",
+          "F": "Jogo antes de pensar direito"
+        }
+      ],
+      [
+        "Fim da partida. Você...",
+        {
+          "A": "Analiso onde podia ter jogado melhor",
+          "D": "Confiro se todas as peças voltaram pra caixa",
+          "M": "Já proponho a revanche",
+          "F": "Guardo tudo e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at games night?",
+    "lead": "Every board games night has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You've got a strategy before the box is open.",
+        "For you, a good game starts with a plan. You read the rules in advance, think three moves ahead and know exactly what you're after. That's why you're so hard to beat.",
+        "Seeing the winning move five rounds early.",
+        "Thinking so long your turn takes forever.",
+        "Hang on, let me think about my move."
+      ],
+      "D": [
+        "The Detective",
+        "You've read the whole rulebook and quote page 12.",
+        "You check the rules, count the points and notice when someone draws an extra card. With you at the table, nobody gets away with anything. You're the reason the game stays fair.",
+        "Knowing the rule nobody remembers.",
+        "Pausing the game to check the rulebook again.",
+        "Wait, you can't do that. It's right here in the rules."
+      ],
+      "M": [
+        "The Maestro",
+        "You play, explain the rules and handle the snacks.",
+        "You keep the night running: teaching newcomers, handing out pieces, topping up drinks and still playing well. While others plan their turn, you look after the whole table.",
+        "Making the night fun for everyone.",
+        "Forgetting it was your turn.",
+        "Your turn! Anyone want more popcorn?"
+      ],
+      "F": [
+        "The Finisher",
+        "You play fast and still win.",
+        "You don't spend ages on a move. You look at the board, decide and play. While others are still calculating, you've finished your turn and pulled ahead.",
+        "Keeping the game moving.",
+        "Playing so fast you forget a card in your hand.",
+        "Done, played. Next!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the game needs: you plan when it's a long one, check when the rules get fiddly, liven things up when the table goes quiet and decide fast when it counts.",
+        "Being the player the table needs right now.",
+        "Nobody being able to predict your move.",
+        "Depends. What are we playing tonight?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop thinking and play."
+    },
+    "Q": [
+      [
+        "Someone says \"this game's really quick\". You...",
+        {
+          "A": "Start planning my strategy",
+          "D": "Read the 40-page rulebook",
+          "M": "Invite more people and make popcorn",
+          "F": "Already playing"
+        }
+      ],
+      [
+        "Time to pick a game. You...",
+        {
+          "A": "Suggest one I already know how to win",
+          "D": "Check all the pieces are in the box",
+          "M": "Pick one everyone can play",
+          "F": "Grab the one on top of the pile"
+        }
+      ],
+      [
+        "Someone makes a slightly dodgy move. You...",
+        {
+          "A": "Adjust my plan for the next round",
+          "D": "Open the rulebook right away",
+          "M": "Crack a joke and keep the game going",
+          "F": "Let it go and take my turn"
+        }
+      ],
+      [
+        "Your role at games night is...",
+        {
+          "A": "The one thinking three moves ahead",
+          "D": "The one keeping score",
+          "M": "The one explaining rules and looking after the table",
+          "F": "The one keeping the game moving"
+        }
+      ],
+      [
+        "A piece is missing from the box. You...",
+        {
+          "A": "Work out a rule tweak to cover it",
+          "D": "Search every corner until I find it",
+          "M": "Get everyone looking while I serve snacks",
+          "F": "Use a bottle cap instead and crack on"
+        }
+      ],
+      [
+        "You're losing badly. You...",
+        {
+          "A": "Change strategy for a late comeback",
+          "D": "Recount the points, just in case",
+          "M": "Help the others and have fun anyway",
+          "F": "Play fast so we can start another"
+        }
+      ],
+      [
+        "Your biggest flaw at games night:",
+        {
+          "A": "My turns take forever",
+          "D": "I pause the game to check the rules",
+          "M": "I forget it's my turn",
+          "F": "I play before I've really thought"
+        }
+      ],
+      [
+        "Game over. You...",
+        {
+          "A": "Analyse where I could have played better",
+          "D": "Check every piece went back in the box",
+          "M": "Already calling for a rematch",
+          "F": "Pack it all up and done"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "桌游之夜你是哪个泡泡？",
+    "lead": "每次桌游之夜都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "盒子还没打开，你的战术就想好了。",
+        "对你来说，好游戏从计划开始。你提前读规则，想到三步之后，清楚知道自己要什么。所以想赢你可太难了。",
+        "提前五轮看到制胜的一步。",
+        "想太久，轮到你时大家等到天荒地老。",
+        "等等，让我想想这步怎么走。"
+      ],
+      "D": [
+        "侦探",
+        "你把规则书全看完了，还能引用第12页。",
+        "你核对规则、计算分数，有人多摸一张牌你立刻发现。有你在，谁也别想占便宜。正因为有你，游戏才公平。",
+        "记得那条没人记得的规则。",
+        "又停下游戏去翻规则书。",
+        "等等，这样不行。规则里写着呢。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边玩，一边讲规则，还管着零食。",
+        "你让整晚转起来：教新来的、发配件、添饮料，自己还玩得不错。别人在想自己的回合，你在照顾整张桌子。",
+        "让每个人都玩得开心。",
+        "忘了轮到自己了。",
+        "轮到你了！谁还要爆米花？"
+      ],
+      "F": [
+        "终结者",
+        "你出手快，还能赢。",
+        "你不会为一步想半天。看一眼局面，决定，出手。别人还在算，你已经走完一轮还领先了。",
+        "让游戏一直进行下去。",
+        "出得太快，手里还忘了一张牌。",
+        "好了，出完了。下一个！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据游戏的需要切换角色：长局时做规划，规则复杂时来核对，冷场时活跃气氛，需要快时果断出手。",
+        "成为此刻牌桌最需要的玩家。",
+        "没人猜得到你下一步。",
+        "看情况。今晚玩什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你少想多做，直接出手。"
+    },
+    "Q": [
+      [
+        "有人说“这游戏很快的”。你……",
+        {
+          "A": "开始规划我的战术",
+          "D": "读完40页的规则书",
+          "M": "多叫几个人，再做点爆米花",
+          "F": "已经开始玩了"
+        }
+      ],
+      [
+        "选游戏的时候，你……",
+        {
+          "A": "推荐一个我知道怎么赢的",
+          "D": "检查盒子里配件齐不齐",
+          "M": "选一个大家都能玩的",
+          "F": "拿最上面那盒"
+        }
+      ],
+      [
+        "有人走了一步有点可疑的棋。你……",
+        {
+          "A": "调整我下一轮的计划",
+          "D": "马上翻开规则书",
+          "M": "开个玩笑，让游戏继续",
+          "F": "算了，轮到我就出"
+        }
+      ],
+      [
+        "你在桌游之夜的角色是……",
+        {
+          "A": "想到三步之后的那个人",
+          "D": "负责记分的那个人",
+          "M": "讲规则、照顾全桌的那个人",
+          "F": "让游戏不停的那个人"
+        }
+      ],
+      [
+        "盒子里少了一个配件。你……",
+        {
+          "A": "想个规则变通一下",
+          "D": "翻遍每个角落直到找到",
+          "M": "让大家一起找，我去端零食",
+          "F": "拿个瓶盖代替，继续玩"
+        }
+      ],
+      [
+        "你输得很惨。你……",
+        {
+          "A": "换个战术，争取最后翻盘",
+          "D": "再算一遍分，万一呢",
+          "M": "帮帮别人，照样玩得开心",
+          "F": "快点打完，好开下一局"
+        }
+      ],
+      [
+        "你在桌游之夜最大的毛病：",
+        {
+          "A": "每次轮到我都要想很久",
+          "D": "停下游戏去查规则",
+          "M": "忘了轮到自己",
+          "F": "还没想清楚就出手"
+        }
+      ],
+      [
+        "一局结束了。你……",
+        {
+          "A": "复盘哪里可以下得更好",
+          "D": "检查每个配件都放回盒子了",
+          "M": "马上提议再来一局",
+          "F": "收拾好，完事"
+        }
+      ]
+    ]
+  }
+}

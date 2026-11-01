@@ -1,0 +1,384 @@
+{
+  "slug": "pet",
+  "criado_em": "2026-11-01",
+  "categoria": "pets",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é com seu pet?",
+    "lead": "Todo dono de pet é de um destes 4 tipos. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Seu pet tem rotina, cardápio e agenda de passeio.",
+        "Pra você, cuidar de pet começa no planejamento. Você sabe a hora da ração, a data da vacina e quando o banho tá chegando. Por isso nada falta pro seu bichinho.",
+        "Nunca esquecer a data da vacina.",
+        "Fazer planilha até da hora da soneca.",
+        "Já são sete horas. Hora da ração."
+      ],
+      "D": [
+        "O Detetive",
+        "Você sabe quem derrubou o vaso só pelo olhar.",
+        "Você repara em tudo: se ele comeu menos, se o pelo mudou, se a almofada tá mordida. Nada escapa. É graças a você que o pet tá sempre bem cuidado.",
+        "Perceber qualquer mudança antes de todo mundo.",
+        "Investigar cada barulho às três da manhã.",
+        "Quem mexeu no meu chinelo?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você passeia, brinca e responde mensagem ao mesmo tempo.",
+        "Você dá conta do pet, da casa e da vida junto. Joga a bolinha com uma mão e põe a ração com a outra. Com você, o bichinho nunca fica de lado.",
+        "Fazer tudo caber no mesmo dia.",
+        "Se enrolar na guia tentando fazer três coisas.",
+        "Calma, já vou! Só termino aqui."
+      ],
+      "F": [
+        "O Finalizador",
+        "Ele pediu, você resolveu.",
+        "Você não pensa duas vezes: o pet quer passear, você pega a guia. Quer comer, a ração já tá no pote. Enquanto outros pesquisam, seu bichinho já tá feliz.",
+        "Atender o pet na hora.",
+        "Ceder a todo olhar pidão.",
+        "Bora! Pega a guia."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o pet pede: planeja quando tem viagem, observa quando ele tá quieto, se divide quando o dia aperta e resolve quando ele pede.",
+        "Ser o que o pet precisa naquele momento.",
+        "Nem o pet saber o que esperar de você.",
+        "Depende. O que ele aprontou agora?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo na rotina.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de pensar e faz."
+    },
+    "Q": [
+      [
+        "Seu pet te encara às 6 da manhã. Você...",
+        {
+          "A": "Ele sabe: ração só às sete",
+          "D": "Investigo o que ele quer",
+          "M": "Dou ração, abro a janela e vejo o celular",
+          "F": "Levanto e dou a ração"
+        }
+      ],
+      [
+        "Hora de comprar um brinquedo novo. Você...",
+        {
+          "A": "Pesquiso qual dura mais",
+          "D": "Leio as avaliações e confiro o material",
+          "M": "Compro três e um pro pet do vizinho",
+          "F": "Pego o que tiver e levo"
+        }
+      ],
+      [
+        "Você chega em casa e a almofada tá destruída. Você...",
+        {
+          "A": "Penso numa rotina pra ele gastar energia",
+          "D": "Analiso as pistas pra achar o culpado",
+          "M": "Limpo, faço carinho e guardo as outras",
+          "F": "Junto o enchimento e bola pra frente"
+        }
+      ],
+      [
+        "Seu papel na vida do pet é...",
+        {
+          "A": "Quem cuida da agenda",
+          "D": "Quem repara em tudo",
+          "M": "Quem brinca, passeia e alimenta",
+          "F": "Quem atende qualquer pedido"
+        }
+      ],
+      [
+        "Você vai viajar e o pet fica. Você...",
+        {
+          "A": "Deixo uma lista com horários e instruções",
+          "D": "Peço foto dele a cada duas horas",
+          "M": "Combino com três pessoas pra revezar",
+          "F": "Deixo com quem eu confio e vou tranquilo"
+        }
+      ],
+      [
+        "Na hora do passeio, você...",
+        {
+          "A": "Já sei o trajeto e quanto tempo dura",
+          "D": "Fico de olho em tudo que ele cheira",
+          "M": "Passeio, converso com o vizinho e atendo ligação",
+          "F": "Pego a guia e saio"
+        }
+      ],
+      [
+        "Seu maior defeito como dono de pet:",
+        {
+          "A": "Planejo tanto que ele fica esperando",
+          "D": "Investigo cada barulho estranho",
+          "M": "Faço tanta coisa que esqueço o petisco",
+          "F": "Cedo a todo olhar pidão"
+        }
+      ],
+      [
+        "Fim do dia, o pet dorme no seu pé. Você...",
+        {
+          "A": "Já penso no passeio de amanhã",
+          "D": "Confiro se ele comeu tudo direitinho",
+          "M": "Tiro foto e mando pra todo mundo",
+          "F": "Durmo também e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble as a pet owner?",
+    "lead": "Every pet owner is one of these 4 types. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your pet has a routine, a menu and a walk schedule.",
+        "For you, looking after a pet starts with a plan. You know feeding time, the vaccine date and when bath day's coming. That's why your pet never goes without.",
+        "Never forgetting the vaccine date.",
+        "Making a spreadsheet for nap times too.",
+        "It's seven o'clock. Dinner time."
+      ],
+      "D": [
+        "The Detective",
+        "You know who knocked the vase over from one look.",
+        "You notice everything: if they ate less, if their coat looks different, if a cushion's been chewed. Nothing gets past you. You're the reason your pet is always so well looked after.",
+        "Spotting any change before anyone else.",
+        "Investigating every noise at 3am.",
+        "Who's been at my slippers?"
+      ],
+      "M": [
+        "The Maestro",
+        "You walk, play and answer texts all at once.",
+        "You handle the pet, the house and life all together. Throwing the ball with one hand, filling the bowl with the other. With you around, your pet never feels left out.",
+        "Fitting everything into one day.",
+        "Getting tangled in the lead doing three things at once.",
+        "Hang on, coming! Just finishing this."
+      ],
+      "F": [
+        "The Finisher",
+        "They asked, you delivered.",
+        "You don't overthink it: they want a walk, you grab the lead. They want food, it's already in the bowl. While others are still researching, your pet is already happy.",
+        "Answering your pet right away.",
+        "Giving in to every puppy-eyed look.",
+        "Let's go! Grab the lead."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as your pet needs: you plan for trips, keep an eye out when they're quiet, juggle when the day gets busy and act when they ask.",
+        "Being whatever your pet needs right now.",
+        "Not even your pet knowing what to expect.",
+        "Depends. What have they done now?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything on a routine.",
+      "D": "you don't let a single detail slip.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop thinking and do it."
+    },
+    "Q": [
+      [
+        "Your pet stares at you at 6am. You...",
+        {
+          "A": "They know: breakfast is at seven",
+          "D": "Try to work out what they want",
+          "M": "Feed them, open the window, check my phone",
+          "F": "Get up and feed them"
+        }
+      ],
+      [
+        "Time for a new toy. You...",
+        {
+          "A": "Research which one lasts longest",
+          "D": "Read the reviews and check the material",
+          "M": "Buy three, plus one for the neighbour's pet",
+          "F": "Grab whatever's there and go"
+        }
+      ],
+      [
+        "You get home and the cushion is destroyed. You...",
+        {
+          "A": "Plan a routine to tire them out",
+          "D": "Study the clues to find the culprit",
+          "M": "Clean up, give cuddles and hide the other cushions",
+          "F": "Scoop up the stuffing and move on"
+        }
+      ],
+      [
+        "Your role in your pet's life is...",
+        {
+          "A": "The one who runs the schedule",
+          "D": "The one who notices everything",
+          "M": "The one who plays, walks and feeds",
+          "F": "The one who answers every request"
+        }
+      ],
+      [
+        "You're going away and your pet's staying. You...",
+        {
+          "A": "Leave a list with times and instructions",
+          "D": "Ask for a photo every two hours",
+          "M": "Get three people to take turns",
+          "F": "Leave them with someone I trust and relax"
+        }
+      ],
+      [
+        "On a walk, you...",
+        {
+          "A": "Already know the route and how long it takes",
+          "D": "Watch everything they sniff",
+          "M": "Walk, chat to the neighbour and take a call",
+          "F": "Grab the lead and head out"
+        }
+      ],
+      [
+        "Your biggest flaw as a pet owner:",
+        {
+          "A": "I plan so much they're left waiting",
+          "D": "I investigate every strange noise",
+          "M": "I do so much I forget the treats",
+          "F": "I give in to every puppy-eyed look"
+        }
+      ],
+      [
+        "End of the day, your pet's asleep on your feet. You...",
+        {
+          "A": "Already planning tomorrow's walk",
+          "D": "Check they ate everything properly",
+          "M": "Take a photo and send it to everyone",
+          "F": "Fall asleep too, done"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "养宠物时你是哪个泡泡？",
+    "lead": "每个铲屎官都是这4种之一。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的毛孩子有作息表、菜单和遛弯时间表。",
+        "对你来说，养宠物从计划开始。你知道几点喂饭、什么时候打疫苗、哪天该洗澡。所以你家毛孩子什么都不缺。",
+        "从不忘记打疫苗的日子。",
+        "连午睡时间都做成表格。",
+        "七点了，开饭时间。"
+      ],
+      "D": [
+        "侦探",
+        "看一眼就知道是谁打翻了花瓶。",
+        "你什么都注意到：吃少了、毛色变了、靠垫被咬了。什么都逃不过你的眼睛。正因为有你，毛孩子才被照顾得这么好。",
+        "比别人先发现任何变化。",
+        "凌晨三点调查每一个声响。",
+        "谁动了我的拖鞋？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时遛弯、陪玩、回消息。",
+        "宠物、家务、生活你一起搞定。一只手扔球，另一只手倒粮。有你在，毛孩子从来不会被冷落。",
+        "把所有事都塞进同一天。",
+        "同时做三件事，被牵引绳缠住。",
+        "等等，马上来！这就弄完。"
+      ],
+      "F": [
+        "终结者",
+        "它一开口，你就搞定。",
+        "你不想太多：它想出门，你就拿牵引绳；它想吃饭，粮已经在碗里了。别人还在查攻略，你家毛孩子已经开心了。",
+        "第一时间回应毛孩子。",
+        "抵挡不住每一个可怜巴巴的眼神。",
+        "走！拿牵引绳。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据毛孩子的需要切换角色：出远门时做计划，它安静时多留意，忙起来时一心多用，它一叫就马上行动。",
+        "成为此刻毛孩子最需要的人。",
+        "连毛孩子都不知道你下一步要干嘛。",
+        "看情况。它又干了什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切按作息来。",
+      "D": "你不会放过任何细节。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你不多想，直接行动。"
+    },
+    "Q": [
+      [
+        "早上6点，毛孩子死死盯着你。你……",
+        {
+          "A": "它知道的：七点才开饭",
+          "D": "研究它到底想要什么",
+          "M": "喂饭、开窗、顺便刷手机",
+          "F": "起床，喂饭"
+        }
+      ],
+      [
+        "该买新玩具了。你……",
+        {
+          "A": "研究哪个最耐用",
+          "D": "看评价，查材质",
+          "M": "买三个，再给邻居家的带一个",
+          "F": "随手拿一个就走"
+        }
+      ],
+      [
+        "回到家，靠垫被拆了。你……",
+        {
+          "A": "制定个计划让它消耗精力",
+          "D": "分析线索，找出真凶",
+          "M": "收拾、摸摸它、把别的靠垫藏好",
+          "F": "把棉花捡起来，翻篇"
+        }
+      ],
+      [
+        "你在毛孩子生活中的角色是……",
+        {
+          "A": "管日程的那个人",
+          "D": "什么都注意到的那个人",
+          "M": "陪玩、遛弯、喂饭全包的那个人",
+          "F": "有求必应的那个人"
+        }
+      ],
+      [
+        "你要出门旅行，毛孩子留在家。你……",
+        {
+          "A": "留一张写好时间和注意事项的清单",
+          "D": "让人每两小时发一张照片",
+          "M": "安排三个人轮流照顾",
+          "F": "交给信得过的人，放心出门"
+        }
+      ],
+      [
+        "遛弯的时候，你……",
+        {
+          "A": "路线和时长早就定好了",
+          "D": "盯着它闻的每一样东西",
+          "M": "边遛边和邻居聊天，还接了个电话",
+          "F": "拿起牵引绳就出门"
+        }
+      ],
+      [
+        "你当铲屎官最大的毛病：",
+        {
+          "A": "计划太多，让它干等着",
+          "D": "每个奇怪的声音都要调查",
+          "M": "事情太多，忘了给零食",
+          "F": "抵挡不住每一个可怜巴巴的眼神"
+        }
+      ],
+      [
+        "一天结束，毛孩子趴在你脚边睡着了。你……",
+        {
+          "A": "已经在想明天去哪遛弯",
+          "D": "确认它今天都吃完了",
+          "M": "拍张照发给所有人",
+          "F": "跟着一起睡，完事"
+        }
+      ]
+    ]
+  }
+}
