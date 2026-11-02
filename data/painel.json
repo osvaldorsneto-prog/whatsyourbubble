@@ -1,8 +1,8 @@
 {
   "fonte": "https://whatsyourbubble.com/ai/painel-7q3x.php",
-  "atualizado_em": "2026-10-31T18:39:09Z",
+  "atualizado_em": "2026-11-02T09:58:48Z",
   "resumo": {
-    "visitas": 55,
+    "visitas": 57,
     "começaram": 22,
     "terminaram": 18,
     "ações de compartilhar": 1,
@@ -34,7 +34,7 @@
   "por_quiz": [
     {
       "Quiz": "ia",
-      "Visitas": 15,
+      "Visitas": 16,
       "Começaram": 8,
       "Terminaram": 7
     },
@@ -51,6 +51,12 @@
       "Terminaram": 1
     },
     {
+      "Quiz": "festa-surpresa",
+      "Visitas": 1,
+      "Começaram": 0,
+      "Terminaram": 0
+    },
+    {
       "Quiz": "viagem-de-carro",
       "Visitas": 1,
       "Começaram": 1,
@@ -64,6 +70,13 @@
     }
   ],
   "por_dia": [
+    {
+      "Dia": "2026-11-02",
+      "Visitas": 2,
+      "Começaram": 0,
+      "Terminaram": 0,
+      "Amigo": 0
+    },
     {
       "Dia": "2026-10-31",
       "Visitas": 8,
