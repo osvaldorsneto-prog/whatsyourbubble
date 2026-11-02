@@ -1,0 +1,87 @@
+{
+  "slug": "academia",
+  "criado_em": "2026-11-02",
+  "categoria": "esporte",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é na academia?",
+    "lead": "Toda academia tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": ["O Arquiteto", "Seu treino tem planilha, fase e data de revisão.", "Você não chega na academia pra ver o que dá. Sabe o treino do dia, a ordem dos aparelhos e quanto subir de carga no mês. Por isso sua evolução aparece em cada anotação.", "Montar um plano que funciona de verdade.", "Passar mais tempo ajustando a planilha do que treinando.", "Hoje é treino B, semana 3. Não me confunde."],
+      "D": ["O Detetive", "Nenhuma repetição passa sem conferir a postura.", "Você confere a postura, o peso da anilha e se o aparelho tá regulado certo. Percebe na hora quando alguém tá fazendo errado, inclusive você. É por isso que você treina bem e sem sustos.", "Fazer cada movimento do jeito certo.", "Conferir tanto que o descanso vira meia hora.", "Essa anilha é de 10 mesmo? Deixa eu ver."],
+      "M": ["O Maestro", "Você treina, conversa e escolhe a playlist ao mesmo tempo.", "Você faz série num aparelho, guarda o outro, combina a próxima aula e ainda ajuda alguém a achar o bebedouro. Com você, a academia vira um lugar animado.", "Fazer o treino render e o ambiente também.", "Conversar tanto entre as séries que esquece em qual estava.", "Segura esse aparelho pra mim? Já volto."],
+      "F": ["O Finalizador", "Treino feito é melhor que treino perfeito.", "Você não espera a roupa ideal, o tênis novo nem a segunda-feira. Chega, treina e vai embora. Enquanto alguns ainda escolhem a música, você já tá no alongamento.", "Ir treinar mesmo quando bate a preguiça.", "Pular o aquecimento pra acabar logo.", "Bora, 3 séries e tô fora."],
+      "S": ["A Bolha Secreta", "Você não cabe numa bolha só.", "Você muda de jeito conforme o treino pede: planeja quando tem meta, confere quando a carga sobe, anima a turma na aula coletiva e resolve rápido quando o tempo é curto.", "Ser o que o treino precisa naquele dia.", "Ninguém saber que tipo de treino você curte.", "Depende. Qual aparelho tá livre?"]
+    },
+    "S2": {
+      "A": "você ainda gosta de um treino planejado.",
+      "D": "você não deixa uma postura errada passar.",
+      "M": "você dá conta de várias coisas entre as séries.",
+      "F": "na hora certa, você para de enrolar e treina."
+    },
+    "Q": [
+      ["Tem alguém no seu aparelho há 20 minutos mexendo no celular.", {"A": "Mudo a ordem do treino", "D": "Conto as séries dele", "M": "Faço outro e volto depois", "F": "Peço pra revezar"}],
+      ["Primeiro dia numa academia nova. Você...", {"A": "Chega com o treino da semana anotado", "D": "Pergunta como regula cada aparelho", "M": "Faz amizade com a recepção e o professor", "F": "Escolhe um aparelho livre e começa"}],
+      ["O professor passa um treino novo. Você...", {"A": "Coloca numa planilha com as cargas", "D": "Pergunta o porquê de cada exercício", "M": "Manda pro amigo que treina com você", "F": "Faz hoje mesmo, sem perguntar nada"}],
+      ["Sua playlist de treino é...", {"A": "Organizada por ritmo, do aquecimento ao fim", "D": "Testada, sem nenhuma música que quebre o ritmo", "M": "Colaborativa, com música de todo mundo", "F": "A primeira que aparecer. Bora"}],
+      ["Alguém pergunta “você vai usar esse aparelho?”. Você...", {"A": "Explica quantas séries faltam", "D": "Confere se ele vai regular de volta depois", "M": "Propõe revezar e ainda passa uma dica", "F": "Libera e vai pro próximo"}],
+      ["Choveu e bateu a preguiça de ir. Você...", {"A": "Já tinha um treino de casa planejado", "D": "Confere a previsão pra ver se para", "M": "Chama um amigo pra irem juntos", "F": "Vai mesmo assim, de capa de chuva"}],
+      ["Seu maior defeito na academia:", {"A": "Planejo tanto que mudo o treino toda semana", "D": "Confiro tanto que o descanso vira meia hora", "M": "Converso tanto que perco a conta das séries", "F": "Pulo o aquecimento pra acabar logo"}],
+      ["Treino acabou. Você...", {"A": "Anota a carga pra subir na próxima", "D": "Confere se fez tudo da ficha", "M": "Já combina o horário de amanhã", "F": "Pega a garrafinha e vai embora"}]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the gym?",
+    "lead": "Every gym has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": ["The Architect", "Your workout has a spreadsheet, phases and a review date.", "You don't turn up just to see what happens. You know today's session, the order of the machines and how much weight to add this month. That's why your progress shows in every note you take.", "Building a plan that actually works.", "Spending more time tweaking the spreadsheet than training.", "It's day B, week 3. Don't confuse me."],
+      "D": ["The Detective", "No rep gets past without a form check.", "You check your form, the weight on the plate and whether the machine is set up right. You spot it straight away when someone's doing it wrong, yourself included. That's why you train well and without surprises.", "Doing every move the right way.", "Checking so much your rest turns into half an hour.", "Is that really a 10? Let me look."],
+      "M": ["The Maestro", "You train, chat and pick the playlist all at once.", "You do a set on one machine, save another, plan the next class and still help someone find the water fountain. With you around, the gym feels alive.", "Getting a good workout and a good vibe.", "Chatting so much between sets you forget which one you're on.", "Can you hold this machine for me? Back in a sec."],
+      "F": ["The Finisher", "A done workout beats a perfect one.", "You don't wait for the right outfit, new trainers or next Monday. You show up, train and leave. While some are still choosing a song, you're already stretching.", "Going even when you can't be bothered.", "Skipping the warm-up to finish faster.", "Come on, 3 sets and I'm out."],
+      "S": ["The Secret Bubble", "You don't fit in just one bubble.", "You change style as the workout needs: you plan when there's a goal, check when the weight goes up, cheer people on in a group class and keep it quick when time is short.", "Being whatever the workout needs that day.", "Nobody knowing what kind of training you're into.", "Depends. Which machine is free?"]
+    },
+    "S2": {
+      "A": "you still like a planned workout.",
+      "D": "you never let bad form slip past.",
+      "M": "you handle lots of things between sets.",
+      "F": "when it counts, you stop stalling and train."
+    },
+    "Q": [
+      ["Someone's been on your machine for 20 minutes, scrolling their phone.", {"A": "I change my workout order", "D": "I count their sets", "M": "I do something else and come back", "F": "I ask to take turns"}],
+      ["First day at a new gym. You...", {"A": "Arrive with the week's plan written down", "D": "Ask how to adjust every machine", "M": "Make friends with reception and the trainer", "F": "Pick a free machine and start"}],
+      ["The trainer gives you a new programme. You...", {"A": "Put it in a spreadsheet with the weights", "D": "Ask why each exercise is there", "M": "Send it to your gym buddy", "F": "Do it today, no questions asked"}],
+      ["Your workout playlist is...", {"A": "Ordered by tempo, from warm-up to finish", "D": "Tested, with no song that kills the pace", "M": "Shared, with everyone's songs on it", "F": "Whatever comes up first. Let's go"}],
+      ["Someone asks “are you using this machine?”. You...", {"A": "Explain how many sets you have left", "D": "Check they'll reset it afterwards", "M": "Suggest sharing and give them a tip", "F": "Let them have it and move on"}],
+      ["It's raining and you can't be bothered. You...", {"A": "Already had a home workout planned", "D": "Check the forecast to see if it'll stop", "M": "Call a friend so you go together", "F": "Go anyway, raincoat on"}],
+      ["Your biggest flaw at the gym:", {"A": "I plan so much I change routine every week", "D": "I check so much my rest takes half an hour", "M": "I chat so much I lose count of my sets", "F": "I skip the warm-up to finish faster"}],
+      ["Workout's over. You...", {"A": "Write down the weights to go up next time", "D": "Check you did everything on the list", "M": "Already arrange tomorrow's time", "F": "Grab your bottle and leave"}]
+    ]
+  },
+  "zh": {
+    "titulo": "健身房里你是哪个泡泡？",
+    "lead": "每个健身房都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": ["建筑师", "你的训练有表格、有阶段，还有复盘日期。", "你从不去健身房“随便练练”。今天练什么、器械顺序、这个月加多少重量，你都清清楚楚。所以你的进步，每一条记录都看得见。", "制定真正有用的计划。", "改表格的时间比训练还长。", "今天B日，第3周。别打乱我。"],
+      "D": ["侦探", "每一次动作都要先过你的姿势检查。", "你会检查姿势、杠铃片的重量，还有器械有没有调对。谁动作不标准你一眼就看出来，包括你自己。所以你练得好，也练得安心。", "把每个动作都做标准。", "检查太久，组间休息变成半小时。", "这片真的是10公斤？我看看。"],
+      "M": ["指挥家", "你一边练、一边聊、一边挑歌单。", "你在这台器械做一组，顺手占着另一台，约好下节团课，还帮别人找饮水机。有你在，健身房都热闹起来了。", "练得好，气氛也好。", "组间聊太多，忘了练到第几组。", "帮我看一下这台？马上回来。"],
+      "F": ["终结者", "练完胜过练得完美。", "你不等合适的衣服、新跑鞋，也不等下周一。到了就练，练完就走。别人还在选歌，你已经在拉伸了。", "再懒也照样去练。", "为了早点结束跳过热身。", "走，3组就撤。"],
+      "S": ["秘密泡泡", "一个泡泡装不下你。", "你根据训练需要切换风格：有目标时做计划，加重量时仔细检查，团课上带动大家，时间紧时速战速决。", "成为当天训练最需要的样子。", "别人不知道你到底喜欢哪种训练。", "看情况。哪台器械空着？"]
+    },
+    "S2": {
+      "A": "你还是喜欢有计划的训练。",
+      "D": "你不会放过任何一个不标准的动作。",
+      "M": "你在组间也能顾好好几件事。",
+      "F": "关键时刻，你不磨蹭直接开练。"
+    },
+    "Q": [
+      ["有人占着你要用的器械20分钟，一直在刷手机。", {"A": "调整我的训练顺序", "D": "帮他数到底做了几组", "M": "先练别的，等会儿再来", "F": "直接问能不能轮流用"}],
+      ["第一天去新健身房。你……", {"A": "带着写好的一周计划去", "D": "问清楚每台器械怎么调", "M": "先跟前台和教练混熟", "F": "找台空的器械直接开练"}],
+      ["教练给你一份新计划。你……", {"A": "整理进表格，标好重量", "D": "问清每个动作的作用", "M": "转发给一起练的朋友", "F": "今天就练，不多问"}],
+      ["你的健身歌单是……", {"A": "按节奏排好，从热身到结束", "D": "试听过，没有一首会拖节奏", "M": "共享歌单，大家的歌都有", "F": "随便放哪首都行，开练"}],
+      ["有人问：“这台你还用吗？”你……", {"A": "告诉他我还剩几组", "D": "确认他用完会把器械调回来", "M": "提议轮流用，顺便分享小技巧", "F": "让给他，换下一个"}],
+      ["下雨了，不想去。你……", {"A": "早就准备好了居家训练计划", "D": "看天气预报，看雨会不会停", "M": "约个朋友一起去", "F": "穿上雨衣照样去"}],
+      ["你在健身房最大的毛病：", {"A": "计划太多，每周都改训练", "D": "检查太多，组间休息半小时", "M": "聊太多，忘了做到第几组", "F": "为了快点练完跳过热身"}],
+      ["练完了。你……", {"A": "记下重量，下次再加", "D": "核对计划上的都做完没", "M": "顺手约好明天几点", "F": "拿起水壶就走"}]
+    ]
+  }
+}

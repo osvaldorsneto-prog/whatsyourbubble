@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "reuniao-online",
+   "url": "/q/?s=reuniao-online",
+   "criado_em": "2026-11-02",
+   "categoria": "trabalho",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é na reunião online?",
+    "en": "What's your bubble on a video call?",
+    "zh": "线上开会时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "festa-surpresa",
+   "url": "/q/?s=festa-surpresa",
+   "criado_em": "2026-11-02",
+   "categoria": "role",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é na festa surpresa?",
+    "en": "What's your bubble at a surprise party?",
+    "zh": "惊喜派对上你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "academia",
+   "url": "/q/?s=academia",
+   "criado_em": "2026-11-02",
+   "categoria": "esporte",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é na academia?",
+    "en": "What's your bubble at the gym?",
+    "zh": "健身房里你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "pet",
    "url": "/q/?s=pet",
    "criado_em": "2026-11-01",
