@@ -7,11 +7,46 @@
     "titulo": "Que bolha você é na festa surpresa?",
     "lead": "Toda festa surpresa tem os mesmos 4 tipos de gente. Qual deles é você?",
     "T": {
-      "A": ["O Arquiteto", "Sua festa surpresa tem plano, horário e rota de fuga.", "Pra você, surpresa boa é surpresa planejada. Você define a hora, quem distrai o aniversariante e onde cada um se esconde. Por isso, quando você organiza, a surpresa funciona.", "Montar um plano à prova de vazamento.", "Planejar tanto que o grupo da festa vira um manual.", "Às 20h em ponto, luz apagada. Combinado?"],
-      "D": ["O Detetive", "Nenhum spoiler escapa do seu radar.", "Você confere se o aniversariante não viu o grupo, se ninguém postou nada e se o bolo tem o nome certo. Percebe na hora quando alguém tá quase contando. É graças a você que o segredo dura.", "Proteger o segredo até o fim.", "Desconfiar tanto que acha que até o aniversariante já sabe.", "Alguém comentou algo perto dele? Pensa bem."],
-      "M": ["O Maestro", "Você esconde os convidados, enche balões e distrai o aniversariante.", "Você cuida de tudo junto: decoração, convidado atrasado, playlist e a desculpa pra trazer o aniversariante. Com você, a festa sai inteira e animada.", "Fazer a festa toda acontecer ao mesmo tempo.", "Fazer tanta coisa que esquece de acender a vela.", "Apaga a luz! Não, espera, falta um balão."],
-      "F": ["O Finalizador", "Surpresa feita é melhor que surpresa perfeita.", "Você não fica esperando a decoração ideal nem todo mundo chegar. Pega o bolo, junta quem está lá e faz acontecer. Enquanto os outros discutem o tema, você já tá cantando parabéns.", "Garantir que a festa aconteça de verdade.", "Gritar “surpresa” um pouco cedo demais.", "Ele chegou? Então é agora!"],
-      "S": ["A Bolha Secreta", "Você não cabe numa bolha só.", "Você muda de papel conforme a festa pede: planeja quando precisa, guarda o segredo quando é sério, cuida de tudo quando lota e puxa o parabéns na hora certa.", "Ser o que a festa precisa naquele momento.", "Ninguém saber em que função te colocar.", "Depende. O que ainda falta?"]
+      "A": [
+        "O Arquiteto",
+        "Sua festa surpresa tem plano, horário e rota de fuga.",
+        "Pra você, surpresa boa é surpresa planejada. Você define a hora, quem distrai o aniversariante e onde cada um se esconde. Por isso, quando você organiza, a surpresa funciona.",
+        "Montar um plano à prova de vazamento.",
+        "Planejar tanto que o grupo da festa vira um manual.",
+        "Às 20h em ponto, luz apagada. Combinado?"
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum spoiler escapa do seu radar.",
+        "Você confere se o aniversariante não viu o grupo, se ninguém postou nada e se o bolo tem o nome certo. Percebe na hora quando alguém tá quase contando. É graças a você que o segredo dura.",
+        "Proteger o segredo até o fim.",
+        "Desconfiar tanto que acha que até o aniversariante já sabe.",
+        "Alguém comentou algo perto dele? Pensa bem."
+      ],
+      "M": [
+        "O Maestro",
+        "Você esconde os convidados, enche balões e distrai o aniversariante.",
+        "Você cuida de tudo junto: decoração, convidado atrasado, playlist e a desculpa pra trazer o aniversariante. Com você, a festa sai inteira e animada.",
+        "Fazer a festa toda acontecer ao mesmo tempo.",
+        "Fazer tanta coisa que esquece de acender a vela.",
+        "Apaga a luz! Não, espera, falta um balão."
+      ],
+      "F": [
+        "O Finalizador",
+        "Surpresa feita é melhor que surpresa perfeita.",
+        "Você não fica esperando a decoração ideal nem todo mundo chegar. Pega o bolo, junta quem está lá e faz acontecer. Enquanto os outros discutem o tema, você já tá cantando parabéns.",
+        "Garantir que a festa aconteça de verdade.",
+        "Gritar “surpresa” um pouco cedo demais.",
+        "Ele chegou? Então é agora!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a festa pede: planeja quando precisa, guarda o segredo quando é sério, cuida de tudo quando lota e puxa o parabéns na hora certa.",
+        "Ser o que a festa precisa naquele momento.",
+        "Ninguém saber em que função te colocar.",
+        "Depende. O que ainda falta?"
+      ]
     },
     "S2": {
       "A": "você ainda gosta de tudo planejado.",
@@ -20,25 +55,124 @@
       "F": "na hora certa, você faz a surpresa acontecer."
     },
     "Q": [
-      ["O aniversariante chegou 1 hora antes e os balões estão no chão.", {"A": "Ativo o plano B", "D": "Vejo se ele percebeu", "M": "Escondo gente e balões", "F": "Grito “surpresa” já"}],
-      ["Alguém sugere uma festa surpresa. Primeira reação?", {"A": "Abro um plano com data, lugar e horário", "D": "Pergunto quem consegue guardar segredo", "M": "Crio o grupo secreto e chamo todo mundo", "F": "Falo “fechou” e já encomendo o bolo"}],
-      ["No grupo secreto da festa, você é quem...", {"A": "Fixou a mensagem com o cronograma", "D": "Confere se ninguém adicionou o aniversariante", "M": "Responde todo mundo e divide as tarefas", "F": "Manda “tá, mas quem leva o bolo?”"}],
-      ["Seu papel no dia da festa é...", {"A": "Coordenar a hora exata de apagar a luz", "D": "Vigiar a janela pra avisar quando ele chegar", "M": "Decorar, receber e cuidar da música", "F": "Segurar o bolo e puxar o parabéns"}],
-      ["Alguém quase conta a surpresa sem querer. Você...", {"A": "Já tinha uma desculpa pronta pra isso", "D": "Muda de assunto e confere se ele desconfiou", "M": "Distrai o aniversariante com outra conversa", "F": "Puxa a pessoa pra longe na hora"}],
-      ["O bolo chegou com o nome errado. Você...", {"A": "Tinha encomendado com tempo pra trocar", "D": "Liga pra confeitaria pra entender o que houve", "M": "Ajeita a decoração pra esconder o nome", "F": "Tira o nome com a faca e serve"}],
-      ["Seu maior defeito numa festa surpresa:", {"A": "Planejo tanto que o grupo vira um manual", "D": "Desconfio que todo mundo já contou", "M": "Faço tanta coisa que esqueço a vela", "F": "Grito “surpresa” cedo demais"}],
-      ["A festa acabou. Você...", {"A": "Anota o que funcionou pra próxima", "D": "Confere se ele realmente não sabia de nada", "M": "Já combina a próxima festa com o grupo", "F": "Leva o resto do bolo e pronto"}]
+      [
+        "O aniversariante chegou 1 hora antes e os balões estão no chão.",
+        {
+          "A": "Ativo o plano B",
+          "D": "Vejo se ele percebeu",
+          "M": "Escondo gente e balões",
+          "F": "Grito \"surpresa\" já"
+        }
+      ],
+      [
+        "Alguém sugere uma festa surpresa. Primeira reação?",
+        {
+          "A": "Abro um plano com data, lugar e horário",
+          "D": "Pergunto quem consegue guardar segredo",
+          "M": "Crio o grupo secreto e chamo todo mundo",
+          "F": "Falo “fechou” e já encomendo o bolo"
+        }
+      ],
+      [
+        "No grupo secreto da festa, você é quem...",
+        {
+          "A": "Fixou a mensagem com o cronograma",
+          "D": "Confere se ninguém adicionou o aniversariante",
+          "M": "Responde todo mundo e divide as tarefas",
+          "F": "Manda “tá, mas quem leva o bolo?”"
+        }
+      ],
+      [
+        "Seu papel no dia da festa é...",
+        {
+          "A": "Coordenar a hora exata de apagar a luz",
+          "D": "Vigiar a janela pra avisar quando ele chegar",
+          "M": "Decorar, receber e cuidar da música",
+          "F": "Segurar o bolo e puxar o parabéns"
+        }
+      ],
+      [
+        "Alguém quase conta a surpresa sem querer. Você...",
+        {
+          "A": "Já tinha uma desculpa pronta pra isso",
+          "D": "Muda de assunto e confere se ele desconfiou",
+          "M": "Distrai o aniversariante com outra conversa",
+          "F": "Puxa a pessoa pra longe na hora"
+        }
+      ],
+      [
+        "O bolo chegou com o nome errado. Você...",
+        {
+          "A": "Tinha encomendado com tempo pra trocar",
+          "D": "Liga pra confeitaria pra entender o que houve",
+          "M": "Ajeita a decoração pra esconder o nome",
+          "F": "Tira o nome com a faca e serve"
+        }
+      ],
+      [
+        "Seu maior defeito numa festa surpresa:",
+        {
+          "A": "Planejo tanto que o grupo vira um manual",
+          "D": "Desconfio que todo mundo já contou",
+          "M": "Faço tanta coisa que esqueço a vela",
+          "F": "Grito “surpresa” cedo demais"
+        }
+      ],
+      [
+        "A festa acabou. Você...",
+        {
+          "A": "Anota o que funcionou pra próxima",
+          "D": "Confere se ele realmente não sabia de nada",
+          "M": "Já combina a próxima festa com o grupo",
+          "F": "Leva o resto do bolo e pronto"
+        }
+      ]
     ]
   },
   "en": {
     "titulo": "What's your bubble at a surprise party?",
     "lead": "Every surprise party has the same 4 kinds of people. Which one are you?",
     "T": {
-      "A": ["The Architect", "Your surprise party has a plan, timings and an escape route.", "For you, a good surprise is a planned surprise. You set the time, who distracts the birthday person and where everyone hides. That's why, when you organise it, the surprise actually works.", "Making a leak-proof plan.", "Planning so much the party chat turns into a manual.", "Lights off at 8 on the dot. Got it?"],
-      "D": ["The Detective", "No spoiler gets past your radar.", "You check the birthday person hasn't seen the group chat, nobody's posted anything and the cake has the right name on it. You notice straight away when someone's about to let it slip. You're the reason the secret holds.", "Keeping the secret right to the end.", "Getting so suspicious you think even the birthday person knows.", "Did anyone say anything near them? Think hard."],
-      "M": ["The Maestro", "You hide the guests, blow up balloons and stall the birthday person.", "You handle it all together: decorations, guests running late, the playlist and the excuse to bring the birthday person over. With you, the party comes together in one piece.", "Making the whole party happen at once.", "Doing so much you forget to light the candle.", "Lights off! No wait, one more balloon."],
-      "F": ["The Finisher", "A surprise that happens beats a perfect one.", "You don't wait for perfect decorations or for everyone to arrive. You grab the cake, gather whoever's there and make it happen. While others debate the theme, you're already singing happy birthday.", "Making sure the party actually happens.", "Shouting “surprise” a little too early.", "Are they here? Then it's now!"],
-      "S": ["The Secret Bubble", "You don't fit in just one bubble.", "You switch roles as the party needs: you plan when it matters, keep the secret when it's serious, juggle everything when it gets busy and start the singing at the right moment.", "Being whatever the party needs right now.", "Nobody knowing which job to give you.", "Depends. What's still missing?"]
+      "A": [
+        "The Architect",
+        "Your surprise party has a plan, timings and an escape route.",
+        "For you, a good surprise is a planned surprise. You set the time, who distracts the birthday person and where everyone hides. That's why, when you organise it, the surprise actually works.",
+        "Making a leak-proof plan.",
+        "Planning so much the party chat turns into a manual.",
+        "Lights off at 8 on the dot. Got it?"
+      ],
+      "D": [
+        "The Detective",
+        "No spoiler gets past your radar.",
+        "You check the birthday person hasn't seen the group chat, nobody's posted anything and the cake has the right name on it. You notice straight away when someone's about to let it slip. You're the reason the secret holds.",
+        "Keeping the secret right to the end.",
+        "Getting so suspicious you think even the birthday person knows.",
+        "Did anyone say anything near them? Think hard."
+      ],
+      "M": [
+        "The Maestro",
+        "You hide the guests, blow up balloons and stall the birthday person.",
+        "You handle it all together: decorations, guests running late, the playlist and the excuse to bring the birthday person over. With you, the party comes together in one piece.",
+        "Making the whole party happen at once.",
+        "Doing so much you forget to light the candle.",
+        "Lights off! No wait, one more balloon."
+      ],
+      "F": [
+        "The Finisher",
+        "A surprise that happens beats a perfect one.",
+        "You don't wait for perfect decorations or for everyone to arrive. You grab the cake, gather whoever's there and make it happen. While others debate the theme, you're already singing happy birthday.",
+        "Making sure the party actually happens.",
+        "Shouting “surprise” a little too early.",
+        "Are they here? Then it's now!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the party needs: you plan when it matters, keep the secret when it's serious, juggle everything when it gets busy and start the singing at the right moment.",
+        "Being whatever the party needs right now.",
+        "Nobody knowing which job to give you.",
+        "Depends. What's still missing?"
+      ]
     },
     "S2": {
       "A": "you still like everything planned.",
@@ -47,25 +181,124 @@
       "F": "when it counts, you make the surprise happen."
     },
     "Q": [
-      ["The birthday person's an hour early. Balloons still on the floor.", {"A": "Switch to plan B", "D": "Check if they noticed", "M": "Hide people and balloons", "F": "Shout “surprise” now"}],
-      ["Someone suggests a surprise party. First reaction?", {"A": "I draft a plan with date, place and time", "D": "I ask who can actually keep a secret", "M": "I make the secret group chat and invite everyone", "F": "I say “deal” and order the cake"}],
-      ["In the secret group chat, you're the one who...", {"A": "Pinned the message with the schedule", "D": "Checks nobody added the birthday person", "M": "Replies to everyone and splits the jobs", "F": "Writes “ok, but who's bringing the cake?”"}],
-      ["Your job on the day is...", {"A": "Timing exactly when the lights go off", "D": "Watching the window to warn when they arrive", "M": "Decorating, greeting and handling the music", "F": "Holding the cake and starting the song"}],
-      ["Someone nearly gives the surprise away. You...", {"A": "Already had an excuse ready for this", "D": "Change the subject and check if they suspect", "M": "Distract the birthday person with another chat", "F": "Pull that person away right then"}],
-      ["The cake arrives with the wrong name on it. You...", {"A": "Ordered it early enough to swap it", "D": "Call the bakery to find out what happened", "M": "Move the decorations to hide the name", "F": "Scrape the name off and serve it"}],
-      ["Your biggest flaw at a surprise party:", {"A": "I plan so much the chat becomes a manual", "D": "I suspect everyone's already told them", "M": "I do so much I forget the candle", "F": "I shout “surprise” too early"}],
-      ["The party's over. You...", {"A": "Note what worked for next time", "D": "Check they really didn't know a thing", "M": "Already plan the next party with the group", "F": "Take the leftover cake and that's that"}]
+      [
+        "The birthday person's an hour early. Balloons still on the floor.",
+        {
+          "A": "Switch to plan B",
+          "D": "Check if they noticed",
+          "M": "Hide people and balloons",
+          "F": "Shout \"surprise\" now"
+        }
+      ],
+      [
+        "Someone suggests a surprise party. First reaction?",
+        {
+          "A": "I draft a plan with date, place and time",
+          "D": "I ask who can actually keep a secret",
+          "M": "I make the secret group chat and invite everyone",
+          "F": "I say “deal” and order the cake"
+        }
+      ],
+      [
+        "In the secret group chat, you're the one who...",
+        {
+          "A": "Pinned the message with the schedule",
+          "D": "Checks nobody added the birthday person",
+          "M": "Replies to everyone and splits the jobs",
+          "F": "Writes “ok, but who's bringing the cake?”"
+        }
+      ],
+      [
+        "Your job on the day is...",
+        {
+          "A": "Timing exactly when the lights go off",
+          "D": "Watching the window to warn when they arrive",
+          "M": "Decorating, greeting and handling the music",
+          "F": "Holding the cake and starting the song"
+        }
+      ],
+      [
+        "Someone nearly gives the surprise away. You...",
+        {
+          "A": "Already had an excuse ready for this",
+          "D": "Change the subject and check if they suspect",
+          "M": "Distract the birthday person with another chat",
+          "F": "Pull that person away right then"
+        }
+      ],
+      [
+        "The cake arrives with the wrong name on it. You...",
+        {
+          "A": "Ordered it early enough to swap it",
+          "D": "Call the bakery to find out what happened",
+          "M": "Move the decorations to hide the name",
+          "F": "Scrape the name off and serve it"
+        }
+      ],
+      [
+        "Your biggest flaw at a surprise party:",
+        {
+          "A": "I plan so much the chat becomes a manual",
+          "D": "I suspect everyone's already told them",
+          "M": "I do so much I forget the candle",
+          "F": "I shout “surprise” too early"
+        }
+      ],
+      [
+        "The party's over. You...",
+        {
+          "A": "Note what worked for next time",
+          "D": "Check they really didn't know a thing",
+          "M": "Already plan the next party with the group",
+          "F": "Take the leftover cake and that's that"
+        }
+      ]
     ]
   },
   "zh": {
     "titulo": "惊喜派对上你是哪个泡泡？",
     "lead": "每场惊喜派对都有同样的4种人。你是哪一种？",
     "T": {
-      "A": ["建筑师", "你的惊喜派对有计划、有时间表，还有撤退路线。", "对你来说，好惊喜一定是计划出来的。几点开始、谁负责拖住寿星、每个人躲在哪儿，你都安排好了。所以只要你来组织，惊喜就一定成功。", "做出滴水不漏的计划。", "计划太细，派对群变成了说明书。", "8点整关灯。都记住了吗？"],
-      "D": ["侦探", "任何剧透都逃不过你的雷达。", "你会确认寿星没看到群、没人发了动态、蛋糕上的名字没写错。谁快说漏嘴，你第一时间就发现。正因为有你，秘密才守得住。", "把秘密守到最后一刻。", "疑心太重，觉得寿星早就知道了。", "有人在他面前提过吗？好好想想。"],
-      "M": ["指挥家", "你一边藏客人、一边吹气球、一边拖住寿星。", "你什么都一起管：布置、迟到的客人、歌单，还有把寿星骗过来的借口。有你在，派对完完整整又热热闹闹。", "让整场派对同时运转起来。", "忙太多，忘了点蜡烛。", "关灯！等等，还差一个气球。"],
-      "F": ["终结者", "办成的惊喜胜过完美的惊喜。", "你不等完美的布置，也不等所有人到齐。拿起蛋糕，叫上在场的人，直接开始。别人还在讨论主题，你已经唱起生日歌了。", "确保派对真的办成。", "“惊喜”喊得早了一点。", "他到了？那就现在！"],
-      "S": ["秘密泡泡", "一个泡泡装不下你。", "你根据派对需要切换角色：该计划时计划，该保密时严守，人多时什么都管，时机一到就带头唱生日歌。", "成为派对此刻最需要的人。", "别人不知道该给你分配什么活。", "看情况。还缺什么？"]
+      "A": [
+        "建筑师",
+        "你的惊喜派对有计划、有时间表，还有撤退路线。",
+        "对你来说，好惊喜一定是计划出来的。几点开始、谁负责拖住寿星、每个人躲在哪儿，你都安排好了。所以只要你来组织，惊喜就一定成功。",
+        "做出滴水不漏的计划。",
+        "计划太细，派对群变成了说明书。",
+        "8点整关灯。都记住了吗？"
+      ],
+      "D": [
+        "侦探",
+        "任何剧透都逃不过你的雷达。",
+        "你会确认寿星没看到群、没人发了动态、蛋糕上的名字没写错。谁快说漏嘴，你第一时间就发现。正因为有你，秘密才守得住。",
+        "把秘密守到最后一刻。",
+        "疑心太重，觉得寿星早就知道了。",
+        "有人在他面前提过吗？好好想想。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边藏客人、一边吹气球、一边拖住寿星。",
+        "你什么都一起管：布置、迟到的客人、歌单，还有把寿星骗过来的借口。有你在，派对完完整整又热热闹闹。",
+        "让整场派对同时运转起来。",
+        "忙太多，忘了点蜡烛。",
+        "关灯！等等，还差一个气球。"
+      ],
+      "F": [
+        "终结者",
+        "办成的惊喜胜过完美的惊喜。",
+        "你不等完美的布置，也不等所有人到齐。拿起蛋糕，叫上在场的人，直接开始。别人还在讨论主题，你已经唱起生日歌了。",
+        "确保派对真的办成。",
+        "“惊喜”喊得早了一点。",
+        "他到了？那就现在！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据派对需要切换角色：该计划时计划，该保密时严守，人多时什么都管，时机一到就带头唱生日歌。",
+        "成为派对此刻最需要的人。",
+        "别人不知道该给你分配什么活。",
+        "看情况。还缺什么？"
+      ]
     },
     "S2": {
       "A": "你还是喜欢一切都有计划。",
@@ -74,14 +307,78 @@
       "F": "关键时刻，你让惊喜真正发生。"
     },
     "Q": [
-      ["寿星提前1小时到了，气球还堆在地上。", {"A": "启动B计划", "D": "看看他发现没有", "M": "又藏人又藏气球", "F": "现在就喊“惊喜”"}],
-      ["有人提议办惊喜派对。你的第一反应？", {"A": "马上定好日期、地点和时间", "D": "先问谁真的能保密", "M": "建个秘密群，把大家拉进来", "F": "说一句“行”，先去订蛋糕"}],
-      ["在派对秘密群里，你是那个……", {"A": "置顶时间表的人", "D": "确认没人把寿星拉进群的人", "M": "回复所有人、分配任务的人", "F": "发“好的，那谁带蛋糕？”的人"}],
-      ["派对当天，你负责……", {"A": "掐准关灯的时间", "D": "守在窗边，看到寿星就报信", "M": "布置、接待、管音乐", "F": "端着蛋糕带头唱歌"}],
-      ["有人差点说漏嘴。你……", {"A": "早就准备好了应对的借口", "D": "马上转移话题，看寿星有没有起疑", "M": "拉着寿星聊别的", "F": "当场把那个人拉走"}],
-      ["蛋糕送来，名字写错了。你……", {"A": "订得早，还来得及换", "D": "打电话问店家怎么回事", "M": "调整装饰把名字挡住", "F": "把名字刮掉，照样上"}],
-      ["你在惊喜派对上最大的毛病：", {"A": "计划太细，群聊变说明书", "D": "总怀疑有人已经说漏了", "M": "忙太多，忘了点蜡烛", "F": "“惊喜”喊得太早"}],
-      ["派对结束了。你……", {"A": "记下哪些做得好，下次用", "D": "确认他是不是真的一点都不知道", "M": "顺手和大家约好下一场", "F": "带走剩下的蛋糕，完事"}]
+      [
+        "寿星提前1小时到了，气球还堆在地上。",
+        {
+          "A": "启动B计划",
+          "D": "看看他发现没有",
+          "M": "又藏人又藏气球",
+          "F": "现在就喊“惊喜”"
+        }
+      ],
+      [
+        "有人提议办惊喜派对。你的第一反应？",
+        {
+          "A": "马上定好日期、地点和时间",
+          "D": "先问谁真的能保密",
+          "M": "建个秘密群，把大家拉进来",
+          "F": "说一句“行”，先去订蛋糕"
+        }
+      ],
+      [
+        "在派对秘密群里，你是那个……",
+        {
+          "A": "置顶时间表的人",
+          "D": "确认没人把寿星拉进群的人",
+          "M": "回复所有人、分配任务的人",
+          "F": "发“好的，那谁带蛋糕？”的人"
+        }
+      ],
+      [
+        "派对当天，你负责……",
+        {
+          "A": "掐准关灯的时间",
+          "D": "守在窗边，看到寿星就报信",
+          "M": "布置、接待、管音乐",
+          "F": "端着蛋糕带头唱歌"
+        }
+      ],
+      [
+        "有人差点说漏嘴。你……",
+        {
+          "A": "早就准备好了应对的借口",
+          "D": "马上转移话题，看寿星有没有起疑",
+          "M": "拉着寿星聊别的",
+          "F": "当场把那个人拉走"
+        }
+      ],
+      [
+        "蛋糕送来，名字写错了。你……",
+        {
+          "A": "订得早，还来得及换",
+          "D": "打电话问店家怎么回事",
+          "M": "调整装饰把名字挡住",
+          "F": "把名字刮掉，照样上"
+        }
+      ],
+      [
+        "你在惊喜派对上最大的毛病：",
+        {
+          "A": "计划太细，群聊变说明书",
+          "D": "总怀疑有人已经说漏了",
+          "M": "忙太多，忘了点蜡烛",
+          "F": "“惊喜”喊得太早"
+        }
+      ],
+      [
+        "派对结束了。你……",
+        {
+          "A": "记下哪些做得好，下次用",
+          "D": "确认他是不是真的一点都不知道",
+          "M": "顺手和大家约好下一场",
+          "F": "带走剩下的蛋糕，完事"
+        }
+      ]
     ]
   }
 }

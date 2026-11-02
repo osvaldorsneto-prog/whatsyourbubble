@@ -7,11 +7,46 @@
     "titulo": "Que bolha você é na reunião online?",
     "lead": "Toda reunião online tem os mesmos 4 tipos de gente. Qual deles é você?",
     "T": {
-      "A": ["O Arquiteto", "Sua reunião tem pauta, tempo e próximos passos.", "Pra você, reunião boa começa antes de entrar na chamada. Você manda a pauta, define quanto tempo cada assunto leva e sai com tudo anotado. Por isso suas reuniões acabam no horário.", "Transformar conversa em plano.", "Planejar tanto que precisa de outra reunião pra combinar a pauta.", "Vamos seguir a pauta? Item 2."],
-      "D": ["O Detetive", "Nenhum número passa na tela sem você conferir.", "Você repara no slide com dado errado, na data trocada e em quem disse que ia mandar e não mandou. Faz a pergunta que todo mundo esqueceu. É graças a você que a decisão sai certa.", "Achar o detalhe que ninguém viu.", "Fazer tanta pergunta que a reunião passa do horário.", "Só uma dúvida: esse número é de qual mês?"],
-      "M": ["O Maestro", "Você fala, responde o chat e compartilha a tela ao mesmo tempo.", "Você conduz a conversa, responde o chat, manda o link que alguém pediu e ainda lembra de chamar quem não falou. Com você, a reunião anda e ninguém fica de fora.", "Manter a reunião viva e todo mundo junto.", "Abrir tanta aba que compartilha a tela errada.", "Já mando o link no chat. Alguém quer falar?"],
-      "F": ["O Finalizador", "Reunião boa é a que acaba com decisão.", "Você não aguenta reunião que dá voltas. Puxa pra decisão, divide as tarefas e encerra. Enquanto os outros ainda discutem, você já mandou o resumo.", "Fazer a reunião virar resultado.", "Encerrar antes de todo mundo terminar de falar.", "Então fechou? Cada um com sua parte."],
-      "S": ["A Bolha Secreta", "Você não cabe numa bolha só.", "Você muda de papel conforme a reunião pede: organiza a pauta quando falta, confere os números quando importa, conduz quando a conversa trava e encerra quando é hora.", "Ser o que a reunião precisa naquele momento.", "Ninguém saber que papel te dar na reunião.", "Depende. Qual é o objetivo de hoje?"]
+      "A": [
+        "O Arquiteto",
+        "Sua reunião tem pauta, tempo e próximos passos.",
+        "Pra você, reunião boa começa antes de entrar na chamada. Você manda a pauta, define quanto tempo cada assunto leva e sai com tudo anotado. Por isso suas reuniões acabam no horário.",
+        "Transformar conversa em plano.",
+        "Planejar tanto que precisa de outra reunião pra combinar a pauta.",
+        "Vamos seguir a pauta? Item 2."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum número passa na tela sem você conferir.",
+        "Você repara no slide com dado errado, na data trocada e em quem disse que ia mandar e não mandou. Faz a pergunta que todo mundo esqueceu. É graças a você que a decisão sai certa.",
+        "Achar o detalhe que ninguém viu.",
+        "Fazer tanta pergunta que a reunião passa do horário.",
+        "Só uma dúvida: esse número é de qual mês?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você fala, responde o chat e compartilha a tela ao mesmo tempo.",
+        "Você conduz a conversa, responde o chat, manda o link que alguém pediu e ainda lembra de chamar quem não falou. Com você, a reunião anda e ninguém fica de fora.",
+        "Manter a reunião viva e todo mundo junto.",
+        "Abrir tanta aba que compartilha a tela errada.",
+        "Já mando o link no chat. Alguém quer falar?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Reunião boa é a que acaba com decisão.",
+        "Você não aguenta reunião que dá voltas. Puxa pra decisão, divide as tarefas e encerra. Enquanto os outros ainda discutem, você já mandou o resumo.",
+        "Fazer a reunião virar resultado.",
+        "Encerrar antes de todo mundo terminar de falar.",
+        "Então fechou? Cada um com sua parte."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a reunião pede: organiza a pauta quando falta, confere os números quando importa, conduz quando a conversa trava e encerra quando é hora.",
+        "Ser o que a reunião precisa naquele momento.",
+        "Ninguém saber que papel te dar na reunião.",
+        "Depende. Qual é o objetivo de hoje?"
+      ]
     },
     "S2": {
       "A": "você ainda gosta de uma boa pauta.",
@@ -20,25 +55,124 @@
       "F": "na hora certa, você puxa pra decisão."
     },
     "Q": [
-      ["Você falou 2 minutos e alguém avisa: “você tá no mudo”.", {"A": "Repito em 3 tópicos", "D": "Pergunto até onde ouviram", "M": "Repito e respondo o chat", "F": "Resumo numa frase"}],
-      ["Marcaram uma reunião em cima da hora. Você...", {"A": "Pede a pauta antes de aceitar", "D": "Pergunta quem mais vai e por quê", "M": "Remarca duas coisas e encaixa", "F": "Aceita e entra na hora"}],
-      ["Cinco minutos antes de começar, você...", {"A": "Revisa a pauta e o tempo de cada item", "D": "Testa câmera, microfone e o link", "M": "Abre o slide, o chat e a planilha", "F": "Pega um café e entra"}],
-      ["A conversa saiu totalmente do assunto. Você...", {"A": "Volta pro item da pauta", "D": "Pergunta o que isso tem a ver com o objetivo", "M": "Anota o assunto pra outra reunião e segue", "F": "Propõe decidir agora e seguir"}],
-      ["Alguém compartilha a tela e aparece a aba errada. Você pensa:", {"A": "“Por isso eu deixo tudo pronto antes”", "D": "“Opa, esse slide tá com a data errada”", "M": "“Deixa que eu compartilho a minha”", "F": "“Qualquer aba serve, segue”"}],
-      ["A internet cai no meio da sua fala. Você...", {"A": "Já tinha o resumo escrito pra mandar", "D": "Confere o que perdeu assim que volta", "M": "Entra pelo celular e continua", "F": "Escreve no chat: “era só isso, aprovado”"}],
-      ["Seu maior defeito na reunião online:", {"A": "Planejo tanto que a pauta vira um livro", "D": "Pergunto tanto que passa do horário", "M": "Abro tanta aba que compartilho a errada", "F": "Encerro antes de todo mundo falar"}],
-      ["A reunião acabou. Você...", {"A": "Manda a ata com os próximos passos", "D": "Confere se cada tarefa tem um responsável", "M": "Já marca a próxima com todo mundo", "F": "Fecha a chamada e faz sua parte"}]
+      [
+        "Você falou 2 minutos e alguém avisa: \"você tá no mudo\".",
+        {
+          "A": "Repito em 3 tópicos",
+          "D": "Pergunto até onde ouviram",
+          "M": "Repito e respondo o chat",
+          "F": "Resumo numa frase"
+        }
+      ],
+      [
+        "Marcaram uma reunião em cima da hora. Você...",
+        {
+          "A": "Pede a pauta antes de aceitar",
+          "D": "Pergunta quem mais vai e por quê",
+          "M": "Remarca duas coisas e encaixa",
+          "F": "Aceita e entra na hora"
+        }
+      ],
+      [
+        "Cinco minutos antes de começar, você...",
+        {
+          "A": "Revisa a pauta e o tempo de cada item",
+          "D": "Testa câmera, microfone e o link",
+          "M": "Abre o slide, o chat e a planilha",
+          "F": "Pega um café e entra"
+        }
+      ],
+      [
+        "A conversa saiu totalmente do assunto. Você...",
+        {
+          "A": "Volta pro item da pauta",
+          "D": "Pergunta o que isso tem a ver com o objetivo",
+          "M": "Anota o assunto pra outra reunião e segue",
+          "F": "Propõe decidir agora e seguir"
+        }
+      ],
+      [
+        "Alguém compartilha a tela e aparece a aba errada. Você pensa:",
+        {
+          "A": "“Por isso eu deixo tudo pronto antes”",
+          "D": "“Opa, esse slide tá com a data errada”",
+          "M": "“Deixa que eu compartilho a minha”",
+          "F": "“Qualquer aba serve, segue”"
+        }
+      ],
+      [
+        "A internet cai no meio da sua fala. Você...",
+        {
+          "A": "Já tinha o resumo escrito pra mandar",
+          "D": "Confere o que perdeu assim que volta",
+          "M": "Entra pelo celular e continua",
+          "F": "Escreve no chat: “era só isso, aprovado”"
+        }
+      ],
+      [
+        "Seu maior defeito na reunião online:",
+        {
+          "A": "Planejo tanto que a pauta vira um livro",
+          "D": "Pergunto tanto que passa do horário",
+          "M": "Abro tanta aba que compartilho a errada",
+          "F": "Encerro antes de todo mundo falar"
+        }
+      ],
+      [
+        "A reunião acabou. Você...",
+        {
+          "A": "Manda a ata com os próximos passos",
+          "D": "Confere se cada tarefa tem um responsável",
+          "M": "Já marca a próxima com todo mundo",
+          "F": "Fecha a chamada e faz sua parte"
+        }
+      ]
     ]
   },
   "en": {
     "titulo": "What's your bubble on a video call?",
     "lead": "Every video call has the same 4 kinds of people. Which one are you?",
     "T": {
-      "A": ["The Architect", "Your meetings have an agenda, timings and next steps.", "For you, a good meeting starts before anyone joins the call. You send the agenda, set how long each topic gets and leave with everything written down. That's why your meetings finish on time.", "Turning a chat into a plan.", "Planning so much you need another meeting to agree the agenda.", "Shall we stick to the agenda? Item 2."],
-      "D": ["The Detective", "No number appears on screen without you checking it.", "You notice the slide with the wrong figure, the mixed-up date and who said they'd send something and didn't. You ask the question everyone forgot. You're the reason the decision comes out right.", "Finding the detail nobody saw.", "Asking so many questions the call runs over.", "Quick question: which month is that number from?"],
-      "M": ["The Maestro", "You talk, answer the chat and share your screen all at once.", "You steer the conversation, reply in the chat, drop the link someone asked for and still remember to bring in whoever hasn't spoken. With you, the call keeps moving and nobody's left out.", "Keeping the call lively and everyone on board.", "Opening so many tabs you share the wrong screen.", "Link's in the chat. Anyone want to jump in?"],
-      "F": ["The Finisher", "A good meeting is one that ends with a decision.", "You can't stand meetings that go round in circles. You push for a decision, split the tasks and wrap it up. While others are still debating, you've already sent the summary.", "Turning the meeting into results.", "Ending the call before everyone's finished talking.", "So, agreed? Everyone takes their part."],
-      "S": ["The Secret Bubble", "You don't fit in just one bubble.", "You switch roles as the call needs: you set the agenda when there isn't one, check the numbers when it matters, steer when the conversation stalls and wrap up when it's time.", "Being whatever the meeting needs right now.", "Nobody knowing which role to give you.", "Depends. What's today's goal?"]
+      "A": [
+        "The Architect",
+        "Your meetings have an agenda, timings and next steps.",
+        "For you, a good meeting starts before anyone joins the call. You send the agenda, set how long each topic gets and leave with everything written down. That's why your meetings finish on time.",
+        "Turning a chat into a plan.",
+        "Planning so much you need another meeting to agree the agenda.",
+        "Shall we stick to the agenda? Item 2."
+      ],
+      "D": [
+        "The Detective",
+        "No number appears on screen without you checking it.",
+        "You notice the slide with the wrong figure, the mixed-up date and who said they'd send something and didn't. You ask the question everyone forgot. You're the reason the decision comes out right.",
+        "Finding the detail nobody saw.",
+        "Asking so many questions the call runs over.",
+        "Quick question: which month is that number from?"
+      ],
+      "M": [
+        "The Maestro",
+        "You talk, answer the chat and share your screen all at once.",
+        "You steer the conversation, reply in the chat, drop the link someone asked for and still remember to bring in whoever hasn't spoken. With you, the call keeps moving and nobody's left out.",
+        "Keeping the call lively and everyone on board.",
+        "Opening so many tabs you share the wrong screen.",
+        "Link's in the chat. Anyone want to jump in?"
+      ],
+      "F": [
+        "The Finisher",
+        "A good meeting is one that ends with a decision.",
+        "You can't stand meetings that go round in circles. You push for a decision, split the tasks and wrap it up. While others are still debating, you've already sent the summary.",
+        "Turning the meeting into results.",
+        "Ending the call before everyone's finished talking.",
+        "So, agreed? Everyone takes their part."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the call needs: you set the agenda when there isn't one, check the numbers when it matters, steer when the conversation stalls and wrap up when it's time.",
+        "Being whatever the meeting needs right now.",
+        "Nobody knowing which role to give you.",
+        "Depends. What's today's goal?"
+      ]
     },
     "S2": {
       "A": "you still love a good agenda.",
@@ -47,25 +181,124 @@
       "F": "when it counts, you push for a decision."
     },
     "Q": [
-      ["You've talked for 2 minutes and someone says “you're on mute”.", {"A": "Repeat it in 3 bullet points", "D": "Ask where they lost me", "M": "Repeat it and answer the chat", "F": "Sum it up in one line"}],
-      ["A call gets booked at the last minute. You...", {"A": "Ask for an agenda before accepting", "D": "Ask who else is coming and why", "M": "Move two things and squeeze it in", "F": "Accept and join on time"}],
-      ["Five minutes before it starts, you...", {"A": "Go over the agenda and timings", "D": "Test the camera, mic and link", "M": "Open the slides, the chat and the spreadsheet", "F": "Grab a coffee and join"}],
-      ["The conversation has gone totally off topic. You...", {"A": "Bring it back to the agenda", "D": "Ask how this relates to the goal", "M": "Park it for another call and move on", "F": "Suggest deciding now and moving on"}],
-      ["Someone shares their screen and it's the wrong tab. You think:", {"A": "“That's why I set everything up beforehand”", "D": "“Hang on, that slide has the wrong date”", "M": "“I'll share mine instead”", "F": "“Any tab will do, keep going”"}],
-      ["Your internet drops mid-sentence. You...", {"A": "Already had the summary written to send", "D": "Check what you missed as soon as you're back", "M": "Rejoin from your phone and carry on", "F": "Type in the chat: “that was it, approved”"}],
-      ["Your biggest flaw on video calls:", {"A": "I plan so much the agenda becomes a book", "D": "I ask so much the call runs over", "M": "I open so many tabs I share the wrong one", "F": "I end it before everyone's had their say"}],
-      ["The call's over. You...", {"A": "Send notes with the next steps", "D": "Check every task has an owner", "M": "Already book the next one with everyone", "F": "Close the call and do your bit"}]
+      [
+        "You've talked for 2 minutes and someone says \"you're on mute\".",
+        {
+          "A": "Repeat it in 3 bullet points",
+          "D": "Ask where they lost me",
+          "M": "Repeat it and answer the chat",
+          "F": "Sum it up in one line"
+        }
+      ],
+      [
+        "A call gets booked at the last minute. You...",
+        {
+          "A": "Ask for an agenda before accepting",
+          "D": "Ask who else is coming and why",
+          "M": "Move two things and squeeze it in",
+          "F": "Accept and join on time"
+        }
+      ],
+      [
+        "Five minutes before it starts, you...",
+        {
+          "A": "Go over the agenda and timings",
+          "D": "Test the camera, mic and link",
+          "M": "Open the slides, the chat and the spreadsheet",
+          "F": "Grab a coffee and join"
+        }
+      ],
+      [
+        "The conversation has gone totally off topic. You...",
+        {
+          "A": "Bring it back to the agenda",
+          "D": "Ask how this relates to the goal",
+          "M": "Park it for another call and move on",
+          "F": "Suggest deciding now and moving on"
+        }
+      ],
+      [
+        "Someone shares their screen and it's the wrong tab. You think:",
+        {
+          "A": "“That's why I set everything up beforehand”",
+          "D": "“Hang on, that slide has the wrong date”",
+          "M": "“I'll share mine instead”",
+          "F": "“Any tab will do, keep going”"
+        }
+      ],
+      [
+        "Your internet drops mid-sentence. You...",
+        {
+          "A": "Already had the summary written to send",
+          "D": "Check what you missed as soon as you're back",
+          "M": "Rejoin from your phone and carry on",
+          "F": "Type in the chat: “that was it, approved”"
+        }
+      ],
+      [
+        "Your biggest flaw on video calls:",
+        {
+          "A": "I plan so much the agenda becomes a book",
+          "D": "I ask so much the call runs over",
+          "M": "I open so many tabs I share the wrong one",
+          "F": "I end it before everyone's had their say"
+        }
+      ],
+      [
+        "The call's over. You...",
+        {
+          "A": "Send notes with the next steps",
+          "D": "Check every task has an owner",
+          "M": "Already book the next one with everyone",
+          "F": "Close the call and do your bit"
+        }
+      ]
     ]
   },
   "zh": {
     "titulo": "线上开会时你是哪个泡泡？",
     "lead": "每次线上会议都有同样的4种人。你是哪一种？",
     "T": {
-      "A": ["建筑师", "你的会议有议程、有时间、有下一步。", "对你来说，好会议在进会之前就开始了。你提前发议程，定好每个话题多久，散会时一切都有记录。所以你的会总能准时结束。", "把聊天变成计划。", "规划得太细，还得再开个会来定议程。", "我们按议程走？第2项。"],
-      "D": ["侦探", "屏幕上的每个数字，你都要核对一遍。", "你会发现数据错了的那页PPT、写错的日期，还有说要发却没发的人。你会问出大家都忘了问的问题。正因为有你，决定才不会出错。", "找到没人注意的细节。", "问题太多，会议拖堂。", "问一下：这个数字是哪个月的？"],
-      "M": ["指挥家", "你一边发言、一边回消息、一边共享屏幕。", "你主持讨论、回复聊天框、发出别人要的链接，还记得请没发言的人说两句。有你在，会议顺顺当当，谁也不会被落下。", "让会议有活力，大家都跟得上。", "开了太多标签页，共享错了屏幕。", "链接发聊天框了。还有谁想说？"],
-      "F": ["终结者", "好会议就是有结论的会议。", "你受不了绕圈子的会。你推动做决定、分好任务、宣布散会。别人还在讨论，你的会议纪要已经发出去了。", "让会议变成结果。", "大家还没说完就散会。", "那就定了？各自领任务。"],
-      "S": ["秘密泡泡", "一个泡泡装不下你。", "你根据会议需要切换角色：没议程时定议程，关键时核对数字，冷场时带节奏，该结束时就收尾。", "成为会议此刻最需要的人。", "别人不知道该让你担任什么角色。", "看情况。今天的目标是什么？"]
+      "A": [
+        "建筑师",
+        "你的会议有议程、有时间、有下一步。",
+        "对你来说，好会议在进会之前就开始了。你提前发议程，定好每个话题多久，散会时一切都有记录。所以你的会总能准时结束。",
+        "把聊天变成计划。",
+        "规划得太细，还得再开个会来定议程。",
+        "我们按议程走？第2项。"
+      ],
+      "D": [
+        "侦探",
+        "屏幕上的每个数字，你都要核对一遍。",
+        "你会发现数据错了的那页PPT、写错的日期，还有说要发却没发的人。你会问出大家都忘了问的问题。正因为有你，决定才不会出错。",
+        "找到没人注意的细节。",
+        "问题太多，会议拖堂。",
+        "问一下：这个数字是哪个月的？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边发言、一边回消息、一边共享屏幕。",
+        "你主持讨论、回复聊天框、发出别人要的链接，还记得请没发言的人说两句。有你在，会议顺顺当当，谁也不会被落下。",
+        "让会议有活力，大家都跟得上。",
+        "开了太多标签页，共享错了屏幕。",
+        "链接发聊天框了。还有谁想说？"
+      ],
+      "F": [
+        "终结者",
+        "好会议就是有结论的会议。",
+        "你受不了绕圈子的会。你推动做决定、分好任务、宣布散会。别人还在讨论，你的会议纪要已经发出去了。",
+        "让会议变成结果。",
+        "大家还没说完就散会。",
+        "那就定了？各自领任务。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据会议需要切换角色：没议程时定议程，关键时核对数字，冷场时带节奏，该结束时就收尾。",
+        "成为会议此刻最需要的人。",
+        "别人不知道该让你担任什么角色。",
+        "看情况。今天的目标是什么？"
+      ]
     },
     "S2": {
       "A": "你还是喜欢一份好议程。",
@@ -74,14 +307,78 @@
       "F": "关键时刻，你会推动大家做决定。"
     },
     "Q": [
-      ["你讲了2分钟，有人提醒：“你没开麦”。", {"A": "分3点重讲一遍", "D": "问大家从哪儿没听到", "M": "边重讲边回聊天框", "F": "一句话总结"}],
-      ["临时被拉进一个会。你……", {"A": "先要议程再接受", "D": "问还有谁参加、为什么", "M": "挪开两件事，硬塞进去", "F": "接受，准时进会"}],
-      ["开会前五分钟，你……", {"A": "再过一遍议程和时间", "D": "测试摄像头、麦克风和链接", "M": "打开PPT、聊天框和表格", "F": "倒杯咖啡就进会"}],
-      ["讨论完全跑题了。你……", {"A": "拉回议程", "D": "问这跟今天的目标有什么关系", "M": "记下来留到下次会，继续往下", "F": "提议现在就定，然后往下走"}],
-      ["有人共享屏幕，结果是错的标签页。你心想：", {"A": "“所以我都提前准备好”", "D": "“等等，这页日期写错了”", "M": "“我来共享我的吧”", "F": "“哪个都行，继续”"}],
-      ["你讲到一半网断了。你……", {"A": "早就写好了总结准备发", "D": "一回来就确认错过了什么", "M": "用手机重新进会接着讲", "F": "在聊天框打字：“就这些，通过”"}],
-      ["你线上开会最大的毛病：", {"A": "计划太细，议程写成一本书", "D": "问题太多，会议拖堂", "M": "标签页太多，共享错屏幕", "F": "大家还没说完我就散会"}],
-      ["会议结束了。你……", {"A": "发出纪要和下一步", "D": "确认每个任务都有负责人", "M": "顺手约好下次会议", "F": "关掉会议去干自己的活"}]
+      [
+        "你讲了2分钟，有人提醒：“你没开麦”。",
+        {
+          "A": "分3点重讲一遍",
+          "D": "问大家从哪儿没听到",
+          "M": "边重讲边回聊天框",
+          "F": "一句话总结"
+        }
+      ],
+      [
+        "临时被拉进一个会。你……",
+        {
+          "A": "先要议程再接受",
+          "D": "问还有谁参加、为什么",
+          "M": "挪开两件事，硬塞进去",
+          "F": "接受，准时进会"
+        }
+      ],
+      [
+        "开会前五分钟，你……",
+        {
+          "A": "再过一遍议程和时间",
+          "D": "测试摄像头、麦克风和链接",
+          "M": "打开PPT、聊天框和表格",
+          "F": "倒杯咖啡就进会"
+        }
+      ],
+      [
+        "讨论完全跑题了。你……",
+        {
+          "A": "拉回议程",
+          "D": "问这跟今天的目标有什么关系",
+          "M": "记下来留到下次会，继续往下",
+          "F": "提议现在就定，然后往下走"
+        }
+      ],
+      [
+        "有人共享屏幕，结果是错的标签页。你心想：",
+        {
+          "A": "“所以我都提前准备好”",
+          "D": "“等等，这页日期写错了”",
+          "M": "“我来共享我的吧”",
+          "F": "“哪个都行，继续”"
+        }
+      ],
+      [
+        "你讲到一半网断了。你……",
+        {
+          "A": "早就写好了总结准备发",
+          "D": "一回来就确认错过了什么",
+          "M": "用手机重新进会接着讲",
+          "F": "在聊天框打字：“就这些，通过”"
+        }
+      ],
+      [
+        "你线上开会最大的毛病：",
+        {
+          "A": "计划太细，议程写成一本书",
+          "D": "问题太多，会议拖堂",
+          "M": "标签页太多，共享错屏幕",
+          "F": "大家还没说完我就散会"
+        }
+      ],
+      [
+        "会议结束了。你……",
+        {
+          "A": "发出纪要和下一步",
+          "D": "确认每个任务都有负责人",
+          "M": "顺手约好下次会议",
+          "F": "关掉会议去干自己的活"
+        }
+      ]
     ]
   }
 }
