@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "supermercado",
+   "url": "/q/?s=supermercado",
+   "criado_em": "2026-11-03",
+   "categoria": "comida",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é no supermercado?",
+    "en": "What's your bubble at the supermarket?",
+    "zh": "逛超市时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "faxina",
+   "url": "/q/?s=faxina",
+   "criado_em": "2026-11-03",
+   "categoria": "casa",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é na faxina?",
+    "en": "What's your bubble on cleaning day?",
+    "zh": "大扫除时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "aeroporto",
+   "url": "/q/?s=aeroporto",
+   "criado_em": "2026-11-03",
+   "categoria": "viagem",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é no aeroporto?",
+    "en": "What's your bubble at the airport?",
+    "zh": "在机场时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "reuniao-online",
    "url": "/q/?s=reuniao-online",
    "criado_em": "2026-11-02",

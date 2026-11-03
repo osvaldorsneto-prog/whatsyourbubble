@@ -1,0 +1,384 @@
+{
+  "slug": "supermercado",
+  "criado_em": "2026-11-03",
+  "categoria": "comida",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é no supermercado?",
+    "lead": "Todo mercado tem os mesmos 4 tipos de cliente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você entra no mercado com a lista em ordem de corredor.",
+        "Pra você, compra boa começa em casa. Você confere a despensa, monta a lista e sabe o caminho de cada corredor. Por isso volta com tudo e sem gastar à toa.",
+        "Sair do mercado sem esquecer nada.",
+        "Travar quando o mercado muda os produtos de lugar.",
+        "Hortifrúti primeiro, congelados por último."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum preço passa sem você comparar.",
+        "Você olha validade, preço por quilo e a fruta de baixo da pilha. Percebe quando a promoção não é promoção. É graças a você que a conta fecha e o leite não vence amanhã.",
+        "Achar o melhor preço da prateleira.",
+        "Comparar tanto que o mercado fecha.",
+        "Peraí, o grande sai mais caro por grama."
+      ],
+      "M": [
+        "O Maestro",
+        "Você faz a compra, responde o grupo e lembra do pedido de todos.",
+        "Você cuida de tudo junto: a lista de casa, o pedido do vizinho, a foto do produto pra confirmar e o carrinho no corredor certo. Com você, ninguém fica sem o que pediu.",
+        "Atender a casa inteira numa ida só.",
+        "Lembrar do pedido de todo mundo e esquecer o seu.",
+        "Manda foto que eu vejo se é esse."
+      ],
+      "F": [
+        "O Finalizador",
+        "Entra, pega, paga e sai.",
+        "Você não fica passeando nos corredores. Sabe o que quer, pega o que tiver e vai pro caixa mais rápido. Enquanto os outros comparam marcas, você já tá em casa guardando as compras.",
+        "Fazer o mercado em 15 minutos.",
+        "Voltar sem o item que motivou a ida.",
+        "Esse serve. Bora pro caixa."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a compra pede: planeja a compra do mês, compara quando vale a pena, cuida dos pedidos de todo mundo e corre quando é só o pão.",
+        "Ser o cliente que a compra precisa naquele dia.",
+        "Ninguém saber se te manda com lista ou sem.",
+        "Depende. É compra do mês ou só o pão?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de entrar com lista.",
+      "D": "você não deixa um preço passar sem conferir.",
+      "M": "você lembra do pedido de todo mundo.",
+      "F": "na hora certa, você pega e vai pro caixa."
+    },
+    "Q": [
+      [
+        "Você foi comprar só pão. O carrinho já tá cheio.",
+        {
+          "A": "Volto pra lista",
+          "D": "Vejo o que é promoção",
+          "M": "Compro pra casa toda",
+          "F": "Pago tudo e pronto"
+        }
+      ],
+      [
+        "Antes de sair de casa, você...",
+        {
+          "A": "Confiro a despensa e monto a lista por corredor",
+          "D": "Vejo as ofertas da semana",
+          "M": "Pergunto no grupo de casa se alguém quer algo",
+          "F": "Pego a sacola e vou"
+        }
+      ],
+      [
+        "A fila do caixa tá enorme. Você...",
+        {
+          "A": "Anoto que esse horário é ruim pra próxima vez",
+          "D": "Conto os itens de cada fila pra escolher a mais rápida",
+          "M": "Respondo mensagens e organizo as sacolas",
+          "F": "Vou direto pro autoatendimento"
+        }
+      ],
+      [
+        "Seu papel quando vai ao mercado acompanhado:",
+        {
+          "A": "Quem leva a lista",
+          "D": "Quem lê os rótulos",
+          "M": "Quem empurra o carrinho e lembra de tudo",
+          "F": "Quem acha o caixa mais rápido"
+        }
+      ],
+      [
+        "O produto da lista mudou de lugar. Você...",
+        {
+          "A": "Penso na lógica dos corredores e acho",
+          "D": "Procuro prateleira por prateleira",
+          "M": "Pergunto ao funcionário e sigo pegando outras coisas",
+          "F": "Levo outro parecido"
+        }
+      ],
+      [
+        "Alguém de casa liga: \"compra aquele negócio que eu esqueci o nome\".",
+        {
+          "A": "Peço pra mandar por escrito",
+          "D": "Faço perguntas até descobrir o que é",
+          "M": "Peço foto e pergunto se precisa de mais algo",
+          "F": "Levo o que eu acho que é"
+        }
+      ],
+      [
+        "Seu maior defeito no mercado:",
+        {
+          "A": "Fico perdido sem lista",
+          "D": "Comparo tanto que demoro horas",
+          "M": "Compro pra todo mundo e esqueço o meu",
+          "F": "Esqueço justamente o que fui buscar"
+        }
+      ],
+      [
+        "Chegou em casa com as compras. Você...",
+        {
+          "A": "Guardo tudo por categoria",
+          "D": "Confiro a notinha item por item",
+          "M": "Separo o que é de cada um",
+          "F": "Enfio tudo na geladeira e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the supermarket?",
+    "lead": "Every supermarket has the same 4 kinds of shopper. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You walk in with a list sorted by aisle.",
+        "For you, good shopping starts at home. You check the cupboards, write the list and know your route through every aisle. That's why you come back with everything and nothing you didn't need.",
+        "Leaving without forgetting a single thing.",
+        "Freezing up when the shop moves things around.",
+        "Fruit and veg first, frozen stuff last."
+      ],
+      "D": [
+        "The Detective",
+        "No price gets past you uncompared.",
+        "You check use-by dates, price per kilo and the fruit at the bottom of the pile. You can tell when a deal isn't really a deal. You're the reason the budget works and the milk lasts the week.",
+        "Finding the best price on the shelf.",
+        "Comparing so long the shop closes.",
+        "Hang on, the big one costs more per gram."
+      ],
+      "M": [
+        "The Maestro",
+        "You shop, reply to the group chat and remember everyone's order.",
+        "You handle it all at once: the house list, the neighbour's request, the photo to double-check and the trolley in the right aisle. With you, nobody misses what they asked for.",
+        "Covering the whole house in one trip.",
+        "Remembering everyone's order except your own.",
+        "Send me a photo so I get the right one."
+      ],
+      "F": [
+        "The Finisher",
+        "In, grab, pay, out.",
+        "You don't wander the aisles. You know what you want, grab what's there and head for the fastest till. While others compare brands, you're already home putting the shopping away.",
+        "Doing the whole shop in 15 minutes.",
+        "Coming home without the one thing you went for.",
+        "That'll do. Till, now."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the shop needs: you plan the big monthly shop, compare when it matters, juggle everyone's orders and dash in when it's just bread.",
+        "Being the shopper the trip needs that day.",
+        "Nobody knowing whether to give you a list.",
+        "Depends. Big shop or just bread?"
+      ]
+    },
+    "S2": {
+      "A": "you still like walking in with a list.",
+      "D": "you never let a price slip past unchecked.",
+      "M": "you remember what everyone asked for.",
+      "F": "when it counts, you grab it and head for the till."
+    },
+    "Q": [
+      [
+        "You went in for bread. Your trolley is now full.",
+        {
+          "A": "Back to the list",
+          "D": "See what's on offer",
+          "M": "Shop for everyone",
+          "F": "Pay and go"
+        }
+      ],
+      [
+        "Before leaving home, you...",
+        {
+          "A": "Check the cupboards and list it by aisle",
+          "D": "Look through this week's offers",
+          "M": "Ask the house group if anyone needs anything",
+          "F": "Grab a bag and go"
+        }
+      ],
+      [
+        "The checkout queue is huge. You...",
+        {
+          "A": "Note this is a bad time for next week",
+          "D": "Count the items in each queue to pick the fastest",
+          "M": "Reply to messages and sort the bags",
+          "F": "Head straight to self-checkout"
+        }
+      ],
+      [
+        "Your role when you shop with someone:",
+        {
+          "A": "The one holding the list",
+          "D": "The one reading the labels",
+          "M": "The one pushing the trolley and remembering everything",
+          "F": "The one finding the fastest till"
+        }
+      ],
+      [
+        "The thing on your list has moved aisles. You...",
+        {
+          "A": "Work out the shop's logic and find it",
+          "D": "Search shelf by shelf",
+          "M": "Ask a staff member while grabbing other stuff",
+          "F": "Take something similar"
+        }
+      ],
+      [
+        "Someone at home calls: \"get that thing, I forget what it's called\".",
+        {
+          "A": "Ask them to text it to me",
+          "D": "Ask questions until I work it out",
+          "M": "Ask for a photo and if they need anything else",
+          "F": "Buy whatever I think it is"
+        }
+      ],
+      [
+        "Your biggest flaw at the supermarket:",
+        {
+          "A": "I'm lost without a list",
+          "D": "I compare so much it takes hours",
+          "M": "I shop for everyone and forget my own stuff",
+          "F": "I forget the very thing I went for"
+        }
+      ],
+      [
+        "You're home with the shopping. You...",
+        {
+          "A": "Put it all away by category",
+          "D": "Check the receipt line by line",
+          "M": "Sort out what's whose",
+          "F": "Shove it all in the fridge, done"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "逛超市时你是哪个泡泡？",
+    "lead": "每家超市都有同样的4种顾客。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "进超市前，你的清单已经按货架排好了。",
+        "对你来说，好的采购从家里开始。你先看看冰箱和柜子，列好清单，知道每条通道怎么走。所以你总能买齐，还不乱花钱。",
+        "一样东西都不落下。",
+        "超市一调整货架你就懵了。",
+        "先买蔬果，冷冻的最后拿。"
+      ],
+      "D": [
+        "侦探",
+        "没有一个价格能逃过你的比较。",
+        "你会看保质期、每斤单价，还会挑最底下的水果。打折是不是真便宜，你一眼就看穿。正因为有你，预算才够用，牛奶也不会明天就过期。",
+        "找到货架上最划算的那个。",
+        "比价比到超市都关门了。",
+        "等等，大包装每克反而更贵。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边买东西，一边回群消息，还记得全家要什么。",
+        "你什么都一起管：家里的清单、邻居托你带的东西、拍照确认，还有推车停在哪条通道。有你在，谁要的东西都不会漏。",
+        "一趟就把全家需要的都买齐。",
+        "记得所有人要的，偏偏忘了自己的。",
+        "拍个照给我，我看看是不是这个。"
+      ],
+      "F": [
+        "终结者",
+        "进门、拿货、结账、走人。",
+        "你从不在货架间闲逛。知道要什么，有什么拿什么，直奔最快的收银台。别人还在比牌子，你已经到家把东西收好了。",
+        "15分钟搞定一次采购。",
+        "回到家才发现最想买的那样没买。",
+        "这个就行，去结账。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据采购的需要切换角色：月度大采购时做计划，值得时认真比价，帮大家带东西时什么都管，只买面包时就速战速决。",
+        "成为那天采购最需要的那种顾客。",
+        "别人不知道该不该给你清单。",
+        "看情况。是大采购还是只买个面包？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢带着清单进超市。",
+      "D": "你不会让任何价格不经比较就过关。",
+      "M": "你记得每个人要的东西。",
+      "F": "关键时刻，你拿了就去结账。"
+    },
+    "Q": [
+      [
+        "你只是去买个面包，结果购物车已经满了。",
+        {
+          "A": "回到清单上",
+          "D": "看看哪些在打折",
+          "M": "顺便给全家都买",
+          "F": "全部结账走人"
+        }
+      ],
+      [
+        "出门之前，你会……",
+        {
+          "A": "先查冰箱，按货架顺序列清单",
+          "D": "翻翻这周的优惠",
+          "M": "在家庭群里问谁还要什么",
+          "F": "拎个袋子就出门"
+        }
+      ],
+      [
+        "收银台排起了长队。你……",
+        {
+          "A": "记下这个时段人多，下次避开",
+          "D": "数每队的商品数，挑最快的一队",
+          "M": "回消息，顺便把袋子分好",
+          "F": "直接去自助结账"
+        }
+      ],
+      [
+        "和别人一起逛超市时，你的角色是……",
+        {
+          "A": "拿清单的那个人",
+          "D": "看配料表的那个人",
+          "M": "推车还什么都记得的那个人",
+          "F": "找最快收银台的那个人"
+        }
+      ],
+      [
+        "清单上的东西换货架了。你……",
+        {
+          "A": "按超市的摆放逻辑推理出来",
+          "D": "一排一排地找",
+          "M": "边问店员边拿别的东西",
+          "F": "拿个差不多的"
+        }
+      ],
+      [
+        "家里人打电话：“帮我买那个……叫什么来着”。",
+        {
+          "A": "让他发文字给我",
+          "D": "一直问到搞清楚是什么",
+          "M": "让他拍照，再问还要不要别的",
+          "F": "买我觉得是的那个"
+        }
+      ],
+      [
+        "你逛超市最大的毛病：",
+        {
+          "A": "没有清单就不知所措",
+          "D": "比价比太久，一逛几小时",
+          "M": "给大家都买了，忘了自己的",
+          "F": "偏偏忘了最想买的那样"
+        }
+      ],
+      [
+        "买完到家了。你……",
+        {
+          "A": "按类别把东西收好",
+          "D": "对着小票一项项核对",
+          "M": "分好哪些是谁的",
+          "F": "全塞进冰箱，完事"
+        }
+      ]
+    ]
+  }
+}

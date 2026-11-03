@@ -1,0 +1,384 @@
+{
+  "slug": "aeroporto",
+  "criado_em": "2026-11-03",
+  "categoria": "viagem",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é no aeroporto?",
+    "lead": "Todo aeroporto tem os mesmos 4 tipos de passageiro. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você chega no aeroporto três horas antes, com tudo planejado.",
+        "Pra você, viagem boa começa com o check-in feito na véspera. Você sabe o portão, o horário do embarque e onde fica o café. Por isso nunca corre pelo terminal.",
+        "Chegar no portão com tempo de sobra.",
+        "Chegar tão cedo que o voo anterior ainda nem saiu.",
+        "Embarque às 14h10. Saímos de casa às 10h."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere o passaporte cinco vezes antes de sair de casa.",
+        "Você confere o cartão de embarque, o painel de voos e se a mala tá no peso. Percebe a mudança de portão antes do aviso. É graças a você que ninguém embarca no avião errado.",
+        "Notar a mudança de portão antes de todo mundo.",
+        "Olhar tanto o painel que esquece de tomar o café.",
+        "Peraí, o portão mudou. Olha o painel."
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida das malas, dos documentos e do grupo inteiro.",
+        "Você cuida de tudo junto: as malas, os documentos de todos, o lanche e quem foi ao banheiro. Enquanto os outros pensam no próprio voo, você leva a turma inteira até o portão.",
+        "Fazer o grupo todo embarcar junto.",
+        "Segurar tanta coisa que perde o próprio cartão de embarque.",
+        "Todo mundo com documento? Cadê o Fulano?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você chega no portão na última chamada, tranquilo.",
+        "Você não perde tempo em fila à toa. Mala de mão, cartão no celular e direto pro portão. Enquanto os outros esperam desde cedo, você chega, embarca e já tá sentado.",
+        "Passar pelo aeroporto sem perder um minuto.",
+        "Contar demais com a última chamada.",
+        "Ainda tá embarcando? Então dá tempo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a viagem pede: planeja quando o voo é longo, confere quando tem conexão, cuida de todo mundo quando viaja em grupo e corre quando é um voo rapidinho.",
+        "Ser o passageiro que a viagem precisa.",
+        "Ninguém saber a que horas te buscar.",
+        "Depende. Tem conexão?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de chegar com folga.",
+      "D": "você confere o painel mais de uma vez.",
+      "M": "você cuida da turma inteira.",
+      "F": "na hora certa, você vai direto pro portão."
+    },
+    "Q": [
+      [
+        "Seu portão mudou e o novo fica do outro lado do aeroporto.",
+        {
+          "A": "Tenho folga, vou andando",
+          "D": "Confiro no painel de novo",
+          "M": "Junto o grupo e as malas",
+          "F": "Saio correndo agora"
+        }
+      ],
+      [
+        "Quando você sai de casa pro aeroporto?",
+        {
+          "A": "Três horas antes, como planejei",
+          "D": "Depois de conferir os documentos mais uma vez",
+          "M": "Quando todo mundo do grupo estiver pronto",
+          "F": "Na hora que dá, sem stress"
+        }
+      ],
+      [
+        "A fila do raio-x tá enorme. Você...",
+        {
+          "A": "Já contava com isso no horário",
+          "D": "Observo qual fila anda mais rápido",
+          "M": "Separo os líquidos e eletrônicos de todo mundo",
+          "F": "Já tiro casaco e cinto pra passar rápido"
+        }
+      ],
+      [
+        "Seu papel viajando em grupo:",
+        {
+          "A": "Quem fez o roteiro",
+          "D": "Quem fica de olho no painel de voos",
+          "M": "Quem cuida das malas, do lanche e das pessoas",
+          "F": "Quem acha o caminho mais curto até o portão"
+        }
+      ],
+      [
+        "Anunciam um atraso de duas horas. Você...",
+        {
+          "A": "Ajusto o resto do roteiro",
+          "D": "Pesquiso o motivo e se vai atrasar mais",
+          "M": "Arrumo lanche e lugar pra todo mundo sentar",
+          "F": "Cochilo na cadeira até chamarem"
+        }
+      ],
+      [
+        "Na hora de despachar a mala, você...",
+        {
+          "A": "Pesei em casa, tá dentro do limite",
+          "D": "Confiro se a etiqueta tem o destino certo",
+          "M": "Ajudo todo mundo a fechar a mala",
+          "F": "Só levo mala de mão, não despacho nada"
+        }
+      ],
+      [
+        "Seu maior defeito no aeroporto:",
+        {
+          "A": "Chego cedo demais",
+          "D": "Olho o painel a cada cinco minutos",
+          "M": "Cuido de todos e perco meu cartão de embarque",
+          "F": "Confio demais na última chamada"
+        }
+      ],
+      [
+        "Pousou! Você...",
+        {
+          "A": "Já sei o caminho até a saída",
+          "D": "Confiro se a mala que saiu é mesmo a minha",
+          "M": "Junto o grupo e chamo o transporte",
+          "F": "Saio primeiro com a mala de mão"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the airport?",
+    "lead": "Every airport has the same 4 kinds of traveller. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You get to the airport three hours early, all planned out.",
+        "For you, a good trip starts with checking in the night before. You know the gate, the boarding time and where the coffee is. That's why you never sprint through the terminal.",
+        "Reaching the gate with time to spare.",
+        "Arriving so early the flight before yours hasn't left.",
+        "Boarding's at 2:10. We leave home at 10."
+      ],
+      "D": [
+        "The Detective",
+        "You check your passport five times before leaving home.",
+        "You check your boarding pass, the departures board and that your bag's under the limit. You spot the gate change before the announcement. You're the reason nobody gets on the wrong plane.",
+        "Spotting the gate change before anyone else.",
+        "Watching the board so much you forget your coffee.",
+        "Hang on, the gate's changed. Look at the board."
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the bags, the passports and the whole group.",
+        "You handle it all at once: the bags, everyone's documents, the snacks and whoever went to the loo. While others think about their own flight, you get the whole crew to the gate.",
+        "Getting the whole group on board together.",
+        "Holding so much you lose your own boarding pass.",
+        "Everyone got their passport? Where's Sam?"
+      ],
+      "F": [
+        "The Finisher",
+        "You stroll up to the gate on the final call.",
+        "You don't waste time in queues you don't need. Hand luggage, boarding pass on your phone, straight to the gate. While others have waited for hours, you walk on and sit down.",
+        "Getting through the airport without wasting a minute.",
+        "Leaning on the final call a bit too much.",
+        "Still boarding? Then there's time."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the trip needs: you plan for long flights, check when there's a connection, look after everyone on group trips and dash when it's a quick hop.",
+        "Being the traveller the trip needs.",
+        "Nobody knowing what time to pick you up.",
+        "Depends. Is there a connection?"
+      ]
+    },
+    "S2": {
+      "A": "you still like arriving with time to spare.",
+      "D": "you check the board more than once.",
+      "M": "you look after the whole crew.",
+      "F": "when it counts, you head straight for the gate."
+    },
+    "Q": [
+      [
+        "Your gate just changed. It's at the other end of the airport.",
+        {
+          "A": "I left time for this",
+          "D": "Check the board again",
+          "M": "Round up group and bags",
+          "F": "Start running now"
+        }
+      ],
+      [
+        "When do you leave home for the airport?",
+        {
+          "A": "Three hours early, as planned",
+          "D": "After checking my documents one more time",
+          "M": "When everyone in the group is ready",
+          "F": "Whenever, no stress"
+        }
+      ],
+      [
+        "The security queue is huge. You...",
+        {
+          "A": "Already built it into the timing",
+          "D": "Watch which line moves fastest",
+          "M": "Sort out everyone's liquids and laptops",
+          "F": "Take off my jacket and belt to get through fast"
+        }
+      ],
+      [
+        "Your role on a group trip:",
+        {
+          "A": "The one who made the itinerary",
+          "D": "The one watching the departures board",
+          "M": "The one handling bags, snacks and people",
+          "F": "The one who knows the shortest way to the gate"
+        }
+      ],
+      [
+        "They announce a two-hour delay. You...",
+        {
+          "A": "Rework the rest of the itinerary",
+          "D": "Look up why and whether it'll get longer",
+          "M": "Find snacks and seats for everyone",
+          "F": "Nap in the chair until they call us"
+        }
+      ],
+      [
+        "At bag drop, you...",
+        {
+          "A": "Weighed it at home, it's under the limit",
+          "D": "Check the tag shows the right destination",
+          "M": "Help everyone zip up their bags",
+          "F": "I only bring hand luggage"
+        }
+      ],
+      [
+        "Your biggest airport flaw:",
+        {
+          "A": "I get there way too early",
+          "D": "I check the board every five minutes",
+          "M": "I look after everyone and lose my boarding pass",
+          "F": "I trust the final call too much"
+        }
+      ],
+      [
+        "You've landed! You...",
+        {
+          "A": "Already know the way to the exit",
+          "D": "Check the bag that came out is really mine",
+          "M": "Gather the group and book a ride",
+          "F": "Walk off first with my hand luggage"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "在机场时你是哪个泡泡？",
+    "lead": "每个机场都有同样的4种旅客。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你提前三小时到机场，一切都安排好了。",
+        "对你来说，好的旅行从前一晚值机开始。你知道登机口、登机时间，还有咖啡店在哪。所以你从来不用在航站楼里狂奔。",
+        "提前很久就到登机口。",
+        "到得太早，上一班飞机还没走。",
+        "两点十分登机，十点出门。"
+      ],
+      "D": [
+        "侦探",
+        "出门前，你要把护照检查五遍。",
+        "你会核对登机牌、航班显示屏，还有行李有没有超重。登机口一变，广播还没响你就发现了。正因为有你，才没人登错飞机。",
+        "比别人先发现登机口变了。",
+        "盯屏幕盯到忘了喝咖啡。",
+        "等等，登机口换了。看屏幕。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管着行李、证件和整个团。",
+        "你什么都一起管：行李、所有人的证件、零食，还有谁去了洗手间。别人只顾自己的航班，你把整个团带到登机口。",
+        "让全团一起顺利登机。",
+        "手上拿太多，把自己的登机牌弄丢了。",
+        "证件都带了吗？小王去哪儿了？"
+      ],
+      "F": [
+        "终结者",
+        "最后一次广播时，你才悠闲地走到登机口。",
+        "你不在没必要的队伍里浪费时间。只带随身行李，手机登机牌，直奔登机口。别人等了好几个小时，你走上飞机就坐下了。",
+        "在机场一分钟都不浪费。",
+        "太依赖最后一次广播。",
+        "还在登机？那来得及。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据旅行的需要切换角色：长途航班时做计划，要转机时仔细检查，团队出行时照顾所有人，短途飞行时就速战速决。",
+        "成为这趟旅行最需要的那种旅客。",
+        "别人不知道几点来接你。",
+        "看情况。要转机吗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前到。",
+      "D": "你会不止一次查看航班屏幕。",
+      "M": "你会照顾整个团。",
+      "F": "关键时刻，你直奔登机口。"
+    },
+    "Q": [
+      [
+        "登机口刚换了，新的在机场另一头。",
+        {
+          "A": "我早留了时间",
+          "D": "再看一遍屏幕",
+          "M": "召集大家和行李",
+          "F": "现在就开跑"
+        }
+      ],
+      [
+        "你什么时候出门去机场？",
+        {
+          "A": "按计划提前三小时",
+          "D": "再检查一遍证件之后",
+          "M": "等团里所有人都准备好",
+          "F": "差不多就走，不慌"
+        }
+      ],
+      [
+        "安检排起了长队。你……",
+        {
+          "A": "早就算进时间里了",
+          "D": "观察哪条队走得最快",
+          "M": "帮大家把液体和电脑拿出来",
+          "F": "先脱外套和腰带，快速通过"
+        }
+      ],
+      [
+        "团队出行时，你的角色是……",
+        {
+          "A": "做行程的那个人",
+          "D": "盯航班屏幕的那个人",
+          "M": "管行李、零食和人的那个人",
+          "F": "知道去登机口最近路线的那个人"
+        }
+      ],
+      [
+        "广播说航班延误两小时。你……",
+        {
+          "A": "调整后面的行程",
+          "D": "查原因，看会不会再延误",
+          "M": "给大家找零食和座位",
+          "F": "在椅子上睡到叫我们为止"
+        }
+      ],
+      [
+        "托运行李时，你……",
+        {
+          "A": "在家称过了，没超重",
+          "D": "检查行李标签的目的地对不对",
+          "M": "帮大家把箱子拉好",
+          "F": "我只带随身行李"
+        }
+      ],
+      [
+        "你在机场最大的毛病：",
+        {
+          "A": "到得太早",
+          "D": "每五分钟看一次屏幕",
+          "M": "照顾所有人，结果弄丢自己的登机牌",
+          "F": "太相信最后一次广播"
+        }
+      ],
+      [
+        "落地了！你……",
+        {
+          "A": "早就知道出口怎么走",
+          "D": "确认转盘上的箱子真是我的",
+          "M": "召集大家，叫车",
+          "F": "拿着随身行李第一个下"
+        }
+      ]
+    ]
+  }
+}

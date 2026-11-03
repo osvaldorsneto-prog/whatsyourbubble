@@ -1,0 +1,384 @@
+{
+  "slug": "faxina",
+  "criado_em": "2026-11-03",
+  "categoria": "casa",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é na faxina?",
+    "lead": "Toda faxina tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Sua faxina tem roteiro: de cima pra baixo, de dentro pra fora.",
+        "Pra você, faxina boa começa com um plano. Você sabe a ordem dos cômodos, que produto vai em cada lugar e quanto tempo leva. Por isso, quando você limpa, nada fica pela metade.",
+        "Limpar a casa inteira sem refazer nada.",
+        "Planejar tanto que a faxina começa depois do almoço.",
+        "Primeiro o pó, depois o chão. Sempre."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma poeira escapa da lanterna do seu celular.",
+        "Você confere atrás do sofá, em cima da geladeira e no cantinho do box. Percebe a mancha que ninguém viu. É graças a você que a casa fica limpa de verdade, não só arrumada.",
+        "Achar a sujeira que ninguém achou.",
+        "Limpar o mesmo canto três vezes.",
+        "Passa o dedo aqui. Tá vendo?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você lava roupa, passa pano e cuida da playlist ao mesmo tempo.",
+        "Você cuida de tudo junto: máquina rodando, panela no fogo, chão secando e música alta. Enquanto os outros limpam um cômodo, você toca a casa inteira.",
+        "Fazer a casa toda andar ao mesmo tempo.",
+        "Começar dez cômodos e terminar nenhum.",
+        "Enquanto seca aqui, já adianto ali."
+      ],
+      "F": [
+        "O Finalizador",
+        "Casa limpa é melhor que casa perfeita.",
+        "Você não espera o dia ideal nem o produto certo. Pega a vassoura, resolve o que dá e libera o resto do dia. Enquanto os outros discutem quem lava o banheiro, você já lavou.",
+        "Deixar a casa apresentável em uma hora.",
+        "Esconder a bagunça dentro do armário.",
+        "Tá limpo o suficiente. Próximo!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a faxina pede: planeja quando é faxina geral, confere quando vem visita, toca tudo junto quando falta tempo e resolve rápido quando é só um tapa.",
+        "Ser o que a casa precisa naquele dia.",
+        "Ninguém saber que tarefa te dar.",
+        "Depende. É faxina geral ou vem visita?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de limpar na ordem certa.",
+      "D": "você não deixa um cantinho sem conferir.",
+      "M": "você toca várias tarefas ao mesmo tempo.",
+      "F": "na hora certa, você pega a vassoura e resolve."
+    },
+    "Q": [
+      [
+        "A visita avisou que chega em 10 minutos.",
+        {
+          "A": "Sigo a ordem: sala primeiro",
+          "D": "Confiro o banheiro",
+          "M": "Limpo tudo um pouco",
+          "F": "Jogo tudo no quarto"
+        }
+      ],
+      [
+        "Dia de faxina. Primeira coisa que você faz:",
+        {
+          "A": "Monto a ordem dos cômodos",
+          "D": "Faço uma vistoria pra ver o que tá pior",
+          "M": "Ligo a máquina, a música e começo pela cozinha",
+          "F": "Pego a vassoura e começo por onde tô"
+        }
+      ],
+      [
+        "Achou um objeto que você nem lembrava que tinha. Você...",
+        {
+          "A": "Penso onde ele deveria ficar e guardo lá",
+          "D": "Tento descobrir de onde ele veio",
+          "M": "Mando foto no grupo e continuo limpando",
+          "F": "Decido na hora: fica ou vai embora"
+        }
+      ],
+      [
+        "Seu papel na faxina em grupo:",
+        {
+          "A": "Quem divide as tarefas",
+          "D": "Quem confere se ficou limpo mesmo",
+          "M": "Quem faz três coisas ao mesmo tempo",
+          "F": "Quem termina primeiro"
+        }
+      ],
+      [
+        "Alguém diz \"o banheiro tá limpo\". Você pensa:",
+        {
+          "A": "\"Claro, seguiu a ordem certa\"",
+          "D": "\"Deixa eu olhar o rejunte\"",
+          "M": "\"Ótimo, então já vou pra lavanderia\"",
+          "F": "\"Então acabou, bora descansar\""
+        }
+      ],
+      [
+        "O produto de limpeza acabou no meio da faxina. Você...",
+        {
+          "A": "Já tinha um de reserva",
+          "D": "Leio o rótulo de outro pra ver se serve",
+          "M": "Peço pra alguém comprar e sigo com outra tarefa",
+          "F": "Uso água e sabão e pronto"
+        }
+      ],
+      [
+        "Seu maior defeito na faxina:",
+        {
+          "A": "Planejo tanto que começo tarde",
+          "D": "Limpo o mesmo lugar várias vezes",
+          "M": "Começo tudo e termino pouco",
+          "F": "Às vezes escondo em vez de arrumar"
+        }
+      ],
+      [
+        "Faxina terminada. Você...",
+        {
+          "A": "Anoto o que fazer na próxima",
+          "D": "Dou uma última volta conferindo",
+          "M": "Já combino a próxima com a casa toda",
+          "F": "Deito no sofá e aproveito"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on cleaning day?",
+    "lead": "Every cleaning day has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your cleaning has a route: top to bottom, back to front.",
+        "For you, good cleaning starts with a plan. You know which room goes first, which product goes where and how long it takes. That's why nothing gets left half done when you clean.",
+        "Cleaning the whole place without redoing a thing.",
+        "Planning so long you start after lunch.",
+        "Dust first, then floors. Always."
+      ],
+      "D": [
+        "The Detective",
+        "No speck of dust escapes your phone torch.",
+        "You check behind the sofa, on top of the fridge and in the corner of the shower. You spot the stain nobody else saw. You're the reason the house is actually clean, not just tidy.",
+        "Finding the dirt nobody else found.",
+        "Cleaning the same corner three times.",
+        "Run your finger along here. See?"
+      ],
+      "M": [
+        "The Maestro",
+        "You do the laundry, mop and run the playlist all at once.",
+        "You handle it all together: washing machine on, pan on the hob, floor drying and music loud. While others clean one room, you keep the whole house moving.",
+        "Keeping the whole house going at once.",
+        "Starting ten rooms and finishing none.",
+        "While this dries, I'll get ahead over there."
+      ],
+      "F": [
+        "The Finisher",
+        "Clean beats perfect.",
+        "You don't wait for the ideal day or the right product. Grab the broom, sort what you can and free up the rest of the day. While others argue about who does the bathroom, you've already done it.",
+        "Making the place presentable in an hour.",
+        "Hiding the mess in the wardrobe.",
+        "Clean enough. Next!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the cleaning needs: you plan the big clean, check when guests are coming, juggle everything when time is short and blitz it when it's just a quick tidy.",
+        "Being whatever the house needs that day.",
+        "Nobody knowing which job to give you.",
+        "Depends. Deep clean or guests coming?"
+      ]
+    },
+    "S2": {
+      "A": "you still like cleaning in the right order.",
+      "D": "you don't leave a corner unchecked.",
+      "M": "you keep several jobs going at once.",
+      "F": "when it counts, you grab the broom and get it done."
+    },
+    "Q": [
+      [
+        "Guests just texted: they're 10 minutes away.",
+        {
+          "A": "Stick to the order",
+          "D": "Check the bathroom",
+          "M": "Clean a bit of everything",
+          "F": "Throw it all in the bedroom"
+        }
+      ],
+      [
+        "Cleaning day. First thing you do:",
+        {
+          "A": "Plan the order of the rooms",
+          "D": "Do an inspection to see what's worst",
+          "M": "Start the washing, the music and the kitchen",
+          "F": "Grab the broom and start where I'm standing"
+        }
+      ],
+      [
+        "You find something you forgot you even owned. You...",
+        {
+          "A": "Work out where it should live and put it there",
+          "D": "Try to figure out where it came from",
+          "M": "Send a photo to the group and keep cleaning",
+          "F": "Decide on the spot: keep it or let it go"
+        }
+      ],
+      [
+        "Your role when cleaning as a group:",
+        {
+          "A": "The one dividing up the jobs",
+          "D": "The one checking it's really clean",
+          "M": "The one doing three things at once",
+          "F": "The one who finishes first"
+        }
+      ],
+      [
+        "Someone says \"the bathroom's clean\". You think:",
+        {
+          "A": "\"Of course, they followed the order\"",
+          "D": "\"Let me check the grout\"",
+          "M": "\"Great, I'll move on to the laundry\"",
+          "F": "\"Then we're done, time to rest\""
+        }
+      ],
+      [
+        "The cleaning spray runs out halfway through. You...",
+        {
+          "A": "Already had a spare",
+          "D": "Read another label to see if it'll do",
+          "M": "Ask someone to buy more and switch jobs",
+          "F": "Use soap and water and crack on"
+        }
+      ],
+      [
+        "Your biggest cleaning flaw:",
+        {
+          "A": "I plan so much I start late",
+          "D": "I clean the same spot over and over",
+          "M": "I start everything and finish little",
+          "F": "Sometimes I hide things instead of tidying"
+        }
+      ],
+      [
+        "Cleaning's done. You...",
+        {
+          "A": "Note what to do next time",
+          "D": "Do one last checking lap",
+          "M": "Already set the next one with the household",
+          "F": "Collapse on the sofa and enjoy it"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "大扫除时你是哪个泡泡？",
+    "lead": "每次大扫除都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的大扫除有路线：从上到下，从里到外。",
+        "对你来说，好的打扫从计划开始。你知道先扫哪个房间、哪里用什么清洁剂、要花多久。所以只要你来打扫，什么都不会做一半。",
+        "整个家打扫一遍，一处都不用返工。",
+        "计划太久，吃完午饭才开始。",
+        "先除尘，再拖地。永远如此。"
+      ],
+      "D": [
+        "侦探",
+        "没有一粒灰尘能躲过你的手机电筒。",
+        "你会检查沙发后面、冰箱顶上和淋浴间的角落。别人没看到的污渍，你一眼就发现。正因为有你，家里才是真的干净，不只是看起来整齐。",
+        "找到别人找不到的脏东西。",
+        "同一个角落擦三遍。",
+        "你用手指摸摸这里。看见了吧？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时洗衣服、拖地、管歌单。",
+        "你什么都一起管：洗衣机在转、锅在火上、地板在晾干、音乐开得很大。别人只打扫一个房间，你让整个家都动起来。",
+        "让全家的活同时推进。",
+        "开了十个房间的头，一个都没收尾。",
+        "这边晾着，我先去弄那边。"
+      ],
+      "F": [
+        "终结者",
+        "打扫干净胜过打扫完美。",
+        "你不等完美的日子，也不等合适的清洁剂。拿起扫把，能做多少做多少，把剩下的时间留给自己。别人还在争谁洗厕所，你已经洗完了。",
+        "一小时让家里能见人。",
+        "把乱七八糟的东西塞进衣柜。",
+        "够干净了。下一个！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据打扫的需要切换角色：大扫除时做计划，有客人来时仔细检查，时间紧时什么都管，随手收拾时就速战速决。",
+        "成为那天家里最需要的人。",
+        "别人不知道该给你分配什么活。",
+        "看情况。是大扫除还是有客人要来？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢按正确的顺序打扫。",
+      "D": "你不会放过任何一个角落。",
+      "M": "你能同时推进好几件事。",
+      "F": "关键时刻，你拿起扫把就搞定。"
+    },
+    "Q": [
+      [
+        "客人发消息：还有10分钟就到。",
+        {
+          "A": "按顺序，先收拾客厅",
+          "D": "先检查厕所",
+          "M": "每样都收拾一点",
+          "F": "全扔进卧室"
+        }
+      ],
+      [
+        "打扫日。你做的第一件事：",
+        {
+          "A": "排好各个房间的顺序",
+          "D": "先巡视一圈，看哪里最脏",
+          "M": "开洗衣机、放音乐、从厨房开始",
+          "F": "拿起扫把，就从脚下开始"
+        }
+      ],
+      [
+        "翻出一样你都忘了自己有的东西。你……",
+        {
+          "A": "想好它该放哪儿，放过去",
+          "D": "想搞清楚它是从哪儿来的",
+          "M": "拍照发群里，接着打扫",
+          "F": "当场决定：留下还是送走"
+        }
+      ],
+      [
+        "大家一起打扫时，你的角色是……",
+        {
+          "A": "分配任务的那个人",
+          "D": "检查是不是真干净的那个人",
+          "M": "同时干三件事的那个人",
+          "F": "最先干完的那个人"
+        }
+      ],
+      [
+        "有人说“厕所已经干净了”。你心想：",
+        {
+          "A": "“当然，按顺序来的嘛”",
+          "D": "“让我看看瓷砖缝”",
+          "M": "“好，那我去洗衣服了”",
+          "F": "“那就收工，休息吧”"
+        }
+      ],
+      [
+        "打扫到一半，清洁剂用完了。你……",
+        {
+          "A": "早就备好了一瓶",
+          "D": "看看别的清洁剂说明能不能用",
+          "M": "叫人去买，自己先干别的",
+          "F": "用清水加肥皂，接着干"
+        }
+      ],
+      [
+        "你打扫时最大的毛病：",
+        {
+          "A": "计划太多，开始太晚",
+          "D": "同一个地方擦好多遍",
+          "M": "什么都开头，没几样收尾",
+          "F": "有时候是藏起来，不是收拾好"
+        }
+      ],
+      [
+        "打扫完了。你……",
+        {
+          "A": "记下下次要做什么",
+          "D": "最后再巡视检查一圈",
+          "M": "马上和家里人约好下一次",
+          "F": "瘫在沙发上好好享受"
+        }
+      ]
+    ]
+  }
+}
