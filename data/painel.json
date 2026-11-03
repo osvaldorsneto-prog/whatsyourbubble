@@ -1,8 +1,8 @@
 {
   "fonte": "https://whatsyourbubble.com/ai/painel-7q3x.php",
-  "atualizado_em": "2026-11-02T09:58:48Z",
+  "atualizado_em": "2026-11-03T12:56:37Z",
   "resumo": {
-    "visitas": 57,
+    "visitas": 60,
     "começaram": 22,
     "terminaram": 18,
     "ações de compartilhar": 1,
@@ -51,6 +51,24 @@
       "Terminaram": 1
     },
     {
+      "Quiz": "supermercado",
+      "Visitas": 1,
+      "Começaram": 0,
+      "Terminaram": 0
+    },
+    {
+      "Quiz": "faxina",
+      "Visitas": 1,
+      "Começaram": 0,
+      "Terminaram": 0
+    },
+    {
+      "Quiz": "aeroporto",
+      "Visitas": 1,
+      "Começaram": 0,
+      "Terminaram": 0
+    },
+    {
       "Quiz": "festa-surpresa",
       "Visitas": 1,
       "Começaram": 0,
@@ -70,6 +88,13 @@
     }
   ],
   "por_dia": [
+    {
+      "Dia": "2026-11-03",
+      "Visitas": 3,
+      "Começaram": 0,
+      "Terminaram": 0,
+      "Amigo": 0
+    },
     {
       "Dia": "2026-11-02",
       "Visitas": 2,
