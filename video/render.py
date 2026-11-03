@@ -262,11 +262,11 @@ def quiz(slug, lang, out, preview=None):
     def frame(t):
         im = E.background(t); d = ImageDraw.Draw(im)
         if t < T1:                                     # 1. título do quiz
-            st = E.scaled(titulo, .9 + .1 * ease_back(t / .3), -2)   # título já no 1º quadro
+            # O 1º quadro já é a capa (título + as 4 bolhas): TikTok e Reels usam ele como capa padrão
+            st = E.scaled(titulo, 1, -2)
             if st: paste_c(im, st, SAFE_X, 640)
             for i, k in enumerate('ADMF'):
-                s = ease_back((t - .15 - i * .1) / .35)
-                if s > 0: paste_c(im, mascot(k, 170 * s), 140 + i * 220, 1060 + math.sin(t * 4 + i) * 12)
+                paste_c(im, mascot(k, 170), 140 + i * 220, 1060 + math.sin(t * 4 + i) * 12)
         elif t < T2:                                   # 2. o mascote faz a pergunta 1
             e = t - T1
             st = E.scaled(tag, ease_back(e / .3), -3)
