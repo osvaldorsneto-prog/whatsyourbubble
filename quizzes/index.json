@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "semana-de-provas",
+   "url": "/q/?s=semana-de-provas",
+   "criado_em": "2026-11-04",
+   "categoria": "estudos",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é na semana de provas?",
+    "en": "What's your bubble during exam week?",
+    "zh": "考试周你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "bateria-acabando",
+   "url": "/q/?s=bateria-acabando",
+   "criado_em": "2026-11-04",
+   "categoria": "celular",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é com 1% de bateria?",
+    "en": "What's your bubble on 1% battery?",
+    "zh": "电量只剩1%时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "amigo-secreto",
+   "url": "/q/?s=amigo-secreto",
+   "criado_em": "2026-11-04",
+   "categoria": "role",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no amigo secreto?",
+    "en": "What's your bubble at Secret Santa?",
+    "zh": "交换礼物时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "supermercado",
    "url": "/q/?s=supermercado",
    "criado_em": "2026-11-03",

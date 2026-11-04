@@ -1,0 +1,384 @@
+{
+  "slug": "semana-de-provas",
+  "criado_em": "2026-11-04",
+  "categoria": "estudos",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é na semana de provas?",
+    "lead": "Toda semana de provas tem os mesmos 4 tipos de estudante. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Seu cronograma de estudos tem cor, legenda e intervalo.",
+        "Pra você, prova boa começa no planejamento. Você divide a matéria por dia, sabe o que revisar e quando parar. Por isso chega na prova sem desespero.",
+        "Estudar tudo sem virar a noite.",
+        "Caprichar tanto no cronograma que sobra pouco tempo pra estudar.",
+        "Hoje é dia de revisão. Tá no plano."
+      ],
+      "D": [
+        "O Detetive",
+        "Você acha o erro na questão antes do professor.",
+        "Você refaz o exercício até entender onde errou, confere a fórmula e lê o enunciado duas vezes. Nenhuma pegadinha te pega. É graças a você que o grupo não estuda a matéria errada.",
+        "Pegar a pegadinha antes de cair nela.",
+        "Travar numa questão e esquecer do relógio.",
+        "Espera, o enunciado diz \"exceto\"."
+      ],
+      "M": [
+        "O Maestro",
+        "Você estuda três matérias e ainda organiza o grupo de estudo.",
+        "Você cuida de tudo junto: resumo, grupo, lanche e o amigo que tá perdido. Enquanto os outros estudam sozinhos, você faz a turma inteira chegar preparada.",
+        "Fazer a turma toda chegar pronta.",
+        "Ajudar tanto que a sua matéria fica pra depois.",
+        "Alguém tem o resumo? Mando o meu."
+      ],
+      "F": [
+        "O Finalizador",
+        "Prova entregue é melhor que prova perfeita.",
+        "Você não perde tempo com resumo colorido. Lê o que importa, faz os exercícios e vai dormir. Na prova, responde tudo e entrega. Enquanto os outros ainda revisam, você já tá no intervalo.",
+        "Manter a calma e terminar no tempo.",
+        "Entregar sem revisar a última questão.",
+        "Fiz o que dava. Próxima!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a prova pede: planeja quando a matéria é grande, confere quando tem pegadinha, junta a turma quando todo mundo tá perdido e resolve rápido quando o tempo aperta.",
+        "Ser o estudante que cada prova pede.",
+        "Ninguém saber que parte do resumo te dar.",
+        "Depende. É prova ou trabalho?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de estudar com um plano.",
+      "D": "você não deixa nenhuma pegadinha passar.",
+      "M": "você cuida da turma inteira ao mesmo tempo.",
+      "F": "na hora certa, você responde e entrega."
+    },
+    "Q": [
+      [
+        "A prova é amanhã. Você acabou de abrir o caderno.",
+        {
+          "A": "Monto um plano até as 2h",
+          "D": "Vejo o que mais cai",
+          "M": "Chamo o grupo de estudo",
+          "F": "Leio o resumo e durmo"
+        }
+      ],
+      [
+        "Saiu o calendário de provas. Você...",
+        {
+          "A": "Faço um cronograma com uma cor por matéria",
+          "D": "Confiro data, sala e o que cai em cada uma",
+          "M": "Mando no grupo e marco revisão com todo mundo",
+          "F": "Anoto a primeira e vejo o resto depois"
+        }
+      ],
+      [
+        "Seu jeito de estudar:",
+        {
+          "A": "Resumo caprichado, com tópicos e cores",
+          "D": "Refaço os exercícios até achar meu erro",
+          "M": "Estudo três matérias e ainda ajudo um amigo",
+          "F": "Leio, faço uns exercícios e pronto"
+        }
+      ],
+      [
+        "No grupo de estudo, você é...",
+        {
+          "A": "Quem divide a matéria",
+          "D": "Quem corrige a resposta de todo mundo",
+          "M": "Quem traz o lanche, a pauta e a playlist",
+          "F": "Quem manda o resumo pronto"
+        }
+      ],
+      [
+        "A internet caiu na véspera da prova. Você...",
+        {
+          "A": "Já tinha baixado tudo antes",
+          "D": "Testo o roteador até achar o problema",
+          "M": "Uso o celular, aviso o grupo e sigo",
+          "F": "Pego o caderno e estudo no papel"
+        }
+      ],
+      [
+        "Durante a prova, você...",
+        {
+          "A": "Começo pelas questões que valem mais",
+          "D": "Leio cada enunciado duas vezes",
+          "M": "Vou pulando e volto nas difíceis",
+          "F": "Respondo tudo e entrego primeiro"
+        }
+      ],
+      [
+        "Seu maior defeito na semana de provas:",
+        {
+          "A": "Passo mais tempo no cronograma do que estudando",
+          "D": "Travo numa questão porque quero entender tudo",
+          "M": "Ajudo todo mundo e esqueço da minha matéria",
+          "F": "Entrego a prova sem revisar"
+        }
+      ],
+      [
+        "Acabou a última prova. Você...",
+        {
+          "A": "Anoto o que mudar no próximo semestre",
+          "D": "Confiro o gabarito na hora",
+          "M": "Marco a comemoração com a turma toda",
+          "F": "Durmo doze horas seguidas"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble during exam week?",
+    "lead": "Every exam week has the same 4 kinds of student. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your revision timetable has colours, a key and breaks.",
+        "For you, a good exam starts with a plan. You split the material by day, know what to revise and when to stop. That's why you walk in calm.",
+        "Covering everything without pulling an all-nighter.",
+        "Perfecting the timetable so long there's little time left to study.",
+        "Today is revision day. It's in the plan."
+      ],
+      "D": [
+        "The Detective",
+        "You spot the mistake in the question before the teacher does.",
+        "You redo the exercise until you see where you went wrong, check the formula and read the question twice. No trick question catches you. Thanks to you, the group never revises the wrong topic.",
+        "Spotting the trick before falling for it.",
+        "Getting stuck on one question and forgetting the clock.",
+        "Wait, it says \"except\"."
+      ],
+      "M": [
+        "The Maestro",
+        "You revise three subjects and still run the study group.",
+        "You handle it all together: notes, group, snacks and the friend who's lost. While others study alone, you get the whole class ready.",
+        "Getting the whole class through together.",
+        "Helping so much your own subject waits.",
+        "Anyone got notes? I'll send mine."
+      ],
+      "F": [
+        "The Finisher",
+        "A finished exam beats a perfect one.",
+        "You don't waste time on colour-coded notes. You read what matters, do the exercises and go to bed. In the exam, you answer everything and hand it in. While others are still checking, you're already outside.",
+        "Staying calm and finishing on time.",
+        "Handing in without checking the last question.",
+        "Did what I could. Next!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as each exam needs: you plan when there's loads to cover, check when there are trick questions, rally the class when everyone's lost and move fast when time is short.",
+        "Being the student each exam needs.",
+        "Nobody knowing which part of the notes to give you.",
+        "Depends. Is it an exam or coursework?"
+      ]
+    },
+    "S2": {
+      "A": "you still like revising with a plan.",
+      "D": "you never let a trick question slip past.",
+      "M": "you look after the whole class at once.",
+      "F": "when it counts, you answer and hand it in."
+    },
+    "Q": [
+      [
+        "The exam's tomorrow. You've just opened your notes.",
+        {
+          "A": "Plan the night until 2am",
+          "D": "Check what always comes up",
+          "M": "Call the study group",
+          "F": "Read the summary, sleep"
+        }
+      ],
+      [
+        "The exam timetable is out. You...",
+        {
+          "A": "Make a revision plan with a colour per subject",
+          "D": "Check the date, room and topics for each one",
+          "M": "Share it in the group and set up revision sessions",
+          "F": "Note the first one and look at the rest later"
+        }
+      ],
+      [
+        "Your way of revising:",
+        {
+          "A": "Neat notes with headings and colours",
+          "D": "Redo exercises until I find my mistake",
+          "M": "Revise three subjects and help a friend too",
+          "F": "Read, do a few exercises, done"
+        }
+      ],
+      [
+        "In the study group, you're...",
+        {
+          "A": "The one who splits up the topics",
+          "D": "The one who marks everyone's answers",
+          "M": "The one bringing snacks, an agenda and a playlist",
+          "F": "The one who sends finished notes"
+        }
+      ],
+      [
+        "The Wi-Fi goes down the night before. You...",
+        {
+          "A": "Already downloaded everything",
+          "D": "Test the router until I find the problem",
+          "M": "Switch to my phone, tell the group, carry on",
+          "F": "Grab my notebook and study on paper"
+        }
+      ],
+      [
+        "During the exam, you...",
+        {
+          "A": "Start with the questions worth the most",
+          "D": "Read every question twice",
+          "M": "Skip around and come back to the hard ones",
+          "F": "Answer everything and hand in first"
+        }
+      ],
+      [
+        "Your biggest flaw in exam week:",
+        {
+          "A": "More time on the timetable than revising",
+          "D": "Stuck on one question because I want to get it all",
+          "M": "Helping everyone and forgetting my own subject",
+          "F": "Handing in without checking"
+        }
+      ],
+      [
+        "The last exam is over. You...",
+        {
+          "A": "Note what to change next term",
+          "D": "Check the answers right away",
+          "M": "Organise a celebration with the whole class",
+          "F": "Sleep for twelve hours straight"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "考试周你是哪个泡泡？",
+    "lead": "每个考试周都有同样的4种学生。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的复习计划表有颜色、图例，还有休息时间。",
+        "对你来说，考得好从计划开始。你把内容分到每一天，知道复习什么、什么时候停。所以你进考场时一点也不慌。",
+        "不熬夜也能复习完所有内容。",
+        "把计划表做得太精致，留给复习的时间不多了。",
+        "今天是复习日，计划里写着呢。"
+      ],
+      "D": [
+        "侦探",
+        "老师还没发现，你就找到了题目里的错误。",
+        "你会把错题重做到弄懂为止，检查公式，题目读两遍。什么陷阱题都难不倒你。正因为有你，小组才不会复习错范围。",
+        "在掉进陷阱之前识破它。",
+        "卡在一道题上，忘了看时间。",
+        "等等，题目说的是“除了”。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边复习三门课，一边还组织学习小组。",
+        "你什么都一起管：笔记、小组、零食，还有那个跟不上的朋友。别人各自复习，你让全班都准备好。",
+        "让全班一起顺利过关。",
+        "帮别人太多，自己的科目只好往后放。",
+        "谁有笔记？我把我的发群里。"
+      ],
+      "F": [
+        "终结者",
+        "交上去的卷子胜过完美的卷子。",
+        "你不在彩色笔记上浪费时间。看重点、做练习、去睡觉。考试时全部答完就交卷。别人还在检查，你已经在外面了。",
+        "保持冷静，按时答完。",
+        "最后一题没检查就交卷。",
+        "能做的都做了。下一科！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据每场考试的需要切换角色：内容多时好好规划，有陷阱时仔细检查，大家迷茫时把人召集起来，时间紧时迅速搞定。",
+        "成为每场考试需要的那种学生。",
+        "别人不知道该分给你哪部分笔记。",
+        "看情况。是考试还是交作业？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢按计划复习。",
+      "D": "你不会放过任何一道陷阱题。",
+      "M": "你能同时照顾全班。",
+      "F": "关键时刻，你答完就交。"
+    },
+    "Q": [
+      [
+        "明天就考试，你才刚打开笔记本。",
+        {
+          "A": "排一个熬到两点的计划",
+          "D": "先看哪些最常考",
+          "M": "拉上学习小组",
+          "F": "看完摘要就睡"
+        }
+      ],
+      [
+        "考试时间表出来了。你……",
+        {
+          "A": "做一份每科一种颜色的计划表",
+          "D": "核对每科的日期、考场和范围",
+          "M": "发到群里，约大家一起复习",
+          "F": "先记下第一场，其他的以后再说"
+        }
+      ],
+      [
+        "你的复习方式：",
+        {
+          "A": "整整齐齐的笔记，有标题有颜色",
+          "D": "把错题重做到找出问题",
+          "M": "复习三门课，顺便帮朋友",
+          "F": "看一遍，做几道题，完事"
+        }
+      ],
+      [
+        "在学习小组里，你是……",
+        {
+          "A": "分配范围的那个人",
+          "D": "帮大家批改答案的那个人",
+          "M": "带零食、议程和歌单的那个人",
+          "F": "直接发整理好笔记的那个人"
+        }
+      ],
+      [
+        "考试前一晚网断了。你……",
+        {
+          "A": "早就把资料都下载好了",
+          "D": "一直测试路由器找出问题",
+          "M": "改用手机，通知小组，继续复习",
+          "F": "拿起笔记本，在纸上复习"
+        }
+      ],
+      [
+        "考试的时候，你……",
+        {
+          "A": "先做分值最高的题",
+          "D": "每道题都读两遍",
+          "M": "跳着做，回头再攻难题",
+          "F": "全部答完，第一个交卷"
+        }
+      ],
+      [
+        "你在考试周最大的毛病：",
+        {
+          "A": "花在计划表上的时间比复习还多",
+          "D": "想全部弄懂，结果卡在一道题上",
+          "M": "帮了所有人，忘了自己的科目",
+          "F": "不检查就交卷"
+        }
+      ],
+      [
+        "最后一科考完了。你……",
+        {
+          "A": "记下下学期要改进的地方",
+          "D": "马上对答案",
+          "M": "约全班一起庆祝",
+          "F": "连睡十二个小时"
+        }
+      ]
+    ]
+  }
+}

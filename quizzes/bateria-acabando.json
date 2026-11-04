@@ -1,0 +1,384 @@
+{
+  "slug": "bateria-acabando",
+  "criado_em": "2026-11-04",
+  "categoria": "celular",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é com 1% de bateria?",
+    "lead": "Celular no fim, todo mundo reage de um dos 4 jeitos. Qual é o seu?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Seu celular sai de casa com 100% e um plano B na bolsa.",
+        "Pra você, bateria não acaba por acaso. Você carrega à noite, leva cabo e carregador portátil e sabe onde tem tomada. Por isso nunca fica sem celular na hora errada.",
+        "Nunca ficar sem bateria quando importa.",
+        "Carregar tanto acessório que a bolsa pesa.",
+        "Relaxa, eu trouxe carregador."
+      ],
+      "D": [
+        "O Detetive",
+        "Você sabe exatamente qual app comeu sua bateria.",
+        "Você confere a porcentagem, olha o gasto de cada app e descobre o culpado. Percebe o cabo com mau contato antes de todo mundo. É graças a você que o grupo não fica sem celular.",
+        "Achar o que tá gastando a bateria.",
+        "Checar tanto a porcentagem que gasta ainda mais.",
+        "Que app é esse gastando 40%?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você divide o carregador e ainda responde todo mundo.",
+        "Você cuida de tudo junto: carrega o seu, empresta o cabo, avisa onde tá e mantém cinco conversas rodando. Enquanto os outros procuram tomada, você já organizou um rodízio.",
+        "Manter o grupo inteiro conectado.",
+        "Dividir tanto o carregador que o seu fica no 2%.",
+        "Pluga aí, depois é a vez dele."
+      ],
+      "F": [
+        "O Finalizador",
+        "Bateria baixa nunca te impediu de chegar.",
+        "Você não perde tempo procurando tomada. Manda a mensagem que importa, guarda o celular e resolve ao vivo. Enquanto os outros ficam presos na tomada, você já chegou.",
+        "Resolver tudo com 1% de bateria.",
+        "Sair de casa com 15% achando que dá.",
+        "Dá tempo. Mando um áudio e desligo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o dia pede: planeja quando vai ser longo, confere quando a bateria some rápido, divide quando o grupo precisa e improvisa quando o celular apaga.",
+        "Ser o que o dia precisa, com qualquer bateria.",
+        "Ninguém saber se você tá com carregador.",
+        "Depende. Quanto tempo a gente vai ficar fora?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de sair com tudo carregado.",
+      "D": "você não deixa a porcentagem passar sem conferir.",
+      "M": "você cuida da bateria de todo mundo.",
+      "F": "na hora certa, você guarda o celular e resolve."
+    },
+    "Q": [
+      [
+        "1% de bateria e o mapa ainda diz 20 minutos.",
+        {
+          "A": "Decoro o caminho agora",
+          "D": "Desligo tudo que gasta",
+          "M": "Aviso todo mundo antes",
+          "F": "Corro pra chegar logo"
+        }
+      ],
+      [
+        "Você sai de casa com quanto de bateria?",
+        {
+          "A": "100%, e o carregador já tá na bolsa",
+          "D": "Confiro a porcentagem três vezes antes de sair",
+          "M": "Uns 60%, mas tenho cabo pra todo mundo",
+          "F": "O que tiver. Depois eu vejo"
+        }
+      ],
+      [
+        "Chegou num lugar novo. Primeira coisa que você procura:",
+        {
+          "A": "Onde vou carregar mais tarde",
+          "D": "Se a tomada funciona mesmo",
+          "M": "Uma tomada pra dividir com o grupo",
+          "F": "Qualquer tomada, e já plugo"
+        }
+      ],
+      [
+        "Modo economia de bateria pra você é...",
+        {
+          "A": "Ligado desde os 50%",
+          "D": "Configurado do meu jeito, app por app",
+          "M": "Ligado, mas sigo respondendo cinco conversas",
+          "F": "Uma coisa que eu ligo quando apita"
+        }
+      ],
+      [
+        "Um amigo pede seu carregador emprestado.",
+        {
+          "A": "Já trouxe um extra pra isso",
+          "D": "Empresto, mas anoto quem tá com ele",
+          "M": "Monto um rodízio pra todo mundo carregar",
+          "F": "Toma, me devolve quando der"
+        }
+      ],
+      [
+        "O celular apagou no meio de uma conversa importante.",
+        {
+          "A": "Já tinha combinado um plano B",
+          "D": "Penso no que gastou tanta bateria",
+          "M": "Pego o celular de alguém e aviso todo mundo",
+          "F": "Vou lá pessoalmente resolver"
+        }
+      ],
+      [
+        "Seu maior defeito com bateria:",
+        {
+          "A": "Ando com tanto carregador que a bolsa pesa",
+          "D": "Fico checando a porcentagem toda hora",
+          "M": "Empresto meu carregador e fico sem",
+          "F": "Sempre saio de casa com 15%"
+        }
+      ],
+      [
+        "Finalmente achou uma tomada. Você...",
+        {
+          "A": "Carrego até 100% antes de sair",
+          "D": "Confiro se tá carregando mesmo",
+          "M": "Plugo o meu, o do amigo e o fone",
+          "F": "Carrego cinco minutos e já vou"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on 1% battery?",
+    "lead": "When the battery's nearly gone, everyone reacts in one of 4 ways. Which is yours?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your phone leaves home at 100% with a plan B in your bag.",
+        "For you, a flat battery never happens by accident. You charge overnight, carry a cable and a power bank, and know where the sockets are. That's why you're never without a phone at the wrong moment.",
+        "Never running out of battery when it matters.",
+        "Carrying so many chargers your bag weighs a ton.",
+        "Relax, I brought a charger."
+      ],
+      "D": [
+        "The Detective",
+        "You know exactly which app ate your battery.",
+        "You check the percentage, look at each app's usage and find the culprit. You notice a dodgy cable before anyone else. Thanks to you, the group never ends up phoneless.",
+        "Finding what's draining the battery.",
+        "Checking the percentage so often you drain it faster.",
+        "Which app is using 40%?"
+      ],
+      "M": [
+        "The Maestro",
+        "You share your charger and still reply to everyone.",
+        "You handle it all at once: charge yours, lend the cable, share your location and keep five chats going. While others hunt for a socket, you've set up a charging rota.",
+        "Keeping the whole group connected.",
+        "Sharing your charger so much yours ends up at 2%.",
+        "Plug in, then it's his turn."
+      ],
+      "F": [
+        "The Finisher",
+        "Low battery has never stopped you getting there.",
+        "You don't waste time hunting for sockets. You send the message that matters, put the phone away and sort it in person. While others are stuck by the wall, you've already arrived.",
+        "Getting everything done on 1%.",
+        "Leaving home on 15% thinking it'll be fine.",
+        "There's time. Quick voice note, then off."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the day needs: you plan when it'll be long, check when the battery drops fast, share when the group needs it and improvise when the screen goes black.",
+        "Being what the day needs, on any battery.",
+        "Nobody knowing if you've got a charger.",
+        "Depends. How long are we out for?"
+      ]
+    },
+    "S2": {
+      "A": "you still like leaving with everything charged.",
+      "D": "you never let the percentage go unchecked.",
+      "M": "you look after everyone's battery.",
+      "F": "when it counts, you put the phone away and sort it."
+    },
+    "Q": [
+      [
+        "1% battery and the map still says 20 minutes.",
+        {
+          "A": "Memorise the route now",
+          "D": "Switch everything off",
+          "M": "Text everyone first",
+          "F": "Run the rest of the way"
+        }
+      ],
+      [
+        "How much battery do you leave home with?",
+        {
+          "A": "100%, and the charger's already in my bag",
+          "D": "I check the percentage three times before leaving",
+          "M": "About 60%, but I've got cables for everyone",
+          "F": "Whatever it's on. I'll deal with it later"
+        }
+      ],
+      [
+        "You arrive somewhere new. First thing you look for:",
+        {
+          "A": "Where I'll charge later",
+          "D": "Whether the socket actually works",
+          "M": "A socket I can share with the group",
+          "F": "Any socket, plugging in now"
+        }
+      ],
+      [
+        "Low power mode, for you, is...",
+        {
+          "A": "On from 50%",
+          "D": "Set up my way, app by app",
+          "M": "On, but I'm still replying to five chats",
+          "F": "Something I turn on when it beeps"
+        }
+      ],
+      [
+        "A friend asks to borrow your charger.",
+        {
+          "A": "I brought a spare for this",
+          "D": "Sure, but I note who has it",
+          "M": "I set up a rota so everyone charges",
+          "F": "Here, give it back whenever"
+        }
+      ],
+      [
+        "Your phone switches off mid important chat.",
+        {
+          "A": "I'd already agreed a plan B",
+          "D": "Wonder what drained it so fast",
+          "M": "Borrow someone's phone and tell everyone",
+          "F": "Go over in person and sort it"
+        }
+      ],
+      [
+        "Your biggest battery flaw:",
+        {
+          "A": "So many chargers my bag is heavy",
+          "D": "Checking the percentage every minute",
+          "M": "Lending my charger and ending up without",
+          "F": "Always leaving home on 15%"
+        }
+      ],
+      [
+        "You finally find a socket. You...",
+        {
+          "A": "Charge to 100% before I leave",
+          "D": "Check it's actually charging",
+          "M": "Plug in mine, my friend's and my earbuds",
+          "F": "Charge for five minutes and go"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "电量只剩1%时你是哪个泡泡？",
+    "lead": "手机快没电时，每个人都有4种反应之一。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的手机出门时满电，包里还有B计划。",
+        "对你来说，没电从来不是意外。你晚上充好电，带着数据线和充电宝，还知道哪里有插座。所以你从不会在关键时刻失联。",
+        "关键时刻永远有电。",
+        "带的充电设备太多，包重得要命。",
+        "放心，我带了充电器。"
+      ],
+      "D": [
+        "侦探",
+        "你清楚知道是哪个应用吃掉了你的电。",
+        "你查看电量、每个应用的耗电，然后揪出元凶。数据线接触不良，你比谁都先发现。正因为有你，大家的手机才不会集体关机。",
+        "找出是什么在耗电。",
+        "查电量查得太勤，反而更费电。",
+        "这个应用怎么用了40%？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边分享充电器，一边还回复所有人。",
+        "你什么都一起管：给自己充电、借出数据线、发定位，还同时聊着五个对话。别人还在找插座，你已经排好了充电顺序。",
+        "让整个群都保持在线。",
+        "充电器借来借去，自己的只剩2%。",
+        "插上吧，下一个轮到他。"
+      ],
+      "F": [
+        "终结者",
+        "电量低从来没耽误你到达目的地。",
+        "你不浪费时间找插座。发出最重要的那条消息，收起手机，当面解决。别人被困在插座旁，你已经到了。",
+        "用1%的电搞定一切。",
+        "出门只有15%，还觉得够用。",
+        "来得及。发条语音就关机。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据当天的需要切换角色：要出门很久就提前规划，电掉得快就仔细检查，大家需要就分享，手机黑屏就随机应变。",
+        "不管电量多少，都能成为当天需要的人。",
+        "别人不知道你有没有带充电器。",
+        "看情况。我们要出去多久？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢满电出门。",
+      "D": "你不会放过电量的任何变化。",
+      "M": "你照顾着每个人的电量。",
+      "F": "关键时刻，你收起手机直接解决。"
+    },
+    "Q": [
+      [
+        "电量只剩1%，地图还显示要20分钟。",
+        {
+          "A": "现在就把路线记下来",
+          "D": "关掉所有耗电的东西",
+          "M": "先通知所有人",
+          "F": "直接跑过去"
+        }
+      ],
+      [
+        "你出门时手机有多少电？",
+        {
+          "A": "100%，充电器已经在包里",
+          "D": "出门前看三遍电量",
+          "M": "大概60%，但我带了大家的线",
+          "F": "有多少算多少，之后再说"
+        }
+      ],
+      [
+        "到了一个新地方，你第一件找的东西：",
+        {
+          "A": "待会儿去哪里充电",
+          "D": "插座到底能不能用",
+          "M": "一个能和大家共用的插座",
+          "F": "随便一个插座，马上插上"
+        }
+      ],
+      [
+        "省电模式对你来说是……",
+        {
+          "A": "50%就开了",
+          "D": "按我的方式一个个应用设置",
+          "M": "开着，但照样回五个对话",
+          "F": "提醒了才开的东西"
+        }
+      ],
+      [
+        "朋友问你借充电器。",
+        {
+          "A": "我专门多带了一个",
+          "D": "借可以，但我会记下谁拿着",
+          "M": "排个顺序让大家都能充",
+          "F": "拿去吧，有空再还"
+        }
+      ],
+      [
+        "重要的对话聊到一半，手机关机了。",
+        {
+          "A": "我早就约好了B计划",
+          "D": "想想到底是什么这么耗电",
+          "M": "借别人的手机通知所有人",
+          "F": "直接过去当面解决"
+        }
+      ],
+      [
+        "你在电量这件事上最大的毛病：",
+        {
+          "A": "带的充电器多到包都重了",
+          "D": "每分钟都要看一次电量",
+          "M": "把充电器借出去，自己没得用",
+          "F": "每次出门都只有15%"
+        }
+      ],
+      [
+        "终于找到一个插座。你……",
+        {
+          "A": "充到100%再走",
+          "D": "确认真的在充电",
+          "M": "插上我的、朋友的，还有耳机",
+          "F": "充五分钟就走"
+        }
+      ]
+    ]
+  }
+}
