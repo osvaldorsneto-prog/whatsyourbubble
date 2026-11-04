@@ -245,9 +245,10 @@ def story(lang, k, out, preview=None):
     mux(v, wav, out); os.remove(v); os.remove(wav)
 
 # ---------- Vídeo de divulgação de um quiz temático (quizzes/<slug>.json) ----------
-QUI = {'pt': {'q1': 'Pergunta 1', 'which': 'Qual bolha é a sua?', 'cta': 'Descubra a sua', 'sub': '8 perguntas · 1 minuto · link na bio'},
-       'en': {'q1': 'Question 1', 'which': "Which bubble are you?", 'cta': 'Find yours', 'sub': '8 questions · 1 minute · link in bio'},
-       'zh': {'q1': '第1题', 'which': '你是哪个泡泡？', 'cta': '测出你的', 'sub': '8道题 · 1分钟 · 链接在主页'}}
+# Sem "link na bio": no TikTok o link da bio só fica clicável com 1.000 seguidores; o endereço vai escrito no vídeo
+QUI = {'pt': {'q1': 'Pergunta 1', 'which': 'Qual bolha é a sua?', 'cta': 'Descubra a sua', 'sub': '8 perguntas · 1 minuto'},
+       'en': {'q1': 'Question 1', 'which': "Which bubble are you?", 'cta': 'Find yours', 'sub': '8 questions · 1 minute'},
+       'zh': {'q1': '第1题', 'which': '你是哪个泡泡？', 'cta': '测出你的', 'sub': '8道题 · 1分钟'}}
 
 def quiz(slug, lang, out, preview=None):
     import json
@@ -260,10 +261,13 @@ def quiz(slug, lang, out, preview=None):
     balao = E.sticker_text(pergunta, F(BLACK, 54), wrap, 650, shadow=E.INK, pad=(40, 30), align='left')
     opc = [E.sticker_text(ops[k], F(BLACK, 44), wrap, 860, fill=tuple(int(c * .22 + 255 * .78) for c in E.POS[i]), shadow=E.POS[i], pad=(30, 22), align='left', dot=E.POS[i]) for i, k in enumerate(keys)]
     url = E.sticker_text('whatsyourbubble.com', F(BLACK, 58), wrap, 900, shadow=E.PINK, pad=(40, 22))
+    # endereço pequeno no canto o vídeo todo (fora das áreas da legenda e dos botões do TikTok/Reels)
+    canto = E.sticker_text('whatsyourbubble.com', F(BLACK, 34), wrap, 600, shadow=E.PINK, pad=(22, 12))
     T1, T2, T3, DUR = 2.4, 7.2, 10.2, 13.5
     pos = {'A': (255, 640), 'D': (685, 640), 'M': (255, 1010), 'F': (685, 1010)}
     def frame(t):
         im = E.background(t); d = ImageDraw.Draw(im)
+        if t < T3: im.paste(canto, (60, int(1450 - canto.height / 2)), canto)   # na chamada final o endereço já aparece grande
         if t < T1:                                     # 1. título do quiz
             # O 1º quadro já é a capa (título + as 4 bolhas): TikTok e Reels usam ele como capa padrão
             st = E.scaled(titulo, 1, -2)
