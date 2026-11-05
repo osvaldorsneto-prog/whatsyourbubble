@@ -252,7 +252,16 @@ QUI = {'pt': {'q1': 'Pergunta 1', 'which': 'Qual bolha é a sua?', 'cta': 'Descu
 
 def quiz(slug, lang, out, preview=None):
     import json
-    q = json.load(open(os.path.join(ROOT, '..', 'quizzes', f'{slug}.json'), encoding='utf-8'))[lang]
+    dados = json.load(open(os.path.join(ROOT, '..', 'quizzes', f'{slug}.json'), encoding='utf-8'))
+    # Fundo com cenário do tema (tira a cara de "tela de jogo"); sem fundo pra categoria, fica o degradê de sempre
+    fundo = E.fundo_do_tema(dados.get('categoria'), slug)
+    E.BASE = fundo if fundo is not None else E.BASE_PADRAO
+    try:
+        _quiz(dados[lang], lang, out, preview)
+    finally:
+        E.BASE = E.BASE_PADRAO
+
+def _quiz(q, lang, out, preview):
     u, N = QUI[lang], NAMES[lang]
     pergunta, ops = q['Q'][0]
     keys = ['D', 'F', 'A', 'M']                       # ordem fixa embaralhada: a cor não indica o perfil
