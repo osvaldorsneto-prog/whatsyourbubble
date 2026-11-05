@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "futebol-com-amigos",
+   "url": "/q/?s=futebol-com-amigos",
+   "criado_em": "2026-11-05",
+   "categoria": "esporte",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é no futebol com os amigos?",
+    "en": "What's your bubble in a kickabout with friends?",
+    "zh": "和朋友踢球时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "delivery",
+   "url": "/q/?s=delivery",
+   "criado_em": "2026-11-05",
+   "categoria": "comida",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é pedindo delivery?",
+    "en": "What's your bubble when ordering takeaway?",
+    "zh": "点外卖时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "almoco-de-domingo",
+   "url": "/q/?s=almoco-de-domingo",
+   "criado_em": "2026-11-05",
+   "categoria": "familia",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no almoço de domingo?",
+    "en": "What's your bubble at Sunday family lunch?",
+    "zh": "周日家庭午餐你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "semana-de-provas",
    "url": "/q/?s=semana-de-provas",
    "criado_em": "2026-11-04",

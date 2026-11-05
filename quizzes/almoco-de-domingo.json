@@ -1,0 +1,384 @@
+{
+  "slug": "almoco-de-domingo",
+  "criado_em": "2026-11-05",
+  "categoria": "familia",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no almoço de domingo?",
+    "lead": "Todo almoço de família no domingo tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você sabe o cardápio do domingo desde quarta-feira.",
+        "Pra você, almoço de família bom é almoço combinado. Você sabe quem vem, quem leva o quê e a que horas a mesa fica pronta. Por isso nunca falta cadeira quando você organiza.",
+        "Fazer a mesa caber todo mundo.",
+        "Planejar tanto que o almoço vira jantar.",
+        "Quem vem? Então a lasanha tem que ser dupla."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma travessa chega à mesa sem você provar antes.",
+        "Você prova o tempero, confere se o arroz está no ponto e repara quem chegou atrasado. Nenhuma novidade da família passa batida por você. É graças a você que o almoço sai caprichado.",
+        "Notar o detalhe que ninguém viu.",
+        "Provar tanto a comida que ela esfria.",
+        "Isso aqui tá com sal? Deixa eu provar."
+      ],
+      "M": [
+        "O Maestro",
+        "Você põe a mesa, serve o suco e escuta três tios ao mesmo tempo.",
+        "Você cuida de tudo junto: panela, mesa, criançada e a conversa da família. Enquanto os outros fazem uma coisa, você mantém o domingo inteiro funcionando.",
+        "Fazer o almoço acontecer pra todo mundo.",
+        "Cuidar de tanta coisa que esquece de comer.",
+        "Alguém pega o gelo? Já tô levando a salada."
+      ],
+      "F": [
+        "O Finalizador",
+        "Comida na mesa é melhor que comida perfeita.",
+        "Você não espera todo mundo chegar nem o tempero ideal. Põe na mesa, chama a família e todo mundo come. Enquanto discutem a receita da vó, você já está no segundo prato.",
+        "Fazer o almoço sair na hora.",
+        "Servir antes do último parente chegar.",
+        "Tá pronto, bora sentar!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o domingo pede: planeja quando precisa, prova quando vale a pena, cuida de tudo quando a casa enche e serve quando é hora.",
+        "Ser o que o almoço precisa naquele momento.",
+        "Ninguém saber se te chama pra cozinha ou pra mesa.",
+        "Depende. O que tá faltando aí?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta do cardápio combinado antes.",
+      "D": "você não deixa nenhum tempero passar sem provar.",
+      "M": "você cuida de mil coisas na mesma mesa.",
+      "F": "na hora certa, você para de esperar e serve."
+    },
+    "Q": [
+      [
+        "A vó pergunta pela quinta vez se você quer mais.",
+        {
+          "A": "Já tinha guardado espaço",
+          "D": "Pergunto o que tem na panela",
+          "M": "Sirvo a mesa toda junto",
+          "F": "Aceito e raspo o prato"
+        }
+      ],
+      [
+        "Na sexta, alguém lembra do almoço de domingo. Você...",
+        {
+          "A": "Já sabe quem leva o quê",
+          "D": "Pergunta quem vem mesmo desta vez",
+          "M": "Cria o grupo e chama a família toda",
+          "F": "Fala \"tô lá\" e aparece com a sobremesa"
+        }
+      ],
+      [
+        "Já é 13h e o almoço ainda não saiu. Você...",
+        {
+          "A": "Ajusta o plano: a salada vai primeiro",
+          "D": "Vai na cozinha ver o que travou",
+          "M": "Distrai todo mundo com petisco e conversa",
+          "F": "Pega a panela e serve do jeito que está"
+        }
+      ],
+      [
+        "Seu papel no almoço de família é...",
+        {
+          "A": "Quem montou o cardápio",
+          "D": "Quem prova tudo antes de ir pra mesa",
+          "M": "Quem põe a mesa, serve e conversa",
+          "F": "Quem garante que todo mundo comeu"
+        }
+      ],
+      [
+        "Um tio diz \"no meu tempo a lasanha era melhor\". Você...",
+        {
+          "A": "Pega a receita pra caprichar na próxima",
+          "D": "Pergunta o que exatamente mudou",
+          "M": "Muda de assunto e serve mais suco",
+          "F": "Põe mais lasanha no prato dele"
+        }
+      ],
+      [
+        "Faltam cadeiras pra todo mundo. Você...",
+        {
+          "A": "Já tinha separado as cadeiras de praia",
+          "D": "Conta quantas faltam de verdade",
+          "M": "Monta uma mesa das crianças na hora",
+          "F": "Senta no banquinho e pronto"
+        }
+      ],
+      [
+        "Seu maior defeito no almoço de domingo:",
+        {
+          "A": "Planejo tanto que o almoço vira jantar",
+          "D": "Provo tanto que a comida esfria",
+          "M": "Cuido de todos e esqueço de comer",
+          "F": "Sirvo antes de todo mundo chegar"
+        }
+      ],
+      [
+        "Acabou o almoço. Você...",
+        {
+          "A": "Já anota o cardápio do próximo domingo",
+          "D": "Confere se cada pote voltou pro dono certo",
+          "M": "Organiza quem lava e quem seca",
+          "F": "Pega a marmita da sobra e vai pro sofá"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at Sunday family lunch?",
+    "lead": "Every Sunday family lunch has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You've known Sunday's menu since Wednesday.",
+        "For you, a good family lunch is a planned one. You know who's coming, who's bringing what and when the table will be ready. That's why there's always a chair for everyone when you organise it.",
+        "Making the table fit the whole family.",
+        "Planning so long lunch turns into dinner.",
+        "Who's coming? Then we need two lasagnes."
+      ],
+      "D": [
+        "The Detective",
+        "No dish reaches the table until you've tasted it.",
+        "You taste the seasoning, check the rice and notice who turned up late. No family news slips past you. You're the reason lunch comes out just right.",
+        "Spotting the detail nobody else saw.",
+        "Tasting so much the food goes cold.",
+        "Does this need salt? Let me try it."
+      ],
+      "M": [
+        "The Maestro",
+        "You lay the table, pour drinks and listen to three uncles at once.",
+        "You handle it all together: the pots, the table, the kids and the family chat. While others do one thing, you keep the whole Sunday running.",
+        "Making lunch happen for everyone.",
+        "Looking after so much you forget to eat.",
+        "Can someone grab the ice? I'm bringing the salad."
+      ],
+      "F": [
+        "The Finisher",
+        "Food on the table beats perfect food.",
+        "You don't wait for everyone to arrive or the seasoning to be perfect. Dish up, call the family, everyone eats. While they debate Grandma's recipe, you're on your second plate.",
+        "Getting lunch out on time.",
+        "Serving before the last relative arrives.",
+        "It's ready, sit down!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as Sunday needs: plan when it matters, taste when it's worth it, juggle everything when the house fills up and serve when it's time.",
+        "Being whatever lunch needs right now.",
+        "Nobody knowing whether to call you to the kitchen or the table.",
+        "Depends. What's missing?"
+      ]
+    },
+    "S2": {
+      "A": "you still like the menu agreed in advance.",
+      "D": "you never let a dish go out untasted.",
+      "M": "you juggle a thousand things at one table.",
+      "F": "when it's time, you stop waiting and serve."
+    },
+    "Q": [
+      [
+        "Grandma asks for the fifth time if you want more.",
+        {
+          "A": "I saved room for this",
+          "D": "Ask what's left in the pot",
+          "M": "Serve the whole table too",
+          "F": "Say yes and clear the plate"
+        }
+      ],
+      [
+        "On Friday someone remembers Sunday lunch. You...",
+        {
+          "A": "Already know who's bringing what",
+          "D": "Ask who's actually coming this time",
+          "M": "Start a group chat and invite the whole family",
+          "F": "Say \"I'll be there\" and turn up with dessert"
+        }
+      ],
+      [
+        "It's 1pm and lunch still isn't ready. You...",
+        {
+          "A": "Adjust the plan: salad goes out first",
+          "D": "Go to the kitchen to see what's stuck",
+          "M": "Keep everyone happy with snacks and chat",
+          "F": "Grab the pot and serve it as it is"
+        }
+      ],
+      [
+        "Your role at family lunch is...",
+        {
+          "A": "The one who planned the menu",
+          "D": "The one who tastes everything first",
+          "M": "The one laying the table, serving and chatting",
+          "F": "The one making sure everyone has eaten"
+        }
+      ],
+      [
+        "An uncle says \"lasagne was better in my day\". You...",
+        {
+          "A": "Get the recipe to nail it next time",
+          "D": "Ask what exactly has changed",
+          "M": "Change the subject and pour more juice",
+          "F": "Put more lasagne on his plate"
+        }
+      ],
+      [
+        "There aren't enough chairs. You...",
+        {
+          "A": "Already set aside the garden chairs",
+          "D": "Count how many are really missing",
+          "M": "Set up a kids' table on the spot",
+          "F": "Grab a stool and that's that"
+        }
+      ],
+      [
+        "Your biggest Sunday lunch flaw:",
+        {
+          "A": "I plan so long lunch becomes dinner",
+          "D": "I taste so much the food goes cold",
+          "M": "I look after everyone and forget to eat",
+          "F": "I serve before everyone's arrived"
+        }
+      ],
+      [
+        "Lunch is over. You...",
+        {
+          "A": "Already note next Sunday's menu",
+          "D": "Check every container goes back to its owner",
+          "M": "Organise who washes and who dries",
+          "F": "Take a box of leftovers to the sofa"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "周日家庭午餐你是哪个泡泡？",
+    "lead": "每次周日家庭聚餐，都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "周三你就知道周日吃什么了。",
+        "对你来说，好的家庭午餐是商量好的。你知道谁会来、谁带什么、几点开饭。所以只要你来安排，每个人都有座位。",
+        "让一张桌子坐下全家人。",
+        "计划太久，午饭吃成了晚饭。",
+        "谁会来？那千层面得做两份。"
+      ],
+      "D": [
+        "侦探",
+        "没有一道菜能不经你尝过就上桌。",
+        "你会尝咸淡、看米饭熟没熟，还会留意谁来晚了。家里的新鲜事一件也逃不过你。正因为有你，午饭才做得这么用心。",
+        "发现别人没注意的细节。",
+        "尝太多次，菜都凉了。",
+        "这个够咸吗？让我尝一口。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时摆桌子、倒饮料，还在听三个叔叔聊天。",
+        "你什么都一起管：锅、桌子、小孩，还有全家的聊天。别人只做一件事，你让整个周日都转起来。",
+        "让全家人都吃上这顿饭。",
+        "照顾太多事，忘了自己吃。",
+        "谁去拿一下冰块？我把沙拉端过去。"
+      ],
+      "F": [
+        "终结者",
+        "饭上桌胜过饭做得完美。",
+        "你不等所有人到齐，也不等味道完美。端上桌、喊大家、开吃。别人还在讨论奶奶的做法，你已经吃第二碗了。",
+        "让午饭准时上桌。",
+        "最后一个亲戚还没到就开饭。",
+        "好了，快坐下吃！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据周日的需要切换角色：该规划时规划，该尝时就尝，家里人多时什么都管，该开饭时就上菜。",
+        "成为此刻这顿午饭最需要的人。",
+        "别人不知道该叫你进厨房还是上桌。",
+        "看情况。还缺什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前把菜单定好。",
+      "D": "你不会让任何一道菜不尝就上桌。",
+      "M": "你能在一张桌上同时照顾一千件事。",
+      "F": "到点了，你就不等了直接开饭。"
+    },
+    "Q": [
+      [
+        "奶奶第五次问你还要不要再来点。",
+        {
+          "A": "我早就留好肚子了",
+          "D": "先问锅里还有什么",
+          "M": "顺便给全桌都添上",
+          "F": "答应，然后光盘"
+        }
+      ],
+      [
+        "周五有人想起周日要聚餐。你……",
+        {
+          "A": "早就知道谁带什么",
+          "D": "先问这次到底谁会来",
+          "M": "建个群，把全家都拉进来",
+          "F": "说一句“我会到”，带着甜点出现"
+        }
+      ],
+      [
+        "已经下午一点了，午饭还没好。你……",
+        {
+          "A": "调整计划：先上沙拉",
+          "D": "去厨房看看卡在哪儿",
+          "M": "拿零食和聊天稳住大家",
+          "F": "直接端锅，有什么上什么"
+        }
+      ],
+      [
+        "你在家庭午餐中的角色是……",
+        {
+          "A": "定菜单的那个人",
+          "D": "每道菜先尝一口的那个人",
+          "M": "摆桌、上菜、陪聊的那个人",
+          "F": "确保每个人都吃上的那个人"
+        }
+      ],
+      [
+        "叔叔说：“我们那时候的千层面更好吃。”你……",
+        {
+          "A": "记下做法，下次改进",
+          "D": "问他到底哪里不一样",
+          "M": "换个话题，再给大家倒果汁",
+          "F": "再给他盛一大块"
+        }
+      ],
+      [
+        "椅子不够坐。你……",
+        {
+          "A": "早就备好了折叠椅",
+          "D": "先数清楚到底差几把",
+          "M": "马上摆一张小孩桌",
+          "F": "拿个小板凳坐下，完事"
+        }
+      ],
+      [
+        "你在周日午餐上最大的毛病：",
+        {
+          "A": "计划太久，午饭变晚饭",
+          "D": "尝太多次，菜都凉了",
+          "M": "照顾所有人，忘了自己吃",
+          "F": "人还没到齐就开饭"
+        }
+      ],
+      [
+        "午饭结束了。你……",
+        {
+          "A": "马上记下下周日的菜单",
+          "D": "检查每个饭盒都还给了主人",
+          "M": "安排谁洗碗谁擦碗",
+          "F": "打包剩菜，回沙发上躺着"
+        }
+      ]
+    ]
+  }
+}

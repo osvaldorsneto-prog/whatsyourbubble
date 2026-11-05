@@ -1,0 +1,384 @@
+{
+  "slug": "delivery",
+  "criado_em": "2026-11-05",
+  "categoria": "comida",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é pedindo delivery?",
+    "lead": "Todo pedido de delivery em grupo tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já sabe o que vai pedir antes de abrir o app.",
+        "Pra você, delivery bom é delivery pensado. Você conhece o cardápio, sabe o horário em que entrega mais rápido e calcula a taxa antes de fechar. Com você, ninguém fica com fome esperando.",
+        "Escolher o pedido certo na hora certa.",
+        "Planejar tanto que o restaurante fecha.",
+        "Se pedir até as 19h, chega antes do jogo."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum restaurante passa sem você ler as avaliações.",
+        "Você lê os comentários, compara as fotos reais com as do cardápio e confere o pedido quando chega. Ninguém te entrega batata faltando. Graças a você, o pedido vem certinho.",
+        "Achar o restaurante bom escondido no app.",
+        "Ler tanta avaliação que a fome aperta.",
+        "Peraí, alguém aqui reclamou do molho."
+      ],
+      "M": [
+        "O Maestro",
+        "Você junta o pedido do grupo inteiro numa tacada só.",
+        "Você pergunta o que cada um quer, junta tudo num pedido só, acha o cupom e ainda divide a conta. Enquanto os outros só escolhem, você faz o jantar de todo mundo acontecer.",
+        "Coordenar o pedido de todo mundo.",
+        "Cuidar de tanta coisa que esquece o próprio lanche.",
+        "Manda o seu que eu junto com o resto."
+      ],
+      "F": [
+        "O Finalizador",
+        "Melhor pedir agora do que passar fome escolhendo.",
+        "Você não fica rolando o app por meia hora. Escolhe, paga e pronto: em 40 minutos todo mundo está comendo. Enquanto o grupo discute, você já apertou o botão.",
+        "Fazer a comida chegar de verdade.",
+        "Pedir o de sempre sem nem olhar o resto.",
+        "Já pedi. Chega em 30."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a fome pede: planeja quando dá, confere quando vale, junta o grupo quando o pedido é grande e aperta o botão quando ninguém decide.",
+        "Ser o que o pedido precisa naquele momento.",
+        "Ninguém saber se pode deixar o pedido com você.",
+        "Depende. Tá todo mundo com muita fome?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de saber o pedido antes de abrir o app.",
+      "D": "você não fecha pedido sem ler as avaliações.",
+      "M": "você junta o pedido de todo mundo sem esforço.",
+      "F": "quando a fome aperta, você só pede."
+    },
+    "Q": [
+      [
+        "40 minutos no app e ninguém decidiu o que pedir.",
+        {
+          "A": "Eu já tinha decidido ontem",
+          "D": "Leio as avaliações de novo",
+          "M": "Abro uma votação no grupo",
+          "F": "Peço pizza pra todos"
+        }
+      ],
+      [
+        "Antes de fechar o pedido, você...",
+        {
+          "A": "Calcula se a taxa de entrega compensa",
+          "D": "Olha as fotos reais dos clientes",
+          "M": "Pergunta se alguém quer mais alguma coisa",
+          "F": "Já apertou o botão faz tempo"
+        }
+      ],
+      [
+        "O app disse 25 minutos. Já passou 1 hora.",
+        {
+          "A": "Eu tinha um lanche reserva na geladeira",
+          "D": "Fico olhando o entregador no mapa",
+          "M": "Aviso o grupo e distraio todo mundo",
+          "F": "Vou esperar na porta"
+        }
+      ],
+      [
+        "O pedido chegou. Primeira coisa que você faz:",
+        {
+          "A": "Separo cada pedido pelo nome",
+          "D": "Confiro se veio tudo, item por item",
+          "M": "Distribuo os pratos e os talheres",
+          "F": "Abro o meu e começo a comer"
+        }
+      ],
+      [
+        "Veio sem o molho que você pediu. Você...",
+        {
+          "A": "Da próxima vez escrevo na observação em letra grande",
+          "D": "Tiro foto e mando pro restaurante",
+          "M": "Divido o meu com quem ficou sem",
+          "F": "Como assim mesmo, tá ótimo"
+        }
+      ],
+      [
+        "Na hora de dividir a conta, você...",
+        {
+          "A": "Já fiz a conta antes de pedir",
+          "D": "Confiro centavo por centavo",
+          "M": "Calculo, cobro e lembro quem esqueceu",
+          "F": "Pago tudo e depois a gente vê"
+        }
+      ],
+      [
+        "Seu maior defeito no delivery:",
+        {
+          "A": "Planejo tanto que o restaurante fecha",
+          "D": "Leio tanta avaliação que a fome aperta",
+          "M": "Cuido do pedido de todos e esqueço o meu",
+          "F": "Peço sempre a mesma coisa"
+        }
+      ],
+      [
+        "Acabou a comida. Você...",
+        {
+          "A": "Salvo o pedido nos favoritos pra próxima",
+          "D": "Dou nota e escrevo uma avaliação detalhada",
+          "M": "Já combino o delivery da semana que vem",
+          "F": "Jogo as embalagens fora e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when ordering takeaway?",
+    "lead": "Every group takeaway order has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You know your order before you even open the app.",
+        "For you, good takeaway is planned takeaway. You know the menu, when it arrives fastest and the delivery fee before you check out. With you around, nobody waits hungry.",
+        "Picking the right order at the right time.",
+        "Planning so long the restaurant closes.",
+        "Order by 7 and it's here before kick-off."
+      ],
+      "D": [
+        "The Detective",
+        "No restaurant gets picked until you've read the reviews.",
+        "You read the comments, compare real photos with the menu ones and check the bag when it arrives. Nobody shorts you on chips. Thanks to you, the order turns up right.",
+        "Finding the hidden gem in the app.",
+        "Reading so many reviews you get hangry.",
+        "Hang on, someone here complained about the sauce."
+      ],
+      "M": [
+        "The Maestro",
+        "You pull the whole group's order together in one go.",
+        "You ask what everyone wants, put it all in one order, find the discount code and split the bill too. While others just choose, you make dinner happen for everyone.",
+        "Coordinating everyone's order.",
+        "Doing so much you forget your own food.",
+        "Send me yours, I'll add it to the rest."
+      ],
+      "F": [
+        "The Finisher",
+        "Better to order now than go hungry choosing.",
+        "You don't scroll the app for half an hour. Pick, pay, done: in 40 minutes everyone's eating. While the group is still debating, you've already hit the button.",
+        "Actually getting the food to the door.",
+        "Ordering the usual without looking at anything else.",
+        "Already ordered. Here in 30."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as hunger demands: plan when you can, check when it's worth it, rally the group for a big order and hit the button when nobody decides.",
+        "Being whatever the order needs right now.",
+        "Nobody knowing if they can leave the order to you.",
+        "Depends. How hungry is everyone?"
+      ]
+    },
+    "S2": {
+      "A": "you still like knowing your order before opening the app.",
+      "D": "you never check out without reading the reviews.",
+      "M": "you pull everyone's order together effortlessly.",
+      "F": "when hunger hits, you just order."
+    },
+    "Q": [
+      [
+        "40 minutes in the app and nobody's picked anything.",
+        {
+          "A": "I decided yesterday",
+          "D": "Reread the reviews",
+          "M": "Start a poll in the chat",
+          "F": "Pizza for everyone. Done."
+        }
+      ],
+      [
+        "Before checking out, you...",
+        {
+          "A": "Work out if the delivery fee is worth it",
+          "D": "Look at customers' real photos",
+          "M": "Ask if anyone wants anything else",
+          "F": "Pressed the button ages ago"
+        }
+      ],
+      [
+        "The app said 25 minutes. It's been an hour.",
+        {
+          "A": "I had a backup snack in the fridge",
+          "D": "Keep watching the driver on the map",
+          "M": "Update the group and keep everyone busy",
+          "F": "Go and wait by the door"
+        }
+      ],
+      [
+        "The food arrives. First thing you do:",
+        {
+          "A": "Sort each order by name",
+          "D": "Check everything came, item by item",
+          "M": "Hand out plates and cutlery",
+          "F": "Open mine and start eating"
+        }
+      ],
+      [
+        "Your sauce is missing. You...",
+        {
+          "A": "Next time I'll write it in capitals in the notes",
+          "D": "Take a photo and message the restaurant",
+          "M": "Share mine with whoever's missing out",
+          "F": "Eat it anyway, it's great"
+        }
+      ],
+      [
+        "Time to split the bill. You...",
+        {
+          "A": "Worked it out before ordering",
+          "D": "Check it down to the penny",
+          "M": "Calculate, collect and chase whoever forgot",
+          "F": "Pay for it all and sort it later"
+        }
+      ],
+      [
+        "Your biggest takeaway flaw:",
+        {
+          "A": "I plan so long the restaurant closes",
+          "D": "I read so many reviews I get hangry",
+          "M": "I sort everyone's order and forget mine",
+          "F": "I always order the same thing"
+        }
+      ],
+      [
+        "The food's gone. You...",
+        {
+          "A": "Save the order to favourites for next time",
+          "D": "Rate it and write a detailed review",
+          "M": "Already plan next week's takeaway",
+          "F": "Bin the boxes and that's that"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "点外卖时你是哪个泡泡？",
+    "lead": "每次一群人点外卖，都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没打开App，你就知道要点什么了。",
+        "对你来说，好外卖是计划出来的。你熟悉菜单，知道几点送得最快，下单前就算好了配送费。有你在，没人会饿着等。",
+        "在对的时间点对的外卖。",
+        "计划太久，餐厅都打烊了。",
+        "七点前下单，比赛开始前就能到。"
+      ],
+      "D": [
+        "侦探",
+        "不看完评价，你绝不选餐厅。",
+        "你会看评论，对比买家实拍和菜单图，外卖到了还要逐样检查。谁也别想少给你一份薯条。多亏有你，外卖从不出错。",
+        "在App里挖出宝藏小店。",
+        "评价看太久，饿到发脾气。",
+        "等等，这里有人说酱料不好吃。"
+      ],
+      "M": [
+        "指挥家",
+        "你一次就把全组的外卖搞定。",
+        "你问每个人想吃什么，合成一单，找到优惠券，还顺便把账分好。别人只负责选，你让大家的晚饭真正落地。",
+        "协调所有人的订单。",
+        "忙着照顾大家，忘了点自己的。",
+        "把你的发我，我跟其他人的一起下单。"
+      ],
+      "F": [
+        "终结者",
+        "与其选到饿着，不如现在就下单。",
+        "你不会刷半小时App。选好、付款、搞定：四十分钟后大家就开吃了。群里还在讨论，你已经下单了。",
+        "真正让外卖送到门口。",
+        "不看别的，永远点老一套。",
+        "已经下单了，三十分钟到。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据饿的程度切换角色：有空就规划，值得就检查，大单就召集大家，没人做决定时你直接下单。",
+        "成为此刻这单外卖最需要的人。",
+        "别人不知道能不能把点餐交给你。",
+        "看情况。大家有多饿？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢打开App前就想好点什么。",
+      "D": "不看评价你绝不下单。",
+      "M": "你轻松就能把大家的单合在一起。",
+      "F": "一饿起来，你就直接下单。"
+    },
+    "Q": [
+      [
+        "刷了四十分钟App，还没人决定吃什么。",
+        {
+          "A": "我昨天就想好了",
+          "D": "再把评价看一遍",
+          "M": "在群里发起投票",
+          "F": "全点披萨，搞定"
+        }
+      ],
+      [
+        "下单之前，你会……",
+        {
+          "A": "算算配送费值不值",
+          "D": "看买家的实拍图",
+          "M": "问还有没有人要加东西",
+          "F": "早就下单了"
+        }
+      ],
+      [
+        "App说25分钟送到，现在已经一小时了。",
+        {
+          "A": "我冰箱里早有备用零食",
+          "D": "盯着地图上的骑手",
+          "M": "在群里报进度，带大家打发时间",
+          "F": "去门口等着"
+        }
+      ],
+      [
+        "外卖到了。你第一件事：",
+        {
+          "A": "按名字把每份分好",
+          "D": "逐样检查有没有漏",
+          "M": "分盘子和餐具",
+          "F": "打开我的直接开吃"
+        }
+      ],
+      [
+        "你点的酱料没送来。你……",
+        {
+          "A": "下次在备注里写大字",
+          "D": "拍照发给商家",
+          "M": "把我的分给没有的人",
+          "F": "照样吃，挺好吃的"
+        }
+      ],
+      [
+        "该AA了。你……",
+        {
+          "A": "下单前就算好了",
+          "D": "精确到每一分钱",
+          "M": "算账、收钱、提醒忘了的人",
+          "F": "我先全付，之后再说"
+        }
+      ],
+      [
+        "你点外卖最大的毛病：",
+        {
+          "A": "计划太久，餐厅打烊了",
+          "D": "评价看太多，饿到发脾气",
+          "M": "帮大家点好，忘了自己的",
+          "F": "永远点同一样"
+        }
+      ],
+      [
+        "吃完了。你……",
+        {
+          "A": "把这单存进收藏，下次再点",
+          "D": "打分并写一篇详细评价",
+          "M": "已经约好下周的外卖",
+          "F": "把盒子扔了，完事"
+        }
+      ]
+    ]
+  }
+}

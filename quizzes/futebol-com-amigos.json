@@ -1,0 +1,384 @@
+{
+  "slug": "futebol-com-amigos",
+  "criado_em": "2026-11-05",
+  "categoria": "esporte",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é no futebol com os amigos?",
+    "lead": "Toda pelada com os amigos tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta os times antes de alguém amarrar a chuteira.",
+        "Pra você, pelada boa começa organizada. Você reserva a quadra, sabe quem joga em qual posição e já pensou no esquema. Com você, o jogo começa na hora.",
+        "Montar times equilibrados.",
+        "Explicar tanto o esquema que o horário da quadra acaba.",
+        "Você segura a defesa, eu cubro o meio."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum lance duvidoso passa sem você conferir.",
+        "Você sabe se a bola saiu, quem tocou por último e quantos gols cada time fez. Ninguém mexe no placar quando você está em campo. É graças a você que a pelada é justa.",
+        "Lembrar de cada lance do jogo.",
+        "Parar o jogo pra discutir se foi falta.",
+        "Peraí, essa bola saiu, eu vi."
+      ],
+      "M": [
+        "O Maestro",
+        "Você joga, organiza o time e ainda cuida da água de todo mundo.",
+        "Você cuida de tudo junto: chama a galera, divide os times, lembra da bola e ainda anima quem está no banco. Enquanto os outros só jogam, você faz a pelada acontecer.",
+        "Fazer todo mundo jogar e se divertir.",
+        "Organizar tanto que esquece de tocar na bola.",
+        "Quem tá de fora entra no próximo!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Chutou, é gol. Pelo menos na sua cabeça.",
+        "Você não fica tocando de lado. Recebeu, partiu pro gol e chutou. Enquanto os outros discutem a tática, você já está comemorando.",
+        "Decidir o jogo quando ninguém decide.",
+        "Chutar de qualquer lugar do campo.",
+        "Toca pra mim que eu resolvo!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o jogo pede: organiza quando precisa, confere quando vale, cuida do time quando aperta e chuta quando aparece a chance.",
+        "Ser o que o time precisa naquele momento.",
+        "Ninguém saber em que posição te colocar.",
+        "Depende. Tá faltando gente onde?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo combinado antes do apito.",
+      "D": "você não deixa nenhum lance passar sem conferir.",
+      "M": "você cuida do time inteiro enquanto joga.",
+      "F": "na hora certa, você para de tocar e chuta."
+    },
+    "Q": [
+      [
+        "Falta 1 hora pro jogo e faltam 2 pra fechar o time.",
+        {
+          "A": "Já tinha lista de reserva",
+          "D": "Confiro quem confirmou mesmo",
+          "M": "Mando áudio pra todo mundo",
+          "F": "Chamo o primeiro que passar"
+        }
+      ],
+      [
+        "Na hora de tirar os times, você...",
+        {
+          "A": "Já traz os times montados",
+          "D": "Confere se ninguém juntou os melhores",
+          "M": "Divide e garante que todo mundo joga",
+          "F": "Par ou ímpar e bora"
+        }
+      ],
+      [
+        "Alguém grita \"foi falta!\". Você...",
+        {
+          "A": "Lembra que as regras foram combinadas antes",
+          "D": "Explica o lance em câmera lenta",
+          "M": "Acalma todo mundo e recomeça o jogo",
+          "F": "Bate a falta antes da discussão acabar"
+        }
+      ],
+      [
+        "Seu papel em campo é...",
+        {
+          "A": "Quem organiza o time",
+          "D": "Quem sabe o placar exato",
+          "M": "Quem joga e anima o time ao mesmo tempo",
+          "F": "Quem faz o gol"
+        }
+      ],
+      [
+        "A bola caiu no quintal do vizinho. Você...",
+        {
+          "A": "Eu já tinha trazido uma bola reserva",
+          "D": "Vê o jeito mais fácil de pegar de volta",
+          "M": "Organiza quem toca a campainha e quem espera",
+          "F": "Pede a bola do outro time e segue o jogo"
+        }
+      ],
+      [
+        "Seu time está perdendo de 3 a 0. Você...",
+        {
+          "A": "Muda o esquema e explica pra todo mundo",
+          "D": "Descobre onde o time está errando",
+          "M": "Anima o time e troca quem tá cansado",
+          "F": "Pega a bola e vai pra cima"
+        }
+      ],
+      [
+        "Seu maior defeito na pelada:",
+        {
+          "A": "Explico tanto o esquema que o tempo acaba",
+          "D": "Paro o jogo pra discutir cada lance",
+          "M": "Cuido de todo mundo e esqueço de jogar",
+          "F": "Chuto de qualquer lugar"
+        }
+      ],
+      [
+        "Fim de jogo. Você...",
+        {
+          "A": "Já reserva a quadra da semana que vem",
+          "D": "Confere o placar final e quem fez os gols",
+          "M": "Puxa o lanche da galera depois do jogo",
+          "F": "Pega a mochila e vai pra casa feliz"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in a kickabout with friends?",
+    "lead": "Every kickabout with friends has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You pick the teams before anyone's laced their boots.",
+        "For you, a good kickabout starts organised. You book the pitch, know who plays where and have already worked out the tactics. With you, the game starts on time.",
+        "Making the teams fair.",
+        "Explaining tactics until the pitch time runs out.",
+        "You hold the back, I'll cover the middle."
+      ],
+      "D": [
+        "The Detective",
+        "No dodgy call gets past you unchecked.",
+        "You know if the ball went out, who touched it last and exactly how many goals each side has. Nobody fiddles the score when you're on the pitch. You're the reason the game stays fair.",
+        "Remembering every moment of the match.",
+        "Stopping play to argue about a foul.",
+        "Hold on, that was out, I saw it."
+      ],
+      "M": [
+        "The Maestro",
+        "You play, run the team and sort everyone's water.",
+        "You handle it all together: round up the group, split the teams, remember the ball and cheer on whoever's on the bench. While others just play, you make the game happen.",
+        "Making sure everyone plays and has fun.",
+        "Organising so much you forget to touch the ball.",
+        "Whoever's off comes on next!"
+      ],
+      "F": [
+        "The Finisher",
+        "You shot, so it's a goal. In your head, anyway.",
+        "You don't pass it sideways. Get the ball, head for goal, shoot. While others debate tactics, you're already celebrating.",
+        "Settling the game when nobody else will.",
+        "Shooting from anywhere on the pitch.",
+        "Pass it to me, I've got this!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the game needs: organise when it matters, check when it's worth it, look after the team when it gets tough and shoot when the chance comes.",
+        "Being whatever the team needs right now.",
+        "Nobody knowing which position to put you in.",
+        "Depends. Where are we short?"
+      ]
+    },
+    "S2": {
+      "A": "you still like it all agreed before kick-off.",
+      "D": "you never let a call go unchecked.",
+      "M": "you look after the whole team while you play.",
+      "F": "when it counts, you stop passing and shoot."
+    },
+    "Q": [
+      [
+        "Kick-off's in an hour and you're two players short.",
+        {
+          "A": "I had a backup list ready",
+          "D": "Check who actually confirmed",
+          "M": "Voice note the whole group",
+          "F": "Grab the first person passing"
+        }
+      ],
+      [
+        "Picking teams, you...",
+        {
+          "A": "Bring the teams already sorted",
+          "D": "Check nobody stacked one side",
+          "M": "Split them so everyone gets a game",
+          "F": "Coin toss and let's go"
+        }
+      ],
+      [
+        "Someone shouts \"foul!\". You...",
+        {
+          "A": "Remind everyone we agreed the rules first",
+          "D": "Explain the play in slow motion",
+          "M": "Calm everyone down and restart",
+          "F": "Take the free kick before the argument ends"
+        }
+      ],
+      [
+        "Your role on the pitch is...",
+        {
+          "A": "The one who organises the team",
+          "D": "The one who knows the exact score",
+          "M": "The one playing and cheering at once",
+          "F": "The one who scores"
+        }
+      ],
+      [
+        "The ball's landed in the neighbour's garden. You...",
+        {
+          "A": "I'd brought a spare ball",
+          "D": "Work out the easiest way to get it back",
+          "M": "Sort out who knocks and who waits",
+          "F": "Borrow the other team's ball and play on"
+        }
+      ],
+      [
+        "Your team is losing 3–0. You...",
+        {
+          "A": "Change the tactics and explain them to everyone",
+          "D": "Figure out where we're going wrong",
+          "M": "Gee up the team and sub off whoever's tired",
+          "F": "Grab the ball and go for it"
+        }
+      ],
+      [
+        "Your biggest kickabout flaw:",
+        {
+          "A": "I explain tactics until time runs out",
+          "D": "I stop play to argue every call",
+          "M": "I look after everyone and forget to play",
+          "F": "I shoot from anywhere"
+        }
+      ],
+      [
+        "Full time. You...",
+        {
+          "A": "Already book the pitch for next week",
+          "D": "Check the final score and who scored",
+          "M": "Organise food for everyone after",
+          "F": "Grab my bag and head home happy"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "和朋友踢球时你是哪个泡泡？",
+    "lead": "每场朋友间的野球都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没人系好鞋带，你就把队分好了。",
+        "对你来说，好的野球从组织开始。你订好场地，知道谁踢什么位置，连战术都想好了。有你在，比赛准时开踢。",
+        "把两队分得势均力敌。",
+        "战术讲太久，场地时间都到了。",
+        "你守后防，我来管中路。"
+      ],
+      "D": [
+        "侦探",
+        "任何有争议的球都逃不过你的检查。",
+        "你知道球有没有出界、最后是谁碰的、每队进了几个。有你在场上，谁也别想乱改比分。正因为有你，比赛才公平。",
+        "记住比赛的每一个瞬间。",
+        "停下比赛争论是不是犯规。",
+        "等等，这球出界了，我看见了。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边踢球，一边带队，还管大家的水。",
+        "你什么都一起管：叫人、分队、记得带球，还给场下的人打气。别人只管踢，你让整场球真正踢起来。",
+        "让每个人都上场、都开心。",
+        "管的事太多，忘了碰球。",
+        "下场的人下一轮上！"
+      ],
+      "F": [
+        "终结者",
+        "射了就是进球，至少在你心里是。",
+        "你不横传倒脚。拿球、冲门、射门。别人还在讨论战术，你已经在庆祝了。",
+        "在没人拿主意时一锤定音。",
+        "在球场任何位置都起脚。",
+        "传给我，我来搞定！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据比赛需要切换角色：该组织时组织，该检查时检查，艰难时照顾全队，有机会就射门。",
+        "成为此刻球队最需要的人。",
+        "别人不知道该把你放在什么位置。",
+        "看情况。哪里缺人？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢开球前一切都商量好。",
+      "D": "你不会让任何一个判罚不经检查就过去。",
+      "M": "你一边踢球一边照顾整个队。",
+      "F": "关键时刻，你不再传球，直接射门。"
+    },
+    "Q": [
+      [
+        "离开球还有一小时，还差两个人。",
+        {
+          "A": "我早有替补名单",
+          "D": "核对到底谁确认了",
+          "M": "给所有人发语音",
+          "F": "拉上第一个路过的人"
+        }
+      ],
+      [
+        "分队的时候，你……",
+        {
+          "A": "直接带来分好的名单",
+          "D": "检查有没有人把强的都凑一队",
+          "M": "分好队，保证人人有球踢",
+          "F": "猜拳决定，开踢"
+        }
+      ],
+      [
+        "有人大喊“犯规！”。你……",
+        {
+          "A": "提醒大家规则早就说好了",
+          "D": "慢动作复盘这个球",
+          "M": "让大家冷静，重新开球",
+          "F": "趁还在吵，先把任意球罚了"
+        }
+      ],
+      [
+        "你在场上的角色是……",
+        {
+          "A": "组织球队的那个人",
+          "D": "记得准确比分的那个人",
+          "M": "边踢边给大家打气的那个人",
+          "F": "进球的那个人"
+        }
+      ],
+      [
+        "球飞进了邻居家的院子。你……",
+        {
+          "A": "我早带了备用球",
+          "D": "研究从哪儿最好拿回来",
+          "M": "安排谁去敲门、谁在这等",
+          "F": "借对面的球，继续踢"
+        }
+      ],
+      [
+        "你们队0比3落后。你……",
+        {
+          "A": "换战术，给每个人讲清楚",
+          "D": "找出我们哪里出了问题",
+          "M": "给大家鼓劲，把累的换下来",
+          "F": "拿球直接往前冲"
+        }
+      ],
+      [
+        "你踢野球最大的毛病：",
+        {
+          "A": "战术讲太久，时间到了",
+          "D": "每个球都要停下来争",
+          "M": "照顾所有人，忘了自己踢",
+          "F": "哪儿都敢起脚"
+        }
+      ],
+      [
+        "比赛结束。你……",
+        {
+          "A": "马上订好下周的场地",
+          "D": "核对最终比分和进球的人",
+          "M": "张罗大家赛后一起吃东西",
+          "F": "拎包回家，心满意足"
+        }
+      ]
+    ]
+  }
+}
