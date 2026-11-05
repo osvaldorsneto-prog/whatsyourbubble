@@ -1,8 +1,8 @@
 {
   "fonte": "https://whatsyourbubble.com/ai/painel-7q3x.php",
-  "atualizado_em": "2026-11-03T12:56:37Z",
+  "atualizado_em": "2026-11-05T09:58:03Z",
   "resumo": {
-    "visitas": 60,
+    "visitas": 61,
     "começaram": 22,
     "terminaram": 18,
     "ações de compartilhar": 1,
@@ -51,6 +51,12 @@
       "Terminaram": 1
     },
     {
+      "Quiz": "almoco-de-domingo",
+      "Visitas": 1,
+      "Começaram": 0,
+      "Terminaram": 0
+    },
+    {
       "Quiz": "supermercado",
       "Visitas": 1,
       "Começaram": 0,
@@ -88,6 +94,13 @@
     }
   ],
   "por_dia": [
+    {
+      "Dia": "2026-11-05",
+      "Visitas": 1,
+      "Começaram": 0,
+      "Terminaram": 0,
+      "Amigo": 0
+    },
     {
       "Dia": "2026-11-03",
       "Visitas": 3,
