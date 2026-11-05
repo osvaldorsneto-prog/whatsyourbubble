@@ -1,10 +1,11 @@
 """Estilo "adesivo colorido" dos vídeos, igual ao do site: fundo em degradê rosa/lilás/azul,
 bolhas e brilhos flutuando, caixas com contorno grosso e sombra colorida, raios atrás dos mascotes."""
 import math
+import os
 import random
 
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter
 
 W, H = 1080, 1920
 INK = (20, 27, 46)
@@ -29,6 +30,27 @@ def _base():
 
 
 BASE = _base()
+BASE_PADRAO = BASE
+
+# Fundos por tema (video/fundos/<categoria>-a.jpg e -b.jpg, cenários em estilo anime gerados no Leonardo, modo privado).
+# Vão com um véu branco e um leve desfoque pra não brigar com os textos e as bolhas.
+FUNDOS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fundos')
+VEU, DESFOQUE = .45, 2
+
+
+def fundo_do_tema(categoria, slug):
+    """Fundo da categoria (variante a/b fixa por quiz) já com o véu; None se a categoria não tiver fundo."""
+    if not categoria:
+        return None
+    var = 'ab'[sum(slug.encode()) % 2]
+    for v in (var, 'a', 'b'):
+        p = os.path.join(FUNDOS, f'{categoria}-{v}.jpg')
+        if os.path.exists(p):
+            im = Image.open(p).convert('RGB').resize((W, H), Image.LANCZOS).filter(ImageFilter.GaussianBlur(DESFOQUE))
+            return Image.blend(im, Image.new('RGB', (W, H), WHITE), VEU)
+    return None
+
+
 _rng = random.Random(11)
 BUBBLES = [(_rng.uniform(0, W), _rng.uniform(0, H), _rng.uniform(26, 110), _rng.uniform(.4, 1.1), _rng.choice([PINK, CYAN, VIOLET]))
            for _ in range(16)]
