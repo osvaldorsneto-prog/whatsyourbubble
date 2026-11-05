@@ -1,19 +1,19 @@
 {
   "fonte": "https://whatsyourbubble.com/ai/painel-7q3x.php",
-  "atualizado_em": "2026-11-05T09:58:03Z",
+  "atualizado_em": "2026-11-05T21:44:49Z",
   "resumo": {
-    "visitas": 61,
-    "começaram": 22,
-    "terminaram": 18,
+    "visitas": 68,
+    "começaram": 29,
+    "terminaram": 24,
     "ações de compartilhar": 1,
     "chegaram por link de amigo": 3
   },
   "perfis": {
-    "Arquiteto": 3,
+    "Arquiteto": 5,
     "Detetive": 7,
-    "Maestro": 5,
-    "Finalizador": 3,
-    "Secreta": 0
+    "Maestro": 6,
+    "Finalizador": 5,
+    "Secreta": 1
   },
   "compartilhamento": {
     "Botão Compartilhar": 1,
@@ -27,7 +27,7 @@
     "LinkedIn": 0
   },
   "idiomas": {
-    "Português": 22,
+    "Português": 29,
     "English": 0,
     "中文": 0
   },
@@ -45,22 +45,52 @@
       "Terminaram": 6
     },
     {
+      "Quiz": "almoco-de-domingo",
+      "Visitas": 2,
+      "Começaram": 1,
+      "Terminaram": 1
+    },
+    {
+      "Quiz": "supermercado",
+      "Visitas": 2,
+      "Começaram": 1,
+      "Terminaram": 0
+    },
+    {
       "Quiz": "mudanca",
       "Visitas": 2,
       "Começaram": 1,
       "Terminaram": 1
     },
     {
-      "Quiz": "almoco-de-domingo",
+      "Quiz": "futebol-com-amigos",
       "Visitas": 1,
-      "Começaram": 0,
-      "Terminaram": 0
+      "Começaram": 1,
+      "Terminaram": 1
     },
     {
-      "Quiz": "supermercado",
+      "Quiz": "delivery",
       "Visitas": 1,
-      "Começaram": 0,
-      "Terminaram": 0
+      "Começaram": 1,
+      "Terminaram": 1
+    },
+    {
+      "Quiz": "semana-de-provas",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 1
+    },
+    {
+      "Quiz": "bateria-acabando",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 1
+    },
+    {
+      "Quiz": "amigo-secreto",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 1
     },
     {
       "Quiz": "faxina",
@@ -96,9 +126,9 @@
   "por_dia": [
     {
       "Dia": "2026-11-05",
-      "Visitas": 1,
-      "Começaram": 0,
-      "Terminaram": 0,
+      "Visitas": 8,
+      "Começaram": 7,
+      "Terminaram": 6,
       "Amigo": 0
     },
     {
