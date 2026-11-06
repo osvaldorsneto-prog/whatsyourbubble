@@ -1,16 +1,16 @@
 {
   "fonte": "https://whatsyourbubble.com/ai/painel-7q3x.php",
-  "atualizado_em": "2026-11-05T21:44:49Z",
+  "atualizado_em": "2026-11-06T21:38:11Z",
   "resumo": {
-    "visitas": 68,
-    "começaram": 29,
-    "terminaram": 24,
+    "visitas": 70,
+    "começaram": 31,
+    "terminaram": 25,
     "ações de compartilhar": 1,
     "chegaram por link de amigo": 3
   },
   "perfis": {
     "Arquiteto": 5,
-    "Detetive": 7,
+    "Detetive": 8,
     "Maestro": 6,
     "Finalizador": 5,
     "Secreta": 1
@@ -27,7 +27,7 @@
     "LinkedIn": 0
   },
   "idiomas": {
-    "Português": 29,
+    "Português": 31,
     "English": 0,
     "中文": 0
   },
@@ -61,6 +61,18 @@
       "Visitas": 2,
       "Começaram": 1,
       "Terminaram": 1
+    },
+    {
+      "Quiz": "acampamento",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 1
+    },
+    {
+      "Quiz": "quebra-cabeca",
+      "Visitas": 1,
+      "Começaram": 1,
+      "Terminaram": 0
     },
     {
       "Quiz": "futebol-com-amigos",
@@ -124,6 +136,13 @@
     }
   ],
   "por_dia": [
+    {
+      "Dia": "2026-11-06",
+      "Visitas": 2,
+      "Começaram": 2,
+      "Terminaram": 1,
+      "Amigo": 0
+    },
     {
       "Dia": "2026-11-05",
       "Visitas": 8,
