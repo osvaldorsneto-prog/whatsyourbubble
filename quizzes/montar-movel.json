@@ -1,0 +1,384 @@
+{
+  "slug": "montar-movel",
+  "criado_em": "2026-11-06",
+  "categoria": "casa",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é montando um móvel?",
+    "lead": "Caixa aberta, 200 peças no chão e um manual sem palavras. Quem é você nessa hora?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você separa as peças por tamanho antes do primeiro parafuso.",
+        "Pra você, montar móvel começa com o manual inteiro lido. Você separa os parafusos em potinhos e segue cada passo na ordem. Por isso a sua estante nunca fica torta.",
+        "Montar certo na primeira tentativa.",
+        "Gastar meia hora só organizando as peças.",
+        "Calma. Primeiro o passo 1."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere cada furo antes de apertar qualquer coisa.",
+        "Você conta as peças da caixa, compara com a lista e percebe que a porta tá de cabeça pra baixo antes de todo mundo. Graças a você, ninguém precisa desmontar tudo.",
+        "Achar o erro antes de ele virar problema.",
+        "Conferir tanto que o móvel vira projeto da semana.",
+        "Peraí, esse furo não devia estar do outro lado?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você monta, segura a porta e coordena a ajuda ao mesmo tempo.",
+        "Você distribui as tarefas, segura a lateral com o pé e ainda acha a chave que sumiu. Com você, montar móvel vira trabalho em equipe.",
+        "Fazer três pessoas montarem um armário sem brigar.",
+        "Começar quatro passos e terminar nenhum.",
+        "Segura aí que eu já pego a chave."
+      ],
+      "F": [
+        "O Finalizador",
+        "Móvel em pé é melhor que manual seguido.",
+        "Você abre a caixa e já sai encaixando. Se sobrar parafuso, paciência: o importante é que a cômoda tá de pé e guardando roupa hoje mesmo.",
+        "Transformar caixa em móvel antes do jantar.",
+        "Sobrar umas pecinhas no final.",
+        "Ficou firme? Então tá pronto."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de jeito conforme o móvel: lê o manual quando é complicado, confere quando algo range, coordena quando tem ajuda e só encaixa quando é simples.",
+        "Ser o que a montagem precisa naquele momento.",
+        "Ninguém saber se te entrega o manual ou a chave.",
+        "Depende. Quantas peças são?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de seguir o passo a passo.",
+      "D": "você não aperta nada sem conferir.",
+      "M": "você consegue cuidar de várias peças ao mesmo tempo.",
+      "F": "na hora certa, você para de ler e encaixa."
+    },
+    "Q": [
+      [
+        "Sobrou um parafuso no final. E agora?",
+        {
+          "A": "Volto no manual",
+          "D": "Descubro de onde saiu",
+          "M": "Pergunto pra todo mundo",
+          "F": "Tá firme, segue"
+        }
+      ],
+      [
+        "A caixa chega em casa. Primeira coisa que você faz?",
+        {
+          "A": "Leio o manual inteiro antes de abrir os saquinhos",
+          "D": "Confiro se veio todas as peças da lista",
+          "M": "Chamo alguém pra ajudar e já divido as tarefas",
+          "F": "Rasgo a caixa e começo pela peça maior"
+        }
+      ],
+      [
+        "O manual só tem desenhos. Você...",
+        {
+          "A": "Estudo cada desenho com calma",
+          "D": "Comparo o desenho com a peça por todos os ângulos",
+          "M": "Procuro um vídeo enquanto alguém segura a lateral",
+          "F": "Ignoro e vou no instinto"
+        }
+      ],
+      [
+        "Seu papel na montagem é...",
+        {
+          "A": "Quem organiza as peças em fileiras",
+          "D": "Quem confere se tá tudo no lugar certo",
+          "M": "Quem segura, aponta e pede a chave ao mesmo tempo",
+          "F": "Quem aperta o último parafuso"
+        }
+      ],
+      [
+        "A porta ficou torta. Você...",
+        {
+          "A": "Volto três passos e refaço do jeito certo",
+          "D": "Descubro qual dobradiça tá errada",
+          "M": "Peço pra alguém segurar enquanto eu ajusto",
+          "F": "Dou uma apertadinha e fica ótimo"
+        }
+      ],
+      [
+        "No meio da montagem, alguém diz \"deixa que eu faço\". Você...",
+        {
+          "A": "Entrego o manual aberto na página certa",
+          "D": "Fico do lado olhando cada encaixe",
+          "M": "Aproveito e vou montar outra parte",
+          "F": "Ótimo, menos uma coisa pra fazer"
+        }
+      ],
+      [
+        "Seu maior defeito montando móvel:",
+        {
+          "A": "Planejo tanto que demoro pra começar",
+          "D": "Confiro tanto que demoro pra terminar",
+          "M": "Abro várias frentes e perco a chave",
+          "F": "Sempre sobra alguma pecinha"
+        }
+      ],
+      [
+        "Móvel pronto. Você...",
+        {
+          "A": "Guardo o manual numa pasta, vai que precisa",
+          "D": "Balanço pra testar se tá firme mesmo",
+          "M": "Já arrumo as coisas dentro e chamo todo mundo pra ver",
+          "F": "Tiro uma foto e jogo a caixa fora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble assembling flat-pack furniture?",
+    "lead": "Box open, 200 pieces on the floor and a manual with no words. Who are you right now?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You sort the pieces by size before the first screw.",
+        "For you, assembly starts with reading the whole manual. You put the screws in little bowls and follow every step in order. That's why your shelves are never wonky.",
+        "Getting it right on the first try.",
+        "Spending half an hour just organising the pieces.",
+        "Easy. Step 1 first."
+      ],
+      "D": [
+        "The Detective",
+        "You check every hole before tightening anything.",
+        "You count the pieces, compare them to the list and spot the door is upside down before anyone else. Thanks to you, nobody has to take it all apart again.",
+        "Catching the mistake before it becomes a problem.",
+        "Checking so much the furniture becomes a week-long project.",
+        "Hang on, shouldn't this hole be on the other side?"
+      ],
+      "M": [
+        "The Maestro",
+        "You build, hold the door and run the helpers all at once.",
+        "You hand out jobs, hold the side panel with your foot and still find the missing Allen key. With you, flat-pack becomes a team sport.",
+        "Getting three people to build a wardrobe without arguing.",
+        "Starting four steps and finishing none.",
+        "Hold that, I'll grab the key."
+      ],
+      "F": [
+        "The Finisher",
+        "Standing furniture beats a followed manual.",
+        "You open the box and start slotting things together. If there's a screw left over, oh well: the drawers are up and full of clothes tonight.",
+        "Turning a box into furniture before dinner.",
+        "Having a few bits left over at the end.",
+        "It's sturdy? Then it's done."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change approach with the furniture: you read the manual when it's tricky, check when something creaks, coordinate when there's help and just build when it's simple.",
+        "Being whatever the build needs right now.",
+        "Nobody knowing whether to hand you the manual or the key.",
+        "Depends. How many pieces?"
+      ]
+    },
+    "S2": {
+      "A": "you still like following it step by step.",
+      "D": "you don't tighten anything without checking.",
+      "M": "you can handle several pieces at once.",
+      "F": "when it counts, you stop reading and build."
+    },
+    "Q": [
+      [
+        "One screw left over at the end. Now what?",
+        {
+          "A": "Back to the manual",
+          "D": "Find where it came from",
+          "M": "Ask everyone",
+          "F": "It's sturdy, move on"
+        }
+      ],
+      [
+        "The box arrives. First thing you do?",
+        {
+          "A": "Read the whole manual before opening the bags",
+          "D": "Check every piece on the list is there",
+          "M": "Call someone over and split the jobs",
+          "F": "Rip the box open and start with the biggest piece"
+        }
+      ],
+      [
+        "The manual is just drawings. You...",
+        {
+          "A": "Study each drawing carefully",
+          "D": "Compare the drawing with the piece from every angle",
+          "M": "Look up a video while someone holds the side",
+          "F": "Ignore it and go with my gut"
+        }
+      ],
+      [
+        "Your role in the build is...",
+        {
+          "A": "The one laying the pieces out in rows",
+          "D": "The one checking everything is in the right place",
+          "M": "The one holding, pointing and asking for the key at once",
+          "F": "The one tightening the last screw"
+        }
+      ],
+      [
+        "The door ended up crooked. You...",
+        {
+          "A": "Go back three steps and redo it properly",
+          "D": "Work out which hinge is wrong",
+          "M": "Get someone to hold it while I adjust",
+          "F": "Give it a little twist and it looks great"
+        }
+      ],
+      [
+        "Halfway through, someone says \"let me do it\". You...",
+        {
+          "A": "Hand over the manual open at the right page",
+          "D": "Stand next to them watching every joint",
+          "M": "Use the time to build another part",
+          "F": "Great, one less thing to do"
+        }
+      ],
+      [
+        "Your biggest flaw with flat-pack:",
+        {
+          "A": "I plan so much I take ages to start",
+          "D": "I check so much I take ages to finish",
+          "M": "I start too many things and lose the key",
+          "F": "There's always a little piece left over"
+        }
+      ],
+      [
+        "Furniture done. You...",
+        {
+          "A": "File the manual away, just in case",
+          "D": "Give it a shake to test it",
+          "M": "Fill it up and call everyone to see",
+          "F": "Take a photo and bin the box"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "组装家具时你是哪个泡泡？",
+    "lead": "箱子打开了，地上两百个零件，说明书一个字都没有。这时候你是谁？",
+    "T": {
+      "A": [
+        "建筑师",
+        "拧第一颗螺丝前，你先把零件按大小排好。",
+        "对你来说，组装从读完整本说明书开始。你把螺丝分装进小碗，一步一步按顺序来。所以你装的书架从来不歪。",
+        "第一次就装对。",
+        "光整理零件就花了半小时。",
+        "别急，先做第一步。"
+      ],
+      "D": [
+        "侦探",
+        "拧紧任何东西之前，你都要检查每个孔。",
+        "你清点零件、对照清单，比谁都先发现门装反了。多亏有你，没人需要全部拆掉重来。",
+        "在错误变成麻烦之前发现它。",
+        "检查太多，装个柜子变成一周的工程。",
+        "等等，这个孔不该在另一边吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边装、一边扶门、一边指挥帮手。",
+        "你分配任务，用脚顶着侧板，还能找到不见了的扳手。有你在，装家具就变成了团队活动。",
+        "让三个人一起装衣柜还不吵架。",
+        "开了四个步骤，一个都没做完。",
+        "先扶着，我去拿扳手。"
+      ],
+      "F": [
+        "终结者",
+        "家具立起来，比照着说明书更重要。",
+        "你打开箱子就开始拼。剩下一颗螺丝也无所谓：重要的是今晚抽屉柜已经立好、装满衣服了。",
+        "晚饭前把箱子变成家具。",
+        "最后总会多出几个小零件。",
+        "稳了吗？那就装好了。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据家具调整做法：复杂时看说明书，有响声时检查，有人帮忙时指挥，简单的直接装。",
+        "成为此刻组装最需要的人。",
+        "别人不知道该递给你说明书还是扳手。",
+        "看情况。一共几个零件？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一步一步来。",
+      "D": "不检查你就不拧紧。",
+      "M": "你能同时照顾好几块零件。",
+      "F": "关键时刻，你不看了直接装。"
+    },
+    "Q": [
+      [
+        "装完了，多出一颗螺丝。怎么办？",
+        {
+          "A": "回去翻说明书",
+          "D": "找出它是哪来的",
+          "M": "问一圈所有人",
+          "F": "挺稳的，不管了"
+        }
+      ],
+      [
+        "箱子送到家了。你第一件事做什么？",
+        {
+          "A": "拆零件袋之前先读完说明书",
+          "D": "对照清单检查零件齐不齐",
+          "M": "叫人来帮忙，马上分工",
+          "F": "撕开箱子，从最大的那块开始"
+        }
+      ],
+      [
+        "说明书只有图。你……",
+        {
+          "A": "仔细研究每一张图",
+          "D": "把图和零件从各个角度对比",
+          "M": "找个视频，同时让人扶着侧板",
+          "F": "不看了，凭感觉装"
+        }
+      ],
+      [
+        "你在组装中的角色是……",
+        {
+          "A": "把零件排成一排排的人",
+          "D": "检查每样东西位置对不对的人",
+          "M": "同时扶着、指着、要扳手的人",
+          "F": "拧上最后一颗螺丝的人"
+        }
+      ],
+      [
+        "门装歪了。你……",
+        {
+          "A": "退回三步，按正确方法重装",
+          "D": "找出是哪个合页装错了",
+          "M": "让人扶着，我来调整",
+          "F": "拧一下，看着挺好"
+        }
+      ],
+      [
+        "装到一半，有人说“让我来”。你……",
+        {
+          "A": "把说明书翻到正确那页递过去",
+          "D": "站在旁边盯着每个接口",
+          "M": "趁机去装另一部分",
+          "F": "太好了，少一件事"
+        }
+      ],
+      [
+        "你装家具最大的毛病：",
+        {
+          "A": "规划太久，迟迟不开始",
+          "D": "检查太多，迟迟装不完",
+          "M": "同时开工太多，扳手丢了",
+          "F": "最后总会多出小零件"
+        }
+      ],
+      [
+        "家具装好了。你……",
+        {
+          "A": "把说明书收进文件夹，以防万一",
+          "D": "晃一晃，测试稳不稳",
+          "M": "马上放东西进去，叫大家来看",
+          "F": "拍张照，把箱子扔了"
+        }
+      ]
+    ]
+  }
+}

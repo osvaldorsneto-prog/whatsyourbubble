@@ -1,0 +1,384 @@
+{
+  "slug": "acampamento",
+  "criado_em": "2026-11-06",
+  "categoria": "viagem",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é no acampamento?",
+    "lead": "Barraca, fogueira e zero sinal de celular. Qual tipo de campista é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você chega no camping com um mapa e um plano B.",
+        "Pra você, acampamento bom começa com uma lista dobrada no bolso. Você sabe onde montar a barraca, o que levar e a que horas escurece. Por isso nunca falta lanterna quando você organiza.",
+        "Prever tudo antes de sair de casa.",
+        "Planejar tanto que sobra pouco tempo pra relaxar.",
+        "Escurece às seis. A barraca sobe às cinco."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere cada estaca antes de dormir.",
+        "Você checa a previsão do tempo, o terreno e se a barraca tá bem fechada. Ninguém acorda molhado quando você inspeciona o acampamento. É graças a você que a noite é tranquila.",
+        "Perceber o problema antes de ele virar um susto.",
+        "Acordar de madrugada pra conferir o zíper.",
+        "Esse chão tá meio inclinado, não tá?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você monta a barraca, acende a fogueira e anima a roda.",
+        "Você cuida de tudo junto: a fogueira, o lanche, a música no violão e quem tá com frio. Enquanto os outros fazem uma coisa, você mantém o acampamento inteiro funcionando.",
+        "Fazer o acampamento todo acontecer ao mesmo tempo.",
+        "Abrir tantas frentes que a pipoca queima.",
+        "Alguém pega lenha? Eu já faço o chocolate quente."
+      ],
+      "F": [
+        "O Finalizador",
+        "Barraca montada é melhor que barraca perfeita.",
+        "Você não espera o lugar ideal nem a hora certa. Estica a lona, prende as estacas e pronto: já tá deitado olhando as estrelas enquanto os outros discutem o terreno.",
+        "Fazer o acampamento sair do papel.",
+        "Montar a barraca um pouco torta.",
+        "Tá de pé. Bora pro rio!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a natureza pede: planeja a trilha, confere a barraca quando venta, cuida da fogueira quando a turma chega e só relaxa quando dá.",
+        "Ser o que o acampamento precisa naquele momento.",
+        "Ninguém saber em que tarefa te colocar.",
+        "Depende. Vai chover?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de falar e monta."
+    },
+    "Q": [
+      [
+        "3 da manhã e começa a pingar dentro da barraca. Você...",
+        {
+          "A": "Já trouxe uma lona extra",
+          "D": "Procuro de onde vem a goteira",
+          "M": "Acordo todo mundo e reorganizo",
+          "F": "Viro pro outro lado e durmo"
+        }
+      ],
+      [
+        "Alguém sugere acampar no fim de semana. Primeira reação?",
+        {
+          "A": "Já faço a lista do que levar",
+          "D": "Vou olhar a previsão do tempo antes de topar",
+          "M": "Crio o grupo e divido quem leva o quê",
+          "F": "Falo \"bora\" e começo a arrumar a mochila"
+        }
+      ],
+      [
+        "Na hora de montar a barraca, você...",
+        {
+          "A": "Lê as instruções e separa as varetas por cor",
+          "D": "Confere o chão e tira cada pedrinha",
+          "M": "Monta, orienta os outros e procura as estacas",
+          "F": "Encaixa tudo no olho e pronto"
+        }
+      ],
+      [
+        "Seu papel no acampamento é...",
+        {
+          "A": "Quem fez o roteiro",
+          "D": "Quem checa se tá tudo bem preso",
+          "M": "Quem cuida da fogueira, do lanche e da música",
+          "F": "Quem garante que a barraca subiu antes de escurecer"
+        }
+      ],
+      [
+        "A fogueira não acende. Você...",
+        {
+          "A": "Remonto do jeito certo, dos gravetos pra cima",
+          "D": "Quero descobrir o motivo: a lenha tá úmida?",
+          "M": "Mando alguém buscar mais lenha e preparo o resto",
+          "F": "Assopro até pegar"
+        }
+      ],
+      [
+        "Um barulho estranho lá fora de noite. Você...",
+        {
+          "A": "Já sabia que tinha bichinhos na área, tava no plano",
+          "D": "Pego a lanterna e vou ver o que é",
+          "M": "Acalmo todo mundo e conto uma história",
+          "F": "Falo \"é só o vento\" e volto a dormir"
+        }
+      ],
+      [
+        "Seu maior defeito no acampamento:",
+        {
+          "A": "Planejo tanto que esqueço de curtir",
+          "D": "Confiro tanto que durmo pouco",
+          "M": "Faço mil coisas e queimo o marshmallow",
+          "F": "Monto rápido e a barraca fica meio torta"
+        }
+      ],
+      [
+        "Fim do acampamento. Você...",
+        {
+          "A": "Anoto o que faltou pra próxima vez",
+          "D": "Confiro se não ficou nada pra trás",
+          "M": "Já marca a data da próxima",
+          "F": "Enfio tudo no porta-malas e vamo embora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a camping trip?",
+    "lead": "Tent, campfire and zero phone signal. What kind of camper are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You turn up at the campsite with a map and a plan B.",
+        "For you, good camping starts with a list folded in your pocket. You know where the tent goes, what to pack and what time it gets dark. That's why nobody's ever short of a torch when you're in charge.",
+        "Thinking of everything before leaving home.",
+        "Planning so much there is little time to relax.",
+        "Dark at six. Tent goes up at five."
+      ],
+      "D": [
+        "The Detective",
+        "You check every tent peg before bed.",
+        "You check the forecast, the ground and whether the tent is zipped properly. Nobody wakes up soggy when you've inspected the camp. You're the reason the night is peaceful.",
+        "Spotting the problem before it becomes a fright.",
+        "Waking up at 2am to check the zip.",
+        "This ground is a bit sloped, right?"
+      ],
+      "M": [
+        "The Maestro",
+        "You pitch the tent, light the fire and get everyone singing.",
+        "You handle it all at once: the fire, the snacks, the guitar and whoever's cold. While others do one thing, you keep the whole camp running.",
+        "Making the whole trip happen at the same time.",
+        "Juggling so much the popcorn burns.",
+        "Can someone grab wood? I'll make the hot chocolate."
+      ],
+      "F": [
+        "The Finisher",
+        "A pitched tent beats a perfect tent.",
+        "You don't wait for the ideal spot or the right moment. Sheet out, pegs in, done: you're lying back stargazing while the others are still debating the ground.",
+        "Actually getting the trip off the ground.",
+        "Pitching the tent a little wonky.",
+        "It's standing. Off to the river!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as nature demands: you plan the hike, check the tent when it's windy, mind the fire when friends arrive and chill when you can.",
+        "Being whatever the trip needs right now.",
+        "Nobody knowing which job to give you.",
+        "Depends. Is it going to rain?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop talking and pitch the tent."
+    },
+    "Q": [
+      [
+        "3am and it's dripping inside the tent. You...",
+        {
+          "A": "Brought a spare tarp",
+          "D": "Find where the leak is",
+          "M": "Wake everyone and rearrange",
+          "F": "Roll over and sleep"
+        }
+      ],
+      [
+        "Someone suggests camping this weekend. First reaction?",
+        {
+          "A": "I start a packing list",
+          "D": "I check the forecast before saying yes",
+          "M": "I make the group chat and split who brings what",
+          "F": "I say \"let's go\" and start packing"
+        }
+      ],
+      [
+        "When pitching the tent, you...",
+        {
+          "A": "Read the instructions and sort the poles by colour",
+          "D": "Check the ground and clear every pebble",
+          "M": "Build it, direct the others and hunt for pegs",
+          "F": "Eyeball it and done"
+        }
+      ],
+      [
+        "Your role on the trip is...",
+        {
+          "A": "The one who made the itinerary",
+          "D": "The one checking everything is tied down",
+          "M": "The one doing the fire, the snacks and the music",
+          "F": "The one making sure the tent is up before dark"
+        }
+      ],
+      [
+        "The campfire won't light. You...",
+        {
+          "A": "Rebuild it properly, from the twigs up",
+          "D": "Want to know why: is the wood damp?",
+          "M": "Send someone for more wood and sort the rest",
+          "F": "Blow on it until it catches"
+        }
+      ],
+      [
+        "A strange noise outside at night. You...",
+        {
+          "A": "Knew there were critters around, it was in the plan",
+          "D": "Grab the torch and go see what it is",
+          "M": "Calm everyone down and tell a story",
+          "F": "Say \"just the wind\" and go back to sleep"
+        }
+      ],
+      [
+        "Your biggest flaw when camping:",
+        {
+          "A": "I plan so much I forget to enjoy it",
+          "D": "I check so much I barely sleep",
+          "M": "I do a hundred things and burn the marshmallow",
+          "F": "I pitch fast and the tent ends up crooked"
+        }
+      ],
+      [
+        "The trip is over. You...",
+        {
+          "A": "Note what we were missing for next time",
+          "D": "Check nothing's been left behind",
+          "M": "Already set a date for the next one",
+          "F": "Shove it all in the boot and head home"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "露营时你是哪个泡泡？",
+    "lead": "帐篷、篝火、手机零信号。你是哪种露营的人？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你带着地图和B计划来到营地。",
+        "对你来说，好的露营从口袋里那张清单开始。你知道帐篷搭哪、带什么、几点天黑。所以只要你来组织，手电筒永远不会少。",
+        "出门前就把一切想好。",
+        "规划太多，没时间放松。",
+        "六点天黑，五点搭好帐篷。"
+      ],
+      "D": [
+        "侦探",
+        "睡前你会检查每一根地钉。",
+        "你查天气预报、看地面、确认帐篷拉链拉好了。有你检查过的营地，没人会半夜被淋醒。夜晚能这么安稳，全靠你。",
+        "在问题变成惊吓之前发现它。",
+        "凌晨两点起来检查拉链。",
+        "这块地是不是有点斜？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边搭帐篷、一边生火、一边带大家唱歌。",
+        "你什么都一起管：篝火、零食、吉他，还有谁觉得冷。别人只做一件事，你让整个营地都转起来。",
+        "让整趟露营的事同时进行。",
+        "同时忙太多，爆米花烤糊了。",
+        "谁去捡点柴？我来煮热可可。"
+      ],
+      "F": [
+        "终结者",
+        "搭起来的帐篷，胜过完美的帐篷。",
+        "你不等最好的位置，也不等最好的时机。铺布、钉钉、搞定：别人还在讨论地面，你已经躺着看星星了。",
+        "让露营真的出发。",
+        "帐篷搭得有点歪。",
+        "立起来了，去河边！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据大自然的需要切换角色：规划路线，起风时检查帐篷，朋友来了照看篝火，能放松时就放松。",
+        "成为此刻露营最需要的人。",
+        "别人不知道该给你分配什么活。",
+        "看情况。会下雨吗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你少说话直接搭帐篷。"
+    },
+    "Q": [
+      [
+        "凌晨三点，帐篷里开始漏水。你……",
+        {
+          "A": "早带了备用防水布",
+          "D": "找出哪里在漏",
+          "M": "叫醒大家重新安排",
+          "F": "翻个身继续睡"
+        }
+      ],
+      [
+        "有人提议周末去露营。你的第一反应？",
+        {
+          "A": "马上列装备清单",
+          "D": "先看天气预报再答应",
+          "M": "建群，分好谁带什么",
+          "F": "说“走”，开始收拾背包"
+        }
+      ],
+      [
+        "搭帐篷的时候，你……",
+        {
+          "A": "看说明，按颜色分好支架",
+          "D": "检查地面，捡掉每颗小石子",
+          "M": "边搭边指挥，还要找地钉",
+          "F": "凭感觉搭，搞定"
+        }
+      ],
+      [
+        "你在露营中的角色是……",
+        {
+          "A": "做行程的那个人",
+          "D": "检查东西有没有固定好的那个人",
+          "M": "同时管篝火、零食和音乐的那个人",
+          "F": "确保天黑前帐篷搭好的那个人"
+        }
+      ],
+      [
+        "篝火点不着。你……",
+        {
+          "A": "从细树枝开始，按正确方法重新堆",
+          "D": "想知道原因：是不是柴受潮了？",
+          "M": "让人去捡柴，同时准备别的",
+          "F": "一直吹到着为止"
+        }
+      ],
+      [
+        "半夜外面有奇怪的声音。你……",
+        {
+          "A": "早知道附近有小动物，在计划里",
+          "D": "拿起手电筒出去看看",
+          "M": "安抚大家，讲个故事",
+          "F": "说“只是风”，继续睡"
+        }
+      ],
+      [
+        "你露营时最大的毛病：",
+        {
+          "A": "规划太多，忘了享受",
+          "D": "检查太多，几乎没睡",
+          "M": "同时做太多事，棉花糖烤焦了",
+          "F": "搭得太快，帐篷有点歪"
+        }
+      ],
+      [
+        "露营结束了。你……",
+        {
+          "A": "记下这次缺了什么，下次带上",
+          "D": "检查有没有落下东西",
+          "M": "马上约好下一次",
+          "F": "全塞进后备箱，回家"
+        }
+      ]
+    ]
+  }
+}

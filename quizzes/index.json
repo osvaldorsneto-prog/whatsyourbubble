@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "quebra-cabeca",
+   "url": "/q/?s=quebra-cabeca",
+   "criado_em": "2026-11-06",
+   "categoria": "jogos",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é montando quebra-cabeça?",
+    "en": "What's your bubble doing a jigsaw puzzle?",
+    "zh": "拼拼图时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "montar-movel",
+   "url": "/q/?s=montar-movel",
+   "criado_em": "2026-11-06",
+   "categoria": "casa",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é montando um móvel?",
+    "en": "What's your bubble assembling flat-pack furniture?",
+    "zh": "组装家具时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "acampamento",
+   "url": "/q/?s=acampamento",
+   "criado_em": "2026-11-06",
+   "categoria": "viagem",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é no acampamento?",
+    "en": "What's your bubble on a camping trip?",
+    "zh": "露营时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "futebol-com-amigos",
    "url": "/q/?s=futebol-com-amigos",
    "criado_em": "2026-11-05",

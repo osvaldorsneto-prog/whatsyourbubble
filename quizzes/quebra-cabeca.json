@@ -1,0 +1,384 @@
+{
+  "slug": "quebra-cabeca",
+  "criado_em": "2026-11-06",
+  "categoria": "jogos",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é montando quebra-cabeça?",
+    "lead": "Mil peças espalhadas na mesa e metade delas é céu azul. Qual é a sua estratégia?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta a borda inteira antes de qualquer outra peça.",
+        "Pra você, quebra-cabeça tem método. Primeiro a borda, depois as cores, e cada peça no seu montinho. Por isso o seu nunca fica pela metade na mesa da sala.",
+        "Transformar caos em método.",
+        "Passar a primeira hora só separando peças.",
+        "Borda primeiro. Sempre."
+      ],
+      "D": [
+        "O Detetive",
+        "Você analisa o formato de cada peça como se fosse uma pista.",
+        "Você repara em detalhes que ninguém vê: um cantinho mais escuro, uma curva diferente. Enquanto os outros testam no chute, você já sabe onde a peça vai.",
+        "Achar a peça que todo mundo jurava que não existia.",
+        "Olhar tanto pra uma peça que esquece as outras.",
+        "Repara nesse tom de azul. É do canto."
+      ],
+      "M": [
+        "O Maestro",
+        "Você monta três partes ao mesmo tempo e ainda ajuda quem tá do lado.",
+        "Você pula de um pedaço pro outro, passa peça pra quem precisa e ainda escolhe a música. Com você, quebra-cabeça vira programa de família.",
+        "Fazer a mesa inteira avançar junta.",
+        "Começar tantos pedaços que nenhum fecha.",
+        "Toma, essa é sua. Essa aqui é minha."
+      ],
+      "F": [
+        "O Finalizador",
+        "Você testa peça por peça até encaixar.",
+        "Você não fica analisando: pega, testa, encaixa. Pode até forçar uma de leve, mas no fim da noite a imagem tá pronta e a foto tá tirada.",
+        "Terminar o quebra-cabeça de verdade.",
+        "Forçar uma peça que quase encaixava.",
+        "Encaixou? Próxima!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de estratégia conforme a imagem: faz a borda quando ajuda, analisa quando trava, divide a mesa quando tem gente e acelera quando falta pouco.",
+        "Ser o que o quebra-cabeça precisa naquele momento.",
+        "Ninguém saber qual pedaço te dar.",
+        "Depende. Quantas peças?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de começar pela borda.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você consegue montar várias partes ao mesmo tempo.",
+      "F": "na hora certa, você para de olhar e encaixa."
+    },
+    "Q": [
+      [
+        "Falta uma peça. Uma só. Você...",
+        {
+          "A": "Refaço a contagem",
+          "D": "Investigo debaixo do sofá",
+          "M": "Ponho todo mundo pra procurar",
+          "F": "Tiro a foto assim mesmo"
+        }
+      ],
+      [
+        "Abre a caixa nova de mil peças. Primeira coisa?",
+        {
+          "A": "Separo as peças de borda",
+          "D": "Viro todas pra cima e analiso as cores",
+          "M": "Divido a mesa: cada um pega uma parte",
+          "F": "Pego uma peça qualquer e já começo"
+        }
+      ],
+      [
+        "Metade do quebra-cabeça é céu azul. Você...",
+        {
+          "A": "Separo por formato e vou fileira por fileira",
+          "D": "Comparo os tons até achar a diferença",
+          "M": "Deixo o céu pra alguém e vou pra outra parte",
+          "F": "Testo uma por uma até encaixar"
+        }
+      ],
+      [
+        "Seu papel na mesa é...",
+        {
+          "A": "Quem organiza os montinhos de peças",
+          "D": "Quem acha a peça que ninguém achava",
+          "M": "Quem passa as peças certas pra cada um",
+          "F": "Quem encaixa a última peça"
+        }
+      ],
+      [
+        "Uma peça parece que encaixa, mas não muito. Você...",
+        {
+          "A": "Tiro e volto pro plano",
+          "D": "Olho bem de perto pra ver se é ela mesmo",
+          "M": "Peço uma segunda opinião",
+          "F": "Dou uma apertadinha e pronto"
+        }
+      ],
+      [
+        "Alguém chega e encaixa uma peça no seu pedaço. Você...",
+        {
+          "A": "Fico feliz, mas confiro se combina com o plano",
+          "D": "Confiro se encaixou de verdade",
+          "M": "Ótimo! Já mostro outra parte pra ela ajudar",
+          "F": "Valeu, menos uma"
+        }
+      ],
+      [
+        "Seu maior defeito com quebra-cabeça:",
+        {
+          "A": "Passo tempo demais separando",
+          "D": "Fico analisando uma peça só",
+          "M": "Começo vários pedaços e não fecho nenhum",
+          "F": "Às vezes forço uma peça"
+        }
+      ],
+      [
+        "Quebra-cabeça pronto. Você...",
+        {
+          "A": "Penso em colar e emoldurar",
+          "D": "Confiro se não tem nenhuma peça trocada",
+          "M": "Chamo todo mundo pra ver e já escolho o próximo",
+          "F": "Tiro a foto e desmonto pra guardar"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble doing a jigsaw puzzle?",
+    "lead": "A thousand pieces on the table and half of them are blue sky. What's your strategy?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You finish the whole border before any other piece.",
+        "For you, a jigsaw needs a method. Border first, then colours, every piece in its own little pile. That's why yours never sits half-done on the table.",
+        "Turning chaos into a system.",
+        "Spending the first hour just sorting pieces.",
+        "Border first. Always."
+      ],
+      "D": [
+        "The Detective",
+        "You study the shape of every piece like a clue.",
+        "You notice what nobody else does: a slightly darker corner, an odd curve. While others try at random, you already know where the piece goes.",
+        "Finding the piece everyone swore was missing.",
+        "Staring at one piece so long you forget the rest.",
+        "Look at that shade of blue. It's from the corner."
+      ],
+      "M": [
+        "The Maestro",
+        "You work on three sections at once and still help your neighbour.",
+        "You hop between sections, pass pieces to whoever needs them and pick the music too. With you, a jigsaw becomes a family night.",
+        "Getting the whole table moving together.",
+        "Starting so many sections that none get finished.",
+        "Here, this one's yours. This one's mine."
+      ],
+      "F": [
+        "The Finisher",
+        "You try piece after piece until one fits.",
+        "You don't overthink it: pick, try, click. You might squeeze one in a little, but by the end of the night the picture's done and the photo's taken.",
+        "Actually finishing the puzzle.",
+        "Forcing a piece that almost fitted.",
+        "It fits? Next!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change strategy with the picture: border when it helps, analyse when you're stuck, share the table when there's company and speed up near the end.",
+        "Being whatever the puzzle needs right now.",
+        "Nobody knowing which section to give you.",
+        "Depends. How many pieces?"
+      ]
+    },
+    "S2": {
+      "A": "you still like starting with the border.",
+      "D": "you don't let any detail slip by.",
+      "M": "you can build several sections at once.",
+      "F": "when it counts, you stop looking and click it in."
+    },
+    "Q": [
+      [
+        "One piece missing. Just one. You...",
+        {
+          "A": "Recount everything",
+          "D": "Search under the sofa",
+          "M": "Get everyone looking",
+          "F": "Take the photo anyway"
+        }
+      ],
+      [
+        "New 1,000-piece box. First thing?",
+        {
+          "A": "Pick out the edge pieces",
+          "D": "Turn them all face up and study the colours",
+          "M": "Split the table: everyone takes a section",
+          "F": "Grab any piece and just start"
+        }
+      ],
+      [
+        "Half the puzzle is blue sky. You...",
+        {
+          "A": "Sort by shape and go row by row",
+          "D": "Compare the shades until I find the difference",
+          "M": "Leave the sky to someone else and do another bit",
+          "F": "Try them one by one until they fit"
+        }
+      ],
+      [
+        "Your role at the table is...",
+        {
+          "A": "The one organising the piles",
+          "D": "The one who finds the piece nobody could",
+          "M": "The one handing the right pieces to everyone",
+          "F": "The one who puts in the last piece"
+        }
+      ],
+      [
+        "A piece sort of fits, but not quite. You...",
+        {
+          "A": "Take it out and stick to the plan",
+          "D": "Look up close to see if it really is the one",
+          "M": "Ask for a second opinion",
+          "F": "Give it a little push and done"
+        }
+      ],
+      [
+        "Someone walks by and puts a piece in your section. You...",
+        {
+          "A": "Happy, but I check it matches the plan",
+          "D": "Check it actually fits",
+          "M": "Great! I show them another bit to help with",
+          "F": "Thanks, one less"
+        }
+      ],
+      [
+        "Your biggest flaw with jigsaws:",
+        {
+          "A": "I spend too long sorting",
+          "D": "I get stuck analysing one piece",
+          "M": "I start lots of sections and finish none",
+          "F": "Sometimes I force a piece"
+        }
+      ],
+      [
+        "Puzzle done. You...",
+        {
+          "A": "Think about gluing and framing it",
+          "D": "Check there's no piece in the wrong spot",
+          "M": "Call everyone to see and pick the next one",
+          "F": "Take a photo and break it up to put away"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "拼拼图时你是哪个泡泡？",
+    "lead": "桌上一千块拼图，一半都是蓝天。你的策略是什么？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你先把整圈边框拼完，才碰别的。",
+        "对你来说，拼图要有方法。先拼边，再按颜色，每块都放进自己的小堆。所以你的拼图从来不会半途摆在桌上。",
+        "把混乱变成系统。",
+        "第一个小时都在分拣。",
+        "先拼边，永远如此。"
+      ],
+      "D": [
+        "侦探",
+        "你把每块拼图的形状当成线索来研究。",
+        "你能注意到别人看不见的细节：颜色深一点的角、不一样的弧度。别人还在乱试，你已经知道这块放哪了。",
+        "找到大家都说丢了的那一块。",
+        "盯着一块看太久，忘了其他的。",
+        "看这个蓝色，是角落那块的。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时拼三个区域，还顺手帮旁边的人。",
+        "你在几个区域间来回跳，把拼图递给需要的人，还负责选音乐。有你在，拼图就变成了家庭之夜。",
+        "让整张桌子一起往前推进。",
+        "开了太多区域，一个都没拼完。",
+        "给，这块是你的。这块是我的。"
+      ],
+      "F": [
+        "终结者",
+        "你一块一块地试，直到拼上为止。",
+        "你不想太多：拿起、试试、拼上。可能会稍微硬塞一块，但到晚上，整幅图已经拼好，照片也拍了。",
+        "真的把拼图拼完。",
+        "硬塞了一块差不多的。",
+        "拼上了？下一块！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据图案换策略：有用时先拼边，卡住时仔细分析，有人时分区合作，快完成时加速。",
+        "成为此刻拼图最需要的人。",
+        "别人不知道该把哪块区域给你。",
+        "看情况。一共几块？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢从边框开始。",
+      "D": "任何细节都逃不过你的眼睛。",
+      "M": "你能同时拼好几个区域。",
+      "F": "关键时刻，你不看了直接拼。"
+    },
+    "Q": [
+      [
+        "少了一块。就一块。你……",
+        {
+          "A": "重新数一遍",
+          "D": "去沙发底下找",
+          "M": "叫所有人一起找",
+          "F": "照样拍照"
+        }
+      ],
+      [
+        "打开一盒新的一千片拼图。第一件事？",
+        {
+          "A": "先挑出边框",
+          "D": "全部翻到正面，研究颜色",
+          "M": "分好区域，每人负责一块",
+          "F": "随便拿一块就开始"
+        }
+      ],
+      [
+        "拼图有一半是蓝天。你……",
+        {
+          "A": "按形状分好，一排一排来",
+          "D": "比较色调，直到找出差别",
+          "M": "蓝天交给别人，我去拼别的",
+          "F": "一块一块试到拼上为止"
+        }
+      ],
+      [
+        "你在桌上的角色是……",
+        {
+          "A": "把拼图分成小堆的人",
+          "D": "找到谁都找不到的那块的人",
+          "M": "把对的拼图递给每个人的人",
+          "F": "放上最后一块的人"
+        }
+      ],
+      [
+        "有一块好像能拼上，又不太对。你……",
+        {
+          "A": "拿出来，按计划来",
+          "D": "凑近看看到底是不是它",
+          "M": "问问别人的意见",
+          "F": "稍微按一下，搞定"
+        }
+      ],
+      [
+        "有人路过，在你的区域拼上一块。你……",
+        {
+          "A": "挺开心，但要看看合不合计划",
+          "D": "检查是不是真的拼对了",
+          "M": "太好了！再给他看另一块让他帮忙",
+          "F": "谢了，少一块"
+        }
+      ],
+      [
+        "你拼拼图最大的毛病：",
+        {
+          "A": "分拣花太多时间",
+          "D": "盯着一块分析太久",
+          "M": "开了很多区域，一个没拼完",
+          "F": "有时会硬塞一块"
+        }
+      ],
+      [
+        "拼图完成了。你……",
+        {
+          "A": "考虑用胶固定再裱起来",
+          "D": "检查有没有放错的块",
+          "M": "叫大家来看，顺便挑下一幅",
+          "F": "拍张照，拆了收起来"
+        }
+      ]
+    ]
+  }
+}
