@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "receita-nova",
+   "url": "/q/?s=receita-nova",
+   "criado_em": "2026-11-07",
+   "categoria": "comida",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é testando uma receita nova?",
+    "en": "What's your bubble trying a new recipe?",
+    "zh": "试做新菜谱时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "prazo-de-sexta",
+   "url": "/q/?s=prazo-de-sexta",
+   "criado_em": "2026-11-07",
+   "categoria": "trabalho",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é com prazo na sexta?",
+    "en": "What's your bubble with a Friday deadline?",
+    "zh": "周五截止时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "foto-em-grupo",
+   "url": "/q/?s=foto-em-grupo",
+   "criado_em": "2026-11-07",
+   "categoria": "role",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é na foto em grupo?",
+    "en": "What's your bubble in a group photo?",
+    "zh": "拍合照时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "quebra-cabeca",
    "url": "/q/?s=quebra-cabeca",
    "criado_em": "2026-11-06",

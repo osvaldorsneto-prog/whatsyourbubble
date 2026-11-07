@@ -1,0 +1,384 @@
+{
+  "slug": "prazo-de-sexta",
+  "criado_em": "2026-11-07",
+  "categoria": "trabalho",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é com prazo na sexta?",
+    "lead": "Sexta-feira com prazo revela 4 tipos de colega. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você dividiu a entrega em etapas na segunda de manhã.",
+        "Pra você, prazo de sexta se resolve na segunda. Você quebra o trabalho em partes, marca horários e sabe o que falta a cada dia. Por isso sexta à tarde você tá tranquilo.",
+        "Transformar um prazo apertado num plano tranquilo.",
+        "Planejar tanto que o plano vira mais uma tarefa.",
+        "Segunda eu monto o cronograma, aí relaxa."
+      ],
+      "D": [
+        "O Detetive",
+        "Nada sai da sua mesa sem revisão.",
+        "Você confere número, vírgula, anexo e o nome do arquivo. Relê o pedido pra ter certeza do que foi pedido. É graças a você que ninguém precisa mandar \"segue versão corrigida\".",
+        "Pegar o erro antes do cliente.",
+        "Revisar tanto que entrega no último minuto.",
+        "Só mais uma olhadinha antes de mandar."
+      ],
+      "M": [
+        "O Maestro",
+        "Você toca a entrega, responde o chat e ajuda o colega.",
+        "Você cuida de tudo junto: a sua parte, a dúvida do colega, a reunião que entrou do nada e o café. Enquanto os outros fazem uma coisa, você mantém o time inteiro andando.",
+        "Fazer o time todo chegar junto na sexta.",
+        "Abrir tanta aba que esquece qual era a entrega.",
+        "Pode mandar, eu vejo isso também."
+      ],
+      "F": [
+        "O Finalizador",
+        "Feito é melhor que perfeito.",
+        "Você não trava esperando a versão ideal. Faz, entrega e fecha o notebook. Enquanto os outros discutem a fonte do slide, você já mandou o arquivo.",
+        "Entregar de verdade, no prazo.",
+        "Mandar antes da última revisão.",
+        "Enviado. Bom fim de semana!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a semana pede: planeja quando o prazo é longo, confere quando o detalhe importa, ajuda todo mundo quando aperta e entrega quando é hora.",
+        "Ser o colega que o prazo precisa.",
+        "Ninguém saber em que papel te colocar.",
+        "Depende. Pra quando é mesmo?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa passar um erro.",
+      "M": "você ajuda em mil frentes ao mesmo tempo.",
+      "F": "na hora certa, você entrega e fecha o notebook."
+    },
+    "Q": [
+      [
+        "Sexta, 17h50, o chefe pede um \"rapidinho\". Você...",
+        {
+          "A": "Encaixo no plano de segunda",
+          "D": "Pergunto o que é \"rapidinho\"",
+          "M": "Abro junto com as outras 6 abas",
+          "F": "Faço em 9 minutos e saio"
+        }
+      ],
+      [
+        "Na segunda você descobre o prazo de sexta. Você...",
+        {
+          "A": "Divido em etapas, uma por dia",
+          "D": "Releio o pedido pra entender tudo",
+          "M": "Já chamo quem precisa ajudar",
+          "F": "Começo agora pra acabar logo"
+        }
+      ],
+      [
+        "Quarta-feira, metade do tempo passou. Você...",
+        {
+          "A": "Confiro se o cronograma tá em dia",
+          "D": "Reviso o que já fiz",
+          "M": "Ajudo um colega enquanto toco a minha parte",
+          "F": "Já tô com 80% pronto"
+        }
+      ],
+      [
+        "Seu papel no time é...",
+        {
+          "A": "Quem fez o plano da semana",
+          "D": "Quem revisa antes de enviar",
+          "M": "Quem conecta todo mundo",
+          "F": "Quem aperta \"enviar\""
+        }
+      ],
+      [
+        "O arquivo final se chama...",
+        {
+          "A": "entrega_sexta_v1",
+          "D": "entrega_v3_revisada_conferida",
+          "M": "Nem sei, tô com 4 abertos",
+          "F": "final_FINAL_agora_vai"
+        }
+      ],
+      [
+        "A internet cai 1 hora antes do prazo. Você...",
+        {
+          "A": "Já tinha salvado tudo na nuvem e no pen drive",
+          "D": "Testo o roteador pra achar o problema",
+          "M": "Ligo o 4G do celular e aviso o time",
+          "F": "Vou pro café da esquina e mando de lá"
+        }
+      ],
+      [
+        "Seu maior defeito com prazo:",
+        {
+          "A": "Planejo tanto que o plano vira tarefa",
+          "D": "Reviso até o último minuto",
+          "M": "Ajudo todo mundo e atraso a minha parte",
+          "F": "Mando antes da última revisão"
+        }
+      ],
+      [
+        "Entregou. Sexta, 18h01. Você...",
+        {
+          "A": "Já anoto o que ajustar na próxima",
+          "D": "Confiro se o arquivo chegou certo",
+          "M": "Chamo o time pra comemorar",
+          "F": "Notebook fechado. Fim de semana!"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with a Friday deadline?",
+    "lead": "A Friday deadline brings out 4 kinds of colleague. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You split the job into stages on Monday morning.",
+        "For you, a Friday deadline gets solved on Monday. You break the work into chunks, block out time and know what's left each day. That's why Friday afternoon finds you calm.",
+        "Turning a tight deadline into a calm plan.",
+        "Planning so much the plan becomes another task.",
+        "I'll do a schedule on Monday, then relax."
+      ],
+      "D": [
+        "The Detective",
+        "Nothing leaves your desk without a review.",
+        "You check numbers, commas, attachments and the file name. You reread the brief to be sure what was asked. You're the reason nobody has to send \"please see corrected version\".",
+        "Catching the mistake before the client does.",
+        "Reviewing so long you send it at the last minute.",
+        "Just one more look before I send it."
+      ],
+      "M": [
+        "The Maestro",
+        "You drive the project, answer the chat and help a colleague.",
+        "You handle it all together: your part, a colleague's question, the surprise meeting and the coffee run. While others do one thing, you keep the whole team moving.",
+        "Getting the whole team over the line on Friday.",
+        "Opening so many tabs you forget which one was the job.",
+        "Send it over, I'll look at that too."
+      ],
+      "F": [
+        "The Finisher",
+        "Done is better than perfect.",
+        "You don't stall waiting for the ideal version. Do it, send it, close the laptop. While others argue about the slide font, you've already sent the file.",
+        "Actually delivering, on time.",
+        "Sending before the last check.",
+        "Sent. Have a good weekend!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the week needs: you plan when there's time, check when details matter, help everyone when it gets tight and deliver when it's due.",
+        "Being the colleague the deadline needs.",
+        "Nobody knowing which role to give you.",
+        "Depends. When's it due again?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you never let a mistake slip through.",
+      "M": "you help on a thousand fronts at once.",
+      "F": "when it counts, you deliver and close the laptop."
+    },
+    "Q": [
+      [
+        "Friday, 5:50pm, the boss wants a \"quick one\". You...",
+        {
+          "A": "Fit it into Monday's plan",
+          "D": "Ask what \"quick\" means",
+          "M": "Open it next to my other 6 tabs",
+          "F": "Do it in 9 minutes and leave"
+        }
+      ],
+      [
+        "On Monday you hear about the Friday deadline. You...",
+        {
+          "A": "Split it into stages, one a day",
+          "D": "Reread the brief to get everything",
+          "M": "Rope in whoever needs to help",
+          "F": "Start now to get it over with"
+        }
+      ],
+      [
+        "Wednesday, halfway there. You...",
+        {
+          "A": "Check the schedule is on track",
+          "D": "Review what I've done so far",
+          "M": "Help a colleague while doing my part",
+          "F": "I'm already 80% done"
+        }
+      ],
+      [
+        "Your role on the team is...",
+        {
+          "A": "The one who made the week's plan",
+          "D": "The one who reviews before it goes",
+          "M": "The one connecting everyone",
+          "F": "The one who hits \"send\""
+        }
+      ],
+      [
+        "The final file is called...",
+        {
+          "A": "delivery_friday_v1",
+          "D": "delivery_v3_reviewed_checked",
+          "M": "No idea, I've got 4 open",
+          "F": "final_FINAL_this_one"
+        }
+      ],
+      [
+        "The internet goes down 1 hour before the deadline. You...",
+        {
+          "A": "Already saved it all to the cloud and a USB stick",
+          "D": "Test the router to find the problem",
+          "M": "Hotspot from my phone and tell the team",
+          "F": "Go to the café on the corner and send it there"
+        }
+      ],
+      [
+        "Your biggest flaw with deadlines:",
+        {
+          "A": "I plan so much the plan becomes a task",
+          "D": "I keep reviewing till the last minute",
+          "M": "I help everyone and fall behind on mine",
+          "F": "I send before the last check"
+        }
+      ],
+      [
+        "Delivered. Friday, 6:01pm. You...",
+        {
+          "A": "Note what to tweak next time",
+          "D": "Check the file arrived properly",
+          "M": "Get the team together to celebrate",
+          "F": "Laptop shut. Weekend!"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "周五截止时你是哪个泡泡？",
+    "lead": "周五的截止日期会暴露4种同事。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "周一早上你就把任务拆成了几个阶段。",
+        "对你来说，周五的截止日期周一就解决了。你把工作拆开、排好时间，每天都知道还剩什么。所以周五下午你一点都不慌。",
+        "把紧张的截止日期变成从容的计划。",
+        "计划做太多，计划本身又成了一项任务。",
+        "周一我排好时间表，然后就放心了。"
+      ],
+      "D": [
+        "侦探",
+        "没有经过检查，什么都别想离开你的桌子。",
+        "你核对数字、标点、附件和文件名，还会重读需求确认到底要什么。正因为有你，没人需要发“附上修正版”。",
+        "比客户先发现错误。",
+        "检查太久，最后一分钟才交。",
+        "发之前我再看最后一眼。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边推进项目，一边回消息，一边帮同事。",
+        "你什么都一起管：自己的部分、同事的问题、突然加的会，还有咖啡。别人只做一件事，你让整个团队一起往前走。",
+        "让整个团队周五一起交差。",
+        "标签页开太多，忘了到底要交哪个。",
+        "发给我吧，那个我也看一下。"
+      ],
+      "F": [
+        "终结者",
+        "完成比完美更重要。",
+        "你不会卡在等待理想版本上。做完、发出、合上电脑。别人还在争论幻灯片字体，你已经把文件发出去了。",
+        "真正按时交付。",
+        "最后一遍检查之前就发了。",
+        "已发送。周末愉快！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据这一周的需要切换角色：时间充裕时就规划，细节重要时就检查，紧张时帮所有人，到时间就交付。",
+        "成为截止日期最需要的同事。",
+        "没人知道该给你安排什么角色。",
+        "看情况。到底什么时候截止？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你绝不放过一个错误。",
+      "M": "你能同时在一千条战线上帮忙。",
+      "F": "关键时刻，你交了就合上电脑。"
+    },
+    "Q": [
+      [
+        "周五17:50，老板说“很快的小事”。你……",
+        {
+          "A": "排进周一的计划",
+          "D": "先问“很快”是多快",
+          "M": "和另外6个标签页一起打开",
+          "F": "9分钟搞定，下班"
+        }
+      ],
+      [
+        "周一你得知周五要交。你……",
+        {
+          "A": "拆成几个阶段，一天一个",
+          "D": "重读需求，搞清楚每一点",
+          "M": "马上拉上需要帮忙的人",
+          "F": "现在就开始，早做完早轻松"
+        }
+      ],
+      [
+        "周三，时间过了一半。你……",
+        {
+          "A": "检查进度有没有按计划走",
+          "D": "复查已经做完的部分",
+          "M": "一边帮同事一边做自己的",
+          "F": "我已经完成80%了"
+        }
+      ],
+      [
+        "你在团队里的角色是……",
+        {
+          "A": "做这周计划的那个人",
+          "D": "发出前负责检查的那个人",
+          "M": "把大家串起来的那个人",
+          "F": "按下“发送”的那个人"
+        }
+      ],
+      [
+        "最终文件的名字是……",
+        {
+          "A": "交付_周五_v1",
+          "D": "交付_v3_已检查_已核对",
+          "M": "不知道，我开着4个",
+          "F": "最终版_真的最终版"
+        }
+      ],
+      [
+        "截止前1小时断网了。你……",
+        {
+          "A": "早就存到云端和U盘了",
+          "D": "测试路由器找出问题",
+          "M": "开手机热点，顺便通知团队",
+          "F": "去街角的咖啡店发出去"
+        }
+      ],
+      [
+        "你面对截止日期最大的毛病：",
+        {
+          "A": "计划做太多，计划也成了任务",
+          "D": "一直检查到最后一分钟",
+          "M": "帮了所有人，自己的拖了",
+          "F": "最后一遍检查前就发了"
+        }
+      ],
+      [
+        "交了。周五18:01。你……",
+        {
+          "A": "记下下次要调整的地方",
+          "D": "确认文件发对了",
+          "M": "叫大家一起庆祝",
+          "F": "合上电脑。周末！"
+        }
+      ]
+    ]
+  }
+}

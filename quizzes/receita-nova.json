@@ -1,0 +1,384 @@
+{
+  "slug": "receita-nova",
+  "criado_em": "2026-11-07",
+  "categoria": "comida",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é testando uma receita nova?",
+    "lead": "Receita nova na cozinha sempre revela 4 tipos de cozinheiro. Qual é o seu?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você lê a receita inteira três vezes antes de ligar o fogão.",
+        "Pra você, cozinhar começa com os ingredientes separados em potinhos. Você sabe a ordem de tudo, o tempo de cada etapa e quantas pessoas a receita serve. Por isso o prato sai igual à foto.",
+        "Deixar tudo pronto antes de acender o fogo.",
+        "Separar tanto potinho que a louça dobra.",
+        "Calma, primeiro a gente lê até o final."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma colherada passa sem você provar.",
+        "Você confere medida, temperatura e o ponto da massa. Lê os comentários da receita pra ver onde os outros erraram. É graças a você que o bolo não sola.",
+        "Descobrir o erro antes de ir pro forno.",
+        "Provar tanto que sobra metade.",
+        "Espera, era colher de chá ou de sopa?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você mexe a panela, vigia o forno e responde mensagem.",
+        "Na sua cozinha tudo acontece junto: arroz no fogo, molho reduzindo, forno aquecendo e alguém pedindo opinião. Você mantém a cozinha inteira rodando sem perder o ritmo.",
+        "Fazer três pratos ficarem prontos na mesma hora.",
+        "Lembrar do forno só pelo cheiro.",
+        "Mexe isso aqui pra mim que eu já volto."
+      ],
+      "F": [
+        "O Finalizador",
+        "Receita é sugestão, jantar é compromisso.",
+        "Você não trava porque falta um ingrediente. Troca, adapta e põe na mesa. Enquanto os outros procuram o tomilho, você já tá servindo.",
+        "Fazer o jantar sair de verdade.",
+        "Trocar tanto ingrediente que vira outra receita.",
+        "Não tem? Vai com o que tem."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a cozinha pede: planeja quando a receita é difícil, confere quando o ponto é delicado, cuida de tudo quando a casa enche e improvisa quando falta algo.",
+        "Ser o cozinheiro que o prato precisa.",
+        "Ninguém saber se você vai seguir a receita.",
+        "Depende do prato. O que tem na geladeira?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo separado antes de começar.",
+      "D": "você não deixa passar uma medida errada.",
+      "M": "você dá conta de várias panelas ao mesmo tempo.",
+      "F": "na hora da fome, você põe a comida na mesa."
+    },
+    "Q": [
+      [
+        "A receita diz \"sal a gosto\". Você...",
+        {
+          "A": "Pesquiso quanto é \"a gosto\"",
+          "D": "Provo a cada pitada",
+          "M": "Salgo mexendo outras 3 panelas",
+          "F": "Viro o saleiro e confio"
+        }
+      ],
+      [
+        "Antes de começar, você...",
+        {
+          "A": "Separo todos os ingredientes em potinhos",
+          "D": "Leio os comentários pra ver quem errou o quê",
+          "M": "Ligo o forno, ponho a água pra ferver e a música",
+          "F": "Já começo pelo passo que eu entendi"
+        }
+      ],
+      [
+        "Falta um ingrediente no meio da receita. Você...",
+        {
+          "A": "Volto e vejo qual substituto faz sentido",
+          "D": "Pesquiso se a troca muda o resultado",
+          "M": "Peço pra alguém buscar enquanto adianto o resto",
+          "F": "Ponho o que tiver parecido e sigo"
+        }
+      ],
+      [
+        "Seu papel na cozinha é...",
+        {
+          "A": "Quem fez o passo a passo",
+          "D": "Quem prova e ajusta o tempero",
+          "M": "Quem cuida do fogão, do forno e da pia",
+          "F": "Quem garante que o jantar sai"
+        }
+      ],
+      [
+        "A receita diz \"asse por 40 minutos\". Você...",
+        {
+          "A": "Ponho um timer pra cada etapa",
+          "D": "Abro o forno de 5 em 5 minutos pra conferir",
+          "M": "Esqueço o timer, mas sinto o cheiro na hora",
+          "F": "Tiro quando parecer pronto"
+        }
+      ],
+      [
+        "Deu errado: a massa não cresceu. Você...",
+        {
+          "A": "Anoto o que mudar na próxima tentativa",
+          "D": "Investigo: fermento vencido ou forno frio?",
+          "M": "Transformo em outra coisa e ninguém percebe",
+          "F": "Sirvo assim mesmo e chamo de \"versão rústica\""
+        }
+      ],
+      [
+        "Seu maior defeito testando receita:",
+        {
+          "A": "Planejo tanto que o jantar sai tarde",
+          "D": "Provo tanto que sobra pouco",
+          "M": "Faço mil coisas e queimo uma",
+          "F": "Mudo tanto que vira outra receita"
+        }
+      ],
+      [
+        "Todo mundo elogiou. Você...",
+        {
+          "A": "Salvo a receita com as minhas anotações",
+          "D": "Pergunto o que dava pra melhorar",
+          "M": "Já marco o próximo jantar",
+          "F": "Agradeço e vou comer também"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble trying a new recipe?",
+    "lead": "A new recipe always brings out 4 kinds of cook. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You read the whole recipe three times before turning on the hob.",
+        "For you, cooking starts with every ingredient measured into little bowls. You know the order, the timing and how many it serves. That's why your dish looks like the photo.",
+        "Having everything ready before the heat goes on.",
+        "Using so many little bowls the washing-up doubles.",
+        "Hang on, let's read it to the end first."
+      ],
+      "D": [
+        "The Detective",
+        "No spoonful gets past you untasted.",
+        "You check measurements, temperatures and how the dough looks. You read the recipe comments to see where everyone else went wrong. You're the reason the cake doesn't sink.",
+        "Catching the mistake before it goes in the oven.",
+        "Tasting so much there's only half left.",
+        "Wait, was that a teaspoon or a tablespoon?"
+      ],
+      "M": [
+        "The Maestro",
+        "You stir the pan, watch the oven and answer texts at once.",
+        "In your kitchen it all happens together: rice on, sauce reducing, oven heating and someone asking for your opinion. You keep the whole kitchen moving without missing a beat.",
+        "Getting three dishes ready at the same moment.",
+        "Remembering the oven only when you smell it.",
+        "Stir this for me, I'll be right back."
+      ],
+      "F": [
+        "The Finisher",
+        "Recipes are suggestions. Dinner is a promise.",
+        "You don't freeze because one ingredient is missing. You swap, adapt and get it on the table. While others hunt for thyme, you're already serving.",
+        "Actually getting dinner on the table.",
+        "Swapping so much it becomes a different recipe.",
+        "Don't have it? Use what we've got."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the kitchen needs: you plan when the recipe is tricky, check when timing is delicate, juggle when the house fills up and improvise when something's missing.",
+        "Being the cook the dish needs right now.",
+        "Nobody knowing if you'll follow the recipe.",
+        "Depends on the dish. What's in the fridge?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything laid out before you start.",
+      "D": "you never let a wrong measurement slip.",
+      "M": "you can handle several pans at once.",
+      "F": "when people are hungry, you get food on the table."
+    },
+    "Q": [
+      [
+        "The recipe says \"salt to taste\". You...",
+        {
+          "A": "Look up how much \"to taste\" is",
+          "D": "Taste after every pinch",
+          "M": "Salt it while stirring 3 other pans",
+          "F": "Tip the salt and trust it"
+        }
+      ],
+      [
+        "Before you start, you...",
+        {
+          "A": "Measure every ingredient into little bowls",
+          "D": "Read the comments to see who got what wrong",
+          "M": "Turn on the oven, boil the water and put music on",
+          "F": "Start with the step I understood"
+        }
+      ],
+      [
+        "You're missing an ingredient halfway through. You...",
+        {
+          "A": "Go back and work out a sensible substitute",
+          "D": "Look up whether swapping changes the result",
+          "M": "Send someone to the shop while I get ahead",
+          "F": "Use something similar and keep going"
+        }
+      ],
+      [
+        "Your role in the kitchen is...",
+        {
+          "A": "The one who wrote the step-by-step",
+          "D": "The one tasting and fixing the seasoning",
+          "M": "The one running the hob, the oven and the sink",
+          "F": "The one making sure dinner happens"
+        }
+      ],
+      [
+        "The recipe says \"bake for 40 minutes\". You...",
+        {
+          "A": "Set a timer for every stage",
+          "D": "Open the oven every 5 minutes to check",
+          "M": "Forget the timer but smell when it's ready",
+          "F": "Take it out when it looks done"
+        }
+      ],
+      [
+        "It flopped: the dough didn't rise. You...",
+        {
+          "A": "Write down what to change next time",
+          "D": "Investigate: expired yeast or a cold oven?",
+          "M": "Turn it into something else and nobody notices",
+          "F": "Serve it anyway and call it \"rustic\""
+        }
+      ],
+      [
+        "Your biggest flaw with a new recipe:",
+        {
+          "A": "I plan so much dinner is late",
+          "D": "I taste so much there's not much left",
+          "M": "I do a hundred things and burn one",
+          "F": "I change so much it's a different dish"
+        }
+      ],
+      [
+        "Everyone loved it. You...",
+        {
+          "A": "Save the recipe with my notes",
+          "D": "Ask what could be better",
+          "M": "Already plan the next dinner",
+          "F": "Say thanks and dig in too"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "试做新菜谱时你是哪个泡泡？",
+    "lead": "试做新菜总会冒出4种厨师。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "开火之前，你已经把菜谱读了三遍。",
+        "对你来说，做饭从把食材分装进小碗开始。你知道先后顺序、每一步多久、够几个人吃。所以你做出来的菜和图片一模一样。",
+        "开火前一切准备就绪。",
+        "小碗用太多，碗也多洗了一倍。",
+        "别急，先把菜谱看完。"
+      ],
+      "D": [
+        "侦探",
+        "每一勺都要先尝过才放行。",
+        "你核对用量、温度和面团的状态，还会翻评论看看别人哪里翻车了。正因为有你，蛋糕才不会塌。",
+        "进烤箱之前就发现问题。",
+        "尝太多次，只剩一半。",
+        "等等，是茶匙还是汤匙？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边翻锅，一边看烤箱，一边回消息。",
+        "你的厨房里一切同时进行：煮着饭、收着汁、预热着烤箱，还有人在问你意见。你让整个厨房不停运转。",
+        "让三道菜同时出锅。",
+        "闻到味道才想起烤箱。",
+        "帮我搅一下，我马上回来。"
+      ],
+      "F": [
+        "终结者",
+        "菜谱只是建议，晚饭才是承诺。",
+        "少一样食材你也不会卡住。换一换、改一改，照样端上桌。别人还在找百里香，你已经开饭了。",
+        "真正把晚饭端上桌。",
+        "换得太多，变成另一道菜。",
+        "没有？那就用家里有的。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据厨房的需要切换角色：菜谱难时就规划，火候关键时就检查，人多时什么都管，缺东西时就即兴发挥。",
+        "成为这道菜最需要的厨师。",
+        "没人知道你会不会照着菜谱做。",
+        "看什么菜。冰箱里有什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢开工前把一切摆好。",
+      "D": "你绝不放过一个错误的用量。",
+      "M": "你能同时照看好几口锅。",
+      "F": "大家饿了，你就把饭端上桌。"
+    },
+    "Q": [
+      [
+        "菜谱写着“盐适量”。你……",
+        {
+          "A": "先查查“适量”到底是多少",
+          "D": "每撒一撮就尝一口",
+          "M": "一边撒盐一边翻另外3口锅",
+          "F": "直接倒，相信感觉"
+        }
+      ],
+      [
+        "开始之前，你会……",
+        {
+          "A": "把所有食材分装进小碗",
+          "D": "先看评论，看别人哪里做错了",
+          "M": "预热烤箱、烧水、放音乐一起来",
+          "F": "从我看懂的那一步开始"
+        }
+      ],
+      [
+        "做到一半发现少了一样食材。你……",
+        {
+          "A": "回头想想用什么替代最合理",
+          "D": "查一下替换会不会影响结果",
+          "M": "让人去买，我先做别的",
+          "F": "用个差不多的，继续做"
+        }
+      ],
+      [
+        "你在厨房里的角色是……",
+        {
+          "A": "写步骤的那个人",
+          "D": "负责试味调味的那个人",
+          "M": "同时管灶台、烤箱和水槽的那个人",
+          "F": "确保晚饭能开吃的那个人"
+        }
+      ],
+      [
+        "菜谱写着“烤40分钟”。你……",
+        {
+          "A": "每一步都定个闹钟",
+          "D": "每5分钟打开烤箱看一次",
+          "M": "忘了定时，但闻到味道就知道好了",
+          "F": "看起来熟了就拿出来"
+        }
+      ],
+      [
+        "翻车了：面团没发起来。你……",
+        {
+          "A": "记下下次要改的地方",
+          "D": "开始调查：酵母过期还是烤箱不够热？",
+          "M": "改成另一道菜，没人发现",
+          "F": "照样端上桌，说这是“乡村风”"
+        }
+      ],
+      [
+        "你试新菜时最大的毛病：",
+        {
+          "A": "规划太多，晚饭开得太晚",
+          "D": "尝得太多，剩得不多",
+          "M": "同时做太多事，烧糊一样",
+          "F": "改得太多，变成另一道菜"
+        }
+      ],
+      [
+        "大家都说好吃。你……",
+        {
+          "A": "把菜谱和我的笔记一起存好",
+          "D": "问问哪里还能更好",
+          "M": "马上约下一顿",
+          "F": "说声谢谢，自己也开吃"
+        }
+      ]
+    ]
+  }
+}

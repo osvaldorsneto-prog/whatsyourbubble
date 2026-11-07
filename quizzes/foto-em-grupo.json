@@ -1,0 +1,384 @@
+{
+  "slug": "foto-em-grupo",
+  "criado_em": "2026-11-07",
+  "categoria": "role",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é na foto em grupo?",
+    "lead": "Toda foto em grupo tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já sabe onde cada um fica antes de alguém pegar o celular.",
+        "Pra você, foto boa começa na formação. Você escolhe o fundo, a luz e quem fica em cada lugar. Por isso as fotos que você organiza viram foto de perfil.",
+        "Montar a foto perfeita antes do clique.",
+        "Organizar tanto que a luz do pôr do sol vai embora.",
+        "Calma, primeiro todo mundo no lugar certo."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma foto vai pro grupo sem você dar zoom.",
+        "Você confere olho fechado, dedo na lente e quem cortou a cabeça de quem. Ninguém posta foto ruim no seu turno. É graças a você que a lembrança fica bonita.",
+        "Achar o defeito que ninguém viu.",
+        "Dar zoom em tudo e pedir mais uma.",
+        "Espera, alguém piscou nessa."
+      ],
+      "M": [
+        "O Maestro",
+        "Você arruma o grupo, segura o celular e faz todo mundo rir.",
+        "Na foto em grupo você está em todo lugar: chama quem sumiu, ajeita quem tá torto, conta piada pra sair sorriso de verdade e ainda acha alguém pra tirar a foto.",
+        "Juntar todo mundo no mesmo clique.",
+        "Organizar tanto que você mesmo fica de fora.",
+        "Todo mundo junto! Vem, vem, vem!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Foto tirada é melhor que foto perfeita.",
+        "Você não espera a luz ideal nem todo mundo pronto. Aponta, clica e manda no grupo. Enquanto os outros pedem mais uma, você já postou.",
+        "Fazer a foto existir de verdade.",
+        "Postar antes de ver se todo mundo saiu bem.",
+        "Ficou ótima. Já mandei!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a foto pede: organiza quando o grupo é grande, confere quando a foto é importante, anima quando o clima tá parado e clica quando é hora.",
+        "Ser o que a foto precisa naquele momento.",
+        "Ninguém saber se você vai aparecer ou tirar a foto.",
+        "Depende. Quem tá segurando o celular?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo no lugar certo.",
+      "D": "você não deixa passar um olho fechado.",
+      "M": "você junta todo mundo ao mesmo tempo.",
+      "F": "na hora certa, você clica e posta."
+    },
+    "Q": [
+      [
+        "Alguém fala \"só mais uma\" pela 12ª vez. Você...",
+        {
+          "A": "Refaço a formação do zero",
+          "D": "Confiro se agora ninguém piscou",
+          "M": "Faço todo mundo rir de novo",
+          "F": "Tiro a 13ª e encerro"
+        }
+      ],
+      [
+        "Hora da foto. Primeira coisa que você faz:",
+        {
+          "A": "Escolho o fundo e o lugar de cada um",
+          "D": "Limpo a lente e vejo a luz",
+          "M": "Chamo quem sumiu e junto o grupo",
+          "F": "Estico o braço e já clico"
+        }
+      ],
+      [
+        "Ninguém quer tirar a foto. Você...",
+        {
+          "A": "Já tinha pensado num tripé",
+          "D": "Escolho quem tem o celular com a melhor câmera",
+          "M": "Peço pra alguém que passa e ainda puxo assunto",
+          "F": "Faço uma selfie de braço esticado e pronto"
+        }
+      ],
+      [
+        "Seu papel na foto em grupo é...",
+        {
+          "A": "Quem monta a formação",
+          "D": "Quem aprova ou reprova cada foto",
+          "M": "Quem junta, anima e ajeita todo mundo",
+          "F": "Quem garante que a foto saiu"
+        }
+      ],
+      [
+        "A foto chega no grupo. Você...",
+        {
+          "A": "Penso em qual vai pro álbum",
+          "D": "Dou zoom no rosto de cada um",
+          "M": "Mando pra quem não tá no grupo",
+          "F": "Já pus no meu perfil"
+        }
+      ],
+      [
+        "Alguém saiu de olho fechado. Você...",
+        {
+          "A": "Sugiro tirar de novo no mesmo lugar",
+          "D": "Fui eu que avisei, claro",
+          "M": "Junto o grupo de novo antes de dispersar",
+          "F": "Digo que ficou espontâneo e sigo"
+        }
+      ],
+      [
+        "Seu maior defeito na foto em grupo:",
+        {
+          "A": "Organizo tanto que a luz vai embora",
+          "D": "Acho defeito em todas",
+          "M": "Arrumo todo mundo e fico de fora",
+          "F": "Posto antes de todo mundo aprovar"
+        }
+      ],
+      [
+        "Anos depois, alguém acha essa foto. Você...",
+        {
+          "A": "Sei exatamente em que pasta ela tá",
+          "D": "Lembro de quem tava piscando",
+          "M": "Já crio um grupo pra reencontro",
+          "F": "Posto de novo com \"saudade\""
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in a group photo?",
+    "lead": "Every group photo has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You know where everyone stands before anyone picks up a phone.",
+        "For you, a good photo starts with the line-up. You pick the background, the light and who goes where. That's why the photos you organise end up as profile pictures.",
+        "Setting up the perfect shot before the click.",
+        "Organising so long the sunset disappears.",
+        "Hold on, everyone to their spot first."
+      ],
+      "D": [
+        "The Detective",
+        "No photo hits the group chat until you've zoomed in.",
+        "You check for closed eyes, fingers over the lens and who cut off whose head. No bad photo gets posted on your watch. You're the reason the memory looks good.",
+        "Spotting the flaw nobody else saw.",
+        "Zooming in on everything and asking for one more.",
+        "Wait, someone blinked in this one."
+      ],
+      "M": [
+        "The Maestro",
+        "You arrange the group, hold the phone and make everyone laugh.",
+        "In a group photo you're everywhere: rounding up whoever wandered off, fixing whoever's wonky, cracking a joke for a real smile and still finding someone to take it.",
+        "Getting everyone into the same shot.",
+        "Organising so much you end up out of the picture.",
+        "Everyone in! Come on, squeeze in!"
+      ],
+      "F": [
+        "The Finisher",
+        "A photo taken beats a perfect photo.",
+        "You don't wait for the perfect light or for everyone to be ready. Point, click, send. While others ask for one more, you've already posted it.",
+        "Actually making the photo happen.",
+        "Posting before checking everyone looks good.",
+        "Looks great. Already sent it!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the photo needs: you organise when the group is big, check when it matters, liven things up when the mood is flat and click when it's time.",
+        "Being whatever the photo needs right now.",
+        "Nobody knowing if you'll be in it or taking it.",
+        "Depends. Who's holding the phone?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything in the right place.",
+      "D": "you never let a closed eye slip past.",
+      "M": "you get everyone together at once.",
+      "F": "when it counts, you click and post."
+    },
+    "Q": [
+      [
+        "Someone says \"just one more\" for the 12th time. You...",
+        {
+          "A": "Redo the line-up from scratch",
+          "D": "Check nobody blinked this time",
+          "M": "Crack a joke to save the smiles",
+          "F": "Take the 13th and call it"
+        }
+      ],
+      [
+        "Photo time. First thing you do:",
+        {
+          "A": "Pick the background and everyone's spot",
+          "D": "Wipe the lens and check the light",
+          "M": "Round up whoever wandered off",
+          "F": "Stretch my arm out and click"
+        }
+      ],
+      [
+        "Nobody wants to take the photo. You...",
+        {
+          "A": "Already thought of a tripod",
+          "D": "Pick whoever has the best phone camera",
+          "M": "Ask a passer-by and end up chatting",
+          "F": "Take an arm's-length selfie, done"
+        }
+      ],
+      [
+        "Your role in a group photo is...",
+        {
+          "A": "The one setting up the line-up",
+          "D": "The one approving or rejecting each shot",
+          "M": "The one gathering, cheering and fixing everyone",
+          "F": "The one making sure the photo gets taken"
+        }
+      ],
+      [
+        "The photo lands in the group chat. You...",
+        {
+          "A": "Think about which one goes in the album",
+          "D": "Zoom in on every face",
+          "M": "Send it to whoever isn't in the chat",
+          "F": "Already made it my profile picture"
+        }
+      ],
+      [
+        "Someone has their eyes closed. You...",
+        {
+          "A": "Suggest retaking it in the same spot",
+          "D": "I'm the one who spotted it, obviously",
+          "M": "Gather everyone again before they scatter",
+          "F": "Say it looks natural and move on"
+        }
+      ],
+      [
+        "Your biggest flaw in a group photo:",
+        {
+          "A": "I organise so much the light goes",
+          "D": "I find a flaw in every shot",
+          "M": "I fix everyone and end up out of it",
+          "F": "I post before everyone approves"
+        }
+      ],
+      [
+        "Years later, someone finds this photo. You...",
+        {
+          "A": "Know exactly which folder it's in",
+          "D": "Remember who was blinking",
+          "M": "Start a group chat for a reunion",
+          "F": "Repost it with \"miss this\""
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "拍合照时你是哪个泡泡？",
+    "lead": "每张合照里都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没人拿出手机，你就知道每个人该站哪儿。",
+        "对你来说，好照片从排队形开始。你选背景、看光线、安排每个人的位置。所以你组织的合照最后都成了头像。",
+        "按下快门前就摆好完美构图。",
+        "安排太久，夕阳都下山了。",
+        "等一下，大家先站好位置。"
+      ],
+      "D": [
+        "侦探",
+        "每张照片发群之前，你都要放大检查。",
+        "你检查有没有人闭眼、有没有手指挡镜头、谁把谁的头切掉了。有你在，烂照片别想发出去。正因为有你，回忆才那么好看。",
+        "发现别人没注意到的瑕疵。",
+        "每张都放大看，然后说再来一张。",
+        "等等，这张有人眨眼了。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边排人、一边拿手机、一边逗大家笑。",
+        "拍合照时你无处不在：把走散的人叫回来，帮站歪的人调整，讲个笑话让大家真心笑，还顺便找到人帮忙拍。",
+        "把所有人装进同一张照片。",
+        "张罗太多，自己没进镜头。",
+        "大家靠拢！快过来快过来！"
+      ],
+      "F": [
+        "终结者",
+        "拍到了胜过拍完美。",
+        "你不等完美的光线，也不等所有人准备好。对准、按下、发群。别人还在说再来一张，你已经发出去了。",
+        "真正把照片拍出来。",
+        "没看清每个人就发了。",
+        "拍得很好，已经发了！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据合照的需要切换角色：人多时就组织，重要时就检查，气氛冷时就活跃气氛，该拍时就按快门。",
+        "成为这张照片最需要的人。",
+        "没人知道你是要入镜还是要掌镜。",
+        "看情况。谁拿着手机？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都在对的位置。",
+      "D": "你绝不放过一个闭眼。",
+      "M": "你能一下子把所有人聚齐。",
+      "F": "关键时刻，你按下快门就发。"
+    },
+    "Q": [
+      [
+        "有人第12次说“最后一张”。你……",
+        {
+          "A": "从头重新排队形",
+          "D": "检查这次有没有人眨眼",
+          "M": "讲个笑话救回笑容",
+          "F": "拍第13张，收工"
+        }
+      ],
+      [
+        "要拍照了。你第一件事是：",
+        {
+          "A": "选背景，安排每个人的位置",
+          "D": "擦镜头，看光线",
+          "M": "把走散的人叫回来",
+          "F": "伸长手臂直接拍"
+        }
+      ],
+      [
+        "没人愿意当摄影师。你……",
+        {
+          "A": "早就想到要带三脚架",
+          "D": "挑相机最好的那部手机",
+          "M": "请路人帮忙，顺便聊上了",
+          "F": "伸手自拍一张，搞定"
+        }
+      ],
+      [
+        "你在合照中的角色是……",
+        {
+          "A": "排队形的那个人",
+          "D": "决定每张照片过不过关的那个人",
+          "M": "召集、活跃气氛、帮大家整理的那个人",
+          "F": "确保照片拍出来的那个人"
+        }
+      ],
+      [
+        "照片发到群里了。你……",
+        {
+          "A": "想想哪张放进相册",
+          "D": "放大看每个人的脸",
+          "M": "转发给不在群里的人",
+          "F": "已经换成我的头像了"
+        }
+      ],
+      [
+        "有人闭眼了。你……",
+        {
+          "A": "建议在同一个位置重拍",
+          "D": "当然是我第一个发现的",
+          "M": "趁大家还没散，赶紧再聚起来",
+          "F": "说这样很自然，继续"
+        }
+      ],
+      [
+        "你拍合照时最大的毛病：",
+        {
+          "A": "安排太久，光线没了",
+          "D": "每张都能挑出毛病",
+          "M": "帮所有人整理好，自己没进镜头",
+          "F": "还没人同意就发出去了"
+        }
+      ],
+      [
+        "几年后，有人翻出这张照片。你……",
+        {
+          "A": "清楚记得它在哪个文件夹",
+          "D": "记得当时谁在眨眼",
+          "M": "马上建群约聚会",
+          "F": "再发一次，配上“好怀念”"
+        }
+      ]
+    ]
+  }
+}
