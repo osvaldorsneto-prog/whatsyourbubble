@@ -1,0 +1,384 @@
+{
+  "slug": "plantas-em-casa",
+  "criado_em": "2026-11-10",
+  "categoria": "casa",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é cuidando de plantas?",
+    "lead": "Toda casa com planta tem os mesmos 4 tipos de cuidador. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você escolhe o vaso antes de escolher a planta.",
+        "Você pesquisa luz, rega e tamanho do vaso antes de levar qualquer muda pra casa. Cada planta tem lugar certo e calendário próprio. Por isso o seu cantinho verde parece de revista.",
+        "Montar o cantinho verde perfeito.",
+        "Pesquisar tanto que a muda espera na sacola.",
+        "Essa aqui é de meia-sombra. Vai pra janela da sala."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma folha amarela passa despercebida.",
+        "Você enfia o dedo na terra, vira as folhas e examina cada manchinha. Se tem bichinho escondido, você acha primeiro. Suas plantas são as mais bem vigiadas do prédio.",
+        "Descobrir o problema antes de virar estrago.",
+        "Mexer tanto na planta que ela pede sossego.",
+        "Essa pintinha aqui já tava ontem?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida de trinta vasos e ainda dá muda pros vizinhos.",
+        "Rega, adubo, troca de vaso e grupo de troca de mudas: você toca tudo ao mesmo tempo. Sua casa virou uma floresta e todo mundo sai de lá com uma plantinha.",
+        "Manter uma selva inteira de pé.",
+        "Ter tanto vaso que esquece um atrás da cortina.",
+        "Leva essa muda! Eu tenho mais três."
+      ],
+      "F": [
+        "O Finalizador",
+        "Murchou? Água. Cresceu demais? Tesoura.",
+        "Você não perde tempo com teoria. Viu a planta triste, resolve na hora: rega, poda, muda de lugar. Sem drama e sem planilha, e ela continua lá, verdinha.",
+        "Salvar a planta no improviso.",
+        "Regar no impulso e afogar a coitada.",
+        "Põe no sol que ela se resolve."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Com planta você muda de papel: planeja quando compra, investiga quando ela fica triste, cuida de várias quando a coleção cresce e resolve quando é urgente.",
+        "Ser o que cada vaso precisa.",
+        "Ninguém saber se você é do tipo que planeja ou que improvisa.",
+        "Depende da planta. Me mostra ela."
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de ter tudo planejado.",
+      "D": "você não deixa uma folha passar sem conferir.",
+      "M": "você cuida de mil vasos ao mesmo tempo.",
+      "F": "na hora certa, você pega o regador e resolve."
+    },
+    "Q": [
+      [
+        "Sua planta amanheceu dramática, toda caída. Você:",
+        {
+          "A": "Reviso o calendário de rega",
+          "D": "Investigo folha por folha",
+          "M": "Rego, adubo e troco de lugar",
+          "F": "Jogo água e vou trabalhar"
+        }
+      ],
+      [
+        "Antes de comprar uma planta nova, você...",
+        {
+          "A": "Vê se combina com a luz da casa",
+          "D": "Pergunta ao vendedor tudo sobre ela",
+          "M": "Já pensa onde encaixar entre as outras vinte",
+          "F": "Compra a mais bonita e pronto"
+        }
+      ],
+      [
+        "Você vai viajar uma semana. As plantas...",
+        {
+          "A": "Ganham um esquema de rega por escrito",
+          "D": "Ficam com garrafas de água e eu testo antes",
+          "M": "Ficam com a vizinha, junto com a lista e o gato",
+          "F": "Levam uma boa regada e torcem por mim"
+        }
+      ],
+      [
+        "Apareceu um bichinho na folha. Você:",
+        {
+          "A": "Já sei o que fazer, li sobre isso",
+          "D": "Fotografo de perto pra descobrir o que é",
+          "M": "Separo a planta e aviso o grupo de plantas",
+          "F": "Lavo a folha na pia e pronto"
+        }
+      ],
+      [
+        "Seu jeito de regar é...",
+        {
+          "A": "Seguir a tabela de cada planta",
+          "D": "Testar a terra com o dedo antes",
+          "M": "Regar todas numa volta só pela casa",
+          "F": "Regar quando lembro, e funciona"
+        }
+      ],
+      [
+        "Um amigo te dá uma muda sem nome. Você:",
+        {
+          "A": "Escolho o vaso e o canto ideal",
+          "D": "Pesquiso até descobrir a espécie",
+          "M": "Divido em três e espalho pela casa",
+          "F": "Enfio na terra e vejo no que dá"
+        }
+      ],
+      [
+        "Seu maior defeito com plantas:",
+        {
+          "A": "Planejo o canto e demoro pra comprar",
+          "D": "Mexo tanto que ela não descansa",
+          "M": "Tenho tanta que esqueço alguma",
+          "F": "Rego no impulso e exagero"
+        }
+      ],
+      [
+        "Sua planta deu uma folha nova. Você...",
+        {
+          "A": "Anoto que o plano tá funcionando",
+          "D": "Confiro se nasceu saudável",
+          "M": "Mostro pra todo mundo e já faço muda",
+          "F": "Fico feliz e sigo a vida"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble as a plant parent?",
+    "lead": "Every home with plants has the same 4 kinds of carer. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You pick the pot before you pick the plant.",
+        "You look up light, watering and pot size before any plant comes home. Each one has its spot and its own schedule. That's why your green corner looks like a magazine shoot.",
+        "Building the perfect green corner.",
+        "Researching so long the plant waits in the bag.",
+        "This one likes partial shade. Living room window it is."
+      ],
+      "D": [
+        "The Detective",
+        "No yellow leaf goes unnoticed.",
+        "You poke the soil, flip the leaves and study every tiny spot. If there's a bug hiding, you find it first. Your plants are the most closely watched in the building.",
+        "Catching the problem before it spreads.",
+        "Fussing so much the plant just wants peace.",
+        "Was this little spot here yesterday?"
+      ],
+      "M": [
+        "The Maestro",
+        "You look after thirty pots and still hand out cuttings.",
+        "Watering, feeding, repotting and the cuttings swap group: you run it all at once. Your home is a jungle and nobody leaves without a little plant.",
+        "Keeping a whole jungle thriving.",
+        "So many pots you forget one behind the curtain.",
+        "Take this cutting! I have three more."
+      ],
+      "F": [
+        "The Finisher",
+        "Droopy? Water. Too big? Scissors.",
+        "You don't waste time on theory. Plant looks sad, you sort it right away: water, prune, move it. No drama, no spreadsheet, and it's still there, nice and green.",
+        "Rescuing a plant on the fly.",
+        "Watering on impulse and drowning the little thing.",
+        "Stick it in the sun, it'll sort itself out."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "With plants you switch roles: you plan when buying, investigate when one looks sad, juggle many when the collection grows and act fast when it counts.",
+        "Being whatever each pot needs.",
+        "Nobody knowing if you plan or improvise.",
+        "Depends on the plant. Show me."
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let a single leaf go unchecked.",
+      "M": "you look after a hundred pots at once.",
+      "F": "when it counts, you grab the watering can and sort it."
+    },
+    "Q": [
+      [
+        "Your plant woke up dramatic and droopy. You:",
+        {
+          "A": "Check the watering schedule",
+          "D": "Inspect it leaf by leaf",
+          "M": "Water, feed and move it",
+          "F": "Splash water and leave for work"
+        }
+      ],
+      [
+        "Before buying a new plant, you...",
+        {
+          "A": "Check it suits the light in your home",
+          "D": "Ask the seller everything about it",
+          "M": "Already plan where it fits among the other twenty",
+          "F": "Buy the prettiest one and go"
+        }
+      ],
+      [
+        "You're away for a week. The plants...",
+        {
+          "A": "Get a written watering plan",
+          "D": "Get water bottles, tested beforehand",
+          "M": "Go to the neighbour, with the list and the cat",
+          "F": "Get a big drink and good luck"
+        }
+      ],
+      [
+        "A little bug shows up on a leaf. You:",
+        {
+          "A": "Already know what to do, I read up on it",
+          "D": "Take a close-up photo to identify it",
+          "M": "Isolate the plant and warn the plant group chat",
+          "F": "Rinse the leaf in the sink, done"
+        }
+      ],
+      [
+        "Your watering style is...",
+        {
+          "A": "Following each plant's chart",
+          "D": "Testing the soil with a finger first",
+          "M": "One lap of the flat watering everything",
+          "F": "Watering when I remember, and it works"
+        }
+      ],
+      [
+        "A friend gives you a cutting with no name. You:",
+        {
+          "A": "Pick the ideal pot and spot",
+          "D": "Research until I know the species",
+          "M": "Split it in three and spread it around",
+          "F": "Pop it in soil and see what happens"
+        }
+      ],
+      [
+        "Your biggest flaw with plants:",
+        {
+          "A": "I plan the spot and take ages to buy",
+          "D": "I fuss so much it never gets a rest",
+          "M": "I have so many I forget one",
+          "F": "I water on impulse and overdo it"
+        }
+      ],
+      [
+        "Your plant grew a new leaf. You...",
+        {
+          "A": "Note that the plan is working",
+          "D": "Check it came out healthy",
+          "M": "Show everyone and take a cutting",
+          "F": "Smile and get on with my day"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "养植物时你是哪个泡泡？",
+    "lead": "家里养植物的人，都逃不出这4种。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没挑植物，你先把花盆挑好了。",
+        "每盆植物进门前，你都查好了光照、浇水和盆的大小。每一盆都有固定位置和专属日程。所以你的绿植角落像杂志里的一样。",
+        "打造完美的绿植角落。",
+        "查资料太久，小苗还在袋子里等着。",
+        "这盆喜半阴，放客厅窗边。"
+      ],
+      "D": [
+        "侦探",
+        "任何一片黄叶都逃不过你的眼睛。",
+        "你会戳戳土、翻翻叶子，研究每一个小斑点。有虫子躲着，你总是第一个发现。你的植物是整栋楼里被盯得最紧的。",
+        "在问题扩散前就发现它。",
+        "折腾太多，植物只想清静一下。",
+        "这个小点昨天就有吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你照顾三十盆植物，还顺手给邻居分苗。",
+        "浇水、施肥、换盆、换苗群聊，你全都同时搞定。你家快成丛林了，谁来都能带走一盆。",
+        "让一整片丛林都长得好好的。",
+        "盆太多，忘了窗帘后面那一盆。",
+        "这棵苗拿去！我还有三棵。"
+      ],
+      "F": [
+        "终结者",
+        "蔫了？浇水。长疯了？剪刀。",
+        "你不纠结理论。看到植物没精神，马上处理：浇水、修剪、挪位置。不折腾也不做表，它照样绿油油的。",
+        "临场救活一盆植物。",
+        "一冲动浇太多，把它淹了。",
+        "放到太阳底下，它自己会好的。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "养植物时你会切换角色：买之前规划，蔫了就调查，收藏多了就统筹，紧急时就直接动手。",
+        "成为每盆植物需要的那个人。",
+        "别人搞不清你是计划派还是随性派。",
+        "看是哪盆。给我看看。"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会放过任何一片叶子。",
+      "M": "你能同时照顾一百盆植物。",
+      "F": "关键时刻，你拿起水壶直接解决。"
+    },
+    "Q": [
+      [
+        "你的植物一早就戏精上身，全趴下了。你：",
+        {
+          "A": "翻看浇水日程表",
+          "D": "一片叶子一片叶子地检查",
+          "M": "浇水、施肥、换位置一起来",
+          "F": "随手浇点水就去上班"
+        }
+      ],
+      [
+        "买新植物之前，你会……",
+        {
+          "A": "先看家里的光照合不合适",
+          "D": "把它的一切都问店主一遍",
+          "M": "想好它在另外二十盆中放哪",
+          "F": "挑最好看的，买完走人"
+        }
+      ],
+      [
+        "你要出门一周。植物们……",
+        {
+          "A": "拿到一份书面浇水计划",
+          "D": "插上水瓶，出发前先测试",
+          "M": "交给邻居，连同清单和猫",
+          "F": "浇个透，祝它们好运"
+        }
+      ],
+      [
+        "叶子上出现了一只小虫。你：",
+        {
+          "A": "早知道怎么办，我查过",
+          "D": "拍张特写，先搞清楚是什么",
+          "M": "把它隔离，再提醒植物群",
+          "F": "在水龙头下冲冲叶子，完事"
+        }
+      ],
+      [
+        "你的浇水方式是……",
+        {
+          "A": "按每盆的表来",
+          "D": "先用手指试试土",
+          "M": "家里转一圈全部浇一遍",
+          "F": "想起来就浇，也没出过事"
+        }
+      ],
+      [
+        "朋友送你一棵不知道名字的苗。你：",
+        {
+          "A": "挑好最合适的盆和位置",
+          "D": "一直查到知道是什么品种",
+          "M": "分成三棵，摆在家里各处",
+          "F": "插进土里，看它怎么长"
+        }
+      ],
+      [
+        "你养植物最大的毛病：",
+        {
+          "A": "规划好位置，迟迟不买",
+          "D": "折腾太多，它没法休息",
+          "M": "盆太多，总忘了一盆",
+          "F": "一冲动就浇太多"
+        }
+      ],
+      [
+        "你的植物长出了一片新叶子。你……",
+        {
+          "A": "记下来：计划奏效了",
+          "D": "检查它长得健不健康",
+          "M": "给所有人看，顺便扦插一棵",
+          "F": "开心一下，继续过日子"
+        }
+      ]
+    ]
+  }
+}

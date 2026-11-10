@@ -1,0 +1,384 @@
+{
+  "slug": "esqueci-a-senha",
+  "criado_em": "2026-11-10",
+  "categoria": "celular",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é quando esquece a senha?",
+    "lead": "Todo mundo já travou numa tela de login. Qual dos 4 tipos é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você tem um sistema de senhas desde 2015.",
+        "Você criou uma regra pra montar senha, guarda tudo num gerenciador e tem até um plano pra quando trocar de celular. Esquecer senha, pra você, é coisa rara.",
+        "Nunca ficar trancado do lado de fora.",
+        "Criar um sistema que só você entende.",
+        "Calma, tá tudo no cofre de senhas."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere letra por letra antes de apertar \"entrar\".",
+        "Você olha se o Caps Lock está ligado, se o e-mail tá certo e se aquele \"0\" não era um \"O\". Você descobre o erro antes de bloquear a conta.",
+        "Achar o erro antes da terceira tentativa.",
+        "Conferir tanto que o código expira.",
+        "Espera. É com ponto ou sem ponto?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você recupera três contas ao mesmo tempo.",
+        "Uma aba no e-mail, outra esperando o código, o celular recebendo SMS e o computador pedindo outra coisa. Você toca tudo junto e, no fim, entra em todas.",
+        "Resolver várias contas de uma vez.",
+        "Misturar qual código é de qual conta.",
+        "Peraí, esse código é do banco ou do jogo?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Esqueceu? \"Esqueci minha senha\" e pronto.",
+        "Você não perde tempo tentando lembrar. Clica em recuperar, cria uma nova e entra. Enquanto os outros chutam a quinta tentativa, você já tá logado.",
+        "Entrar na conta em dois minutos.",
+        "Criar uma senha nova que também vai esquecer.",
+        "Troca tudo. Próximo!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Com senha você muda de papel: organiza quando dá, confere quando trava, resolve várias contas quando precisa e clica em \"esqueci\" quando é mais rápido.",
+        "Ser o que cada tela de login pede.",
+        "Ninguém saber qual é o seu método.",
+        "Depende da conta. Qual travou?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo organizado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você resolve mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você clica em \"esqueci\" e resolve."
+    },
+    "Q": [
+      [
+        "\"Senha incorreta\" pela terceira vez. Você:",
+        {
+          "A": "Abro meu cofre de senhas",
+          "D": "Confiro o Caps Lock",
+          "M": "Tento em três abas ao mesmo tempo",
+          "F": "Clico em \"esqueci a senha\""
+        }
+      ],
+      [
+        "Na hora de criar uma senha nova, você...",
+        {
+          "A": "Sigo a minha regra de sempre",
+          "D": "Leio todas as exigências antes",
+          "M": "Crio e já atualizo em todo lugar",
+          "F": "Uso a primeira que passa no teste"
+        }
+      ],
+      [
+        "O código de verificação não chega. Você...",
+        {
+          "A": "Já tinha os códigos de reserva salvos",
+          "D": "Confiro se o número tá certo",
+          "M": "Peço por e-mail, SMS e ligação junto",
+          "F": "Aperto \"reenviar\" até chegar"
+        }
+      ],
+      [
+        "Onde ficam suas senhas?",
+        {
+          "A": "Num gerenciador, tudo organizado",
+          "D": "Num lugar seguro que eu confiro sempre",
+          "M": "Um pouco em cada lugar, mas eu sei",
+          "F": "Na memória do navegador, e tá ótimo"
+        }
+      ],
+      [
+        "Um amigo pede a senha do wi-fi. Você...",
+        {
+          "A": "Mando, tá salva e organizada",
+          "D": "Vou até o roteador ler de perto",
+          "M": "Mando enquanto respondo outras três pessoas",
+          "F": "Digito direto no celular dele"
+        }
+      ],
+      [
+        "O app pede pra trocar a senha. Você...",
+        {
+          "A": "Já tava no meu calendário",
+          "D": "Quero entender por que pediu",
+          "M": "Troco e aproveito pra atualizar outras",
+          "F": "Troco na hora sem pensar muito"
+        }
+      ],
+      [
+        "Seu maior defeito com senhas:",
+        {
+          "A": "Meu sistema é complicado demais",
+          "D": "Confiro tanto que o código expira",
+          "M": "Misturo os códigos das contas",
+          "F": "Esqueço a senha nova logo depois"
+        }
+      ],
+      [
+        "Finalmente entrou na conta. Você...",
+        {
+          "A": "Anoto pra não acontecer de novo",
+          "D": "Confiro se ninguém mais entrou",
+          "M": "Aproveito e entro nas outras também",
+          "F": "Faço o que tinha que fazer e saio"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when you forget a password?",
+    "lead": "We've all been stuck on a login screen. Which of the 4 types are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You've had a password system since 2015.",
+        "You made up a rule for building passwords, keep them all in a manager and even have a plan for switching phones. Forgetting a password is a rare event for you.",
+        "Never getting locked out.",
+        "Building a system only you understand.",
+        "Relax, it's all in the password vault."
+      ],
+      "D": [
+        "The Detective",
+        "You check every character before hitting \"log in\".",
+        "You check if Caps Lock is on, if the email is right and whether that \"0\" was really an \"O\". You find the mistake before the account gets locked.",
+        "Spotting the error before attempt number three.",
+        "Checking so long the code expires.",
+        "Hang on. With a full stop or without?"
+      ],
+      "M": [
+        "The Maestro",
+        "You recover three accounts at the same time.",
+        "One tab on email, another waiting for the code, the phone getting texts and the laptop asking for something else. You run it all at once and get into every one.",
+        "Sorting several accounts in one go.",
+        "Mixing up which code is for which account.",
+        "Wait, is this code for the bank or the game?"
+      ],
+      "F": [
+        "The Finisher",
+        "Forgot it? \"Forgot password\" and done.",
+        "You don't waste time trying to remember. Click reset, make a new one, you're in. While others guess for the fifth time, you're already logged in.",
+        "Getting into the account in two minutes.",
+        "Making a new password you'll forget too.",
+        "Reset it. Next!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "With passwords you switch roles: organise when you can, check when you're stuck, handle several accounts when needed and hit \"forgot\" when it's quicker.",
+        "Being whatever each login screen needs.",
+        "Nobody knowing what your method is.",
+        "Depends on the account. Which one is stuck?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything organised.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you sort out a thousand things at once.",
+      "F": "when it counts, you hit \"forgot\" and move on."
+    },
+    "Q": [
+      [
+        "\"Wrong password\" for the third time. You:",
+        {
+          "A": "Open my password vault",
+          "D": "Check Caps Lock",
+          "M": "Try in three tabs at once",
+          "F": "Click \"forgot password\""
+        }
+      ],
+      [
+        "When making a new password, you...",
+        {
+          "A": "Follow my usual rule",
+          "D": "Read every requirement first",
+          "M": "Make it and update it everywhere",
+          "F": "Use the first one that passes"
+        }
+      ],
+      [
+        "The verification code won't arrive. You...",
+        {
+          "A": "Already had backup codes saved",
+          "D": "Check the number is right",
+          "M": "Ask for email, text and a call all at once",
+          "F": "Hit \"resend\" until it comes"
+        }
+      ],
+      [
+        "Where do your passwords live?",
+        {
+          "A": "In a manager, all organised",
+          "D": "Somewhere safe that I check often",
+          "M": "A bit everywhere, but I know where",
+          "F": "Saved in the browser, and that's fine"
+        }
+      ],
+      [
+        "A friend asks for the wifi password. You...",
+        {
+          "A": "Send it, it's saved and organised",
+          "D": "Go to the router to read it up close",
+          "M": "Send it while replying to three other people",
+          "F": "Type it straight into their phone"
+        }
+      ],
+      [
+        "The app asks you to change your password. You...",
+        {
+          "A": "It was already in my calendar",
+          "D": "Want to know why it asked",
+          "M": "Change it and update a few others too",
+          "F": "Change it on the spot without much thought"
+        }
+      ],
+      [
+        "Your biggest flaw with passwords:",
+        {
+          "A": "My system is way too complicated",
+          "D": "I check so long the code expires",
+          "M": "I mix up codes between accounts",
+          "F": "I forget the new one straight away"
+        }
+      ],
+      [
+        "You're finally in. You...",
+        {
+          "A": "Make a note so it won't happen again",
+          "D": "Check nobody else has logged in",
+          "M": "Log into the others while I'm at it",
+          "F": "Do what I came for and log out"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "忘记密码时你是哪个泡泡？",
+    "lead": "谁都在登录页面卡过。你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你从2015年起就有一套密码系统。",
+        "你有自己的密码规则，全部存在密码管理器里，连换手机都有预案。忘记密码这种事，在你身上很少发生。",
+        "永远不会被锁在门外。",
+        "搞出一套只有你懂的系统。",
+        "别急，都在密码库里。"
+      ],
+      "D": [
+        "侦探",
+        "点“登录”之前，你会逐个字符检查。",
+        "你会看大写锁定有没有开、邮箱对不对，还有那个“0”是不是其实是“O”。账号被锁之前，你就找到了错误。",
+        "第三次尝试前找出问题。",
+        "检查太久，验证码过期了。",
+        "等等，有没有带点？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时找回三个账号。",
+        "一个标签页开着邮箱，一个等着验证码，手机在收短信，电脑又在要别的东西。你一起搞定，最后每个都登上了。",
+        "一次解决好几个账号。",
+        "搞混哪个验证码是哪个账号的。",
+        "等下，这个码是银行的还是游戏的？"
+      ],
+      "F": [
+        "终结者",
+        "忘了？点“忘记密码”，完事。",
+        "你不浪费时间去回想。点重置、设新的、登录。别人还在第五次瞎猜，你已经登进去了。",
+        "两分钟内登上账号。",
+        "设了个新密码，结果也会忘。",
+        "重置吧。下一个！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "面对密码你会切换角色：能整理就整理，卡住了就检查，需要时同时处理多个账号，点“忘记”更快就直接点。",
+        "成为每个登录页面需要的那个人。",
+        "没人知道你到底用什么方法。",
+        "看是哪个账号。哪个卡住了？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切井井有条。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时搞定一千件事。",
+      "F": "关键时刻，你点“忘记密码”直接解决。"
+    },
+    "Q": [
+      [
+        "第三次“密码错误”。你：",
+        {
+          "A": "打开我的密码库",
+          "D": "检查大写锁定",
+          "M": "同时开三个标签页试",
+          "F": "点“忘记密码”"
+        }
+      ],
+      [
+        "设置新密码时，你会……",
+        {
+          "A": "照我一贯的规则来",
+          "D": "先把所有要求读一遍",
+          "M": "设好后马上同步到各处",
+          "F": "用第一个能通过的"
+        }
+      ],
+      [
+        "验证码一直收不到。你……",
+        {
+          "A": "早就存好了备用码",
+          "D": "检查号码有没有填错",
+          "M": "邮件、短信、电话一起要",
+          "F": "狂点“重新发送”直到收到"
+        }
+      ],
+      [
+        "你的密码都存在哪？",
+        {
+          "A": "密码管理器里，整整齐齐",
+          "D": "一个安全的地方，我经常检查",
+          "M": "东一个西一个，但我都记得在哪",
+          "F": "浏览器帮我记着，挺好"
+        }
+      ],
+      [
+        "朋友问你Wi-Fi密码。你……",
+        {
+          "A": "直接发过去，早就存好了",
+          "D": "走到路由器前凑近看",
+          "M": "一边发给他，一边回另外三个人",
+          "F": "直接在他手机上帮他输"
+        }
+      ],
+      [
+        "App要求你修改密码。你……",
+        {
+          "A": "这本来就在我的日程表上",
+          "D": "想先弄清楚为什么要改",
+          "M": "改完顺便把别的也更新了",
+          "F": "马上改，不多想"
+        }
+      ],
+      [
+        "你对付密码最大的毛病：",
+        {
+          "A": "我的系统太复杂了",
+          "D": "检查太久，验证码过期",
+          "M": "把各个账号的验证码搞混",
+          "F": "新密码转头就忘"
+        }
+      ],
+      [
+        "终于登进去了。你……",
+        {
+          "A": "记下来，下次别再发生",
+          "D": "检查有没有别人登过",
+          "M": "顺便把其他账号也登一遍",
+          "F": "办完事就退出"
+        }
+      ]
+    ]
+  }
+}

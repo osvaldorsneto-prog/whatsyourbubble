@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "plantas-em-casa",
+   "url": "/q/?s=plantas-em-casa",
+   "criado_em": "2026-11-10",
+   "categoria": "casa",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é cuidando de plantas?",
+    "en": "What's your bubble as a plant parent?",
+    "zh": "养植物时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "esqueci-a-senha",
+   "url": "/q/?s=esqueci-a-senha",
+   "criado_em": "2026-11-10",
+   "categoria": "celular",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é quando esquece a senha?",
+    "en": "What's your bubble when you forget a password?",
+    "zh": "忘记密码时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "dia-de-praia",
+   "url": "/q/?s=dia-de-praia",
+   "criado_em": "2026-11-10",
+   "categoria": "viagem",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é no dia de praia?",
+    "en": "What's your bubble on a beach day?",
+    "zh": "海边玩一天，你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "receita-nova",
    "url": "/q/?s=receita-nova",
    "criado_em": "2026-11-07",

@@ -1,0 +1,384 @@
+{
+  "slug": "dia-de-praia",
+  "criado_em": "2026-11-10",
+  "categoria": "viagem",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é no dia de praia?",
+    "lead": "Todo dia de praia tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você sabe a tábua da maré antes de pegar a toalha.",
+        "Pra você, praia boa começa na véspera: horário de sair, lugar pra estacionar, onde fincar o guarda-sol. Quando o grupo chega, você já sabe o melhor ponto da areia.",
+        "Garantir o melhor lugar da praia.",
+        "Planejar tanto que o sol vai embora.",
+        "Sai às sete que às nove não tem vaga."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere o protetor, a bandeira e a hora de voltar.",
+        "Você olha a cor da bandeira, a validade do protetor e se a barraca está firme mesmo. Ninguém sai do sol vermelho como camarão enquanto você estiver de olho.",
+        "Evitar o problema antes dele aparecer.",
+        "Conferir tanto que nem entra na água.",
+        "Passou protetor nas costas? Deixa eu ver."
+      ],
+      "M": [
+        "O Maestro",
+        "Você monta a barraca, divide o lanche e chama o vôlei.",
+        "Guarda-sol, cooler, música, frescobol e quem chegou atrasado: você cuida de tudo junto. Graças a você, o dia rende e ninguém fica parado.",
+        "Fazer o dia de praia render.",
+        "Cuidar de tudo e nem dar um mergulho.",
+        "Alguém segura aqui? Vou buscar o pessoal."
+      ],
+      "F": [
+        "O Finalizador",
+        "Chegou, largou a toalha e já tá no mar.",
+        "Você não precisa de guarda-sol perfeito nem de plano. Pega o essencial, chega e aproveita. Enquanto os outros arrumam as coisas, você já voltou do segundo mergulho.",
+        "Aproveitar a praia de verdade.",
+        "Esquecer o protetor e a chave do carro.",
+        "Arruma depois. Bora pra água!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Na praia você muda de papel: planeja quando é longe, confere quando o sol tá forte, cuida da turma quando ela é grande e corre pro mar quando é hora.",
+        "Ser o que o dia de praia precisa.",
+        "Ninguém saber se você vai planejar ou só aparecer.",
+        "Depende da praia. Quem vai?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você larga tudo e mergulha."
+    },
+    "Q": [
+      [
+        "Venta forte e o guarda-sol sai voando. Você:",
+        {
+          "A": "Eu avisei pra fincar fundo",
+          "D": "Vejo se tem alguém machucado",
+          "M": "Corro atrás e reorganizo a barraca",
+          "F": "Deixo ir e fico na toalha"
+        }
+      ],
+      [
+        "Alguém chama pra praia amanhã. Primeira reação?",
+        {
+          "A": "Já vejo horário, maré e vaga",
+          "D": "Confiro a previsão do tempo três vezes",
+          "M": "Monto o grupo e divido quem leva o quê",
+          "F": "Respondo \"bora\" e pronto"
+        }
+      ],
+      [
+        "Na bolsa de praia você leva...",
+        {
+          "A": "Tudo de uma lista feita ontem",
+          "D": "Protetor, kit de primeiros socorros e capa de celular",
+          "M": "Lanche pra todo mundo, bola e caixinha de som",
+          "F": "Toalha e chinelo, o resto se vê"
+        }
+      ],
+      [
+        "Hora de escolher o lugar na areia. Você...",
+        {
+          "A": "Já sei: perto do quiosque, longe do vento",
+          "D": "Analiso o sol, a sombra e a maré",
+          "M": "Junto as cadeiras de todo mundo num círculo",
+          "F": "Paro no primeiro espaço livre"
+        }
+      ],
+      [
+        "Alguém diz \"a água tá uma delícia!\". Você pensa:",
+        {
+          "A": "\"Claro, vim na maré certa\"",
+          "D": "\"Será? Deixa eu testar com o pé\"",
+          "M": "\"Ótimo, chama o resto da turma!\"",
+          "F": "\"Pronto, já tô indo\""
+        }
+      ],
+      [
+        "O sol some e começa a chuviscar. Você...",
+        {
+          "A": "Já tinha um plano B de almoço por perto",
+          "D": "Abro o radar pra ver se passa",
+          "M": "Junto todo mundo debaixo da barraca",
+          "F": "Fico na água, já tô molhado mesmo"
+        }
+      ],
+      [
+        "Seu maior defeito na praia:",
+        {
+          "A": "Planejo tanto que chego tarde",
+          "D": "Confiro tanto que nem relaxo",
+          "M": "Cuido de tudo e esqueço de mergulhar",
+          "F": "Esqueço o protetor e me queimo"
+        }
+      ],
+      [
+        "Fim do dia de praia. Você...",
+        {
+          "A": "Anoto o que faltou pra próxima",
+          "D": "Confiro se ninguém esqueceu nada na areia",
+          "M": "Já marca o próximo fim de semana",
+          "F": "Sacudo a areia e vou embora feliz"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a beach day?",
+    "lead": "Every beach day has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You check the tide times before grabbing a towel.",
+        "For you, a good beach day starts the night before: when to leave, where to park, where the umbrella goes. When the group turns up, you already know the best patch of sand.",
+        "Securing the best spot on the beach.",
+        "Planning so long the sun goes in.",
+        "Leave at seven, by nine there's no parking."
+      ],
+      "D": [
+        "The Detective",
+        "You check the sunscreen, the flags and the time to head back.",
+        "You check the flag colour, the sunscreen's date and whether the umbrella is really secure. Nobody comes home lobster-red while you're on watch.",
+        "Heading off trouble before it starts.",
+        "Checking so much you never get in the water.",
+        "Did you do your back? Let me see."
+      ],
+      "M": [
+        "The Maestro",
+        "You set up camp, share the snacks and start the volleyball.",
+        "Umbrella, cool box, music, beach bats and whoever turned up late: you handle it all together. Thanks to you, the day flows and nobody sits around.",
+        "Making the most of the beach day.",
+        "Looking after everything and never having a swim.",
+        "Can someone hold this? I'll go get the others."
+      ],
+      "F": [
+        "The Finisher",
+        "Arrived, dropped the towel, already in the sea.",
+        "You don't need the perfect umbrella or a plan. Grab the basics, turn up, enjoy. While everyone else is setting up, you're back from your second swim.",
+        "Actually enjoying the beach.",
+        "Forgetting the sunscreen and the car keys.",
+        "Sort it later. Let's get in!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "At the beach you switch roles: plan when it's far, check when the sun's strong, look after the gang when it's big and run into the sea when it's time.",
+        "Being whatever the beach day needs.",
+        "Nobody knowing if you'll plan or just show up.",
+        "Depends on the beach. Who's coming?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you drop everything and dive in."
+    },
+    "Q": [
+      [
+        "A gust of wind sends the umbrella flying. You:",
+        {
+          "A": "I said to dig it in deeper",
+          "D": "Check nobody's hurt",
+          "M": "Chase it and rebuild the camp",
+          "F": "Let it go and stay on my towel"
+        }
+      ],
+      [
+        "Someone suggests the beach tomorrow. First reaction?",
+        {
+          "A": "Check the time, tide and parking",
+          "D": "Check the forecast three times",
+          "M": "Start a group chat and split who brings what",
+          "F": "Reply \"let's go\" and that's it"
+        }
+      ],
+      [
+        "In your beach bag you pack...",
+        {
+          "A": "Everything from a list I made yesterday",
+          "D": "Sunscreen, a first-aid kit and a phone pouch",
+          "M": "Snacks for everyone, a ball and a speaker",
+          "F": "Towel and flip-flops, we'll see about the rest"
+        }
+      ],
+      [
+        "Time to pick a spot on the sand. You...",
+        {
+          "A": "Already know: near the café, out of the wind",
+          "D": "Weigh up sun, shade and the tide",
+          "M": "Pull everyone's chairs into a circle",
+          "F": "Stop at the first free space"
+        }
+      ],
+      [
+        "Someone says \"the water's lovely!\". You think:",
+        {
+          "A": "\"Of course, I picked the right tide\"",
+          "D": "\"Is it? Let me test it with a toe\"",
+          "M": "\"Great, call the others!\"",
+          "F": "\"Right, I'm going in\""
+        }
+      ],
+      [
+        "The sun goes in and it starts to drizzle. You...",
+        {
+          "A": "Already had a plan B for lunch nearby",
+          "D": "Open the radar to see if it passes",
+          "M": "Get everyone under the umbrella",
+          "F": "Stay in the sea, I'm wet anyway"
+        }
+      ],
+      [
+        "Your biggest flaw at the beach:",
+        {
+          "A": "I plan so much I arrive late",
+          "D": "I check so much I never relax",
+          "M": "I look after everyone and forget to swim",
+          "F": "I forget the sunscreen and burn"
+        }
+      ],
+      [
+        "End of the beach day. You...",
+        {
+          "A": "Note what was missing for next time",
+          "D": "Check nobody left anything on the sand",
+          "M": "Already book next weekend",
+          "F": "Shake off the sand and head home happy"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "海边玩一天，你是哪个泡泡？",
+    "lead": "每次去海边都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没拿毛巾，你就查好了潮汐表。",
+        "对你来说，好的海边一天从前一晚开始：几点出发、在哪停车、伞插在哪。大家到的时候，你早就知道沙滩上最好的位置。",
+        "抢到海滩上最好的位置。",
+        "规划太久，太阳都下山了。",
+        "七点出发，九点就没车位了。"
+      ],
+      "D": [
+        "侦探",
+        "你会检查防晒霜、警示旗和回程时间。",
+        "你会看旗子颜色、防晒霜的保质期，还有遮阳伞到底插稳没有。有你盯着，没人会晒成小龙虾回家。",
+        "在麻烦出现前就挡住它。",
+        "检查太多，自己都没下水。",
+        "背上涂防晒了吗？让我看看。"
+      ],
+      "M": [
+        "指挥家",
+        "你搭好营地、分好零食，还张罗排球。",
+        "遮阳伞、冰箱、音乐、沙滩球拍，还有迟到的朋友，你全都一起照顾。有你在，这一天过得满满当当，没人闲着。",
+        "让海边的一天玩得尽兴。",
+        "照顾所有人，自己一次都没下水。",
+        "谁帮我拿一下？我去接其他人。"
+      ],
+      "F": [
+        "终结者",
+        "一到就扔下毛巾，人已经在海里了。",
+        "你不需要完美的遮阳伞，也不需要计划。带上必需品，到了就玩。别人还在收拾东西，你已经第二次下水回来了。",
+        "真正享受海边。",
+        "忘带防晒霜，还忘了车钥匙。",
+        "回头再收拾，先下水！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "在海边你会切换角色：远的时候先规划，太阳毒的时候多检查，人多时照顾大家，到点了就冲进海里。",
+        "成为这一天最需要的那个人。",
+        "没人知道你会做计划还是直接出现。",
+        "看去哪个海边。都谁去？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你放下一切跳进海里。"
+    },
+    "Q": [
+      [
+        "一阵大风把遮阳伞吹飞了。你：",
+        {
+          "A": "我早说了要插深一点",
+          "D": "先看看有没有人受伤",
+          "M": "追回来，重新搭好营地",
+          "F": "随它去，我继续躺着"
+        }
+      ],
+      [
+        "有人约明天去海边。你的第一反应？",
+        {
+          "A": "马上查时间、潮汐和车位",
+          "D": "把天气预报看三遍",
+          "M": "建群，分好谁带什么",
+          "F": "回一句“走”，就这样"
+        }
+      ],
+      [
+        "你的海滩包里装着……",
+        {
+          "A": "昨天列好的清单上的所有东西",
+          "D": "防晒霜、急救包和手机防水袋",
+          "M": "给大家的零食、球和音箱",
+          "F": "毛巾和拖鞋，其他再说"
+        }
+      ],
+      [
+        "该在沙滩上选位置了。你……",
+        {
+          "A": "早想好了：靠近小卖部，避开风",
+          "D": "分析阳光、阴影和潮水",
+          "M": "把大家的椅子围成一圈",
+          "F": "看到第一个空位就停下"
+        }
+      ],
+      [
+        "有人说“水好舒服！”。你心想：",
+        {
+          "A": "“当然，我挑对了潮汐”",
+          "D": "“真的吗？我先用脚试试”",
+          "M": "“太好了，快叫其他人！”",
+          "F": "“好，我下去了”"
+        }
+      ],
+      [
+        "太阳躲起来，开始下毛毛雨。你……",
+        {
+          "A": "附近的午饭B计划早就准备好了",
+          "D": "打开雷达图看雨会不会停",
+          "M": "把大家都叫到伞下面",
+          "F": "待在海里，反正都湿了"
+        }
+      ],
+      [
+        "你在海边最大的毛病：",
+        {
+          "A": "规划太多，到得太晚",
+          "D": "检查太多，根本放松不下来",
+          "M": "照顾所有人，忘了自己下水",
+          "F": "忘涂防晒，晒伤了"
+        }
+      ],
+      [
+        "海边的一天结束了。你……",
+        {
+          "A": "记下缺了什么，下次带上",
+          "D": "检查有没有人落东西在沙滩上",
+          "M": "马上约好下个周末",
+          "F": "抖掉沙子，开开心心回家"
+        }
+      ]
+    ]
+  }
+}
