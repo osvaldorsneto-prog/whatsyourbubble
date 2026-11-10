@@ -246,9 +246,33 @@ def story(lang, k, out, preview=None):
 
 # ---------- Vídeo de divulgação de um quiz temático (quizzes/<slug>.json) ----------
 # Sem "link na bio": no TikTok o link da bio só fica clicável com 1.000 seguidores; o endereço vai escrito no vídeo
-QUI = {'pt': {'q1': 'Pergunta 1', 'which': 'Qual bolha é a sua?', 'cta': 'Descubra a sua', 'sub': '8 perguntas · 1 minuto'},
-       'en': {'q1': 'Question 1', 'which': "Which bubble are you?", 'cta': 'Find yours', 'sub': '8 questions · 1 minute'},
-       'zh': {'q1': '第1题', 'which': '你是哪个泡泡？', 'cta': '测出你的', 'sub': '8道题 · 1分钟'}}
+QUI = {'pt': {'q1': 'Pergunta 1', 'which': 'Qual bolha é a sua?', 'cta': 'Descubra a sua', 'sub': '8 perguntas · 1 minuto', 'ask': 'E você, qual escolheria?'},
+       'en': {'q1': 'Question 1', 'which': "Which bubble are you?", 'cta': 'Find yours', 'sub': '8 questions · 1 minute', 'ask': 'Which one would you pick?'},
+       'zh': {'q1': '第1题', 'which': '你是哪个泡泡？', 'cta': '测出你的', 'sub': '8道题 · 1分钟', 'ask': '你会选哪个？'}}
+
+# Pergunta aberta na tela durante a pergunta 1, pra puxar comentário.
+# Aberta de propósito: o Instagram disse que não recomenda post que pede comentário com palavra, número ou emoji específico.
+EMOJI_FONT = '/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf'
+_emo = {}
+def emoji_img(ch, size):
+    k = (ch, size)
+    if k not in _emo:
+        f = ImageFont.truetype(EMOJI_FONT, 109)            # fonte de bitmap: só desenha em 109
+        im = Image.new('RGBA', (180, 160), (0, 0, 0, 0))
+        ImageDraw.Draw(im).text((10, 10), ch, font=f, embedded_color=True)
+        im = im.crop(im.getbbox())
+        _emo[k] = im.resize((max(1, int(size * im.width / im.height)), size), Image.LANCZOS)
+    return _emo[k]
+
+def chip_pergunta(text, font, emo='👇', shadow=E.GOLD, padx=34, pady=18):
+    tmp = ImageDraw.Draw(Image.new('RGB', (10, 10)))
+    tw = tmp.textlength(text, font=font); asc, desc = font.getmetrics(); th = asc + desc
+    es = int(th * .9)
+    w, h = int(tw + padx * 2 + es + 16), int(th + pady * 2)
+    im = E.sticker(w, h, fill=E.WHITE, shadow=shadow, radius=min(46, h // 2), border=8, off=12)
+    ImageDraw.Draw(im).text((padx, pady), text, font=font, fill=E.INK)
+    e = emoji_img(emo, es); im.paste(e, (int(padx + tw + 16), int(pady + (th - es) / 2)), e)
+    return im
 
 def quiz(slug, lang, out, preview=None):
     import json
@@ -272,11 +296,16 @@ def _quiz(q, lang, out, preview):
     url = E.sticker_text('whatsyourbubble.com', F(BLACK, 58), wrap, 900, shadow=E.PINK, pad=(40, 22))
     # endereço pequeno no canto o vídeo todo (fora das áreas da legenda e dos botões do TikTok/Reels)
     canto = E.sticker_text('whatsyourbubble.com', F(BLACK, 34), wrap, 600, shadow=E.PINK, pad=(22, 12))
+    ask = chip_pergunta(u['ask'], F(BLACK, 46))
     T1, T2, T3, DUR = 2.4, 7.2, 10.2, 13.5
+    # pergunta comprida empurra as opções pra baixo: aí a pergunta aberta encostaria no endereço do canto, que some enquanto ela aparece
+    y_fim = 520 + balao.height / 2 + 50 + sum(o.height + 18 for o in opc)
+    esconde_canto = y_fim + 26 + ask.height + 24 > 1450 - canto.height / 2
     pos = {'A': (255, 640), 'D': (685, 640), 'M': (255, 1010), 'F': (685, 1010)}
     def frame(t):
         im = E.background(t); d = ImageDraw.Draw(im)
-        if t < T3: im.paste(canto, (60, int(1450 - canto.height / 2)), canto)   # na chamada final o endereço já aparece grande
+        if t < T3 and not (esconde_canto and T1 + 2.4 <= t < T2):    # na chamada final o endereço já aparece grande
+            im.paste(canto, (60, int(1450 - canto.height / 2)), canto)
         if t < T1:                                     # 1. título do quiz
             # O 1º quadro já é a capa (título + as 4 bolhas): TikTok e Reels usam ele como capa padrão
             st = E.scaled(titulo, 1, -2)
@@ -296,6 +325,8 @@ def _quiz(q, lang, out, preview):
                 st = E.scaled(o, s)
                 if st: im.paste(st, (int(SAFE_X - st.width / 2), int(y)), st)
                 y += o.height + 18
+            st = E.scaled(ask, ease_back((e - 2.4) / .35))   # entra logo depois da última opção
+            if st: paste_c(im, st, SAFE_X, y + 26 + ask.height / 2 + math.sin(t * 4) * 6)
         elif t < T3:                                   # 3. as 4 bolhas
             e = t - T2
             E.title_text(d, (SAFE_X, 260), u['which'], F(BLACK, 80), sw=10)
