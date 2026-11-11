@@ -1,0 +1,384 @@
+{
+  "slug": "apresentacao-de-trabalho",
+  "criado_em": "2026-11-11",
+  "categoria": "estudos",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é na apresentação de trabalho?",
+    "lead": "Toda apresentação tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você ensaia a apresentação antes de abrir o primeiro slide.",
+        "Pra você, apresentação boa começa no roteiro. Você sabe quem fala o quê, quanto tempo cada parte leva e tem um backup salvo em três lugares. Por isso nada te pega de surpresa.",
+        "Ter um plano B pra cada slide.",
+        "Ensaiar tanto que o grupo pede pra parar.",
+        "Cada um fala dois minutos. Eu cronometro."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum slide sai sem revisão.",
+        "Você confere a fonte, os números e o nome de cada autor citado. Nenhum erro de digitação passa. É graças a você que ninguém do grupo passa vergonha na frente da turma.",
+        "Achar o erro antes do professor.",
+        "Revisar tanto que o último slide fica pronto em cima da hora.",
+        "Peraí, esse gráfico tá com a fonte certa?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida dos slides, do grupo e do projetor ao mesmo tempo.",
+        "Você cuida de tudo junto: divide as partes, arruma os slides, testa o projetor e ainda acalma quem tá nervoso. Enquanto os outros cuidam da sua parte, você mantém a apresentação inteira de pé.",
+        "Fazer todo mundo funcionar junto.",
+        "Cuidar de tanta coisa que esquece a própria fala.",
+        "Você fala essa parte, eu passo os slides."
+      ],
+      "F": [
+        "O Finalizador",
+        "Apresentação feita é melhor que apresentação perfeita.",
+        "Você não espera o slide perfeito nem a frase ideal. Monta, sobe e apresenta. Enquanto os outros ainda discutem a cor do fundo, você já tá respondendo as perguntas.",
+        "Fazer a apresentação acontecer de verdade.",
+        "Improvisar um pouco mais do que devia.",
+        "Tá bom assim. Bora apresentar!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a apresentação pede: planeja quando dá tempo, revisa quando vale nota, organiza o grupo quando tá todo mundo perdido e resolve quando o prazo aperta.",
+        "Ser o que a apresentação precisa naquele momento.",
+        "Ninguém saber qual parte te dar.",
+        "Depende. Falta o quê?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de enrolar e apresenta."
+    },
+    "Q": [
+      [
+        "O slide não abre e a turma toda tá te olhando. Você:",
+        {
+          "A": "Abro o backup do e-mail",
+          "D": "Descubro qual cabo tá solto",
+          "M": "Faço piada até consertarem",
+          "F": "Apresento de cabeça mesmo"
+        }
+      ],
+      [
+        "O professor sorteia os grupos. Você...",
+        {
+          "A": "Já faço um cronograma com as datas de entrega",
+          "D": "Confiro as regras do trabalho duas vezes",
+          "M": "Crio o grupo e divido quem faz o quê",
+          "F": "Pego a minha parte e começo hoje"
+        }
+      ],
+      [
+        "Na véspera, alguém do grupo some. Você...",
+        {
+          "A": "Já tinha previsto e redistribuo a parte dele",
+          "D": "Vejo quando ele ficou online pela última vez",
+          "M": "Mando mensagem, divido a parte e acalmo o resto",
+          "F": "Faço a parte dele e pronto"
+        }
+      ],
+      [
+        "Seu papel no grupo é...",
+        {
+          "A": "Quem montou o roteiro da apresentação",
+          "D": "Quem revisa cada slide",
+          "M": "Quem junta tudo e passa os slides",
+          "F": "Quem garante que fica pronto"
+        }
+      ],
+      [
+        "O professor pergunta algo que ninguém estudou. Você:",
+        {
+          "A": "Respondo com o slide extra que preparei",
+          "D": "Lembro do detalhe que li na pesquisa",
+          "M": "Passo a palavra pra quem sabe e completo",
+          "F": "Respondo com confiança e sigo"
+        }
+      ],
+      [
+        "Faltam 10 minutos e o arquivo não tá pronto. Você...",
+        {
+          "A": "Abro a versão de ontem, que já tava quase boa",
+          "D": "Confiro o que falta e corrijo só o essencial",
+          "M": "Um termina, outro revisa, eu salvo e mando",
+          "F": "Fecho do jeito que tá e mando"
+        }
+      ],
+      [
+        "Seu maior defeito em apresentação:",
+        {
+          "A": "Ensaio tanto que o grupo cansa",
+          "D": "Reviso tanto que termino em cima da hora",
+          "M": "Cuido de tudo e esqueço a minha fala",
+          "F": "Improviso um pouco demais"
+        }
+      ],
+      [
+        "Apresentação concluída. Você...",
+        {
+          "A": "Anoto o que melhorar pra próxima",
+          "D": "Confiro a nota e os comentários do professor",
+          "M": "Agradeço o grupo e marco um lanche",
+          "F": "Respiro aliviado e esqueço o assunto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in a group presentation?",
+    "lead": "Every presentation has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You rehearse the presentation before opening slide one.",
+        "For you, a good presentation starts with a script. You know who says what, how long each part takes, and there's a backup saved in three places. That's why nothing catches you off guard.",
+        "Having a plan B for every slide.",
+        "Rehearsing so much the group begs you to stop.",
+        "Two minutes each. I'll time it."
+      ],
+      "D": [
+        "The Detective",
+        "No slide goes out unchecked.",
+        "You check the font, the numbers and every name you quote. No typo gets past you. You're the reason nobody in the group gets embarrassed in front of the class.",
+        "Finding the mistake before the teacher does.",
+        "Reviewing so long the last slide is ready at the last minute.",
+        "Hang on, is that chart's source right?"
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the slides, the group and the projector at once.",
+        "You do it all together: split the parts, tidy the slides, test the projector and still calm whoever's nervous. While others handle their bit, you keep the whole presentation standing.",
+        "Getting everyone to work together.",
+        "Handling so much you forget your own lines.",
+        "You take this part, I'll click the slides."
+      ],
+      "F": [
+        "The Finisher",
+        "Done beats perfect.",
+        "You don't wait for the perfect slide or the ideal sentence. Build it, upload it, present it. While others are still debating the background colour, you're already taking questions.",
+        "Actually getting the presentation delivered.",
+        "Winging it a little more than you should.",
+        "Good enough. Let's present!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the presentation needs: you plan when there's time, review when the grade matters, organise the group when everyone's lost and push it through when the deadline's close.",
+        "Being whatever the presentation needs right now.",
+        "Nobody knowing which part to give you.",
+        "Depends. What's missing?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop stalling and present."
+    },
+    "Q": [
+      [
+        "The slides won't open and the whole class is staring. You:",
+        {
+          "A": "Open the backup I emailed myself",
+          "D": "Find out which cable is loose",
+          "M": "Crack a joke while it gets fixed",
+          "F": "Present it from memory"
+        }
+      ],
+      [
+        "The teacher assigns the groups. You...",
+        {
+          "A": "Make a schedule with all the deadlines",
+          "D": "Check the assignment rules twice",
+          "M": "Set up the group chat and split who does what",
+          "F": "Grab my part and start today"
+        }
+      ],
+      [
+        "The night before, someone in the group goes quiet. You...",
+        {
+          "A": "Saw it coming and reassign their part",
+          "D": "Check when they were last online",
+          "M": "Message them, split their part and calm the rest",
+          "F": "Do their part myself and that's that"
+        }
+      ],
+      [
+        "Your role in the group is...",
+        {
+          "A": "The one who scripted the presentation",
+          "D": "The one reviewing every slide",
+          "M": "The one pulling it together and clicking the slides",
+          "F": "The one making sure it gets done"
+        }
+      ],
+      [
+        "The teacher asks something nobody studied. You:",
+        {
+          "A": "Answer with the bonus slide I prepared",
+          "D": "Remember a detail from the research",
+          "M": "Hand it to whoever knows and fill in the gaps",
+          "F": "Answer confidently and keep going"
+        }
+      ],
+      [
+        "10 minutes left and the file isn't ready. You...",
+        {
+          "A": "Open yesterday's version, which was nearly done",
+          "D": "Check what's missing and fix only the essentials",
+          "M": "One finishes, one reviews, I save and send",
+          "F": "Wrap it up as it is and send it"
+        }
+      ],
+      [
+        "Your biggest flaw in presentations:",
+        {
+          "A": "I rehearse so much the group gets tired",
+          "D": "I review so much I finish at the last minute",
+          "M": "I handle everything and forget my own lines",
+          "F": "I wing it a bit too much"
+        }
+      ],
+      [
+        "Presentation done. You...",
+        {
+          "A": "Note what to improve next time",
+          "D": "Check the grade and the teacher's comments",
+          "M": "Thank the group and plan a snack together",
+          "F": "Breathe out and forget all about it"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "做小组报告时你是哪个泡泡？",
+    "lead": "每次小组报告都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没打开第一页幻灯片，你就已经排练好了。",
+        "对你来说，好的报告从讲稿开始。你知道谁讲什么、每部分多长时间，还在三个地方存了备份。所以没有什么能让你措手不及。",
+        "每一页都有B计划。",
+        "排练太多，组员求你停下。",
+        "每人讲两分钟，我来计时。"
+      ],
+      "D": [
+        "侦探",
+        "没有一页幻灯片能不经检查就上场。",
+        "你会检查字体、数字和每个引用的名字。没有一个错别字能逃过你。正因为有你，组里没人在全班面前出糗。",
+        "比老师先发现错误。",
+        "检查太久，最后一页卡点才完成。",
+        "等等，这张图表的来源对吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时搞定幻灯片、组员和投影仪。",
+        "你什么都一起管：分配任务、整理幻灯片、测试投影仪，还安抚紧张的组员。别人只管自己那部分，你让整个报告稳稳进行。",
+        "让所有人一起运转起来。",
+        "管的事太多，忘了自己的台词。",
+        "这部分你讲，我来翻页。"
+      ],
+      "F": [
+        "终结者",
+        "完成胜过完美。",
+        "你不等完美的幻灯片，也不等完美的句子。做好、上传、开讲。别人还在争论背景颜色，你已经在回答提问了。",
+        "真正把报告讲完。",
+        "即兴发挥得有点多。",
+        "差不多了，开讲！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据报告的需要切换角色：有时间就规划，关系到分数就检查，大家都迷茫时就组织，截止日期临近就冲刺。",
+        "成为此刻报告最需要的人。",
+        "别人不知道该分给你哪部分。",
+        "看情况。还缺什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你不拖延直接开讲。"
+    },
+    "Q": [
+      [
+        "幻灯片打不开，全班都在看你。你：",
+        {
+          "A": "打开发到邮箱里的备份",
+          "D": "找出是哪根线松了",
+          "M": "讲个笑话，等别人修好",
+          "F": "直接凭记忆讲"
+        }
+      ],
+      [
+        "老师分好了小组。你……",
+        {
+          "A": "马上做一份带截止日期的时间表",
+          "D": "把作业要求看两遍",
+          "M": "建群，分配谁做什么",
+          "F": "领走自己那部分，今天就开工"
+        }
+      ],
+      [
+        "报告前一晚，有个组员突然不回消息了。你……",
+        {
+          "A": "早有预料，重新分配他的部分",
+          "D": "查他最后一次在线是什么时候",
+          "M": "给他发消息、分掉他的部分、安抚其他人",
+          "F": "自己把他那部分做了，完事"
+        }
+      ],
+      [
+        "你在小组里的角色是……",
+        {
+          "A": "写好报告流程的那个人",
+          "D": "检查每一页的那个人",
+          "M": "把内容合在一起并负责翻页的那个人",
+          "F": "确保报告能完成的那个人"
+        }
+      ],
+      [
+        "老师问了一个没人准备的问题。你：",
+        {
+          "A": "用我准备好的备用幻灯片回答",
+          "D": "想起资料里读过的一个细节",
+          "M": "让懂的人回答，我来补充",
+          "F": "自信地回答，继续往下讲"
+        }
+      ],
+      [
+        "还剩10分钟，文件还没做好。你……",
+        {
+          "A": "打开昨天那版，差不多已经好了",
+          "D": "检查缺什么，只改最重要的",
+          "M": "一个人收尾、一个人检查，我保存发送",
+          "F": "就这样收尾，直接发"
+        }
+      ],
+      [
+        "你做报告时最大的毛病：",
+        {
+          "A": "排练太多，组员都累了",
+          "D": "检查太多，卡点才完成",
+          "M": "什么都管，忘了自己的台词",
+          "F": "即兴发挥得有点多"
+        }
+      ],
+      [
+        "报告结束了。你……",
+        {
+          "A": "记下下次要改进的地方",
+          "D": "查看分数和老师的评语",
+          "M": "谢谢组员，约大家吃点东西",
+          "F": "松一口气，彻底忘掉这件事"
+        }
+      ]
+    ]
+  }
+}

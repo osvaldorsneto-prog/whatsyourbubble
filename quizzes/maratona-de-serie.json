@@ -1,0 +1,384 @@
+{
+  "slug": "maratona-de-serie",
+  "criado_em": "2026-11-11",
+  "categoria": "role",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é na maratona de série?",
+    "lead": "Toda maratona de série tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta o cronograma da temporada antes do primeiro episódio.",
+        "Pra você, maratona boa começa no planejamento. Você sabe quantos episódios cabem no fim de semana, a que horas parar e onde estão os lanches. Por isso você chega no final sem perder o fio.",
+        "Encaixar a temporada inteira no tempo certo.",
+        "Planejar tanto que o fim de semana começa sem a série.",
+        "São 10 episódios de 50 minutos. Dá até domingo."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma pista do roteiro passa por você.",
+        "Você repara no detalhe do fundo, volta a cena e descobre a reviravolta três episódios antes. Ninguém te engana com um final surpresa. É graças a você que o grupo entende a história.",
+        "Sacar o final antes de todo mundo.",
+        "Pausar tanto pra conferir que o episódio dura o dobro.",
+        "Volta aí. Você viu o que tava na mesa?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você assiste, comenta no grupo e faz pipoca ao mesmo tempo.",
+        "Você cuida de tudo junto: série, pipoca, mensagens e a teoria que tá rolando no grupo. Enquanto os outros só olham a tela, você mantém a maratona inteira acontecendo.",
+        "Fazer tudo ao mesmo tempo sem perder a cena.",
+        "Fazer tanta coisa que perde justo a reviravolta.",
+        "Pausa só um segundo que eu respondo o grupo."
+      ],
+      "F": [
+        "O Finalizador",
+        "Temporada terminada é melhor que temporada perfeita.",
+        "Você não espera o momento ideal nem o lugar perfeito no sofá. Aperta o play e vai até o fim. Enquanto os outros ainda tão no episódio 3, você já viu o final e tá pronto pra próxima.",
+        "Chegar no último episódio de verdade.",
+        "Pular a abertura e um pouco da história junto.",
+        "Só mais um. Tá acabando!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a série pede: planeja quando a temporada é longa, investiga quando tem mistério, faz tudo junto quando o grupo assiste com você e acelera quando o final tá perto.",
+        "Ser o que a maratona precisa naquele momento.",
+        "Ninguém saber que série te indicar.",
+        "Depende. É de mistério ou de comédia?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você aperta o play e vai até o fim."
+    },
+    "Q": [
+      [
+        "3h da manhã e o próximo episódio começou sozinho. Você:",
+        {
+          "A": "Paro: o plano era até o 5",
+          "D": "Confiro quantos faltam pro fim",
+          "M": "Faço pipoca e aviso o grupo",
+          "F": "Deixo rolar. Termino hoje"
+        }
+      ],
+      [
+        "Alguém te indica uma série nova. Você...",
+        {
+          "A": "Vejo quantas temporadas tem e encaixo na agenda",
+          "D": "Leio tudo sobre ela, menos os spoilers",
+          "M": "Já chamo o grupo pra assistir junto",
+          "F": "Dou play no primeiro episódio na hora"
+        }
+      ],
+      [
+        "A temporada termina num gancho enorme. Você...",
+        {
+          "A": "Já sabia: tinha visto a data da próxima temporada",
+          "D": "Volto a cena pra ver se deixei passar alguma pista",
+          "M": "Mando áudio no grupo, leio teorias e pego outro lanche",
+          "F": "Começo outra série na mesma hora"
+        }
+      ],
+      [
+        "Seu papel na maratona é...",
+        {
+          "A": "Quem fez o cronograma dos episódios",
+          "D": "Quem pausa pra explicar o que aconteceu",
+          "M": "Quem cuida do lanche, do controle e do grupo",
+          "F": "Quem garante que a temporada termina"
+        }
+      ],
+      [
+        "Alguém do seu lado pergunta \"quem é esse mesmo?\". Você:",
+        {
+          "A": "Explico com a linha do tempo da série",
+          "D": "Volto a cena e mostro a pista",
+          "M": "Explico, passo a pipoca e respondo o grupo",
+          "F": "\"Depois te explico, presta atenção\""
+        }
+      ],
+      [
+        "A internet cai no penúltimo episódio. Você...",
+        {
+          "A": "Já tinha baixado tudo, por precaução",
+          "D": "Testo o roteador, o cabo e o celular",
+          "M": "Ligo os dados do celular, aviso todo mundo e penso num plano B",
+          "F": "Vou ver na casa de alguém agora mesmo"
+        }
+      ],
+      [
+        "Seu maior defeito na maratona:",
+        {
+          "A": "Planejo tanto que começo tarde",
+          "D": "Pauso tanto que o episódio dura o dobro",
+          "M": "Faço mil coisas e perco a cena principal",
+          "F": "Pulo a abertura e um pouco da história"
+        }
+      ],
+      [
+        "Acabou a última temporada. Você...",
+        {
+          "A": "Já tenho a próxima série escolhida na lista",
+          "D": "Leio tudo pra ver se entendi o final",
+          "M": "Marco com o grupo pra comentar tudo",
+          "F": "Fecho o notebook e vou dormir. Missão cumprida"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble during a series binge?",
+    "lead": "Every binge-watch has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You map out the season before episode one.",
+        "For you, a good binge starts with a plan. You know how many episodes fit in the weekend, when to stop and where the snacks are. That's why you reach the finale without losing the thread.",
+        "Fitting the whole season in at just the right pace.",
+        "Planning so long the weekend starts without the show.",
+        "Ten episodes, fifty minutes each. Done by Sunday."
+      ],
+      "D": [
+        "The Detective",
+        "No plot clue gets past you.",
+        "You spot the detail in the background, rewind the scene and call the twist three episodes early. Nobody fools you with a surprise ending. You're the reason the group understands the story.",
+        "Figuring out the ending before anyone else.",
+        "Pausing to check so often each episode takes twice as long.",
+        "Go back. Did you see what was on the table?"
+      ],
+      "M": [
+        "The Maestro",
+        "You watch, text the group chat and make popcorn at once.",
+        "You handle it all together: the show, the snacks, the messages and the theory going round the group. While others just stare at the screen, you keep the whole binge running.",
+        "Doing everything at once without missing a scene.",
+        "Doing so much you miss the big twist.",
+        "Pause one sec, I'm replying to the group."
+      ],
+      "F": [
+        "The Finisher",
+        "A finished season beats a perfect one.",
+        "You don't wait for the ideal moment or the perfect sofa spot. Hit play and keep going to the end. While others are still on episode 3, you've seen the finale and you're ready for the next show.",
+        "Actually reaching the last episode.",
+        "Skipping the intro and a bit of the plot with it.",
+        "Just one more. Nearly there!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the show needs: you plan when the season's long, investigate when there's a mystery, juggle it all when friends watch with you and speed up when the finale's close.",
+        "Being whatever the binge needs right now.",
+        "Nobody knowing what show to recommend you.",
+        "Depends. Mystery or comedy?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let a single detail slip.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you hit play and see it through."
+    },
+    "Q": [
+      [
+        "3am and the next episode just started on its own. You:",
+        {
+          "A": "Stop: the plan was up to episode 5",
+          "D": "Check how many are left",
+          "M": "Make popcorn and text the group",
+          "F": "Let it roll. Finishing it tonight"
+        }
+      ],
+      [
+        "Someone recommends a new show. You...",
+        {
+          "A": "Check how many seasons and slot it into my week",
+          "D": "Read everything about it, minus spoilers",
+          "M": "Get the group together to watch it",
+          "F": "Hit play on episode one right away"
+        }
+      ],
+      [
+        "The season ends on a huge cliffhanger. You...",
+        {
+          "A": "Knew it: I'd already checked the next season's date",
+          "D": "Rewind to see if I missed a clue",
+          "M": "Voice-note the group, read theories and grab another snack",
+          "F": "Start a new show on the spot"
+        }
+      ],
+      [
+        "Your role in the binge is...",
+        {
+          "A": "The one who made the episode schedule",
+          "D": "The one pausing to explain what happened",
+          "M": "The one handling snacks, remote and group chat",
+          "F": "The one making sure the season gets finished"
+        }
+      ],
+      [
+        "Someone next to you asks \"wait, who's that?\". You:",
+        {
+          "A": "Explain with the show's full timeline",
+          "D": "Rewind and point out the clue",
+          "M": "Explain, pass the popcorn and reply to the group",
+          "F": "\"I'll tell you later, just watch\""
+        }
+      ],
+      [
+        "The Wi-Fi drops on the second-to-last episode. You...",
+        {
+          "A": "Had already downloaded it all, just in case",
+          "D": "Test the router, the cable and my phone",
+          "M": "Turn on mobile data, tell everyone and sort a plan B",
+          "F": "Head to a friend's place to watch it right now"
+        }
+      ],
+      [
+        "Your biggest flaw during a binge:",
+        {
+          "A": "I plan so much I start late",
+          "D": "I pause so much episodes take twice as long",
+          "M": "I do a hundred things and miss the key scene",
+          "F": "I skip the intro and a bit of the plot"
+        }
+      ],
+      [
+        "The final season's over. You...",
+        {
+          "A": "Already have the next show picked from my list",
+          "D": "Read everything to check I got the ending",
+          "M": "Set up a hangout to talk it all through",
+          "F": "Close the laptop and sleep. Mission complete"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "追剧时你是哪个泡泡？",
+    "lead": "每次追剧都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "第一集还没开始，你就排好了整季的进度。",
+        "对你来说，好的追剧从计划开始。你知道周末能看几集、几点停、零食放在哪。所以你总能看到结局还不乱。",
+        "把整季安排得刚刚好。",
+        "计划太久，周末开始了剧还没开。",
+        "10集，每集50分钟。周日刚好看完。"
+      ],
+      "D": [
+        "侦探",
+        "剧情里没有一条线索能逃过你。",
+        "你会注意背景里的细节，倒回去重看，提前三集猜出反转。谁也别想用意外结局骗你。正因为有你，大家才看懂了剧情。",
+        "比所有人先猜到结局。",
+        "暂停检查太多次，一集看了两倍时间。",
+        "倒回去。你看到桌上那个东西了吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边看剧，一边回群消息，一边做爆米花。",
+        "你什么都一起管：剧、零食、消息，还有群里正在讨论的理论。别人只盯着屏幕，你让整场追剧都转起来。",
+        "同时做所有事，还不漏掉一个镜头。",
+        "做的事太多，偏偏错过了大反转。",
+        "暂停一下，我回个群消息。"
+      ],
+      "F": [
+        "终结者",
+        "看完一季胜过看得完美。",
+        "你不等完美时机，也不挑沙发位置。按下播放，一路看到底。别人还在第3集，你已经看完结局，准备下一部了。",
+        "真正看到最后一集。",
+        "跳过片头，连带跳过一点剧情。",
+        "再看一集，快完了！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据剧的需要切换角色：季很长时就规划，有悬念时就推理，和朋友一起看时什么都管，快到结局时就加速。",
+        "成为此刻追剧最需要的人。",
+        "别人不知道该给你推荐什么剧。",
+        "看情况。是悬疑还是喜剧？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会放过任何一个细节。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你按下播放一路看完。"
+    },
+    "Q": [
+      [
+        "凌晨3点，下一集自动开始播放了。你：",
+        {
+          "A": "停：计划只看到第5集",
+          "D": "查一下还剩几集",
+          "M": "做爆米花，顺便发群消息",
+          "F": "让它继续，今晚看完"
+        }
+      ],
+      [
+        "有人给你推荐了一部新剧。你……",
+        {
+          "A": "查有几季，排进这周日程",
+          "D": "把介绍都看一遍，除了剧透",
+          "M": "马上拉群一起看",
+          "F": "立刻点开第一集"
+        }
+      ],
+      [
+        "这一季在超大悬念处结束了。你……",
+        {
+          "A": "早知道了：我查过下一季的日期",
+          "D": "倒回去看看有没有漏掉线索",
+          "M": "发语音到群里、看理论、再拿点零食",
+          "F": "当场开始看另一部剧"
+        }
+      ],
+      [
+        "你在追剧中的角色是……",
+        {
+          "A": "排好每集进度的那个人",
+          "D": "暂停解释剧情的那个人",
+          "M": "管零食、遥控器和群聊的那个人",
+          "F": "确保这一季看完的那个人"
+        }
+      ],
+      [
+        "旁边的人问：“这人是谁来着？”你：",
+        {
+          "A": "用整部剧的时间线解释",
+          "D": "倒回去指出那条线索",
+          "M": "一边解释，一边递爆米花，一边回群",
+          "F": "“回头再说，先看”"
+        }
+      ],
+      [
+        "看到倒数第二集时网断了。你……",
+        {
+          "A": "早就全部下载好了，以防万一",
+          "D": "检查路由器、网线和手机",
+          "M": "开手机流量、通知大家、想好B计划",
+          "F": "马上去朋友家接着看"
+        }
+      ],
+      [
+        "你追剧时最大的毛病：",
+        {
+          "A": "计划太多，开始太晚",
+          "D": "暂停太多，一集看两倍时间",
+          "M": "同时做太多事，错过关键镜头",
+          "F": "跳过片头，也跳过一点剧情"
+        }
+      ],
+      [
+        "最后一季看完了。你……",
+        {
+          "A": "清单上的下一部早就选好了",
+          "D": "到处查资料，确认看懂了结局",
+          "M": "约大家一起聊这部剧",
+          "F": "合上电脑睡觉，任务完成"
+        }
+      ]
+    ]
+  }
+}

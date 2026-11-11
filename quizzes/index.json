@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "maratona-de-serie",
+   "url": "/q/?s=maratona-de-serie",
+   "criado_em": "2026-11-11",
+   "categoria": "role",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é na maratona de série?",
+    "en": "What's your bubble during a series binge?",
+    "zh": "追剧时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "banho-no-cachorro",
+   "url": "/q/?s=banho-no-cachorro",
+   "criado_em": "2026-11-11",
+   "categoria": "pets",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é na hora do banho do cachorro?",
+    "en": "What's your bubble at dog bath time?",
+    "zh": "给狗洗澡时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "apresentacao-de-trabalho",
+   "url": "/q/?s=apresentacao-de-trabalho",
+   "criado_em": "2026-11-11",
+   "categoria": "estudos",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é na apresentação de trabalho?",
+    "en": "What's your bubble in a group presentation?",
+    "zh": "做小组报告时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "plantas-em-casa",
    "url": "/q/?s=plantas-em-casa",
    "criado_em": "2026-11-10",

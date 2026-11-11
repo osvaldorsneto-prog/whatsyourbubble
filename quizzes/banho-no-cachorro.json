@@ -1,0 +1,384 @@
+{
+  "slug": "banho-no-cachorro",
+  "criado_em": "2026-11-11",
+  "categoria": "pets",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é na hora do banho do cachorro?",
+    "lead": "Dar banho no cachorro revela quem você é. Qual dos 4 tipos é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você planeja o banho antes do cachorro desconfiar.",
+        "Pra você, banho de cachorro é operação com etapas. Toalha separada, água na temperatura certa e porta fechada antes de dizer a palavra proibida. Por isso o banho sai sem fuga.",
+        "Deixar tudo pronto antes da primeira gota.",
+        "Preparar tanto que o cachorro percebe e se esconde.",
+        "Toalha, xampu, porta fechada. Agora pode chamar."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum pelo sai do banho sem inspeção.",
+        "Você confere a temperatura da água, o rótulo do xampu e atrás das orelhas. Nenhuma pulga passa despercebida. É graças a você que o cachorro sai limpo de verdade.",
+        "Achar o carrapicho que ninguém viu.",
+        "Inspecionar tanto que o cachorro vai secando sozinho.",
+        "Peraí, que mancha é essa na pata?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você segura o cachorro, a mangueira e a playlist ao mesmo tempo.",
+        "Você cuida de tudo junto: ensaboa, acalma, enxágua e ainda grava o vídeo pro grupo. Enquanto os outros só seguram a coleira, você mantém o banho inteiro funcionando.",
+        "Fazer tudo ao mesmo tempo sem soltar a coleira.",
+        "Abrir mil frentes e esquecer a toalha no varal.",
+        "Segura aqui que eu já pego o secador."
+      ],
+      "F": [
+        "O Finalizador",
+        "Cachorro limpo é melhor que cachorro perfeito.",
+        "Você não espera o momento ideal nem o xampu certo. Pega no colo, molha, ensaboa, enxágua e pronto. Enquanto os outros negociam com o cachorro, ele já tá cheiroso.",
+        "Fazer o banho acontecer de verdade.",
+        "Deixar um pouco de espuma atrás da orelha.",
+        "Molhou, ensaboou, acabou!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o banho pede: planeja quando o cachorro é fujão, confere quando ele rolou na lama, faz tudo junto quando a bagunça começa e resolve rápido quando ele tá tremendo.",
+        "Ser o que o banho precisa naquele momento.",
+        "Ninguém saber em que função te colocar.",
+        "Depende. Ele tá onde agora?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de enrolar e resolve."
+    },
+    "Q": [
+      [
+        "O cachorro ouviu a palavra \"banho\" e sumiu. Você:",
+        {
+          "A": "Fecho tudo antes de chamar",
+          "D": "Sigo o rastro até o esconderijo",
+          "M": "Chamo a casa toda pra cercar",
+          "F": "Pego no colo e vou pro chuveiro"
+        }
+      ],
+      [
+        "Antes do banho, você...",
+        {
+          "A": "Separo toalha, xampu e escova numa fileira",
+          "D": "Leio o rótulo do xampu inteirinho",
+          "M": "Arrumo o banheiro, chamo ajuda e ponho música",
+          "F": "Ligo o chuveiro e pronto"
+        }
+      ],
+      [
+        "O cachorro decide se sacudir no meio do banho. Você...",
+        {
+          "A": "Já tinha posto uma toalha na frente pra isso",
+          "D": "Confiro se ainda sobrou espuma em algum lugar",
+          "M": "Seguro ele, salvo o celular e rio ao mesmo tempo",
+          "F": "Aceito que agora eu também tomei banho"
+        }
+      ],
+      [
+        "Seu papel no banho é...",
+        {
+          "A": "Quem montou o passo a passo",
+          "D": "Quem confere atrás das orelhas",
+          "M": "Quem segura, ensaboa e acalma",
+          "F": "Quem garante que o banho acaba"
+        }
+      ],
+      [
+        "Ele te olha com cara de abandonado no chuveiro. Você pensa:",
+        {
+          "A": "\"Faltam só duas etapas, aguenta\"",
+          "D": "\"Será que a água tá quente demais?\"",
+          "M": "\"Calma, já vem petisco, música e carinho\"",
+          "F": "\"Mais um minuto e acabou, prometo\""
+        }
+      ],
+      [
+        "Ele escapa molhado e corre pro sofá. Você...",
+        {
+          "A": "Já tinha coberto o sofá com um lençol",
+          "D": "Rastreio cada pegada molhada pela casa",
+          "M": "Um pega a toalha, outro fecha a porta, eu corro atrás",
+          "F": "Seco ele no sofá mesmo e resolvo"
+        }
+      ],
+      [
+        "Seu maior defeito na hora do banho:",
+        {
+          "A": "Preparo tanto que ele desconfia e foge",
+          "D": "Confiro tanto que ele fica com frio",
+          "M": "Faço mil coisas e esqueço a toalha",
+          "F": "Às vezes sobra espuma atrás da orelha"
+        }
+      ],
+      [
+        "Banho dado. Você...",
+        {
+          "A": "Anoto a data do próximo no calendário",
+          "D": "Cheiro o cachorro pra ver se ficou bom mesmo",
+          "M": "Mando foto no grupo e já limpo o banheiro",
+          "F": "Deito no sofá. Missão cumprida"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at dog bath time?",
+    "lead": "Bathing the dog shows who you really are. Which of the 4 types are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You plan the bath before the dog suspects a thing.",
+        "For you, a dog bath is an operation with steps. Towel ready, water at the right temperature and doors shut before you say the forbidden word. That's why your baths end without an escape.",
+        "Having everything ready before the first drop.",
+        "Prepping so long the dog figures it out and hides.",
+        "Towel, shampoo, door shut. Now you can call him."
+      ],
+      "D": [
+        "The Detective",
+        "No fur leaves the tub without inspection.",
+        "You check the water temperature, the shampoo label and behind the ears. No flea goes unnoticed. You're the reason the dog comes out actually clean.",
+        "Finding the burr nobody else spotted.",
+        "Inspecting so long the dog air-dries.",
+        "Hang on, what's that spot on his paw?"
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the dog, the hose and the playlist at once.",
+        "You do it all together: lather, calm, rinse and still film it for the group chat. While others just hold the lead, you keep the whole bath running.",
+        "Doing everything at once without letting go of the collar.",
+        "Juggling so much you leave the towel on the line.",
+        "Hold him here, I'll grab the dryer."
+      ],
+      "F": [
+        "The Finisher",
+        "A clean dog beats a perfect bath.",
+        "You don't wait for the right moment or the right shampoo. Pick up, wet, lather, rinse, done. While others negotiate with the dog, he's already smelling great.",
+        "Actually getting the bath done.",
+        "Leaving a bit of foam behind an ear.",
+        "Wet, soap, rinse, done!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the bath needs: you plan when the dog's an escape artist, check when he's rolled in mud, juggle it all when chaos starts and wrap it up fast when he's shivering.",
+        "Being whatever bath time needs right now.",
+        "Nobody knowing which job to give you.",
+        "Depends. Where is he right now?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop stalling and get it done."
+    },
+    "Q": [
+      [
+        "The dog heard the word \"bath\" and vanished. You:",
+        {
+          "A": "Shut the doors before calling him",
+          "D": "Follow the trail to his hideout",
+          "M": "Get the whole house to corner him",
+          "F": "Scoop him up, straight to the shower"
+        }
+      ],
+      [
+        "Before the bath, you...",
+        {
+          "A": "Line up towel, shampoo and brush",
+          "D": "Read the whole shampoo label",
+          "M": "Set up the bathroom, call for help and put on music",
+          "F": "Turn on the water and that's it"
+        }
+      ],
+      [
+        "The dog decides to shake mid-bath. You...",
+        {
+          "A": "Already had a towel up for exactly this",
+          "D": "Check whether there's still soap anywhere",
+          "M": "Hold him, save my phone and laugh at the same time",
+          "F": "Accept that I've had a bath too now"
+        }
+      ],
+      [
+        "Your role at bath time is...",
+        {
+          "A": "The one who wrote the step-by-step",
+          "D": "The one checking behind the ears",
+          "M": "The one holding, soaping and calming",
+          "F": "The one making sure the bath actually ends"
+        }
+      ],
+      [
+        "He gives you a betrayed look in the shower. You think:",
+        {
+          "A": "\"Two steps left, hang in there\"",
+          "D": "\"Is the water too hot?\"",
+          "M": "\"Easy, treats, music and cuddles on the way\"",
+          "F": "\"One more minute and we're done, promise\""
+        }
+      ],
+      [
+        "He escapes soaking wet and runs to the sofa. You...",
+        {
+          "A": "Already covered the sofa with a sheet",
+          "D": "Track every wet paw print in the house",
+          "M": "One grabs the towel, one shuts the door, I chase",
+          "F": "Dry him right there on the sofa and move on"
+        }
+      ],
+      [
+        "Your biggest flaw at bath time:",
+        {
+          "A": "I prep so much he suspects and runs",
+          "D": "I check so much he gets cold",
+          "M": "I do a hundred things and forget the towel",
+          "F": "Sometimes there's foam left behind an ear"
+        }
+      ],
+      [
+        "Bath done. You...",
+        {
+          "A": "Put the next one in the calendar",
+          "D": "Sniff the dog to make sure it worked",
+          "M": "Post a photo to the group and clean the bathroom",
+          "F": "Flop on the sofa. Mission complete"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "给狗洗澡时你是哪个泡泡？",
+    "lead": "给狗洗澡最能看出你是谁。你是4种人里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "狗还没察觉，你就已经把洗澡规划好了。",
+        "对你来说，给狗洗澡是一场分步骤的行动。毛巾备好、水温调好、门关好，才说出那个禁忌的字。所以你主持的洗澡，狗从来跑不掉。",
+        "第一滴水落下前就一切就绪。",
+        "准备太久，狗察觉后躲起来了。",
+        "毛巾、沐浴露、门关好。现在可以叫它了。"
+      ],
+      "D": [
+        "侦探",
+        "没有一根毛能逃过检查就离开浴盆。",
+        "你会检查水温、沐浴露的标签，还有耳朵后面。没有一只跳蚤能逃过你的眼睛。正因为有你，狗才是真的洗干净了。",
+        "找到别人都没发现的草籽。",
+        "检查太久，狗都自己晾干了。",
+        "等等，它爪子上那块是什么？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时搞定狗、水管和歌单。",
+        "你什么都一起管：打泡、安抚、冲水，还顺手拍视频发群里。别人只会拉着牵引绳，你让整场洗澡顺利进行。",
+        "同时做所有事，还不松开项圈。",
+        "开的头太多，毛巾忘在晾衣架上。",
+        "你先按住它，我去拿吹风机。"
+      ],
+      "F": [
+        "终结者",
+        "洗干净胜过洗得完美。",
+        "你不等完美时机，也不挑沐浴露。抱起来、打湿、打泡、冲水，搞定。别人还在跟狗讲条件，它已经香喷喷了。",
+        "真正把澡洗完。",
+        "耳朵后面还留着一点泡沫。",
+        "打湿、打泡、冲干净，收工！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据洗澡的需要切换角色：狗爱逃跑时就规划，滚过泥巴时就检查，乱成一团时什么都管，它发抖时就速战速决。",
+        "成为此刻洗澡最需要的人。",
+        "别人不知道该给你分配什么活。",
+        "看情况。它现在躲哪儿了？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你不拖延直接搞定。"
+    },
+    "Q": [
+      [
+        "狗一听到“洗澡”就消失了。你：",
+        {
+          "A": "先关好门再叫它",
+          "D": "顺着线索找到它的藏身处",
+          "M": "叫全家一起围堵它",
+          "F": "直接抱起来进浴室"
+        }
+      ],
+      [
+        "洗澡前，你会……",
+        {
+          "A": "把毛巾、沐浴露和梳子排好",
+          "D": "把沐浴露标签从头读到尾",
+          "M": "收拾浴室、叫帮手、放音乐",
+          "F": "打开水龙头，就这样"
+        }
+      ],
+      [
+        "狗洗到一半突然开始甩水。你……",
+        {
+          "A": "早就挡好毛巾防这一招",
+          "D": "检查哪里还有泡沫没冲掉",
+          "M": "一边按住它、护住手机，一边笑",
+          "F": "接受现实：我也洗了个澡"
+        }
+      ],
+      [
+        "你在洗澡中的角色是……",
+        {
+          "A": "写好操作步骤的那个人",
+          "D": "检查耳朵后面的那个人",
+          "M": "又按住又打泡又安抚的那个人",
+          "F": "确保澡真的能洗完的那个人"
+        }
+      ],
+      [
+        "它在淋浴下用委屈的眼神看着你。你心想：",
+        {
+          "A": "“只剩两步了，坚持住”",
+          "D": "“水是不是太烫了？”",
+          "M": "“别怕，零食、音乐、抱抱马上到”",
+          "F": "“再一分钟就好，我保证”"
+        }
+      ],
+      [
+        "它湿漉漉地逃出来冲上沙发。你……",
+        {
+          "A": "早就用床单盖好了沙发",
+          "D": "追踪屋里每一个湿脚印",
+          "M": "一个拿毛巾，一个关门，我去追",
+          "F": "就在沙发上把它擦干，完事"
+        }
+      ],
+      [
+        "你给狗洗澡时最大的毛病：",
+        {
+          "A": "准备太多，它察觉后跑了",
+          "D": "检查太多，它都冷了",
+          "M": "同时做太多事，忘了拿毛巾",
+          "F": "有时耳朵后面还留着泡沫"
+        }
+      ],
+      [
+        "澡洗完了。你……",
+        {
+          "A": "把下次洗澡写进日历",
+          "D": "闻一闻，确认真的洗香了",
+          "M": "发照片到群里，顺手打扫浴室",
+          "F": "瘫在沙发上。任务完成"
+        }
+      ]
+    ]
+  }
+}
