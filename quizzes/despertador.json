@@ -1,0 +1,384 @@
+{
+  "slug": "despertador",
+  "criado_em": "2026-11-12",
+  "categoria": "celular",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é com o despertador?",
+    "lead": "Todo mundo acorda de um dos mesmos 4 jeitos. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Seus alarmes têm horário, nome e estratégia.",
+        "Pra você, acordar bem começa na noite anterior. Você calcula as horas de sono, programa o alarme certo e já sabe o que vai fazer primeiro. Por isso suas manhãs rendem.",
+        "Começar o dia com tudo planejado.",
+        "Programar tanto alarme que perde a conta.",
+        "Alarme 1 é aviso. O 2 é pra levantar."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere três vezes se o alarme tá ligado.",
+        "Antes de dormir você checa o volume, o dia da semana e se o celular tá carregando. Nada te pega de surpresa. É graças a você que ninguém em casa perde a hora.",
+        "Nunca perder um compromisso.",
+        "Acordar à noite pra conferir o alarme.",
+        "Tá no modo silencioso? Deixa eu ver."
+      ],
+      "M": [
+        "O Maestro",
+        "Você acorda e já resolve cinco coisas antes de levantar.",
+        "O alarme toca e você já responde mensagens, olha a agenda, acorda a casa e escolhe a roupa. Enquanto os outros abrem os olhos, sua manhã já tá rodando.",
+        "Fazer a manhã render como um dia inteiro.",
+        "Começar tanta coisa na cama que se atrasa.",
+        "Já tô de pé! Mais ou menos."
+      ],
+      "F": [
+        "O Finalizador",
+        "O alarme tocou, você levantou. Simples assim.",
+        "Você não negocia com o despertador. Tocou, pulou da cama, se arrumou e saiu. Enquanto os outros apertam soneca, você já tá na rua.",
+        "Sair de casa no horário, sempre.",
+        "Sair tão rápido que esquece alguma coisa.",
+        "Cinco minutos e eu tô pronto."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de jeito conforme o dia pede: planeja quando tem compromisso, confere quando é importante, resolve tudo de uma vez quando a manhã aperta e pula da cama quando precisa.",
+        "Ser o que a manhã precisa naquele dia.",
+        "Ninguém saber se você vai acordar cedo ou não.",
+        "Depende do dia. Que horas é o compromisso?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda planeja a manhã na noite anterior.",
+      "D": "você ainda confere o alarme antes de dormir.",
+      "M": "você ainda resolve mil coisas ao acordar.",
+      "F": "na hora certa, você pula da cama e vai."
+    },
+    "Q": [
+      [
+        "O despertador tocou pela 4ª vez. Você...",
+        {
+          "A": "Tudo bem, já calculei essas sonecas",
+          "D": "Confiro se esse é o alarme certo",
+          "M": "Respondo mensagens ainda deitado",
+          "F": "Pulo da cama e saio em 5 min"
+        }
+      ],
+      [
+        "Na noite anterior a um compromisso cedo, você...",
+        {
+          "A": "Calcula as horas de sono e programa tudo",
+          "D": "Confere o alarme três vezes",
+          "M": "Programa o alarme e já avisa o grupo",
+          "F": "Coloca um alarme e dorme"
+        }
+      ],
+      [
+        "Quantos alarmes você tem no celular?",
+        {
+          "A": "Vários, cada um com um nome",
+          "D": "Poucos, mas todos conferidos",
+          "M": "Um monte, pra cada coisa do dia",
+          "F": "Um só. Tocou, levantei"
+        }
+      ],
+      [
+        "Você acorda 10 minutos antes do alarme. Você...",
+        {
+          "A": "Aproveito pra adiantar o plano do dia",
+          "D": "Confiro se o alarme ia tocar mesmo",
+          "M": "Já pego o celular e começo o dia",
+          "F": "Levanto e pronto, ganhei 10 minutos"
+        }
+      ],
+      [
+        "Seu papel em casa de manhã é...",
+        {
+          "A": "Quem já deixou tudo pronto na véspera",
+          "D": "Quem confere se todo mundo acordou",
+          "M": "Quem faz café, acorda a casa e acha as chaves",
+          "F": "Quem sai primeiro"
+        }
+      ],
+      [
+        "O alarme não tocou e você acordou atrasado. Você...",
+        {
+          "A": "Uso meu plano B de manhã rápida",
+          "D": "Descubro o que deu errado no celular",
+          "M": "Aviso que vou atrasar e me arrumo ao mesmo tempo",
+          "F": "Me arrumo em tempo recorde e vou"
+        }
+      ],
+      [
+        "Seu maior defeito com o despertador:",
+        {
+          "A": "Tenho alarme demais pra lembrar",
+          "D": "Acordo de noite pra conferir o alarme",
+          "M": "Começo mil coisas na cama e me atraso",
+          "F": "Saio correndo e esqueço algo"
+        }
+      ],
+      [
+        "Fim de semana, sem alarme. Você...",
+        {
+          "A": "Já planejei a hora de acordar mesmo assim",
+          "D": "Confiro se desliguei todos os alarmes",
+          "M": "Acordo cedo e já invento programas",
+          "F": "Durmo até acordar e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with the alarm clock?",
+    "lead": "Everyone wakes up in one of the same 4 ways. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your alarms have times, names and a strategy.",
+        "For you, a good morning starts the night before. You work out your hours of sleep, set the right alarm and already know what comes first. That's why your mornings get things done.",
+        "Starting the day with everything planned.",
+        "Setting so many alarms you lose count.",
+        "Alarm 1 is a heads-up. Alarm 2 means get up."
+      ],
+      "D": [
+        "The Detective",
+        "You check three times that your alarm is on.",
+        "Before bed you check the volume, the day of the week and whether your phone is charging. Nothing catches you off guard. Thanks to you, nobody at home oversleeps.",
+        "Never missing an appointment.",
+        "Waking up at night to check the alarm.",
+        "Is it on silent? Let me look."
+      ],
+      "M": [
+        "The Maestro",
+        "You wake up and sort five things before getting up.",
+        "The alarm goes off and you're already replying to messages, checking your diary, waking the house and picking an outfit. While others are opening their eyes, your morning is already rolling.",
+        "Making the morning feel like a whole day.",
+        "Starting so much in bed that you run late.",
+        "I'm up! Sort of."
+      ],
+      "F": [
+        "The Finisher",
+        "The alarm went off, you got up. Simple as that.",
+        "You don't negotiate with the alarm. It rings, you jump out of bed, get ready and leave. While others hit snooze, you're already out the door.",
+        "Leaving the house on time, every time.",
+        "Leaving so fast you forget something.",
+        "Five minutes and I'm ready."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch styles as the day needs: you plan when there's something on, check when it matters, do it all at once when the morning is tight and leap out of bed when you have to.",
+        "Being whatever the morning needs that day.",
+        "Nobody knowing if you'll be up early or not.",
+        "Depends on the day. What time is it at?"
+      ]
+    },
+    "S2": {
+      "A": "you still plan your morning the night before.",
+      "D": "you still check the alarm before bed.",
+      "M": "you still sort a hundred things when you wake up.",
+      "F": "when it counts, you jump out of bed and go."
+    },
+    "Q": [
+      [
+        "Your alarm just went off for the 4th time. You...",
+        {
+          "A": "It's fine, I factored in these snoozes",
+          "D": "Check it's the right alarm",
+          "M": "Reply to messages still lying down",
+          "F": "Jump up and leave in 5 minutes"
+        }
+      ],
+      [
+        "The night before an early start, you...",
+        {
+          "A": "Work out your hours of sleep and set it all up",
+          "D": "Check the alarm three times",
+          "M": "Set the alarm and warn the group chat",
+          "F": "Set one alarm and go to sleep"
+        }
+      ],
+      [
+        "How many alarms are on your phone?",
+        {
+          "A": "Lots, each one with a name",
+          "D": "A few, but all double-checked",
+          "M": "Loads, one for every part of the day",
+          "F": "Just one. It rings, I'm up"
+        }
+      ],
+      [
+        "You wake up 10 minutes before the alarm. You...",
+        {
+          "A": "Use them to get ahead on the day's plan",
+          "D": "Check the alarm really was going to ring",
+          "M": "Grab my phone and start the day",
+          "F": "Get up, done, 10 minutes gained"
+        }
+      ],
+      [
+        "Your role at home in the morning is...",
+        {
+          "A": "The one who got everything ready the night before",
+          "D": "The one checking everyone is awake",
+          "M": "The one making coffee, waking the house and finding the keys",
+          "F": "The first one out the door"
+        }
+      ],
+      [
+        "The alarm didn't go off and you're late. You...",
+        {
+          "A": "Switch to my quick-morning plan B",
+          "D": "Work out what went wrong with my phone",
+          "M": "Message that I'm late while getting ready",
+          "F": "Get ready in record time and go"
+        }
+      ],
+      [
+        "Your biggest flaw with alarms:",
+        {
+          "A": "I have too many alarms to keep track of",
+          "D": "I wake up at night to check the alarm",
+          "M": "I start a hundred things in bed and run late",
+          "F": "I rush out and forget something"
+        }
+      ],
+      [
+        "Weekend, no alarm. You...",
+        {
+          "A": "Still planned what time to wake up",
+          "D": "Check I switched off every alarm",
+          "M": "Wake up early and start making plans",
+          "F": "Sleep until I wake up, that's it"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "面对闹钟，你是哪个泡泡？",
+    "lead": "每个人起床的方式都逃不出这4种。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的闹钟有时间、有名字、还有策略。",
+        "对你来说，好的早晨从前一晚就开始了。你会算好睡眠时间，设好合适的闹钟，起床后第一件事做什么也早就想好了。所以你的早上总是很高效。",
+        "带着完整的计划开始一天。",
+        "设了太多闹钟，自己都数不清。",
+        "第一个闹钟是提醒，第二个才是起床。"
+      ],
+      "D": [
+        "侦探",
+        "你会检查三遍闹钟有没有开。",
+        "睡前你会检查音量、星期几，还有手机有没有在充电。没有什么能让你措手不及。多亏有你，家里没人会睡过头。",
+        "从不错过任何约定。",
+        "半夜醒来检查闹钟。",
+        "是不是静音了？我看看。"
+      ],
+      "M": [
+        "指挥家",
+        "你醒来还没下床，就已经处理了五件事。",
+        "闹钟一响，你已经在回消息、看日程、叫全家起床、挑衣服了。别人刚睁开眼，你的早晨已经运转起来了。",
+        "让一个早上过得像一整天。",
+        "在床上开始太多事，结果迟到了。",
+        "我起来了！差不多吧。"
+      ],
+      "F": [
+        "终结者",
+        "闹钟响了，你就起床。就这么简单。",
+        "你从不跟闹钟讨价还价。一响就跳下床，收拾好就出门。别人还在按“稍后提醒”，你已经在路上了。",
+        "每次都准时出门。",
+        "出门太快，忘带东西。",
+        "给我五分钟，马上好。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据当天的需要切换方式：有安排时提前计划，重要时仔细检查，早上赶时间就一口气搞定，需要时一秒跳下床。",
+        "成为那天早上最需要的样子。",
+        "别人不知道你明天会不会早起。",
+        "看情况。约的是几点？"
+      ]
+    },
+    "S2": {
+      "A": "你还是会在前一晚计划好早上。",
+      "D": "你睡前还是会检查闹钟。",
+      "M": "你醒来还是会同时处理一堆事。",
+      "F": "关键时刻，你一秒跳下床就出发。"
+    },
+    "Q": [
+      [
+        "闹钟已经响了第4次。你……",
+        {
+          "A": "没事，这几次贪睡我早算好了",
+          "D": "先确认是不是对的那个闹钟",
+          "M": "躺着先回几条消息",
+          "F": "跳下床，5分钟出门"
+        }
+      ],
+      [
+        "第二天要早起，前一晚你……",
+        {
+          "A": "算好睡眠时间，把一切设好",
+          "D": "把闹钟检查三遍",
+          "M": "设好闹钟，顺便在群里提醒大家",
+          "F": "设一个闹钟就睡"
+        }
+      ],
+      [
+        "你手机里有几个闹钟？",
+        {
+          "A": "好多个，每个都有名字",
+          "D": "不多，但每个都检查过",
+          "M": "一大堆，一天里每件事一个",
+          "F": "就一个。响了就起"
+        }
+      ],
+      [
+        "你比闹钟早醒了10分钟。你……",
+        {
+          "A": "正好提前过一遍今天的计划",
+          "D": "确认一下闹钟到底会不会响",
+          "M": "拿起手机开始新的一天",
+          "F": "直接起床，赚了10分钟"
+        }
+      ],
+      [
+        "早上在家里，你的角色是……",
+        {
+          "A": "前一晚就把一切准备好的那个人",
+          "D": "确认每个人都起床了的那个人",
+          "M": "煮咖啡、叫醒全家、找钥匙的那个人",
+          "F": "第一个出门的那个人"
+        }
+      ],
+      [
+        "闹钟没响，你起晚了。你……",
+        {
+          "A": "启动我的快速出门B计划",
+          "D": "研究手机到底哪里出了问题",
+          "M": "一边收拾一边发消息说会晚到",
+          "F": "用最快速度收拾好出门"
+        }
+      ],
+      [
+        "你和闹钟之间最大的毛病：",
+        {
+          "A": "闹钟太多，记不住哪个是哪个",
+          "D": "半夜醒来检查闹钟",
+          "M": "在床上开始一堆事，结果迟到",
+          "F": "冲出门，总会忘点什么"
+        }
+      ],
+      [
+        "周末，没有闹钟。你……",
+        {
+          "A": "还是计划好了几点起",
+          "D": "确认所有闹钟都关了",
+          "M": "早早醒来，开始安排活动",
+          "F": "睡到自然醒，就这样"
+        }
+      ]
+    ]
+  }
+}

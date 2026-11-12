@@ -1,0 +1,384 @@
+{
+  "slug": "karaoke",
+  "criado_em": "2026-11-12",
+  "categoria": "role",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é no karaokê?",
+    "lead": "Todo karaokê tem os mesmos 4 tipos de cantor. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você chega no karaokê com a setlist pronta.",
+        "Pra você, karaokê bom tem estratégia. Você sabe qual música abre a noite, qual levanta a galera e qual fica pro final. Por isso sua vez nunca é um tiro no escuro.",
+        "Escolher a música certa pro momento certo.",
+        "Ensaiar tanto que a sua vez chega e passa.",
+        "Calma, a minha é a terceira da lista."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma letra errada passa batido por você.",
+        "Você percebe quando a letra na tela tá errada, quando o tom tá alto demais e quando alguém pulou a fila. Graças a você, a noite segue nos trilhos.",
+        "Achar o detalhe que ninguém viu.",
+        "Corrigir a letra no meio do refrão.",
+        "Peraí, não é assim que essa parte vai."
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do microfone, da fila e do coro ao mesmo tempo.",
+        "Você anota os pedidos, puxa o coro, passa o microfone e ainda lembra quem não cantou. Enquanto cada um pensa na sua música, você faz a noite inteira acontecer.",
+        "Fazer todo mundo cantar pelo menos uma.",
+        "Organizar tanto que esquece de cantar.",
+        "Quem ainda não foi? Bora, próximo!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Microfone na mão é música cantada.",
+        "Você não perde tempo escolhendo a música perfeita. Pegou o microfone, cantou do começo ao fim e devolveu sorrindo. Enquanto os outros pensam, você já levou aplausos.",
+        "Tirar a timidez da sala.",
+        "Escolher uma música que você não sabe a letra.",
+        "Solta a música que eu vou!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a noite pede: planeja a setlist, confere a letra, organiza a fila ou só pega o microfone e solta a voz.",
+        "Ser o que o karaokê precisa naquele momento.",
+        "Ninguém saber se você vai cantar ou organizar.",
+        "Depende do clima. Qual a próxima?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda chega com a música escolhida.",
+      "D": "você não deixa uma letra errada passar.",
+      "M": "você ainda cuida da fila de todo mundo.",
+      "F": "na hora H, você pega o microfone e vai."
+    },
+    "Q": [
+      [
+        "Te passaram o microfone sem aviso. E agora?",
+        {
+          "A": "Peço 1 minuto pra escolher a música",
+          "D": "Confiro se a letra na tela tá certa",
+          "M": "Chamo a galera pra cantar junto",
+          "F": "Canto a primeira que aparecer"
+        }
+      ],
+      [
+        "Alguém propõe um karaokê na sexta. Você...",
+        {
+          "A": "Já penso em 3 músicas e na ordem",
+          "D": "Pergunto onde é e se o som é bom",
+          "M": "Crio o grupo e chamo todo mundo",
+          "F": "Respondo \"tô dentro\" na hora"
+        }
+      ],
+      [
+        "Na hora de escolher a música, você...",
+        {
+          "A": "Escolhe pensando no clima da sala",
+          "D": "Confere se sabe mesmo a letra toda",
+          "M": "Escolhe uma que todo mundo canta junto",
+          "F": "Pega a primeira que vier na cabeça"
+        }
+      ],
+      [
+        "A música é mais aguda do que você lembrava. Você...",
+        {
+          "A": "Já tinha uma versão mais baixa separada",
+          "D": "Percebe no primeiro verso e ajusta o tom",
+          "M": "Chama o coro pra te ajudar",
+          "F": "Vai até o fim no grito mesmo"
+        }
+      ],
+      [
+        "Seu papel no karaokê é...",
+        {
+          "A": "Quem montou a ordem das músicas",
+          "D": "Quem sabe todas as letras de cor",
+          "M": "Quem passa o microfone e anima a fila",
+          "F": "Quem nunca recusa um dueto"
+        }
+      ],
+      [
+        "Alguém canta a letra toda errada. Você...",
+        {
+          "A": "Anota pra sugerir outra música pra pessoa",
+          "D": "Canta baixinho a letra certa do lado",
+          "M": "Puxa o coro pra ninguém perceber",
+          "F": "Aplaude forte e pede bis"
+        }
+      ],
+      [
+        "Seu maior defeito no karaokê:",
+        {
+          "A": "Planejo tanto que canto pouco",
+          "D": "Fico de olho em cada nota desafinada",
+          "M": "Organizo a fila e esqueço de cantar",
+          "F": "Escolho músicas que não sei direito"
+        }
+      ],
+      [
+        "Fim da noite. Você...",
+        {
+          "A": "Já anota as músicas pra próxima vez",
+          "D": "Confere quem pagou o quê",
+          "M": "Já marca o próximo karaokê",
+          "F": "Sai cantando até a porta"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at karaoke?",
+    "lead": "Every karaoke night has the same 4 kinds of singer. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You show up to karaoke with a setlist ready.",
+        "For you, good karaoke takes strategy. You know which song opens the night, which one gets the room going and which one saves the best for last. Your turn is never a shot in the dark.",
+        "Picking the right song for the right moment.",
+        "Rehearsing so long your turn comes and goes.",
+        "Relax, mine's third on the list."
+      ],
+      "D": [
+        "The Detective",
+        "No wrong lyric slips past you.",
+        "You notice when the lyrics on screen are wrong, when the key is too high and when someone jumped the queue. Thanks to you, the night stays on track.",
+        "Spotting the detail nobody else saw.",
+        "Correcting the lyrics mid-chorus.",
+        "Hang on, that's not how this bit goes."
+      ],
+      "M": [
+        "The Maestro",
+        "You run the mic, the queue and the backing choir at once.",
+        "You take requests, lead the singalong, pass the mic and still remember who hasn't sung yet. While everyone thinks about their song, you make the whole night happen.",
+        "Getting everyone to sing at least once.",
+        "Organising so much you forget to sing.",
+        "Who hasn't gone yet? Come on, next!"
+      ],
+      "F": [
+        "The Finisher",
+        "Mic in hand means song sung.",
+        "You don't waste time hunting for the perfect song. You grab the mic, sing it start to finish and hand it back grinning. While others are still deciding, you've already got applause.",
+        "Breaking the ice in the room.",
+        "Picking a song you don't actually know.",
+        "Hit play, I'm going!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the night needs: you plan the setlist, check the lyrics, run the queue or just grab the mic and let rip.",
+        "Being whatever the karaoke night needs right now.",
+        "Nobody knowing if you'll sing or organise.",
+        "Depends on the vibe. What's next?"
+      ]
+    },
+    "S2": {
+      "A": "you still turn up with your song picked.",
+      "D": "you don't let a wrong lyric slide.",
+      "M": "you still look after everyone in the queue.",
+      "F": "when it counts, you grab the mic and go."
+    },
+    "Q": [
+      [
+        "Someone hands you the mic out of nowhere. Now what?",
+        {
+          "A": "Ask for a minute to pick a song",
+          "D": "Check the lyrics on screen are right",
+          "M": "Get the whole room singing along",
+          "F": "Sing whatever comes up first"
+        }
+      ],
+      [
+        "Someone suggests karaoke on Friday. You...",
+        {
+          "A": "Already think of 3 songs and the order",
+          "D": "Ask where it is and if the sound's any good",
+          "M": "Start a group chat and invite everyone",
+          "F": "Reply \"I'm in\" straight away"
+        }
+      ],
+      [
+        "When picking a song, you...",
+        {
+          "A": "Choose based on the mood in the room",
+          "D": "Check you really know all the words",
+          "M": "Pick one everyone can sing along to",
+          "F": "Go with the first one that pops into your head"
+        }
+      ],
+      [
+        "The song is higher than you remembered. You...",
+        {
+          "A": "Already had a lower version lined up",
+          "D": "Notice on the first line and change the key",
+          "M": "Call in the choir to help you out",
+          "F": "Belt it out to the end anyway"
+        }
+      ],
+      [
+        "Your role at karaoke is...",
+        {
+          "A": "The one who planned the song order",
+          "D": "The one who knows every lyric by heart",
+          "M": "The one passing the mic and hyping the queue",
+          "F": "The one who never says no to a duet"
+        }
+      ],
+      [
+        "Someone sings the lyrics totally wrong. You...",
+        {
+          "A": "Make a note to suggest them a different song",
+          "D": "Quietly sing the right words next to them",
+          "M": "Start a singalong so nobody notices",
+          "F": "Clap loudly and shout \"encore\""
+        }
+      ],
+      [
+        "Your biggest flaw at karaoke:",
+        {
+          "A": "I plan so much I barely sing",
+          "D": "I notice every note that goes off",
+          "M": "I run the queue and forget to sing",
+          "F": "I pick songs I don't really know"
+        }
+      ],
+      [
+        "The night's over. You...",
+        {
+          "A": "Write down songs for next time",
+          "D": "Check who paid for what",
+          "M": "Already book the next karaoke night",
+          "F": "Leave singing all the way out the door"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "K歌时你是哪个泡泡？",
+    "lead": "每次K歌都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你来KTV之前，歌单就已经排好了。",
+        "对你来说，K歌也要讲策略。哪首开场、哪首炒热气氛、哪首压轴，你心里都有数。所以轮到你的时候，从来不会手忙脚乱。",
+        "在对的时刻点对的歌。",
+        "准备太久，轮到你时已经过了。",
+        "别急，我的是第三首。"
+      ],
+      "D": [
+        "侦探",
+        "屏幕上的歌词错一个字都逃不过你。",
+        "歌词打错了、调太高了、有人插队了，你都第一个发现。多亏有你，整晚都不会乱套。",
+        "发现别人没注意到的细节。",
+        "副歌唱到一半去纠正歌词。",
+        "等等，这句不是这么唱的。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管着麦克风、点歌单和大合唱。",
+        "你帮大家点歌、带头合唱、传麦克风，还记得谁还没唱。别人只想着自己的歌，你让整晚都热闹起来。",
+        "让每个人至少唱一首。",
+        "忙着张罗，忘了自己唱。",
+        "谁还没唱？来，下一个！"
+      ],
+      "F": [
+        "终结者",
+        "麦克风到手，歌就唱完了。",
+        "你不花时间挑完美的歌。拿起麦克风，从头唱到尾，笑着递给下一个人。别人还在纠结，你已经收获掌声了。",
+        "让害羞的气氛一下子热起来。",
+        "点了一首其实不会唱的歌。",
+        "放歌吧，我来了！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据当晚的需要切换角色：排歌单、对歌词、管点歌，或者干脆拿起麦克风开唱。",
+        "成为此刻K歌局最需要的人。",
+        "别人不知道你是来唱歌还是来张罗的。",
+        "看气氛。下一首是什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是会提前选好要唱的歌。",
+      "D": "你不会放过任何一句错词。",
+      "M": "你还是会照顾好每个人的点歌。",
+      "F": "关键时刻，你拿起麦克风就唱。"
+    },
+    "Q": [
+      [
+        "突然有人把麦克风塞给你。怎么办？",
+        {
+          "A": "给我一分钟选首歌",
+          "D": "先看屏幕上的歌词对不对",
+          "M": "拉全场一起合唱",
+          "F": "出来哪首唱哪首"
+        }
+      ],
+      [
+        "有人提议周五去K歌。你……",
+        {
+          "A": "马上想好三首歌和顺序",
+          "D": "先问在哪儿、音响好不好",
+          "M": "建群把大家都叫上",
+          "F": "秒回“我去”"
+        }
+      ],
+      [
+        "选歌的时候，你会……",
+        {
+          "A": "看现场气氛来选",
+          "D": "确认自己真的会唱全部歌词",
+          "M": "选一首大家都会的",
+          "F": "脑子里冒出哪首就唱哪首"
+        }
+      ],
+      [
+        "这首歌比你记得的高多了。你……",
+        {
+          "A": "早就准备好了降调版",
+          "D": "第一句就发现，马上调低",
+          "M": "喊大家一起来帮你唱",
+          "F": "硬着头皮吼到最后"
+        }
+      ],
+      [
+        "你在K歌局里的角色是……",
+        {
+          "A": "排好点歌顺序的那个人",
+          "D": "所有歌词都背得出的那个人",
+          "M": "传麦克风、催大家点歌的那个人",
+          "F": "从不拒绝合唱的那个人"
+        }
+      ],
+      [
+        "有人把歌词全唱错了。你……",
+        {
+          "A": "记下来，下次推荐他别的歌",
+          "D": "在旁边小声唱出正确歌词",
+          "M": "带头合唱，让大家听不出来",
+          "F": "使劲鼓掌，喊“再来一首”"
+        }
+      ],
+      [
+        "你K歌时最大的毛病：",
+        {
+          "A": "计划太多，自己没唱几首",
+          "D": "每个跑调的音都听得出来",
+          "M": "忙着安排点歌，忘了自己唱",
+          "F": "老点自己不太会的歌"
+        }
+      ],
+      [
+        "散场了。你……",
+        {
+          "A": "记下下次要唱的歌",
+          "D": "核对谁付了多少",
+          "M": "马上约好下一次K歌",
+          "F": "一路唱着走出门"
+        }
+      ]
+    ]
+  }
+}

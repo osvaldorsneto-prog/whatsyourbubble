@@ -1,0 +1,384 @@
+{
+  "slug": "corrida-de-rua",
+  "criado_em": "2026-11-12",
+  "categoria": "esporte",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é na corrida de rua?",
+    "lead": "Toda corrida de rua tem os mesmos 4 tipos de corredor. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já sabe o ritmo de cada quilômetro antes da largada.",
+        "Pra você, corrida boa começa semanas antes. Você tem planilha de treino, sabe a hora de acelerar e onde fica cada ponto de água. Por isso chega inteiro na linha de chegada.",
+        "Dividir o esforço do começo ao fim.",
+        "Planejar tanto que esquece de curtir o percurso.",
+        "Calma, no quilômetro 4 eu acelero."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere o relógio a cada 200 metros.",
+        "Você sabe seu ritmo, seus batimentos e quantos metros faltam. Nada passa sem você checar, do cadarço ao percurso. É graças a você que ninguém do grupo erra o caminho.",
+        "Saber exatamente como a corrida tá indo.",
+        "Olhar tanto o relógio que perde a paisagem.",
+        "Peraí, meu relógio marcou 5,1 km."
+      ],
+      "M": [
+        "O Maestro",
+        "Você corre, anima o grupo e tira foto ao mesmo tempo.",
+        "Você organiza a inscrição da galera, combina o encontro, puxa o ritmo de quem tá cansado e ainda registra tudo. Com você, a corrida vira um evento.",
+        "Fazer o grupo inteiro chegar junto.",
+        "Cuidar de todo mundo e esquecer do próprio ritmo.",
+        "Bora, gente, só mais um pouquinho!"
+      ],
+      "F": [
+        "O Finalizador",
+        "O que importa é cruzar a linha de chegada.",
+        "Você não precisa de planilha nem de relógio caro. Calçou o tênis, largou e só parou na chegada. Enquanto os outros calculam, você já tá com a medalha no peito.",
+        "Ir até o fim, aconteça o que acontecer.",
+        "Sair rápido demais na largada.",
+        "Já tô aqui, então vou até o fim!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a corrida pede: planeja quando precisa, confere quando vale, anima o grupo quando bate o cansaço e acelera quando a chegada aparece.",
+        "Ser o que a corrida precisa naquele momento.",
+        "Ninguém saber se você vai correr sério ou de boa.",
+        "Depende do dia. Qual o percurso?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de um plano de prova.",
+      "D": "você não larga sem conferir tudo.",
+      "M": "você ainda cuida do ritmo do grupo.",
+      "F": "na hora certa, você só corre e chega."
+    },
+    "Q": [
+      [
+        "Faltam 2 km e suas pernas pediram demissão. Você...",
+        {
+          "A": "Sigo o ritmo que planejei",
+          "D": "Olho o relógio pra entender o que houve",
+          "M": "Animo quem tá sofrendo do lado",
+          "F": "Penso na medalha e vou até o fim"
+        }
+      ],
+      [
+        "Um amigo te chama pra uma corrida de 5 km. Você...",
+        {
+          "A": "Monto uma planilha de treino na hora",
+          "D": "Pesquiso o percurso e a altimetria",
+          "M": "Chamo mais gente pra correr junto",
+          "F": "Me inscrevo antes de pensar duas vezes"
+        }
+      ],
+      [
+        "Na noite anterior, você...",
+        {
+          "A": "Separa a roupa e o lanche, tudo em ordem",
+          "D": "Confere o horário e o local da largada três vezes",
+          "M": "Responde o grupo e combina a carona da galera",
+          "F": "Dorme cedo e pronto"
+        }
+      ],
+      [
+        "Na largada, você...",
+        {
+          "A": "Se posiciona no grupo certo do seu ritmo",
+          "D": "Confere o cadarço e liga o relógio",
+          "M": "Tira uma selfie com todo mundo",
+          "F": "Sai na frente quando o apito toca"
+        }
+      ],
+      [
+        "Seu papel no grupo de corrida é...",
+        {
+          "A": "Quem monta o plano de treino",
+          "D": "Quem sabe o ritmo de cada um",
+          "M": "Quem organiza o encontro e anima a galera",
+          "F": "Quem sempre termina a prova"
+        }
+      ],
+      [
+        "Passa um ponto de água. Você...",
+        {
+          "A": "Já sabia que ele vinha no km 3",
+          "D": "Pega o copo e confere se é água mesmo",
+          "M": "Pega copos pra você e pro amigo do lado",
+          "F": "Pega sem diminuir o ritmo"
+        }
+      ],
+      [
+        "Seu maior defeito na corrida:",
+        {
+          "A": "Planejo tanto que não curto a paisagem",
+          "D": "Olho o relógio a cada minuto",
+          "M": "Cuido de todo mundo e esqueço de mim",
+          "F": "Saio rápido demais e pago no final"
+        }
+      ],
+      [
+        "Cruzou a linha de chegada. Você...",
+        {
+          "A": "Já pensa no plano da próxima prova",
+          "D": "Confere o tempo oficial no site",
+          "M": "Organiza a foto do grupo com as medalhas",
+          "F": "Vai direto atrás da banana e da água"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a fun run?",
+    "lead": "Every fun run has the same 4 kinds of runner. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You know your pace for every kilometre before the start.",
+        "For you, a good run starts weeks earlier. You have a training plan, you know when to speed up and where every water station is. That's why you reach the finish line in one piece.",
+        "Spreading the effort from start to finish.",
+        "Planning so much you forget to enjoy the route.",
+        "Relax, I speed up at kilometre 4."
+      ],
+      "D": [
+        "The Detective",
+        "You check your watch every 200 metres.",
+        "You know your pace, your heart rate and how far is left. Nothing goes unchecked, from your laces to the route. Thanks to you, nobody in the group takes a wrong turn.",
+        "Knowing exactly how the run is going.",
+        "Watching your watch so much you miss the view.",
+        "Hang on, my watch says 5.1 km."
+      ],
+      "M": [
+        "The Maestro",
+        "You run, cheer on the group and take photos all at once.",
+        "You sort out everyone's sign-ups, set the meeting point, pace the ones who are flagging and still capture it all. With you, a run becomes an event.",
+        "Getting the whole group over the line together.",
+        "Looking after everyone and forgetting your own pace.",
+        "Come on, guys, nearly there!"
+      ],
+      "F": [
+        "The Finisher",
+        "All that matters is crossing the finish line.",
+        "You don't need a training plan or a fancy watch. Shoes on, off you go, and you only stop at the finish. While others crunch numbers, you've already got the medal round your neck.",
+        "Going all the way, whatever happens.",
+        "Starting way too fast.",
+        "I'm here now, so I'm finishing!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the run needs: you plan when it matters, check when it's worth it, cheer the group when legs get heavy and sprint when the finish comes into view.",
+        "Being whatever the run needs right now.",
+        "Nobody knowing if you're running for time or for fun.",
+        "Depends on the day. What's the route?"
+      ]
+    },
+    "S2": {
+      "A": "you still like a plan for the run.",
+      "D": "you don't start without checking everything.",
+      "M": "you still look after the group's pace.",
+      "F": "when it counts, you just run and finish."
+    },
+    "Q": [
+      [
+        "2 km to go and your legs just handed in their notice. You...",
+        {
+          "A": "Stick to the pace I planned",
+          "D": "Check my watch to see what went wrong",
+          "M": "Cheer on whoever is struggling next to me",
+          "F": "Think of the medal and keep going"
+        }
+      ],
+      [
+        "A friend invites you to a 5K. You...",
+        {
+          "A": "Draw up a training plan right away",
+          "D": "Look up the route and the hills",
+          "M": "Get more people to come along",
+          "F": "Sign up before I've thought twice"
+        }
+      ],
+      [
+        "The night before, you...",
+        {
+          "A": "Lay out your kit and snack, all in order",
+          "D": "Check the start time and place three times",
+          "M": "Reply in the group chat and sort out lifts",
+          "F": "Go to bed early and that's it"
+        }
+      ],
+      [
+        "At the start line, you...",
+        {
+          "A": "Stand in the right group for your pace",
+          "D": "Check your laces and start your watch",
+          "M": "Take a selfie with everyone",
+          "F": "Shoot off the second the whistle goes"
+        }
+      ],
+      [
+        "Your role in the running group is...",
+        {
+          "A": "The one who writes the training plan",
+          "D": "The one who knows everyone's pace",
+          "M": "The one who sets the meet-up and hypes everyone",
+          "F": "The one who always finishes"
+        }
+      ],
+      [
+        "You pass a water station. You...",
+        {
+          "A": "Already knew it was coming at km 3",
+          "D": "Grab a cup and check it's actually water",
+          "M": "Grab cups for you and the friend next to you",
+          "F": "Grab one without slowing down"
+        }
+      ],
+      [
+        "Your biggest flaw on a run:",
+        {
+          "A": "I plan so much I don't enjoy the view",
+          "D": "I check my watch every minute",
+          "M": "I look after everyone and forget about me",
+          "F": "I start too fast and pay for it at the end"
+        }
+      ],
+      [
+        "You cross the finish line. You...",
+        {
+          "A": "Already think about the plan for the next one",
+          "D": "Check the official time online",
+          "M": "Organise the group photo with the medals",
+          "F": "Head straight for the bananas and water"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "路跑时你是哪个泡泡？",
+    "lead": "每次路跑都有同样的4种跑者。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没起跑，你就知道每一公里的配速了。",
+        "对你来说，好的路跑从几周前就开始了。你有训练计划，知道什么时候加速，每个补给站在哪儿。所以你总能稳稳地跑到终点。",
+        "把体力合理分配到全程。",
+        "计划太多，忘了享受沿途风景。",
+        "别急，第四公里我再加速。"
+      ],
+      "D": [
+        "侦探",
+        "你每跑200米就看一次手表。",
+        "你清楚自己的配速、心率和剩下的距离。从鞋带到路线，没有什么你不检查。多亏有你，队里没人跑错路。",
+        "准确掌握比赛的每个状态。",
+        "一直盯着手表，错过了风景。",
+        "等等，我的手表显示5.1公里。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边跑，一边给大家加油，一边拍照。",
+        "你帮大家报名、约好集合地点、陪跑累了的人，还顺手记录下一切。有你在，一次路跑就变成了一场活动。",
+        "让整个队伍一起冲过终点。",
+        "照顾所有人，忘了自己的配速。",
+        "加油，大家就快到了！"
+      ],
+      "F": [
+        "终结者",
+        "冲过终点线才是最重要的。",
+        "你不需要训练计划，也不需要昂贵的手表。穿上跑鞋就出发，到终点才停下。别人还在算数据，你已经挂上奖牌了。",
+        "不管怎样都坚持到底。",
+        "起跑冲得太快。",
+        "都来了，那就跑完！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据比赛的需要切换角色：该计划时计划，该检查时检查，大家累了就加油打气，看到终点就冲刺。",
+        "成为此刻路跑最需要的人。",
+        "别人不知道你是来拼成绩还是来玩的。",
+        "看当天状态。路线是什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢有个比赛计划。",
+      "D": "你不检查好一切不会起跑。",
+      "M": "你还是会照顾大家的配速。",
+      "F": "关键时刻，你只管跑到终点。"
+    },
+    "Q": [
+      [
+        "还剩2公里，你的腿已经递了辞职信。你……",
+        {
+          "A": "按计划的配速继续跑",
+          "D": "看手表研究哪里出了问题",
+          "M": "给旁边跑不动的人加油",
+          "F": "想着奖牌，坚持到底"
+        }
+      ],
+      [
+        "朋友约你跑5公里。你……",
+        {
+          "A": "马上做一份训练计划",
+          "D": "先查路线和爬坡",
+          "M": "再拉几个人一起跑",
+          "F": "想都没想就报名了"
+        }
+      ],
+      [
+        "比赛前一晚，你……",
+        {
+          "A": "把装备和零食摆得整整齐齐",
+          "D": "把起跑时间和地点确认三遍",
+          "M": "回群消息，安排大家拼车",
+          "F": "早点睡，就这样"
+        }
+      ],
+      [
+        "在起跑线上，你……",
+        {
+          "A": "站到适合自己配速的区域",
+          "D": "检查鞋带，打开手表",
+          "M": "拉大家一起自拍",
+          "F": "哨声一响就冲出去"
+        }
+      ],
+      [
+        "你在跑团里的角色是……",
+        {
+          "A": "制定训练计划的那个人",
+          "D": "知道每个人配速的那个人",
+          "M": "约集合、给大家打气的那个人",
+          "F": "每次都能跑完的那个人"
+        }
+      ],
+      [
+        "经过补给站。你……",
+        {
+          "A": "早就知道它在第3公里",
+          "D": "拿起杯子确认是不是水",
+          "M": "帮自己和旁边的朋友都拿一杯",
+          "F": "拿了就走，不减速"
+        }
+      ],
+      [
+        "你跑步时最大的毛病：",
+        {
+          "A": "计划太多，没心思看风景",
+          "D": "每分钟都看一次手表",
+          "M": "照顾所有人，忘了自己",
+          "F": "起跑太快，最后没力气"
+        }
+      ],
+      [
+        "冲过终点线了。你……",
+        {
+          "A": "已经在想下一场的计划",
+          "D": "上网查官方成绩",
+          "M": "张罗大家戴着奖牌合影",
+          "F": "直奔香蕉和水"
+        }
+      ]
+    ]
+  }
+}

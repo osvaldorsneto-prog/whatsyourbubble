@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "karaoke",
+   "url": "/q/?s=karaoke",
+   "criado_em": "2026-11-12",
+   "categoria": "role",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é no karaokê?",
+    "en": "What's your bubble at karaoke?",
+    "zh": "K歌时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "despertador",
+   "url": "/q/?s=despertador",
+   "criado_em": "2026-11-12",
+   "categoria": "celular",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é com o despertador?",
+    "en": "What's your bubble with the alarm clock?",
+    "zh": "面对闹钟，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "corrida-de-rua",
+   "url": "/q/?s=corrida-de-rua",
+   "criado_em": "2026-11-12",
+   "categoria": "esporte",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é na corrida de rua?",
+    "en": "What's your bubble on a fun run?",
+    "zh": "路跑时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "maratona-de-serie",
    "url": "/q/?s=maratona-de-serie",
    "criado_em": "2026-11-11",
