@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "louca-na-pia",
+   "url": "/q/?s=louca-na-pia",
+   "criado_em": "2026-11-13",
+   "categoria": "casa",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é com a louça na pia?",
+    "en": "What's your bubble with dishes in the sink?",
+    "zh": "面对水槽里的碗，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "caixa-de-entrada",
+   "url": "/q/?s=caixa-de-entrada",
+   "criado_em": "2026-11-13",
+   "categoria": "trabalho",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é com a caixa de e-mail lotada?",
+    "en": "What's your bubble with an overflowing inbox?",
+    "zh": "邮箱爆满时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "arrumar-a-mala",
+   "url": "/q/?s=arrumar-a-mala",
+   "criado_em": "2026-11-13",
+   "categoria": "viagem",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é arrumando a mala?",
+    "en": "What's your bubble when packing a suitcase?",
+    "zh": "收拾行李时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "karaoke",
    "url": "/q/?s=karaoke",
    "criado_em": "2026-11-12",

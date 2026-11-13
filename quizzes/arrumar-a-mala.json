@@ -1,0 +1,384 @@
+{
+  "slug": "arrumar-a-mala",
+  "criado_em": "2026-11-13",
+  "categoria": "viagem",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é arrumando a mala?",
+    "lead": "Toda viagem começa com a mala, e existem 4 jeitos de fechar o zíper. Qual é o seu?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Sua lista da mala fica pronta uma semana antes da viagem.",
+        "Pra você, mala boa começa num checklist. Você separa a roupa por dia, enrola as camisetas e sabe quanto pesa tudo. Por isso nunca falta nada quando você chega.",
+        "Caber a viagem inteira numa mala de mão.",
+        "Refazer a lista tantas vezes que a mala fica pra última hora.",
+        "Três dias? Então são três looks e um reserva."
+      ],
+      "D": [
+        "O Detetive",
+        "Nada entra na mala sem passar pela sua conferência.",
+        "Você confere o documento três vezes, testa o carregador e pesa a mala na balança do banheiro. Ninguém te pega sem adaptador de tomada. É graças a você que ninguém fica preso no check-in.",
+        "Lembrar do detalhe que todo mundo esquece.",
+        "Abrir a mala de novo só pra ver se o documento tá lá.",
+        "Documento, carregador, chave... deixa eu ver de novo."
+      ],
+      "M": [
+        "O Maestro",
+        "Você arruma a sua mala, a da família e ainda chama o carro.",
+        "Você faz tudo junto: separa a roupa, lembra o protetor solar de todo mundo, confirma o hotel e responde o grupo da viagem. Enquanto os outros arrumam uma mala, você arruma a viagem.",
+        "Organizar a viagem de todo mundo ao mesmo tempo.",
+        "Arrumar a mala de todos e esquecer a própria escova de dente.",
+        "Alguém pegou o carregador? Já tô chamando o carro."
+      ],
+      "F": [
+        "O Finalizador",
+        "Mala pronta é melhor que mala perfeita.",
+        "Você não faz lista nem dobra camiseta: abre o armário, joga o essencial e fecha o zíper sentando em cima. Em dez minutos você está pronto pra sair.",
+        "Arrumar a mala em dez minutos.",
+        "Chegar sem nenhuma meia combinando.",
+        "Coube? Então fecha."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a viagem pede: planeja a viagem longa, confere quando é pra fora do país, cuida de todo mundo na viagem em família e resolve em dez minutos quando o tempo aperta.",
+        "Ser o que a viagem precisa naquele momento.",
+        "Ninguém saber qual parte da viagem deixar com você.",
+        "Depende. Vamos ficar quantos dias?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você joga na mala e fecha."
+    },
+    "Q": [
+      [
+        "Você precisa sentar na mala pra ela fechar. Você...",
+        {
+          "A": "Desfaço e enrolo tudo direito",
+          "D": "Confiro o que dá pra tirar",
+          "M": "Divido nas malas dos outros",
+          "F": "Sento com mais força. Fecha!"
+        }
+      ],
+      [
+        "Quando você começa a arrumar a mala?",
+        {
+          "A": "Uma semana antes, com lista",
+          "D": "Dois dias antes, pra dar tempo de conferir",
+          "M": "Aos poucos, entre mil outras coisas",
+          "F": "Uma hora antes de sair"
+        }
+      ],
+      [
+        "Quantas roupas você leva pra 3 dias?",
+        {
+          "A": "Exatamente 3 looks e 1 reserva",
+          "D": "Olho a previsão do tempo antes de decidir",
+          "M": "As minhas e umas extras pra quem esquecer",
+          "F": "Duas camisetas e fé"
+        }
+      ],
+      [
+        "Na véspera da viagem, você...",
+        {
+          "A": "Deixo a mala pronta na porta",
+          "D": "Confiro o documento pela terceira vez",
+          "M": "Arrumo a mala e confirmo hotel, transporte e jantar",
+          "F": "Durmo tranquilo, amanhã eu vejo"
+        }
+      ],
+      [
+        "Alguém pergunta \"pegou o carregador?\". Você:",
+        {
+          "A": "\"Tá na lista, item 12\"",
+          "D": "\"Deixa eu abrir a mala e ver\"",
+          "M": "\"Peguei o meu e o de mais dois\"",
+          "F": "\"Se esqueci, compro lá\""
+        }
+      ],
+      [
+        "A mala passou do peso no check-in. Você...",
+        {
+          "A": "Impossível, eu pesei em casa",
+          "D": "Peço pra pesar de novo",
+          "M": "Redistribuo nas malas de todo mundo",
+          "F": "Visto três casacos e resolvo"
+        }
+      ],
+      [
+        "Seu maior defeito arrumando a mala:",
+        {
+          "A": "Refaço a lista tantas vezes que atraso",
+          "D": "Abro a mala de novo só pra conferir",
+          "M": "Arrumo a dos outros e esqueço a minha escova",
+          "F": "Sempre esqueço alguma coisa básica"
+        }
+      ],
+      [
+        "Voltou da viagem. A mala...",
+        {
+          "A": "É desfeita no mesmo dia e a lista é atualizada",
+          "D": "É revistada pra ver se não ficou nada no hotel",
+          "M": "Fica aberta enquanto já planejo a próxima",
+          "F": "Fica fechada num canto por uma semana"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when packing a suitcase?",
+    "lead": "Every trip starts with a suitcase, and there are 4 ways to zip it shut. Which one's yours?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your packing list is ready a week before the trip.",
+        "For you, good packing starts with a checklist. You plan outfits by day, roll your T-shirts and know exactly what it all weighs. That's why you never arrive missing anything.",
+        "Fitting a whole trip into hand luggage.",
+        "Redoing the list so often you end up packing last minute.",
+        "Three days? Then three outfits and a spare."
+      ],
+      "D": [
+        "The Detective",
+        "Nothing goes in the case without passing your inspection.",
+        "You check your passport three times, test the charger and weigh the case on the bathroom scales. Nobody catches you without a plug adapter. You're the reason nobody gets stuck at check-in.",
+        "Remembering the detail everyone else forgets.",
+        "Reopening the case just to see if the passport's still there.",
+        "Passport, charger, keys... let me check again."
+      ],
+      "M": [
+        "The Maestro",
+        "You pack your case, the family's, and book the taxi.",
+        "You do it all together: sort the clothes, remember everyone's sun cream, confirm the hotel and answer the trip group chat. While others pack a suitcase, you pack the whole trip.",
+        "Organising everyone's trip at once.",
+        "Packing for everyone and forgetting your own toothbrush.",
+        "Has anyone got the charger? I'm booking the taxi."
+      ],
+      "F": [
+        "The Finisher",
+        "A packed case beats a perfect case.",
+        "No list, no folding: you open the wardrobe, throw in the essentials and sit on the case to zip it. Ten minutes later you're ready to go.",
+        "Packing in ten minutes flat.",
+        "Arriving with no matching socks.",
+        "Does it fit? Then zip it."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the trip needs: you plan the long ones, check everything when it's abroad, look after everyone on family trips and pack in ten minutes when time's tight.",
+        "Being whatever the trip needs right now.",
+        "Nobody knowing which part of the trip to give you.",
+        "Depends. How many days are we going for?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you throw it in and zip it."
+    },
+    "Q": [
+      [
+        "You have to sit on your suitcase to close it. You...",
+        {
+          "A": "Unpack and roll everything properly",
+          "D": "Check what I can take out",
+          "M": "Get help and spread it across other bags",
+          "F": "Sit harder. It's closing"
+        }
+      ],
+      [
+        "When do you start packing?",
+        {
+          "A": "A week before, with a list",
+          "D": "Two days before, so there's time to check",
+          "M": "Bit by bit, between a hundred other things",
+          "F": "An hour before leaving"
+        }
+      ],
+      [
+        "How many outfits for a 3-day trip?",
+        {
+          "A": "Exactly 3 outfits and 1 spare",
+          "D": "I check the weather forecast first",
+          "M": "Mine plus a few extras for whoever forgets",
+          "F": "Two T-shirts and hope"
+        }
+      ],
+      [
+        "The night before the trip, you...",
+        {
+          "A": "Leave the case ready by the door",
+          "D": "Check my passport for the third time",
+          "M": "Pack and confirm the hotel, transport and dinner",
+          "F": "Sleep soundly, I'll sort it tomorrow"
+        }
+      ],
+      [
+        "Someone asks \"got the charger?\". You:",
+        {
+          "A": "\"It's on the list, item 12\"",
+          "D": "\"Let me open the case and check\"",
+          "M": "\"Got mine and two others\"",
+          "F": "\"If not, I'll buy one there\""
+        }
+      ],
+      [
+        "Your case is overweight at check-in. You...",
+        {
+          "A": "Impossible, I weighed it at home",
+          "D": "Ask them to weigh it again",
+          "M": "Shift things into everyone else's bags",
+          "F": "Put on three coats, sorted"
+        }
+      ],
+      [
+        "Your biggest packing flaw:",
+        {
+          "A": "I redo the list so often I run late",
+          "D": "I reopen the case just to check",
+          "M": "I pack for others and forget my toothbrush",
+          "F": "I always forget something basic"
+        }
+      ],
+      [
+        "Back from the trip. The suitcase...",
+        {
+          "A": "Gets unpacked the same day and the list updated",
+          "D": "Gets searched in case I left something at the hotel",
+          "M": "Stays open while I plan the next trip",
+          "F": "Stays zipped in the corner for a week"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "收拾行李时你是哪个泡泡？",
+    "lead": "每次旅行都从行李箱开始，拉上拉链有4种方式。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "出发前一周，你的行李清单就准备好了。",
+        "对你来说，好行李从清单开始。你按天搭配衣服，把T恤卷起来，还知道总共多重。所以你到了目的地从来不缺东西。",
+        "把整趟旅行塞进一个登机箱。",
+        "清单改了太多遍，最后还是临时收拾。",
+        "三天？那就三套衣服加一套备用。"
+      ],
+      "D": [
+        "侦探",
+        "没经过你检查的东西，进不了行李箱。",
+        "证件你要确认三遍，充电器要试一下，行李箱还要在浴室秤上称一称。没人能抓到你忘带转换插头。正因为有你，大家才不会卡在值机柜台。",
+        "记得所有人都会忘的小细节。",
+        "又把箱子打开，就为了看证件还在不在。",
+        "证件、充电器、钥匙……我再看一遍。"
+      ],
+      "M": [
+        "指挥家",
+        "你收拾自己的箱子、全家的箱子，还顺手叫好车。",
+        "你什么都一起管：整理衣服、提醒大家带防晒霜、确认酒店、回旅行群的消息。别人收拾一个箱子，你收拾的是整趟旅行。",
+        "同时安排好所有人的行程。",
+        "帮所有人收拾好，自己的牙刷却忘了。",
+        "谁拿了充电器？我在叫车了。"
+      ],
+      "F": [
+        "终结者",
+        "收好的箱子胜过完美的箱子。",
+        "你不列清单也不叠衣服：打开衣柜，把必需品扔进去，坐在箱子上拉好拉链。十分钟后就能出门。",
+        "十分钟收好行李。",
+        "到了才发现袜子没有一双是配对的。",
+        "装得下？那就拉上。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据旅行的需要切换角色：长途旅行时做计划，出国时仔细检查，全家出行时什么都管，赶时间时十分钟搞定。",
+        "成为这趟旅行此刻最需要的人。",
+        "别人不知道该让你负责哪部分。",
+        "看情况。我们去几天？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你扔进箱子直接拉上。"
+    },
+    "Q": [
+      [
+        "箱子得坐上去才能合上。你……",
+        {
+          "A": "全部拿出来，重新卷好",
+          "D": "看看能拿掉什么",
+          "M": "叫人帮忙，分到别的包里",
+          "F": "再用力坐一下，能合上"
+        }
+      ],
+      [
+        "你什么时候开始收拾行李？",
+        {
+          "A": "提前一周，带着清单",
+          "D": "提前两天，留时间检查",
+          "M": "一点一点，夹在一堆事中间",
+          "F": "出门前一小时"
+        }
+      ],
+      [
+        "三天的旅行你带几套衣服？",
+        {
+          "A": "正好3套，外加1套备用",
+          "D": "先看天气预报再决定",
+          "M": "我的，再加几件给忘带的人",
+          "F": "两件T恤，剩下看运气"
+        }
+      ],
+      [
+        "出发前一晚，你……",
+        {
+          "A": "把箱子收好放在门口",
+          "D": "第三次确认证件",
+          "M": "收拾行李，顺便确认酒店、交通和晚饭",
+          "F": "安心睡觉，明天再说"
+        }
+      ],
+      [
+        "有人问“带充电器了吗？”你：",
+        {
+          "A": "“在清单上，第12项”",
+          "D": "“我打开箱子看看”",
+          "M": "“带了我的，还有另外两个人的”",
+          "F": "“忘了就到那边买”"
+        }
+      ],
+      [
+        "值机时箱子超重了。你……",
+        {
+          "A": "不可能，我在家称过",
+          "D": "请他们再称一次",
+          "M": "把东西分到大家的箱子里",
+          "F": "穿上三件外套，搞定"
+        }
+      ],
+      [
+        "你收拾行李最大的毛病：",
+        {
+          "A": "清单改太多遍，结果拖晚了",
+          "D": "总要重新打开箱子检查",
+          "M": "帮别人收拾，忘了自己的牙刷",
+          "F": "总会忘一样最基本的东西"
+        }
+      ],
+      [
+        "旅行回来了。行李箱……",
+        {
+          "A": "当天就整理好，顺便更新清单",
+          "D": "先检查有没有落在酒店的东西",
+          "M": "开着放，我已经在计划下一次了",
+          "F": "合着放在角落一个星期"
+        }
+      ]
+    ]
+  }
+}

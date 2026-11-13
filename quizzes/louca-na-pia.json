@@ -1,0 +1,384 @@
+{
+  "slug": "louca-na-pia",
+  "criado_em": "2026-11-13",
+  "categoria": "casa",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é com a louça na pia?",
+    "lead": "Toda casa tem 4 jeitos de encarar a pilha de louça. Qual é o seu?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você tem um sistema pra louça antes dela virar montanha.",
+        "Pra você, louça tem ordem: copos primeiro, panela por último, escorredor organizado por tamanho. Tem até escala de quem lava em cada dia. Por isso a sua pia nunca vira assunto de reunião de família.",
+        "Transformar a pilha em um plano simples.",
+        "Criar tanta regra que ninguém mais quer lavar.",
+        "Hoje é dia de quem? Tá na escala."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma marca de gordura escapa do seu olhar.",
+        "Você confere o copo contra a luz, descobre quem deixou a frigideira de molho e sabe exatamente desde quando aquela caneca está ali. Com você, louça limpa é limpa de verdade.",
+        "Achar a mancha que todo mundo deixou passar.",
+        "Lavar de novo o prato que já estava limpo.",
+        "Quem usou essa panela? Tem pista aqui."
+      ],
+      "M": [
+        "O Maestro",
+        "Você lava, cozinha e responde mensagem ao mesmo tempo.",
+        "Enquanto a água esquenta, você já guardou o que secou, deixou a próxima panela de molho e ainda pôs um podcast. A cozinha inteira gira em volta de você.",
+        "Fazer a cozinha andar em várias frentes.",
+        "Deixar cinco coisas de molho e esquecer todas.",
+        "Já volto, só vou mexer o arroz."
+      ],
+      "F": [
+        "O Finalizador",
+        "Pia vazia é melhor que pia perfeita.",
+        "Você não espera acumular nem pensa muito: abre a torneira, lava tudo e fecha a cozinha. Enquanto os outros discutem de quem é a vez, a pia já está vazia.",
+        "Zerar a pia em tempo recorde.",
+        "Guardar copo ainda meio molhado.",
+        "Deixa que eu lavo. Pronto, acabou."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de jeito conforme a pia pede: organiza quando a casa tá cheia, confere quando vem visita, faz mil coisas quando o jantar atrasa e lava tudo de uma vez quando é hora.",
+        "Ser o que a cozinha precisa naquele momento.",
+        "Ninguém saber em que dia da escala te colocar.",
+        "Depende. Quanta louça a gente tá falando?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de um sistema pra tudo.",
+      "D": "você não deixa uma mancha passar.",
+      "M": "você toca várias tarefas ao mesmo tempo.",
+      "F": "na hora certa, você para de enrolar e lava."
+    },
+    "Q": [
+      [
+        "A louça tá na pia desde anteontem. Você...",
+        {
+          "A": "Faço uma escala de quem lava",
+          "D": "Investigo quem usou 4 copos",
+          "M": "Lavo e cozinho ao mesmo tempo",
+          "F": "Lavo tudo agora e pronto"
+        }
+      ],
+      [
+        "Por onde você começa a lavar?",
+        {
+          "A": "Copos, pratos, talheres, panelas: nessa ordem",
+          "D": "Pelo mais sujo, pra ver o tamanho do estrago",
+          "M": "Por tudo junto, um pouco de cada",
+          "F": "Pelo que estiver mais perto"
+        }
+      ],
+      [
+        "A frigideira tá grudada de um jeito assustador. Você...",
+        {
+          "A": "Deixo de molho com hora marcada pra voltar",
+          "D": "Pesquiso como soltar sem riscar",
+          "M": "Deixo de molho e vou fazer outra coisa",
+          "F": "Esfrego com força até sair"
+        }
+      ],
+      [
+        "O escorredor tá lotado. Você...",
+        {
+          "A": "Reorganizo por tamanho e cabe mais",
+          "D": "Confiro o que já secou antes de guardar",
+          "M": "Guardo uma parte enquanto lavo o resto",
+          "F": "Seco tudo com o pano e guardo de uma vez"
+        }
+      ],
+      [
+        "Alguém diz \"eu lavo depois\". Você pensa:",
+        {
+          "A": "\"Depois quando? Bota na escala\"",
+          "D": "\"Vou lembrar disso amanhã de manhã\"",
+          "M": "\"Tá, eu já adianto um pouco\"",
+          "F": "\"Deixa que eu lavo agora\""
+        }
+      ],
+      [
+        "Acabou o detergente no meio da louça. Você...",
+        {
+          "A": "Já tinha um de reserva no armário",
+          "D": "Confiro se sobrou um pouco no fundo",
+          "M": "Ponho água no frasco e peço pra alguém comprar",
+          "F": "Uso o sabonete da pia e sigo"
+        }
+      ],
+      [
+        "Seu maior defeito com a louça:",
+        {
+          "A": "Crio tanta regra que ninguém segue",
+          "D": "Lavo de novo o que já estava limpo",
+          "M": "Deixo tudo de molho e esqueço",
+          "F": "Guardo as coisas ainda molhadas"
+        }
+      ],
+      [
+        "Pia vazia, cozinha limpa. Você...",
+        {
+          "A": "Já penso no cardápio pra sujar menos amanhã",
+          "D": "Passo o olho uma última vez no fogão",
+          "M": "Já começo a fazer um lanche",
+          "F": "Apago a luz e vou descansar"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with dishes in the sink?",
+    "lead": "Every home has 4 ways of facing the pile of dishes. Which one's yours?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You have a dish system before the pile becomes a mountain.",
+        "For you, washing up has an order: glasses first, pans last, drying rack sorted by size. There's even a rota for who washes when. That's why your sink never turns into a house meeting.",
+        "Turning the pile into a simple plan.",
+        "Making so many rules nobody wants to wash up.",
+        "Whose turn is it today? Check the rota."
+      ],
+      "D": [
+        "The Detective",
+        "No greasy smear escapes your eye.",
+        "You hold glasses up to the light, find out who left the frying pan soaking and know exactly how long that mug has been there. With you, clean means actually clean.",
+        "Spotting the smudge everyone else missed.",
+        "Rewashing a plate that was already clean.",
+        "Who used this pan? There's evidence here."
+      ],
+      "M": [
+        "The Maestro",
+        "You wash up, cook and reply to texts all at once.",
+        "While the water heats up, you've already put away what's dry, left the next pan to soak and put on a podcast. The whole kitchen revolves around you.",
+        "Keeping the kitchen moving on every front.",
+        "Leaving five things to soak and forgetting all of them.",
+        "Back in a sec, just stirring the rice."
+      ],
+      "F": [
+        "The Finisher",
+        "An empty sink beats a perfect sink.",
+        "You don't let it pile up or overthink it: tap on, wash everything, kitchen closed. While others argue about whose turn it is, the sink is already empty.",
+        "Clearing the sink in record time.",
+        "Putting glasses away still a bit wet.",
+        "I'll do it. Done."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change your approach as the sink needs: you organise when the house is full, check when guests are coming, juggle everything when dinner's late and blitz it all when it's time.",
+        "Being whatever the kitchen needs right now.",
+        "Nobody knowing where to put you on the rota.",
+        "Depends. How many dishes are we talking?"
+      ]
+    },
+    "S2": {
+      "A": "you still like a system for everything.",
+      "D": "you don't let a single smudge slip past.",
+      "M": "you keep several jobs going at once.",
+      "F": "when it counts, you stop stalling and wash up."
+    },
+    "Q": [
+      [
+        "Those dishes have been there since Tuesday. You...",
+        {
+          "A": "Draw up a washing-up rota",
+          "D": "Investigate who used 4 glasses",
+          "M": "Wash up and cook at the same time",
+          "F": "Wash it all now, done"
+        }
+      ],
+      [
+        "Where do you start washing?",
+        {
+          "A": "Glasses, plates, cutlery, pans: in that order",
+          "D": "The dirtiest thing, to size up the damage",
+          "M": "Everything at once, a bit of each",
+          "F": "Whatever's closest"
+        }
+      ],
+      [
+        "The frying pan is stuck on in a scary way. You...",
+        {
+          "A": "Leave it to soak with a set time to come back",
+          "D": "Look up how to clean it without scratching",
+          "M": "Leave it soaking and go do something else",
+          "F": "Scrub hard until it comes off"
+        }
+      ],
+      [
+        "The drying rack is full. You...",
+        {
+          "A": "Rearrange it by size so more fits",
+          "D": "Check what's dry before putting it away",
+          "M": "Put some away while washing the rest",
+          "F": "Dry it all with a tea towel and put it away"
+        }
+      ],
+      [
+        "Someone says \"I'll do them later\". You think:",
+        {
+          "A": "\"Later when? Put it on the rota\"",
+          "D": "\"I'll remember this tomorrow morning\"",
+          "M": "\"Fine, I'll get a head start\"",
+          "F": "\"I'll just do them now\""
+        }
+      ],
+      [
+        "You run out of washing-up liquid halfway through. You...",
+        {
+          "A": "Already had a spare in the cupboard",
+          "D": "Check if there's a drop left at the bottom",
+          "M": "Add water to the bottle and ask someone to buy more",
+          "F": "Use the hand soap and carry on"
+        }
+      ],
+      [
+        "Your biggest flaw with the dishes:",
+        {
+          "A": "I make so many rules nobody follows them",
+          "D": "I rewash things that were already clean",
+          "M": "I leave everything soaking and forget it",
+          "F": "I put things away still wet"
+        }
+      ],
+      [
+        "Empty sink, clean kitchen. You...",
+        {
+          "A": "Plan tomorrow's meals to make less mess",
+          "D": "Take one last look at the hob",
+          "M": "Start making a snack already",
+          "F": "Turn off the light and go relax"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "面对水槽里的碗，你是哪个泡泡？",
+    "lead": "每个家都有4种对付一池碗的方式。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "碗还没堆成山，你就有了一套洗碗系统。",
+        "对你来说，洗碗是有顺序的：先杯子，最后洗锅，沥水架按大小摆。连谁哪天洗都排好了班。所以你家的水槽从来不会变成家庭会议的话题。",
+        "把一堆碗变成一个简单的计划。",
+        "规矩定太多，没人想洗了。",
+        "今天轮到谁？看排班表。"
+      ],
+      "D": [
+        "侦探",
+        "一点油渍都逃不过你的眼睛。",
+        "你会把杯子对着光看，查出是谁把平底锅泡着不管，还清楚那个马克杯放了多久。有你在，干净就是真的干净。",
+        "发现别人都没注意到的污渍。",
+        "把本来就干净的盘子再洗一遍。",
+        "这锅是谁用的？这里有线索。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边洗碗、一边做饭、一边回消息。",
+        "水还没热，你已经把干了的收好，把下一口锅泡上，还放上了播客。整个厨房都围着你转。",
+        "让厨房几件事同时推进。",
+        "泡了五样东西，全都忘了。",
+        "马上回来，我去看一眼锅。"
+      ],
+      "F": [
+        "终结者",
+        "空水槽胜过完美的水槽。",
+        "你不等碗堆起来，也不多想：开水龙头，全部洗完，厨房收工。别人还在争轮到谁，水槽已经空了。",
+        "用最快速度清空水槽。",
+        "杯子还没干就收进柜子。",
+        "我来洗。好了，完事。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据水槽的情况切换方式：家里人多时安排，有客人来时检查，晚饭来不及时同时搞定好几件事，该洗的时候一口气洗完。",
+        "成为厨房此刻最需要的人。",
+        "别人不知道该把你排在哪天。",
+        "看情况。到底有多少碗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢凡事都有一套系统。",
+      "D": "你不会放过任何一点污渍。",
+      "M": "你能同时推进好几件事。",
+      "F": "关键时刻，你不再拖，直接洗。"
+    },
+    "Q": [
+      [
+        "碗已经在水槽里放了两天。你……",
+        {
+          "A": "排一张洗碗值班表",
+          "D": "调查谁用了4个杯子",
+          "M": "边洗碗边做饭",
+          "F": "现在全部洗掉，完事"
+        }
+      ],
+      [
+        "你从哪里开始洗？",
+        {
+          "A": "杯子、盘子、餐具、锅，按这个顺序",
+          "D": "从最脏的开始，先看看有多严重",
+          "M": "全部一起，每样洗一点",
+          "F": "离手最近的那个"
+        }
+      ],
+      [
+        "平底锅粘得吓人。你……",
+        {
+          "A": "先泡上，定好时间再回来",
+          "D": "查一下怎么洗才不会刮花",
+          "M": "泡上，然后去干别的",
+          "F": "使劲刷到掉为止"
+        }
+      ],
+      [
+        "沥水架满了。你……",
+        {
+          "A": "按大小重新摆，还能多放点",
+          "D": "先确认哪些干了再收",
+          "M": "边洗边收一部分",
+          "F": "用抹布擦干，一次全收好"
+        }
+      ],
+      [
+        "有人说“我待会儿洗”。你心想：",
+        {
+          "A": "“待会儿是几点？写进值班表”",
+          "D": "“我明早会记得这件事”",
+          "M": "“行，我先帮忙洗一点”",
+          "F": "“算了，我现在就洗”"
+        }
+      ],
+      [
+        "洗到一半洗洁精用完了。你……",
+        {
+          "A": "柜子里早就备了一瓶",
+          "D": "看看瓶底还有没有剩",
+          "M": "往瓶里加点水，再叫人去买",
+          "F": "用洗手液接着洗"
+        }
+      ],
+      [
+        "你洗碗时最大的毛病：",
+        {
+          "A": "规矩太多，没人照做",
+          "D": "把干净的又洗一遍",
+          "M": "什么都泡上，然后忘了",
+          "F": "东西还湿着就收起来"
+        }
+      ],
+      [
+        "水槽空了，厨房干净了。你……",
+        {
+          "A": "开始规划明天的菜，少弄脏点",
+          "D": "最后再看一眼灶台",
+          "M": "顺手开始做点零食",
+          "F": "关灯，去休息"
+        }
+      ]
+    ]
+  }
+}

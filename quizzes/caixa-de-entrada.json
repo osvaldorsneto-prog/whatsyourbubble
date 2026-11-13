@@ -1,0 +1,384 @@
+{
+  "slug": "caixa-de-entrada",
+  "criado_em": "2026-11-13",
+  "categoria": "trabalho",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é com a caixa de e-mail lotada?",
+    "lead": "Todo mundo tem um jeito de encarar os e-mails não lidos. Qual é o seu?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você tem pasta, etiqueta e regra pra cada e-mail.",
+        "Pra você, caixa de entrada boa é caixa organizada. Cada e-mail cai na pasta certa, com cor e prioridade. Por isso você acha qualquer mensagem em dois segundos.",
+        "Achar qualquer e-mail em segundos.",
+        "Passar mais tempo organizando do que respondendo.",
+        "Isso vai pra pasta Projetos, subpasta 2026."
+      ],
+      "D": [
+        "O Detetive",
+        "Você lê o e-mail inteiro, anexo incluído, antes de responder.",
+        "Você confere quem está em cópia, lê a conversa desde o começo e percebe quando a data do anexo não bate com a do texto. Nenhum detalhe te pega desprevenido.",
+        "Pegar o erro escondido no terceiro parágrafo.",
+        "Ler com tanto cuidado que a resposta sai no dia seguinte.",
+        "Peraí, quem colocou o chefe em cópia?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você responde e-mail na reunião, no chat e no café.",
+        "Você toca várias conversas ao mesmo tempo: responde um, encaminha outro, marca reunião e ainda manda no chat avisando que mandou o e-mail. Tudo anda porque você está em todas.",
+        "Manter dez assuntos andando ao mesmo tempo.",
+        "Responder o e-mail errado na pressa.",
+        "Respondi no e-mail, mas te chamei no chat também."
+      ],
+      "F": [
+        "O Finalizador",
+        "Caixa zerada é melhor que caixa perfeita.",
+        "Você não fica remoendo: lê, responde em duas linhas e arquiva. O que não precisa de resposta vai direto pra lixeira. Enquanto os outros ainda leem o assunto, você já zerou a caixa.",
+        "Zerar a caixa de entrada antes do almoço.",
+        "Responder tão curto que pedem mais detalhes.",
+        "Visto. Feito. Arquivado."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de jeito conforme a caixa pede: organiza quando vira bagunça, lê com calma quando é importante, faz mil coisas quando tudo é urgente e zera tudo quando é hora.",
+        "Ser o que a sua caixa de entrada precisa agora.",
+        "Ninguém saber em que pasta te colocar.",
+        "Depende. Quantos não lidos a gente tá falando?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo no lugar certo.",
+      "D": "você não deixa um detalhe passar.",
+      "M": "você toca várias conversas ao mesmo tempo.",
+      "F": "na hora certa, você responde e arquiva."
+    },
+    "Q": [
+      [
+        "Você voltou das férias com 847 e-mails. Você...",
+        {
+          "A": "Crio pastas por prioridade",
+          "D": "Leio um por um, do primeiro",
+          "M": "Respondo vários no almoço",
+          "F": "Marco tudo como lido e sigo"
+        }
+      ],
+      [
+        "Chega um e-mail com 12 pessoas em cópia. Você...",
+        {
+          "A": "Movo pra pasta certa antes de ler",
+          "D": "Leio a conversa toda pra entender quem pediu o quê",
+          "M": "Respondo e já marco uma reunião com todo mundo",
+          "F": "Respondo só pra quem precisa e pronto"
+        }
+      ],
+      [
+        "Seu jeito de escrever e-mail é...",
+        {
+          "A": "Com tópicos, prazo e próximos passos",
+          "D": "Revisado três vezes antes de enviar",
+          "M": "Escrito no celular entre duas tarefas",
+          "F": "Duas linhas e um \"obrigado\""
+        }
+      ],
+      [
+        "Você mandou um e-mail e esqueceu o anexo. Você...",
+        {
+          "A": "Isso não acontece, tenho um checklist",
+          "D": "Percebi antes de clicar em enviar",
+          "M": "Mando de novo e aviso no chat também",
+          "F": "Mando outro: \"agora vai\""
+        }
+      ],
+      [
+        "Alguém responde \"conforme e-mail abaixo\". Você pensa:",
+        {
+          "A": "\"Ótimo, já tá na pasta certa\"",
+          "D": "\"Deixa eu ler o e-mail abaixo com calma\"",
+          "M": "\"Vou resolver numa ligação rápida\"",
+          "F": "\"Então já tá resolvido\""
+        }
+      ],
+      [
+        "Um e-mail urgente chega às 17:59 de sexta. Você...",
+        {
+          "A": "Coloco como primeiro item da segunda",
+          "D": "Leio com atenção pra ver se é urgente mesmo",
+          "M": "Respondo do celular enquanto arrumo a mochila",
+          "F": "Resolvo em 2 minutos e saio"
+        }
+      ],
+      [
+        "Seu maior defeito com e-mail:",
+        {
+          "A": "Organizo mais do que respondo",
+          "D": "Leio tanto que respondo tarde",
+          "M": "Respondo rápido demais e erro o destinatário",
+          "F": "Respondo curto demais"
+        }
+      ],
+      [
+        "Caixa de entrada com zero e-mails. Você...",
+        {
+          "A": "Atualizo minhas regras de filtro",
+          "D": "Confiro se não foi nada pro spam",
+          "M": "Aproveito pra responder o chat",
+          "F": "Tiro um print e mando pro grupo"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with an overflowing inbox?",
+    "lead": "Everyone has their own way of dealing with unread emails. What's yours?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You've got a folder, a label and a rule for every email.",
+        "For you, a good inbox is an organised inbox. Every email lands in the right folder with a colour and a priority. That's why you can find any message in two seconds.",
+        "Finding any email in seconds.",
+        "Spending more time sorting than replying.",
+        "That goes in Projects, subfolder 2026."
+      ],
+      "D": [
+        "The Detective",
+        "You read the whole email, attachment included, before replying.",
+        "You check who's in CC, read the thread from the start and notice when the date in the attachment doesn't match the email. No detail catches you off guard.",
+        "Catching the mistake hidden in paragraph three.",
+        "Reading so carefully the reply goes out tomorrow.",
+        "Hang on, who CC'd the boss?"
+      ],
+      "M": [
+        "The Maestro",
+        "You answer emails in meetings, on chat and over coffee.",
+        "You keep loads of conversations going at once: reply to one, forward another, book a meeting and ping on chat to say you sent the email. Everything moves because you're in all of it.",
+        "Keeping ten threads moving at once.",
+        "Replying to the wrong email in a rush.",
+        "Replied by email, but pinged you on chat too."
+      ],
+      "F": [
+        "The Finisher",
+        "Inbox zero beats a perfect inbox.",
+        "You don't overthink it: read, reply in two lines, archive. Anything that doesn't need a reply goes straight in the bin. While others are still on the subject line, your inbox is empty.",
+        "Hitting inbox zero before lunch.",
+        "Replying so briefly someone asks for more detail.",
+        "Seen. Done. Archived."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch styles as the inbox needs: you organise when it's chaos, read carefully when it matters, juggle when everything's urgent and clear it all when it's time.",
+        "Being whatever your inbox needs right now.",
+        "Nobody knowing which folder you belong in.",
+        "Depends. How many unread are we talking?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything in its place.",
+      "D": "you don't let a single detail slip.",
+      "M": "you keep several conversations going at once.",
+      "F": "when it counts, you reply and archive."
+    },
+    "Q": [
+      [
+        "You're back from holiday to 847 emails. You...",
+        {
+          "A": "Make folders and sort by priority",
+          "D": "Read them one by one, from the first",
+          "M": "Answer a bunch while eating lunch",
+          "F": "Mark all as read and move on"
+        }
+      ],
+      [
+        "An email arrives with 12 people in CC. You...",
+        {
+          "A": "Move it to the right folder before reading",
+          "D": "Read the whole thread to see who asked for what",
+          "M": "Reply and set up a meeting with everyone",
+          "F": "Reply only to whoever needs it, done"
+        }
+      ],
+      [
+        "Your email style is...",
+        {
+          "A": "Bullet points, deadline and next steps",
+          "D": "Reread three times before sending",
+          "M": "Typed on my phone between two tasks",
+          "F": "Two lines and a \"thanks\""
+        }
+      ],
+      [
+        "You sent an email and forgot the attachment. You...",
+        {
+          "A": "Never happens, I have a checklist",
+          "D": "Spotted it before hitting send",
+          "M": "Resend it and flag it on chat too",
+          "F": "Send another: \"this time for real\""
+        }
+      ],
+      [
+        "Someone replies \"as per the email below\". You think:",
+        {
+          "A": "\"Great, it's already in the right folder\"",
+          "D": "\"Let me read the email below properly\"",
+          "M": "\"I'll sort this with a quick call\"",
+          "F": "\"So it's sorted then\""
+        }
+      ],
+      [
+        "An urgent email lands at 5:59pm on Friday. You...",
+        {
+          "A": "Put it first on Monday's list",
+          "D": "Read it carefully to see if it's really urgent",
+          "M": "Reply from my phone while packing my bag",
+          "F": "Fix it in 2 minutes and log off"
+        }
+      ],
+      [
+        "Your biggest email flaw:",
+        {
+          "A": "I organise more than I reply",
+          "D": "I read so much I reply late",
+          "M": "I reply too fast and pick the wrong person",
+          "F": "My replies are too short"
+        }
+      ],
+      [
+        "Inbox: zero emails. You...",
+        {
+          "A": "Update my filter rules",
+          "D": "Check nothing went to spam",
+          "M": "Use the time to catch up on chat",
+          "F": "Screenshot it and send it to the group"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "邮箱爆满时你是哪个泡泡？",
+    "lead": "每个人对付未读邮件都有自己的一套。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "每封邮件你都有文件夹、标签和规则。",
+        "对你来说，好的收件箱就是整齐的收件箱。每封邮件都进对的文件夹，有颜色有优先级。所以任何一封你两秒就能找到。",
+        "几秒钟找到任何一封邮件。",
+        "整理的时间比回复的时间还长。",
+        "这封放进“项目”，子文件夹2026。"
+      ],
+      "D": [
+        "侦探",
+        "回复之前，你会把邮件连附件一起读完。",
+        "你会看清楚抄送了谁，从头读完整个对话，还会发现附件里的日期和正文对不上。没有哪个细节能让你措手不及。",
+        "揪出藏在第三段的错误。",
+        "读得太仔细，第二天才回复。",
+        "等等，是谁抄送了老板？"
+      ],
+      "M": [
+        "指挥家",
+        "你在会上、聊天里、喝咖啡时都在回邮件。",
+        "你同时推进好多个对话：回一封、转一封、约个会，再在聊天软件里说一声“邮件发你了”。事情能动起来，是因为哪里都有你。",
+        "同时推进十件事。",
+        "一着急回错了邮件。",
+        "邮件回了，聊天里也跟你说了。"
+      ],
+      "F": [
+        "终结者",
+        "清空的收件箱胜过完美的收件箱。",
+        "你不纠结：读完、两行回复、归档。不需要回的直接删掉。别人还在看标题，你的收件箱已经清零了。",
+        "午饭前把收件箱清零。",
+        "回得太短，对方还得追问细节。",
+        "已阅。已办。已归档。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据收件箱的情况切换方式：乱的时候整理，重要的时候细读，全是急事时同时处理，该清的时候一口气清空。",
+        "成为收件箱此刻最需要的人。",
+        "别人不知道该把你归到哪个文件夹。",
+        "看情况。有多少封未读？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切井井有条。",
+      "D": "你不会放过任何一个细节。",
+      "M": "你能同时推进好几个对话。",
+      "F": "关键时刻，你回完就归档。"
+    },
+    "Q": [
+      [
+        "休假回来，邮箱里有847封邮件。你……",
+        {
+          "A": "建文件夹，按优先级整理",
+          "D": "从第一封开始一封封读",
+          "M": "边吃午饭边回一大堆",
+          "F": "全部标为已读，继续生活"
+        }
+      ],
+      [
+        "来了一封抄送12个人的邮件。你……",
+        {
+          "A": "先放进对的文件夹再读",
+          "D": "把整个对话读完，搞清谁要什么",
+          "M": "回复，顺便约所有人开个会",
+          "F": "只回需要的人，完事"
+        }
+      ],
+      [
+        "你写邮件的风格是……",
+        {
+          "A": "分点、截止日期、下一步",
+          "D": "发之前读三遍",
+          "M": "两件事之间用手机打的",
+          "F": "两行字加一句“谢谢”"
+        }
+      ],
+      [
+        "邮件发出去了，附件忘了。你……",
+        {
+          "A": "不可能，我有检查清单",
+          "D": "点发送之前就发现了",
+          "M": "重发一遍，再在聊天里说一声",
+          "F": "再发一封：“这次真的有了”"
+        }
+      ],
+      [
+        "有人回复“详见下方邮件”。你心想：",
+        {
+          "A": "“很好，已经在对的文件夹里”",
+          "D": "“让我好好读一下下方邮件”",
+          "M": "“打个电话快速解决吧”",
+          "F": "“那就是已经搞定了”"
+        }
+      ],
+      [
+        "周五17:59来了一封急件。你……",
+        {
+          "A": "放进周一清单的第一项",
+          "D": "仔细读，看看是不是真的急",
+          "M": "边收拾包边用手机回",
+          "F": "两分钟搞定，下班"
+        }
+      ],
+      [
+        "你处理邮件最大的毛病：",
+        {
+          "A": "整理多过回复",
+          "D": "读太久，回得太晚",
+          "M": "回太快，发错了人",
+          "F": "回得太短"
+        }
+      ],
+      [
+        "收件箱清零了。你……",
+        {
+          "A": "更新我的过滤规则",
+          "D": "检查有没有东西进了垃圾邮件",
+          "M": "顺便回聊天里的消息",
+          "F": "截个图发到群里"
+        }
+      ]
+    ]
+  }
+}
