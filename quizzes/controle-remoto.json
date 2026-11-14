@@ -1,0 +1,384 @@
+{
+  "slug": "controle-remoto",
+  "criado_em": "2026-11-14",
+  "categoria": "familia",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é com o controle remoto?",
+    "lead": "Toda família no sofá tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já sabe o que a família vai assistir hoje.",
+        "Pra você, noite de TV começa com programação. Você sabe o horário de cada coisa, onde o controle mora e quem escolhe hoje. Por isso o sofá nunca vira discussão quando você organiza.",
+        "Fazer todo mundo assistir algo junto, sem briga.",
+        "Montar uma escala de quem escolhe o canal.",
+        "Hoje é sua vez, amanhã é a minha. Combinado?"
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma almofada fica sem ser revirada.",
+        "Você acha o controle em qualquer canto, confere a pilha e descobre quem mexeu nas configurações. Ninguém te engana com um \"não fui eu\". Graças a você, a TV sempre funciona.",
+        "Achar o controle em menos de um minuto.",
+        "Investigar tanto que o programa acaba.",
+        "Quem foi o último a sentar aqui?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você controla a TV, a pipoca e o grupo da família.",
+        "Você cuida de tudo junto: escolhe o que ver, faz a pipoca, ajusta o volume pra vó e ainda responde o grupo. Enquanto os outros só assistem, você mantém a noite inteira funcionando.",
+        "Deixar todo mundo confortável ao mesmo tempo.",
+        "Fazer tanta coisa que perde o começo do filme.",
+        "Aumenta um pouco? Já volto com a pipoca."
+      ],
+      "F": [
+        "O Finalizador",
+        "Qualquer canal é melhor que ficar procurando.",
+        "Você não perde 20 minutos no menu nem procura o controle debaixo do sofá. Levanta, aperta o botão da TV e pronto. Enquanto os outros debatem, você já tá assistindo.",
+        "Fazer a família finalmente assistir alguma coisa.",
+        "Escolher o primeiro programa que aparecer.",
+        "Deixa nesse. Tá ótimo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a sala pede: organiza quando tem disputa, investiga quando o controle some, cuida de todo mundo quando a família enche o sofá e escolhe logo quando ninguém decide.",
+        "Ser o que a noite no sofá precisa naquele momento.",
+        "Ninguém saber se te entrega o controle.",
+        "Depende. O que tá passando?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nenhum mistério sem solução.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você aperta o botão e pronto."
+    },
+    "Q": [
+      [
+        "O controle remoto sumiu de novo. Você...",
+        {
+          "A": "Crio um lugar fixo pra ele",
+          "D": "Reviro almofada por almofada",
+          "M": "Procuro e já faço a pipoca",
+          "F": "Levanto e mudo na própria TV"
+        }
+      ],
+      [
+        "Todo mundo quer ver uma coisa diferente. Você...",
+        {
+          "A": "Proponho um rodízio: cada noite um escolhe",
+          "D": "Pergunto quem viu o quê, pra não repetir",
+          "M": "Ponho um na TV e outro no celular, todo mundo feliz",
+          "F": "Escolho um e aperto o play"
+        }
+      ],
+      [
+        "Seu papel na noite de TV em família é...",
+        {
+          "A": "Quem decidiu o horário e o programa",
+          "D": "Quem sabe onde o controle tá",
+          "M": "Quem traz a pipoca, a coberta e ajusta o volume",
+          "F": "Quem aperta o play"
+        }
+      ],
+      [
+        "A pilha do controle acabou. Você...",
+        {
+          "A": "Já tenho pilha reserva na gaveta certa",
+          "D": "Testo cada pilha da casa pra achar uma boa",
+          "M": "Peço pra alguém comprar e enquanto isso uso o app",
+          "F": "Rodo as pilhas e bato no controle até funcionar"
+        }
+      ],
+      [
+        "Alguém mudou o canal no meio do seu programa. Você...",
+        {
+          "A": "Proponho uma regra pra isso nunca mais acontecer",
+          "D": "Quero saber quem foi e por quê",
+          "M": "Negocio: volta no intervalo e todo mundo fica feliz",
+          "F": "Pego o controle de volta e sigo assistindo"
+        }
+      ],
+      [
+        "A TV pede uma atualização bem na hora do filme. Você...",
+        {
+          "A": "Eu tinha atualizado ontem, de propósito",
+          "D": "Leio tudo antes de apertar \"aceitar\"",
+          "M": "Deixo atualizando e vou buscar a sobremesa",
+          "F": "Aperto \"lembrar depois\" e dou play"
+        }
+      ],
+      [
+        "Seu maior defeito no sofá:",
+        {
+          "A": "Planejo tanto que a gente começa tarde",
+          "D": "Investigo tanto que perco o programa",
+          "M": "Faço mil coisas e perco o começo",
+          "F": "Escolho sem perguntar ninguém"
+        }
+      ],
+      [
+        "Acabou o programa. Você...",
+        {
+          "A": "Já deixo o controle no lugar dele",
+          "D": "Confiro se desligaram tudo direitinho",
+          "M": "Já combino o que vamos ver amanhã",
+          "F": "Durmo no sofá e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with the TV remote?",
+    "lead": "Every family on the sofa has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You already know what the family's watching tonight.",
+        "For you, TV night starts with a schedule. You know when everything's on, where the remote lives and whose turn it is. That's why the sofa never turns into a debate when you're in charge.",
+        "Getting everyone watching the same thing, no arguing.",
+        "Drawing up a rota for who picks the channel.",
+        "Tonight it's you, tomorrow it's me. Deal?"
+      ],
+      "D": [
+        "The Detective",
+        "No cushion goes unturned.",
+        "You find the remote in any corner, check the batteries and figure out who changed the settings. Nobody gets away with \"wasn't me\". Thanks to you, the TV always works.",
+        "Finding the remote in under a minute.",
+        "Investigating so long the show ends.",
+        "Who was the last one sitting here?"
+      ],
+      "M": [
+        "The Maestro",
+        "You run the TV, the popcorn and the family chat.",
+        "You handle it all at once: pick what to watch, make the popcorn, turn it up for Grandma and still reply to the family chat. While others just watch, you keep the whole evening running.",
+        "Keeping everyone comfy at the same time.",
+        "Doing so much you miss the start of the film.",
+        "Turn it up a bit? Back in a sec with popcorn."
+      ],
+      "F": [
+        "The Finisher",
+        "Any channel beats scrolling forever.",
+        "You don't spend 20 minutes in the menu or dig under the sofa for the remote. Get up, press the button on the TV, done. While others debate, you're already watching.",
+        "Getting the family to actually watch something.",
+        "Picking the first thing that comes on.",
+        "Leave it on this. It's great."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the room needs: you organise when there's a dispute, investigate when the remote vanishes, look after everyone when the sofa's full and just pick when nobody can decide.",
+        "Being whatever sofa night needs right now.",
+        "Nobody knowing whether to hand you the remote.",
+        "Depends. What's on?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you never leave a mystery unsolved.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you just press the button."
+    },
+    "Q": [
+      [
+        "The remote has vanished again. You...",
+        {
+          "A": "Give it a fixed home",
+          "D": "Check every single cushion",
+          "M": "Hunt for it and make popcorn",
+          "F": "Get up and use the TV buttons"
+        }
+      ],
+      [
+        "Everyone wants to watch something different. You...",
+        {
+          "A": "Suggest a rota: one person picks each night",
+          "D": "Ask who's seen what, so we don't repeat",
+          "M": "One on the TV, one on a phone, everyone's happy",
+          "F": "Pick one and hit play"
+        }
+      ],
+      [
+        "Your role on family TV night is...",
+        {
+          "A": "The one who set the time and the show",
+          "D": "The one who knows where the remote is",
+          "M": "The one with the popcorn, the blanket and the volume",
+          "F": "The one who hits play"
+        }
+      ],
+      [
+        "The remote has run out of battery. You...",
+        {
+          "A": "I keep spares in the right drawer",
+          "D": "Test every battery in the house to find a good one",
+          "M": "Ask someone to buy some and use the phone app meanwhile",
+          "F": "Spin the batteries and smack it till it works"
+        }
+      ],
+      [
+        "Someone changes the channel mid-show. You...",
+        {
+          "A": "Propose a rule so it never happens again",
+          "D": "Want to know who did it and why",
+          "M": "Negotiate: switch back at the break, everyone's happy",
+          "F": "Take the remote back and keep watching"
+        }
+      ],
+      [
+        "The TV wants to update right as the film starts. You...",
+        {
+          "A": "I updated it yesterday, on purpose",
+          "D": "Read it all before pressing \"accept\"",
+          "M": "Let it update and go get dessert",
+          "F": "Hit \"remind me later\" and press play"
+        }
+      ],
+      [
+        "Your biggest flaw on the sofa:",
+        {
+          "A": "I plan so much we start late",
+          "D": "I investigate so much I miss the show",
+          "M": "I do a hundred things and miss the start",
+          "F": "I pick without asking anyone"
+        }
+      ],
+      [
+        "The show's over. You...",
+        {
+          "A": "Put the remote back in its spot",
+          "D": "Check everything's switched off properly",
+          "M": "Already agree what we're watching tomorrow",
+          "F": "Fall asleep on the sofa, that's that"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "拿着遥控器时你是哪个泡泡？",
+    "lead": "每个窝在沙发上的家庭都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "今晚全家看什么，你早就安排好了。",
+        "对你来说，电视之夜从节目表开始。你知道每个节目几点播、遥控器放哪、今天轮到谁选。所以只要你安排，沙发上从来不吵架。",
+        "让全家一起看同一个节目，不吵不闹。",
+        "给换台排了一张值班表。",
+        "今天你选，明天我选。说定了？"
+      ],
+      "D": [
+        "侦探",
+        "每一个靠垫都逃不过你的翻找。",
+        "你能在任何角落找到遥控器，检查电池，还能查出是谁动了设置。谁也别想用一句“不是我”糊弄你。多亏有你，电视永远能用。",
+        "一分钟内找到遥控器。",
+        "调查太久，节目都播完了。",
+        "最后一个坐这儿的是谁？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管着电视、爆米花和家庭群。",
+        "你什么都一起管：选节目、做爆米花、给奶奶调大音量，还顺手回家庭群。别人只管看，你让整个晚上运转起来。",
+        "让每个人同时都舒舒服服的。",
+        "忙太多，错过了电影开头。",
+        "声音调大点？我去拿爆米花马上回来。"
+      ],
+      "F": [
+        "终结者",
+        "随便哪个台都比一直找强。",
+        "你不会在菜单里翻20分钟，也不会钻到沙发底下找遥控器。起身，按电视上的按钮，搞定。别人还在争，你已经看上了。",
+        "让全家终于开始看点什么。",
+        "看到第一个节目就定了。",
+        "就这个吧，挺好。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据客厅的需要切换角色：有争执时安排，遥控器不见时调查，沙发坐满时照顾大家，没人能决定时直接选。",
+        "成为沙发之夜此刻最需要的人。",
+        "别人不知道该不该把遥控器交给你。",
+        "看情况。现在在播什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你从不留下没解开的谜团。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你直接按下按钮。"
+    },
+    "Q": [
+      [
+        "遥控器又不见了。你……",
+        {
+          "A": "给它定个固定位置",
+          "D": "一个个靠垫翻过去",
+          "M": "边找边做爆米花",
+          "F": "起身直接按电视"
+        }
+      ],
+      [
+        "每个人都想看不一样的。你……",
+        {
+          "A": "提议轮流：每晚一个人选",
+          "D": "问谁看过什么，免得重复",
+          "M": "一个用电视，一个用手机，人人开心",
+          "F": "选一个，按播放"
+        }
+      ],
+      [
+        "家庭电视之夜你的角色是……",
+        {
+          "A": "定好时间和节目的那个人",
+          "D": "知道遥控器在哪的那个人",
+          "M": "负责爆米花、毯子和音量的那个人",
+          "F": "按下播放键的那个人"
+        }
+      ],
+      [
+        "遥控器没电了。你……",
+        {
+          "A": "备用电池早就放在该放的抽屉里",
+          "D": "把家里每节电池试一遍，找出好的",
+          "M": "叫人去买，同时先用手机App",
+          "F": "转转电池，拍两下，能用就行"
+        }
+      ],
+      [
+        "有人在你看到一半时换台了。你……",
+        {
+          "A": "定个规矩，以后不准再这样",
+          "D": "想知道是谁、为什么",
+          "M": "商量一下：广告时换回来，大家都开心",
+          "F": "把遥控器抢回来接着看"
+        }
+      ],
+      [
+        "电影刚开始，电视要更新。你……",
+        {
+          "A": "我昨天特意更新过了",
+          "D": "点“同意”前先全部读一遍",
+          "M": "让它更新，我去拿甜点",
+          "F": "点“稍后提醒”，然后播放"
+        }
+      ],
+      [
+        "你在沙发上最大的毛病：",
+        {
+          "A": "规划太多，开始得太晚",
+          "D": "调查太久，错过节目",
+          "M": "忙太多，错过开头",
+          "F": "不问别人就自己选"
+        }
+      ],
+      [
+        "节目看完了。你……",
+        {
+          "A": "把遥控器放回原位",
+          "D": "检查是不是都关好了",
+          "M": "马上约好明天看什么",
+          "F": "在沙发上睡着，完事"
+        }
+      ]
+    ]
+  }
+}

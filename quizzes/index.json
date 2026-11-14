@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "pizza-com-amigos",
+   "url": "/q/?s=pizza-com-amigos",
+   "criado_em": "2026-11-14",
+   "categoria": "comida",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é na pizza com os amigos?",
+    "en": "What's your bubble at pizza night?",
+    "zh": "朋友一起吃披萨时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "escape-room",
+   "url": "/q/?s=escape-room",
+   "criado_em": "2026-11-14",
+   "categoria": "jogos",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é no escape room?",
+    "en": "What's your bubble in an escape room?",
+    "zh": "玩密室逃脱时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "controle-remoto",
+   "url": "/q/?s=controle-remoto",
+   "criado_em": "2026-11-14",
+   "categoria": "familia",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é com o controle remoto?",
+    "en": "What's your bubble with the TV remote?",
+    "zh": "拿着遥控器时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "louca-na-pia",
    "url": "/q/?s=louca-na-pia",
    "criado_em": "2026-11-13",

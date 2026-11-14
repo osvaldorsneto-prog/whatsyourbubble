@@ -1,0 +1,384 @@
+{
+  "slug": "pizza-com-amigos",
+  "criado_em": "2026-11-14",
+  "categoria": "comida",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é na pizza com os amigos?",
+    "lead": "Toda pizza entre amigos tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você decide os sabores antes de abrir o app.",
+        "Pra você, pizza boa começa com estratégia. Você calcula quantas pedir, quais sabores agradam todo mundo e a hora certa de ligar. Por isso ninguém fica com fome quando você organiza.",
+        "Acertar quantas pizzas pedir.",
+        "Fazer uma votação de sabores que dura 40 minutos.",
+        "São 6 pessoas? Então 3 grandes e uma doce."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma fatia passa sem você ver se veio certa.",
+        "Você confere se a borda veio recheada, se o sabor é o pedido e se a conta bateu. Ninguém te entrega calabresa no lugar de marguerita. Graças a você, a pizza chega do jeito combinado.",
+        "Achar o erro no pedido antes de todo mundo.",
+        "Conferir tanto o pedido que a pizza esfria.",
+        "Peraí. A gente pediu sem cebola, né?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você pede, divide, serve e escolhe o filme ao mesmo tempo.",
+        "Você cuida de tudo junto: pedido, pratos, guardanapo, bebida e o filme da noite. Enquanto os outros esperam, você mantém a noite inteira girando.",
+        "Fazer a pizzada rodar sem ninguém perceber o esforço.",
+        "Cuidar de todo mundo e esquecer de comer.",
+        "Alguém pega os pratos? Eu já tô no filme."
+      ],
+      "F": [
+        "O Finalizador",
+        "Pizza pedida é melhor que pizza perfeita.",
+        "Você não espera a votação acabar nem o cupom ideal. Abre o app, pede a de sempre e pronto. Enquanto os outros discutem a borda, a sua já tá a caminho.",
+        "Fazer a pizza chegar de verdade.",
+        "Pedir a de sempre sem perguntar ninguém.",
+        "Já pedi. Chega em 30 minutos."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a noite pede: planeja quando o grupo é grande, confere quando o pedido é complicado, cuida de tudo quando a sala enche e pede logo quando a fome aperta.",
+        "Ser o que a pizzada precisa naquele momento.",
+        "Ninguém saber se te deixa escolher o sabor.",
+        "Depende. Quem tá com mais fome?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa um pedido errado passar.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "quando a fome aperta, você simplesmente pede."
+    },
+    "Q": [
+      [
+        "Sobrou um pedaço de pizza e ninguém pega. Você...",
+        {
+          "A": "Proponho uma regra justa",
+          "D": "Vejo quem comeu menos",
+          "M": "Corto em 4 e distribuo",
+          "F": "Pego e como. Resolvido"
+        }
+      ],
+      [
+        "Alguém fala \"bora pedir pizza?\". Primeira reação?",
+        {
+          "A": "Já penso em quantas pedir e quais sabores",
+          "D": "Pergunto quem vai comer mesmo, pra não sobrar",
+          "M": "Abro o app, chamo a galera e separo os pratos",
+          "F": "Falo \"fechou\" e peço antes de acabarem de falar"
+        }
+      ],
+      [
+        "A votação de sabores empacou. Você...",
+        {
+          "A": "Monto um sistema: cada um escolhe uma metade",
+          "D": "Lembro quem não gostou da última vez",
+          "M": "Faço meia de cada pra agradar todo mundo",
+          "F": "Peço a de sempre e encerro o debate"
+        }
+      ],
+      [
+        "A pizza chega. Primeira coisa que você faz:",
+        {
+          "A": "Já sei a ordem de quem pega primeiro",
+          "D": "Abro e confiro se veio tudo certo",
+          "M": "Distribuo pratos, guardanapo e bebida",
+          "F": "Pego a primeira fatia, alguém precisa começar"
+        }
+      ],
+      [
+        "Veio o sabor errado. Você...",
+        {
+          "A": "Penso no que fazer com ela antes de reclamar",
+          "D": "Tiro foto do pedido e mostro o erro",
+          "M": "Ligo pra reclamar e já sirvo o resto",
+          "F": "Como assim mesmo. Pizza é pizza"
+        }
+      ],
+      [
+        "Na hora de dividir a conta, você...",
+        {
+          "A": "Já tinha a conta pronta antes de pedir",
+          "D": "Confiro centavo por centavo",
+          "M": "Crio o grupo e mando a chave pra todo mundo",
+          "F": "Pago tudo e depois a gente vê"
+        }
+      ],
+      [
+        "Seu maior defeito na pizzada:",
+        {
+          "A": "Planejo tanto que a gente pede tarde",
+          "D": "Confiro tanto que a pizza esfria",
+          "M": "Cuido de todos e esqueço de comer",
+          "F": "Peço sem perguntar o que os outros querem"
+        }
+      ],
+      [
+        "A noite acabou e sobrou pizza. Você...",
+        {
+          "A": "Guardo em potes, já pensando no café da manhã",
+          "D": "Conto as fatias pra ver quanto sobrou",
+          "M": "Divido entre todo mundo pra levar",
+          "F": "Como uma fria antes de dormir"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at pizza night?",
+    "lead": "Every pizza night has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You've picked the toppings before opening the app.",
+        "For you, good pizza starts with a strategy. You work out how many to order, which flavours please everyone and when to order. That's why nobody goes hungry when you're in charge.",
+        "Getting the number of pizzas just right.",
+        "Running a topping vote that takes 40 minutes.",
+        "Six of us? Three large and one dessert pizza."
+      ],
+      "D": [
+        "The Detective",
+        "No slice gets past you without a check.",
+        "You check the crust, the toppings and whether the bill adds up. Nobody sneaks you pepperoni instead of margherita. Thanks to you, the pizza arrives exactly as ordered.",
+        "Spotting the wrong order before anyone else.",
+        "Checking the order so long the pizza goes cold.",
+        "Hang on. We said no onions, right?"
+      ],
+      "M": [
+        "The Maestro",
+        "You order, serve, split and pick the film all at once.",
+        "You handle it all: the order, the plates, the napkins, the drinks and tonight's film. While others wait around, you keep the whole evening rolling.",
+        "Making pizza night run without anyone noticing the effort.",
+        "Looking after everyone and forgetting to eat.",
+        "Can someone grab plates? I'm on the film."
+      ],
+      "F": [
+        "The Finisher",
+        "An ordered pizza beats a perfect pizza.",
+        "You don't wait for the vote or the best voucher. Open the app, order the usual, done. While the others argue about the crust, yours is already on its way.",
+        "Actually getting the pizza here.",
+        "Ordering the usual without asking anyone.",
+        "Already ordered. Thirty minutes."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the night needs: you plan for a big group, check when the order gets complicated, juggle everything when the room fills up and just order when everyone's starving.",
+        "Being whatever pizza night needs right now.",
+        "Nobody knowing whether to let you pick the toppings.",
+        "Depends. Who's hungriest?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you never let a wrong order slip through.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when hunger hits, you just order."
+    },
+    "Q": [
+      [
+        "One slice left and nobody's taking it. You...",
+        {
+          "A": "Suggest a fair rule",
+          "D": "Check who ate the least",
+          "M": "Cut it in 4 and share it",
+          "F": "Take it and eat it. Done"
+        }
+      ],
+      [
+        "Someone says \"shall we get pizza?\". First reaction?",
+        {
+          "A": "I'm already working out how many and which ones",
+          "D": "I ask who's actually eating, so there's no waste",
+          "M": "I open the app, round everyone up and get plates out",
+          "F": "I say \"yes\" and order before they finish the sentence"
+        }
+      ],
+      [
+        "The topping vote is stuck. You...",
+        {
+          "A": "Set up a system: everyone picks a half",
+          "D": "Remember who didn't like it last time",
+          "M": "Go half and half so everyone's happy",
+          "F": "Order the usual and end the debate"
+        }
+      ],
+      [
+        "The pizza arrives. First thing you do:",
+        {
+          "A": "I already know who gets served first",
+          "D": "Open the boxes and check it's all right",
+          "M": "Hand out plates, napkins and drinks",
+          "F": "Grab the first slice, someone has to start"
+        }
+      ],
+      [
+        "They sent the wrong pizza. You...",
+        {
+          "A": "Think about what to do with it before complaining",
+          "D": "Screenshot the order and show the mistake",
+          "M": "Call to complain while serving the rest",
+          "F": "Eat it anyway. Pizza is pizza"
+        }
+      ],
+      [
+        "Time to split the bill. You...",
+        {
+          "A": "Had the maths done before ordering",
+          "D": "Check it down to the last penny",
+          "M": "Make the group chat and send everyone the details",
+          "F": "Pay for it all and sort it out later"
+        }
+      ],
+      [
+        "Your biggest flaw on pizza night:",
+        {
+          "A": "I plan so much we order late",
+          "D": "I check so much the pizza goes cold",
+          "M": "I look after everyone and forget to eat",
+          "F": "I order without asking what others want"
+        }
+      ],
+      [
+        "The night's over and there's pizza left. You...",
+        {
+          "A": "Box it up, already thinking about breakfast",
+          "D": "Count the slices to see how much is left",
+          "M": "Split it so everyone takes some home",
+          "F": "Eat a cold slice before bed"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "朋友一起吃披萨时你是哪个泡泡？",
+    "lead": "每次和朋友吃披萨都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没打开外卖软件，你就已经定好口味了。",
+        "对你来说，好披萨从策略开始。你会算好点几个、什么口味大家都爱吃、几点下单。所以只要你来安排，没人会饿着。",
+        "把披萨的数量算得刚刚好。",
+        "口味投票搞了40分钟。",
+        "6个人？那就3个大的，再来一个甜的。"
+      ],
+      "D": [
+        "侦探",
+        "每一块披萨都要经过你的检查。",
+        "你会检查饼边、口味，还有账单对不对。谁也别想把香肠披萨冒充成玛格丽特给你。多亏有你，披萨送来的样子就是点的样子。",
+        "比别人先发现订单出错。",
+        "订单核对太久，披萨都凉了。",
+        "等一下，我们说了不要洋葱，对吧？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时下单、分披萨、发餐盘，还顺便选电影。",
+        "你什么都一起管：订单、盘子、纸巾、饮料，还有今晚看什么电影。别人在等，你让整个晚上都转起来。",
+        "让披萨之夜顺利进行，没人察觉你有多忙。",
+        "照顾了所有人，自己忘了吃。",
+        "谁去拿下盘子？我在选电影。"
+      ],
+      "F": [
+        "终结者",
+        "点了的披萨胜过完美的披萨。",
+        "你不等投票结束，也不等最好的优惠券。打开软件，点老样子，搞定。别人还在争饼边，你的披萨已经在路上了。",
+        "真正让披萨送到。",
+        "不问别人就点老样子。",
+        "已经点了，30分钟到。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据晚上的需要切换角色：人多时规划，订单复杂时检查，屋里挤满人时什么都管，大家饿坏了就直接下单。",
+        "成为披萨之夜此刻最需要的人。",
+        "别人不知道该不该让你选口味。",
+        "看情况。谁最饿？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你绝不让错误的订单溜过去。",
+      "M": "你能同时照顾一千件事。",
+      "F": "一饿起来，你就直接下单。"
+    },
+    "Q": [
+      [
+        "剩最后一块披萨，没人敢拿。你……",
+        {
+          "A": "提出一个公平规则",
+          "D": "看看谁吃得最少",
+          "M": "切成4份分掉",
+          "F": "拿起来吃掉，解决"
+        }
+      ],
+      [
+        "有人说“要不要点披萨？”。你的第一反应？",
+        {
+          "A": "已经在想点几个、什么口味",
+          "D": "先问到底谁吃，免得剩下",
+          "M": "打开软件、叫人、准备盘子",
+          "F": "说“好”，话没说完就下单了"
+        }
+      ],
+      [
+        "口味投票卡住了。你……",
+        {
+          "A": "定个规则：每人选半个",
+          "D": "记得上次谁说不好吃",
+          "M": "每样来一半，人人满意",
+          "F": "点老样子，结束争论"
+        }
+      ],
+      [
+        "披萨到了。你做的第一件事：",
+        {
+          "A": "我早就想好谁先拿",
+          "D": "打开盒子检查有没有送错",
+          "M": "发盘子、纸巾和饮料",
+          "F": "拿第一块，总得有人开始"
+        }
+      ],
+      [
+        "送错口味了。你……",
+        {
+          "A": "先想想怎么处理，再去投诉",
+          "D": "截图订单，指出错误",
+          "M": "边打电话投诉边分剩下的",
+          "F": "照吃不误，披萨就是披萨"
+        }
+      ],
+      [
+        "到了AA的时候，你……",
+        {
+          "A": "下单前就算好了",
+          "D": "一分一分地核对",
+          "M": "建群，把付款信息发给大家",
+          "F": "我先全付了，之后再说"
+        }
+      ],
+      [
+        "你在披萨之夜最大的毛病：",
+        {
+          "A": "规划太多，点得太晚",
+          "D": "检查太多，披萨都凉了",
+          "M": "照顾所有人，自己忘了吃",
+          "F": "不问别人想吃什么就下单"
+        }
+      ],
+      [
+        "晚上结束，还剩披萨。你……",
+        {
+          "A": "装进盒子，已经在想明天早餐",
+          "D": "数数还剩几块",
+          "M": "分给大家带回家",
+          "F": "睡前吃一块凉的"
+        }
+      ]
+    ]
+  }
+}

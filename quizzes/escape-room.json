@@ -1,0 +1,384 @@
+{
+  "slug": "escape-room",
+  "criado_em": "2026-11-14",
+  "categoria": "jogos",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é no escape room?",
+    "lead": "Todo time de escape room tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta a estratégia antes do cronômetro começar.",
+        "Pra você, escape room bom começa com método. Você organiza as pistas, divide a sala por áreas e sabe o que já foi tentado. Por isso o time nunca fica andando em círculo quando você lidera.",
+        "Transformar o caos da sala num plano.",
+        "Planejar tanto que o tempo voa.",
+        "Calma. Vamos separar as pistas por cor."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum detalhe da sala escapa de você.",
+        "Você acha o número riscado atrás do quadro, o padrão no tapete e a gaveta com fundo falso. Ninguém te engana com pista falsa. É graças a você que a porta abre.",
+        "Ver a pista que todo mundo ignorou.",
+        "Analisar o mesmo quadro por 10 minutos.",
+        "Peraí. Esse relógio tá parado por um motivo."
+      ],
+      "M": [
+        "O Maestro",
+        "Você coordena o time, as pistas e o tempo ao mesmo tempo.",
+        "Você cuida de tudo junto: quem procura onde, quanto tempo falta e qual cadeado ainda tá fechado. Enquanto cada um olha um canto, você mantém o time inteiro conectado.",
+        "Fazer o time funcionar como um só.",
+        "Cuidar de todo mundo e esquecer o próprio enigma.",
+        "Você no baú, você na estante. Faltam 20 minutos!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Cadeado aberto é melhor que enigma entendido.",
+        "Você não fica esperando a lógica perfeita. Testa, chuta, gira e tenta de novo. Enquanto os outros pensam, você já abriu duas gavetas.",
+        "Fazer a porta abrir de verdade.",
+        "Chutar senha antes de ler a pista.",
+        "Deixa eu tentar 1234. Abriu!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a sala pede: planeja quando o time se perde, investiga quando a pista é difícil, coordena quando a sala é grande e chuta quando o tempo aperta.",
+        "Ser o que o time precisa naquele momento.",
+        "Ninguém saber que enigma te entregar.",
+        "Depende. Qual cadeado falta?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nenhuma pista passar.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "quando o tempo aperta, você simplesmente tenta."
+    },
+    "Q": [
+      [
+        "Faltam 2 minutos e a porta não abre. Você...",
+        {
+          "A": "Repasso o plano do início",
+          "D": "Reviso cada pista de novo",
+          "M": "Divido o time em 3 frentes",
+          "F": "Chuto todas as senhas"
+        }
+      ],
+      [
+        "A porta fecha e o cronômetro começa. Você...",
+        {
+          "A": "Proponho dividir a sala em áreas",
+          "D": "Começo a olhar cada detalhe com calma",
+          "M": "Já distribuo: cada um vai pra um canto",
+          "F": "Abro a primeira gaveta que eu vejo"
+        }
+      ],
+      [
+        "Seu papel no time é...",
+        {
+          "A": "Quem anota as pistas e monta o plano",
+          "D": "Quem acha o detalhe escondido",
+          "M": "Quem fala com todo mundo e controla o tempo",
+          "F": "Quem testa as senhas no cadeado"
+        }
+      ],
+      [
+        "Aparece um enigma com números estranhos. Você...",
+        {
+          "A": "Escrevo tudo num papel e organizo",
+          "D": "Procuro o padrão por trás deles",
+          "M": "Chamo quem é bom de conta e sigo pra outra pista",
+          "F": "Testo todas as combinações possíveis"
+        }
+      ],
+      [
+        "O time travou faz 5 minutos. Você...",
+        {
+          "A": "Proponho recomeçar do jeito certo",
+          "D": "Volto no primeiro ambiente, algo passou batido",
+          "M": "Peço uma dica e reorganizo o time",
+          "F": "Começo a mexer em tudo que não mexemos"
+        }
+      ],
+      [
+        "Alguém acha uma chave. Você pensa:",
+        {
+          "A": "\"Já sei em qual baú ela entra\"",
+          "D": "\"Deixa eu ver se tem algo escrito nela\"",
+          "M": "\"Ótimo, alguém leva pra lá, eu sigo aqui\"",
+          "F": "\"Me dá, eu testo em tudo\""
+        }
+      ],
+      [
+        "Seu maior defeito no escape room:",
+        {
+          "A": "Planejo tanto que o tempo acaba",
+          "D": "Analiso tanto que travo numa pista só",
+          "M": "Coordeno todo mundo e esqueço o meu enigma",
+          "F": "Chuto senha antes de ler a pista"
+        }
+      ],
+      [
+        "Vocês saíram! Na foto final, você...",
+        {
+          "A": "Já comento como a gente faria mais rápido",
+          "D": "Pergunto ao monitor qual pista a gente pulou",
+          "M": "Junto todo mundo e já marco a próxima sala",
+          "F": "Seguro a placa de \"escapamos\" e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in an escape room?",
+    "lead": "Every escape room team has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You've got a strategy before the clock starts.",
+        "For you, a good escape room starts with a method. You sort the clues, split the room into zones and know what's already been tried. That's why the team never goes round in circles when you lead.",
+        "Turning a chaotic room into a plan.",
+        "Planning so long the clock flies by.",
+        "Easy. Let's sort the clues by colour."
+      ],
+      "D": [
+        "The Detective",
+        "No detail in the room gets past you.",
+        "You find the number scratched behind the painting, the pattern in the rug and the drawer with a false bottom. No red herring fools you. You're the reason the door opens.",
+        "Seeing the clue everyone else ignored.",
+        "Studying the same painting for 10 minutes.",
+        "Wait. That clock stopped for a reason."
+      ],
+      "M": [
+        "The Maestro",
+        "You run the team, the clues and the clock at once.",
+        "You handle it all together: who searches where, how much time is left and which lock is still shut. While everyone's in their own corner, you keep the whole team connected.",
+        "Making the team work as one.",
+        "Looking after everyone and forgetting your own puzzle.",
+        "You on the chest, you on the shelf. 20 minutes left!"
+      ],
+      "F": [
+        "The Finisher",
+        "An open lock beats an understood puzzle.",
+        "You don't wait for perfect logic. You try, guess, spin and try again. While others are still thinking, you've opened two drawers.",
+        "Actually getting the door open.",
+        "Guessing codes before reading the clue.",
+        "Let me try 1234. It's open!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the room needs: you plan when the team gets lost, investigate when the clue is tricky, coordinate when the room is big and guess when the clock's running out.",
+        "Being whatever the team needs right now.",
+        "Nobody knowing which puzzle to hand you.",
+        "Depends. Which lock's left?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you never let a clue slip past.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when time's short, you just try it."
+    },
+    "Q": [
+      [
+        "2 minutes left and the door won't open. You...",
+        {
+          "A": "Go back over the plan",
+          "D": "Recheck every single clue",
+          "M": "Split the team three ways",
+          "F": "Guess every code there is"
+        }
+      ],
+      [
+        "The door shuts and the clock starts. You...",
+        {
+          "A": "Suggest splitting the room into zones",
+          "D": "Start looking at every detail, slowly",
+          "M": "Send everyone off to a different corner",
+          "F": "Open the first drawer I see"
+        }
+      ],
+      [
+        "Your role in the team is...",
+        {
+          "A": "The one writing down clues and making the plan",
+          "D": "The one who finds the hidden detail",
+          "M": "The one talking to everyone and watching the clock",
+          "F": "The one trying codes on the lock"
+        }
+      ],
+      [
+        "A puzzle with strange numbers turns up. You...",
+        {
+          "A": "Write it all down and organise it",
+          "D": "Look for the pattern behind them",
+          "M": "Call the maths person and move to another clue",
+          "F": "Try every possible combination"
+        }
+      ],
+      [
+        "The team's been stuck for 5 minutes. You...",
+        {
+          "A": "Suggest starting over properly",
+          "D": "Go back to the first room, we missed something",
+          "M": "Ask for a hint and reorganise the team",
+          "F": "Start touching everything we haven't touched"
+        }
+      ],
+      [
+        "Someone finds a key. You think:",
+        {
+          "A": "\"I know which chest it opens\"",
+          "D": "\"Let me see if there's something written on it\"",
+          "M": "\"Great, someone take it over there, I'll keep going here\"",
+          "F": "\"Give it here, I'll try it on everything\""
+        }
+      ],
+      [
+        "Your biggest flaw in an escape room:",
+        {
+          "A": "I plan so much we run out of time",
+          "D": "I analyse so much I get stuck on one clue",
+          "M": "I coordinate everyone and forget my own puzzle",
+          "F": "I guess codes before reading the clue"
+        }
+      ],
+      [
+        "You escaped! In the team photo, you...",
+        {
+          "A": "Already explain how we could've been faster",
+          "D": "Ask the host which clue we skipped",
+          "M": "Gather everyone and book the next room",
+          "F": "Hold up the \"we escaped\" sign, that's it"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "玩密室逃脱时你是哪个泡泡？",
+    "lead": "每支密室逃脱队伍都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "计时还没开始，你就已经定好策略了。",
+        "对你来说，好的密室从方法开始。你整理线索、把房间分区，清楚哪些已经试过。所以只要你带队，队伍从不原地打转。",
+        "把混乱的房间变成一个计划。",
+        "规划太久，时间飞走了。",
+        "别急，我们先按颜色整理线索。"
+      ],
+      "D": [
+        "侦探",
+        "房间里没有一个细节能逃过你的眼睛。",
+        "你能发现画后面刻着的数字、地毯上的图案和有暗格的抽屉。假线索骗不了你。门能打开，全靠你。",
+        "看到所有人都忽略的线索。",
+        "盯着同一幅画研究10分钟。",
+        "等等，这个钟停在这里是有原因的。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时指挥队伍、线索和时间。",
+        "你什么都一起管：谁去搜哪里、还剩多少时间、哪把锁还没开。大家各自待在一个角落，你让整个队伍保持连接。",
+        "让整个队伍像一个人一样运转。",
+        "照顾所有人，忘了自己的谜题。",
+        "你去箱子，你去书架。还剩20分钟！"
+      ],
+      "F": [
+        "终结者",
+        "打开的锁胜过看懂的谜题。",
+        "你不等完美的推理。试、猜、转、再试。别人还在想，你已经开了两个抽屉。",
+        "真正把门打开。",
+        "还没看线索就开始猜密码。",
+        "我试试1234。开了！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据房间的需要切换角色：队伍迷路时规划，线索难时调查，房间大时协调，时间快到时就猜。",
+        "成为队伍此刻最需要的人。",
+        "别人不知道该把哪个谜题交给你。",
+        "看情况。还剩哪把锁？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会放过任何线索。",
+      "M": "你能同时照顾一千件事。",
+      "F": "时间一紧，你就直接试。"
+    },
+    "Q": [
+      [
+        "还剩2分钟，门就是打不开。你……",
+        {
+          "A": "回头再过一遍计划",
+          "D": "每条线索重新检查",
+          "M": "把队伍分成三路",
+          "F": "把所有密码都猜一遍"
+        }
+      ],
+      [
+        "门关上，计时开始。你……",
+        {
+          "A": "提议把房间分区",
+          "D": "开始慢慢看每个细节",
+          "M": "马上分配：每人去一个角落",
+          "F": "打开看到的第一个抽屉"
+        }
+      ],
+      [
+        "你在队伍里的角色是……",
+        {
+          "A": "记线索、定计划的那个人",
+          "D": "找到隐藏细节的那个人",
+          "M": "跟每个人沟通、盯着时间的那个人",
+          "F": "在锁上试密码的那个人"
+        }
+      ],
+      [
+        "出现一个满是奇怪数字的谜题。你……",
+        {
+          "A": "全写在纸上，整理清楚",
+          "D": "找出背后的规律",
+          "M": "叫算数好的人来，我去看别的线索",
+          "F": "把所有组合都试一遍"
+        }
+      ],
+      [
+        "队伍已经卡了5分钟。你……",
+        {
+          "A": "提议按正确方法从头来",
+          "D": "回到第一个房间，肯定漏了什么",
+          "M": "要个提示，重新分配队伍",
+          "F": "把还没碰过的东西都碰一遍"
+        }
+      ],
+      [
+        "有人找到一把钥匙。你心想：",
+        {
+          "A": "“我知道它开哪个箱子”",
+          "D": "“让我看看上面有没有写字”",
+          "M": "“好，谁拿过去，我继续这边”",
+          "F": "“给我，我每个都试试”"
+        }
+      ],
+      [
+        "你玩密室时最大的毛病：",
+        {
+          "A": "规划太多，时间用完了",
+          "D": "分析太多，卡在一条线索上",
+          "M": "协调所有人，忘了自己的谜题",
+          "F": "还没看线索就猜密码"
+        }
+      ],
+      [
+        "你们逃出来了！拍合照时，你……",
+        {
+          "A": "已经在讲怎样能更快",
+          "D": "问工作人员我们跳过了哪条线索",
+          "M": "把大家聚起来，约下一个密室",
+          "F": "举着“成功逃脱”的牌子，完事"
+        }
+      ]
+    ]
+  }
+}
