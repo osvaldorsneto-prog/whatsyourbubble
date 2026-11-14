@@ -9,8 +9,14 @@ whatsyourbubble.com, e o proxy põe o cabeçalho "Authorization: Bearer ..." soz
   python3 scripts/hospedagem.py publicar slug1 slug2    # envia esses quizzes + quizzes/index.json (entram no ar na hora)
   python3 scripts/hospedagem.py pacote saida.tar.gz     # monta o pacote de código da rotina (precisa do git)
   python3 scripts/hospedagem.py enviar-codigo saida.tar.gz
+
+Instagram (o servidor publica pela API oficial do Meta; nada de navegador):
+  python3 scripts/hospedagem.py ig-agendar video.mp4 legenda.txt "2026-11-15 18:30" slug   # sem fuso = horário de Londres
+  python3 scripts/hospedagem.py ig-fila                 # conta conectada? fila e último ciclo
+  python3 scripts/hospedagem.py ig-cancelar <id>
+  python3 scripts/hospedagem.py ig-ciclo                # roda o agendador agora (o normal é o cron do servidor)
 """
-import hashlib, json, os, pathlib, subprocess, sys, urllib.error, urllib.request
+import datetime, hashlib, json, os, pathlib, subprocess, sys, urllib.error, urllib.request
 
 URL = os.environ.get('WYB_RECEPTOR', 'https://whatsyourbubble.com/q/receber.php')   # outro endereço só pra teste local
 CHAVE_TESTE = os.environ.get('WYB_CHAVE_TESTE')   # só em teste local; na nuvem quem põe a chave é o proxy
@@ -73,6 +79,49 @@ def enviar_codigo(arquivo):
     print('pacote no servidor:', r.get('pacote'), 'bytes, sha256', sha[:12])
 
 
+def enviar_partes(acao, dados):
+    sha = hashlib.sha256(dados).hexdigest()
+    partes = [dados[i:i + PARTE] for i in range(0, len(dados), PARTE)]
+    r = {}
+    for n, p in enumerate(partes, 1):
+        r = pedir(acao, p, 'application/octet-stream', parte=n, total=len(partes), sha256=sha)
+    return r
+
+
+def quando_iso(txt):
+    from zoneinfo import ZoneInfo
+    d = datetime.datetime.fromisoformat(txt.strip().replace('Z', '+00:00'))
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=ZoneInfo('Europe/London'))
+    falta = (d - datetime.datetime.now(datetime.timezone.utc)).total_seconds()
+    if not 180 <= falta <= 29 * 86400:
+        sys.exit(f'horário fora da janela (de 3 min a 29 dias pra frente): {d.isoformat()}')
+    return d.isoformat(timespec='seconds')
+
+
+def ig_agendar(video, legenda_arq, quando, nome):
+    quando = quando_iso(quando)
+    legenda = pathlib.Path(legenda_arq).read_text(encoding='utf-8').strip()
+    r = enviar_partes('ig_video', pathlib.Path(video).read_bytes())
+    if not r.get('video'):
+        sys.exit(f'o servidor não confirmou o vídeo: {r}')
+    corpo = json.dumps({'video': r['video'], 'legenda': legenda, 'quando': quando, 'nome': nome}, ensure_ascii=False).encode('utf-8')
+    a = pedir('ig_agendar', corpo)
+    print(f"agendado: {a['id']} para {a['quando']}")
+
+
+def ig_fila():
+    r = pedir('ig_fila')
+    print('conta:', r.get('conta') or 'NÃO CONECTADA', '| token até', r.get('token_expira_em'))
+    u = r.get('ultimo_ciclo') or {}
+    if u:
+        em = u.get('em')
+        em = datetime.datetime.fromtimestamp(em, datetime.timezone.utc).isoformat(timespec='minutes') if isinstance(em, int) else em
+        print('último ciclo:', em, u.get('erro') or '; '.join(u.get('feito') or []) or 'nada a fazer')
+    for i in r.get('fila', []):
+        print(f"  {i.get('id')}  {i.get('status')}  {i.get('quando_txt')}  {i.get('link') or i.get('erro') or ''}")
+
+
 if __name__ == '__main__':
     cmd, args = (sys.argv[1], sys.argv[2:]) if len(sys.argv) > 1 else ('', [])
     if cmd == 'ping':
@@ -85,5 +134,13 @@ if __name__ == '__main__':
         pacote(args[0])
     elif cmd == 'enviar-codigo' and args:
         enviar_codigo(args[0])
+    elif cmd == 'ig-agendar' and len(args) == 4:
+        ig_agendar(*args)
+    elif cmd == 'ig-fila':
+        ig_fila()
+    elif cmd == 'ig-cancelar' and args:
+        print(pedir('ig_cancelar', b'', id=args[0]))
+    elif cmd == 'ig-ciclo':
+        print(pedir('ig_ciclo', b''))
     else:
         sys.exit(__doc__)

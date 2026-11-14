@@ -11,11 +11,19 @@
 // POST ?acao=publicar                     {"quizzes": {slug: quiz, ...}, "indice": {...}}
 // GET  ?acao=codigo                       pacote de código (tar.gz) pra rotina
 // POST ?acao=codigo&parte=1&total=2&sha256=<hash do arquivo inteiro>   envia o pacote em partes
+//
+// Instagram (publicação pela API oficial; ver q/ig.php):
+// POST ?acao=ig_video&parte=1&total=2&sha256=<hash do mp4 inteiro>   envia o vídeo em partes → {"video": "<nome>.mp4"}
+// POST ?acao=ig_agendar   {"video": "<nome>.mp4", "legenda": "...", "quando": "2026-11-15T18:30:00+00:00", "nome": "slug"}
+// GET  ?acao=ig_fila      situação: conta conectada, fila e último ciclo
+// POST ?acao=ig_cancelar&id=<id>
+// POST ?acao=ig_ciclo     roda o agendador agora (o normal é o cron do cPanel)
 declare(strict_types=1);
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store');
 header('X-Robots-Tag: noindex');
 require __DIR__ . '/lib.php';
+require __DIR__ . '/ig.php';
 
 const MAX_CORPO = 6 * 1024 * 1024;   // por pedido; o pacote de código vai em partes menores que isso
 
@@ -54,6 +62,29 @@ function grava(string $arquivo, string $conteudo): void {
     @unlink($tmp);
     resp(500, ['ok' => false, 'erro' => 'não consegui gravar ' . basename($arquivo)]);
   }
+}
+
+// Recebe um arquivo em partes (cada pedido traz uma). Quando chegar a última, monta, confere o sha256
+// e devolve o caminho do arquivo montado; antes disso responde quantas faltam e encerra.
+function recebe_partes(string $dir, string $corpo): string {
+  $parte = (int)($_GET['parte'] ?? 0);
+  $total = (int)($_GET['total'] ?? 0);
+  $sha = strtolower((string)($_GET['sha256'] ?? ''));
+  if ($total < 1 || $total > 50 || $parte < 1 || $parte > $total || !preg_match('/^[0-9a-f]{64}$/', $sha)) {
+    resp(400, ['ok' => false, 'erro' => 'use parte=1..total, total<=50 e sha256 do arquivo inteiro']);
+  }
+  if ($corpo === '') resp(400, ['ok' => false, 'erro' => 'parte vazia']);
+  grava("$dir/parte-$sha-$parte", $corpo);
+  $partes = [];
+  for ($i = 1; $i <= $total; $i++) $partes[] = "$dir/parte-$sha-$i";
+  $chegaram = count(array_filter($partes, 'is_file'));
+  if ($chegaram < $total) resp(200, ['ok' => true, 'recebida' => $parte, 'faltam' => $total - $chegaram]);
+  $tmp = "$dir/montando-$sha";
+  @unlink($tmp);
+  foreach ($partes as $f) file_put_contents($tmp, file_get_contents($f), FILE_APPEND);
+  foreach ($partes as $f) @unlink($f);
+  if (hash_file('sha256', $tmp) !== $sha) { @unlink($tmp); resp(400, ['ok' => false, 'erro' => 'o arquivo montado não bate com o sha256']); }
+  return $tmp;
 }
 
 function json_arquivo(string $f) {
@@ -141,26 +172,68 @@ if ($acao === 'codigo') {
     exit;
   }
   if ($metodo === 'POST') {
-    $parte = (int)($_GET['parte'] ?? 0);
-    $total = (int)($_GET['total'] ?? 0);
-    $sha = strtolower((string)($_GET['sha256'] ?? ''));
-    if ($total < 1 || $total > 50 || $parte < 1 || $parte > $total || !preg_match('/^[0-9a-f]{64}$/', $sha)) {
-      resp(400, ['ok' => false, 'erro' => 'use parte=1..total, total<=50 e sha256 do arquivo inteiro']);
-    }
-    if ($corpo === '') resp(400, ['ok' => false, 'erro' => 'parte vazia']);
-    grava("$dir/parte-$sha-$parte", $corpo);
-    $partes = [];
-    for ($i = 1; $i <= $total; $i++) $partes[] = "$dir/parte-$sha-$i";
-    if (count(array_filter($partes, 'is_file')) < $total) resp(200, ['ok' => true, 'recebida' => $parte, 'faltam' => $total - count(array_filter($partes, 'is_file'))]);
-    $tmp = "$final.novo";
-    @unlink($tmp);
-    foreach ($partes as $f) file_put_contents($tmp, file_get_contents($f), FILE_APPEND);
-    foreach ($partes as $f) @unlink($f);
-    if (hash_file('sha256', $tmp) !== $sha) { @unlink($tmp); resp(400, ['ok' => false, 'erro' => 'o arquivo montado não bate com o sha256']); }
+    $tmp = recebe_partes($dir, $corpo);
+    $sha = hash_file('sha256', $tmp);
     if (!@rename($tmp, $final)) resp(500, ['ok' => false, 'erro' => 'não consegui trocar o pacote']);
     registra('codigo', 'novo ' . filesize($final) . 'B');
     resp(200, ['ok' => true, 'pacote' => filesize($final), 'sha256' => $sha]);
   }
 }
 
-resp(400, ['ok' => false, 'erro' => 'ação desconhecida', 'acoes' => ['ping', 'quizzes', 'publicar', 'codigo']]);
+if ($acao === 'ig_video' && $metodo === 'POST') {
+  $tmp = recebe_partes(ig_pasta('partes'), $corpo);
+  $cab = (string)file_get_contents($tmp, false, null, 0, 12);
+  if (substr($cab, 4, 4) !== 'ftyp') { @unlink($tmp); resp(400, ['ok' => false, 'erro' => 'isso não é um mp4']); }
+  $nome = bin2hex(random_bytes(12)) . '.mp4';
+  if (!@rename($tmp, ig_pasta_videos() . "/$nome")) { @unlink($tmp); resp(500, ['ok' => false, 'erro' => 'não consegui guardar o vídeo']); }
+  @chmod(ig_pasta_videos() . "/$nome", 0644);
+  registra('ig_video', "ok $nome " . filesize(ig_pasta_videos() . "/$nome") . 'B');
+  resp(200, ['ok' => true, 'video' => $nome, 'url' => ig_url_video($nome)]);
+}
+
+if ($acao === 'ig_agendar' && $metodo === 'POST') {
+  $p = json_decode($corpo, true);
+  if (!is_array($p)) resp(400, ['ok' => false, 'erro' => 'corpo não é JSON']);
+  $video = basename((string)($p['video'] ?? ''));
+  if (!preg_match('/^[0-9a-f]{24}\.mp4$/', $video) || !is_file(ig_pasta_videos() . "/$video")) resp(400, ['ok' => false, 'erro' => 'vídeo não encontrado no servidor (mande antes com ig_video)']);
+  $legenda = trim((string)($p['legenda'] ?? ''));
+  if ($legenda === '' || (function_exists('mb_strlen') ? mb_strlen($legenda) : strlen($legenda)) > 2200) resp(400, ['ok' => false, 'erro' => 'legenda vazia ou com mais de 2200 caracteres']);
+  if (preg_match_all('/(^|\s)#[^\s#]+/u', $legenda) > 30) resp(400, ['ok' => false, 'erro' => 'mais de 30 hashtags']);
+  $quando = strtotime((string)($p['quando'] ?? ''));
+  if ($quando === false || $quando < time() + 120 || $quando > time() + 30 * 86400) resp(400, ['ok' => false, 'erro' => 'quando precisa ser uma data/hora (ISO) entre 2 min e 30 dias pra frente']);
+  $nome = wyb_slug((string)($p['nome'] ?? '')) ?: 'reel';
+  $id = gmdate('Ymd-Hi', $quando) . "-$nome";
+  if (is_file(ig_pasta('fila') . "/$id.json")) resp(409, ['ok' => false, 'erro' => "já tem um Reel agendado com o id $id"]);
+  $item = ['id' => $id, 'status' => 'agendado', 'quando' => $quando, 'quando_txt' => gmdate('c', $quando),
+           'video' => $video, 'legenda' => $legenda, 'agendado_em' => time()];
+  ig_grava_item($item);
+  ig_log("$id agendado para " . gmdate('c', $quando));
+  registra('ig_agendar', "ok $id");
+  resp(200, ['ok' => true, 'id' => $id, 'quando' => gmdate('c', $quando)]);
+}
+
+if ($acao === 'ig_fila' && $metodo === 'GET') {
+  registra('ig_fila', 'ok');
+  resp(200, ['ok' => true] + ig_situacao());
+}
+
+if ($acao === 'ig_cancelar' && $metodo === 'POST') {
+  $id = basename((string)($_GET['id'] ?? ''));
+  $f = ig_pasta('fila') . "/$id.json";
+  $item = json_arquivo($f);
+  if (!is_array($item)) resp(404, ['ok' => false, 'erro' => 'não achei esse id na fila']);
+  if (($item['status'] ?? '') === 'publicado') resp(409, ['ok' => false, 'erro' => 'já foi publicado; apagar só pelo app do Instagram']);
+  ig_apaga_video($item);
+  @unlink($f);
+  ig_log("$id cancelado");
+  registra('ig_cancelar', "ok $id");
+  resp(200, ['ok' => true, 'cancelado' => $id]);
+}
+
+if ($acao === 'ig_ciclo' && $metodo === 'POST') {
+  $r = ig_ciclo();
+  registra('ig_ciclo', ($r['ok'] ?? false) ? 'ok' : 'falhou');
+  resp(200, $r);
+}
+
+resp(400, ['ok' => false, 'erro' => 'ação desconhecida', 'acoes' => ['ping', 'quizzes', 'publicar', 'codigo', 'ig_video', 'ig_agendar', 'ig_fila', 'ig_cancelar', 'ig_ciclo']]);
