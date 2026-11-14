@@ -102,7 +102,7 @@ def pops_wav(path, times, dur, sr=44100):
 
 def mux(video, audio, out):
     tmp = out[:-4] + '.part.mp4'
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', video, '-i', audio, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '128k', '-shortest', tmp], check=True)
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', video, '-i', audio, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '128k', '-shortest', '-movflags', '+faststart', tmp], check=True)
     os.replace(tmp, out)
 
 # ---------- TikTok: apresenta os 5 ----------

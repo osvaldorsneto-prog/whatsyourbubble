@@ -1,5 +1,5 @@
 <?php
-// Funções comuns do motor e da vitrine: buscar arquivos do GitHub com cópia local.
+// Funções comuns do motor e da vitrine: ler os quizzes da hospedagem (ou do GitHub, com cópia local).
 const WYB_RAW = 'https://raw.githubusercontent.com/osvaldorsneto-prog/whatsyourbubble/main/';
 
 function wyb_dir() {
@@ -18,9 +18,18 @@ function wyb_fetch($url) {
   return @file_get_contents($url, false, stream_context_create(['http' => ['timeout' => 6]]));
 }
 
-// Lê um JSON do repositório, guardando cópia em ~/wyb-cache/<nome>.json por $ttl segundos.
-// Se o GitHub falhar, usa a última cópia boa.
+// Quizzes publicados direto na hospedagem (pelo q/receber.php) ficam em ~/wyb-quizzes/
+// e valem mais que o GitHub: o site não depende mais do GitHub pra abrir quiz novo.
+function wyb_local($file_name) {
+  $f = dirname($_SERVER['DOCUMENT_ROOT']) . '/wyb-quizzes/' . basename($file_name);
+  return is_file($f) ? json_decode(file_get_contents($f), true) : null;
+}
+
+// Lê um JSON: primeiro da hospedagem (~/wyb-quizzes); se não tiver, do GitHub,
+// guardando cópia em ~/wyb-cache/<nome>.json por $ttl segundos. Se o GitHub falhar, usa a última cópia boa.
 function wyb_json($path, $name, $ok, $ttl = 600) {
+  $local = wyb_local($path);
+  if ($ok($local)) return $local;
   $file = wyb_dir() . "/$name.json";
   $data = null;
   if (is_file($file) && time() - filemtime($file) < $ttl) $data = json_decode(file_get_contents($file), true);
