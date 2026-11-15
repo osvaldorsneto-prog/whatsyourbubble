@@ -1,0 +1,384 @@
+{
+  "slug": "passeio-de-bike",
+  "criado_em": "2026-11-15",
+  "categoria": "esporte",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é no passeio de bike?",
+    "lead": "Todo grupo de pedal tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você traçou a rota antes de encher o pneu.",
+        "Pra você, passeio bom começa no mapa. Você sabe a distância, onde tem subida e onde dá pra parar pra água. Por isso ninguém se perde quando você organiza.",
+        "Montar a rota perfeita pro grupo.",
+        "Planejar tanto que a turma sai tarde.",
+        "São 18 km, com parada no km 9."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma bike sai sem revisão de freio.",
+        "Você confere o pneu, a corrente e a previsão do tempo antes de sair. Aquele barulhinho estranho na bike de alguém? Você já ouviu e já sabe o que é.",
+        "Achar o problema antes de virar pane.",
+        "Parar toda hora pra conferir a bike.",
+        "Ouviu esse barulho? Deixa eu ver."
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do ritmo, das fotos e da água do grupo.",
+        "Você pedala olhando pra frente e pra trás: quem ficou pra trás, quem precisa de água, onde é a foto boa. Com você, o grupo inteiro chega junto e feliz.",
+        "Manter o grupo inteiro unido.",
+        "Cuidar de todo mundo e esquecer de beber água.",
+        "Espera o pessoal! Foto aqui rapidinho."
+      ],
+      "F": [
+        "O Finalizador",
+        "Passeio bom é passeio que sai do papel.",
+        "Você não fica esperando o dia perfeito nem a rota ideal. Enche o pneu, pega a bike e vai. Enquanto o grupo discute o caminho, você já tá pedalando.",
+        "Fazer o passeio acontecer de verdade.",
+        "Sair sem calibrar o pneu.",
+        "Bora! A gente vê o caminho no caminho."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o pedal pede: planeja a rota nova, confere a bike quando precisa, cuida do grupo na subida e acelera quando é hora de chegar.",
+        "Ser o que o grupo precisa naquele trecho.",
+        "Ninguém saber se você vai na frente ou atrás.",
+        "Depende do trecho. Pra onde a gente vai?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta da rota planejada.",
+      "D": "você não sai sem conferir a bike.",
+      "M": "você cuida do grupo inteiro ao mesmo tempo.",
+      "F": "na hora certa, você só sobe na bike e vai."
+    },
+    "Q": [
+      [
+        "O \"passeio leve\" virou uma subida sem fim. Você...",
+        {
+          "A": "Já tinha visto no mapa",
+          "D": "Abro o app pra ver quanto falta",
+          "M": "Animo o grupo e divido a água",
+          "F": "Desço e empurro, sem vergonha"
+        }
+      ],
+      [
+        "Alguém chama pra pedalar no domingo. Primeira reação?",
+        {
+          "A": "Já traço a rota e o horário",
+          "D": "Pergunto o percurso e quantos quilômetros",
+          "M": "Chamo mais gente e marco um café depois",
+          "F": "Encho o pneu e tô lá"
+        }
+      ],
+      [
+        "O pneu furou no meio do caminho. Você...",
+        {
+          "A": "Tenho câmara reserva e kit na mochila",
+          "D": "Procuro o espinho culpado",
+          "M": "Peço ajuda e organizo a parada do grupo",
+          "F": "Remendo de qualquer jeito e sigo"
+        }
+      ],
+      [
+        "Seu papel no grupo de pedal é...",
+        {
+          "A": "Quem montou o roteiro",
+          "D": "Quem confere freio e pneu de todo mundo",
+          "M": "Quem cuida do ritmo, das fotos e da água",
+          "F": "Quem garante que todo mundo chega"
+        }
+      ],
+      [
+        "Alguém diz \"falta pouco\". Você pensa:",
+        {
+          "A": "\"Eu sei, faltam 3,2 km\"",
+          "D": "\"Quero ver isso no mapa\"",
+          "M": "\"Ótimo, vou avisar o pessoal lá de trás\"",
+          "F": "\"Então bora, sem parar\""
+        }
+      ],
+      [
+        "Começou a ventar contra. Você...",
+        {
+          "A": "Já sabia, por isso a volta é a favor",
+          "D": "Confiro a previsão pra ver até quando vai",
+          "M": "Organizo uma fila pra todo mundo revezar na frente",
+          "F": "Abaixo a cabeça e pedalo"
+        }
+      ],
+      [
+        "Seu maior defeito no pedal:",
+        {
+          "A": "Planejo tanto que a gente sai tarde",
+          "D": "Paro toda hora pra conferir a bike",
+          "M": "Cuido de todo mundo e esqueço de beber água",
+          "F": "Saio sem calibrar o pneu"
+        }
+      ],
+      [
+        "Fim do passeio. Você...",
+        {
+          "A": "Salvo a rota pra repetir melhorada",
+          "D": "Confiro quilometragem e tempo no app",
+          "M": "Já chamo todo mundo pro próximo",
+          "F": "Vou direto pro lanche"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a bike ride?",
+    "lead": "Every cycling group has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You mapped the route before pumping the tyres.",
+        "For you, a good ride starts with the map. You know the distance, where the hills are and where to stop for water. That's why nobody gets lost when you're in charge.",
+        "Building the perfect route for the group.",
+        "Planning so long the group leaves late.",
+        "It's 18 km, with a stop at 9."
+      ],
+      "D": [
+        "The Detective",
+        "No bike leaves without a brake check.",
+        "You check the tyres, the chain and the forecast before setting off. That weird little noise on someone's bike? You've already heard it and you know what it is.",
+        "Spotting the problem before it becomes a breakdown.",
+        "Stopping all the time to check the bike.",
+        "Did you hear that noise? Let me look."
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the pace, the photos and the water.",
+        "You ride looking ahead and behind: who's dropped back, who needs water, where the good photo spot is. With you, the whole group arrives together and happy.",
+        "Keeping the whole group together.",
+        "Looking after everyone and forgetting to drink.",
+        "Wait for the others! Quick photo here."
+      ],
+      "F": [
+        "The Finisher",
+        "The best ride is the one that actually happens.",
+        "You don't wait for the perfect day or the ideal route. Pump the tyres, grab the bike, go. While the group debates the way, you're already riding.",
+        "Making the ride actually happen.",
+        "Setting off without checking tyre pressure.",
+        "Let's go! We'll find the way on the way."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the ride needs: you plan new routes, check the bike when it matters, look after the group on the climbs and speed up when it's time to finish.",
+        "Being whatever the group needs on that stretch.",
+        "Nobody knowing if you'll ride at the front or the back.",
+        "Depends on the stretch. Where are we heading?"
+      ]
+    },
+    "S2": {
+      "A": "you still like a planned route.",
+      "D": "you never set off without checking the bike.",
+      "M": "you look after the whole group at once.",
+      "F": "when it counts, you just hop on and go."
+    },
+    "Q": [
+      [
+        "The \"easy ride\" turned into an endless hill. You...",
+        {
+          "A": "Already saw it on the map",
+          "D": "Check the app for how far is left",
+          "M": "Cheer the group and share water",
+          "F": "Get off and push, no shame"
+        }
+      ],
+      [
+        "Someone suggests a ride on Sunday. First reaction?",
+        {
+          "A": "I plan the route and the time",
+          "D": "I ask about the route and how many km",
+          "M": "I invite more people and plan a coffee after",
+          "F": "Pump the tyres and I'm there"
+        }
+      ],
+      [
+        "Puncture halfway through. You...",
+        {
+          "A": "Spare tube and kit in my bag",
+          "D": "Hunt for the guilty thorn",
+          "M": "Get help and organise the group's stop",
+          "F": "Patch it up any old way and carry on"
+        }
+      ],
+      [
+        "Your role in the cycling group is...",
+        {
+          "A": "The one who planned the route",
+          "D": "The one checking everyone's brakes and tyres",
+          "M": "The one handling pace, photos and water",
+          "F": "The one making sure everyone gets there"
+        }
+      ],
+      [
+        "Someone says \"nearly there\". You think:",
+        {
+          "A": "\"I know, 3.2 km to go\"",
+          "D": "\"Show me on the map\"",
+          "M": "\"Great, I'll tell the ones at the back\"",
+          "F": "\"Then let's go, no stopping\""
+        }
+      ],
+      [
+        "A headwind picks up. You...",
+        {
+          "A": "Knew it, that's why the way back is downwind",
+          "D": "Check the forecast to see how long it'll last",
+          "M": "Set up a line so everyone takes turns at the front",
+          "F": "Head down and pedal"
+        }
+      ],
+      [
+        "Your biggest flaw on a ride:",
+        {
+          "A": "I plan so much we leave late",
+          "D": "I keep stopping to check the bike",
+          "M": "I look after everyone and forget to drink",
+          "F": "I set off without checking the tyres"
+        }
+      ],
+      [
+        "The ride's over. You...",
+        {
+          "A": "Save the route to do it better next time",
+          "D": "Check distance and time on the app",
+          "M": "Already invite everyone to the next one",
+          "F": "Head straight for a snack"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "骑车出游时你是哪个泡泡？",
+    "lead": "每个骑行小队都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没打气，你就把路线规划好了。",
+        "对你来说，好的骑行从地图开始。你知道距离多远、哪里有坡、在哪儿停下来补水。所以只要你来组织，没人会迷路。",
+        "给大家规划完美路线。",
+        "计划太久，大家出发晚了。",
+        "全程18公里，第9公里休息。"
+      ],
+      "D": [
+        "侦探",
+        "每辆车出发前都要先检查刹车。",
+        "出发前你会检查轮胎、链条和天气预报。谁的车有个奇怪的小声音？你早就听到了，而且知道是哪里的问题。",
+        "在出故障之前发现问题。",
+        "老是停下来检查车子。",
+        "听到那个声音了吗？我看看。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时照顾节奏、拍照和大家的水。",
+        "你一边骑一边前后看：谁掉队了，谁要喝水，哪里适合拍照。有你在，整个队伍一起开开心心到终点。",
+        "让整个队伍不散。",
+        "照顾所有人，忘了自己喝水。",
+        "等等后面的人！在这儿拍张照。"
+      ],
+      "F": [
+        "终结者",
+        "真正骑出去的才是好行程。",
+        "你不等完美的天气，也不等理想的路线。打气、推车、出发。大家还在讨论走哪条路，你已经骑上了。",
+        "让骑行真的成行。",
+        "没检查胎压就出发。",
+        "走吧！路上再找路。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据骑行需要切换角色：新路线时规划，需要时检查车子，上坡时照顾队伍，快到终点时加速冲刺。",
+        "成为队伍在那一段最需要的人。",
+        "没人知道你会骑在前面还是后面。",
+        "看哪一段。我们往哪儿走？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢规划好的路线。",
+      "D": "你不检查车子绝不出发。",
+      "M": "你能同时照顾整个队伍。",
+      "F": "关键时刻，你跨上车就走。"
+    },
+    "Q": [
+      [
+        "说好的“轻松骑”变成了没完没了的上坡。你……",
+        {
+          "A": "早在地图上看到了",
+          "D": "打开应用看还剩多远",
+          "M": "给大家打气，分水喝",
+          "F": "下车推着走，不丢人"
+        }
+      ],
+      [
+        "有人约周日骑车。你的第一反应？",
+        {
+          "A": "马上规划路线和时间",
+          "D": "先问路线和多少公里",
+          "M": "再多叫几个人，约好骑完喝咖啡",
+          "F": "给轮胎打气，准时到"
+        }
+      ],
+      [
+        "半路爆胎了。你……",
+        {
+          "A": "包里有备用内胎和工具",
+          "D": "找出那根罪魁祸首的刺",
+          "M": "叫人帮忙，安排大家休息",
+          "F": "随便补一补，继续骑"
+        }
+      ],
+      [
+        "你在骑行队里的角色是……",
+        {
+          "A": "规划路线的人",
+          "D": "检查每个人刹车和轮胎的人",
+          "M": "管节奏、拍照和补水的人",
+          "F": "确保每个人都骑到终点的人"
+        }
+      ],
+      [
+        "有人说“快到了”。你心想：",
+        {
+          "A": "“我知道，还有3.2公里”",
+          "D": "“在地图上指给我看”",
+          "M": "“好，我去告诉后面的人”",
+          "F": "“那就走，别停”"
+        }
+      ],
+      [
+        "开始刮逆风了。你……",
+        {
+          "A": "早知道，所以回程是顺风",
+          "D": "看天气预报，风要刮多久",
+          "M": "排成一列，大家轮流领骑",
+          "F": "低下头，使劲蹬"
+        }
+      ],
+      [
+        "你骑车时最大的毛病：",
+        {
+          "A": "计划太多，出发晚了",
+          "D": "老停下来检查车子",
+          "M": "照顾所有人，忘了自己喝水",
+          "F": "没检查轮胎就出发"
+        }
+      ],
+      [
+        "骑行结束了。你……",
+        {
+          "A": "保存路线，下次骑得更好",
+          "D": "在应用里查看距离和时间",
+          "M": "马上约大家下一次",
+          "F": "直奔小吃摊"
+        }
+      ]
+    ]
+  }
+}

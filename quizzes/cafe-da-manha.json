@@ -1,0 +1,384 @@
+{
+  "slug": "cafe-da-manha",
+  "criado_em": "2026-11-15",
+  "categoria": "comida",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no café da manhã?",
+    "lead": "Toda mesa de café da manhã tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Seu café da manhã foi decidido na noite anterior.",
+        "Você deixa a mesa meio posta antes de dormir, sabe o que tem na geladeira e nunca acorda sem pão. De manhã, é só executar o plano.",
+        "Nunca faltar nada na mesa.",
+        "Planejar tanto que o café esfria.",
+        "Amanhã é tapioca. Já deixei a massa pronta."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum leite passa sem o teste do cheiro.",
+        "Você confere a validade, o ponto do ovo e se o pão é de hoje mesmo. Ninguém te serve nada estranho logo cedo. Graças a você, o dia começa sem surpresa.",
+        "Pegar o leite azedo antes de todo mundo.",
+        "Ler o rótulo de tudo enquanto os outros comem.",
+        "Peraí, esse pão é de quando?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você passa o café, frita o ovo e conversa ao mesmo tempo.",
+        "De manhã, você cuida de tudo junto: café no fogo, torrada na chapa, suco na mesa e todo mundo servido. A cozinha vira uma orquestra e você rege.",
+        "Fazer tudo ficar pronto na mesma hora.",
+        "Fazer mil coisas e queimar a torrada.",
+        "Quem quer ovo? Já tô fazendo o café."
+      ],
+      "F": [
+        "O Finalizador",
+        "Café da manhã bom é café da manhã comido.",
+        "Você não espera mesa posta nem receita perfeita. Pão, manteiga, café e pronto. Enquanto os outros decidem o cardápio, você já tomou e saiu.",
+        "Nunca sair de casa de barriga vazia.",
+        "Comer em pé em dois minutos.",
+        "Pão com manteiga resolve. Bora!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a manhã pede: planeja quando dá tempo, confere quando precisa, cuida de todos no fim de semana e resolve rápido no dia corrido.",
+        "Ser o que a manhã precisa.",
+        "Ninguém saber o que você vai querer comer.",
+        "Depende do dia. O que tem aí?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta da mesa planejada.",
+      "D": "você não come nada sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na pressa, você resolve com o que tiver."
+    },
+    "Q": [
+      [
+        "O café acabou e todo mundo ainda tá de olho fechado. Você...",
+        {
+          "A": "Já tinha pó de reserva",
+          "D": "Cheiro o pote pra ter certeza",
+          "M": "Passo café e faço o pão junto",
+          "F": "Vou na padaria de pijama"
+        }
+      ],
+      [
+        "Na noite anterior, o café da manhã...",
+        {
+          "A": "Já tá decidido, com cardápio",
+          "D": "Depende: confiro se o leite ainda tá bom",
+          "M": "Penso no que cada um da casa gosta",
+          "F": "Vai ser o que tiver na geladeira"
+        }
+      ],
+      [
+        "O ovo grudou na frigideira. Você...",
+        {
+          "A": "Recomeço com a frigideira certa",
+          "D": "Investigo: foi o fogo ou faltou óleo?",
+          "M": "Viro mexido e sigo com o resto",
+          "F": "Raspo e como do jeito que saiu"
+        }
+      ],
+      [
+        "Seu papel na mesa do café é...",
+        {
+          "A": "Quem pôs a mesa antes de todos acordarem",
+          "D": "Quem confere se o pão é de hoje",
+          "M": "Quem serve o suco, passa a manteiga e puxa assunto",
+          "F": "Quem garante que ninguém sai com fome"
+        }
+      ],
+      [
+        "Alguém diz \"hoje vou só tomar um cafezinho\". Você pensa:",
+        {
+          "A": "\"Mas eu contei você no pão\"",
+          "D": "\"Aposto que às 10h vai estar com fome\"",
+          "M": "\"Separo uma fruta pra você levar\"",
+          "F": "\"Então toma rápido que esfria\""
+        }
+      ],
+      [
+        "Você acordou atrasado. Você...",
+        {
+          "A": "Ainda bem que deixei tudo separado ontem",
+          "D": "Confiro o horário duas vezes antes de correr",
+          "M": "Me arrumo e tomo café ao mesmo tempo",
+          "F": "Pego uma banana e saio"
+        }
+      ],
+      [
+        "Seu maior defeito no café da manhã:",
+        {
+          "A": "Planejo tanto que o café esfria",
+          "D": "Leio o rótulo de tudo antes de comer",
+          "M": "Faço mil coisas e queimo a torrada",
+          "F": "Como em pé em dois minutos"
+        }
+      ],
+      [
+        "Fim do café. Você...",
+        {
+          "A": "Anoto o que comprar pra amanhã",
+          "D": "Confiro se desliguei o fogão",
+          "M": "Lavo a louça e já penso no almoço",
+          "F": "Guardo tudo em 30 segundos e saio"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at breakfast?",
+    "lead": "Every breakfast table has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your breakfast was decided the night before.",
+        "You half-set the table before bed, know exactly what's in the fridge and never wake up without bread. In the morning, you just follow the plan.",
+        "Never running out of anything.",
+        "Planning so long the coffee goes cold.",
+        "Tomorrow it's pancakes. The batter's ready."
+      ],
+      "D": [
+        "The Detective",
+        "No milk gets poured without the sniff test.",
+        "You check the use-by date, how the eggs are done and whether the bread is really today's. Nobody serves you anything dodgy first thing. Thanks to you, the day starts without surprises.",
+        "Catching the sour milk before anyone else.",
+        "Reading every label while everyone else eats.",
+        "Hang on, when is this bread from?"
+      ],
+      "M": [
+        "The Maestro",
+        "You brew, fry and chat all at once.",
+        "In the morning you handle it all together: coffee on, toast in, juice on the table and everyone served. The kitchen becomes an orchestra and you're conducting.",
+        "Getting everything ready at the same moment.",
+        "Doing a hundred things and burning the toast.",
+        "Who wants eggs? Coffee's on its way."
+      ],
+      "F": [
+        "The Finisher",
+        "The best breakfast is the one you actually eat.",
+        "You don't wait for a set table or the perfect recipe. Toast, butter, coffee, done. While others debate the menu, you've eaten and left.",
+        "Never leaving the house hungry.",
+        "Eating standing up in two minutes.",
+        "Toast does the job. Let's go!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the morning needs: you plan when there's time, check when it matters, look after everyone at weekends and keep it quick on busy days.",
+        "Being whatever the morning needs.",
+        "Nobody knowing what you'll want to eat.",
+        "Depends on the day. What have we got?"
+      ]
+    },
+    "S2": {
+      "A": "you still like a planned breakfast.",
+      "D": "you don't eat anything unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "in a rush, you make do with what's there."
+    },
+    "Q": [
+      [
+        "The coffee's run out and everyone's half asleep. You...",
+        {
+          "A": "Already had a spare bag",
+          "D": "Sniff the jar to be sure",
+          "M": "Brew more and make toast too",
+          "F": "Go to the bakery in pyjamas"
+        }
+      ],
+      [
+        "The night before, breakfast is...",
+        {
+          "A": "Already decided, menu and all",
+          "D": "Pending: I'll check the milk's still good",
+          "M": "Planned around what everyone at home likes",
+          "F": "Whatever's in the fridge"
+        }
+      ],
+      [
+        "The egg's stuck to the pan. You...",
+        {
+          "A": "Start again with the right pan",
+          "D": "Investigate: too hot, or not enough oil?",
+          "M": "Turn it into scrambled and carry on",
+          "F": "Scrape it off and eat it as it is"
+        }
+      ],
+      [
+        "Your role at the breakfast table is...",
+        {
+          "A": "The one who set it before anyone woke up",
+          "D": "The one checking the bread is fresh",
+          "M": "The one pouring juice, buttering toast and chatting",
+          "F": "The one making sure nobody leaves hungry"
+        }
+      ],
+      [
+        "Someone says \"I'll just have a coffee today\". You think:",
+        {
+          "A": "\"But I counted you for toast\"",
+          "D": "\"Bet you're starving by 10\"",
+          "M": "\"I'll pack you some fruit\"",
+          "F": "\"Then drink it before it's cold\""
+        }
+      ],
+      [
+        "You've overslept. You...",
+        {
+          "A": "Glad I laid everything out last night",
+          "D": "Check the time twice before rushing",
+          "M": "Get dressed and have breakfast at once",
+          "F": "Grab a banana and go"
+        }
+      ],
+      [
+        "Your biggest breakfast flaw:",
+        {
+          "A": "I plan so much the coffee goes cold",
+          "D": "I read every label before eating",
+          "M": "I do a hundred things and burn the toast",
+          "F": "I eat standing up in two minutes"
+        }
+      ],
+      [
+        "Breakfast's over. You...",
+        {
+          "A": "Write down what to buy for tomorrow",
+          "D": "Check the hob is off",
+          "M": "Do the dishes and start thinking about lunch",
+          "F": "Tidy up in 30 seconds and head out"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "吃早餐时你是哪个泡泡？",
+    "lead": "每张早餐桌上都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的早餐前一天晚上就定好了。",
+        "睡前你就把餐桌摆好一半，清楚冰箱里有什么，早上从不缺面包。到了早上，照计划执行就行。",
+        "餐桌上什么都不缺。",
+        "计划太久，咖啡都凉了。",
+        "明天吃煎饼，面糊我已经调好了。"
+      ],
+      "D": [
+        "侦探",
+        "每杯牛奶都要先闻一闻。",
+        "你会检查保质期、鸡蛋的熟度，还有面包是不是今天的。一大早谁也别想给你吃奇怪的东西。有你在，一天的开始没有意外。",
+        "比谁都先发现牛奶坏了。",
+        "别人在吃，你还在看标签。",
+        "等等，这面包是哪天的？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边煮咖啡、煎蛋，一边聊天。",
+        "早上你什么都一起管：咖啡在煮，面包在烤，果汁上桌，人人有份。厨房变成乐团，你就是指挥。",
+        "让所有东西同时做好。",
+        "同时做太多事，把吐司烤焦。",
+        "谁要鸡蛋？咖啡马上好。"
+      ],
+      "F": [
+        "终结者",
+        "能吃进嘴里的早餐才是好早餐。",
+        "你不等摆好桌子，也不等完美食谱。面包、黄油、咖啡，搞定。别人还在商量吃什么，你已经吃完出门了。",
+        "从不饿着肚子出门。",
+        "两分钟站着吃完。",
+        "面包抹黄油就够了，走！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据早上的需要切换角色：有时间就规划，该检查就检查，周末照顾全家，忙的时候速战速决。",
+        "成为早上最需要的那个人。",
+        "没人知道你想吃什么。",
+        "看哪天吧。有什么吃的？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢有计划的早餐。",
+      "D": "你不检查就不吃。",
+      "M": "你能同时照顾一千件事。",
+      "F": "赶时间时，有什么吃什么。"
+    },
+    "Q": [
+      [
+        "咖啡喝完了，大家眼睛还没睁开。你……",
+        {
+          "A": "早就备好了一包",
+          "D": "闻一闻罐子确认一下",
+          "M": "边煮咖啡边烤面包",
+          "F": "穿着睡衣去面包店"
+        }
+      ],
+      [
+        "前一天晚上，早餐……",
+        {
+          "A": "已经定好了，连菜单都有",
+          "D": "待定：先看看牛奶还能不能喝",
+          "M": "按家里每个人的口味来想",
+          "F": "冰箱里有什么就吃什么"
+        }
+      ],
+      [
+        "鸡蛋粘锅了。你……",
+        {
+          "A": "换口对的锅重新来",
+          "D": "调查一下：火太大还是油太少？",
+          "M": "改成炒蛋，接着做别的",
+          "F": "刮下来，原样吃掉"
+        }
+      ],
+      [
+        "你在早餐桌上的角色是……",
+        {
+          "A": "大家起床前就摆好桌子的人",
+          "D": "检查面包是不是今天的人",
+          "M": "倒果汁、抹黄油、顺便聊天的人",
+          "F": "确保没人饿着出门的人"
+        }
+      ],
+      [
+        "有人说“今天我就喝杯咖啡”。你心想：",
+        {
+          "A": "“可我把你的面包都算上了”",
+          "D": "“我打赌你十点就饿了”",
+          "M": "“我给你带个水果”",
+          "F": "“那快喝，要凉了”"
+        }
+      ],
+      [
+        "你睡过头了。你……",
+        {
+          "A": "还好昨晚都准备好了",
+          "D": "先看两遍时间再冲",
+          "M": "边穿衣服边吃早餐",
+          "F": "抓根香蕉就走"
+        }
+      ],
+      [
+        "你吃早餐时最大的毛病：",
+        {
+          "A": "计划太多，咖啡凉了",
+          "D": "吃之前要看所有标签",
+          "M": "同时做太多事，吐司烤焦了",
+          "F": "两分钟站着吃完"
+        }
+      ],
+      [
+        "早餐吃完了。你……",
+        {
+          "A": "记下明天要买什么",
+          "D": "检查炉子关没关",
+          "M": "洗碗，顺便想午饭",
+          "F": "三十秒收拾好出门"
+        }
+      ]
+    ]
+  }
+}

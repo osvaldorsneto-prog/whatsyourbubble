@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "passeio-de-bike",
+   "url": "/q/?s=passeio-de-bike",
+   "criado_em": "2026-11-15",
+   "categoria": "esporte",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é no passeio de bike?",
+    "en": "What's your bubble on a bike ride?",
+    "zh": "骑车出游时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "lavar-roupa",
+   "url": "/q/?s=lavar-roupa",
+   "criado_em": "2026-11-15",
+   "categoria": "casa",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é no dia de lavar roupa?",
+    "en": "What's your bubble on laundry day?",
+    "zh": "洗衣服那天你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "cafe-da-manha",
+   "url": "/q/?s=cafe-da-manha",
+   "criado_em": "2026-11-15",
+   "categoria": "comida",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no café da manhã?",
+    "en": "What's your bubble at breakfast?",
+    "zh": "吃早餐时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "pizza-com-amigos",
    "url": "/q/?s=pizza-com-amigos",
    "criado_em": "2026-11-14",

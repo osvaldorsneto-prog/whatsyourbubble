@@ -1,0 +1,384 @@
+{
+  "slug": "lavar-roupa",
+  "criado_em": "2026-11-15",
+  "categoria": "casa",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é no dia de lavar roupa?",
+    "lead": "Todo dia de lavar roupa tem os mesmos 4 tipos de gente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você tem uma escala de lavagem e segue à risca.",
+        "Pra você, roupa limpa começa na separação. Branca, colorida, delicada, cada uma no seu dia. Por isso suas camisetas brancas continuam brancas há anos.",
+        "Nunca deixar o cesto transbordar.",
+        "Planejar tanto que a roupa espera.",
+        "Hoje é dia de toalha. Coloridas, só quinta."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma peça entra na máquina sem revista.",
+        "Você confere os bolsos, lê a etiqueta e caça a meia vermelha escondida. Nada de papel picado na roupa escura quando você tá por perto.",
+        "Achar o lenço de papel antes da centrifugação.",
+        "Ler tanta etiqueta que a máquina fica esperando.",
+        "Peraí, deixa eu ver esses bolsos."
+      ],
+      "M": [
+        "O Maestro",
+        "Você lava, estende e dobra ao mesmo tempo.",
+        "Enquanto a máquina bate, você estende a leva anterior, dobra a outra e ainda resolve o almoço. O dia de lavar roupa vira uma linha de produção que você comanda.",
+        "Fazer três levas andarem juntas.",
+        "Esquecer uma leva dentro da máquina.",
+        "Essa já tá seca? Põe a próxima!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Roupa limpa é melhor que roupa perfeitamente separada.",
+        "Você não perde tempo separando por tom de cor. Põe tudo, aperta o botão e no fim do dia tem roupa limpa. Enquanto os outros leem etiqueta, você já guardou.",
+        "Nunca ficar sem roupa limpa.",
+        "Encolher uma blusa pela pressa.",
+        "Vai tudo junto. Água fria resolve!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a pilha pede: planeja quando a semana é cheia, confere quando a roupa é nova, toca várias levas quando dá e resolve rápido quando precisa.",
+        "Ser o que o cesto precisa naquele dia.",
+        "Ninguém entender o seu sistema.",
+        "Depende da pilha. Me mostra o cesto."
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo separado.",
+      "D": "você não deixa nenhum bolso sem conferir.",
+      "M": "você toca várias levas ao mesmo tempo.",
+      "F": "na hora certa, você aperta o botão e pronto."
+    },
+    "Q": [
+      [
+        "Sumiu um pé de meia de novo. Você...",
+        {
+          "A": "Crio um sistema anti-sumiço",
+          "D": "Reviro a máquina até achar",
+          "M": "Junto com outra meia sozinha",
+          "F": "Uso dois pés diferentes"
+        }
+      ],
+      [
+        "O cesto de roupa encheu. Você...",
+        {
+          "A": "Separo por cor, tecido e temperatura",
+          "D": "Leio a etiqueta de cada peça",
+          "M": "Ponho a máquina e faço outras coisas enquanto bate",
+          "F": "Enfio tudo junto e aperto o botão"
+        }
+      ],
+      [
+        "Uma camiseta branca saiu rosa. Você...",
+        {
+          "A": "Reviso meu método de separar roupa",
+          "D": "Procuro a peça vermelha culpada",
+          "M": "Tento salvar enquanto lavo o resto",
+          "F": "Agora tenho uma camiseta rosa. Gostei"
+        }
+      ],
+      [
+        "Seu papel no dia de lavar roupa é...",
+        {
+          "A": "Quem fez a escala da semana",
+          "D": "Quem confere se ficou papel no bolso",
+          "M": "Quem lava, estende e dobra ao mesmo tempo",
+          "F": "Quem garante que tem roupa limpa amanhã"
+        }
+      ],
+      [
+        "Vai chover e tem roupa no varal. Você...",
+        {
+          "A": "Vi a previsão e lavei ontem",
+          "D": "Olho pro céu de 5 em 5 minutos",
+          "M": "Recolho tudo e espalho pela casa",
+          "F": "Deixo lá. Se molhar, seca de novo"
+        }
+      ],
+      [
+        "Hora de dobrar a roupa. Você...",
+        {
+          "A": "Cada peça tem seu lugar na gaveta",
+          "D": "Confiro se secou mesmo antes de guardar",
+          "M": "Dobro vendo série e falando no telefone",
+          "F": "Faço uma montanha na cadeira e pronto"
+        }
+      ],
+      [
+        "Seu maior defeito com roupa:",
+        {
+          "A": "Planejo tanto que o cesto transborda",
+          "D": "Leio tanta etiqueta que a máquina espera",
+          "M": "Começo três levas e esqueço uma na máquina",
+          "F": "Já encolhi uma blusa por pressa"
+        }
+      ],
+      [
+        "Roupa toda limpa e guardada. Você...",
+        {
+          "A": "Já penso na escala da próxima semana",
+          "D": "Confiro se não sobrou nada na máquina",
+          "M": "Aproveito e troco a roupa de cama",
+          "F": "Comemoro vestindo a camiseta favorita"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on laundry day?",
+    "lead": "Every laundry day has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You've got a laundry rota and you stick to it.",
+        "For you, clean clothes start with sorting. Whites, colours, delicates, each on its own day. That's why your white T-shirts have stayed white for years.",
+        "Never letting the basket overflow.",
+        "Planning so much the washing waits.",
+        "Today is towels. Colours are Thursday."
+      ],
+      "D": [
+        "The Detective",
+        "Nothing goes in the machine without a search.",
+        "You check the pockets, read the labels and hunt down the hidden red sock. No shredded tissue on the dark wash when you're around.",
+        "Finding the tissue before the spin cycle.",
+        "Reading so many labels the machine waits.",
+        "Hold on, let me check those pockets."
+      ],
+      "M": [
+        "The Maestro",
+        "You wash, hang and fold all at once.",
+        "While the machine spins, you hang the last load, fold the one before and sort out lunch. Laundry day becomes a production line and you're running it.",
+        "Keeping three loads moving at once.",
+        "Forgetting a load in the machine.",
+        "Is that one dry? Next load in!"
+      ],
+      "F": [
+        "The Finisher",
+        "Clean beats perfectly sorted.",
+        "You don't waste time sorting by shade. Everything in, press start, and by evening there's clean laundry. While others read labels, you've already put it away.",
+        "Never running out of clean clothes.",
+        "Shrinking a jumper in a hurry.",
+        "It all goes in together. Cold wash, sorted!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the pile needs: you plan when the week is busy, check when the clothes are new, run several loads when you can and keep it quick when you must.",
+        "Being whatever the basket needs that day.",
+        "Nobody understanding your system.",
+        "Depends on the pile. Show me the basket."
+      ]
+    },
+    "S2": {
+      "A": "you still like everything sorted.",
+      "D": "you never skip a pocket check.",
+      "M": "you keep several loads going at once.",
+      "F": "when it counts, you just press start."
+    },
+    "Q": [
+      [
+        "Another sock has vanished. You...",
+        {
+          "A": "Invent an anti-loss system",
+          "D": "Search the machine till it turns up",
+          "M": "Pair it with another lonely sock",
+          "F": "Wear odd socks, who cares"
+        }
+      ],
+      [
+        "The laundry basket is full. You...",
+        {
+          "A": "Sort by colour, fabric and temperature",
+          "D": "Read the label on every item",
+          "M": "Start a wash and do other stuff while it runs",
+          "F": "Shove it all in and press start"
+        }
+      ],
+      [
+        "A white T-shirt came out pink. You...",
+        {
+          "A": "Review my sorting method",
+          "D": "Hunt for the red culprit",
+          "M": "Try to rescue it while washing the rest",
+          "F": "I own a pink T-shirt now. I like it"
+        }
+      ],
+      [
+        "Your role on laundry day is...",
+        {
+          "A": "The one who made the weekly rota",
+          "D": "The one checking for tissues in pockets",
+          "M": "The one washing, hanging and folding at once",
+          "F": "The one making sure there's something clean tomorrow"
+        }
+      ],
+      [
+        "Rain's coming and the washing is out. You...",
+        {
+          "A": "Saw the forecast and washed yesterday",
+          "D": "Check the sky every 5 minutes",
+          "M": "Bring it all in and spread it round the house",
+          "F": "Leave it. If it gets wet, it'll dry again"
+        }
+      ],
+      [
+        "Time to fold. You...",
+        {
+          "A": "Every item has its spot in the drawer",
+          "D": "Check it's really dry before putting it away",
+          "M": "Fold while watching a show and on the phone",
+          "F": "Make a mountain on the chair and call it done"
+        }
+      ],
+      [
+        "Your biggest laundry flaw:",
+        {
+          "A": "I plan so much the basket overflows",
+          "D": "I read so many labels the machine waits",
+          "M": "I start three loads and forget one in the machine",
+          "F": "I've shrunk a jumper by rushing"
+        }
+      ],
+      [
+        "Everything's clean and put away. You...",
+        {
+          "A": "Already plan next week's rota",
+          "D": "Check nothing's left in the machine",
+          "M": "Change the bed sheets while I'm at it",
+          "F": "Celebrate by wearing my favourite T-shirt"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "洗衣服那天你是哪个泡泡？",
+    "lead": "每个洗衣日都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你有一张洗衣时间表，而且严格执行。",
+        "对你来说，干净的衣服从分类开始。白色、彩色、娇贵的，各有各的日子。所以你的白T恤这么多年还是白的。",
+        "从不让脏衣篮满出来。",
+        "计划太久，衣服一直在等。",
+        "今天洗毛巾，彩色的周四再洗。"
+      ],
+      "D": [
+        "侦探",
+        "每件衣服进洗衣机前都要搜身。",
+        "你会掏口袋、看标签，把藏起来的红袜子揪出来。有你在，深色衣服上不会沾满纸屑。",
+        "在甩干之前找到纸巾。",
+        "看标签看太久，洗衣机都在等。",
+        "等等，我先看看这些口袋。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边洗、一边晾、一边叠。",
+        "洗衣机在转，你在晾上一批，叠再上一批，顺便把午饭也搞定。洗衣日变成一条生产线，由你指挥。",
+        "让三批衣服同时推进。",
+        "把一批衣服忘在洗衣机里。",
+        "那批干了吗？下一批进去！"
+      ],
+      "F": [
+        "终结者",
+        "洗干净胜过分得完美。",
+        "你不花时间按颜色深浅分类。全扔进去，按下开始，晚上就有干净衣服穿。别人还在看标签，你已经收好了。",
+        "从不缺干净衣服。",
+        "因为太急把毛衣洗缩了。",
+        "一起洗，冷水搞定！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据那堆衣服切换角色：忙的一周就规划，新衣服就检查，有空就同时洗几批，赶时间就速战速决。",
+        "成为那天脏衣篮最需要的人。",
+        "没人看得懂你的系统。",
+        "看那堆衣服吧。给我看看篮子。"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢分得清清楚楚。",
+      "D": "你从不漏掉任何一个口袋。",
+      "M": "你能同时推进好几批衣服。",
+      "F": "关键时刻，你直接按下开始。"
+    },
+    "Q": [
+      [
+        "又丢了一只袜子。你……",
+        {
+          "A": "发明一套防丢系统",
+          "D": "把洗衣机翻个底朝天",
+          "M": "跟另一只落单的凑一对",
+          "F": "穿两只不一样的，无所谓"
+        }
+      ],
+      [
+        "脏衣篮满了。你……",
+        {
+          "A": "按颜色、面料和水温分类",
+          "D": "每件都看一下标签",
+          "M": "开机洗着，同时做别的事",
+          "F": "全塞进去，按开始"
+        }
+      ],
+      [
+        "一件白T恤洗成了粉色。你……",
+        {
+          "A": "检讨一下我的分类方法",
+          "D": "找出那件红色的罪魁祸首",
+          "M": "一边洗别的一边抢救它",
+          "F": "现在我有件粉T恤了，挺好看"
+        }
+      ],
+      [
+        "你在洗衣日的角色是……",
+        {
+          "A": "排好一周时间表的人",
+          "D": "检查口袋里有没有纸的人",
+          "M": "同时洗、晾、叠的人",
+          "F": "确保明天有干净衣服穿的人"
+        }
+      ],
+      [
+        "要下雨了，衣服还晾在外面。你……",
+        {
+          "A": "看了天气预报，昨天就洗了",
+          "D": "每五分钟看一次天",
+          "M": "全收进来，摊满整个屋子",
+          "F": "不管了，湿了再晾干"
+        }
+      ],
+      [
+        "该叠衣服了。你……",
+        {
+          "A": "每件都有它在抽屉里的位置",
+          "D": "收之前确认真的干了",
+          "M": "边追剧边打电话边叠",
+          "F": "在椅子上堆成一座山，完事"
+        }
+      ],
+      [
+        "你洗衣服最大的毛病：",
+        {
+          "A": "计划太多，脏衣篮满出来了",
+          "D": "看标签太久，洗衣机在等",
+          "M": "同时洗三批，忘了一批在洗衣机里",
+          "F": "因为太急洗缩过一件毛衣"
+        }
+      ],
+      [
+        "衣服都洗好收好了。你……",
+        {
+          "A": "开始排下周的时间表",
+          "D": "检查洗衣机里有没有落下的",
+          "M": "顺便把床单也换了",
+          "F": "穿上最爱的T恤庆祝一下"
+        }
+      ]
+    ]
+  }
+}
