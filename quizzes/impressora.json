@@ -1,0 +1,384 @@
+{
+  "slug": "impressora",
+  "criado_em": "2026-11-16",
+  "categoria": "trabalho",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é com a impressora do escritório?",
+    "lead": "Toda impressora de escritório junta os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você imprime hoje o que vai precisar amanhã.",
+        "Pra você, impressora boa é impressora que não te pega de surpresa. Você sabe onde fica o papel reserva, imprime antes do pico e nunca chega na reunião de mãos vazias.",
+        "Nunca depender da sorte na hora H.",
+        "Imprimir tão cedo que a versão muda depois.",
+        "Já tá impresso. Fiz ontem."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum papel preso escapa de você.",
+        "Você sabe o que significa cada luzinha piscando e cada código de erro. Abre a tampa certa, acha a folha amassada e ainda descobre por que travou. O escritório inteiro te chama.",
+        "Descobrir o problema que ninguém achava.",
+        "Investigar tanto que a reunião começa sem você.",
+        "Erro E-04? É a bandeja dois."
+      ],
+      "M": [
+        "O Maestro",
+        "Você imprime, ajuda e responde mensagem ao mesmo tempo.",
+        "Enquanto a impressora trabalha, você responde e-mail, ajuda o colega com a fila e ainda avisa que o papel tá acabando. Com você, o escritório não para por causa de uma máquina.",
+        "Manter tudo andando mesmo com a máquina parada.",
+        "Mandar imprimir tanta coisa que esquece uma na bandeja.",
+        "Pode ir na frente, eu pego o seu também."
+      ],
+      "F": [
+        "O Finalizador",
+        "Impresso é melhor que perfeito.",
+        "Você não fica lendo o manual nem esperando o suporte. Dá um jeito, imprime e entra na reunião com a folha ainda quentinha. Enquanto os outros discutem o erro, você já entregou.",
+        "Fazer o papel sair, custe o que custar.",
+        "Imprimir sem revisar o arquivo.",
+        "Saiu. Tá ótimo. Vamos."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a impressora pede: planeja quando o prazo é importante, investiga quando ela trava, ajuda todo mundo quando a fila cresce e resolve quando é hora.",
+        "Ser o que o escritório precisa naquele momento.",
+        "Ninguém saber se te chama pra planejar ou pra consertar.",
+        "Depende. Qual luz tá piscando?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de imprimir com antecedência.",
+      "D": "você não deixa nenhum erro sem explicação.",
+      "M": "você resolve mil coisas enquanto ela imprime.",
+      "F": "na hora certa, você faz o papel sair."
+    },
+    "Q": [
+      [
+        "A impressora travou 5 minutos antes da reunião. Você:",
+        {
+          "A": "Imprimi tudo ontem, por garantia",
+          "D": "Abro tudo atrás do papel preso",
+          "M": "Mando o PDF e chamo o suporte",
+          "F": "Dou dois tapinhas e funciona"
+        }
+      ],
+      [
+        "Você precisa imprimir um documento de 40 páginas. Você...",
+        {
+          "A": "Configuro frente e verso e a ordem antes",
+          "D": "Imprimo uma página de teste primeiro",
+          "M": "Mando imprimir e vou fazendo outras coisas",
+          "F": "Aperto imprimir e vou buscar"
+        }
+      ],
+      [
+        "Tem uma fila de 3 pessoas na impressora. Você...",
+        {
+          "A": "Já sabia que esse horário enche e imprimi cedo",
+          "D": "Confiro na tela se o meu tá na fila mesmo",
+          "M": "Organizo a fila e ainda ajudo um colega",
+          "F": "Vou na impressora do outro andar"
+        }
+      ],
+      [
+        "Seu papel no escritório quando o assunto é impressora:",
+        {
+          "A": "Quem sabe onde fica o papel reserva",
+          "D": "Quem sabe o que significa cada código de erro",
+          "M": "Quem ajuda todo mundo enquanto trabalha",
+          "F": "Quem faz a impressora voltar a funcionar"
+        }
+      ],
+      [
+        "Aparece \"tinta baixa\" na tela. Você pensa:",
+        {
+          "A": "\"Já tem cartucho reserva no armário\"",
+          "D": "\"Baixa quanto? Vou ver o nível\"",
+          "M": "\"Aviso o pessoal e já peço outro\"",
+          "F": "\"Ainda imprime. Segue\""
+        }
+      ],
+      [
+        "Alguém esqueceu 50 folhas na bandeja. Você...",
+        {
+          "A": "Penso numa bandeja de achados e perdidos",
+          "D": "Descubro de quem é pelo nome no rodapé",
+          "M": "Separo, aviso o dono e pego as minhas",
+          "F": "Pego as minhas e deixo o resto ali"
+        }
+      ],
+      [
+        "Seu maior defeito com a impressora:",
+        {
+          "A": "Imprimo tão cedo que o arquivo muda depois",
+          "D": "Confiro tanto que a fila cresce atrás de mim",
+          "M": "Mando imprimir 3 coisas e esqueço uma lá",
+          "F": "Imprimo sem revisar e sai com erro"
+        }
+      ],
+      [
+        "Finalmente imprimiu. Você...",
+        {
+          "A": "Anoto o passo a passo pra próxima vez",
+          "D": "Confiro se saíram todas as páginas",
+          "M": "Grampeio, distribuo e entrego pra todo mundo",
+          "F": "Pego e saio correndo pra reunião"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with the office printer?",
+    "lead": "Every office printer brings out the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You print today what you'll need tomorrow.",
+        "For you, a good printer is one that never catches you out. You know where the spare paper is, print before the rush and never turn up to a meeting empty-handed.",
+        "Never relying on luck at the last minute.",
+        "Printing so early the version changes afterwards.",
+        "Already printed. Did it yesterday."
+      ],
+      "D": [
+        "The Detective",
+        "No paper jam escapes you.",
+        "You know what every blinking light and error code means. You open the right flap, find the crumpled sheet and even work out why it jammed. The whole office calls you.",
+        "Finding the problem nobody else could.",
+        "Investigating so long the meeting starts without you.",
+        "Error E-04? It's tray two."
+      ],
+      "M": [
+        "The Maestro",
+        "You print, help out and answer messages all at once.",
+        "While the printer works, you answer emails, help a colleague with the queue and mention the paper's running low. With you, the office never stops because of one machine.",
+        "Keeping everything moving even when the machine stops.",
+        "Printing so much you leave something in the tray.",
+        "Go ahead, I'll grab yours too."
+      ],
+      "F": [
+        "The Finisher",
+        "Printed beats perfect.",
+        "You don't read the manual or wait for IT. You find a way, print it and walk into the meeting with the page still warm. While others debate the error, you've already delivered.",
+        "Getting the page out, whatever it takes.",
+        "Printing without proofreading the file.",
+        "It's out. Looks great. Let's go."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the printer demands: you plan when the deadline matters, investigate when it jams, help everyone when the queue grows and just fix it when it's time.",
+        "Being whatever the office needs right now.",
+        "Nobody knowing whether to call you to plan or to fix.",
+        "Depends. Which light is blinking?"
+      ]
+    },
+    "S2": {
+      "A": "you still like printing ahead of time.",
+      "D": "you never leave an error unexplained.",
+      "M": "you sort a dozen things while it prints.",
+      "F": "when it counts, you get the page out."
+    },
+    "Q": [
+      [
+        "The printer jams 5 minutes before the meeting. You:",
+        {
+          "A": "Printed it all yesterday, just in case",
+          "D": "Open every flap to find the jam",
+          "M": "Email the PDF and call IT",
+          "F": "Give it two taps and it works"
+        }
+      ],
+      [
+        "You need to print a 40-page document. You...",
+        {
+          "A": "Set double-sided and page order first",
+          "D": "Print a test page first",
+          "M": "Hit print and get on with other things",
+          "F": "Hit print and go and grab it"
+        }
+      ],
+      [
+        "There's a queue of 3 at the printer. You...",
+        {
+          "A": "Knew it gets busy now, so I printed early",
+          "D": "Check on screen that mine's actually queued",
+          "M": "Sort out the queue and help a colleague",
+          "F": "Use the printer on the next floor"
+        }
+      ],
+      [
+        "Your office role when it comes to the printer:",
+        {
+          "A": "The one who knows where the spare paper is",
+          "D": "The one who knows every error code",
+          "M": "The one helping everyone while still working",
+          "F": "The one who gets it working again"
+        }
+      ],
+      [
+        "\"Low ink\" pops up on the screen. You think:",
+        {
+          "A": "\"There's a spare cartridge in the cupboard\"",
+          "D": "\"How low? Let me check the level\"",
+          "M": "\"I'll tell the team and order another\"",
+          "F": "\"It still prints. Carry on\""
+        }
+      ],
+      [
+        "Someone left 50 pages in the tray. You...",
+        {
+          "A": "Think about setting up a lost-and-found tray",
+          "D": "Work out whose they are from the footer",
+          "M": "Sort them, tell the owner and grab mine",
+          "F": "Take mine and leave the rest"
+        }
+      ],
+      [
+        "Your biggest flaw with the printer:",
+        {
+          "A": "I print so early the file changes afterwards",
+          "D": "I check so much the queue builds up behind me",
+          "M": "I print 3 things and leave one there",
+          "F": "I print without proofreading"
+        }
+      ],
+      [
+        "It's finally printed. You...",
+        {
+          "A": "Write down the steps for next time",
+          "D": "Check every page came out",
+          "M": "Staple, hand out and deliver to everyone",
+          "F": "Grab it and run to the meeting"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "面对办公室打印机，你是哪个泡泡？",
+    "lead": "每台办公室打印机前都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "明天要用的东西，你今天就打好了。",
+        "对你来说，好用的打印机就是不会让你措手不及的打印机。你知道备用纸在哪，避开高峰提前打印，开会从不空着手。",
+        "关键时刻从不靠运气。",
+        "打印得太早，版本后来又改了。",
+        "已经打好了，昨天就弄了。"
+      ],
+      "D": [
+        "侦探",
+        "没有一张卡纸能逃过你。",
+        "你知道每个闪烁的灯和每个错误代码是什么意思。打开对的盖子，找到皱掉的纸，还能查出为什么卡。整个办公室都来找你。",
+        "找到别人找不到的问题。",
+        "查得太久，会议没等你就开始了。",
+        "错误E-04？是二号纸盒。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时打印、帮忙、回消息。",
+        "打印机工作时，你在回邮件、帮同事排队，还顺便提醒纸快没了。有你在，办公室不会因为一台机器停下来。",
+        "机器停了，事情也照样往前走。",
+        "打印太多，落了一份在纸盒里。",
+        "你先走吧，我顺便帮你拿。"
+      ],
+      "F": [
+        "终结者",
+        "打出来胜过打得完美。",
+        "你不看说明书，也不等IT。想个办法打出来，拿着还热乎的纸走进会议室。别人还在讨论错误，你已经交付了。",
+        "无论如何都把纸打出来。",
+        "没校对文件就打印了。",
+        "出来了，挺好，走吧。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据打印机的状况切换角色：截止日期重要时提前规划，卡纸时仔细调查，排队时帮大家，该解决时就解决。",
+        "成为办公室此刻最需要的人。",
+        "别人不知道该叫你来规划还是来修。",
+        "看情况。哪个灯在闪？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前打印好。",
+      "D": "你不会让任何错误没有解释。",
+      "M": "它打印时你能办完一堆事。",
+      "F": "关键时刻，你总能把纸打出来。"
+    },
+    "Q": [
+      [
+        "开会前5分钟，打印机卡纸了。你：",
+        {
+          "A": "昨天就全打好了，以防万一",
+          "D": "一个个盖子打开找卡纸",
+          "M": "先发PDF，再叫IT",
+          "F": "拍它两下，好了"
+        }
+      ],
+      [
+        "你要打印一份40页的文件。你会……",
+        {
+          "A": "先设好双面和页码顺序",
+          "D": "先打一页测试",
+          "M": "点打印，然后去忙别的",
+          "F": "点打印，直接去拿"
+        }
+      ],
+      [
+        "打印机前排了3个人。你……",
+        {
+          "A": "早知道这个点人多，提前打了",
+          "D": "在屏幕上确认我的文件真的在队列里",
+          "M": "整理好队伍，顺便帮同事一把",
+          "F": "去楼上那台打"
+        }
+      ],
+      [
+        "说到打印机，你在办公室的角色是：",
+        {
+          "A": "知道备用纸放哪的人",
+          "D": "知道每个错误代码含义的人",
+          "M": "边工作边帮所有人的人",
+          "F": "让打印机重新工作的人"
+        }
+      ],
+      [
+        "屏幕弹出“墨水不足”。你心想：",
+        {
+          "A": "“柜子里有备用墨盒”",
+          "D": "“低到多少？我看看”",
+          "M": "“跟大家说一声，再订一个”",
+          "F": "“还能打，继续”"
+        }
+      ],
+      [
+        "有人在纸盒里落了50张纸。你……",
+        {
+          "A": "想设一个失物招领盒",
+          "D": "看页脚找出是谁的",
+          "M": "分好，通知主人，再拿走我的",
+          "F": "拿走我的，其他不管"
+        }
+      ],
+      [
+        "你和打印机相处时最大的毛病：",
+        {
+          "A": "打印得太早，文件又改了",
+          "D": "检查太久，后面排起长队",
+          "M": "同时打3份，落下一份",
+          "F": "没校对就打印了"
+        }
+      ],
+      [
+        "终于打出来了。你……",
+        {
+          "A": "把步骤记下来，下次用",
+          "D": "检查每一页都出来了没",
+          "M": "装订、分发，一气呵成",
+          "F": "拿起就冲去开会"
+        }
+      ]
+    ]
+  }
+}

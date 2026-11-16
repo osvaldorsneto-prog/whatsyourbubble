@@ -1,0 +1,384 @@
+{
+  "slug": "passear-com-o-cachorro",
+  "criado_em": "2026-11-16",
+  "categoria": "pets",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é no passeio com o cachorro?",
+    "lead": "Todo passeio com cachorro tem os mesmos 4 tipos de dono. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você planeja o passeio antes de pegar a guia.",
+        "Pra você, passeio bom tem rota, horário e plano B. Você sabe onde tem sombra, onde tem água e qual rua evitar. Por isso o passeio com você nunca dá errado.",
+        "Achar o caminho perfeito pros dois.",
+        "Planejar tanto que o cachorro já tá na porta esperando.",
+        "Hoje é a volta do parque. Saímos às sete."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma cheirada passa sem você reparar.",
+        "Você confere coleira, saquinho e água antes de sair, e no caminho repara em tudo: o que ele cheira, o que tenta comer, quem vem vindo. Com você, ele tá sempre seguro.",
+        "Perceber qualquer coisa antes de virar problema.",
+        "Parar tanto que o passeio dura o dobro.",
+        "Peraí, o que é isso que você achou?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você passeia, conversa e resolve a vida ao mesmo tempo.",
+        "No mesmo passeio você leva o cachorro, joga o lixo, compra o pão e ainda põe o papo em dia com o vizinho. Enquanto ele cheira o poste, você já fez mil coisas.",
+        "Transformar um passeio em mil tarefas resolvidas.",
+        "Fazer tanta coisa que esquece o saquinho.",
+        "Já que tô na rua, passo na padaria."
+      ],
+      "F": [
+        "O Finalizador",
+        "Passeio feito é melhor que passeio perfeito.",
+        "Você não fica escolhendo rota nem horário ideal. Pega a guia, sai e volta com o cachorro cansado e feliz. Enquanto os outros se arrumam, você já deu a volta no quarteirão.",
+        "Fazer o passeio acontecer, faça chuva ou faça sol.",
+        "Voltar antes de ele terminar de cheirar tudo.",
+        "Guia na mão. Bora!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o passeio pede: planeja quando o dia é longo, confere quando o caminho é novo, resolve mil coisas quando dá e só sai andando quando é hora.",
+        "Ser o que o passeio precisa naquele momento.",
+        "Nem o cachorro saber que tipo de passeio vai ser.",
+        "Depende. Ele tá com quanta energia hoje?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de ter a rota pronta.",
+      "D": "você não deixa nenhuma cheirada passar.",
+      "M": "você resolve mil coisas no mesmo passeio.",
+      "F": "na hora certa, você pega a guia e sai."
+    },
+    "Q": [
+      [
+        "Seu cachorro empacou e não quer andar. Você:",
+        {
+          "A": "Já sabia, por isso trouxe petisco",
+          "D": "Procuro o que ele tá farejando",
+          "M": "Chamo, assobio e atendo o celular",
+          "F": "Pego no colo e sigo"
+        }
+      ],
+      [
+        "Antes de sair, você...",
+        {
+          "A": "Já tenho a rota e o horário definidos",
+          "D": "Confiro coleira, saquinho e água duas vezes",
+          "M": "Junto o cachorro, o lixo pra descer e um café",
+          "F": "Pego a guia e saio"
+        }
+      ],
+      [
+        "Ele viu outro cachorro do outro lado da rua. Você...",
+        {
+          "A": "Mudo a rota antes que vire festa",
+          "D": "Observo se o outro é bonzinho",
+          "M": "Seguro a guia e já puxo papo com o outro dono",
+          "F": "Atravesso e deixo eles se cheirarem"
+        }
+      ],
+      [
+        "Seu papel no passeio é...",
+        {
+          "A": "Quem decidiu o caminho e o horário",
+          "D": "Quem repara em tudo que ele cheira",
+          "M": "Quem passeia, conversa e faz compras no caminho",
+          "F": "Quem garante que ele volta cansado"
+        }
+      ],
+      [
+        "Começa a garoar no meio do passeio. Você...",
+        {
+          "A": "Tinha capa de chuva na mochila",
+          "D": "Olho o céu pra ver se vai piorar",
+          "M": "Corto caminho pela padaria e já compro o pão",
+          "F": "Faz parte. Seguimos"
+        }
+      ],
+      [
+        "Ele achou um graveto gigante e não larga. Você...",
+        {
+          "A": "Penso num jeito de levar ele assim até em casa",
+          "D": "Confiro se o graveto é seguro",
+          "M": "Tiro foto, mando pro grupo e seguro a guia",
+          "F": "Deixa. O graveto vem junto"
+        }
+      ],
+      [
+        "Seu maior defeito no passeio:",
+        {
+          "A": "Planejo tanto a rota que saio tarde",
+          "D": "Paro a cada cheirada pra ver o que é",
+          "M": "Faço tanta coisa que esqueço o saquinho",
+          "F": "Volto rápido demais pro gosto dele"
+        }
+      ],
+      [
+        "Voltando pra casa, você...",
+        {
+          "A": "Já penso no horário do passeio de amanhã",
+          "D": "Confiro as patinhas uma por uma",
+          "M": "Dou água, comida e ainda respondo as mensagens",
+          "F": "Tiro a guia e pronto, missão cumprida"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a dog walk?",
+    "lead": "Every dog walk has the same 4 kinds of owner. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You plan the walk before you pick up the lead.",
+        "For you, a good walk has a route, a time and a plan B. You know where the shade is, where there's water and which street to avoid. That's why walks with you never go wrong.",
+        "Finding the perfect route for you both.",
+        "Planning so long the dog is waiting at the door.",
+        "Park loop today. We leave at seven."
+      ],
+      "D": [
+        "The Detective",
+        "Not a single sniff goes unnoticed.",
+        "You check lead, bags and water before you leave, and on the walk you notice everything: what he sniffs, what he tries to eat, who's coming. With you, he's always safe.",
+        "Spotting anything before it becomes a problem.",
+        "Stopping so often the walk takes twice as long.",
+        "Wait, what have you found there?"
+      ],
+      "M": [
+        "The Maestro",
+        "You walk, chat and sort your life out at once.",
+        "On one walk you take the dog, drop off the rubbish, buy bread and catch up with the neighbour. While he sniffs a lamppost, you've done a dozen things.",
+        "Turning one walk into a dozen jobs done.",
+        "Doing so much you forget the bags.",
+        "Since I'm out, I'll pop into the bakery."
+      ],
+      "F": [
+        "The Finisher",
+        "A walk done beats a walk perfected.",
+        "You don't fuss over the ideal route or time. Lead on, out the door, back with a tired, happy dog. While others are still getting ready, you've been round the block.",
+        "Making the walk happen, rain or shine.",
+        "Heading home before he's finished sniffing.",
+        "Lead's on. Let's go!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the walk needs: you plan for a long day, check when the route is new, juggle errands when you can and just head out when it's time.",
+        "Being whatever the walk needs right now.",
+        "Not even the dog knowing what kind of walk it'll be.",
+        "Depends. How much energy has he got today?"
+      ]
+    },
+    "S2": {
+      "A": "you still like having the route ready.",
+      "D": "you don't let a single sniff slip by.",
+      "M": "you sort a dozen things on one walk.",
+      "F": "when it counts, you grab the lead and go."
+    },
+    "Q": [
+      [
+        "Your dog has stopped dead and won't budge. You:",
+        {
+          "A": "Saw it coming, so I brought treats",
+          "D": "Look for whatever he's sniffing",
+          "M": "Call, whistle and answer my phone",
+          "F": "Pick him up and keep going"
+        }
+      ],
+      [
+        "Before heading out, you...",
+        {
+          "A": "Already have the route and time set",
+          "D": "Check lead, bags and water twice",
+          "M": "Grab the dog, the rubbish and a coffee to go",
+          "F": "Grab the lead and go"
+        }
+      ],
+      [
+        "He spots another dog across the road. You...",
+        {
+          "A": "Change route before it turns into a party",
+          "D": "Watch to see if the other one's friendly",
+          "M": "Hold the lead and start chatting to the owner",
+          "F": "Cross over and let them sniff"
+        }
+      ],
+      [
+        "Your role on the walk is...",
+        {
+          "A": "The one who chose the route and the time",
+          "D": "The one who notices everything he sniffs",
+          "M": "The one walking, chatting and running errands",
+          "F": "The one making sure he comes home tired"
+        }
+      ],
+      [
+        "It starts drizzling mid-walk. You...",
+        {
+          "A": "Had a raincoat in the bag",
+          "D": "Check the sky to see if it'll get worse",
+          "M": "Cut through the bakery and pick up bread",
+          "F": "Part of the fun. Keep going"
+        }
+      ],
+      [
+        "He finds a giant stick and won't let go. You...",
+        {
+          "A": "Work out how to get him home like that",
+          "D": "Check the stick is safe",
+          "M": "Snap a photo, send it to the group, hold the lead",
+          "F": "Fine. The stick's coming with us"
+        }
+      ],
+      [
+        "Your biggest flaw on a walk:",
+        {
+          "A": "I plan the route so much we leave late",
+          "D": "I stop at every sniff to see what it is",
+          "M": "I do so much I forget the poo bags",
+          "F": "I head home too soon for his liking"
+        }
+      ],
+      [
+        "Back home, you...",
+        {
+          "A": "Already planning tomorrow's walk time",
+          "D": "Check his paws one by one",
+          "M": "Water, food and replying to messages, all at once",
+          "F": "Lead off, job done"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "遛狗时你是哪个泡泡？",
+    "lead": "每次遛狗都有同样的4种主人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没拿起牵引绳，你就规划好了路线。",
+        "对你来说，好的遛狗要有路线、时间和B计划。你知道哪里有树荫、哪里有水、哪条街要避开。所以和你一起遛狗从不出错。",
+        "为你们俩找到完美路线。",
+        "规划太久，狗狗已经在门口等急了。",
+        "今天走公园那圈，七点出发。"
+      ],
+      "D": [
+        "侦探",
+        "它闻的每一下，你都看在眼里。",
+        "出门前你检查绳子、袋子和水，路上你什么都注意：它闻什么、想吃什么、谁走过来。有你在，它永远安全。",
+        "在问题出现前就发现它。",
+        "停下来太多次，遛狗时间翻倍。",
+        "等等，你找到什么了？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边遛狗，一边聊天，一边把生活安排好。",
+        "一次遛狗，你带狗、扔垃圾、买面包，还和邻居聊了个遍。它在闻电线杆的时候，你已经办完了一堆事。",
+        "把一次遛狗变成一堆事办完。",
+        "事情太多，忘了带袋子。",
+        "既然出门了，顺便去趟面包店。"
+      ],
+      "F": [
+        "终结者",
+        "遛完胜过遛得完美。",
+        "你不纠结完美路线和时间。系上绳子，出门，带着一只又累又开心的狗回来。别人还在准备，你已经绕了一圈。",
+        "不管晴天雨天都把狗遛了。",
+        "它还没闻够就回家了。",
+        "绳子系好了，走！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据遛狗的需要切换角色：时间长就规划，路线新就检查，有空就顺便办事，该出门就出门。",
+        "成为这次遛狗最需要的人。",
+        "连狗都不知道今天是哪种遛法。",
+        "看情况。它今天精力多旺？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前定好路线。",
+      "D": "你不会错过它闻的任何东西。",
+      "M": "你一次遛狗能办完一堆事。",
+      "F": "关键时刻，你拿起绳子就出门。"
+    },
+    "Q": [
+      [
+        "狗狗突然停下，死活不走。你：",
+        {
+          "A": "早有预料，带了零食",
+          "D": "找找它到底在闻什么",
+          "M": "又喊又吹口哨，还在接电话",
+          "F": "抱起来继续走"
+        }
+      ],
+      [
+        "出门前，你会……",
+        {
+          "A": "路线和时间早就定好了",
+          "D": "牵引绳、拾便袋和水检查两遍",
+          "M": "带上狗、垃圾和一杯咖啡",
+          "F": "拿起牵引绳就走"
+        }
+      ],
+      [
+        "它看见马路对面有另一只狗。你……",
+        {
+          "A": "趁还没闹起来赶紧换路线",
+          "D": "先观察那只狗友不友好",
+          "M": "拉住绳子，顺便和对方主人聊起来",
+          "F": "过马路，让它们互相闻闻"
+        }
+      ],
+      [
+        "你在遛狗时的角色是……",
+        {
+          "A": "定好路线和时间的那个人",
+          "D": "注意它闻的每样东西的那个人",
+          "M": "边遛狗边聊天边办事的那个人",
+          "F": "保证它回家时累坏了的那个人"
+        }
+      ],
+      [
+        "遛到一半开始下小雨。你……",
+        {
+          "A": "包里早就备了雨衣",
+          "D": "看看天，判断会不会下大",
+          "M": "绕到面包店，顺便买面包",
+          "F": "这也是乐趣，继续走"
+        }
+      ],
+      [
+        "它捡到一根超大的树枝，死活不放。你……",
+        {
+          "A": "想办法让它叼着走回家",
+          "D": "检查树枝安不安全",
+          "M": "拍照发群，同时拉好绳子",
+          "F": "行吧，树枝一起回家"
+        }
+      ],
+      [
+        "你遛狗时最大的毛病：",
+        {
+          "A": "路线规划太久，出门太晚",
+          "D": "每闻一下都要停下来看看",
+          "M": "事情太多，忘带拾便袋",
+          "F": "它还没逛够我就回家了"
+        }
+      ],
+      [
+        "回到家，你……",
+        {
+          "A": "已经在想明天几点遛",
+          "D": "一只一只检查它的爪子",
+          "M": "喂水、喂饭、回消息同时进行",
+          "F": "解开绳子，任务完成"
+        }
+      ]
+    ]
+  }
+}

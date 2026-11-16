@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "passear-com-o-cachorro",
+   "url": "/q/?s=passear-com-o-cachorro",
+   "criado_em": "2026-11-16",
+   "categoria": "pets",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é no passeio com o cachorro?",
+    "en": "What's your bubble on a dog walk?",
+    "zh": "遛狗时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "impressora",
+   "url": "/q/?s=impressora",
+   "criado_em": "2026-11-16",
+   "categoria": "trabalho",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é com a impressora do escritório?",
+    "en": "What's your bubble with the office printer?",
+    "zh": "面对办公室打印机，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "cinema",
+   "url": "/q/?s=cinema",
+   "criado_em": "2026-11-16",
+   "categoria": "role",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no cinema?",
+    "en": "What's your bubble at the cinema?",
+    "zh": "看电影时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "passeio-de-bike",
    "url": "/q/?s=passeio-de-bike",
    "criado_em": "2026-11-15",

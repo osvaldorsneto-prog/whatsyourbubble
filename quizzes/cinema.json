@@ -1,0 +1,384 @@
+{
+  "slug": "cinema",
+  "criado_em": "2026-11-16",
+  "categoria": "role",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no cinema?",
+    "lead": "Toda sessão de cinema tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você escolhe a poltrona antes de escolher o filme.",
+        "Pra você, cinema bom começa no planejamento: sessão certa, lugar no meio da sala, ingresso comprado com antecedência. Com você, ninguém fica na primeira fileira olhando pra cima.",
+        "Garantir os melhores lugares pra todo mundo.",
+        "Planejar tanto que a sessão esgota enquanto você decide.",
+        "Fileira G, meio da sala. Já comprei."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum detalhe do filme passa por você.",
+        "Você confere se é legendado, quanto tempo dura e se tem cena pós-créditos. Durante o filme, ainda pega aquela pista que todo mundo perdeu. É você quem explica o final na saída.",
+        "Perceber o que ninguém mais viu.",
+        "Comentar o detalhe na hora errada.",
+        "Repara no relógio da parede nessa cena."
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do ingresso, da pipoca e da turma ao mesmo tempo.",
+        "Você junta o grupo, divide a pipoca, guarda os lugares e ainda lembra quem queria refri sem gelo. Enquanto os outros só assistem, você faz a sessão inteira funcionar.",
+        "Fazer o rolê inteiro acontecer junto.",
+        "Cuidar tanto da turma que perde o começo do filme.",
+        "Quem tá com o balde grande? Passa pra cá."
+      ],
+      "F": [
+        "O Finalizador",
+        "Melhor ver o filme hoje do que planejar pra sempre.",
+        "Você não fica semanas escolhendo filme. Vê a próxima sessão, compra o ingresso e entra. Enquanto o grupo ainda debate, você já tá na poltrona com a pipoca.",
+        "Fazer o cinema sair do papel.",
+        "Entrar na sala errada de tanta pressa.",
+        "Tem sessão às oito. Bora."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a sessão pede: planeja quando o filme é estreia, confere quando vale a pena, cuida da turma quando o grupo é grande e só entra quando é hora.",
+        "Ser o que a sessão precisa naquele momento.",
+        "Ninguém saber se você quer escolher o filme ou não.",
+        "Depende. Que filme vocês tão pensando?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de garantir o lugar certo.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você cuida da turma inteira ao mesmo tempo.",
+      "F": "na hora certa, você compra o ingresso e entra."
+    },
+    "Q": [
+      [
+        "Tem alguém sentado na sua poltrona. Você:",
+        {
+          "A": "Mostro o ingresso, educadamente",
+          "D": "Confiro se eu errei a sala",
+          "M": "Troco de lugar com a fileira toda",
+          "F": "Sento na do lado e boa"
+        }
+      ],
+      [
+        "Na hora de escolher a sessão, você...",
+        {
+          "A": "Escolho filme, horário e poltrona com dias de antecedência",
+          "D": "Leio as críticas e vejo quanto tempo dura",
+          "M": "Faço uma votação no grupo e junto todo mundo",
+          "F": "Vou na próxima sessão que tiver"
+        }
+      ],
+      [
+        "A fila da pipoca tá enorme e o filme começa em 5 minutos. Você...",
+        {
+          "A": "Já tinha comprado tudo pelo app antes",
+          "D": "Conto quem tá na frente pra ver se dá tempo",
+          "M": "Um vai na fila, outro guarda os lugares, outro pega o refri",
+          "F": "Desisto da pipoca e entro"
+        }
+      ],
+      [
+        "Seu papel no grupo do cinema é...",
+        {
+          "A": "Quem escolheu a sessão e os lugares",
+          "D": "Quem conferiu se é dublado ou legendado",
+          "M": "Quem juntou todo mundo e dividiu a pipoca",
+          "F": "Quem fez a ida ao cinema sair do papel"
+        }
+      ],
+      [
+        "Alguém começa a falar alto no meio do filme. Você...",
+        {
+          "A": "Anoto: na próxima, poltrona mais longe da galera",
+          "D": "Olho pra trás pra descobrir quem é",
+          "M": "Faço \"psiu\" e ainda passo o refri pro lado",
+          "F": "Peço silêncio uma vez e volto pro filme"
+        }
+      ],
+      [
+        "O filme acabou e tem cena pós-créditos. Você...",
+        {
+          "A": "Já sabia, li antes quantas cenas são",
+          "D": "Fico até a última linha dos créditos, por garantia",
+          "M": "Seguro o grupo inteiro na sala",
+          "F": "Já tô no estacionamento"
+        }
+      ],
+      [
+        "Seu maior defeito no cinema:",
+        {
+          "A": "Chego tão cedo que vejo os trailers duas vezes",
+          "D": "Fico apontando erro de continuidade",
+          "M": "Cuido tanto da turma que perco uma cena",
+          "F": "Saio antes de terminar os créditos"
+        }
+      ],
+      [
+        "Na saída, alguém pergunta o que você achou. Você...",
+        {
+          "A": "Já sugiro o próximo filme e a data",
+          "D": "Explico os detalhes que ninguém percebeu",
+          "M": "Faço o grupo todo dar uma nota",
+          "F": "\"Bom. Bora comer?\""
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the cinema?",
+    "lead": "Every film night has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You pick your seat before you pick the film.",
+        "For you, a good night at the cinema starts with a plan: right showing, seats in the middle, tickets booked early. With you around, nobody ends up in the front row craning their neck.",
+        "Getting the best seats for everyone.",
+        "Planning so long the showing sells out.",
+        "Row G, dead centre. Already booked."
+      ],
+      "D": [
+        "The Detective",
+        "No detail in the film gets past you.",
+        "You check if it's subtitled, how long it runs and whether there's a post-credits scene. During the film you spot the clue everyone else missed. You're the one explaining the ending on the way out.",
+        "Noticing what nobody else saw.",
+        "Pointing out the detail at the wrong moment.",
+        "Watch the clock on the wall in this scene."
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the tickets, the popcorn and the group at once.",
+        "You round up the group, share the popcorn, save the seats and still remember who wanted a drink with no ice. While the others just watch, you make the whole night work.",
+        "Making the whole outing come together.",
+        "Looking after everyone so much you miss the opening.",
+        "Who's got the big tub? Pass it down."
+      ],
+      "F": [
+        "The Finisher",
+        "Better to see the film tonight than plan it forever.",
+        "You don't spend weeks choosing a film. You find the next showing, buy the ticket and go in. While the group's still debating, you're already in your seat with popcorn.",
+        "Getting the cinema trip off the ground.",
+        "Rushing into the wrong screen.",
+        "There's one at eight. Let's go."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the night needs: you plan for a big premiere, check when it's worth it, look after everyone when the group is large and just go in when it's time.",
+        "Being whatever the night needs right now.",
+        "Nobody knowing if you want to pick the film or not.",
+        "Depends. What are you thinking of seeing?"
+      ]
+    },
+    "S2": {
+      "A": "you still like to lock in the right seat.",
+      "D": "you don't let a single detail slip.",
+      "M": "you look after the whole group at once.",
+      "F": "when it counts, you buy the ticket and go."
+    },
+    "Q": [
+      [
+        "Someone's sitting in your seat. You:",
+        {
+          "A": "Politely show my ticket",
+          "D": "Check I'm in the right screen",
+          "M": "Reshuffle the whole row",
+          "F": "Take the seat next to it"
+        }
+      ],
+      [
+        "Picking a showing, you...",
+        {
+          "A": "Book film, time and seats days ahead",
+          "D": "Read the reviews and check the runtime",
+          "M": "Run a poll in the group chat and round everyone up",
+          "F": "Go to whatever's on next"
+        }
+      ],
+      [
+        "The snack queue is huge and the film starts in 5 minutes. You...",
+        {
+          "A": "Already ordered everything in the app",
+          "D": "Count the people ahead to see if there's time",
+          "M": "One queues, one saves seats, one grabs drinks",
+          "F": "Skip the popcorn and go in"
+        }
+      ],
+      [
+        "Your role in the cinema group is...",
+        {
+          "A": "The one who picked the showing and seats",
+          "D": "The one who checked if it's dubbed or subtitled",
+          "M": "The one who got everyone together and shared the popcorn",
+          "F": "The one who made the trip actually happen"
+        }
+      ],
+      [
+        "Someone starts talking loudly mid-film. You...",
+        {
+          "A": "Make a note to book seats further away next time",
+          "D": "Turn round to work out who it is",
+          "M": "Go \"shh\" while passing the drink down the row",
+          "F": "Ask for quiet once and get back to the film"
+        }
+      ],
+      [
+        "The film ends and there's a post-credits scene. You...",
+        {
+          "A": "Knew already, I read up on how many there are",
+          "D": "Stay till the very last line of credits, just in case",
+          "M": "Keep the whole group in their seats",
+          "F": "I'm already in the car park"
+        }
+      ],
+      [
+        "Your biggest flaw at the cinema:",
+        {
+          "A": "I arrive so early I see every trailer twice",
+          "D": "I keep pointing out continuity errors",
+          "M": "I look after everyone so much I miss a scene",
+          "F": "I leave before the credits finish"
+        }
+      ],
+      [
+        "On the way out, someone asks what you thought. You...",
+        {
+          "A": "Suggest the next film and a date",
+          "D": "Explain the details nobody noticed",
+          "M": "Get the whole group to give it a score",
+          "F": "\"Good. Food?\""
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "看电影时你是哪个泡泡？",
+    "lead": "每场电影都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你先选座位，再选电影。",
+        "对你来说，好的观影从计划开始：合适的场次、正中间的座位、提前买好的票。有你在，没人会坐第一排仰着脖子看。",
+        "给所有人抢到最好的座位。",
+        "规划太久，场次都卖光了。",
+        "G排正中间，已经买好了。"
+      ],
+      "D": [
+        "侦探",
+        "电影里没有细节能逃过你的眼睛。",
+        "你会确认是不是字幕版、片长多久、有没有彩蛋。看的时候，你还能发现别人都漏掉的线索。散场后解释结局的总是你。",
+        "发现别人都没看到的东西。",
+        "在不合适的时候说出细节。",
+        "注意这场戏墙上的钟。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管电影票、爆米花和整群人。",
+        "你召集大家、分爆米花、占座位，还记得谁的饮料要去冰。别人只是在看电影，你让整个晚上都顺利进行。",
+        "让整个活动一起运转。",
+        "照顾大家太多，错过了开头。",
+        "大桶爆米花在谁那？往这边传。"
+      ],
+      "F": [
+        "终结者",
+        "今晚就看，胜过永远在计划。",
+        "你不会花几个星期选电影。找到最近一场，买票，进场。大家还在讨论，你已经抱着爆米花坐好了。",
+        "让看电影这件事真正成行。",
+        "太着急，走错了影厅。",
+        "八点有一场，走吧。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据情况切换角色：首映时提前规划，值得时仔细确认，人多时照顾大家，该进场时就进场。",
+        "成为这一晚最需要的人。",
+        "别人不知道你到底想不想选电影。",
+        "看情况。你们想看什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前锁定好座位。",
+      "D": "你不会放过任何细节。",
+      "M": "你能同时照顾整群人。",
+      "F": "关键时刻，你直接买票进场。"
+    },
+    "Q": [
+      [
+        "有人坐了你的座位。你会：",
+        {
+          "A": "礼貌地亮出电影票",
+          "D": "先确认是不是自己走错厅",
+          "M": "让整排人换一下座位",
+          "F": "直接坐旁边那个"
+        }
+      ],
+      [
+        "选场次的时候，你会……",
+        {
+          "A": "提前几天选好电影、时间和座位",
+          "D": "先看影评，再查片长",
+          "M": "在群里发起投票，把大家都叫上",
+          "F": "看最近一场就去"
+        }
+      ],
+      [
+        "爆米花队排得超长，电影5分钟后开始。你……",
+        {
+          "A": "早就在app上全买好了",
+          "D": "数数前面几个人，算算来不来得及",
+          "M": "一个排队，一个占座，一个去拿饮料",
+          "F": "不要爆米花了，直接进场"
+        }
+      ],
+      [
+        "你在看电影小组里的角色是……",
+        {
+          "A": "选场次和座位的那个人",
+          "D": "确认是配音还是字幕的那个人",
+          "M": "召集大家、分爆米花的那个人",
+          "F": "让这次电影真的看成的那个人"
+        }
+      ],
+      [
+        "电影放到一半，有人大声说话。你……",
+        {
+          "A": "记下来，下次选离人群远一点的座位",
+          "D": "回头看看到底是谁",
+          "M": "一边“嘘”一边把饮料往旁边传",
+          "F": "提醒一次安静，然后继续看"
+        }
+      ],
+      [
+        "电影结束，还有彩蛋。你……",
+        {
+          "A": "早就知道，提前查过有几个彩蛋",
+          "D": "坐到字幕最后一行，以防万一",
+          "M": "把整群人都留在座位上",
+          "F": "我已经在停车场了"
+        }
+      ],
+      [
+        "你看电影时最大的毛病：",
+        {
+          "A": "到得太早，预告片看了两遍",
+          "D": "一直指出穿帮镜头",
+          "M": "照顾大家太多，错过了一段剧情",
+          "F": "字幕还没放完就走了"
+        }
+      ],
+      [
+        "散场时有人问你觉得怎么样。你……",
+        {
+          "A": "马上提议下一部电影和日期",
+          "D": "讲解没人注意到的细节",
+          "M": "让大家每人打个分",
+          "F": "“还行。去吃饭吗？”"
+        }
+      ]
+    ]
+  }
+}
