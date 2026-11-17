@@ -1,0 +1,384 @@
+{
+  "slug": "aprender-idioma",
+  "criado_em": "2026-11-17",
+  "categoria": "estudos",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é aprendendo um idioma novo?",
+    "lead": "Todo mundo que já tentou aprender um idioma passou por isso. Qual é o seu estilo?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta um plano de estudos antes da primeira palavra.",
+        "Pra você, aprender idioma começa com cronograma: quantos minutos por dia, qual livro, qual meta por mês. Você sabe exatamente onde vai estar daqui a seis meses.",
+        "Transformar um objetivo enorme em passos pequenos.",
+        "Planejar tanto que a primeira aula fica pra segunda.",
+        "Meta da semana: 50 palavras e um podcast."
+      ],
+      "D": [
+        "O Detetive",
+        "Você não aceita uma conjugação sem entender o porquê.",
+        "Você confere a pronúncia, a gramática e a tradução de cada frase. Se o app diz uma coisa e o livro outra, você investiga até achar a resposta certa.",
+        "Pegar o erro que ninguém mais percebe.",
+        "Travar numa frase porque não tem certeza de uma vírgula.",
+        "Peraí, por que aqui é assim?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você estuda com app, série, música e grupo ao mesmo tempo.",
+        "Você aprende de todo jeito junto: série com legenda, playlist no idioma, app no ônibus e grupo de conversa. Seu celular inteiro já tá em outra língua.",
+        "Transformar o dia inteiro em aula.",
+        "Começar cinco métodos e não lembrar qual tava funcionando.",
+        "Mudei o celular pro idioma novo. Socorro, mas tô gostando."
+      ],
+      "F": [
+        "O Finalizador",
+        "Você sai falando, mesmo errando.",
+        "Você não espera saber tudo pra começar. Pede o café no idioma novo, erra, ri e tenta de novo. Enquanto os outros revisam a lista, você já fez amizade.",
+        "Perder a vergonha e usar o idioma de verdade.",
+        "Inventar palavras com muita confiança.",
+        "Não sei a palavra, mas vou tentar."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de estilo conforme a fase: planeja no começo, confere quando precisa, mistura tudo quando tá animado e sai falando quando surge a chance.",
+        "Achar o jeito de estudar que serve pra cada momento.",
+        "Ninguém saber qual é o seu método.",
+        "Depende. Hoje é dia de estudar ou de praticar?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de ter um plano de estudos.",
+      "D": "você ainda confere a gramática antes de mandar.",
+      "M": "você ainda mistura série, música e app.",
+      "F": "na hora H, você abre a boca e fala."
+    },
+    "Q": [
+      [
+        "O app te cobra a aula do dia às 23h58. Você...",
+        {
+          "A": "Já tinha deixado pra amanhã no plano",
+          "D": "Faço, mas confiro cada resposta",
+          "M": "Faço deitado vendo série",
+          "F": "Clico em tudo rapidinho e salvo a sequência"
+        }
+      ],
+      [
+        "Primeiro dia de estudo. Você começa...",
+        {
+          "A": "Montando um cronograma de seis meses",
+          "D": "Comparando os melhores métodos",
+          "M": "Baixando app, playlist e série ao mesmo tempo",
+          "F": "Aprendendo a pedir um café"
+        }
+      ],
+      [
+        "Você descobre que pronunciou uma palavra errado por meses. Você...",
+        {
+          "A": "Coloco ela na revisão da semana",
+          "D": "Ouço dez nativos falando pra ter certeza",
+          "M": "Conto pro grupo de estudo e todo mundo ri junto",
+          "F": "Rio e falo do jeito certo dali pra frente"
+        }
+      ],
+      [
+        "Seu caderno de idioma é...",
+        {
+          "A": "Organizado por tema e por semana",
+          "D": "Cheio de anotações e correções em outra cor",
+          "M": "Que caderno? Tá tudo espalhado em cinco apps",
+          "F": "Duas páginas e muita prática na rua"
+        }
+      ],
+      [
+        "Um nativo fala rápido demais com você. Você...",
+        {
+          "A": "Peço pra repetir e anoto a expressão",
+          "D": "Peço pra explicar o que significa cada parte",
+          "M": "Respondo, gesticulo e chamo um amigo pra ajudar",
+          "F": "Sorrio, concordo e respondo qualquer coisa"
+        }
+      ],
+      [
+        "Você assiste uma série no idioma novo. Legenda...",
+        {
+          "A": "Na língua original, faz parte do plano",
+          "D": "Ligada, e pauso pra conferir as palavras",
+          "M": "Ligada, enquanto anoto e mando áudio pro grupo",
+          "F": "Sem legenda nenhuma, eu me viro"
+        }
+      ],
+      [
+        "Seu maior defeito estudando idioma:",
+        {
+          "A": "Planejo mais do que estudo",
+          "D": "Fico preso em detalhes de gramática",
+          "M": "Começo vários métodos e não termino nenhum",
+          "F": "Invento palavras com muita confiança"
+        }
+      ],
+      [
+        "Você entendeu uma piada no idioma novo. Você...",
+        {
+          "A": "Marco no plano: meta cumprida",
+          "D": "Explico pra mim mesmo por que é engraçada",
+          "M": "Mando pra todo mundo que estuda comigo",
+          "F": "Rio alto e já conto outra"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when learning a new language?",
+    "lead": "Everyone who's tried to learn a language has been here. What's your style?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You build a study plan before learning a single word.",
+        "For you, learning a language starts with a schedule: minutes per day, which book, monthly goals. You know exactly where you'll be in six months.",
+        "Turning a huge goal into small steps.",
+        "Planning so much the first lesson slips to next week.",
+        "This week's goal: 50 words and one podcast."
+      ],
+      "D": [
+        "The Detective",
+        "You won't accept a verb ending without knowing why.",
+        "You check the pronunciation, the grammar and the translation of every sentence. If the app says one thing and the book another, you dig until you find the right answer.",
+        "Catching the mistake nobody else notices.",
+        "Getting stuck on a sentence over one comma.",
+        "Wait, why is it like that here?"
+      ],
+      "M": [
+        "The Maestro",
+        "You study with apps, shows, music and a group all at once.",
+        "You learn every way at the same time: shows with subtitles, a playlist in the language, an app on the bus and a chat group. Your whole phone is in another language now.",
+        "Turning your whole day into a lesson.",
+        "Starting five methods and forgetting which one worked.",
+        "I switched my phone language. Help. But I love it."
+      ],
+      "F": [
+        "The Finisher",
+        "You just start talking, mistakes and all.",
+        "You don't wait to know everything. You order coffee in the new language, get it wrong, laugh and try again. While others review their lists, you've already made a friend.",
+        "Losing the fear and actually using the language.",
+        "Inventing words with total confidence.",
+        "Don't know the word, but here goes."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch styles with each phase: plan at the start, check when it matters, mix everything when you're excited and just talk when the chance comes.",
+        "Finding the right way to study for each moment.",
+        "Nobody knowing what your method is.",
+        "Depends. Is today for studying or practising?"
+      ]
+    },
+    "S2": {
+      "A": "you still like having a study plan.",
+      "D": "you still check the grammar before sending.",
+      "M": "you still mix shows, music and apps.",
+      "F": "when it counts, you just open your mouth and talk."
+    },
+    "Q": [
+      [
+        "The app nags you for today's lesson at 11:58pm. You...",
+        {
+          "A": "Already moved it to tomorrow in my plan",
+          "D": "Do it, checking every answer",
+          "M": "Do it in bed with a show on",
+          "F": "Tap through it fast to save the streak"
+        }
+      ],
+      [
+        "First day of studying. You start by...",
+        {
+          "A": "Making a six-month schedule",
+          "D": "Comparing the best methods",
+          "M": "Downloading an app, a playlist and a show at once",
+          "F": "Learning how to order a coffee"
+        }
+      ],
+      [
+        "You find out you've mispronounced a word for months. You...",
+        {
+          "A": "Add it to this week's review",
+          "D": "Listen to ten native speakers to be sure",
+          "M": "Tell the study group and we all laugh",
+          "F": "Laugh and say it right from now on"
+        }
+      ],
+      [
+        "Your language notebook is...",
+        {
+          "A": "Organised by topic and by week",
+          "D": "Full of notes and corrections in another colour",
+          "M": "What notebook? It's spread across five apps",
+          "F": "Two pages and lots of practice out there"
+        }
+      ],
+      [
+        "A native speaker talks way too fast to you. You...",
+        {
+          "A": "Ask them to repeat and note the phrase",
+          "D": "Ask them to explain each part",
+          "M": "Answer, gesture and call a friend to help",
+          "F": "Smile, nod and say something"
+        }
+      ],
+      [
+        "You watch a show in the new language. Subtitles...",
+        {
+          "A": "In the original language, it's part of the plan",
+          "D": "On, pausing to check words",
+          "M": "On, while I take notes and voice-message the group",
+          "F": "None at all, I'll manage"
+        }
+      ],
+      [
+        "Your biggest flaw learning a language:",
+        {
+          "A": "I plan more than I study",
+          "D": "I get stuck on grammar details",
+          "M": "I start lots of methods and finish none",
+          "F": "I make up words with total confidence"
+        }
+      ],
+      [
+        "You got a joke in the new language. You...",
+        {
+          "A": "Tick it off in the plan: goal reached",
+          "D": "Explain to myself why it's funny",
+          "M": "Send it to everyone I study with",
+          "F": "Laugh out loud and tell another"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "学新语言时，你是哪个泡泡？",
+    "lead": "学过外语的人都经历过这些。你是哪种风格？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没学一个单词，你先做好了学习计划。",
+        "对你来说，学语言从时间表开始：每天几分钟、用哪本书、每月目标。你清楚知道六个月后自己会到哪一步。",
+        "把大目标拆成小步骤。",
+        "计划太久，第一课推到了下周。",
+        "本周目标：50个单词加一期播客。"
+      ],
+      "D": [
+        "侦探",
+        "不搞懂为什么，你绝不接受一个语法规则。",
+        "你会检查每句话的发音、语法和翻译。如果App和课本说法不一样，你会一直查到找出正确答案。",
+        "发现别人都没注意到的错误。",
+        "为了一个逗号卡在一句话上。",
+        "等等，这里为什么要这样说？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时用App、剧集、音乐和学习群。",
+        "你什么方法都一起用：带字幕看剧、听外语歌单、坐车刷App、在群里聊天。你的手机已经整个换成外语了。",
+        "把一整天都变成课堂。",
+        "同时开始五种方法，忘了哪种有效。",
+        "我把手机语言改了。救命，但我好喜欢。"
+      ],
+      "F": [
+        "终结者",
+        "你直接开口说，错了也没关系。",
+        "你不等全学会才开始。用新语言点咖啡，说错了，笑一笑再来。别人还在复习单词表，你已经交到朋友了。",
+        "放下害羞，真正用起这门语言。",
+        "非常自信地自创单词。",
+        "不知道这个词，但我试试。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会随阶段切换风格：开始时做计划，需要时细查，兴奋时什么都混着学，有机会就开口说。",
+        "为每个阶段找到合适的学习方法。",
+        "没人知道你的方法到底是什么。",
+        "看情况。今天是学习日还是练习日？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢有个学习计划。",
+      "D": "你发消息前还是会检查语法。",
+      "M": "你还是会把剧、音乐和App混着用。",
+      "F": "关键时刻，你张嘴就说。"
+    },
+    "Q": [
+      [
+        "App在晚上11点58分催你打卡。你……",
+        {
+          "A": "计划里早就挪到明天了",
+          "D": "做，但每题都要检查",
+          "M": "躺着边看剧边做",
+          "F": "飞快点完，保住连续天数"
+        }
+      ],
+      [
+        "学习第一天，你从哪里开始？",
+        {
+          "A": "做一个六个月的时间表",
+          "D": "比较各种最好的方法",
+          "M": "同时下载App、歌单和剧",
+          "F": "先学怎么点一杯咖啡"
+        }
+      ],
+      [
+        "你发现一个词读错了好几个月。你……",
+        {
+          "A": "把它加进本周复习",
+          "D": "听十个母语者怎么说，确认一下",
+          "M": "告诉学习群，大家一起笑",
+          "F": "笑一笑，从此读对"
+        }
+      ],
+      [
+        "你的语言笔记本是……",
+        {
+          "A": "按主题和周整理好的",
+          "D": "写满笔记，还用别的颜色改错",
+          "M": "什么笔记本？全散在五个App里",
+          "F": "只有两页，大部分在外面实战"
+        }
+      ],
+      [
+        "母语者跟你说话太快了。你……",
+        {
+          "A": "请对方再说一遍，把表达记下来",
+          "D": "请对方解释每一部分的意思",
+          "M": "边回答边比划，再叫朋友帮忙",
+          "F": "微笑点头，随便回一句"
+        }
+      ],
+      [
+        "你用新语言看剧，字幕……",
+        {
+          "A": "原文字幕，这是计划的一部分",
+          "D": "开着，随时暂停查单词",
+          "M": "开着，同时做笔记、给群里发语音",
+          "F": "不开字幕，我能行"
+        }
+      ],
+      [
+        "你学语言最大的毛病：",
+        {
+          "A": "计划的时间比学习的时间多",
+          "D": "卡在语法细节上",
+          "M": "开始了很多方法，一个都没坚持",
+          "F": "非常自信地自创单词"
+        }
+      ],
+      [
+        "你听懂了一个外语笑话。你……",
+        {
+          "A": "在计划里打勾：目标达成",
+          "D": "给自己解释为什么好笑",
+          "M": "发给所有一起学的人",
+          "F": "大笑，然后再讲一个"
+        }
+      ]
+    ]
+  }
+}

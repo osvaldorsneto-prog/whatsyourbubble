@@ -1,0 +1,384 @@
+{
+  "slug": "show-ao-vivo",
+  "criado_em": "2026-11-17",
+  "categoria": "role",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é num show ao vivo?",
+    "lead": "Todo show tem os mesmos 4 tipos de fã. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você planeja o show desde a compra do ingresso.",
+        "Pra você, show bom começa semanas antes: horário de chegada, ponto de encontro, caminho de volta. Você sabe até a ordem provável das músicas.",
+        "Fazer o grupo chegar na hora e voltar junto.",
+        "Planejar tanto a saída que perde o bis.",
+        "Encontro às 18h no portão 3. Sem atraso."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere o ingresso umas dez vezes antes de sair.",
+        "Você checa o ingresso, o horário, a previsão do tempo e a fila mais curta. Se tem um jeito melhor de entrar, você descobre.",
+        "Evitar qualquer surpresa no dia.",
+        "Conferir tanto o celular que perde a primeira música.",
+        "Tá no e-mail ou no app? Deixa eu ver de novo."
+      ],
+      "M": [
+        "O Maestro",
+        "Você canta, filma, cuida do grupo e acha a água.",
+        "Você faz tudo ao mesmo tempo: canta junto, grava um trecho, segura a bolsa de alguém e ainda acha o amigo que se perdeu. O grupo só funciona porque você tá lá.",
+        "Manter todo mundo junto e feliz.",
+        "Fazer tanta coisa que nem sabe que música tocou.",
+        "Alguém viu a Bia? Segura aqui que já volto."
+      ],
+      "F": [
+        "O Finalizador",
+        "Você chega, curte e vai embora feliz.",
+        "Você não fica planejando nem conferindo. Chega, canta tudo, dança e aproveita cada minuto. Enquanto os outros pensam na volta, você tá pedindo mais uma.",
+        "Viver o show de verdade.",
+        "Esquecer onde marcou de encontrar o grupo.",
+        "Bora pra frente! Depois a gente vê."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o show: planeja quando o grupo é grande, confere quando precisa, cuida da galera quando lota e só curte quando dá.",
+        "Ser o que o rolê precisa naquele momento.",
+        "Ninguém saber qual vai ser a sua versão no dia.",
+        "Depende. Qual é o show?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você ainda confere o ingresso mais uma vez.",
+      "M": "você ainda cuida do grupo inteiro.",
+      "F": "na hora da música favorita, você só curte."
+    },
+    "Q": [
+      [
+        "Show começando e seu celular com 5% de bateria. Você...",
+        {
+          "A": "Trouxe carregador portátil, óbvio",
+          "D": "Ativo o modo economia e confiro tudo",
+          "M": "Peço o carregador de um amigo",
+          "F": "Guardo o celular e curto"
+        }
+      ],
+      [
+        "Abriu a venda dos ingressos. Você...",
+        {
+          "A": "Já tinha alarme e o grupo combinado",
+          "D": "Confiro se o site é o oficial antes de tudo",
+          "M": "Compro pra todo mundo do grupo de uma vez",
+          "F": "Compro o primeiro que aparecer"
+        }
+      ],
+      [
+        "Dia do show. Que horas você chega?",
+        {
+          "A": "No horário do plano, nem antes nem depois",
+          "D": "Cedo, pra ver a fila e a entrada melhor",
+          "M": "Quando o grupo todo conseguir se reunir",
+          "F": "Quando der, o importante é chegar"
+        }
+      ],
+      [
+        "Começa a sua música favorita. Você...",
+        {
+          "A": "Já sabia que vinha, tava esperando",
+          "D": "Confiro se é a versão do álbum ou ao vivo",
+          "M": "Filmo, canto e mando pro grupo ao mesmo tempo",
+          "F": "Grito e esqueço todo o resto"
+        }
+      ],
+      [
+        "Um amigo se perde no meio da multidão. Você...",
+        {
+          "A": "Lembro todo mundo do ponto de encontro combinado",
+          "D": "Mando a localização e confiro onde ele tá",
+          "M": "Mobilizo o grupo inteiro pra achar",
+          "F": "Ele aparece, sempre aparece. Bora curtir"
+        }
+      ],
+      [
+        "Seu papel no grupo do show é...",
+        {
+          "A": "Quem fez o roteiro do dia",
+          "D": "Quem confere ingresso, horário e tempo",
+          "M": "Quem cuida de todo mundo",
+          "F": "Quem garante a diversão"
+        }
+      ],
+      [
+        "Seu maior defeito em show:",
+        {
+          "A": "Penso na volta antes do bis",
+          "D": "Confiro tanto o celular que perco um pedaço",
+          "M": "Cuido tanto do grupo que esqueço de curtir",
+          "F": "Esqueço onde combinei de encontrar o grupo"
+        }
+      ],
+      [
+        "Show acabou. Você...",
+        {
+          "A": "Sigo o plano de volta que fiz",
+          "D": "Confiro se ninguém esqueceu nada",
+          "M": "Já organizo onde a galera vai comer",
+          "F": "Ainda tô cantando na saída"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at a live gig?",
+    "lead": "Every gig has the same 4 kinds of fans. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You plan the gig from the moment you buy the ticket.",
+        "For you, a great gig starts weeks before: arrival time, meeting point, the way home. You even know the likely setlist.",
+        "Getting the group there on time and home together.",
+        "Planning the exit so well you miss the encore.",
+        "Meet at 6pm, gate 3. Don't be late."
+      ],
+      "D": [
+        "The Detective",
+        "You check your ticket about ten times before leaving.",
+        "You check the ticket, the times, the weather and the shortest queue. If there's a better way in, you'll find it.",
+        "Avoiding any surprises on the day.",
+        "Checking your phone so much you miss the first song.",
+        "Is it in my email or the app? Let me look again."
+      ],
+      "M": [
+        "The Maestro",
+        "You sing, film, look after the group and find water.",
+        "You do it all at once: sing along, film a bit, hold someone's bag and track down the friend who wandered off. The group works because you're there.",
+        "Keeping everyone together and happy.",
+        "Doing so much you don't know what song is on.",
+        "Has anyone seen Sam? Hold this, back in a sec."
+      ],
+      "F": [
+        "The Finisher",
+        "You show up, enjoy it and go home happy.",
+        "No planning, no checking. You arrive, sing every word, dance and soak up every minute. While others think about getting home, you're shouting for one more.",
+        "Actually living the gig.",
+        "Forgetting where you said you'd meet the group.",
+        "Let's get to the front! We'll sort it out later."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles with each gig: plan when the group is big, check when it matters, look after everyone when it's packed and just enjoy it when you can.",
+        "Being what the night needs right then.",
+        "Nobody knowing which version of you will turn up.",
+        "Depends. Who's playing?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you still check your ticket one more time.",
+      "M": "you still look after the whole group.",
+      "F": "when your favourite song starts, you just enjoy it."
+    },
+    "Q": [
+      [
+        "The gig's starting and your phone's on 5%. You...",
+        {
+          "A": "Brought a power bank, obviously",
+          "D": "Turn on battery saver and check everything",
+          "M": "Borrow a friend's charger",
+          "F": "Put it away and enjoy the show"
+        }
+      ],
+      [
+        "Tickets go on sale. You...",
+        {
+          "A": "Already had an alarm set and the group sorted",
+          "D": "Check it's the official site first",
+          "M": "Buy for the whole group in one go",
+          "F": "Grab the first ones I can get"
+        }
+      ],
+      [
+        "Gig day. What time do you arrive?",
+        {
+          "A": "Exactly when the plan says",
+          "D": "Early, to check the queue and the best way in",
+          "M": "Whenever the whole group manages to meet up",
+          "F": "Whenever, as long as I get there"
+        }
+      ],
+      [
+        "Your favourite song starts. You...",
+        {
+          "A": "Knew it was coming, was waiting for it",
+          "D": "Check if it's the album version or a live one",
+          "M": "Film it, sing and send it to the group at once",
+          "F": "Scream and forget everything else"
+        }
+      ],
+      [
+        "A friend gets lost in the crowd. You...",
+        {
+          "A": "Remind everyone of the meeting point",
+          "D": "Send my location and check where they are",
+          "M": "Get the whole group looking",
+          "F": "They always turn up. Let's enjoy it"
+        }
+      ],
+      [
+        "Your role in the gig group is...",
+        {
+          "A": "The one who made the plan for the day",
+          "D": "The one checking tickets, times and weather",
+          "M": "The one looking after everyone",
+          "F": "The one making sure it's fun"
+        }
+      ],
+      [
+        "Your biggest flaw at gigs:",
+        {
+          "A": "I think about getting home before the encore",
+          "D": "I check my phone so much I miss a bit",
+          "M": "I look after the group so much I forget to enjoy it",
+          "F": "I forget where we said we'd meet"
+        }
+      ],
+      [
+        "The gig's over. You...",
+        {
+          "A": "Follow the plan I made to get home",
+          "D": "Check nobody left anything behind",
+          "M": "Already sort out where we're eating",
+          "F": "Still singing on the way out"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "看现场演出时，你是哪个泡泡？",
+    "lead": "每场演出都有同样的4种粉丝。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "从买票那一刻起，你就开始规划演出了。",
+        "对你来说，好的演出几周前就开始了：几点到、在哪儿集合、怎么回家。你连可能的歌单顺序都知道。",
+        "让大家准时到场、一起回家。",
+        "太专注于退场计划，错过了返场。",
+        "下午6点，3号门集合。别迟到。"
+      ],
+      "D": [
+        "侦探",
+        "出门前你要检查门票大概十次。",
+        "你会检查门票、时间、天气，还有哪条队最短。如果有更好的入场方式，你一定能找到。",
+        "避免当天出任何意外。",
+        "看手机太多次，错过了第一首歌。",
+        "票在邮箱还是App里？我再看一眼。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边唱一边拍，还照顾大家、找水喝。",
+        "你什么都同时做：跟着唱、录一段、帮人拿包，还把走散的朋友找回来。这个小团体能运转，全靠你。",
+        "让所有人都在一起、都开心。",
+        "忙得连现在唱的是哪首都不知道。",
+        "有人看到小明了吗？帮我拿一下，马上回来。"
+      ],
+      "F": [
+        "终结者",
+        "你到场、尽情享受、开心回家。",
+        "你不做计划也不检查。到了就跟着唱每一句、跳起来，享受每一分钟。别人在想怎么回家，你还在喊再来一首。",
+        "真正地享受演出。",
+        "忘了跟大家约在哪儿集合。",
+        "往前冲！其他的等会儿再说。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你随演出切换角色：人多时做计划，需要时检查，挤的时候照顾大家，能放松时就尽情享受。",
+        "成为当晚最需要的那个人。",
+        "没人知道那天会出现哪个版本的你。",
+        "看情况。是谁的演出？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切有计划。",
+      "D": "你还是会再检查一次门票。",
+      "M": "你还是会照顾整个小团体。",
+      "F": "最爱的歌响起时，你只管享受。"
+    },
+    "Q": [
+      [
+        "演出要开始了，你的手机只剩5%电。你……",
+        {
+          "A": "当然带了充电宝",
+          "D": "开省电模式，再检查一遍",
+          "M": "借朋友的充电器",
+          "F": "收起手机，好好享受"
+        }
+      ],
+      [
+        "门票开售了。你……",
+        {
+          "A": "早就定好闹钟、约好了人",
+          "D": "先确认是不是官方网站",
+          "M": "一次给全组人都买好",
+          "F": "抢到哪张算哪张"
+        }
+      ],
+      [
+        "演出当天，你几点到？",
+        {
+          "A": "按计划的时间，不早不晚",
+          "D": "早点到，看看排队和最佳入口",
+          "M": "等大家都集合好了再一起去",
+          "F": "什么时候都行，到了就好"
+        }
+      ],
+      [
+        "你最爱的歌响起了。你……",
+        {
+          "A": "早知道会唱这首，一直在等",
+          "D": "确认是专辑版还是现场版",
+          "M": "边录边唱，同时发到群里",
+          "F": "尖叫，忘掉一切"
+        }
+      ],
+      [
+        "朋友在人群里走散了。你……",
+        {
+          "A": "提醒大家约好的集合点",
+          "D": "发定位，确认他在哪儿",
+          "M": "发动全组一起找",
+          "F": "他总会出现的，先享受吧"
+        }
+      ],
+      [
+        "你在看演出小组里的角色是……",
+        {
+          "A": "制定当天行程的人",
+          "D": "检查门票、时间和天气的人",
+          "M": "照顾所有人的人",
+          "F": "负责让大家玩得开心的人"
+        }
+      ],
+      [
+        "你看演出最大的毛病：",
+        {
+          "A": "返场前就开始想怎么回家",
+          "D": "看手机太多，错过了一段",
+          "M": "太照顾大家，忘了自己享受",
+          "F": "忘了约好在哪儿集合"
+        }
+      ],
+      [
+        "演出结束了。你……",
+        {
+          "A": "按我做的计划回家",
+          "D": "检查有没有人落下东西",
+          "M": "已经在安排大家去哪儿吃饭",
+          "F": "出场时还在唱"
+        }
+      ]
+    ]
+  }
+}

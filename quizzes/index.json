@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "show-ao-vivo",
+   "url": "/q/?s=show-ao-vivo",
+   "criado_em": "2026-11-17",
+   "categoria": "role",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é num show ao vivo?",
+    "en": "What's your bubble at a live gig?",
+    "zh": "看现场演出时，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "atualizacao-do-celular",
+   "url": "/q/?s=atualizacao-do-celular",
+   "criado_em": "2026-11-17",
+   "categoria": "celular",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é quando o celular pede atualização?",
+    "en": "What's your bubble when your phone wants an update?",
+    "zh": "手机提示更新时，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "aprender-idioma",
+   "url": "/q/?s=aprender-idioma",
+   "criado_em": "2026-11-17",
+   "categoria": "estudos",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é aprendendo um idioma novo?",
+    "en": "What's your bubble when learning a new language?",
+    "zh": "学新语言时，你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "passear-com-o-cachorro",
    "url": "/q/?s=passear-com-o-cachorro",
    "criado_em": "2026-11-16",

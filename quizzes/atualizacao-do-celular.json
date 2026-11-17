@@ -1,0 +1,384 @@
+{
+  "slug": "atualizacao-do-celular",
+  "criado_em": "2026-11-17",
+  "categoria": "celular",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é quando o celular pede atualização?",
+    "lead": "Aquele aviso de \"atualização disponível\" revela muito sobre você. Bora descobrir?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você agenda a atualização como se fosse uma cirurgia.",
+        "Pra você, atualizar o celular tem hora certa: Wi-Fi bom, bateria cheia e nada importante pra fazer. Você lê as novidades antes e já sabe o que vai mudar. Com você, nada trava no meio.",
+        "Escolher o momento perfeito pra atualizar.",
+        "Adiar tanto que a versão nova já ficou antiga.",
+        "Hoje à noite, às 2h, carregando. Tá agendado."
+      ],
+      "D": [
+        "O Detetive",
+        "Você lê os comentários antes de apertar \"instalar\".",
+        "Antes de atualizar, você pesquisa se a versão nova tá dando problema, confere o espaço e faz backup. Ninguém te pega de surpresa com um bug novo.",
+        "Descobrir o problema antes de ele chegar no seu celular.",
+        "Pesquisar tanto que a próxima atualização já saiu.",
+        "Calma. Deixa eu ver se tá dando bug primeiro."
+      ],
+      "M": [
+        "O Maestro",
+        "Você atualiza o celular, o tablet e o relógio de uma vez.",
+        "Pra você, atualização é um projeto em grupo: o seu celular, o da sua mãe e o computador da casa. Você ainda ajuda todo mundo a achar onde foram parar os ícones.",
+        "Deixar todo mundo da casa na versão nova.",
+        "Atualizar tudo junto e ficar sem nenhum aparelho por meia hora.",
+        "Me passa o seu que eu atualizo junto."
+      ],
+      "F": [
+        "O Finalizador",
+        "Viu o aviso, apertou \"atualizar agora\". Pronto.",
+        "Você não fica adiando nem lendo nota de versão. Apareceu, você instala e segue a vida. Enquanto os outros clicam em \"me lembre amanhã\", você já tá testando os emojis novos.",
+        "Nunca acumular aviso pendente.",
+        "Atualizar cinco minutos antes de precisar do celular.",
+        "Atualizei. Mudou alguma coisa? Sei lá, tá ótimo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de estilo conforme a atualização: planeja quando é grande, pesquisa quando parece arriscada, ajuda a família quando precisa e instala na hora quando é simples.",
+        "Saber o jeito certo pra cada aviso.",
+        "Ninguém saber se você já atualizou ou não.",
+        "Depende. É atualização grande ou pequena?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de escolher a hora certa.",
+      "D": "você ainda dá uma olhadinha antes de instalar.",
+      "M": "você acaba atualizando o celular de alguém junto.",
+      "F": "no fim, você aperta \"instalar\" sem drama."
+    },
+    "Q": [
+      [
+        "O celular pede atualização bem na hora H. Você...",
+        {
+          "A": "Agendo pra madrugada",
+          "D": "Leio o que muda antes",
+          "M": "Atualizo o tablet junto",
+          "F": "Aperto \"agora\" e pronto"
+        }
+      ],
+      [
+        "Aparece \"espaço insuficiente\". Você...",
+        {
+          "A": "Faço um plano de limpeza por pastas",
+          "D": "Vejo o que mais ocupa espaço, app por app",
+          "M": "Apago fotos, passo pra nuvem e ainda limpo o grupo",
+          "F": "Apago o primeiro app que aparecer e sigo"
+        }
+      ],
+      [
+        "A atualização mudou o lugar dos ícones. Sua reação:",
+        {
+          "A": "Reorganizo a tela inicial do zero, com lógica",
+          "D": "Procuro o que mais mudou e anoto",
+          "M": "Já ensino o atalho novo pro grupo da família",
+          "F": "Me acostumo em dois minutos"
+        }
+      ],
+      [
+        "A barra de progresso trava em 99%. Você...",
+        {
+          "A": "Espero, porque já tinha deixado tempo sobrando",
+          "D": "Pesquiso se isso é normal nessa versão",
+          "M": "Vou fazer outra coisa e volto depois",
+          "F": "Reinicio na coragem"
+        }
+      ],
+      [
+        "Seu papel quando alguém da família precisa atualizar:",
+        {
+          "A": "Quem diz a melhor hora pra fazer",
+          "D": "Quem confere se tem backup antes",
+          "M": "Quem pega todos os aparelhos e resolve",
+          "F": "Quem aperta o botão enquanto os outros pensam"
+        }
+      ],
+      [
+        "A versão nova trouxe emojis novos. Você...",
+        {
+          "A": "Já penso em quais vou usar e onde",
+          "D": "Comparo com os antigos pra ver o que mudou",
+          "M": "Mando todos no grupo pra galera ver",
+          "F": "Uso o primeiro que gostei e nem olho o resto"
+        }
+      ],
+      [
+        "Seu maior defeito com atualizações:",
+        {
+          "A": "Agendo e esqueço de deixar carregando",
+          "D": "Pesquiso tanto que demoro semanas",
+          "M": "Atualizo tudo junto e fico sem aparelho",
+          "F": "Atualizo bem antes de sair de casa"
+        }
+      ],
+      [
+        "Terminou a atualização. Primeira coisa que você faz?",
+        {
+          "A": "Confiro se ficou tudo no lugar planejado",
+          "D": "Testo se a câmera e o Wi-Fi ainda funcionam",
+          "M": "Respondo as 47 mensagens que chegaram",
+          "F": "Volto pro que tava fazendo"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when your phone wants an update?",
+    "lead": "That \"update available\" pop-up says a lot about you. Let's find out.",
+    "T": {
+      "A": [
+        "The Architect",
+        "You schedule updates like surgery.",
+        "For you, a phone update has a proper time slot: good Wi-Fi, full battery, nothing urgent going on. You read the release notes and know what's changing. Nothing freezes halfway on your watch.",
+        "Picking the perfect moment to update.",
+        "Putting it off until the new version is old news.",
+        "Tonight, 2am, on the charger. Scheduled."
+      ],
+      "D": [
+        "The Detective",
+        "You read the reviews before you hit \"install\".",
+        "Before updating, you check whether the new version has issues, look at your storage and make a backup. No fresh bug ever catches you off guard.",
+        "Spotting the problem before it reaches your phone.",
+        "Researching so long the next update is already out.",
+        "Hang on. Let me check if it's buggy first."
+      ],
+      "M": [
+        "The Maestro",
+        "You update your phone, tablet and watch in one go.",
+        "For you, updates are a team project: your phone, your mum's phone and the family laptop. And you help everyone find where their icons went.",
+        "Getting the whole household on the new version.",
+        "Updating everything at once and having zero devices for half an hour.",
+        "Pass me yours, I'll do it too."
+      ],
+      "F": [
+        "The Finisher",
+        "Saw the alert, tapped \"update now\". Done.",
+        "No snoozing, no release notes. It pops up, you install, life goes on. While others tap \"remind me tomorrow\", you're already trying the new emojis.",
+        "Never having a pile of pending updates.",
+        "Updating five minutes before you need your phone.",
+        "Updated. Did anything change? No idea, it's fine."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch styles depending on the update: plan the big ones, research the risky ones, help the family when needed and install right away when it's simple.",
+        "Knowing the right move for every pop-up.",
+        "Nobody knowing if you've updated or not.",
+        "Depends. Big update or small one?"
+      ]
+    },
+    "S2": {
+      "A": "you still like picking the right moment.",
+      "D": "you still take a quick look before installing.",
+      "M": "you end up updating someone else's phone too.",
+      "F": "in the end, you just tap \"install\", no fuss."
+    },
+    "Q": [
+      [
+        "Your phone wants an update at the worst moment. You...",
+        {
+          "A": "Schedule it for 2am",
+          "D": "Read what's changing first",
+          "M": "Update the tablet too",
+          "F": "Tap \"now\" and that's it"
+        }
+      ],
+      [
+        "\"Not enough storage\" pops up. You...",
+        {
+          "A": "Make a clean-up plan, folder by folder",
+          "D": "Check what's eating space, app by app",
+          "M": "Delete photos, move stuff to the cloud and clear the group chat",
+          "F": "Delete the first app you see and move on"
+        }
+      ],
+      [
+        "The update moved all your icons. Your reaction:",
+        {
+          "A": "Rebuild the home screen from scratch, logically",
+          "D": "Work out what changed most and note it down",
+          "M": "Teach the new shortcut to the family group chat",
+          "F": "Get used to it in two minutes"
+        }
+      ],
+      [
+        "The progress bar freezes at 99%. You...",
+        {
+          "A": "Wait, because I left extra time anyway",
+          "D": "Look up whether that's normal for this version",
+          "M": "Go do something else and come back",
+          "F": "Restart it and hope for the best"
+        }
+      ],
+      [
+        "Your role when a family member needs to update:",
+        {
+          "A": "The one who says when to do it",
+          "D": "The one who checks there's a backup first",
+          "M": "The one who grabs every device and sorts it",
+          "F": "The one who taps the button while others think"
+        }
+      ],
+      [
+        "The new version has new emojis. You...",
+        {
+          "A": "Already plan which ones I'll use and where",
+          "D": "Compare them with the old ones",
+          "M": "Send all of them to the group chat",
+          "F": "Use the first one I like and ignore the rest"
+        }
+      ],
+      [
+        "Your biggest flaw with updates:",
+        {
+          "A": "I schedule it and forget to plug it in",
+          "D": "I research so much it takes weeks",
+          "M": "I update everything at once and have no device",
+          "F": "I update right before leaving the house"
+        }
+      ],
+      [
+        "The update's done. First thing you do?",
+        {
+          "A": "Check everything is where I planned",
+          "D": "Test that the camera and Wi-Fi still work",
+          "M": "Answer the 47 messages that came in",
+          "F": "Go back to whatever I was doing"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "手机提示更新时，你是哪个泡泡？",
+    "lead": "一个“有可用更新”的弹窗，就能看出你是什么样的人。来测测吧！",
+    "T": {
+      "A": [
+        "建筑师",
+        "你安排系统更新像安排一场手术。",
+        "对你来说，更新手机要挑好时间：Wi-Fi稳定、电量充足、手头没急事。你会先看更新说明，知道会变什么。有你在，更新从不卡在半路。",
+        "挑出最完美的更新时机。",
+        "拖得太久，新版本都变旧了。",
+        "今晚两点，插着充电器。已经定好了。"
+      ],
+      "D": [
+        "侦探",
+        "点“安装”之前，你先看评论。",
+        "更新前，你会查新版本有没有问题，看看存储空间，再做个备份。新bug从来没法让你措手不及。",
+        "在问题找上你的手机之前发现它。",
+        "查得太久，下一个更新都出来了。",
+        "等等，我先看看有没有bug。"
+      ],
+      "M": [
+        "指挥家",
+        "你一口气更新手机、平板和手表。",
+        "对你来说，更新是团队项目：你的手机、你妈的手机、家里的电脑。你还帮大家找图标跑哪儿去了。",
+        "让全家都用上新版本。",
+        "所有设备一起更新，半小时手边一台能用的都没有。",
+        "把你的给我，我一起更新。"
+      ],
+      "F": [
+        "终结者",
+        "看到提示，点“立即更新”，搞定。",
+        "你不拖延，也不看更新说明。弹出来就装，然后继续生活。别人还在点“明天提醒我”，你已经在试新表情了。",
+        "从来不攒一堆待更新。",
+        "出门前五分钟才开始更新。",
+        "更新好了。有什么变化？不知道，挺好的。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据更新切换风格：大更新先规划，有风险先查，家人需要就帮忙，简单的就马上装。",
+        "知道每个弹窗该怎么处理。",
+        "没人知道你到底更新了没有。",
+        "看情况。大更新还是小更新？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢挑好时机。",
+      "D": "你安装前还是会先看一眼。",
+      "M": "你最后总会顺手帮别人更新。",
+      "F": "最后你还是干脆地点了“安装”。"
+    },
+    "Q": [
+      [
+        "手机偏偏在关键时刻提示更新。你……",
+        {
+          "A": "定在凌晨两点",
+          "D": "先看看更新了什么",
+          "M": "把平板也一起更新",
+          "F": "直接点“立即更新”"
+        }
+      ],
+      [
+        "弹出“存储空间不足”。你……",
+        {
+          "A": "按文件夹制定清理计划",
+          "D": "一个个应用查谁最占空间",
+          "M": "删照片、传云端，顺便清理群聊",
+          "F": "删掉看到的第一个应用，继续"
+        }
+      ],
+      [
+        "更新后图标全换了位置。你的反应：",
+        {
+          "A": "按逻辑从头整理主屏幕",
+          "D": "找出变化最大的地方记下来",
+          "M": "马上在家庭群里教大家新用法",
+          "F": "两分钟就习惯了"
+        }
+      ],
+      [
+        "进度条卡在99%。你……",
+        {
+          "A": "等着，反正我留了充足时间",
+          "D": "查查这个版本是不是都这样",
+          "M": "先去干别的，等会儿再看",
+          "F": "硬着头皮重启"
+        }
+      ],
+      [
+        "家人需要更新手机时，你的角色：",
+        {
+          "A": "告诉大家什么时候更新最好",
+          "D": "先确认有没有备份",
+          "M": "把所有设备拿过来一起搞定",
+          "F": "在别人犹豫时直接按下按钮"
+        }
+      ],
+      [
+        "新版本有新表情了。你……",
+        {
+          "A": "已经想好在哪儿用哪些",
+          "D": "和旧的对比看看哪里变了",
+          "M": "全部发到群里给大家看",
+          "F": "用第一个喜欢的，其他不管"
+        }
+      ],
+      [
+        "你对待更新最大的毛病：",
+        {
+          "A": "定好了时间却忘了插充电器",
+          "D": "查得太久，拖了好几周",
+          "M": "所有设备一起更新，结果一台都用不了",
+          "F": "出门前一刻才开始更新"
+        }
+      ],
+      [
+        "更新完成。你做的第一件事？",
+        {
+          "A": "检查一切是否都在计划好的位置",
+          "D": "测试相机和Wi-Fi还能不能用",
+          "M": "回复刚刚涌进来的47条消息",
+          "F": "继续做刚才的事"
+        }
+      ]
+    ]
+  }
+}
