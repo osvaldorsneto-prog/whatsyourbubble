@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "visita-em-casa",
+   "url": "/q/?s=visita-em-casa",
+   "criado_em": "2026-11-18",
+   "categoria": "familia",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é quando chega visita?",
+    "en": "What's your bubble when guests drop by?",
+    "zh": "家里来客人时，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "partida-online",
+   "url": "/q/?s=partida-online",
+   "criado_em": "2026-11-18",
+   "categoria": "jogos",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é numa partida online?",
+    "en": "What's your bubble in an online match?",
+    "zh": "打在线游戏时，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "gato-em-casa",
+   "url": "/q/?s=gato-em-casa",
+   "criado_em": "2026-11-18",
+   "categoria": "pets",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é com um gato em casa?",
+    "en": "What's your bubble with a cat at home?",
+    "zh": "家里有猫时，你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "show-ao-vivo",
    "url": "/q/?s=show-ao-vivo",
    "criado_em": "2026-11-17",

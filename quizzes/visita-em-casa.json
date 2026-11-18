@@ -1,0 +1,384 @@
+{
+  "slug": "visita-em-casa",
+  "criado_em": "2026-11-18",
+  "categoria": "familia",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é quando chega visita?",
+    "lead": "A visita avisou que chega em 10 minutos. Que tipo de anfitrião você é?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você sabe onde cada visita vai sentar antes dela chegar.",
+        "Pra você, receber bem começa antes da campainha. Você tem o lanche separado, a toalha extra dobrada e o assunto na manga. Por isso ninguém fica sem nada na sua casa.",
+        "Deixar a casa pronta pra qualquer visita.",
+        "Planejar tanto que vira evento oficial.",
+        "Chegam às 4? O bolo sai às 3 e meia."
+      ],
+      "D": [
+        "O Detetive",
+        "Você percebe o que a visita precisa antes dela pedir.",
+        "Você lembra quem toma café sem açúcar, quem tem medo de cachorro e quem sempre esquece o guarda-chuva. Ninguém sai da sua casa sem se sentir lembrado.",
+        "Lembrar o detalhe de cada pessoa.",
+        "Reparar em tudo, até no que ninguém viu.",
+        "Você não era sem açúcar? Já trouxe."
+      ],
+      "M": [
+        "O Maestro",
+        "Você serve, conversa e arruma tudo ao mesmo tempo.",
+        "Você enche a xícara, puxa assunto, distrai a criança e ainda tira o bolo do forno. A visita nem percebe tudo o que acontece, só sente que tá em casa.",
+        "Fazer a casa inteira funcionar com visita.",
+        "Fazer tanta coisa que esquece de sentar.",
+        "Senta aí, já trago mais. E aí, me conta!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Visita chegou? Porta aberta e café na mesa.",
+        "Você não espera a casa perfeita pra receber ninguém. Abre a porta, serve o que tem e a conversa rola. Enquanto outros pensam no cardápio, sua visita já tá rindo no sofá.",
+        "Fazer a visita acontecer sem drama.",
+        "Mandar tudo pro armário e esquecer lá.",
+        "Repara não a bagunça. Entra!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a visita pede: planeja quando dá tempo, repara nos detalhes, cuida de tudo quando a sala enche e resolve quando a campainha toca.",
+        "Ser o anfitrião que aquela visita precisa.",
+        "Ninguém saber que versão vai abrir a porta.",
+        "Depende de quem vem. Entra que a gente vê."
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você abre a porta e resolve."
+    },
+    "Q": [
+      [
+        "\"Tô passando aí em 10 minutos!\" Primeira reação?",
+        {
+          "A": "Já sei o que servir e onde cada um senta",
+          "D": "Confiro se são 10 mesmo ou 40",
+          "M": "Arrumo a sala e passo o café juntos",
+          "F": "Tudo pro armário e abro a porta"
+        }
+      ],
+      [
+        "Que lanche você oferece?",
+        {
+          "A": "O que eu deixei separado pra ocasiões assim",
+          "D": "Pergunto antes se tem alguma coisa que a pessoa não come",
+          "M": "Café, bolo, suco e salgadinho, tudo de uma vez",
+          "F": "O que tiver no armário, servido com carinho"
+        }
+      ],
+      [
+        "A visita repara na pilha de roupa em cima da cadeira. Você...",
+        {
+          "A": "Explico que faz parte do plano de arrumação da semana",
+          "D": "Percebo o olhar antes dela falar qualquer coisa",
+          "M": "Mudo de assunto, sirvo mais café e some a pilha",
+          "F": "Pego a pilha e levo pro quarto na hora"
+        }
+      ],
+      [
+        "Veio uma criança e ela quer mexer em tudo. Você...",
+        {
+          "A": "Já tinha guardado tudo que quebra lá no alto",
+          "D": "Fico de olho em cada passo dela",
+          "M": "Dou papel e lápis, ligo um desenho e sigo no papo",
+          "F": "Entrego um brinquedo e problema resolvido"
+        }
+      ],
+      [
+        "A conversa caiu num silêncio constrangedor. Você...",
+        {
+          "A": "Puxo um dos assuntos que separei antes",
+          "D": "Pergunto daquela história da última visita, lembro de tudo",
+          "M": "Mostro fotos, sirvo bolo e ponho uma música",
+          "F": "\"E aí, mais um cafezinho?\""
+        }
+      ],
+      [
+        "Já são 23h e a visita não dá sinal de ir embora. Você...",
+        {
+          "A": "Já tinha avisado cedo que amanhã acordo cedo",
+          "D": "Reparo: ela olhou o relógio, deve ir já já",
+          "M": "Começo a guardar a louça sem parar o papo",
+          "F": "Levanto, dou um abraço e digo \"vamos marcar de novo!\""
+        }
+      ],
+      [
+        "Seu maior defeito como anfitrião:",
+        {
+          "A": "Planejar tanto que a visita chega antes da arrumação acabar",
+          "D": "Reparar até na poeira da minha própria estante",
+          "M": "Fazer tanta coisa que nem sento pra conversar",
+          "F": "Esconder tudo no armário e achar só um mês depois"
+        }
+      ],
+      [
+        "A visita foi embora. Você...",
+        {
+          "A": "Anoto o que faltou pra próxima vez",
+          "D": "Confiro se ninguém esqueceu o casaco",
+          "M": "Lavo a louça, mando mensagem e já combino a próxima",
+          "F": "Deito no sofá. Missão cumprida"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when guests drop by?",
+    "lead": "Your guests just texted: they'll be there in 10 minutes. What kind of host are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You know where every guest will sit before they arrive.",
+        "For you, hosting starts long before the doorbell. The snacks are set aside, the spare towel is folded and you've got conversation topics ready. That's why nobody ever goes without at your place.",
+        "Having the house ready for any visit.",
+        "Planning so much it becomes an official event.",
+        "Arriving at 4? Cake's out at half 3."
+      ],
+      "D": [
+        "The Detective",
+        "You notice what guests need before they ask.",
+        "You remember who takes coffee without sugar, who's nervous around dogs and who always forgets their umbrella. Nobody leaves your house without feeling remembered.",
+        "Remembering the little details about everyone.",
+        "Noticing everything, even what nobody else saw.",
+        "No sugar, right? Already sorted."
+      ],
+      "M": [
+        "The Maestro",
+        "You serve, chat and tidy up all at the same time.",
+        "You refill the mugs, keep the conversation going, entertain the kid and still get the cake out of the oven. Guests don't see half of it, they just feel at home.",
+        "Keeping the whole house running with guests over.",
+        "Doing so much you forget to sit down.",
+        "Sit down, I'll bring more. So, tell me everything!"
+      ],
+      "F": [
+        "The Finisher",
+        "Guests here? Door open, kettle on.",
+        "You don't wait for a perfect house to have people over. You open the door, serve what you've got and the chat flows. While others plan a menu, your guests are already laughing on the sofa.",
+        "Making the visit happen without the drama.",
+        "Shoving everything in a cupboard and forgetting it.",
+        "Ignore the mess. Come in!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the visit requires: planning when there's time, noticing the details, juggling it all when the room fills up and just sorting it when the doorbell rings.",
+        "Being the host each guest needs.",
+        "Nobody knowing which version will open the door.",
+        "Depends who's coming. Come in and we'll see."
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you just open the door."
+    },
+    "Q": [
+      [
+        "\"Popping round in 10 minutes!\" First reaction?",
+        {
+          "A": "I know what to serve and who sits where",
+          "D": "Check if it's really 10 or more like 40",
+          "M": "Tidy up and make coffee at once",
+          "F": "Everything in a cupboard, open the door"
+        }
+      ],
+      [
+        "What snacks do you offer?",
+        {
+          "A": "The ones I set aside for exactly this",
+          "D": "I ask first if there's anything they don't eat",
+          "M": "Coffee, cake, juice and crisps, all at once",
+          "F": "Whatever's in the cupboard, served with love"
+        }
+      ],
+      [
+        "Your guest spots the pile of clothes on the chair. You...",
+        {
+          "A": "Explain it's part of this week's tidying plan",
+          "D": "Notice the look before they say a word",
+          "M": "Change the subject, pour more coffee, make the pile vanish",
+          "F": "Grab the pile and take it to the bedroom"
+        }
+      ],
+      [
+        "A kid came along and wants to touch everything. You...",
+        {
+          "A": "Already put everything breakable up high",
+          "D": "Keep an eye on their every move",
+          "M": "Hand over paper and pens, put on cartoons, keep chatting",
+          "F": "Give them a toy. Problem solved"
+        }
+      ],
+      [
+        "The conversation hits an awkward silence. You...",
+        {
+          "A": "Bring up one of the topics I prepared",
+          "D": "Ask about that story from last time, I remember it all",
+          "M": "Show photos, serve cake and put some music on",
+          "F": "\"So... another coffee?\""
+        }
+      ],
+      [
+        "It's 11 p.m. and the guests show no sign of leaving. You...",
+        {
+          "A": "Mentioned early on that I have an early start",
+          "D": "Notice them checking the time, they'll go soon",
+          "M": "Start doing the dishes without stopping the chat",
+          "F": "Stand up, hug them and say \"let's do this again!\""
+        }
+      ],
+      [
+        "Your biggest flaw as a host:",
+        {
+          "A": "Planning so much that guests arrive before I'm done tidying",
+          "D": "Noticing the dust on my own shelves",
+          "M": "Doing so much I never sit down to chat",
+          "F": "Hiding everything in a cupboard and finding it a month later"
+        }
+      ],
+      [
+        "The guests have gone. You...",
+        {
+          "A": "Note what was missing for next time",
+          "D": "Check nobody left their coat",
+          "M": "Do the dishes, send a message and plan the next visit",
+          "F": "Collapse on the sofa. Mission accomplished"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "家里来客人时，你是哪个泡泡？",
+    "lead": "客人说十分钟后就到。你是哪种主人？",
+    "T": {
+      "A": [
+        "建筑师",
+        "客人还没到，你就知道每个人坐哪儿。",
+        "对你来说，待客从门铃响之前就开始了。零食早就备好，备用毛巾叠好了，聊天话题也准备好了。所以在你家，谁都不会缺什么。",
+        "随时把家准备好迎客。",
+        "计划太多，搞得像正式活动。",
+        "四点到？蛋糕三点半出炉。"
+      ],
+      "D": [
+        "侦探",
+        "客人还没开口，你就知道他们需要什么。",
+        "你记得谁喝咖啡不加糖、谁怕狗、谁总忘带伞。每个从你家离开的人，都觉得自己被记住了。",
+        "记住每个人的小细节。",
+        "什么都看在眼里，连别人没注意的也是。",
+        "你是不加糖的吧？已经拿来了。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边招待、一边聊天、一边收拾。",
+        "你续杯、找话题、哄小孩，还顺手把蛋糕从烤箱里拿出来。客人根本没发现你忙了多少，只觉得像在自己家一样。",
+        "有客人时让整个家照常运转。",
+        "忙到忘了坐下。",
+        "坐坐坐，我再拿点。快跟我说说！"
+      ],
+      "F": [
+        "终结者",
+        "客人到了？开门，上茶。",
+        "你不会等家里完美了才请人来。开门，有什么端什么，聊着聊着就热闹了。别人还在想菜单，你的客人已经在沙发上笑开了。",
+        "让聚会轻松发生。",
+        "把东西全塞进柜子，然后忘了。",
+        "别看乱，快进来！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据来客切换角色：有时间就计划，留意细节，人多时一手包办，门铃一响就直接搞定。",
+        "成为每位客人需要的主人。",
+        "没人知道开门的是哪个版本的你。",
+        "看谁来。先进来再说。"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何事不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你直接开门搞定。"
+    },
+    "Q": [
+      [
+        "“我十分钟后到你家！”你的第一反应？",
+        {
+          "A": "早就想好上什么、谁坐哪",
+          "D": "确认是真十分钟还是四十分钟",
+          "M": "一边收拾一边煮咖啡",
+          "F": "全塞进柜子，开门"
+        }
+      ],
+      [
+        "你会拿什么招待？",
+        {
+          "A": "专门为这种时候备好的零食",
+          "D": "先问问对方有没有不吃的东西",
+          "M": "咖啡、蛋糕、果汁、小零食，一次全上",
+          "F": "柜子里有什么就拿什么，心意最重要"
+        }
+      ],
+      [
+        "客人注意到椅子上那堆衣服。你会……",
+        {
+          "A": "解释说这是本周整理计划的一部分",
+          "D": "对方还没开口，你就察觉到那个眼神",
+          "M": "转移话题，再倒杯咖啡，顺手让衣服消失",
+          "F": "马上抱起那堆衣服送回卧室"
+        }
+      ],
+      [
+        "来了个小朋友，什么都想摸。你会……",
+        {
+          "A": "易碎的东西早就放高处了",
+          "D": "盯着他的每一步",
+          "M": "给纸和笔，放动画片，继续聊天",
+          "F": "递个玩具，问题解决"
+        }
+      ],
+      [
+        "聊着聊着突然冷场了。你会……",
+        {
+          "A": "拿出事先准备好的话题",
+          "D": "问起上次那个故事的后续，我全记得",
+          "M": "翻照片、切蛋糕、放音乐",
+          "F": "“那个……再来杯咖啡？”"
+        }
+      ],
+      [
+        "晚上十一点了，客人完全没有要走的意思。你会……",
+        {
+          "A": "一早就提过明天要早起",
+          "D": "注意到他们看了下时间，应该快走了",
+          "M": "边聊边开始收碗",
+          "F": "站起来抱一下，说“下次再约！”"
+        }
+      ],
+      [
+        "你当主人最大的缺点：",
+        {
+          "A": "计划太久，客人到了还没收拾完",
+          "D": "连自己书架上的灰都看得见",
+          "M": "忙个不停，都没坐下来聊天",
+          "F": "全塞进柜子，一个月后才找到"
+        }
+      ],
+      [
+        "客人走了。你会……",
+        {
+          "A": "记下这次缺了什么，下次补上",
+          "D": "检查有没有人落下外套",
+          "M": "洗碗、发消息、顺便约下一次",
+          "F": "瘫在沙发上，任务完成"
+        }
+      ]
+    ]
+  }
+}

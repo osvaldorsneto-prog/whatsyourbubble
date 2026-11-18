@@ -1,0 +1,384 @@
+{
+  "slug": "gato-em-casa",
+  "criado_em": "2026-11-18",
+  "categoria": "pets",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é com um gato em casa?",
+    "lead": "Quem mora com gato sabe: a casa é dele. Que tipo de humano você é?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você organiza a casa inteira pensando no gato.",
+        "Pra você, gato feliz é gato com rotina. Você sabe a hora da ração, onde fica a caixinha e qual prateleira ele vai escalar. Por isso a casa funciona até quando o gato decide que não.",
+        "Montar a rotina perfeita pro bichano.",
+        "Planejar tanto que o gato ignora o plano.",
+        "Ração às 8, brincadeira às 9. Combinado?"
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum barulho na casa passa sem investigação.",
+        "Você percebe quando o gato comeu menos, quando mudou de cantinho e quem derrubou o quê. Nada te escapa. É por isso que ele vive tão bem cuidado.",
+        "Entender o que o gato tá tentando dizer.",
+        "Investigar tanto que ele se esconde de você.",
+        "Esse barulho veio da cozinha. Quem foi?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do gato, da casa e do resto ao mesmo tempo.",
+        "Você troca a areia, enche a água, brinca com a varinha e ainda responde mensagem. Enquanto o gato apronta, você mantém a casa inteira funcionando.",
+        "Dar conta do gato e da vida juntos.",
+        "Fazer tanta coisa que ele rouba seu lugar no sofá.",
+        "Calma, já ponho a ração e já te dou carinho."
+      ],
+      "F": [
+        "O Finalizador",
+        "Gato alimentado e feliz. Missão cumprida.",
+        "Você não complica: o gato pediu, você resolve. Pote cheio, areia limpa, carinho dado. Enquanto outros leem a teoria, seu gato já tá ronronando.",
+        "Resolver o pedido do gato na hora.",
+        "Ceder rápido demais pros pedidos dele.",
+        "Tá miando? Já tô indo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o gato pede: planeja a rotina, investiga um sumiço, cuida de tudo junto ou resolve na hora. Igual a um gato, você se adapta.",
+        "Ser o humano que o gato precisa naquele dia.",
+        "Nem o gato sabe o que esperar de você.",
+        "Depende do humor dele. E do meu."
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de pensar e resolve."
+    },
+    "Q": [
+      [
+        "O gato derrubou um copo da mesa olhando pra você. E agora?",
+        {
+          "A": "Nada mais fica na beirada da mesa",
+          "D": "Investigo o motivo do crime",
+          "M": "Seco o chão e salvo o celular junto",
+          "F": "Pano no chão e vida que segue"
+        }
+      ],
+      [
+        "O gato resolve dormir em cima do seu teclado. Você...",
+        {
+          "A": "Compro uma caminha pra deixar do lado do computador",
+          "D": "Confiro se ele não mandou nenhum e-mail sozinho",
+          "M": "Trabalho com uma mão e faço carinho com a outra",
+          "F": "Tiro ele com cuidado e termino o que estava fazendo"
+        }
+      ],
+      [
+        "Chegou ração nova. Ele cheira e vai embora. Você...",
+        {
+          "A": "Faço a troca aos poucos, como manda o plano",
+          "D": "Leio o rótulo inteiro pra ver o que mudou",
+          "M": "Misturo com a antiga, ofereço petisco e chamo no carinho",
+          "F": "Volto pra ração antiga e pronto"
+        }
+      ],
+      [
+        "3 da manhã e o gato decide correr pela casa toda. Você...",
+        {
+          "A": "Planejo brincar mais com ele antes de dormir amanhã",
+          "D": "Levanto pra ver o que ele tá caçando",
+          "M": "Acalmo o gato, fecho as portas e volto pra cama",
+          "F": "Travesseiro na cabeça e volto a dormir"
+        }
+      ],
+      [
+        "Dia de veterinário. A caixa de transporte...",
+        {
+          "A": "Fica aberta na sala uma semana antes, pra ele se acostumar",
+          "D": "Tem a trava conferida duas vezes",
+          "M": "Petisco numa mão, caixa na outra, chave no bolso",
+          "F": "Pego ele no colo, ponho dentro e fecho rápido"
+        }
+      ],
+      [
+        "O gato sumiu dentro de casa. Você...",
+        {
+          "A": "Faço uma busca cômodo por cômodo, na ordem",
+          "D": "Sigo as pistas: pelo no sofá, armário entreaberto",
+          "M": "Chamo, chacoalho o pote de ração e abro todas as portas",
+          "F": "Abro um sachê. Em 3 segundos ele aparece"
+        }
+      ],
+      [
+        "Seu maior defeito com o gato:",
+        {
+          "A": "Planejar a rotina dele melhor que a minha",
+          "D": "Conferir de cinco em cinco minutos se ele comeu",
+          "M": "Inventar mil brincadeiras ao mesmo tempo e ele ignorar todas",
+          "F": "Deixar ele subir na mesa porque não vale a briga"
+        }
+      ],
+      [
+        "O gato finalmente deita no seu colo. Você...",
+        {
+          "A": "Já tinha deixado o controle e a água por perto",
+          "D": "Fico imóvel conferindo se ele tá confortável mesmo",
+          "M": "Vejo série, respondo mensagem e faço carinho sem levantar",
+          "F": "Cancelo tudo. Daqui não saio mais"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with a cat at home?",
+    "lead": "Anyone who lives with a cat knows it's really the cat's house. What kind of human are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You plan the whole house around the cat.",
+        "To you, a happy cat is a cat with a routine. You know feeding time, where the litter box goes and which shelf will get climbed next. That's why the house runs smoothly, even when the cat disagrees.",
+        "Building the perfect routine for your cat.",
+        "Planning so much the cat just ignores the plan.",
+        "Breakfast at 8, playtime at 9. Deal?"
+      ],
+      "D": [
+        "The Detective",
+        "No noise in the house goes uninvestigated.",
+        "You notice when the cat eats less, picks a new napping spot or knocks something over. Nothing gets past you. That's why your cat is so well looked after.",
+        "Understanding what your cat is trying to say.",
+        "Investigating so much the cat hides from you.",
+        "That came from the kitchen. Who did it?"
+      ],
+      "M": [
+        "The Maestro",
+        "You look after the cat, the house and everything else at once.",
+        "You change the litter, top up the water, wave the feather toy and still reply to messages. While the cat causes chaos, you keep the whole home running.",
+        "Handling the cat and life at the same time.",
+        "Doing so much the cat steals your spot on the sofa.",
+        "Hang on, food's coming, and so are cuddles."
+      ],
+      "F": [
+        "The Finisher",
+        "Cat fed and happy. Mission accomplished.",
+        "You keep it simple: the cat asks, you sort it. Bowl full, litter clean, cuddles given. While others read up on cat behaviour, yours is already purring.",
+        "Sorting out what the cat wants, right away.",
+        "Giving in to every demand a bit too fast.",
+        "Meowing? On my way."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the cat requires: planning the routine, investigating a disappearance, juggling it all or just sorting it. Like a cat, you adapt.",
+        "Being exactly the human your cat needs today.",
+        "Not even the cat knows what to expect from you.",
+        "Depends on its mood. And mine."
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop thinking and act."
+    },
+    "Q": [
+      [
+        "The cat knocks a glass off the table while staring at you. Now what?",
+        {
+          "A": "Nothing goes near the edge ever again",
+          "D": "I investigate the motive",
+          "M": "Mop the floor and rescue my phone",
+          "F": "Grab a towel and move on"
+        }
+      ],
+      [
+        "The cat decides to nap on your keyboard. You...",
+        {
+          "A": "Buy a little bed to put next to the computer",
+          "D": "Check it hasn't sent any emails on its own",
+          "M": "Type with one hand and pet with the other",
+          "F": "Gently move it and finish what I was doing"
+        }
+      ],
+      [
+        "New cat food arrives. It sniffs and walks off. You...",
+        {
+          "A": "Switch over gradually, as planned",
+          "D": "Read the whole label to see what changed",
+          "M": "Mix it with the old one, add a treat and coax it",
+          "F": "Go back to the old food. Done"
+        }
+      ],
+      [
+        "3 a.m. and the cat starts racing round the house. You...",
+        {
+          "A": "Plan a longer play session before bed tomorrow",
+          "D": "Get up to see what it's hunting",
+          "M": "Calm it down, shut the doors and go back to bed",
+          "F": "Pillow over my head, back to sleep"
+        }
+      ],
+      [
+        "Vet day. The cat carrier...",
+        {
+          "A": "Has been open in the living room all week so it gets used to it",
+          "D": "Gets its latch checked twice",
+          "M": "Treat in one hand, carrier in the other, keys in my pocket",
+          "F": "Scoop, pop it in, close it quick"
+        }
+      ],
+      [
+        "The cat has vanished somewhere in the house. You...",
+        {
+          "A": "Search room by room, in order",
+          "D": "Follow the clues: fur on the sofa, a cupboard ajar",
+          "M": "Call it, shake the food bag and open every door",
+          "F": "Open a pouch of food. It appears in 3 seconds"
+        }
+      ],
+      [
+        "Your biggest flaw as a cat owner:",
+        {
+          "A": "Planning its routine better than my own",
+          "D": "Checking every five minutes whether it ate",
+          "M": "Inventing ten games at once and it ignores them all",
+          "F": "Letting it on the table because it's not worth the fight"
+        }
+      ],
+      [
+        "The cat finally settles on your lap. You...",
+        {
+          "A": "Already put the remote and a drink within reach",
+          "D": "Stay frozen, checking it's actually comfy",
+          "M": "Watch a show, answer messages and pet it without moving",
+          "F": "Cancel all plans. I live here now"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "家里有猫时，你是哪个泡泡？",
+    "lead": "和猫一起住的人都知道：这其实是猫的家。你是哪种人类？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你围着猫把整个家都规划好了。",
+        "对你来说，快乐的猫就是有规律的猫。你知道几点喂饭、猫砂盆放哪、它下一个要爬哪层架子。所以就算猫不配合，家里也照样井井有条。",
+        "给猫主子定出完美作息。",
+        "计划太周密，猫直接无视。",
+        "八点吃饭，九点玩耍。说好了哦？"
+      ],
+      "D": [
+        "侦探",
+        "家里任何动静都逃不过你的调查。",
+        "猫少吃了一口、换了睡觉的地方、打翻了什么，你全都知道。什么都瞒不过你，所以你的猫被照顾得特别好。",
+        "读懂猫想说什么。",
+        "调查太多，猫都躲着你。",
+        "厨房那声响，是谁干的？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时照顾猫、家务和其他所有事。",
+        "你一边铲猫砂、加水、挥逗猫棒，一边还在回消息。猫在捣乱，你让整个家照常运转。",
+        "猫和生活两手都抓。",
+        "忙到沙发上的位置都被猫占了。",
+        "等一下，饭马上来，摸摸也马上来。"
+      ],
+      "F": [
+        "终结者",
+        "猫吃饱了，开心了，任务完成。",
+        "你不搞复杂：猫要什么，你马上搞定。碗满了，猫砂干净了，也摸过了。别人还在研究养猫理论，你的猫已经在呼噜了。",
+        "第一时间满足猫的需求。",
+        "对猫的要求让步得太快。",
+        "叫了？来了来了。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据猫的需要切换角色：安排作息、调查失踪、一手包办，或者当场解决。和猫一样，你很会适应。",
+        "成为猫今天最需要的那个人类。",
+        "连猫都猜不到你下一步。",
+        "看它心情，也看我心情。"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何事不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你不多想，直接搞定。"
+    },
+    "Q": [
+      [
+        "猫盯着你，把桌上的杯子推了下去。怎么办？",
+        {
+          "A": "从此桌边什么都不放",
+          "D": "调查作案动机",
+          "M": "擦地顺便抢救手机",
+          "F": "拿抹布擦擦，继续生活"
+        }
+      ],
+      [
+        "猫决定睡在你的键盘上。你会……",
+        {
+          "A": "买个小窝放在电脑旁边",
+          "D": "检查它有没有自己发出邮件",
+          "M": "一只手打字，一只手摸猫",
+          "F": "轻轻把它抱开，做完手上的事"
+        }
+      ],
+      [
+        "新猫粮到了，它闻了闻就走了。你会……",
+        {
+          "A": "按计划慢慢换粮",
+          "D": "把成分表从头读到尾，看看哪里变了",
+          "M": "和旧粮混着，加点零食哄它",
+          "F": "换回旧粮，完事"
+        }
+      ],
+      [
+        "凌晨三点，猫开始在家里狂奔。你会……",
+        {
+          "A": "计划明天睡前多陪它玩一会儿",
+          "D": "起床看看它在抓什么",
+          "M": "安抚好猫，关上门，回去睡觉",
+          "F": "枕头一捂，接着睡"
+        }
+      ],
+      [
+        "今天去看兽医。猫包……",
+        {
+          "A": "提前一周就打开放在客厅，让它习惯",
+          "D": "门扣检查了两遍",
+          "M": "一手零食，一手猫包，钥匙在口袋",
+          "F": "一把抱起，塞进去，迅速关门"
+        }
+      ],
+      [
+        "猫在家里消失了。你会……",
+        {
+          "A": "一个房间一个房间按顺序找",
+          "D": "顺着线索找：沙发上的毛、半开的柜门",
+          "M": "边喊边摇猫粮袋，把所有门都打开",
+          "F": "撕开一包湿粮，三秒后它就出现"
+        }
+      ],
+      [
+        "你当铲屎官最大的缺点：",
+        {
+          "A": "给它安排的作息比我自己的还好",
+          "D": "每五分钟就去看它吃没吃",
+          "M": "同时想出十个游戏，它一个都不理",
+          "F": "让它上桌，因为不值得吵"
+        }
+      ],
+      [
+        "猫终于躺到你腿上了。你会……",
+        {
+          "A": "遥控器和水早就放在手边了",
+          "D": "一动不动，确认它是不是真舒服",
+          "M": "不起身，边追剧边回消息边摸猫",
+          "F": "取消所有安排，我不走了"
+        }
+      ]
+    ]
+  }
+}

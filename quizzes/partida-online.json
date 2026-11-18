@@ -1,0 +1,384 @@
+{
+  "slug": "partida-online",
+  "criado_em": "2026-11-18",
+  "categoria": "jogos",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é numa partida online?",
+    "lead": "O time tá online e a partida vai começar. Que tipo de jogador você é?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você entra na partida com a estratégia pronta.",
+        "Pra você, a vitória começa antes do jogo. Você sabe quem vai pra onde, o que fazer se der errado e qual é o plano B. Por isso o time joga melhor quando você tá no fone.",
+        "Montar a estratégia que funciona.",
+        "Explicar o plano com a partida já rolando.",
+        "Calma, primeiro vamos combinar."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum detalhe do mapa passa sem você notar.",
+        "Você percebe o barulho no canto, o padrão do outro time e quem sempre vai pelo mesmo lado. Seu time fica sabendo de tudo antes de acontecer.",
+        "Ver o que ninguém mais viu.",
+        "Analisar tanto que esquece de andar.",
+        "Espera. Ouviu esse barulho?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você joga, fala no fone e organiza o time ao mesmo tempo.",
+        "Você ajuda quem tá perdido, avisa quem tá distraído e ainda faz a sua parte. Enquanto cada um olha a própria tela, você mantém o time inteiro junto.",
+        "Fazer o time jogar junto de verdade.",
+        "Cuidar de todo mundo e esquecer de você.",
+        "Eu cubro vocês. Alguém precisa de ajuda?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Partida boa é partida terminada.",
+        "Você não fica dez minutos discutindo estratégia. Aperta jogar, vai pra cima e resolve. Enquanto o time ainda conversa, você já garantiu a rodada.",
+        "Decidir a partida na hora certa.",
+        "Ir pra cima antes do time estar pronto.",
+        "Já foi. Próxima!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a partida pede: planeja quando dá, observa quando precisa, segura o time quando aperta e resolve quando é hora.",
+        "Ser o jogador que o time precisa naquela rodada.",
+        "Ninguém saber em que função te colocar.",
+        "Depende. Do que o time precisa?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de falar e resolve."
+    },
+    "Q": [
+      [
+        "Seu colega sai da partida \"só pra pegar uma água\". Você...",
+        {
+          "A": "Mudo a estratégia pra um a menos",
+          "D": "Confiro se é só água mesmo",
+          "M": "Jogo por mim e cubro ele",
+          "F": "Sigo sozinho e ganho assim mesmo"
+        }
+      ],
+      [
+        "Antes da partida começar, você...",
+        {
+          "A": "Combino quem faz o quê",
+          "D": "Confiro internet, fone e microfone",
+          "M": "Chamo a galera, ajusto o som e abro o jogo",
+          "F": "Aperto \"pronto\" e espero começar"
+        }
+      ],
+      [
+        "A internet trava bem na hora decisiva. Você...",
+        {
+          "A": "Já tinha um plano pra isso: recuar e esperar",
+          "D": "Abro o teste de velocidade pra achar o culpado",
+          "M": "Aviso o time, troco de rede e sigo jogando",
+          "F": "Aperto todos os botões e torço pelo melhor"
+        }
+      ],
+      [
+        "Seu papel no time é...",
+        {
+          "A": "Quem monta a estratégia",
+          "D": "Quem avisa onde tá o perigo",
+          "M": "Quem ajuda todo mundo ao mesmo tempo",
+          "F": "Quem fecha a partida"
+        }
+      ],
+      [
+        "Alguém no chat diz \"confia, eu sei o caminho\". Você pensa:",
+        {
+          "A": "\"Tá, mas qual é o plano?\"",
+          "D": "\"Já ouvi isso antes...\"",
+          "M": "\"Beleza, eu cuido do resto\"",
+          "F": "\"Então vai logo\""
+        }
+      ],
+      [
+        "O time perdeu a primeira rodada. Você...",
+        {
+          "A": "Redesenho a estratégia pra próxima",
+          "D": "Revejo o que deu errado, lance por lance",
+          "M": "Animo o time e troco as funções",
+          "F": "\"Bora, próxima!\""
+        }
+      ],
+      [
+        "Seu maior defeito no jogo online:",
+        {
+          "A": "Explicar a estratégia até o tempo acabar",
+          "D": "Pausar o replay toda hora pra analisar",
+          "M": "Falar com três pessoas no fone e esquecer de jogar",
+          "F": "Ir pra cima antes do time estar pronto"
+        }
+      ],
+      [
+        "Fim de partida, vitória. Você...",
+        {
+          "A": "Anoto o que funcionou pra repetir",
+          "D": "Vejo as estatísticas de todo mundo",
+          "M": "Já chamo todo mundo pra mais uma",
+          "F": "Desligo e vou dormir feliz"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in an online match?",
+    "lead": "The squad's online and the match is about to start. What kind of player are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You join the match with the strategy already sorted.",
+        "For you, winning starts before the game does. You know who goes where, what to do if it goes wrong and what plan B is. That's why the team plays better when you're on the headset.",
+        "Building a strategy that actually works.",
+        "Explaining the plan after the match has started.",
+        "Hold on, let's agree on a plan first."
+      ],
+      "D": [
+        "The Detective",
+        "No detail on the map gets past you.",
+        "You notice the sound in the corner, the other team's pattern and who always takes the same route. Your team hears about everything before it happens.",
+        "Spotting what nobody else saw.",
+        "Analysing so much you forget to move.",
+        "Wait. Did you hear that?"
+      ],
+      "M": [
+        "The Maestro",
+        "You play, talk on the headset and run the team all at once.",
+        "You help whoever's lost, nudge whoever's distracted and still do your own part. While everyone stares at their own screen, you keep the whole team together.",
+        "Making the team actually play as a team.",
+        "Looking after everyone and forgetting yourself.",
+        "I've got you covered. Anyone need help?"
+      ],
+      "F": [
+        "The Finisher",
+        "A good match is a finished match.",
+        "You don't spend ten minutes debating tactics. You hit play, go for it and sort it out. While the team's still chatting, you've already won the round.",
+        "Deciding the match at the right moment.",
+        "Charging in before the team is ready.",
+        "Done. Next one!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the match requires: planning when there's time, watching when it matters, holding the team together under pressure and finishing when it's time.",
+        "Being the player the team needs that round.",
+        "Nobody knowing which role to give you.",
+        "Depends. What does the team need?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop talking and finish it."
+    },
+    "Q": [
+      [
+        "Your teammate leaves the match \"just to grab some water\". You...",
+        {
+          "A": "Change tactics for one player down",
+          "D": "Check it's really just water",
+          "M": "Play for me and cover them too",
+          "F": "Carry on solo and win anyway"
+        }
+      ],
+      [
+        "Before the match starts, you...",
+        {
+          "A": "Agree who does what",
+          "D": "Check the internet, headset and mic",
+          "M": "Round up the squad, sort the audio and launch the game",
+          "F": "Hit \"ready\" and wait"
+        }
+      ],
+      [
+        "Your connection lags at the crucial moment. You...",
+        {
+          "A": "Had a plan for this: fall back and wait",
+          "D": "Run a speed test to find the culprit",
+          "M": "Tell the team, switch networks and keep playing",
+          "F": "Mash every button and hope for the best"
+        }
+      ],
+      [
+        "Your role on the team is...",
+        {
+          "A": "The one who builds the strategy",
+          "D": "The one who calls out danger",
+          "M": "The one helping everyone at once",
+          "F": "The one who closes out the match"
+        }
+      ],
+      [
+        "Someone in chat says \"trust me, I know the way\". You think:",
+        {
+          "A": "\"Sure, but what's the plan?\"",
+          "D": "\"I've heard that before...\"",
+          "M": "\"Fine, I'll handle the rest\"",
+          "F": "\"Go on then\""
+        }
+      ],
+      [
+        "Your team loses the first round. You...",
+        {
+          "A": "Redraw the strategy for the next one",
+          "D": "Replay what went wrong, move by move",
+          "M": "Cheer the team up and swap roles around",
+          "F": "\"Come on, next!\""
+        }
+      ],
+      [
+        "Your biggest flaw in online games:",
+        {
+          "A": "Explaining the strategy until the timer runs out",
+          "D": "Pausing the replay every few seconds to analyse",
+          "M": "Talking to three people on the headset and forgetting to play",
+          "F": "Charging in before the team is ready"
+        }
+      ],
+      [
+        "Match over, you won. You...",
+        {
+          "A": "Note what worked so we can repeat it",
+          "D": "Check everyone's stats",
+          "M": "Invite everyone for one more",
+          "F": "Log off and go to bed happy"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "打在线游戏时，你是哪个泡泡？",
+    "lead": "队友都上线了，比赛马上开始。你是哪种玩家？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你带着现成的战术进入比赛。",
+        "对你来说，胜利在开局前就开始了。谁去哪、出问题怎么办、B计划是什么，你都清楚。所以有你在耳机里，全队都打得更好。",
+        "制定真正管用的战术。",
+        "比赛都开始了还在讲计划。",
+        "等等，先商量好再说。"
+      ],
+      "D": [
+        "侦探",
+        "地图上任何细节都逃不过你的眼睛。",
+        "角落里的声音、对面的套路、谁总走同一条路，你全都注意到了。事情还没发生，你的队友就已经知道了。",
+        "看到别人没看到的东西。",
+        "分析太久，忘了移动。",
+        "等一下，你听到那个声音了吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边打、一边开麦、一边指挥全队。",
+        "你帮迷路的队友，提醒走神的队友，自己的活也没落下。大家各看各的屏幕，你让整个队伍拧成一股绳。",
+        "让全队真正一起打。",
+        "照顾所有人，忘了自己。",
+        "我掩护你们。谁需要帮忙？"
+      ],
+      "F": [
+        "终结者",
+        "好比赛就是打完的比赛。",
+        "你不会花十分钟讨论战术。点开始，冲上去，搞定。队友还在聊，你已经拿下这一局了。",
+        "在关键时刻终结比赛。",
+        "队友还没准备好就冲了。",
+        "搞定。下一把！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据比赛需要切换角色：有时间就规划，需要时就观察，吃紧时稳住队伍，该收尾时就收尾。",
+        "成为这一局队伍最需要的玩家。",
+        "没人知道该给你安排什么位置。",
+        "看情况。队伍缺什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何事不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你少说话直接收尾。"
+    },
+    "Q": [
+      [
+        "队友说“我去倒杯水”，然后离开了比赛。你会……",
+        {
+          "A": "改成少一人的战术",
+          "D": "确认他真的只是去倒水",
+          "M": "打自己的同时罩着他",
+          "F": "一个人继续，照样赢"
+        }
+      ],
+      [
+        "比赛开始前，你会……",
+        {
+          "A": "先分好谁做什么",
+          "D": "检查网络、耳机和麦克风",
+          "M": "叫上大家、调好声音、打开游戏",
+          "F": "点“准备”，等开始"
+        }
+      ],
+      [
+        "关键时刻网络卡了。你会……",
+        {
+          "A": "早有预案：先撤退等一等",
+          "D": "打开测速，找出罪魁祸首",
+          "M": "告诉队友，换个网络，接着打",
+          "F": "所有按键乱按一通，听天由命"
+        }
+      ],
+      [
+        "你在队里的角色是……",
+        {
+          "A": "制定战术的人",
+          "D": "报点提醒危险的人",
+          "M": "同时帮所有人的人",
+          "F": "终结比赛的人"
+        }
+      ],
+      [
+        "有人在聊天里说“相信我，我认路”。你心想：",
+        {
+          "A": "“好，但计划是什么？”",
+          "D": "“这话我听过……”",
+          "M": "“行，剩下的我来”",
+          "F": "“那快走啊”"
+        }
+      ],
+      [
+        "队伍输了第一局。你会……",
+        {
+          "A": "重新制定下一局的战术",
+          "D": "一步一步复盘哪里出了错",
+          "M": "给大家打气，调整分工",
+          "F": "“走，下一局！”"
+        }
+      ],
+      [
+        "你打在线游戏最大的缺点：",
+        {
+          "A": "讲战术讲到时间用完",
+          "D": "看回放每几秒就暂停分析",
+          "M": "开麦同时和三个人聊，忘了打",
+          "F": "队友还没准备好就冲了"
+        }
+      ],
+      [
+        "比赛结束，赢了。你会……",
+        {
+          "A": "记下有效的打法，下次再用",
+          "D": "看每个人的数据",
+          "M": "马上约大家再来一把",
+          "F": "下线，开心去睡觉"
+        }
+      ]
+    ]
+  }
+}
