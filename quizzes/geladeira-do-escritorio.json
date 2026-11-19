@@ -1,0 +1,384 @@
+{
+  "slug": "geladeira-do-escritorio",
+  "criado_em": "2026-11-19",
+  "categoria": "trabalho",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é na geladeira do escritório?",
+    "lead": "Toda geladeira de escritório tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Sua marmita tem nome, data e lugar fixo na prateleira.",
+        "Pra você, a geladeira do escritório funciona com sistema. Você leva a marmita da semana, etiqueta tudo e sabe exatamente onde deixou. Sua comida nunca some porque nunca fica sem dono.",
+        "Organizar a semana inteira de almoço no domingo.",
+        "Montar uma tabela de prateleiras que ninguém lê.",
+        "Prateleira de cima é das marmitas de segunda."
+      ],
+      "D": [
+        "O Detetive",
+        "Você sabe quem pegou o leite de quem.",
+        "Você repara em tudo: o pote que mudou de lugar, a data do iogurte, o cheiro estranho no fundo. Nada acontece naquela geladeira sem você perceber. É graças a você que ninguém come coisa vencida.",
+        "Achar a origem daquele cheiro em 5 segundos.",
+        "Abrir uma investigação por causa de um sachê de ketchup.",
+        "Esse pote não estava aqui ontem."
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida da geladeira, do café e do bolo do aniversariante.",
+        "Você é quem lembra de limpar a geladeira, avisa no grupo que o leite acabou e ainda organiza o bolo do aniversário do mês. A copa funciona porque você toca tudo ao mesmo tempo.",
+        "Manter a copa inteira funcionando.",
+        "Cuidar da comida de todo mundo e esquecer a sua.",
+        "Gente, sexta tem limpeza da geladeira!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Fome é resolvida, não discutida.",
+        "Você não perde tempo com etiqueta, prateleira ou investigação. Bateu a fome, você abre, esquenta e come. Se a marmita sumiu, já está no restaurante da esquina antes do drama começar.",
+        "Resolver o almoço em dois minutos.",
+        "Esquecer a marmita lá até ela criar vida própria.",
+        "Esquenta aí que eu como."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a copa pede: etiqueta quando precisa, investiga quando o iogurte some, organiza quando tem bolo e resolve quando a fome aperta.",
+        "Ser o que a copa precisa naquele momento.",
+        "Ninguém saber se você é o fiscal ou o faminto.",
+        "Depende. Quem acabou com o café?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo etiquetado.",
+      "D": "você não deixa nenhum pote passar sem conferir.",
+      "M": "você cuida da copa inteira ao mesmo tempo.",
+      "F": "na hora da fome, você esquenta e come."
+    },
+    "Q": [
+      [
+        "Comeram seu iogurte da geladeira do escritório. Você...",
+        {
+          "A": "O próximo vai com nome e data",
+          "D": "Investigo quem tá de colher",
+          "M": "Aviso no grupo e peço outro",
+          "F": "Desço e compro outro"
+        }
+      ],
+      [
+        "Segunda de manhã, levando comida pro trabalho, você...",
+        {
+          "A": "Levo as 5 marmitas da semana, já etiquetadas",
+          "D": "Confiro a validade de tudo antes de sair",
+          "M": "Levo a minha e o bolo que prometi pra equipe",
+          "F": "Pego o que sobrou da janta e vou"
+        }
+      ],
+      [
+        "Tem um cheiro estranho vindo da geladeira. Você...",
+        {
+          "A": "Proponho um dia fixo de limpeza",
+          "D": "Acho o pote culpado em segundos",
+          "M": "Aviso no grupo, abro a janela e chamo ajuda",
+          "F": "Jogo fora o pote suspeito e pronto"
+        }
+      ],
+      [
+        "Fila no micro-ondas na hora do almoço. Você...",
+        {
+          "A": "Já almoço 11h30 pra fugir da fila",
+          "D": "Calculo quanto tempo cada um vai demorar",
+          "M": "Converso com a fila toda enquanto espero",
+          "F": "Como frio mesmo"
+        }
+      ],
+      [
+        "Alguém deixou um bolo com o bilhete \"pode pegar\". Você...",
+        {
+          "A": "Pego um pedaço e deixo pros que chegam depois",
+          "D": "Confiro se \"pode pegar\" vale pra todo mundo",
+          "M": "Aviso o pessoal e já pego os pratinhos",
+          "F": "Já tô no segundo pedaço"
+        }
+      ],
+      [
+        "Sexta é dia de esvaziar a geladeira. Você...",
+        {
+          "A": "Fui eu que criei essa regra",
+          "D": "Abro cada pote pra ver de quem é",
+          "M": "Organizo o mutirão da limpeza",
+          "F": "Tudo sem nome vai pro lixo"
+        }
+      ],
+      [
+        "Seu maior defeito na copa:",
+        {
+          "A": "Etiquetar até a garrafa de água",
+          "D": "Desconfiar de qualquer pote sem dono",
+          "M": "Cuidar de tudo e esquecer meu almoço",
+          "F": "Esquecer a marmita na geladeira por dias"
+        }
+      ],
+      [
+        "Fim do expediente. Sua marmita...",
+        {
+          "A": "Já está lavada e pronta pra amanhã",
+          "D": "Foi conferida: tampa, pote e talher",
+          "M": "Voltou junto com o pote de um colega",
+          "F": "Ficou lá. Amanhã eu vejo"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the office fridge?",
+    "lead": "Every office fridge has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your lunch has a name, a date and a fixed spot on the shelf.",
+        "For you, the office fridge runs on a system. You bring the week's lunches, label everything and know exactly where you left it. Your food never goes missing because it's never without an owner.",
+        "Sorting out a whole week of lunches on Sunday.",
+        "Making a shelf chart nobody reads.",
+        "Top shelf is for Monday's lunches."
+      ],
+      "D": [
+        "The Detective",
+        "You know who took whose milk.",
+        "You notice everything: the tub that moved, the yogurt's date, the weird smell at the back. Nothing happens in that fridge without you clocking it. Thanks to you, nobody eats anything past its date.",
+        "Finding the source of that smell in five seconds.",
+        "Launching an investigation over a ketchup sachet.",
+        "That tub wasn't here yesterday."
+      ],
+      "M": [
+        "The Maestro",
+        "You look after the fridge, the coffee and the birthday cake.",
+        "You're the one who remembers to clean the fridge, tells the group the milk's run out and still organises the monthly birthday cake. The kitchen works because you keep it all going at once.",
+        "Keeping the whole office kitchen running.",
+        "Looking after everyone's food and forgetting your own.",
+        "Reminder: fridge clean-out on Friday!"
+      ],
+      "F": [
+        "The Finisher",
+        "Hunger gets solved, not discussed.",
+        "You don't waste time on labels, shelves or investigations. Hungry? You open, heat and eat. If your lunch vanished, you're at the place round the corner before the drama even starts.",
+        "Sorting lunch in two minutes.",
+        "Leaving your lunch in there until it grows a life of its own.",
+        "Heat it up, I'll eat it."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the kitchen needs: you label when it matters, investigate when the yogurt vanishes, organise when there's cake and just eat when hunger hits.",
+        "Being whatever the kitchen needs right now.",
+        "Nobody knowing if you're the inspector or the hungry one.",
+        "Depends. Who finished the coffee?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything labelled.",
+      "D": "you don't let a single tub go unchecked.",
+      "M": "you run the whole kitchen at once.",
+      "F": "when hunger hits, you just heat and eat."
+    },
+    "Q": [
+      [
+        "Someone ate your yogurt from the office fridge. You...",
+        {
+          "A": "Next one gets a name and a date",
+          "D": "Look for whoever's holding a spoon",
+          "M": "Tell the group chat and ask for another",
+          "F": "Pop out and buy another"
+        }
+      ],
+      [
+        "Monday morning, packing food for work, you...",
+        {
+          "A": "Bring all five lunches for the week, labelled",
+          "D": "Check every date before leaving",
+          "M": "Bring mine plus the cake I promised the team",
+          "F": "Grab last night's leftovers and go"
+        }
+      ],
+      [
+        "There's a weird smell coming from the fridge. You...",
+        {
+          "A": "Suggest a fixed cleaning day",
+          "D": "Find the guilty tub in seconds",
+          "M": "Tell the chat, open a window and get help",
+          "F": "Bin the suspicious tub, done"
+        }
+      ],
+      [
+        "There's a queue for the microwave at lunch. You...",
+        {
+          "A": "Already eat at 11:30 to dodge it",
+          "D": "Work out how long each person will take",
+          "M": "Chat with the whole queue while I wait",
+          "F": "Eat it cold"
+        }
+      ],
+      [
+        "Someone left a cake with a note: \"help yourself\". You...",
+        {
+          "A": "Take a slice and save some for latecomers",
+          "D": "Check if \"help yourself\" means everyone",
+          "M": "Tell everyone and grab the plates",
+          "F": "Already on my second slice"
+        }
+      ],
+      [
+        "Friday is fridge clean-out day. You...",
+        {
+          "A": "I'm the one who made that rule",
+          "D": "Open every tub to see whose it is",
+          "M": "Organise the whole clean-up crew",
+          "F": "No name? Straight in the bin"
+        }
+      ],
+      [
+        "Your biggest flaw in the office kitchen:",
+        {
+          "A": "Labelling even my water bottle",
+          "D": "Suspecting every tub with no owner",
+          "M": "Looking after everything and forgetting my lunch",
+          "F": "Forgetting my lunch in the fridge for days"
+        }
+      ],
+      [
+        "End of the workday. Your lunchbox...",
+        {
+          "A": "Is washed and ready for tomorrow",
+          "D": "Has been checked: lid, tub and fork",
+          "M": "Came back with a colleague's tub too",
+          "F": "Is still in there. Tomorrow's problem"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "在公司冰箱前，你是哪个泡泡？",
+    "lead": "每个公司冰箱前都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的饭盒有名字、有日期，还有固定位置。",
+        "对你来说，公司冰箱要按系统来。你一次带好一周的饭，全部贴好标签，清楚记得放在哪。你的食物从不失踪，因为它们从不无主。",
+        "周日就把一周的午饭安排好。",
+        "做了一张没人看的冰箱分区表。",
+        "最上层是放周一饭盒的。"
+      ],
+      "D": [
+        "侦探",
+        "谁拿了谁的牛奶，你一清二楚。",
+        "你什么都注意得到：挪了位置的盒子、酸奶的日期、冰箱深处的怪味。冰箱里发生的事都逃不过你的眼睛。多亏了你，没人吃到过期的东西。",
+        "五秒内找到怪味的源头。",
+        "为了一包番茄酱展开调查。",
+        "这个盒子昨天不在这儿。"
+      ],
+      "M": [
+        "指挥家",
+        "冰箱、咖啡、寿星的蛋糕，你全都管。",
+        "记得清理冰箱的是你，在群里说牛奶没了的是你，张罗每月生日蛋糕的还是你。茶水间能运转，全靠你同时照顾所有事。",
+        "让整个茶水间顺利运转。",
+        "照顾了所有人的饭，忘了自己的。",
+        "大家注意，周五清冰箱！"
+      ],
+      "F": [
+        "终结者",
+        "饿了就解决，不讨论。",
+        "你不在标签、分层或调查上浪费时间。饿了就打开、加热、开吃。饭盒不见了？别人还没开始吵，你已经在楼下小店吃上了。",
+        "两分钟搞定午饭。",
+        "把饭盒忘在冰箱里，直到它长出新生命。",
+        "热一下，我就吃。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据茶水间的需要切换角色：该贴标签时贴标签，酸奶失踪时去调查，有蛋糕时去张罗，饿了就直接开吃。",
+        "成为此刻茶水间最需要的人。",
+        "别人分不清你是检查员还是吃货。",
+        "看情况。谁把咖啡喝完了？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢什么都贴好标签。",
+      "D": "你不会放过任何一个没检查的盒子。",
+      "M": "你能同时照顾整个茶水间。",
+      "F": "饿了的时候，你直接加热开吃。"
+    },
+    "Q": [
+      [
+        "有人偷吃了你放在公司冰箱的酸奶。你……",
+        {
+          "A": "下一盒写上名字和日期",
+          "D": "找找谁手里拿着勺子",
+          "M": "在群里说一声，再要一盒",
+          "F": "下楼再买一盒"
+        }
+      ],
+      [
+        "周一早上带饭去公司，你会……",
+        {
+          "A": "带上一周五天的饭盒，全贴好标签",
+          "D": "出门前检查所有食物的日期",
+          "M": "带上自己的饭，还有答应同事的蛋糕",
+          "F": "拿上昨晚的剩菜就走"
+        }
+      ],
+      [
+        "冰箱里飘出一股怪味。你……",
+        {
+          "A": "提议定一个固定的清理日",
+          "D": "几秒钟就找到罪魁祸首",
+          "M": "在群里说一声，开窗，再叫人帮忙",
+          "F": "把可疑的盒子扔掉，完事"
+        }
+      ],
+      [
+        "午饭时微波炉前排起了长队。你……",
+        {
+          "A": "早就改成11点半吃饭躲开高峰",
+          "D": "算算每个人要热多久",
+          "M": "一边等一边和整队人聊天",
+          "F": "直接吃凉的"
+        }
+      ],
+      [
+        "有人留了个蛋糕，纸条写着“随便吃”。你……",
+        {
+          "A": "拿一块，给后来的人留一些",
+          "D": "确认“随便吃”是不是对所有人",
+          "M": "通知大家，顺便拿好小盘子",
+          "F": "已经在吃第二块了"
+        }
+      ],
+      [
+        "周五是清冰箱的日子。你……",
+        {
+          "A": "这规矩就是我定的",
+          "D": "打开每个盒子看看是谁的",
+          "M": "组织大家一起大扫除",
+          "F": "没写名字的，直接扔"
+        }
+      ],
+      [
+        "你在茶水间最大的毛病：",
+        {
+          "A": "连水瓶都要贴标签",
+          "D": "怀疑每个没主人的盒子",
+          "M": "什么都管，忘了自己吃饭",
+          "F": "把饭盒在冰箱里忘好几天"
+        }
+      ],
+      [
+        "下班了。你的饭盒……",
+        {
+          "A": "已经洗好，明天接着用",
+          "D": "检查过了：盖子、盒子、餐具都在",
+          "M": "顺便把同事的盒子也带回来了",
+          "F": "还在冰箱里。明天再说"
+        }
+      ]
+    ]
+  }
+}

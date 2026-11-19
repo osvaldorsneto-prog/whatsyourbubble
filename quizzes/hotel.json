@@ -1,0 +1,384 @@
+{
+  "slug": "hotel",
+  "criado_em": "2026-11-19",
+  "categoria": "viagem",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é no hotel?",
+    "lead": "Toda estadia em hotel tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você chega no hotel com tudo já resolvido.",
+        "Pra você, hotel bom começa na reserva. Você leu as avaliações, sabe o horário do café e já salvou o caminho até a praia. Quando chega, é só fazer o check-in e aproveitar.",
+        "Escolher o hotel certo de primeira.",
+        "Planejar tanto o passeio que sobra pouco tempo pra descansar.",
+        "O café é das 7 às 10, já anotei."
+      ],
+      "D": [
+        "O Detetive",
+        "Você inspeciona o quarto antes de abrir a mala.",
+        "Você testa o chuveiro, confere o ar-condicionado e olha embaixo da cama. Se tiver algo errado, você descobre na primeira hora, não na última noite. Por isso sua estadia sempre sai como prometido.",
+        "Achar o problema antes de desfazer a mala.",
+        "Passar a primeira hora da viagem inspecionando o quarto.",
+        "Deixa eu testar a água quente primeiro."
+      ],
+      "M": [
+        "O Maestro",
+        "Você faz check-in, acha a janta e organiza o grupo ao mesmo tempo.",
+        "Enquanto a recepção imprime o comprovante, você já pediu dicas do bairro, reservou a mesa da janta e dividiu os quartos do grupo. Com você, a viagem começa antes de o elevador chegar.",
+        "Fazer a viagem toda andar junto.",
+        "Cuidar tanto de todo mundo que perde o cartão do seu quarto.",
+        "Pessoal, janta às 8, já reservei!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você chega, larga a mala e já está na rua.",
+        "Você não perde tempo desfazendo mala nem lendo o manual do quarto. Pega o cartão, joga a mochila na cama e vai aproveitar. Enquanto os outros arrumam as roupas, você já conheceu meio bairro.",
+        "Transformar qualquer estadia em passeio.",
+        "Descobrir só na volta que o chuveiro não esquentava.",
+        "Larga isso aí e bora!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a viagem pede: planeja quando é longa, confere quando o quarto parece estranho, organiza quando vai o grupo todo e sai correndo quando o tempo é curto.",
+        "Ser o que a viagem precisa naquele momento.",
+        "Ninguém saber se você vai desfazer a mala ou sair.",
+        "Depende. Que horas é o check-out?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo reservado.",
+      "D": "você não deixa nada passar sem testar.",
+      "M": "você organiza o grupo todo ao mesmo tempo.",
+      "F": "na hora certa, você larga a mala e vai."
+    },
+    "Q": [
+      [
+        "O quarto do hotel não tem nada a ver com a foto. Você...",
+        {
+          "A": "Já tenho o print da reserva",
+          "D": "Comparo foto por foto com o anúncio",
+          "M": "Resolvo na recepção e ganho um upgrade",
+          "F": "Largo a mala e vou curtir"
+        }
+      ],
+      [
+        "Na hora de escolher o hotel, você...",
+        {
+          "A": "Leio avaliações e comparo por uma semana",
+          "D": "Procuro fotos reais de hóspedes, não do anúncio",
+          "M": "Acho um que agrada o grupo todo",
+          "F": "Reservo o primeiro bem avaliado"
+        }
+      ],
+      [
+        "Chegou no quarto. Primeira coisa que faz:",
+        {
+          "A": "Desfaço a mala e organizo as gavetas",
+          "D": "Testo chuveiro, ar e tomadas",
+          "M": "Mando foto do quarto no grupo e pego o wi-fi",
+          "F": "Me jogo na cama"
+        }
+      ],
+      [
+        "O café da manhã termina às 10h. Você...",
+        {
+          "A": "Desço às 7h com o dia planejado",
+          "D": "Confiro o que é incluso antes de pegar",
+          "M": "Junto o grupo todo pra descer junto",
+          "F": "Chego 9h58 e pego tudo que dá"
+        }
+      ],
+      [
+        "O wi-fi do hotel não funciona. Você...",
+        {
+          "A": "Já tinha baixado os mapas antes",
+          "D": "Testo em cada canto do quarto",
+          "M": "Ligo pra recepção e roteio do celular",
+          "F": "Desço e uso o do saguão"
+        }
+      ],
+      [
+        "Os chinelos e o roupão do quarto...",
+        {
+          "A": "Já sabia que tinha, nem trouxe os meus",
+          "D": "Confiro se são inclusos ou cobrados",
+          "M": "Tiro foto, uso e já indico pros amigos",
+          "F": "Uso a estadia inteira, até no café"
+        }
+      ],
+      [
+        "Seu maior defeito no hotel:",
+        {
+          "A": "Planejo cada hora e não descanso",
+          "D": "Inspeciono tanto que demoro pra sair",
+          "M": "Organizo todo mundo e esqueço minhas coisas",
+          "F": "Esqueço o carregador na tomada"
+        }
+      ],
+      [
+        "Dia do check-out. Você...",
+        {
+          "A": "Mala pronta desde a noite anterior",
+          "D": "Confiro gaveta por gaveta antes de sair",
+          "M": "Acerto a conta do grupo e chamo o carro",
+          "F": "Enfio tudo na mala 5 minutos antes"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at a hotel?",
+    "lead": "Every hotel stay brings out the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You arrive at the hotel with everything sorted.",
+        "For you, a good hotel stay starts with the booking. You've read the reviews, know when breakfast is and saved the route to the beach. When you arrive, it's just check in and enjoy.",
+        "Picking the right hotel first time.",
+        "Planning the sightseeing so much there's no time to rest.",
+        "Breakfast is 7 to 10, I've made a note."
+      ],
+      "D": [
+        "The Detective",
+        "You inspect the room before opening your suitcase.",
+        "You test the shower, check the air con and look under the bed. If something's wrong, you find out in the first hour, not on the last night. That's why your stays always turn out as promised.",
+        "Spotting the problem before you unpack.",
+        "Spending the first hour of the trip inspecting the room.",
+        "Let me check the hot water first."
+      ],
+      "M": [
+        "The Maestro",
+        "You check in, find dinner and sort the group all at once.",
+        "While reception prints the receipt, you've already asked for local tips, booked a table for dinner and split up the group's rooms. With you, the trip starts before the lift arrives.",
+        "Keeping the whole trip moving together.",
+        "Looking after everyone so much you lose your own key card.",
+        "Everyone, dinner at 8, it's booked!"
+      ],
+      "F": [
+        "The Finisher",
+        "You arrive, drop your bag and you're already out.",
+        "You don't waste time unpacking or reading the room guide. Grab the key card, toss the bag on the bed and go. While others are still hanging up clothes, you've seen half the neighbourhood.",
+        "Turning any stay into an adventure.",
+        "Only finding out on the way home that the shower never got hot.",
+        "Leave that and let's go!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the trip needs: you plan when it's long, check when the room feels off, organise when the whole group comes and dash out when time is short.",
+        "Being whatever the trip needs right now.",
+        "Nobody knowing if you'll unpack or head straight out.",
+        "Depends. What time's checkout?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything booked.",
+      "D": "you don't let anything slip by untested.",
+      "M": "you organise the whole group at once.",
+      "F": "when it counts, you drop the bag and go."
+    },
+    "Q": [
+      [
+        "The hotel room looks nothing like the photos. You...",
+        {
+          "A": "I've got a screenshot of the booking",
+          "D": "Compare it with the listing, photo by photo",
+          "M": "Sort it at reception and land an upgrade",
+          "F": "Drop the bags and go have fun"
+        }
+      ],
+      [
+        "When choosing a hotel, you...",
+        {
+          "A": "Read reviews and compare for a week",
+          "D": "Look for real guest photos, not the listing's",
+          "M": "Find one the whole group is happy with",
+          "F": "Book the first well-rated one"
+        }
+      ],
+      [
+        "You get to the room. First thing you do:",
+        {
+          "A": "Unpack and organise the drawers",
+          "D": "Test the shower, air con and sockets",
+          "M": "Send a room pic to the group and get on the wi-fi",
+          "F": "Flop onto the bed"
+        }
+      ],
+      [
+        "Breakfast ends at 10. You...",
+        {
+          "A": "Head down at 7 with the day planned",
+          "D": "Check what's included before taking anything",
+          "M": "Round up the group to go down together",
+          "F": "Arrive at 9:58 and grab all I can"
+        }
+      ],
+      [
+        "The hotel wi-fi isn't working. You...",
+        {
+          "A": "Already downloaded the maps beforehand",
+          "D": "Test it in every corner of the room",
+          "M": "Call reception and use my phone as a hotspot",
+          "F": "Go down and use it in the lobby"
+        }
+      ],
+      [
+        "The slippers and bathrobe in the room...",
+        {
+          "A": "Knew they'd be there, didn't bring mine",
+          "D": "Check if they're free or charged",
+          "M": "Snap a pic, use them and recommend the place",
+          "F": "Wear them the whole stay, even at breakfast"
+        }
+      ],
+      [
+        "Your biggest flaw at a hotel:",
+        {
+          "A": "I plan every hour and never rest",
+          "D": "I inspect so much it takes ages to go out",
+          "M": "I organise everyone and forget my own stuff",
+          "F": "I leave my charger in the socket"
+        }
+      ],
+      [
+        "Checkout day. You...",
+        {
+          "A": "Bag packed since the night before",
+          "D": "Check every drawer before leaving",
+          "M": "Settle the group's bill and call the car",
+          "F": "Stuff everything in the bag 5 minutes before"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "住酒店时你是哪个泡泡？",
+    "lead": "每次住酒店都会出现同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你到酒店时，一切早已安排妥当。",
+        "对你来说，好的住宿从预订开始。你看过评价，知道早餐几点，也存好了去海边的路线。到了只需办入住，然后好好享受。",
+        "第一次就选对酒店。",
+        "行程排得太满，没时间休息。",
+        "早餐7点到10点，我记下了。"
+      ],
+      "D": [
+        "侦探",
+        "打开行李箱之前，你先检查房间。",
+        "你会试淋浴、查空调，还会看看床底下。有问题的话，你第一个小时就发现，而不是最后一晚。所以你的住宿总是和承诺的一样。",
+        "打开行李前就发现问题。",
+        "旅行的第一个小时都在检查房间。",
+        "让我先试试有没有热水。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时办入住、找餐厅、安排整个团队。",
+        "前台还在打印单据，你已经问好了附近的推荐，订好了晚餐的位子，还把大家的房间分好了。有你在，电梯还没到，旅行就已经开始了。",
+        "让整趟旅行一起顺利推进。",
+        "照顾所有人，结果弄丢了自己的房卡。",
+        "大家注意，晚上8点吃饭，已经订好了！"
+      ],
+      "F": [
+        "终结者",
+        "你一到就放下行李，人已经在外面了。",
+        "你不浪费时间整理行李，也不看房间说明。拿上房卡，把包往床上一扔就出发。别人还在挂衣服，你已经逛完了半条街。",
+        "把任何住宿都变成一场出游。",
+        "回家路上才发现淋浴根本不热。",
+        "别弄了，走吧！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据旅行的需要切换角色：长途时规划，房间不对劲时检查，全员出行时组织，时间紧时直接冲出门。",
+        "成为此刻旅行最需要的人。",
+        "别人不知道你是要整理行李还是直接出门。",
+        "看情况。几点退房？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都订好。",
+      "D": "你不会让任何东西不经测试就过关。",
+      "M": "你能同时安排好整个团队。",
+      "F": "关键时刻，你放下行李就出发。"
+    },
+    "Q": [
+      [
+        "酒店房间和照片完全不一样。你……",
+        {
+          "A": "早就截好了预订页面",
+          "D": "对着页面照片一张张比对",
+          "M": "去前台沟通，顺便争取升级",
+          "F": "放下行李，出去玩"
+        }
+      ],
+      [
+        "选酒店的时候，你会……",
+        {
+          "A": "看一周评价，反复比较",
+          "D": "找住客的真实照片，不看官方图",
+          "M": "找一家全团都满意的",
+          "F": "订第一家评分高的"
+        }
+      ],
+      [
+        "进了房间，你做的第一件事：",
+        {
+          "A": "把行李拿出来，整理好抽屉",
+          "D": "试试淋浴、空调和插座",
+          "M": "拍房间发到群里，再连上wi-fi",
+          "F": "直接扑到床上"
+        }
+      ],
+      [
+        "早餐10点结束。你……",
+        {
+          "A": "7点下楼，一天的计划已经排好",
+          "D": "先确认哪些是包含的再拿",
+          "M": "叫上大家一起下楼",
+          "F": "9点58分到，能拿的全拿"
+        }
+      ],
+      [
+        "酒店wi-fi连不上。你……",
+        {
+          "A": "出发前就下载好了地图",
+          "D": "在房间每个角落都试一遍",
+          "M": "打电话给前台，同时开手机热点",
+          "F": "下楼去大堂用"
+        }
+      ],
+      [
+        "房间里的拖鞋和浴袍……",
+        {
+          "A": "早知道有，自己的都没带",
+          "D": "确认是免费的还是要收费",
+          "M": "拍照、穿上，再推荐给朋友",
+          "F": "整个住宿期间都穿着，连早餐也是"
+        }
+      ],
+      [
+        "你住酒店最大的毛病：",
+        {
+          "A": "每个小时都排满，根本不休息",
+          "D": "检查太久，迟迟出不了门",
+          "M": "安排好所有人，忘了自己的东西",
+          "F": "把充电器忘在插座上"
+        }
+      ],
+      [
+        "退房那天。你……",
+        {
+          "A": "前一晚就收拾好行李了",
+          "D": "离开前每个抽屉都检查一遍",
+          "M": "结清全团的账，叫好车",
+          "F": "退房前5分钟把东西全塞进包里"
+        }
+      ]
+    ]
+  }
+}

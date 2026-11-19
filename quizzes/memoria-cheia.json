@@ -1,0 +1,384 @@
+{
+  "slug": "memoria-cheia",
+  "criado_em": "2026-11-19",
+  "categoria": "celular",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é com a memória do celular cheia?",
+    "lead": "Celular sem espaço revela os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você limpa o celular antes de ele reclamar.",
+        "Pra você, memória cheia é falta de planejamento. Você tem pastas, backup automático e um dia do mês pra faxina digital. O aviso de armazenamento quase nunca aparece pra você.",
+        "Ter backup de tudo antes de precisar.",
+        "Passar a tarde organizando álbuns em vez de usar o celular.",
+        "Tá tudo no backup, pode apagar."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere cada foto antes de apagar.",
+        "Você não apaga nada no escuro. Abre cada pasta, compara as 14 fotos iguais e vê quanto cada app ocupa. Quando você termina, só sobrou o que importa.",
+        "Achar exatamente o que está ocupando espaço.",
+        "Levar uma hora pra escolher entre duas fotos iguais.",
+        "Calma, deixa eu ver o que tem nessa pasta."
+      ],
+      "M": [
+        "O Maestro",
+        "Você libera espaço, responde mensagem e baixa app ao mesmo tempo.",
+        "Enquanto o celular apaga vídeos, você limpa conversas, manda fotos pro computador e ainda ajuda um amigo com a memória dele. Você resolve o problema de todo mundo de uma vez.",
+        "Fazer várias limpezas ao mesmo tempo.",
+        "Começar cinco faxinas e não terminar nenhuma.",
+        "Me manda que eu guardo pra você."
+      ],
+      "F": [
+        "O Finalizador",
+        "Memória cheia? Apaga e segue.",
+        "Você não fica escolhendo foto por foto. Seleciona tudo, apaga e pronto, a câmera volta a funcionar. Enquanto os outros pensam no que fazer, você já tirou a foto.",
+        "Liberar espaço em 10 segundos.",
+        "Apagar junto aquela foto que valia a pena.",
+        "Apaguei. Pode tirar a foto."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o celular pede: planeja o backup quando dá, confere quando importa, faz várias limpezas quando aperta e apaga sem dó quando precisa.",
+        "Ser o que o momento pede.",
+        "Ninguém saber se você guarda tudo ou apaga tudo.",
+        "Depende. Quanto espaço falta?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo no backup.",
+      "D": "você não apaga nada sem conferir.",
+      "M": "você limpa várias coisas ao mesmo tempo.",
+      "F": "na hora certa, você apaga sem pensar duas vezes."
+    },
+    "Q": [
+      [
+        "Memória cheia bem na hora da foto do ano. Você...",
+        {
+          "A": "Apago o que já tinha separado",
+          "D": "Procuro com calma o que dá pra apagar",
+          "M": "Peço pra um amigo tirar e me mandar",
+          "F": "Apago o primeiro app que aparecer"
+        }
+      ],
+      [
+        "Quantas fotos você tem no celular?",
+        {
+          "A": "Poucas, o resto está organizado no backup",
+          "D": "Sei o número exato e quanto ocupam",
+          "M": "Muitas, mas metade veio dos grupos",
+          "F": "Não sei e prefiro não saber"
+        }
+      ],
+      [
+        "Aparece o aviso \"Armazenamento quase cheio\". Você...",
+        {
+          "A": "Esse aviso nunca aparece pra mim",
+          "D": "Abro o painel e vejo o que mais ocupa",
+          "M": "Limpo conversas enquanto vejo um vídeo",
+          "F": "Fecho o aviso e sigo a vida"
+        }
+      ],
+      [
+        "40 fotos quase iguais do mesmo pôr do sol. Você...",
+        {
+          "A": "Fico com a melhor e o resto vai pro backup",
+          "D": "Comparo uma por uma até achar a perfeita",
+          "M": "Mando todas pro grupo escolher",
+          "F": "Fico com a primeira e apago o resto"
+        }
+      ],
+      [
+        "Aquele app que você não abre desde o ano passado...",
+        {
+          "A": "Já foi embora na última faxina",
+          "D": "Confiro antes se não tem nada importante",
+          "M": "Vai embora junto com mais uns cinco",
+          "F": "Apago sem nem abrir"
+        }
+      ],
+      [
+        "Os vídeos do grupo da família ocupam 8 GB. Você...",
+        {
+          "A": "Desligo o download automático de vez",
+          "D": "Vejo quais valem a pena guardar",
+          "M": "Salvo os bons no computador e limpo o resto",
+          "F": "Apago tudo de uma vez"
+        }
+      ],
+      [
+        "Seu maior defeito com a memória do celular:",
+        {
+          "A": "Organizo tanto que nunca uso o espaço",
+          "D": "Demoro horas pra decidir o que apagar",
+          "M": "Começo várias limpezas e não termino",
+          "F": "Já apaguei coisa que eu queria"
+        }
+      ],
+      [
+        "Memória liberada! Você...",
+        {
+          "A": "Agendo a próxima faxina digital",
+          "D": "Confiro quanto espaço sobrou, exato",
+          "M": "Já ajudo um amigo a limpar o dele",
+          "F": "Tiro 200 fotos novas"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when your phone storage is full?",
+    "lead": "A full phone brings out the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You clean your phone before it complains.",
+        "To you, full storage is just bad planning. You've got folders, automatic backup and a set day each month for a digital clear-out. The storage warning hardly ever shows up for you.",
+        "Having everything backed up before you need it.",
+        "Spending the afternoon sorting albums instead of using your phone.",
+        "It's all backed up, go ahead and delete."
+      ],
+      "D": [
+        "The Detective",
+        "You check every photo before deleting it.",
+        "You never delete blindly. You open every folder, compare the 14 identical photos and see how much space each app takes. When you're done, only what matters is left.",
+        "Finding exactly what's eating the space.",
+        "Taking an hour to choose between two identical photos.",
+        "Hang on, let me see what's in this folder."
+      ],
+      "M": [
+        "The Maestro",
+        "You free up space, reply to messages and download apps at once.",
+        "While your phone deletes videos, you clear chats, send photos to your laptop and still help a friend with theirs. You fix everyone's storage problem in one go.",
+        "Running several clear-outs at once.",
+        "Starting five clear-outs and finishing none.",
+        "Send it to me, I'll keep it for you."
+      ],
+      "F": [
+        "The Finisher",
+        "Storage full? Delete and move on.",
+        "You don't go through it photo by photo. Select all, delete, done, the camera works again. While others wonder what to do, you've already taken the photo.",
+        "Freeing up space in 10 seconds.",
+        "Deleting that one photo that was actually worth keeping.",
+        "Deleted. Go on, take the photo."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as your phone needs: you plan backups when you can, check when it matters, juggle clear-outs when it's tight and delete without mercy when you have to.",
+        "Being whatever the moment needs.",
+        "Nobody knowing if you keep everything or delete everything.",
+        "Depends. How much space do we need?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything backed up.",
+      "D": "you never delete without checking.",
+      "M": "you clear several things at once.",
+      "F": "when it counts, you delete without thinking twice."
+    },
+    "Q": [
+      [
+        "Storage full right at the photo of the year. You...",
+        {
+          "A": "Delete what I'd already set aside",
+          "D": "Calmly look for what's safe to delete",
+          "M": "Ask a friend to take it and send it",
+          "F": "Delete the first app I see"
+        }
+      ],
+      [
+        "How many photos are on your phone?",
+        {
+          "A": "Not many, the rest are neatly backed up",
+          "D": "I know the exact number and their size",
+          "M": "Loads, but half are from group chats",
+          "F": "No idea, and I'd rather not know"
+        }
+      ],
+      [
+        "The \"Storage almost full\" warning pops up. You...",
+        {
+          "A": "It never pops up for me",
+          "D": "Open settings and see what takes the most",
+          "M": "Clear chats while watching a video",
+          "F": "Close it and carry on"
+        }
+      ],
+      [
+        "40 near-identical photos of the same sunset. You...",
+        {
+          "A": "Keep the best, back up the rest",
+          "D": "Compare them one by one to find the perfect one",
+          "M": "Send them all to the group to pick",
+          "F": "Keep the first, delete the rest"
+        }
+      ],
+      [
+        "That app you haven't opened since last year...",
+        {
+          "A": "Already went in the last clear-out",
+          "D": "Gets checked for anything important first",
+          "M": "Goes along with five others",
+          "F": "Gets deleted without even opening it"
+        }
+      ],
+      [
+        "The family group's videos take up 8 GB. You...",
+        {
+          "A": "Turn off auto-download for good",
+          "D": "Go through which ones are worth keeping",
+          "M": "Save the good ones to my laptop, clear the rest",
+          "F": "Delete them all in one go"
+        }
+      ],
+      [
+        "Your biggest flaw with phone storage:",
+        {
+          "A": "I organise so much I never use the space",
+          "D": "I take hours deciding what to delete",
+          "M": "I start several clear-outs and never finish",
+          "F": "I've deleted stuff I wanted to keep"
+        }
+      ],
+      [
+        "Space freed up! You...",
+        {
+          "A": "Schedule the next digital clear-out",
+          "D": "Check exactly how much space is left",
+          "M": "Start helping a friend clear theirs",
+          "F": "Take 200 new photos"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "手机内存满了，你是哪个泡泡？",
+    "lead": "手机内存一满，就会出现同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "手机还没提醒，你就已经清理好了。",
+        "对你来说，内存满了就是没做好规划。你有分类相册、自动备份，每个月还有固定的“数字大扫除”日。存储空间不足的提醒几乎从没找上过你。",
+        "需要之前就把一切都备份好。",
+        "花一下午整理相册，而不是用手机。",
+        "都备份过了，放心删吧。"
+      ],
+      "D": [
+        "侦探",
+        "删每张照片之前，你都要先看一眼。",
+        "你从不盲删。你会打开每个文件夹，对比14张几乎一样的照片，查看每个App占多少空间。等你清完，留下的都是重要的。",
+        "精准找到占空间的元凶。",
+        "在两张一模一样的照片之间纠结一小时。",
+        "等等，让我看看这个文件夹里有什么。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边清空间，一边回消息，一边下载App。",
+        "手机在删视频的时候，你在清聊天记录、把照片传到电脑，还顺手帮朋友清理手机。所有人的内存问题，你一次全解决。",
+        "同时进行好几种清理。",
+        "开始了五轮清理，一轮都没做完。",
+        "发给我，我帮你存着。"
+      ],
+      "F": [
+        "终结者",
+        "内存满了？删掉，继续。",
+        "你不会一张一张挑。全选、删除、搞定，相机又能用了。别人还在想怎么办，你已经拍完了。",
+        "十秒钟腾出空间。",
+        "把那张真正值得留的照片也删了。",
+        "删好了，拍吧。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据手机的需要切换角色：有空时规划备份，重要时仔细检查，紧张时多线清理，必要时毫不留情地删。",
+        "成为此刻最需要的那个人。",
+        "别人不知道你是什么都留，还是什么都删。",
+        "看情况。还差多少空间？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢什么都备份好。",
+      "D": "没检查过的东西你绝不删。",
+      "M": "你能同时清理好几样东西。",
+      "F": "关键时刻，你删起来毫不犹豫。"
+    },
+    "Q": [
+      [
+        "要拍年度最佳照片时，内存满了。你……",
+        {
+          "A": "删掉早就准备删的东西",
+          "D": "慢慢找能放心删的东西",
+          "M": "让朋友拍完发给我",
+          "F": "看到哪个App就删哪个"
+        }
+      ],
+      [
+        "你手机里有多少张照片？",
+        {
+          "A": "不多，其他的都整整齐齐备份了",
+          "D": "我知道确切数量和占用空间",
+          "M": "很多，但一半来自各种群",
+          "F": "不知道，也不想知道"
+        }
+      ],
+      [
+        "弹出“存储空间即将用完”的提示。你……",
+        {
+          "A": "这提示从没在我手机上出现过",
+          "D": "打开设置，看看什么最占空间",
+          "M": "一边看视频一边清聊天记录",
+          "F": "关掉提示，继续生活"
+        }
+      ],
+      [
+        "同一个日落拍了40张差不多的照片。你……",
+        {
+          "A": "留最好的一张，其他的备份",
+          "D": "一张张对比，找出最完美的",
+          "M": "全发到群里让大家选",
+          "F": "留第一张，其他全删"
+        }
+      ],
+      [
+        "那个从去年起就没打开过的App……",
+        {
+          "A": "上次大扫除时就删了",
+          "D": "先确认里面没有重要的东西",
+          "M": "和另外五个一起删",
+          "F": "连打开都不打开，直接删"
+        }
+      ],
+      [
+        "家庭群的视频占了8 GB。你……",
+        {
+          "A": "直接关掉自动下载",
+          "D": "看看哪些值得保留",
+          "M": "好的存到电脑，其他的清掉",
+          "F": "一次性全删"
+        }
+      ],
+      [
+        "你在手机内存上最大的毛病：",
+        {
+          "A": "整理得太好，空间从来没用上",
+          "D": "决定删什么要花好几个小时",
+          "M": "开始好几轮清理，一轮都没做完",
+          "F": "删过本来想留的东西"
+        }
+      ],
+      [
+        "空间腾出来了！你……",
+        {
+          "A": "安排下一次数字大扫除",
+          "D": "确认还剩多少空间，精确到MB",
+          "M": "开始帮朋友清理手机",
+          "F": "马上拍200张新照片"
+        }
+      ]
+    ]
+  }
+}

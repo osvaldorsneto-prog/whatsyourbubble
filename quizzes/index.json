@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "memoria-cheia",
+   "url": "/q/?s=memoria-cheia",
+   "criado_em": "2026-11-19",
+   "categoria": "celular",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é com a memória do celular cheia?",
+    "en": "What's your bubble when your phone storage is full?",
+    "zh": "手机内存满了，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "hotel",
+   "url": "/q/?s=hotel",
+   "criado_em": "2026-11-19",
+   "categoria": "viagem",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é no hotel?",
+    "en": "What's your bubble at a hotel?",
+    "zh": "住酒店时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "geladeira-do-escritorio",
+   "url": "/q/?s=geladeira-do-escritorio",
+   "criado_em": "2026-11-19",
+   "categoria": "trabalho",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é na geladeira do escritório?",
+    "en": "What's your bubble at the office fridge?",
+    "zh": "在公司冰箱前，你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "visita-em-casa",
    "url": "/q/?s=visita-em-casa",
    "criado_em": "2026-11-18",
