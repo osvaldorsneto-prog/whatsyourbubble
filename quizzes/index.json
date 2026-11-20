@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "home-office",
+   "url": "/q/?s=home-office",
+   "criado_em": "2026-11-20",
+   "categoria": "trabalho",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é no home office?",
+    "en": "What's your bubble when working from home?",
+    "zh": "居家办公时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "feira",
+   "url": "/q/?s=feira",
+   "criado_em": "2026-11-20",
+   "categoria": "comida",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é na feira?",
+    "en": "What's your bubble at the street market?",
+    "zh": "逛菜市场时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "dividir-a-conta",
+   "url": "/q/?s=dividir-a-conta",
+   "criado_em": "2026-11-20",
+   "categoria": "role",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é na hora de dividir a conta?",
+    "en": "What's your bubble when splitting the bill?",
+    "zh": "分账时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "memoria-cheia",
    "url": "/q/?s=memoria-cheia",
    "criado_em": "2026-11-19",

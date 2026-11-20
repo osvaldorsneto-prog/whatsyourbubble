@@ -1,0 +1,384 @@
+{
+  "slug": "feira",
+  "criado_em": "2026-11-20",
+  "categoria": "comida",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é na feira?",
+    "lead": "Feira de rua tem sempre os mesmos 4 tipos de cliente. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você chega na feira com lista e rota definida.",
+        "Você sabe o que falta em casa, em que barraca comprar e quanto gastar. Sai com tudo que precisa e nada sobrando na geladeira.",
+        "Comprar a quantidade certa pra semana inteira.",
+        "Seguir a rota e perder a promoção da barraca do lado.",
+        "Primeiro as frutas, depois as verduras."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma fruta vai pra sacola sem inspeção.",
+        "Você aperta o abacate, cheira o melão e compara o preço em três barracas. Com você, ninguém leva tomate amassado pra casa.",
+        "Achar a melhor fruta da barraca.",
+        "Apertar tanto o abacate que o feirante fica de olho.",
+        "Moço, esse aqui tá maduro mesmo?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você compra, conversa e come pastel ao mesmo tempo.",
+        "Você escolhe as frutas, bate papo com o feirante, segura as sacolas de todo mundo e ainda lembra do caldo de cana. Com você, a feira vira passeio.",
+        "Fazer a feira inteira numa volta só.",
+        "Conversar tanto que esquece o alho.",
+        "Já volto, só vou ali no pastel!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você entra, compra e sai antes da fila crescer.",
+        "Você não fica comparando barraca por barraca. Viu bonito, pagou, ensacou. Enquanto os outros pechincham, você já tá em casa guardando tudo.",
+        "Fazer a feira em 15 minutos.",
+        "Levar o primeiro mamão que viu.",
+        "Me vê um quilo. Pode ser esse aí."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda conforme a feira pede: faz lista quando a semana é cheia, confere quando a fruta tá cara, conversa quando dá tempo e corre quando a fome bate.",
+        "Ser o cliente que a feira precisa naquele dia.",
+        "Ninguém saber se você vai pechinchar ou só passar.",
+        "Depende. O que tá bonito hoje?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de chegar com a lista pronta.",
+      "D": "você não leva nada sem conferir.",
+      "M": "você faz mil coisas numa volta só.",
+      "F": "na hora certa, você só paga e leva."
+    },
+    "Q": [
+      [
+        "O feirante grita \"olha a xepa!\" e você...",
+        {
+          "A": "Sigo minha lista",
+          "D": "Vou conferir a qualidade",
+          "M": "Chamo todo mundo pra lá",
+          "F": "Corro e levo três sacos"
+        }
+      ],
+      [
+        "Antes de sair pra feira, você...",
+        {
+          "A": "Olho a geladeira e faço a lista",
+          "D": "Separo trocado e confiro a sacola",
+          "M": "Pergunto em casa se alguém quer algo",
+          "F": "Pego a sacola e vou"
+        }
+      ],
+      [
+        "A barraca de sempre tá fechada. Você...",
+        {
+          "A": "Já sei qual é a segunda opção",
+          "D": "Comparo preço nas outras barracas",
+          "M": "Pergunto ao vizinho de barraca o que houve",
+          "F": "Compro na primeira que aparecer"
+        }
+      ],
+      [
+        "Seu papel na feira em turma é...",
+        {
+          "A": "Quem leva a lista",
+          "D": "Quem escolhe as frutas",
+          "M": "Quem segura as sacolas e conversa",
+          "F": "Quem paga e segue andando"
+        }
+      ],
+      [
+        "O feirante diz \"pode levar, tá docinho!\". Você pensa:",
+        {
+          "A": "\"Tá na lista? Então levo\"",
+          "D": "\"Me dá um pedaço pra provar\"",
+          "M": "\"Levo e já penso num suco pra todo mundo\"",
+          "F": "\"Fechou, embrulha\""
+        }
+      ],
+      [
+        "Começou a chover na feira. Você...",
+        {
+          "A": "Trouxe guarda-chuva, claro",
+          "D": "Confiro se as sacolas aguentam",
+          "M": "Junto todo mundo e as compras embaixo da lona",
+          "F": "Compro o resto rapidinho e vou embora"
+        }
+      ],
+      [
+        "Seu maior defeito na feira:",
+        {
+          "A": "Não sair da lista nem por um pastel",
+          "D": "Apertar fruta demais",
+          "M": "Conversar tanto que esqueço metade",
+          "F": "Levar a primeira que vejo"
+        }
+      ],
+      [
+        "Chegou em casa da feira. Você...",
+        {
+          "A": "Guardo tudo por ordem de validade",
+          "D": "Confiro se veio tudo e o troco",
+          "M": "Já lavo as frutas e faço um suco",
+          "F": "Largo as sacolas na pia e pronto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the street market?",
+    "lead": "Every street market has the same 4 kinds of shopper. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You arrive at the market with a list and a route.",
+        "You know what's missing at home, which stall to buy from and how much to spend. You leave with everything you need and nothing going to waste in the fridge.",
+        "Buying exactly the right amount for the week.",
+        "Sticking to the route and missing the deal next door.",
+        "Fruit first, then the veg."
+      ],
+      "D": [
+        "The Detective",
+        "No fruit goes in the bag without an inspection.",
+        "You squeeze the avocado, sniff the melon and compare prices at three stalls. With you around, nobody takes home a squashed tomato.",
+        "Finding the best fruit on the stall.",
+        "Squeezing so many avocados the seller starts watching you.",
+        "Is this one really ripe?"
+      ],
+      "M": [
+        "The Maestro",
+        "You shop, chat and grab a snack all at once.",
+        "You pick the fruit, chat with the stallholders, carry everyone's bags and still remember the fresh juice. With you, the market turns into a day out.",
+        "Doing the whole market in one loop.",
+        "Chatting so much you forget the garlic.",
+        "Back in a sec, just grabbing a snack!"
+      ],
+      "F": [
+        "The Finisher",
+        "You're in, you buy, you're out before the queue grows.",
+        "You don't compare stall after stall. Looks good, pay, bag it. While others haggle, you're already home putting it all away.",
+        "Doing the market in 15 minutes.",
+        "Taking the first papaya you see.",
+        "A kilo, please. That one's fine."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change with the market: you make a list when the week is busy, check when fruit is pricey, chat when there's time and rush when you're hungry.",
+        "Being the shopper the market needs that day.",
+        "Nobody knowing if you'll haggle or just walk past.",
+        "Depends. What looks good today?"
+      ]
+    },
+    "S2": {
+      "A": "you still like arriving with a list.",
+      "D": "you never take anything without checking.",
+      "M": "you do a thousand things in one loop.",
+      "F": "when it counts, you just pay and go."
+    },
+    "Q": [
+      [
+        "The seller shouts \"Last call, everything half price!\" You...",
+        {
+          "A": "Stick to my list",
+          "D": "Go check the quality",
+          "M": "Call everyone over",
+          "F": "Run and grab three bags"
+        }
+      ],
+      [
+        "Before heading to the market, you...",
+        {
+          "A": "Check the fridge and write a list",
+          "D": "Get some change and check my bag",
+          "M": "Ask at home if anyone wants anything",
+          "F": "Grab a bag and go"
+        }
+      ],
+      [
+        "Your usual stall is closed. You...",
+        {
+          "A": "Already know my second choice",
+          "D": "Compare prices at the other stalls",
+          "M": "Ask the next stall what happened",
+          "F": "Buy from the first one I see"
+        }
+      ],
+      [
+        "Your role at the market with friends is...",
+        {
+          "A": "The one with the list",
+          "D": "The one who picks the fruit",
+          "M": "The one carrying bags and chatting",
+          "F": "The one who pays and keeps walking"
+        }
+      ],
+      [
+        "The seller says \"Take it, it's really sweet!\". You think:",
+        {
+          "A": "\"Is it on the list? Then yes\"",
+          "D": "\"Give me a piece to try\"",
+          "M": "\"I'll take it and make juice for everyone\"",
+          "F": "\"Deal, bag it up\""
+        }
+      ],
+      [
+        "It starts raining at the market. You...",
+        {
+          "A": "Brought an umbrella, of course",
+          "D": "Check if the bags will hold up",
+          "M": "Get everyone and the shopping under a stall",
+          "F": "Buy the rest fast and head home"
+        }
+      ],
+      [
+        "Your biggest flaw at the market:",
+        {
+          "A": "Never leaving the list, not even for a snack",
+          "D": "Squeezing too much fruit",
+          "M": "Chatting so much I forget half",
+          "F": "Taking the first one I see"
+        }
+      ],
+      [
+        "You're home from the market. You...",
+        {
+          "A": "Put everything away by use-by date",
+          "D": "Check it's all there and count the change",
+          "M": "Wash the fruit and make a juice",
+          "F": "Drop the bags by the sink, done"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "逛菜市场时你是哪个泡泡？",
+    "lead": "菜市场里总有同样的4种顾客。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你带着清单和路线去菜市场。",
+        "你知道家里缺什么、去哪个摊位买、要花多少钱。买齐需要的东西，冰箱里也不会剩下浪费。",
+        "一周的菜买得刚刚好。",
+        "照着路线走，错过了隔壁摊的特价。",
+        "先买水果，再买蔬菜。"
+      ],
+      "D": [
+        "侦探",
+        "没有一个水果能不经检查就进袋子。",
+        "你捏捏牛油果，闻闻甜瓜，在三个摊位比价。有你在，谁也不会把压坏的番茄带回家。",
+        "挑出摊上最好的水果。",
+        "捏了太多牛油果，摊主开始盯着你。",
+        "老板，这个真的熟了吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边买、一边聊、一边吃小吃。",
+        "你挑水果、和摊主聊天、帮大家拎袋子，还记得买杯鲜榨果汁。有你在，买菜变成了逛街。",
+        "一圈就把整个市场逛完。",
+        "聊得太开心，忘了买蒜。",
+        "马上回来，我去买个小吃！"
+      ],
+      "F": [
+        "终结者",
+        "你进去、买完、出来，排队的人还没多起来。",
+        "你不会一个摊一个摊地比。看着不错就付钱装袋。别人还在讲价，你已经回家把东西放好了。",
+        "15分钟买完菜。",
+        "看到第一个木瓜就拿走。",
+        "来一斤，就这个吧。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你看情况切换：一周很忙时先列清单，水果贵时仔细挑，有空时和人聊天，饿了就速战速决。",
+        "成为那天市场最需要的顾客。",
+        "别人不知道你是要讲价还是路过。",
+        "看情况。今天什么新鲜？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢带着清单出门。",
+      "D": "不检查过的东西你不会拿。",
+      "M": "你一圈能办完一千件事。",
+      "F": "关键时刻，你付钱就走。"
+    },
+    "Q": [
+      [
+        "摊主大喊：“收摊了，全部半价！”你……",
+        {
+          "A": "照我的清单买",
+          "D": "先去看看质量",
+          "M": "把大家都叫过来",
+          "F": "冲过去拿三袋"
+        }
+      ],
+      [
+        "出门去菜市场前，你会……",
+        {
+          "A": "看看冰箱，列好清单",
+          "D": "准备零钱，检查购物袋",
+          "M": "问家里人要不要带什么",
+          "F": "拿上袋子就走"
+        }
+      ],
+      [
+        "常去的摊位今天没开。你……",
+        {
+          "A": "早就想好了第二选择",
+          "D": "去别的摊位比比价",
+          "M": "问问隔壁摊发生了什么",
+          "F": "随便找第一家买"
+        }
+      ],
+      [
+        "和朋友一起逛菜市场，你的角色是……",
+        {
+          "A": "拿清单的人",
+          "D": "挑水果的人",
+          "M": "拎袋子、负责聊天的人",
+          "F": "付钱然后继续走的人"
+        }
+      ],
+      [
+        "摊主说：“拿着吧，可甜了！”你心想：",
+        {
+          "A": "“在清单上吗？在就买”",
+          "D": "“给我一块尝尝”",
+          "M": "“买了，给大家做果汁”",
+          "F": "“行，包起来”"
+        }
+      ],
+      [
+        "逛到一半下雨了。你……",
+        {
+          "A": "当然带了伞",
+          "D": "看看袋子撑不撑得住",
+          "M": "把大家和东西都带到棚子下",
+          "F": "赶紧买完回家"
+        }
+      ],
+      [
+        "你逛菜市场最大的毛病：",
+        {
+          "A": "为了小吃也不肯偏离清单",
+          "D": "捏水果捏太多",
+          "M": "聊太多，忘了一半",
+          "F": "看到第一个就拿"
+        }
+      ],
+      [
+        "从菜市场回到家，你……",
+        {
+          "A": "按保质期把东西收好",
+          "D": "检查东西齐不齐、找零对不对",
+          "M": "马上洗水果、榨果汁",
+          "F": "把袋子往水槽边一放，完事"
+        }
+      ]
+    ]
+  }
+}

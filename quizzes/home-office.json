@@ -1,0 +1,384 @@
+{
+  "slug": "home-office",
+  "criado_em": "2026-11-20",
+  "categoria": "trabalho",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é no home office?",
+    "lead": "Trabalhar de casa mostra quem você é de verdade. Qual dos 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Seu dia em casa tem agenda até pro café.",
+        "Você monta o canto de trabalho, define horário e bloqueia a agenda pro almoço. Em casa ou no escritório, seu dia segue o plano.",
+        "Fazer da mesa da sala um escritório de verdade.",
+        "Planejar tanto o dia que a reunião começa antes.",
+        "Das 9 às 12 é foco. Depois a gente fala."
+      ],
+      "D": [
+        "O Detetive",
+        "Você testa microfone, câmera e fundo antes de toda call.",
+        "Você testa o áudio, olha o que aparece atrás de você e relê a mensagem antes de mandar. Ninguém te pega de microfone aberto.",
+        "Nunca passar vergonha com a câmera ligada.",
+        "Testar tanto o áudio que entra atrasado.",
+        "Tá me ouvindo? Fala alguma coisa pra eu testar."
+      ],
+      "M": [
+        "O Maestro",
+        "Você atende a call, o chat e o interfone ao mesmo tempo.",
+        "Você faz a reunião, responde mensagens, recebe a entrega e ainda tira a roupa do varal. Em casa, você vira a central de controle de tudo.",
+        "Tocar cinco coisas sem deixar nenhuma cair.",
+        "Falar com o microfone no mudo no meio da correria.",
+        "Um segundinho, tocou a campainha!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Pijama embaixo, entrega em cima.",
+        "Você não perde tempo montando o cenário perfeito. Liga o computador, resolve a pendência e manda. Enquanto outros ajeitam a luz, você já entregou.",
+        "Fazer o trabalho sair de verdade.",
+        "Entrar na call sem olhar o que tá atrás de você.",
+        "Feito. Próximo item."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda conforme o dia pede: planeja quando a semana aperta, confere antes da call importante, cuida de tudo quando a casa enche e entrega quando o prazo chama.",
+        "Ser o que o dia de trabalho precisa.",
+        "Ninguém saber se você tá em call ou passando café.",
+        "Depende. Hoje é dia de quê?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de um dia bem planejado.",
+      "D": "você confere tudo antes de abrir a câmera.",
+      "M": "você dá conta de mil abas ao mesmo tempo.",
+      "F": "na hora certa, você só faz e entrega."
+    },
+    "Q": [
+      [
+        "A câmera ligou sozinha e você tá de pijama. Você...",
+        {
+          "A": "Tinha uma camisa do lado",
+          "D": "Confiro o que apareceu",
+          "M": "Desligo e sigo no chat",
+          "F": "Assumo e continuo"
+        }
+      ],
+      [
+        "Primeira coisa ao começar o dia em casa:",
+        {
+          "A": "Abro a lista do dia por prioridade",
+          "D": "Confiro o que chegou de madrugada",
+          "M": "Abro chat, e-mail e café ao mesmo tempo",
+          "F": "Pego a tarefa mais urgente e já faço"
+        }
+      ],
+      [
+        "A internet caiu no meio da reunião. Você...",
+        {
+          "A": "Já tinha o celular pronto pra roteador",
+          "D": "Testo o modem pra achar o problema",
+          "M": "Aviso no chat pelo celular e sigo",
+          "F": "Entro pelo celular e continuo falando"
+        }
+      ],
+      [
+        "Seu canto de trabalho em casa é...",
+        {
+          "A": "Montado com cadeira, luz e horário",
+          "D": "Revisado pra nada estranho aparecer na câmera",
+          "M": "A cozinha, o sofá e a varanda, no mesmo dia",
+          "F": "Onde tiver tomada perto"
+        }
+      ],
+      [
+        "Alguém manda \"dá pra conversar rapidinho?\". Você pensa:",
+        {
+          "A": "\"Só no horário que eu reservei\"",
+          "D": "\"Quero saber o assunto antes\"",
+          "M": "\"Claro, enquanto respondo outra coisa\"",
+          "F": "\"Fala agora e resolve\""
+        }
+      ],
+      [
+        "O vizinho começa uma obra às 9h. Você...",
+        {
+          "A": "Passo as reuniões pra tarde",
+          "D": "Testo se o microfone pega o barulho",
+          "M": "Mudo pro quarto com notebook e café",
+          "F": "Ponho o fone e sigo trabalhando"
+        }
+      ],
+      [
+        "Seu maior defeito no home office:",
+        {
+          "A": "Planejar a semana e esquecer o almoço",
+          "D": "Testar o áudio dez vezes",
+          "M": "Ter 40 abas abertas",
+          "F": "Entrar na call sem olhar o fundo"
+        }
+      ],
+      [
+        "Acabou o expediente em casa. Você...",
+        {
+          "A": "Deixo a lista de amanhã pronta",
+          "D": "Confiro se respondi todo mundo",
+          "M": "Fecho o notebook e já começo o jantar",
+          "F": "Desligo tudo e pronto, acabou"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when working from home?",
+    "lead": "Working from home shows who you really are. Which of the 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your day at home has a slot even for coffee.",
+        "You set up a proper desk, fix your hours and block out lunch in your calendar. At home or at the office, your day sticks to the plan.",
+        "Turning the dining table into a real office.",
+        "Planning the day so long the meeting starts first.",
+        "9 to 12 is focus time. Talk to me after."
+      ],
+      "D": [
+        "The Detective",
+        "You test mic, camera and background before every call.",
+        "You check the audio, look at what's behind you and reread every message before sending. Nobody ever catches you unmuted.",
+        "Never getting embarrassed on camera.",
+        "Testing the audio so long you join late.",
+        "Can you hear me? Say something so I can test."
+      ],
+      "M": [
+        "The Maestro",
+        "You take the call, the chat and the doorbell all at once.",
+        "You run the meeting, answer messages, sign for a delivery and still bring the washing in. At home, you're mission control for everything.",
+        "Juggling five things without dropping one.",
+        "Talking on mute in the middle of the rush.",
+        "One sec, someone's at the door!"
+      ],
+      "F": [
+        "The Finisher",
+        "Pyjamas below, deliverables above.",
+        "You don't waste time building the perfect set. You open the laptop, fix the issue and send it. While others adjust their lighting, you've already delivered.",
+        "Actually getting the work out the door.",
+        "Joining a call without checking what's behind you.",
+        "Done. Next item."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change with the day: you plan when the week is tight, check before the big call, juggle when the house is busy and deliver when the deadline calls.",
+        "Being what the workday needs.",
+        "Nobody knowing if you're on a call or making coffee.",
+        "Depends. What kind of day is it?"
+      ]
+    },
+    "S2": {
+      "A": "you still like a well-planned day.",
+      "D": "you check everything before turning on the camera.",
+      "M": "you can handle a thousand tabs at once.",
+      "F": "when it counts, you just get it done."
+    },
+    "Q": [
+      [
+        "Your camera turned on and you're in pyjamas. You...",
+        {
+          "A": "Had a shirt ready",
+          "D": "Check what they saw",
+          "M": "Turn it off, use chat",
+          "F": "Own it and carry on"
+        }
+      ],
+      [
+        "First thing when you start the day at home:",
+        {
+          "A": "Open my to-do list by priority",
+          "D": "Check what came in overnight",
+          "M": "Open chat, email and coffee all at once",
+          "F": "Grab the most urgent task and do it"
+        }
+      ],
+      [
+        "The internet drops mid-meeting. You...",
+        {
+          "A": "Already had my phone ready as a hotspot",
+          "D": "Test the router to find the problem",
+          "M": "Post in the chat from my phone and carry on",
+          "F": "Join from my phone and keep talking"
+        }
+      ],
+      [
+        "Your work corner at home is...",
+        {
+          "A": "Set up with a chair, good light and fixed hours",
+          "D": "Checked so nothing odd shows on camera",
+          "M": "The kitchen, the sofa and the balcony, same day",
+          "F": "Wherever there's a plug nearby"
+        }
+      ],
+      [
+        "Someone messages \"got a quick sec?\". You think:",
+        {
+          "A": "\"Only in the slot I blocked out\"",
+          "D": "\"I want to know what it's about first\"",
+          "M": "\"Sure, while I answer something else\"",
+          "F": "\"Say it now and let's sort it\""
+        }
+      ],
+      [
+        "The neighbour starts building work at 9am. You...",
+        {
+          "A": "Move my meetings to the afternoon",
+          "D": "Test if the mic picks up the noise",
+          "M": "Move to the bedroom with laptop and coffee",
+          "F": "Put headphones on and keep working"
+        }
+      ],
+      [
+        "Your biggest flaw when working from home:",
+        {
+          "A": "Planning the week and forgetting lunch",
+          "D": "Testing the audio ten times",
+          "M": "Having 40 tabs open",
+          "F": "Joining calls without checking the background"
+        }
+      ],
+      [
+        "The workday at home is over. You...",
+        {
+          "A": "Leave tomorrow's list ready",
+          "D": "Check I replied to everyone",
+          "M": "Close the laptop and start dinner",
+          "F": "Switch everything off, done"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "居家办公时你是哪个泡泡？",
+    "lead": "在家上班最能看出你是什么样的人。你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你在家的一天，连喝咖啡都排进了日程。",
+        "你布置好工作角，定好上下班时间，还在日历上把午饭时间锁住。不管在家还是在公司，你的一天都按计划走。",
+        "把餐桌变成真正的办公室。",
+        "计划做太久，会议都先开始了。",
+        "9点到12点专注时间，之后再聊。"
+      ],
+      "D": [
+        "侦探",
+        "每次开会前，你都要检查麦克风、摄像头和背景。",
+        "你测试音频，看看身后会拍到什么，发消息前还要再读一遍。没人能抓到你忘了静音。",
+        "开着摄像头也从不尴尬。",
+        "测试音频太久，结果迟到了。",
+        "听得到吗？说句话让我试一下。"
+      ],
+      "M": [
+        "指挥家",
+        "你能同时应付会议、聊天和门铃。",
+        "你一边开会一边回消息，还签收了快递、顺手收了衣服。在家里，你就是一切的控制中心。",
+        "同时推进五件事，一件都不掉。",
+        "忙乱中对着静音的麦克风讲了半天。",
+        "稍等一下，有人按门铃！"
+      ],
+      "F": [
+        "终结者",
+        "下半身睡裤，上半身交付。",
+        "你不花时间布置完美的背景。打开电脑，解决问题，发出去。别人还在调灯光，你已经交差了。",
+        "真正把活干完。",
+        "开会前忘了看身后有什么。",
+        "搞定。下一项。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你看当天情况切换：一周很满时先规划，重要会议前仔细检查，家里热闹时同时照顾一切，截止日期到了就直接交付。",
+        "成为这个工作日最需要的人。",
+        "别人不知道你是在开会还是在煮咖啡。",
+        "看情况。今天是什么日子？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢规划好的一天。",
+      "D": "开摄像头前你一定先检查一遍。",
+      "M": "你能同时搞定一千个标签页。",
+      "F": "关键时刻，你直接做完交付。"
+    },
+    "Q": [
+      [
+        "摄像头突然打开，你还穿着睡衣。你……",
+        {
+          "A": "旁边早备好衬衫",
+          "D": "看看拍到了什么",
+          "M": "关掉，改用文字",
+          "F": "大方承认继续开"
+        }
+      ],
+      [
+        "在家开始工作的第一件事：",
+        {
+          "A": "按优先级打开今天的清单",
+          "D": "看看夜里来了什么消息",
+          "M": "同时打开聊天、邮件和咖啡机",
+          "F": "抓起最急的任务马上做"
+        }
+      ],
+      [
+        "开会开到一半断网了。你……",
+        {
+          "A": "手机热点早就准备好了",
+          "D": "检查路由器找原因",
+          "M": "用手机在群里说一声，继续",
+          "F": "用手机重新进会，接着说"
+        }
+      ],
+      [
+        "你在家的工作角是……",
+        {
+          "A": "椅子、灯光和时间都安排好了",
+          "D": "检查过，镜头里不会出现奇怪的东西",
+          "M": "厨房、沙发和阳台，一天换三个地方",
+          "F": "哪里有插座就在哪里"
+        }
+      ],
+      [
+        "有人发来：“方便快速聊一下吗？”你心想：",
+        {
+          "A": "“只能在我预留的时间”",
+          "D": "“先告诉我是什么事”",
+          "M": "“当然，我边回别的边聊”",
+          "F": "“现在说，马上解决”"
+        }
+      ],
+      [
+        "邻居早上9点开始装修。你……",
+        {
+          "A": "把会议都挪到下午",
+          "D": "测试麦克风会不会录到噪音",
+          "M": "带着电脑和咖啡搬去卧室",
+          "F": "戴上耳机继续干活"
+        }
+      ],
+      [
+        "你居家办公最大的毛病：",
+        {
+          "A": "计划好一周，却忘了吃午饭",
+          "D": "音频测试十遍",
+          "M": "开着40个标签页",
+          "F": "开会前不看背景"
+        }
+      ],
+      [
+        "在家的工作日结束了。你……",
+        {
+          "A": "把明天的清单准备好",
+          "D": "检查是不是每个人都回复了",
+          "M": "合上电脑，开始做晚饭",
+          "F": "全部关掉，下班"
+        }
+      ]
+    ]
+  }
+}

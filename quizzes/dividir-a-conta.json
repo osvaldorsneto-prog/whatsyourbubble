@@ -1,0 +1,384 @@
+{
+  "slug": "dividir-a-conta",
+  "criado_em": "2026-11-20",
+  "categoria": "role",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é na hora de dividir a conta?",
+    "lead": "A conta chegou e a mesa travou. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já sabia quanto ia gastar antes de sentar.",
+        "Você olha o cardápio pensando no total, combina antes como vai ser a divisão e já deixa a calculadora aberta. Com você na mesa, a conta nunca vira novela.",
+        "Deixar a divisão combinada antes do primeiro pedido.",
+        "Combinar tanto que parece contrato de aluguel.",
+        "Combinado: divide por igual, bebida à parte."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum item passa sem você conferir na comanda.",
+        "Você lê a conta linha por linha e acha a taxa cobrada duas vezes e o suco que ninguém pediu. Graças a você, ninguém paga a mais.",
+        "Achar o erro que passou batido por todo mundo.",
+        "Conferir tanto que o restaurante quer fechar.",
+        "Peraí, quem pediu esse segundo suco?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida da conta, do Pix e do grupo ao mesmo tempo.",
+        "Você chama o garçom, junta os valores, manda a chave no grupo e ainda lembra quem saiu mais cedo. A mesa inteira acerta as contas porque você segura tudo.",
+        "Fazer dez pessoas pagarem sem confusão.",
+        "Virar o banco da turma por três semanas.",
+        "Manda no grupo que eu junto tudo."
+      ],
+      "F": [
+        "O Finalizador",
+        "Você passa o cartão e resolve o resto depois.",
+        "Enquanto a mesa discute quem comeu o quê, você já pagou. Depois manda o valor no grupo e pronto. Pra você, conta parada é pior que conta errada.",
+        "Acabar com o impasse em dez segundos.",
+        "Esquecer de cobrar quem te deve.",
+        "Deixa que eu passo. Depois a gente acerta."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda conforme a mesa: combina antes quando o grupo é grande, confere quando a conta vem estranha, organiza quando ninguém se mexe e paga quando é hora de ir.",
+        "Ser o que a mesa precisa naquela hora.",
+        "Ninguém saber se você vai calcular ou pagar.",
+        "Depende. Quanto deu?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo combinado antes.",
+      "D": "você não deixa nenhum item passar sem conferir.",
+      "M": "você junta todo mundo e todos os valores.",
+      "F": "na hora certa, você só passa o cartão."
+    },
+    "Q": [
+      [
+        "A conta chegou e alguém pediu lagosta. Você...",
+        {
+          "A": "Cada um paga o seu, combinado",
+          "D": "Leio a conta item por item",
+          "M": "Abro a calculadora da mesa",
+          "F": "Divido por igual e pronto"
+        }
+      ],
+      [
+        "Antes de ir ao restaurante, você...",
+        {
+          "A": "Olho o cardápio e os preços antes",
+          "D": "Confiro se aceitam cartão e se tem taxa",
+          "M": "Junto a turma e reservo a mesa",
+          "F": "Só apareço com fome"
+        }
+      ],
+      [
+        "O garçom pergunta: \"conta junta ou separada?\". Você...",
+        {
+          "A": "Separada, como a gente combinou",
+          "D": "Separada, quero conferir a minha",
+          "M": "Junta, depois eu organizo",
+          "F": "Junta, pago e acabou"
+        }
+      ],
+      [
+        "Seu papel na hora da conta é...",
+        {
+          "A": "Quem combinou a regra",
+          "D": "Quem acha o erro",
+          "M": "Quem junta os valores",
+          "F": "Quem passa o cartão"
+        }
+      ],
+      [
+        "Alguém diz \"eu só comi uma salada\". Você pensa:",
+        {
+          "A": "\"Por isso eu disse pra separar\"",
+          "D": "\"Mas tomou três sucos, eu vi\"",
+          "M": "\"Tranquilo, ajusto no cálculo\"",
+          "F": "\"Desconta dez e bora\""
+        }
+      ],
+      [
+        "Um amigo esqueceu a carteira. Você...",
+        {
+          "A": "Anoto pra ele acertar na próxima",
+          "D": "Confiro se é a primeira vez no mês",
+          "M": "Divido a parte dele com a turma",
+          "F": "Pago a dele e depois ele me manda"
+        }
+      ],
+      [
+        "Seu maior defeito na hora da conta:",
+        {
+          "A": "Combinar tanto que parece contrato",
+          "D": "Conferir tanto que o garçom desiste",
+          "M": "Virar o caixa da turma",
+          "F": "Pagar tudo e esquecer de cobrar"
+        }
+      ],
+      [
+        "Dois dias depois do jantar, você...",
+        {
+          "A": "Já penso na regra da próxima vez",
+          "D": "Confiro se todo mundo pagou mesmo",
+          "M": "Lembro o grupo, com carinho, de quem falta",
+          "F": "Nem lembro mais, tá tudo pago"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when splitting the bill?",
+    "lead": "The bill arrives and the whole table freezes. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You knew what you'd spend before you sat down.",
+        "You read the menu with the total in mind, agree on how to split it up front and have the calculator ready. With you at the table, the bill never turns into a drama.",
+        "Getting the split agreed before anyone orders.",
+        "Agreeing on so many rules it feels like a lease.",
+        "Deal: we split evenly, drinks separate."
+      ],
+      "D": [
+        "The Detective",
+        "No item gets past you without a check.",
+        "You go through the bill line by line and spot the service charge added twice and the juice nobody ordered. Thanks to you, nobody overpays.",
+        "Catching the mistake everyone else missed.",
+        "Checking so long the restaurant wants to close.",
+        "Hang on, who ordered a second juice?"
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the bill, the transfers and the group chat at once.",
+        "You flag down the waiter, add up who owes what, post the details in the chat and still remember who left early. The whole table settles up because you hold it together.",
+        "Getting ten people to pay without chaos.",
+        "Becoming the group's bank for three weeks.",
+        "Send it in the chat, I'll sort it all out."
+      ],
+      "F": [
+        "The Finisher",
+        "You tap your card and sort the rest out later.",
+        "While the table debates who ate what, you've already paid. Then you post the amount in the chat and that's it. To you, a stuck bill is worse than a slightly wrong one.",
+        "Ending the standoff in ten seconds.",
+        "Forgetting to chase the people who owe you.",
+        "I've got it. Pay me back later."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change with the table: you set rules when the group is big, check when the bill looks odd, organise when nobody moves and pay when it's time to go.",
+        "Being what the table needs right then.",
+        "Nobody knowing if you'll do the maths or just pay.",
+        "Depends. What's the damage?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything agreed in advance.",
+      "D": "you never let an item slip by unchecked.",
+      "M": "you bring everyone and every number together.",
+      "F": "when it counts, you just tap your card."
+    },
+    "Q": [
+      [
+        "The bill arrives and someone ordered lobster. You...",
+        {
+          "A": "Everyone pays their own, as agreed",
+          "D": "Read the bill item by item",
+          "M": "Open the calculator for everyone",
+          "F": "Split it evenly, done"
+        }
+      ],
+      [
+        "Before going to the restaurant, you...",
+        {
+          "A": "Check the menu and prices first",
+          "D": "Make sure they take cards and see the service charge",
+          "M": "Round up the group and book a table",
+          "F": "Just turn up hungry"
+        }
+      ],
+      [
+        "The waiter asks: \"One bill or separate?\". You...",
+        {
+          "A": "Separate, like we agreed",
+          "D": "Separate, I want to check mine",
+          "M": "One bill, I'll sort it after",
+          "F": "One bill, I'll pay, done"
+        }
+      ],
+      [
+        "Your role when the bill comes is...",
+        {
+          "A": "The one who set the rule",
+          "D": "The one who finds the mistake",
+          "M": "The one who adds it all up",
+          "F": "The one who taps the card"
+        }
+      ],
+      [
+        "Someone says \"I only had a salad\". You think:",
+        {
+          "A": "\"That's why I said separate bills\"",
+          "D": "\"Plus three juices, I saw\"",
+          "M": "\"Fine, I'll adjust the numbers\"",
+          "F": "\"Take off ten and let's go\""
+        }
+      ],
+      [
+        "A friend forgot their wallet. You...",
+        {
+          "A": "Note it so they pay next time",
+          "D": "Check if it's the first time this month",
+          "M": "Split their share across the group",
+          "F": "Cover them and they pay me back"
+        }
+      ],
+      [
+        "Your biggest flaw when the bill comes:",
+        {
+          "A": "Agreeing on rules like it's a contract",
+          "D": "Checking so long the waiter gives up",
+          "M": "Becoming the group's cashier",
+          "F": "Paying for everything and never chasing it"
+        }
+      ],
+      [
+        "Two days after dinner, you...",
+        {
+          "A": "Already think about next time's rule",
+          "D": "Check that everyone actually paid",
+          "M": "Gently remind the chat who still owes",
+          "F": "Forgot already, it's all paid"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "分账时你是哪个泡泡？",
+    "lead": "账单一来，整桌突然安静。你是这4种人里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没坐下，你就知道这顿大概花多少。",
+        "你看菜单时就在算总价，提前说好怎么分，计算器早就打开了。有你在，结账从来不会变成一出戏。",
+        "点菜前就把分账规则定好。",
+        "规则定得太细，像在签合同。",
+        "说好了：平均分，饮料各付各的。"
+      ],
+      "D": [
+        "侦探",
+        "账单上每一项都逃不过你的眼睛。",
+        "你一行一行看账单，能发现重复收的服务费和没人点的果汁。多亏有你，谁也不会多付钱。",
+        "找到所有人都没注意的错误。",
+        "核对太久，餐厅都要打烊了。",
+        "等等，第二杯果汁是谁点的？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管着账单、转账和群聊。",
+        "你叫服务员、算每个人的钱、把收款码发到群里，还记得谁先走了。整桌人能顺利结清，全靠你撑着。",
+        "让十个人顺利付钱不出乱子。",
+        "连续三周当大家的“银行”。",
+        "都发群里，我来汇总。"
+      ],
+      "F": [
+        "终结者",
+        "你先刷卡，剩下的之后再说。",
+        "大家还在争谁吃了什么，你已经买单了。然后把金额发到群里，完事。对你来说，卡住的账单比算错一点更难受。",
+        "十秒钟结束僵局。",
+        "忘了找欠你钱的人要回来。",
+        "我先付，回头再算。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你看情况切换：人多时先定规则，账单奇怪时仔细核对，没人动时出来组织，该走时直接买单。",
+        "成为这桌此刻最需要的人。",
+        "别人猜不到你是要算账还是直接付。",
+        "看情况。一共多少？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢事先说好一切。",
+      "D": "你不会让任何一项不经核对就过关。",
+      "M": "你能把所有人和所有数字凑到一起。",
+      "F": "关键时刻，你直接刷卡。"
+    },
+    "Q": [
+      [
+        "账单来了，有人点了龙虾。你……",
+        {
+          "A": "说好了，各付各的",
+          "D": "一项一项看账单",
+          "M": "打开计算器算全桌",
+          "F": "平均分，完事"
+        }
+      ],
+      [
+        "去餐厅之前，你会……",
+        {
+          "A": "先看菜单和价格",
+          "D": "确认能不能刷卡、有没有服务费",
+          "M": "叫齐大家，订好位子",
+          "F": "饿着肚子直接去"
+        }
+      ],
+      [
+        "服务员问：“一起结还是分开结？”你……",
+        {
+          "A": "分开，按说好的来",
+          "D": "分开，我要核对我的",
+          "M": "一起，回头我来算",
+          "F": "一起，我付，完事"
+        }
+      ],
+      [
+        "结账时你的角色是……",
+        {
+          "A": "定规则的人",
+          "D": "找错误的人",
+          "M": "汇总金额的人",
+          "F": "刷卡的人"
+        }
+      ],
+      [
+        "有人说“我只吃了一份沙拉”。你心想：",
+        {
+          "A": "“所以我说要分开结”",
+          "D": "“可你喝了三杯果汁，我看见了”",
+          "M": "“没事，我调整一下”",
+          "F": "“减十块，走吧”"
+        }
+      ],
+      [
+        "有个朋友忘带钱包了。你……",
+        {
+          "A": "记下来，下次让他还",
+          "D": "确认一下这是不是这个月第一次",
+          "M": "把他那份分给大家",
+          "F": "我先帮他付，回头他转我"
+        }
+      ],
+      [
+        "你结账时最大的毛病：",
+        {
+          "A": "规则定得像合同",
+          "D": "核对太久，服务员都放弃了",
+          "M": "变成大家的出纳",
+          "F": "全付了却忘了要钱"
+        }
+      ],
+      [
+        "聚餐两天后，你……",
+        {
+          "A": "已经在想下次的规则",
+          "D": "核对是不是每个人都转了",
+          "M": "在群里温柔提醒还没付的人",
+          "F": "早忘了，反正都付清了"
+        }
+      ]
+    ]
+  }
+}
