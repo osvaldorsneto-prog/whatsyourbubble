@@ -59,7 +59,7 @@
         "O garçom chega e ninguém escolheu ainda. Você...",
         {
           "A": "Eu já sabia desde ontem",
-          "D": "Pergunto o que vem em cada prato",
+          "D": "Pergunto o que vem no molho",
           "M": "Faço o pedido da mesa toda",
           "F": "Aponto o primeiro e pronto"
         }
@@ -185,7 +185,7 @@
         "The waiter's here and nobody's chosen yet. You...",
         {
           "A": "Knew mine since yesterday",
-          "D": "Ask what's in every dish",
+          "D": "Ask what's in the sauce",
           "M": "Order for the whole table",
           "F": "Point at the first one"
         }
@@ -311,7 +311,7 @@
         "服务员来了，还没人选好。你……",
         {
           "A": "我昨天就想好了",
-          "D": "问每道菜里有什么",
+          "D": "问酱汁里有什么",
           "M": "替全桌一起点",
           "F": "指第一个就行"
         }
