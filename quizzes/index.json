@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "trilha",
+   "url": "/q/?s=trilha",
+   "criado_em": "2026-11-21",
+   "categoria": "esporte",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é na trilha?",
+    "en": "What's your bubble on a hike?",
+    "zh": "徒步时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "restaurante",
+   "url": "/q/?s=restaurante",
+   "criado_em": "2026-11-21",
+   "categoria": "comida",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é no restaurante?",
+    "en": "What's your bubble at a restaurant?",
+    "zh": "在餐厅时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "internet-caiu",
+   "url": "/q/?s=internet-caiu",
+   "criado_em": "2026-11-21",
+   "categoria": "celular",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é quando a internet cai?",
+    "en": "What's your bubble when the Wi-Fi goes down?",
+    "zh": "断网时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "home-office",
    "url": "/q/?s=home-office",
    "criado_em": "2026-11-20",

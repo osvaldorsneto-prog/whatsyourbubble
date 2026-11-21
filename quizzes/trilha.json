@@ -1,0 +1,384 @@
+{
+  "slug": "trilha",
+  "criado_em": "2026-11-21",
+  "categoria": "esporte",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é na trilha?",
+    "lead": "Mochila nas costas e um \"falta pouco\" que nunca acaba. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você estudou o mapa da trilha antes de calçar a bota.",
+        "Você sabe a distância, a subida, a hora do pôr do sol e onde tem água. Leva lanche contado e lanterna por garantia. Com você no grupo, ninguém volta no escuro.",
+        "Saber exatamente quanto falta.",
+        "Planejar tanto que o grupo sai atrasado.",
+        "Pelo mapa, a cachoeira fica em 40 minutos."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma bifurcação passa sem você conferir a placa.",
+        "Você olha as marcações, confere o GPS e repara se aquela pedra já não apareceu antes. Graças a você, o grupo nunca anda em círculo por muito tempo.",
+        "Perceber que o grupo errou o caminho.",
+        "Parar em cada placa até o grupo sentar pra esperar.",
+        "Peraí. Essa árvore torta a gente já não passou?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você puxa o ritmo, divide o lanche e anima o grupo.",
+        "Você cuida de quem ficou pra trás, de quem esqueceu a água e da foto do grupo no mirante. Enquanto todo mundo só pensa no próximo passo, você mantém a turma inteira junta.",
+        "Fazer o grupo todo chegar junto.",
+        "Cuidar de todo mundo e esquecer de beber água.",
+        "Pausa de cinco minutos! Quem quer castanha?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você só para de andar quando chega no topo.",
+        "Você não precisa de mapa perfeito nem de pausa longa. Põe a mochila e vai. Enquanto o grupo discute o caminho, você já está tirando foto lá de cima.",
+        "Chegar no topo de qualquer jeito.",
+        "Pegar o atalho que não era atalho.",
+        "Bora, que a vista é lá em cima!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a trilha pede: planeja quando é longa, confere quando o caminho some, cuida do grupo quando alguém cansa e acelera quando o sol começa a baixar.",
+        "Ser o que a trilha precisa naquele momento.",
+        "Ninguém saber se você vai na frente ou atrás.",
+        "Depende. Quanto falta mesmo?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de saber o caminho antes.",
+      "D": "você não passa por uma placa sem conferir.",
+      "M": "você mantém o grupo todo junto.",
+      "F": "na hora certa, você só continua andando."
+    },
+    "Q": [
+      [
+        "A placa diz 2 km. Já faz uma hora. Você...",
+        {
+          "A": "Pelo meu mapa, falta pouco",
+          "D": "Volto pra conferir a placa",
+          "M": "Animo o grupo com um lanche",
+          "F": "Sigo andando, uma hora chega"
+        }
+      ],
+      [
+        "Alguém chama pra fazer uma trilha no sábado. Você...",
+        {
+          "A": "Pesquiso distância, subida e previsão do tempo",
+          "D": "Leio relatos de quem já foi pra ver se é bem sinalizada",
+          "M": "Monto o grupo e divido quem leva o quê",
+          "F": "Pergunto só a hora que sai"
+        }
+      ],
+      [
+        "O que tem na sua mochila?",
+        {
+          "A": "Tudo de uma lista feita na véspera",
+          "D": "Um mapa extra, por garantia",
+          "M": "Lanche suficiente pro grupo inteiro",
+          "F": "Água e o celular. Já tá bom."
+        }
+      ],
+      [
+        "A trilha se divide em duas e não tem placa. Você...",
+        {
+          "A": "Confiro o caminho que marquei antes",
+          "D": "Procuro pegadas e marcações nas árvores",
+          "M": "Divido o grupo pra olhar os dois lados",
+          "F": "Escolho a mais bonita e vou"
+        }
+      ],
+      [
+        "Alguém do grupo cansou no meio da subida. Você...",
+        {
+          "A": "Já tinha previsto uma parada nesse ponto",
+          "D": "Pergunto se é cansaço ou se a bota tá machucando",
+          "M": "Paro, divido o lanche e conto uma história",
+          "F": "Pego a mochila dela e sigo"
+        }
+      ],
+      [
+        "Seu papel na trilha é...",
+        {
+          "A": "Quem estudou o mapa",
+          "D": "Quem confere o caminho",
+          "M": "Quem mantém o grupo junto",
+          "F": "Quem chega primeiro no topo"
+        }
+      ],
+      [
+        "Seu maior defeito na trilha:",
+        {
+          "A": "Planejo tanto que a gente sai tarde",
+          "D": "Paro em cada placa pra conferir",
+          "M": "Cuido de todo mundo e esqueço de beber água",
+          "F": "Pego atalhos que não são atalhos"
+        }
+      ],
+      [
+        "Chegou no mirante. Você...",
+        {
+          "A": "Confiro se dá tempo de voltar antes do pôr do sol",
+          "D": "Comparo a vista com as fotos que vi antes",
+          "M": "Organizo a foto com o grupo todo",
+          "F": "Sento, como meu lanche e aproveito"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a hike?",
+    "lead": "Backpack on and an \"almost there\" that never ends. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You studied the trail map before putting your boots on.",
+        "You know the distance, the climb, sunset time and where to find water. You pack exact snacks and a torch just in case. With you in the group, nobody walks back in the dark.",
+        "Knowing exactly how far is left.",
+        "Planning so much the group sets off late.",
+        "According to the map, the waterfall is 40 minutes away."
+      ],
+      "D": [
+        "The Detective",
+        "No fork in the trail goes by without you checking the sign.",
+        "You read the trail markers, check the GPS and notice if that rock looks familiar. Thanks to you, the group never walks in circles for long.",
+        "Noticing the group took a wrong turn.",
+        "Stopping at every sign until the group sits down to wait.",
+        "Wait. Didn't we already pass that crooked tree?"
+      ],
+      "M": [
+        "The Maestro",
+        "You set the pace, share the snacks and keep spirits up.",
+        "You look after whoever's lagging, whoever forgot water and the group photo at the viewpoint. While everyone thinks about their next step, you keep the whole crew together.",
+        "Getting the whole group there together.",
+        "Looking after everyone and forgetting to drink water.",
+        "Five-minute break! Who wants trail mix?"
+      ],
+      "F": [
+        "The Finisher",
+        "You don't stop walking until you reach the top.",
+        "You don't need a perfect map or a long break. Backpack on and off you go. While the group debates the route, you're already taking photos from the summit.",
+        "Getting to the top no matter what.",
+        "Taking the shortcut that wasn't a shortcut.",
+        "Come on, the view is up there!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles depending on the trail: you plan when it's long, check when the path disappears, look after the group when someone's tired and speed up when the sun starts to set.",
+        "Being what the trail needs right now.",
+        "Nobody knowing if you'll be at the front or the back.",
+        "Depends. How far is it again?"
+      ]
+    },
+    "S2": {
+      "A": "you still like knowing the route in advance.",
+      "D": "you never pass a sign without checking it.",
+      "M": "you keep the whole group together.",
+      "F": "when it counts, you just keep walking."
+    },
+    "Q": [
+      [
+        "The sign said 2 km. That was an hour ago. You...",
+        {
+          "A": "My map says almost there",
+          "D": "Go back and check the sign",
+          "M": "Cheer everyone up with snacks",
+          "F": "Keep walking, we'll get there"
+        }
+      ],
+      [
+        "Someone invites you on a Saturday hike. You...",
+        {
+          "A": "Look up the distance, the climb and the forecast",
+          "D": "Read trip reports to see if it's well marked",
+          "M": "Build the group and split who brings what",
+          "F": "Just ask what time we leave"
+        }
+      ],
+      [
+        "What's in your backpack?",
+        {
+          "A": "Everything from a list I made the night before",
+          "D": "A spare map, just in case",
+          "M": "Enough snacks for the whole group",
+          "F": "Water and my phone. That'll do."
+        }
+      ],
+      [
+        "The trail splits in two and there's no sign. You...",
+        {
+          "A": "Check the route I marked beforehand",
+          "D": "Look for footprints and markers on the trees",
+          "M": "Split the group to scout both sides",
+          "F": "Pick the prettier one and go"
+        }
+      ],
+      [
+        "Someone's worn out halfway up. You...",
+        {
+          "A": "Already planned a stop right about here",
+          "D": "Ask if they're tired or if their boot is rubbing",
+          "M": "Stop, share snacks and tell a story",
+          "F": "Carry their backpack and keep going"
+        }
+      ],
+      [
+        "Your role on the hike is...",
+        {
+          "A": "The one who studied the map",
+          "D": "The one who checks the route",
+          "M": "The one who keeps the group together",
+          "F": "The first one to the top"
+        }
+      ],
+      [
+        "Your biggest flaw on a hike:",
+        {
+          "A": "I plan so much we start late",
+          "D": "I stop at every sign to check",
+          "M": "I look after everyone and forget to drink water",
+          "F": "I take shortcuts that aren't shortcuts"
+        }
+      ],
+      [
+        "You reach the viewpoint. You...",
+        {
+          "A": "Check we can get back before sunset",
+          "D": "Compare the view with the photos I saw",
+          "M": "Set up the group photo",
+          "F": "Sit down, eat my snack and enjoy it"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "徒步时你是哪个泡泡？",
+    "lead": "背上背包，还有一句永远走不完的“快到了”。你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "穿上登山鞋之前，你已经研究好路线图了。",
+        "你知道距离、爬升、日落时间，还知道哪里有水。零食带得刚刚好，手电筒以防万一。有你在，没人会摸黑下山。",
+        "清楚知道还剩多远。",
+        "规划太久，大家出发晚了。",
+        "按地图看，瀑布还有40分钟。"
+      ],
+      "D": [
+        "侦探",
+        "每个岔路口你都要仔细看路标。",
+        "你看路标、查GPS，还会注意那块石头是不是见过。多亏了你，大家从不会绕圈子太久。",
+        "第一个发现大家走错路。",
+        "每个路标都停下来看，大家只好坐下等。",
+        "等等，那棵歪脖子树我们是不是路过了？"
+      ],
+      "M": [
+        "指挥家",
+        "你带节奏、分零食，还给大家打气。",
+        "你照顾掉队的人、忘带水的人，还负责在观景台拍合照。别人只想着下一步，你让整个队伍一直在一起。",
+        "让全队一起到达。",
+        "光顾着照顾别人，忘了自己喝水。",
+        "休息五分钟！谁要坚果？"
+      ],
+      "F": [
+        "终结者",
+        "不到山顶，你就不停下。",
+        "你不需要完美的地图，也不需要长时间休息。背上包就走。别人还在讨论路线，你已经在山顶拍照了。",
+        "无论如何都要登顶。",
+        "走了一条根本不是捷径的捷径。",
+        "走啊，风景在上面呢！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据路线的需要换角色：路远就提前规划，路不见了就仔细确认，有人累了就照顾大家，太阳快落山了就加快脚步。",
+        "成为这条路此刻最需要的人。",
+        "没人知道你会走在最前面还是最后面。",
+        "看情况。到底还有多远？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前知道路线。",
+      "D": "你经过路标从不会不看。",
+      "M": "你让整个队伍一直在一起。",
+      "F": "关键时刻，你只管继续走。"
+    },
+    "Q": [
+      [
+        "路标写着2公里，已经走了一小时。你……",
+        {
+          "A": "按我的地图，快到了",
+          "D": "回去再看一眼路标",
+          "M": "发零食给大家打气",
+          "F": "继续走，总会到的"
+        }
+      ],
+      [
+        "有人约你周六去徒步。你……",
+        {
+          "A": "查距离、爬升和天气预报",
+          "D": "看别人的游记，确认路标清不清楚",
+          "M": "拉群，分好谁带什么",
+          "F": "只问几点出发"
+        }
+      ],
+      [
+        "你的背包里有什么？",
+        {
+          "A": "前一天晚上列好的清单上的所有东西",
+          "D": "一张备用地图，以防万一",
+          "M": "够全队吃的零食",
+          "F": "水和手机，够了。"
+        }
+      ],
+      [
+        "路分成两条，没有路标。你……",
+        {
+          "A": "对照我之前标好的路线",
+          "D": "找脚印和树上的标记",
+          "M": "分成两组去两边看看",
+          "F": "选看起来好走的那条，走"
+        }
+      ],
+      [
+        "有人爬到一半累了。你……",
+        {
+          "A": "早就计划在这附近休息",
+          "D": "问是累了还是鞋磨脚",
+          "M": "停下来，分零食，讲个故事",
+          "F": "帮他背包，继续走"
+        }
+      ],
+      [
+        "你在徒步中的角色是……",
+        {
+          "A": "研究地图的那个人",
+          "D": "确认路线的那个人",
+          "M": "让大家在一起的那个人",
+          "F": "第一个登顶的那个人"
+        }
+      ],
+      [
+        "你徒步时最大的毛病：",
+        {
+          "A": "规划太多，出发太晚",
+          "D": "每个路标都要停下来看",
+          "M": "照顾所有人，忘了自己喝水",
+          "F": "走了不是捷径的捷径"
+        }
+      ],
+      [
+        "到了观景台。你……",
+        {
+          "A": "确认日落前能不能下山",
+          "D": "拿风景和之前看过的照片对比",
+          "M": "组织全队拍合照",
+          "F": "坐下吃零食，好好享受"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "slug": "internet-caiu",
+  "criado_em": "2026-11-21",
+  "categoria": "celular",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é quando a internet cai?",
+    "lead": "A luzinha do roteador ficou vermelha. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você baixou tudo antes, porque já sabia que ia cair.",
+        "Você tem série baixada, mapa offline e o número do suporte salvo. Quando a internet cai, sua rotina quase nem percebe. Os outros entram em pânico, você abre o plano B.",
+        "Ter um plano B pronto antes de precisar.",
+        "Baixar tanta coisa que a memória do celular lota.",
+        "Tranquilo, deixei uns episódios baixados."
+      ],
+      "D": [
+        "O Detetive",
+        "Você descobre onde a internet caiu antes do suporte.",
+        "Você testa o celular, o notebook, o cabo e a velocidade. Olha a luzinha do roteador como quem lê um mapa. Quando liga pro suporte, já sabe mais que o atendente.",
+        "Achar a causa do problema em minutos.",
+        "Fazer tanto teste que esquece de reiniciar o roteador.",
+        "Calma. Caiu só aqui ou no prédio todo?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você liga o roteador, o 4G e acalma a casa toda.",
+        "Você reinicia o roteador, roteia a internet do celular, avisa o grupo da casa e ainda negocia quem usa os dados primeiro. Com você, ninguém fica isolado por muito tempo.",
+        "Manter todo mundo conectado ao mesmo tempo.",
+        "Dividir tanto o 4G que acaba sem nada pra você.",
+        "Senha do meu 4G no grupo. Um de cada vez!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Desliga, espera dez segundos, liga. Resolvido.",
+        "Você não faz diagnóstico, faz o que funciona: tira da tomada, coloca de volta e segue a vida. Se não voltar, vai ler um livro. Nada te trava por muito tempo.",
+        "Resolver no primeiro botão que encontra.",
+        "Reiniciar o roteador no meio da chamada de alguém.",
+        "Já desliguei e liguei. Voltou?"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a queda: se prepara quando sabe que vai cair, investiga quando é estranho, organiza a casa quando todo mundo precisa e reinicia quando é só isso.",
+        "Ser o que a casa precisa naquele momento.",
+        "Ninguém saber se você vai investigar ou tirar da tomada.",
+        "Depende. Caiu de vez ou só tá lento?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de ter tudo baixado antes.",
+      "D": "você não descansa até achar o motivo.",
+      "M": "você mantém todo mundo conectado.",
+      "F": "na hora certa, você só tira da tomada."
+    },
+    "Q": [
+      [
+        "A internet caiu no último episódio. Você...",
+        {
+          "A": "Eu tinha baixado, claro",
+          "D": "Testo pra ver onde caiu",
+          "M": "Ligo o 4G pra casa toda",
+          "F": "Tiro o roteador da tomada"
+        }
+      ],
+      [
+        "Primeira coisa que você faz quando cai:",
+        {
+          "A": "Abro o que já tinha deixado offline",
+          "D": "Testo em outro aparelho pra ver se é o celular",
+          "M": "Aviso o grupo da casa e pergunto quem tá sem",
+          "F": "Desligo e ligo o roteador"
+        }
+      ],
+      [
+        "Você liga pro suporte. Você...",
+        {
+          "A": "Já tenho o número e o protocolo anotados",
+          "D": "Explico todos os testes que já fiz",
+          "M": "Fico na espera enquanto resolvo outras coisas",
+          "F": "Digito 0 até falar com alguém"
+        }
+      ],
+      [
+        "Alguém da casa está numa chamada importante. Você...",
+        {
+          "A": "Já tinha combinado quem usava o 4G nessa hora",
+          "D": "Vejo se o problema é na casa toda ou só no quarto",
+          "M": "Passo meu 4G pra pessoa e me viro sem",
+          "F": "Reinicio o roteador rapidinho, ela nem percebe"
+        }
+      ],
+      [
+        "Com a internet fora, você...",
+        {
+          "A": "Faço a lista de coisas offline que eu tinha planejado",
+          "D": "Fico de olho na luzinha do roteador",
+          "M": "Proponho um jogo de tabuleiro pra todo mundo",
+          "F": "Vou fazer outra coisa e pronto"
+        }
+      ],
+      [
+        "Seu papel na casa quando a internet cai é...",
+        {
+          "A": "Quem tinha um plano B",
+          "D": "Quem descobre o motivo",
+          "M": "Quem mantém todo mundo conectado",
+          "F": "Quem reinicia o roteador"
+        }
+      ],
+      [
+        "Seu maior defeito nessa hora:",
+        {
+          "A": "Baixo tanta coisa que lota a memória",
+          "D": "Testo tanto que esqueço de reiniciar",
+          "M": "Divido o 4G e fico sem nada",
+          "F": "Reinicio no meio da chamada dos outros"
+        }
+      ],
+      [
+        "A internet volta. Você...",
+        {
+          "A": "Anoto o que fazer na próxima queda",
+          "D": "Faço um teste de velocidade pra conferir",
+          "M": "Aviso a casa toda que voltou",
+          "F": "Volto pro episódio na hora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when the Wi-Fi goes down?",
+    "lead": "The router light just turned red. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You downloaded everything because you knew it'd drop.",
+        "You've got episodes downloaded, offline maps and the helpline number saved. When the Wi-Fi drops, your routine barely notices. Everyone else panics; you open plan B.",
+        "Having a plan B ready before you need it.",
+        "Downloading so much your phone storage fills up.",
+        "Relax, I saved a few episodes offline."
+      ],
+      "D": [
+        "The Detective",
+        "You find where the Wi-Fi broke before the helpline does.",
+        "You test the phone, the laptop, the cable and the speed. You read the router lights like a map. By the time you call support, you know more than the agent.",
+        "Finding the cause in minutes.",
+        "Running so many tests you forget to restart the router.",
+        "Hold on. Is it just us or the whole building?"
+      ],
+      "M": [
+        "The Maestro",
+        "You fix the router, share your data and calm the house.",
+        "You restart the router, turn on your hotspot, update the house chat and decide who gets the data first. With you around, nobody stays offline for long.",
+        "Keeping everyone connected at once.",
+        "Sharing your data until there's none left for you.",
+        "Hotspot password's in the chat. One at a time!"
+      ],
+      "F": [
+        "The Finisher",
+        "Unplug, wait ten seconds, plug in. Done.",
+        "You don't diagnose, you do what works: unplug it, plug it back in and move on. If it doesn't come back, you read a book. Nothing keeps you stuck for long.",
+        "Fixing it with the first button you find.",
+        "Restarting the router mid-call for someone else.",
+        "Already turned it off and on. Back yet?"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles depending on the outage: you prepare when you know it's coming, investigate when it's weird, organise the house when everyone needs it and just restart when that's all it takes.",
+        "Being what the house needs right now.",
+        "Nobody knowing if you'll investigate or just unplug it.",
+        "Depends. Is it down or just slow?"
+      ]
+    },
+    "S2": {
+      "A": "you still like having everything downloaded first.",
+      "D": "you can't rest until you find the cause.",
+      "M": "you keep everyone connected.",
+      "F": "when it counts, you just unplug it."
+    },
+    "Q": [
+      [
+        "The Wi-Fi drops on the season finale. You...",
+        {
+          "A": "Had it downloaded, obviously",
+          "D": "Run tests to find the problem",
+          "M": "Share my data with the house",
+          "F": "Unplug the router"
+        }
+      ],
+      [
+        "The first thing you do when it drops:",
+        {
+          "A": "Open whatever I saved offline",
+          "D": "Try another device to see if it's my phone",
+          "M": "Ask the house chat who else is offline",
+          "F": "Turn the router off and on"
+        }
+      ],
+      [
+        "You call the helpline. You...",
+        {
+          "A": "Already have the number and account details ready",
+          "D": "Explain every test I've already run",
+          "M": "Stay on hold while sorting other things",
+          "F": "Press 0 until a human answers"
+        }
+      ],
+      [
+        "Someone at home is on an important call. You...",
+        {
+          "A": "We'd already agreed who gets the hotspot then",
+          "D": "Check if it's the whole house or just their room",
+          "M": "Give them my hotspot and go without",
+          "F": "Restart the router fast, they won't notice"
+        }
+      ],
+      [
+        "With the Wi-Fi out, you...",
+        {
+          "A": "Pull out the offline to-do list I'd planned",
+          "D": "Keep an eye on the router lights",
+          "M": "Suggest a board game for everyone",
+          "F": "Go do something else, simple"
+        }
+      ],
+      [
+        "Your role at home when the Wi-Fi drops is...",
+        {
+          "A": "The one with a plan B",
+          "D": "The one who finds the cause",
+          "M": "The one who keeps everyone online",
+          "F": "The one who restarts the router"
+        }
+      ],
+      [
+        "Your biggest flaw in that moment:",
+        {
+          "A": "I download so much my storage fills up",
+          "D": "I test so much I forget to restart it",
+          "M": "I share my data and end up with none",
+          "F": "I restart it in the middle of someone's call"
+        }
+      ],
+      [
+        "The Wi-Fi comes back. You...",
+        {
+          "A": "Note what to do next time",
+          "D": "Run a speed test to make sure",
+          "M": "Tell the whole house it's back",
+          "F": "Go straight back to the episode"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "断网时你是哪个泡泡？",
+    "lead": "路由器的灯变红了。你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你早就把东西都下载好了，因为知道会断网。",
+        "你下载好了剧集、离线地图，还存了客服电话。断网时，你的生活几乎没受影响。别人在慌，你已经打开了B计划。",
+        "需要之前就准备好B计划。",
+        "下载太多，手机内存满了。",
+        "别急，我下载了几集。"
+      ],
+      "D": [
+        "侦探",
+        "你比客服还先找到断网的原因。",
+        "你测手机、测电脑、查网线、测网速。你看路由器的指示灯就像看地图。等你打给客服时，你懂得比客服还多。",
+        "几分钟内找到问题原因。",
+        "测试太多，忘了重启路由器。",
+        "等等，是只有我们断了还是整栋楼？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边重启路由器、开热点，一边安抚全家。",
+        "你重启路由器、打开手机热点、在家庭群里通知大家，还安排谁先用流量。有你在，没人会断网太久。",
+        "让所有人同时保持在线。",
+        "热点分给大家，自己没流量了。",
+        "热点密码发群里了，一个一个来！"
+      ],
+      "F": [
+        "终结者",
+        "拔电源，等十秒，插回去。搞定。",
+        "你不做诊断，只做有用的事：拔掉、插回、继续生活。如果还没好，那就去看本书。什么都卡不住你太久。",
+        "按第一个找到的按钮就解决问题。",
+        "别人开会时你重启了路由器。",
+        "我已经重启了。好了吗？"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据断网的情况换角色：知道要断就提前准备，情况奇怪就去调查，全家都需要时就负责安排，只是小问题就直接重启。",
+        "成为这个家此刻最需要的人。",
+        "没人知道你会去调查还是直接拔电源。",
+        "看情况。是断了还是只是慢？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前把东西下载好。",
+      "D": "找不到原因你就停不下来。",
+      "M": "你让所有人都保持在线。",
+      "F": "关键时刻，你直接拔电源。"
+    },
+    "Q": [
+      [
+        "大结局放到一半，断网了。你……",
+        {
+          "A": "当然早就下载好了",
+          "D": "测试看看哪里断了",
+          "M": "开热点给全家用",
+          "F": "直接拔路由器电源"
+        }
+      ],
+      [
+        "断网后你做的第一件事：",
+        {
+          "A": "打开之前存好的离线内容",
+          "D": "换个设备试试是不是手机的问题",
+          "M": "在家庭群里问还有谁断了",
+          "F": "把路由器关了再开"
+        }
+      ],
+      [
+        "你打电话给客服。你……",
+        {
+          "A": "号码和账户信息早就准备好了",
+          "D": "把做过的测试一项一项说明",
+          "M": "一边等接通一边处理别的事",
+          "F": "一直按0直到有人工接听"
+        }
+      ],
+      [
+        "家里有人正在开重要的视频会议。你……",
+        {
+          "A": "早就说好这个时间谁用热点",
+          "D": "查查是全家都断了还是只有那个房间",
+          "M": "把热点给他，自己先不用",
+          "F": "快速重启路由器，他应该发现不了"
+        }
+      ],
+      [
+        "断网的时候，你……",
+        {
+          "A": "拿出早就计划好的离线待办清单",
+          "D": "一直盯着路由器的指示灯",
+          "M": "提议全家一起玩桌游",
+          "F": "去做别的事，简单"
+        }
+      ],
+      [
+        "断网时你在家里的角色是……",
+        {
+          "A": "有B计划的那个人",
+          "D": "找出原因的那个人",
+          "M": "让大家保持在线的那个人",
+          "F": "重启路由器的那个人"
+        }
+      ],
+      [
+        "这时候你最大的毛病：",
+        {
+          "A": "下载太多，内存都满了",
+          "D": "测试太多，忘了重启",
+          "M": "热点分给大家，自己没流量",
+          "F": "别人开会时重启了路由器"
+        }
+      ],
+      [
+        "网络恢复了。你……",
+        {
+          "A": "记下下次断网该怎么办",
+          "D": "测一下网速确认",
+          "M": "通知全家网回来了",
+          "F": "马上接着看那一集"
+        }
+      ]
+    ]
+  }
+}

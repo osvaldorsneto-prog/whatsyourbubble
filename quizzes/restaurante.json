@@ -1,0 +1,384 @@
+{
+  "slug": "restaurante",
+  "criado_em": "2026-11-21",
+  "categoria": "comida",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é no restaurante?",
+    "lead": "O cardápio chegou e a mesa inteira travou. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já escolheu o prato olhando o cardápio online.",
+        "Antes de sair de casa você já viu o cardápio, as fotos e o horário de menos fila. Chega, senta e pede sem titubear. Com você, ninguém janta às onze da noite.",
+        "Chegar no restaurante já sabendo o que pedir.",
+        "Sofrer quando o prato que você escolheu acabou.",
+        "Eu já vi aqui: o risoto é o melhor da casa."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum prato chega na mesa sem a sua vistoria.",
+        "Você lê o cardápio inteiro, pergunta o que vem no molho e confere se veio o ponto que pediu. A conta? Item por item. Com você, ninguém paga sobremesa que não pediu.",
+        "Pegar o erro do pedido antes de todo mundo.",
+        "Fazer tanta pergunta que o garçom puxa uma cadeira.",
+        "Moço, esse molho leva o quê exatamente?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você pede pra mesa toda e ainda cuida do pão de alho.",
+        "Você chama o garçom, organiza quem pede o quê, sugere pratos pra dividir e garante que ninguém ficou sem bebida. A mesa funciona porque você rege tudo ao mesmo tempo.",
+        "Fazer a mesa inteira pedir em cinco minutos.",
+        "Cuidar tanto dos outros que seu prato esfria.",
+        "Então: duas porções pro meio e cada um escolhe um."
+      ],
+      "F": [
+        "O Finalizador",
+        "Você pede o primeiro prato que te deu fome.",
+        "Enquanto a mesa debate entradas, você já fechou o cardápio. Não precisa do prato perfeito, precisa de comida. E quase sempre acerta.",
+        "Destravar a mesa na hora de pedir.",
+        "Descobrir o prato mais gostoso depois de ter pedido.",
+        "Vou de prato do dia. Próximo!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a mesa pede: pesquisa quando o lugar é novo, confere quando a conta vem estranha, organiza quando a mesa é grande e pede rápido quando a fome aperta.",
+        "Ser o que a mesa precisa naquele momento.",
+        "Ninguém saber se pode contar com você pra escolher.",
+        "Depende. Qual é a fome da mesa?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de chegar sabendo o que pedir.",
+      "D": "você não deixa a conta passar sem uma olhada.",
+      "M": "você cuida da mesa inteira sem perceber.",
+      "F": "quando bate a fome, você decide na hora."
+    },
+    "Q": [
+      [
+        "O garçom chega e ninguém escolheu ainda. Você...",
+        {
+          "A": "Eu já sabia desde ontem",
+          "D": "Pergunto o que vem em cada prato",
+          "M": "Faço o pedido da mesa toda",
+          "F": "Aponto o primeiro e pronto"
+        }
+      ],
+      [
+        "Alguém sugere um restaurante novo. Você...",
+        {
+          "A": "Vejo cardápio, preço e horário antes de ir",
+          "D": "Leio as avaliações, inclusive as ruins",
+          "M": "Crio o grupo e chamo mais gente",
+          "F": "Bora. Tô com fome."
+        }
+      ],
+      [
+        "O cardápio tem 12 páginas. Você...",
+        {
+          "A": "Vou direto na página que já tinha visto",
+          "D": "Leio todas, inclusive as letras miúdas",
+          "M": "Divido: cada um olha uma parte e conta",
+          "F": "Fecho na segunda página"
+        }
+      ],
+      [
+        "Seu prato chega diferente do que você pediu. Você...",
+        {
+          "A": "Mostro o que eu tinha pedido, com calma",
+          "D": "Comparo com o cardápio pra ter certeza",
+          "M": "Resolvo com o garçom e ainda peço a sobremesa",
+          "F": "Parece bom também. Como esse."
+        }
+      ],
+      [
+        "A comida está demorando. Você...",
+        {
+          "A": "Já tinha pedido uma entrada pensando nisso",
+          "D": "Conto quantas mesas chegaram depois e já comeram",
+          "M": "Puxo assunto pra ninguém ficar de mau humor",
+          "F": "Chamo o garçom e pergunto quanto falta"
+        }
+      ],
+      [
+        "Seu papel na mesa é...",
+        {
+          "A": "Quem escolheu o restaurante",
+          "D": "Quem confere a conta",
+          "M": "Quem organiza os pedidos",
+          "F": "Quem pede primeiro"
+        }
+      ],
+      [
+        "Seu maior defeito no restaurante:",
+        {
+          "A": "Fico triste se o prato que escolhi acabou",
+          "D": "Faço perguntas demais pro garçom",
+          "M": "Cuido dos outros e meu prato esfria",
+          "F": "Peço rápido e depois vejo um melhor"
+        }
+      ],
+      [
+        "A conta chegou. Você...",
+        {
+          "A": "Já tinha combinado como ia dividir",
+          "D": "Confiro item por item",
+          "M": "Faço a conta de cada um no celular",
+          "F": "Passo o cartão e acerto depois"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at a restaurant?",
+    "lead": "The menus arrive and the whole table freezes. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You picked your dish from the menu online.",
+        "Before leaving home you've checked the menu, the photos and the least busy time. You sit down and order without hesitating. With you around, nobody eats dinner at 11pm.",
+        "Walking in already knowing what to order.",
+        "Taking it personally when your dish is sold out.",
+        "I looked it up: the risotto is the one to get."
+      ],
+      "D": [
+        "The Detective",
+        "No plate reaches the table without your inspection.",
+        "You read the whole menu, ask what's in the sauce and check it came the way you asked. The bill? Line by line. With you, nobody pays for a dessert they never ordered.",
+        "Catching the wrong order before anyone else.",
+        "Asking so many questions the waiter pulls up a chair.",
+        "Sorry, what exactly is in that sauce?"
+      ],
+      "M": [
+        "The Maestro",
+        "You order for the table and still guard the garlic bread.",
+        "You flag the waiter, sort out who's having what, suggest plates to share and make sure everyone has a drink. The table works because you're running it all at once.",
+        "Getting the whole table to order in five minutes.",
+        "Looking after everyone while your food goes cold.",
+        "Okay: two to share and everyone picks one."
+      ],
+      "F": [
+        "The Finisher",
+        "You order the first thing that makes you hungry.",
+        "While the table debates starters, you've already closed the menu. You don't need the perfect dish, you need food. And you're usually right.",
+        "Getting the table unstuck when it's time to order.",
+        "Spotting the best dish right after you've ordered.",
+        "Dish of the day. Next!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles depending on the table: you research when the place is new, check when the bill looks odd, organise when the group is big and order fast when you're starving.",
+        "Being what the table needs right now.",
+        "Nobody knowing if you'll be the one to choose.",
+        "Depends. How hungry is everyone?"
+      ]
+    },
+    "S2": {
+      "A": "you still like walking in knowing what to order.",
+      "D": "you never let the bill go unchecked.",
+      "M": "you look after the whole table without noticing.",
+      "F": "when hunger hits, you decide on the spot."
+    },
+    "Q": [
+      [
+        "The waiter's here and nobody's chosen yet. You...",
+        {
+          "A": "Knew mine since yesterday",
+          "D": "Ask what's in every dish",
+          "M": "Order for the whole table",
+          "F": "Point at the first one"
+        }
+      ],
+      [
+        "Someone suggests a new restaurant. You...",
+        {
+          "A": "Check the menu, prices and hours first",
+          "D": "Read the reviews, especially the bad ones",
+          "M": "Start a group chat and invite more people",
+          "F": "Let's go. I'm hungry."
+        }
+      ],
+      [
+        "The menu is 12 pages long. You...",
+        {
+          "A": "Flip straight to the page I'd already seen",
+          "D": "Read every page, small print included",
+          "M": "Split it up: everyone reads a section and reports back",
+          "F": "Close it by page two"
+        }
+      ],
+      [
+        "Your dish arrives and it's not what you ordered. You...",
+        {
+          "A": "Calmly show what I actually ordered",
+          "D": "Check the menu to be sure first",
+          "M": "Sort it with the waiter and order dessert while I'm at it",
+          "F": "This looks good too. I'll eat it."
+        }
+      ],
+      [
+        "The food is taking ages. You...",
+        {
+          "A": "Already ordered a starter just in case",
+          "D": "Count the tables that arrived later and already ate",
+          "M": "Keep the chat going so nobody gets grumpy",
+          "F": "Call the waiter and ask how long"
+        }
+      ],
+      [
+        "Your role at the table is...",
+        {
+          "A": "The one who picked the place",
+          "D": "The one who checks the bill",
+          "M": "The one who organises the orders",
+          "F": "The one who orders first"
+        }
+      ],
+      [
+        "Your biggest flaw at a restaurant:",
+        {
+          "A": "I'm crushed if my dish is sold out",
+          "D": "I ask the waiter too many questions",
+          "M": "I look after everyone and my food goes cold",
+          "F": "I order fast, then spot something better"
+        }
+      ],
+      [
+        "The bill arrives. You...",
+        {
+          "A": "Already agreed how we'd split it",
+          "D": "Check it line by line",
+          "M": "Work out everyone's share on my phone",
+          "F": "Pay with my card and sort it out later"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "在餐厅时你是哪个泡泡？",
+    "lead": "菜单一上来，整桌人都卡住了。你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你早就在网上看好菜单选好菜了。",
+        "出门前你已经看过菜单、照片，还查好了哪个时间人最少。坐下就点，毫不犹豫。有你在，没人会拖到晚上十一点才吃上饭。",
+        "进门前就知道要点什么。",
+        "想点的菜卖完了会很失落。",
+        "我查过了，这家的烩饭最好吃。"
+      ],
+      "D": [
+        "侦探",
+        "每道菜上桌前都要经过你的检查。",
+        "你会把菜单从头看到尾，问酱汁里放了什么，再确认上来的菜是不是你点的样子。账单？一项一项对。有你在，没人会为没点的甜点买单。",
+        "比所有人都先发现上错菜。",
+        "问题多到服务员想拉把椅子坐下。",
+        "请问这个酱汁里具体放了什么？"
+      ],
+      "M": [
+        "指挥家",
+        "你替全桌点菜，还顺手护住了蒜香面包。",
+        "你叫服务员、安排谁点什么、推荐几道大家分着吃的菜，还确保每个人都有饮料。这桌饭能顺利吃上，全靠你同时指挥一切。",
+        "让全桌五分钟内点完菜。",
+        "光顾着照顾别人，自己的菜凉了。",
+        "这样：两道菜大家分，每人再点一个。"
+      ],
+      "F": [
+        "终结者",
+        "哪道菜让你饿了，你就点哪道。",
+        "大家还在讨论前菜，你已经合上菜单了。你不需要最完美的菜，你需要的是饭。而且你通常都点得不错。",
+        "点菜卡住时让全桌动起来。",
+        "刚点完才发现更好吃的那道。",
+        "就要今日特餐。下一个！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据这桌的需要换角色：新餐厅就先做功课，账单不对就仔细核对，人多就负责安排，饿极了就秒点。",
+        "成为这桌此刻最需要的人。",
+        "没人知道该不该让你来选。",
+        "看情况。大家有多饿？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢进门前就想好点什么。",
+      "D": "你从不让账单不经检查就过关。",
+      "M": "你不知不觉就照顾了整桌人。",
+      "F": "一饿起来，你当场就做决定。"
+    },
+    "Q": [
+      [
+        "服务员来了，还没人选好。你……",
+        {
+          "A": "我昨天就想好了",
+          "D": "问每道菜里有什么",
+          "M": "替全桌一起点",
+          "F": "指第一个就行"
+        }
+      ],
+      [
+        "有人提议去一家新餐厅。你……",
+        {
+          "A": "先看菜单、价格和营业时间",
+          "D": "看评价，尤其是差评",
+          "M": "建个群，再多叫几个人",
+          "F": "走吧，我饿了。"
+        }
+      ],
+      [
+        "菜单有12页。你……",
+        {
+          "A": "直接翻到之前看好的那页",
+          "D": "每页都看，连小字也不放过",
+          "M": "分工：每人看一部分再汇报",
+          "F": "翻到第二页就合上"
+        }
+      ],
+      [
+        "上来的菜和你点的不一样。你……",
+        {
+          "A": "平静地指出我点的是什么",
+          "D": "先对照菜单确认一下",
+          "M": "跟服务员说清楚，顺便点个甜点",
+          "F": "这个看着也不错，就吃它吧。"
+        }
+      ],
+      [
+        "菜迟迟不上。你……",
+        {
+          "A": "早就先点了个前菜以防万一",
+          "D": "数一数后来的几桌都已经吃上了",
+          "M": "不停找话题，免得大家不高兴",
+          "F": "叫服务员问还要多久"
+        }
+      ],
+      [
+        "你在这桌的角色是……",
+        {
+          "A": "选餐厅的那个人",
+          "D": "核对账单的那个人",
+          "M": "安排点菜的那个人",
+          "F": "第一个点菜的那个人"
+        }
+      ],
+      [
+        "你在餐厅最大的毛病：",
+        {
+          "A": "想点的菜卖完了就很失落",
+          "D": "问服务员的问题太多",
+          "M": "忙着照顾别人，自己的菜凉了",
+          "F": "点得太快，然后看到更好的"
+        }
+      ],
+      [
+        "账单来了。你……",
+        {
+          "A": "早就说好怎么分了",
+          "D": "一项一项核对",
+          "M": "用手机算好每个人该付多少",
+          "F": "先刷卡，回头再算"
+        }
+      ]
+    ]
+  }
+}
