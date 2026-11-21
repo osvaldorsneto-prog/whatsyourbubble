@@ -1,10 +1,10 @@
 name: Números do painel
 
-# Salva os números do painel público em data/painel.json, pra que as tarefas
-# automáticas leiam pelo GitHub sem precisar abrir o site.
+# Salva os números do painel público em data/painel.json.
+# Desligado em 21/11/2026: não roda mais sozinho (as regras do GitHub não querem Actions
+# pra coisa fora de build/teste/deploy, e a conta tinha acabado de ser revisada).
+# A rotina de ideias lê o painel direto do site. Só roda se alguém mandar à mão.
 on:
-  schedule:
-    - cron: "7 */3 * * *" # a cada 3 horas
   workflow_dispatch:
 
 permissions:
