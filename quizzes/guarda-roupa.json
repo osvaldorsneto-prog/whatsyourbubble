@@ -1,0 +1,384 @@
+{
+  "slug": "guarda-roupa",
+  "criado_em": "2026-11-22",
+  "categoria": "casa",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é no guarda-roupa?",
+    "lead": "Porta abarrotada e a eterna sensação de não ter nada pra vestir. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você separa a roupa de amanhã antes de dormir.",
+        "Seu guarda-roupa tem lógica: por cor, por estação, por ocasião. Você sabe onde está cada peça e já pensou no look da semana inteira. Com você, ninguém se atrasa escolhendo roupa.",
+        "Achar qualquer peça de olho fechado.",
+        "Passar o domingo inteiro reorganizando tudo por cor.",
+        "A camisa azul? Segunda gaveta, embaixo da cinza."
+      ],
+      "D": [
+        "O Detetive",
+        "Você confere etiqueta, bolso e mancha antes de vestir.",
+        "Você lê a etiqueta antes de lavar, confere se a peça não está do avesso e acha a meia perdida que ninguém achava. Nada sai do seu guarda-roupa com botão faltando.",
+        "Achar o par da meia que sumiu há meses.",
+        "Conferir tanto o espelho que perde a hora.",
+        "Essa mancha aqui já estava ou é nova?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida da sua roupa, da roupa da casa e ainda empresta.",
+        "Você sabe o que está lavando, o que precisa passar e quem pegou o quê emprestado. Combina peças de todo mundo e ainda ajuda a escolher o look da festa. O guarda-roupa da casa inteira passa por você.",
+        "Montar um look pra qualquer pessoa em minutos.",
+        "Emprestar tanto que não acha o próprio moletom.",
+        "Essa calça fica ótima com aquela jaqueta que tá com você."
+      ],
+      "F": [
+        "O Finalizador",
+        "Você veste a primeira coisa que combina e sai.",
+        "Você não perde tempo na frente do espelho. Abre a porta, pega, veste e pronto. Enquanto a casa ainda está decidindo, você já está esperando no carro.",
+        "Ficar pronto em dois minutos.",
+        "Descobrir na rua que a camiseta tava do avesso.",
+        "Combina? Combina. Vambora."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o dia pede: planeja o look da viagem, confere a roupa da entrevista, ajuda a casa a se arrumar pra festa e veste qualquer coisa no sábado de manhã.",
+        "Ser o que o guarda-roupa precisa naquele momento.",
+        "Ninguém saber se você vai demorar uma hora ou um minuto.",
+        "Depende. Vai ter foto?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de deixar a roupa separada antes.",
+      "D": "você não sai sem conferir o espelho.",
+      "M": "você ajuda todo mundo a se arrumar.",
+      "F": "na hora certa, você só veste e sai."
+    },
+    "Q": [
+      [
+        "Guarda-roupa lotado e nada pra vestir. Você...",
+        {
+          "A": "Uso o look que separei ontem",
+          "D": "Procuro a peça lá no fundo",
+          "M": "Pego algo emprestado em casa",
+          "F": "Visto o que tiver por cima"
+        }
+      ],
+      [
+        "Dia de arrumar o guarda-roupa. Você...",
+        {
+          "A": "Separo tudo por cor e estação",
+          "D": "Confiro peça por peça o que ainda tá inteiro",
+          "M": "Arrumo o meu e ajudo o resto da casa",
+          "F": "Dobro tudo rápido e fecho a porta"
+        }
+      ],
+      [
+        "Sua gaveta de meias é...",
+        {
+          "A": "Pares dobrados em fileira",
+          "D": "Cada meia conferida e com par",
+          "M": "Cheia de meias de outras pessoas da casa",
+          "F": "Uma bola de meias que funciona"
+        }
+      ],
+      [
+        "Tem uma festa no sábado. Você...",
+        {
+          "A": "Já sei o look desde a semana passada",
+          "D": "Pergunto o traje e confiro a previsão do tempo",
+          "M": "Ajudo metade dos amigos a escolher o look",
+          "F": "Decido na hora, em dois minutos"
+        }
+      ],
+      [
+        "Sumiu sua blusa favorita. Você...",
+        {
+          "A": "Sei exatamente onde ela deveria estar",
+          "D": "Refaço os passos até achar no varal",
+          "M": "Pergunto pra casa toda quem pegou",
+          "F": "Pego outra e sigo a vida"
+        }
+      ],
+      [
+        "Seu papel no guarda-roupa da casa é...",
+        {
+          "A": "Quem organiza",
+          "D": "Quem acha o que sumiu",
+          "M": "Quem empresta e combina tudo",
+          "F": "Quem se arruma primeiro"
+        }
+      ],
+      [
+        "Seu maior defeito com roupa:",
+        {
+          "A": "Passo o domingo reorganizando por cor",
+          "D": "Confiro o espelho até perder a hora",
+          "M": "Empresto tanto que não acho as minhas",
+          "F": "Saio com a camiseta do avesso"
+        }
+      ],
+      [
+        "Chegou uma peça nova. Você...",
+        {
+          "A": "Já sei em qual cabide ela vai",
+          "D": "Leio a etiqueta antes de lavar",
+          "M": "Mostro pra casa e já penso em combinações",
+          "F": "Tiro a etiqueta e visto na hora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with your wardrobe?",
+    "lead": "A packed wardrobe and that eternal feeling of having nothing to wear. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You lay out tomorrow's outfit before bed.",
+        "Your wardrobe has a system: by colour, by season, by occasion. You know where every piece is and you've already planned the week's outfits. With you around, nobody's late because of clothes.",
+        "Finding any piece with your eyes closed.",
+        "Spending a whole Sunday sorting everything by colour.",
+        "The blue shirt? Second drawer, under the grey one."
+      ],
+      "D": [
+        "The Detective",
+        "You check labels, pockets and stains before wearing anything.",
+        "You read the care label before washing, check nothing's inside out and find the missing sock nobody else could. Nothing leaves your wardrobe with a button missing.",
+        "Finding the sock that vanished months ago.",
+        "Checking the mirror so long you run late.",
+        "Was this stain already here or is it new?"
+      ],
+      "M": [
+        "The Maestro",
+        "You handle your clothes, the household's, and still lend stuff out.",
+        "You know what's in the wash, what needs ironing and who borrowed what. You mix and match everyone's pieces and help pick the party outfit too. The whole house's wardrobe runs through you.",
+        "Putting together an outfit for anyone in minutes.",
+        "Lending so much you can't find your own hoodie.",
+        "These trousers would look great with that jacket you've got."
+      ],
+      "F": [
+        "The Finisher",
+        "You put on the first thing that matches and go.",
+        "You don't waste time in front of the mirror. Open, grab, wear, done. While the house is still deciding, you're already waiting in the car.",
+        "Being ready in two minutes.",
+        "Finding out outside that your T-shirt's inside out.",
+        "Does it match? It matches. Let's go."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles depending on the day: you plan the holiday outfits, double-check the interview look, help the house get ready for the party and throw on anything on a Saturday morning.",
+        "Being what the wardrobe needs right now.",
+        "Nobody knowing if you'll take an hour or a minute.",
+        "Depends. Will there be photos?"
+      ]
+    },
+    "S2": {
+      "A": "you still like laying out your clothes in advance.",
+      "D": "you never leave without checking the mirror.",
+      "M": "you help everyone get ready.",
+      "F": "when it counts, you just get dressed and go."
+    },
+    "Q": [
+      [
+        "A packed wardrobe and nothing to wear. You...",
+        {
+          "A": "Wear what I laid out last night",
+          "D": "Dig for that piece at the back",
+          "M": "Borrow something from the house",
+          "F": "Wear whatever's on top"
+        }
+      ],
+      [
+        "Wardrobe clear-out day. You...",
+        {
+          "A": "Sort everything by colour and season",
+          "D": "Check every piece to see what's still in good shape",
+          "M": "Sort mine and help the rest of the house",
+          "F": "Fold it all fast and shut the door"
+        }
+      ],
+      [
+        "Your sock drawer is...",
+        {
+          "A": "Pairs folded in neat rows",
+          "D": "Every sock checked and matched",
+          "M": "Full of other people's socks",
+          "F": "A big ball of socks that works"
+        }
+      ],
+      [
+        "There's a party on Saturday. You...",
+        {
+          "A": "Picked my outfit last week",
+          "D": "Ask about the dress code and check the forecast",
+          "M": "Help half my friends choose outfits",
+          "F": "Decide on the spot in two minutes"
+        }
+      ],
+      [
+        "Your favourite top has vanished. You...",
+        {
+          "A": "I know exactly where it should be",
+          "D": "Retrace my steps until I find it on the line",
+          "M": "Ask the whole house who borrowed it",
+          "F": "Grab another one and move on"
+        }
+      ],
+      [
+        "Your role in the household wardrobe is...",
+        {
+          "A": "The organiser",
+          "D": "The one who finds what's missing",
+          "M": "The one who lends and matches everything",
+          "F": "The first one ready"
+        }
+      ],
+      [
+        "Your biggest flaw with clothes:",
+        {
+          "A": "Spending Sunday sorting by colour",
+          "D": "Checking the mirror until I'm late",
+          "M": "Lending so much I can't find my own",
+          "F": "Going out with my T-shirt inside out"
+        }
+      ],
+      [
+        "A new piece just arrived. You...",
+        {
+          "A": "Already know which hanger it's going on",
+          "D": "Read the care label before washing",
+          "M": "Show the house and plan outfits with it",
+          "F": "Rip the tag off and wear it right away"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "面对衣柜你是哪个泡泡？",
+    "lead": "衣柜塞得满满的，却永远觉得没衣服穿。你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "睡前你就把明天的衣服准备好了。",
+        "你的衣柜有一套系统：按颜色、按季节、按场合。你知道每件衣服在哪，一周的穿搭都想好了。有你在，没人会因为挑衣服迟到。",
+        "闭着眼睛也能找到任何一件衣服。",
+        "花整个周日按颜色重新整理。",
+        "蓝衬衫？第二个抽屉，灰色那件下面。"
+      ],
+      "D": [
+        "侦探",
+        "穿之前你会检查标签、口袋和污渍。",
+        "洗之前你会看洗涤标签，确认衣服没穿反，还能找到大家都找不到的那只袜子。从你衣柜里出来的衣服，绝不会少一颗扣子。",
+        "找到消失好几个月的那只袜子。",
+        "照镜子照太久，结果迟到了。",
+        "这块污渍是本来就有，还是新的？"
+      ],
+      "M": [
+        "指挥家",
+        "你管自己的衣服、全家的衣服，还借给别人穿。",
+        "你知道哪件在洗、哪件要熨、谁借走了哪件。你会搭配每个人的衣服，还帮大家挑派对穿什么。全家的衣柜都要经过你。",
+        "几分钟就能帮任何人搭好一身。",
+        "借出去太多，找不到自己的卫衣。",
+        "这条裤子配你那件外套超好看。"
+      ],
+      "F": [
+        "终结者",
+        "你穿上第一件能搭的就出门。",
+        "你不会在镜子前浪费时间。打开、拿出、穿上，搞定。家里其他人还在纠结，你已经在车里等着了。",
+        "两分钟就准备好。",
+        "出门了才发现T恤穿反了。",
+        "搭吗？搭。走吧。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据当天的需要换角色：旅行前规划穿搭，面试前仔细检查，派对前帮全家打扮，周六早上随便穿一件就出门。",
+        "成为衣柜此刻最需要的人。",
+        "没人知道你要花一小时还是一分钟。",
+        "看情况。要拍照吗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前把衣服准备好。",
+      "D": "你不照镜子检查就不出门。",
+      "M": "你帮每个人都打扮好。",
+      "F": "关键时刻，你只管穿上就走。"
+    },
+    "Q": [
+      [
+        "衣柜满满的，却没衣服穿。你……",
+        {
+          "A": "穿昨晚准备好的那套",
+          "D": "去最里面翻那件衣服",
+          "M": "找家里人借一件",
+          "F": "最上面是什么就穿什么"
+        }
+      ],
+      [
+        "整理衣柜的日子。你……",
+        {
+          "A": "按颜色和季节全部分类",
+          "D": "一件一件检查还能不能穿",
+          "M": "整理完自己的，再帮全家整理",
+          "F": "快速叠好，关上柜门"
+        }
+      ],
+      [
+        "你的袜子抽屉是……",
+        {
+          "A": "一双双叠好排成排",
+          "D": "每只都检查过、配好对",
+          "M": "塞满了家里其他人的袜子",
+          "F": "一团袜子，但能用"
+        }
+      ],
+      [
+        "周六有个派对。你……",
+        {
+          "A": "上周就选好穿什么了",
+          "D": "先问着装要求，再看天气预报",
+          "M": "帮一半朋友挑衣服",
+          "F": "当场两分钟决定"
+        }
+      ],
+      [
+        "你最喜欢的上衣不见了。你……",
+        {
+          "A": "我很清楚它应该在哪",
+          "D": "回想一遍，最后在晾衣架上找到",
+          "M": "问全家谁借走了",
+          "F": "换一件，继续过日子"
+        }
+      ],
+      [
+        "你在家里衣柜中的角色是……",
+        {
+          "A": "负责整理的人",
+          "D": "找回失物的人",
+          "M": "借衣服、搭衣服的人",
+          "F": "第一个准备好的人"
+        }
+      ],
+      [
+        "你在穿衣上最大的毛病：",
+        {
+          "A": "整个周日都在按颜色整理",
+          "D": "照镜子照到迟到",
+          "M": "借出去太多，找不到自己的",
+          "F": "T恤穿反了就出门"
+        }
+      ],
+      [
+        "新衣服到了。你……",
+        {
+          "A": "早就想好挂在哪个衣架上",
+          "D": "洗之前先看洗涤标签",
+          "M": "给全家看，顺便想想怎么搭",
+          "F": "剪掉吊牌马上穿"
+        }
+      ]
+    ]
+  }
+}

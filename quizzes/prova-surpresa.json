@@ -1,0 +1,384 @@
+{
+  "slug": "prova-surpresa",
+  "criado_em": "2026-11-22",
+  "categoria": "estudos",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é na prova surpresa?",
+    "lead": "O professor entra, sorri e fala: \"guardem o material\". Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você revisa a matéria toda semana, só por via das dúvidas.",
+        "Seu caderno tem resumo, cor e índice. Pra você, prova surpresa é só uma prova com outro nome. Enquanto a sala entra em pânico, você já sabe por onde começar.",
+        "Estar pronto antes de precisar.",
+        "Montar cronograma de estudo até pras férias.",
+        "Tranquilo, isso tava no resumo da semana passada."
+      ],
+      "D": [
+        "O Detetive",
+        "Você lê cada pergunta duas vezes antes de responder.",
+        "Você confere o enunciado, sublinha o \"exceto\" e revisa a prova inteira antes de entregar. Pegadinha nenhuma passa por você, e às vezes você acha até erro de digitação na prova.",
+        "Achar a pegadinha escondida no enunciado.",
+        "Revisar tanto que o tempo acaba.",
+        "Professor, a questão 3 tem duas respostas certas."
+      ],
+      "M": [
+        "O Maestro",
+        "Você acalma a sala, empresta caneta e ainda faz a prova.",
+        "Você sabe quem esqueceu o lápis, quem está nervoso e quanto tempo falta. Divide a borracha, faz um sinal de calma pro amigo e ainda dá conta das questões no seu ritmo.",
+        "Manter a calma de todo mundo, inclusive a sua.",
+        "Emprestar tanto material que fica sem caneta.",
+        "Respira. Alguém tem uma caneta azul sobrando?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você é a primeira pessoa a entregar a prova.",
+        "Você lê, responde e entrega. Não trava numa questão difícil: pula, volta e fecha. Enquanto a sala ainda está no começo, você já está lá fora esperando o intervalo.",
+        "Terminar a prova com tempo de sobra.",
+        "Entregar rápido e lembrar a resposta no corredor.",
+        "Pronto. Alguém mais vai demorar?"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a prova pede: planeja quando dá tempo, confere quando a questão é traiçoeira, ajuda a sala quando bate o nervoso e acelera quando o relógio aperta.",
+        "Ser o que a prova precisa naquele momento.",
+        "Ninguém saber se você vai entregar primeiro ou por último.",
+        "Depende. Vale nota?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de estar preparado antes.",
+      "D": "você não entrega nada sem revisar.",
+      "M": "você cuida da calma da sala inteira.",
+      "F": "na hora certa, você só responde e entrega."
+    },
+    "Q": [
+      [
+        "O professor fala: \"prova surpresa!\" Você...",
+        {
+          "A": "Eu já tinha revisado",
+          "D": "Pergunto se vale nota",
+          "M": "Acalmo o colega do lado",
+          "F": "Pego a caneta e começo"
+        }
+      ],
+      [
+        "O professor avisa a matéria da semana. Você...",
+        {
+          "A": "Monto um cronograma de estudo",
+          "D": "Confiro quais capítulos caem mesmo",
+          "M": "Crio o grupo de estudo da turma",
+          "F": "Estudo na véspera, focado"
+        }
+      ],
+      [
+        "Seu caderno é...",
+        {
+          "A": "Organizado por cor e com índice",
+          "D": "Cheio de anotações nas margens",
+          "M": "Emprestado pra metade da sala",
+          "F": "Só o essencial, direto ao ponto"
+        }
+      ],
+      [
+        "Tem uma questão que você não faz ideia. Você...",
+        {
+          "A": "Sigo meu plano: deixo pro fim",
+          "D": "Leio de novo procurando uma pista",
+          "M": "Vou e volto entre várias questões",
+          "F": "Chuto com confiança e sigo"
+        }
+      ],
+      [
+        "O colega do lado tá nervoso. Você...",
+        {
+          "A": "Lembro que ele também estudou isso",
+          "D": "Vejo se ele tem tudo que precisa",
+          "M": "Empresto caneta e faço sinal de calma",
+          "F": "Faço um sinal de \"bora, vai dar\""
+        }
+      ],
+      [
+        "Seu papel na turma é...",
+        {
+          "A": "Quem faz os resumos",
+          "D": "Quem acha o erro no gabarito",
+          "M": "Quem organiza o grupo de estudo",
+          "F": "Quem entrega primeiro"
+        }
+      ],
+      [
+        "Seu maior defeito em prova:",
+        {
+          "A": "Planejo a ordem das questões e perco tempo",
+          "D": "Reviso tanto que o tempo acaba",
+          "M": "Empresto material e fico sem caneta",
+          "F": "Entrego e lembro a resposta no corredor"
+        }
+      ],
+      [
+        "Saiu a nota. Você...",
+        {
+          "A": "Já anoto o que revisar pra próxima",
+          "D": "Confiro a correção questão por questão",
+          "M": "Comemoro com a turma toda",
+          "F": "Vi a nota, fechei, próximo assunto"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in a pop quiz?",
+    "lead": "The teacher walks in, smiles and says: \"books away\". Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You review every week, just in case.",
+        "Your notes have summaries, colours and an index. To you, a pop quiz is just a quiz with a different name. While the class panics, you already know where to start.",
+        "Being ready before you need to be.",
+        "Making a study plan even for the holidays.",
+        "Relax, this was in last week's summary."
+      ],
+      "D": [
+        "The Detective",
+        "You read every question twice before answering.",
+        "You check the wording, underline the \"except\" and go over the whole paper before handing it in. No trick question gets past you, and sometimes you even spot a typo in the quiz.",
+        "Finding the trick hidden in the question.",
+        "Checking so much you run out of time.",
+        "Excuse me, question 3 has two right answers."
+      ],
+      "M": [
+        "The Maestro",
+        "You calm the room, lend a pen and still do the quiz.",
+        "You know who forgot a pencil, who's nervous and how much time is left. You share your eraser, give your friend a calm-down nod and still get through the questions at your own pace.",
+        "Keeping everyone calm, including you.",
+        "Lending so much stuff you end up without a pen.",
+        "Breathe. Anyone got a spare blue pen?"
+      ],
+      "F": [
+        "The Finisher",
+        "You're the first one to hand in the paper.",
+        "You read, answer and hand it in. You don't get stuck on a hard question: skip it, come back, done. While the class is still on page one, you're already outside waiting for break.",
+        "Finishing with time to spare.",
+        "Handing in fast and remembering the answer in the corridor.",
+        "Done. Anyone else gonna take long?"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles depending on the quiz: you plan when there's time, double-check when a question is sneaky, help the room when nerves kick in and speed up when the clock runs low.",
+        "Being what the quiz needs right now.",
+        "Nobody knowing if you'll finish first or last.",
+        "Depends. Does it count?"
+      ]
+    },
+    "S2": {
+      "A": "you still like being prepared in advance.",
+      "D": "you never hand anything in without checking.",
+      "M": "you look after the whole room's calm.",
+      "F": "when it counts, you just answer and hand it in."
+    },
+    "Q": [
+      [
+        "The teacher says: \"Pop quiz!\" You...",
+        {
+          "A": "I already reviewed",
+          "D": "Ask if it counts",
+          "M": "Calm down my neighbour",
+          "F": "Grab a pen and start"
+        }
+      ],
+      [
+        "The teacher mentions this week's topic. You...",
+        {
+          "A": "Make a study schedule",
+          "D": "Check which chapters actually matter",
+          "M": "Set up the class study group",
+          "F": "Study the night before, fully focused"
+        }
+      ],
+      [
+        "Your notebook is...",
+        {
+          "A": "Colour-coded with an index",
+          "D": "Full of notes in the margins",
+          "M": "Borrowed by half the class",
+          "F": "Just the essentials, straight to the point"
+        }
+      ],
+      [
+        "There's a question you have no clue about. You...",
+        {
+          "A": "Stick to my plan: leave it for last",
+          "D": "Reread it looking for a clue",
+          "M": "Juggle a few questions and come back",
+          "F": "Guess confidently and move on"
+        }
+      ],
+      [
+        "The person next to you is nervous. You...",
+        {
+          "A": "Remind them they studied this too",
+          "D": "Check they've got everything they need",
+          "M": "Lend a pen and give a calm-down nod",
+          "F": "Nod at them: come on, you've got this"
+        }
+      ],
+      [
+        "Your role in class is...",
+        {
+          "A": "The one who writes the summaries",
+          "D": "The one who finds mistakes in the answer key",
+          "M": "The one who runs the study group",
+          "F": "The first one to hand in"
+        }
+      ],
+      [
+        "Your biggest flaw in a test:",
+        {
+          "A": "Planning the question order and losing time",
+          "D": "Checking so much I run out of time",
+          "M": "Lending stuff and ending up without a pen",
+          "F": "Handing in and remembering the answer in the corridor"
+        }
+      ],
+      [
+        "Grades are out. You...",
+        {
+          "A": "Note what to review next time",
+          "D": "Check the marking question by question",
+          "M": "Celebrate with the whole class",
+          "F": "Saw it, closed it, next topic"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "突击测验时你是哪个泡泡？",
+    "lead": "老师走进来，笑着说：“把书收起来。”你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你每周都复习，以防万一。",
+        "你的笔记有总结、有颜色，还有目录。对你来说，突击测验只是换了个名字的考试。全班都慌了，你已经知道从哪题开始。",
+        "在需要之前就准备好。",
+        "连假期都排好了复习计划。",
+        "别慌，上周的总结里有这个。"
+      ],
+      "D": [
+        "侦探",
+        "每道题你都要读两遍才动笔。",
+        "你会仔细看题干，把“不正确的是”划出来，交卷前再从头检查一遍。没有哪道陷阱题能骗过你，有时你连试卷上的错别字都能找到。",
+        "找出题目里藏着的陷阱。",
+        "检查太久，时间不够了。",
+        "老师，第3题有两个正确答案。"
+      ],
+      "M": [
+        "指挥家",
+        "你安抚全班、借出笔，自己还能做完题。",
+        "你知道谁忘带铅笔、谁很紧张、还剩多少时间。你分享橡皮，给朋友一个“别紧张”的眼神，还能按自己的节奏把题做完。",
+        "让大家都保持冷静，包括你自己。",
+        "借出去的东西太多，自己没笔了。",
+        "深呼吸。谁有多余的蓝笔？"
+      ],
+      "F": [
+        "终结者",
+        "你总是第一个交卷。",
+        "你读题、作答、交卷。遇到难题不会卡住：先跳过，回头再做，搞定。别人还在第一页，你已经在外面等下课了。",
+        "提前很多时间做完。",
+        "交卷太快，走到走廊才想起答案。",
+        "好了。还有人要很久吗？"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据考试的需要换角色：有时间就规划，题目有陷阱就仔细检查，大家紧张时就安抚全班，时间快到了就加速。",
+        "成为这场考试此刻最需要的人。",
+        "没人知道你会第一个交卷还是最后一个。",
+        "看情况。算分吗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前准备好。",
+      "D": "你不检查就不交任何东西。",
+      "M": "你照顾着全班的情绪。",
+      "F": "关键时刻，你只管作答交卷。"
+    },
+    "Q": [
+      [
+        "老师说：“突击测验！”你……",
+        {
+          "A": "我早就复习过了",
+          "D": "先问算不算分",
+          "M": "安慰旁边的同学",
+          "F": "拿起笔就开始"
+        }
+      ],
+      [
+        "老师提到这周的内容。你……",
+        {
+          "A": "做一份复习计划",
+          "D": "确认到底考哪几章",
+          "M": "建一个全班学习群",
+          "F": "考前一晚集中复习"
+        }
+      ],
+      [
+        "你的笔记本是……",
+        {
+          "A": "按颜色分类，还有目录",
+          "D": "页边写满了批注",
+          "M": "被半个班借过",
+          "F": "只记重点，简单直接"
+        }
+      ],
+      [
+        "有一道题你完全不会。你……",
+        {
+          "A": "按计划：留到最后",
+          "D": "再读一遍找线索",
+          "M": "几道题轮着做，回头再看",
+          "F": "自信地蒙一个，继续"
+        }
+      ],
+      [
+        "旁边的同学很紧张。你……",
+        {
+          "A": "提醒他这些他也复习过",
+          "D": "看看他东西带齐没有",
+          "M": "借他笔，给他一个“别紧张”的眼神",
+          "F": "冲他点头：加油，能行"
+        }
+      ],
+      [
+        "你在班上的角色是……",
+        {
+          "A": "写总结的那个人",
+          "D": "找出答案错误的那个人",
+          "M": "组织学习小组的那个人",
+          "F": "第一个交卷的那个人"
+        }
+      ],
+      [
+        "你考试时最大的毛病：",
+        {
+          "A": "规划答题顺序，反而浪费时间",
+          "D": "检查太久，时间不够",
+          "M": "借出东西，自己没笔了",
+          "F": "交了卷，在走廊才想起答案"
+        }
+      ],
+      [
+        "成绩出来了。你……",
+        {
+          "A": "记下下次要复习什么",
+          "D": "一题一题核对批改",
+          "M": "和全班一起庆祝",
+          "F": "看了一眼，下一个话题"
+        }
+      ]
+    ]
+  }
+}

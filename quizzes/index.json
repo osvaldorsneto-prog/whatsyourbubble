@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "prova-surpresa",
+   "url": "/q/?s=prova-surpresa",
+   "criado_em": "2026-11-22",
+   "categoria": "estudos",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é na prova surpresa?",
+    "en": "What's your bubble in a pop quiz?",
+    "zh": "突击测验时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "primeiro-dia-no-trabalho",
+   "url": "/q/?s=primeiro-dia-no-trabalho",
+   "criado_em": "2026-11-22",
+   "categoria": "trabalho",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no primeiro dia de trabalho?",
+    "en": "What's your bubble on your first day at work?",
+    "zh": "上班第一天你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "guarda-roupa",
+   "url": "/q/?s=guarda-roupa",
+   "criado_em": "2026-11-22",
+   "categoria": "casa",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é no guarda-roupa?",
+    "en": "What's your bubble with your wardrobe?",
+    "zh": "面对衣柜你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "trilha",
    "url": "/q/?s=trilha",
    "criado_em": "2026-11-21",

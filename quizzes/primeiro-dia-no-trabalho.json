@@ -1,0 +1,384 @@
+{
+  "slug": "primeiro-dia-no-trabalho",
+  "criado_em": "2026-11-22",
+  "categoria": "trabalho",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no primeiro dia de trabalho?",
+    "lead": "Crachá novo, um monte de nomes pra decorar e nenhuma ideia de onde fica o café. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você testou o caminho até o escritório no fim de semana.",
+        "Você leu sobre a empresa, separou a roupa e chegou quinze minutos antes. Já tem um caderno só pra anotar nomes, siglas e senhas. Com você, a primeira semana parece a décima.",
+        "Chegar sabendo mais do que esperavam.",
+        "Planejar o primeiro dia como se fosse uma viagem.",
+        "Anotei aqui: reunião às 10, almoço ao meio-dia."
+      ],
+      "D": [
+        "O Detetive",
+        "Em uma hora você já sabe como o escritório funciona de verdade.",
+        "Você repara quem decide as coisas, qual impressora funciona e qual caneca é de quem. Lê o manual que ninguém lê e faz as perguntas que todo mundo tinha vergonha de fazer.",
+        "Entender tudo sem precisar que expliquem.",
+        "Perguntar até a senha do wi-fi de visitas.",
+        "Só pra confirmar: essa caneca é de alguém?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você termina o primeiro dia amigo da equipe inteira.",
+        "Você puxa conversa no café, decora o nome de todo mundo e ajuda o outro novato a achar a sala. No fim do dia, já sabe quem faz aniversário e foi chamado pro almoço de sexta.",
+        "Fazer todo mundo se sentir em casa, inclusive você.",
+        "Conversar tanto que esquece de configurar o computador.",
+        "Prazer! Alguém sabe onde fica a sala de reunião?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você entrega a primeira tarefa antes do almoço.",
+        "Você não espera o treinamento completo. Pegou o computador, pediu uma tarefa e entregou. Enquanto os outros novatos ainda leem o manual, você já pergunta qual é a próxima.",
+        "Mostrar resultado logo no primeiro dia.",
+        "Começar a tarefa antes de ter a senha do sistema.",
+        "Pronto, terminei. Tem mais alguma coisa?"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o dia pede: planeja na véspera, observa nas primeiras horas, puxa conversa no café e acelera quando aparece a primeira tarefa.",
+        "Ser o que o primeiro dia precisa naquele momento.",
+        "Ninguém saber se você é o novato quieto ou o falante.",
+        "Depende. O café é de graça?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de chegar preparado.",
+      "D": "você repara em tudo antes de agir.",
+      "M": "você transforma a equipe numa turma.",
+      "F": "na hora certa, você só pega a tarefa e entrega."
+    },
+    "Q": [
+      [
+        "1º dia no emprego e ninguém te deu a senha. Você...",
+        {
+          "A": "Pedi por e-mail ontem",
+          "D": "Descubro quem tem a senha",
+          "M": "Faço amizade com a mesa ao lado",
+          "F": "Começo algo sem computador"
+        }
+      ],
+      [
+        "Na véspera do primeiro dia, você...",
+        {
+          "A": "Separo a roupa e testo o caminho",
+          "D": "Leio tudo sobre a empresa e a equipe",
+          "M": "Mando mensagem pra quem já trabalha lá",
+          "F": "Durmo cedo e pronto"
+        }
+      ],
+      [
+        "Hora do café. Você...",
+        {
+          "A": "Aproveito pra revisar minhas anotações",
+          "D": "Descubro qual caneca é de quem",
+          "M": "Converso com a equipe inteira",
+          "F": "Pego o café e volto pra mesa"
+        }
+      ],
+      [
+        "Chegou a primeira tarefa. Você...",
+        {
+          "A": "Faço um plano de como vou entregar",
+          "D": "Faço três perguntas antes de começar",
+          "M": "Descubro quem mais tá envolvido e junto todo mundo",
+          "F": "Começo na hora e entrego no mesmo dia"
+        }
+      ],
+      [
+        "Esqueceu o nome de um colega. Você...",
+        {
+          "A": "Confiro na lista que anotei",
+          "D": "Leio o crachá de canto de olho",
+          "M": "Puxo conversa até alguém falar o nome",
+          "F": "Pergunto de novo, sem drama"
+        }
+      ],
+      [
+        "Seu papel entre os novatos é...",
+        {
+          "A": "Quem chegou preparado",
+          "D": "Quem descobre como tudo funciona",
+          "M": "Quem enturma todo mundo",
+          "F": "Quem entrega a primeira tarefa"
+        }
+      ],
+      [
+        "Seu maior defeito no primeiro dia:",
+        {
+          "A": "Planejo tanto que pareço nervoso",
+          "D": "Faço pergunta até sobre a cadeira",
+          "M": "Converso tanto que não configuro o computador",
+          "F": "Começo antes de entender a tarefa"
+        }
+      ],
+      [
+        "Acabou o primeiro dia. Você...",
+        {
+          "A": "Já organizo o plano da semana",
+          "D": "Reviso tudo o que aprendi",
+          "M": "Saio com convite pro almoço de sexta",
+          "F": "Mando: \"primeira tarefa entregue\""
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on your first day at work?",
+    "lead": "New badge, a dozen names to remember and no idea where the coffee is. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You tested the commute over the weekend.",
+        "You read up on the company, laid out your clothes and showed up fifteen minutes early. You've got a notebook just for names, acronyms and passwords. With you, week one feels like week ten.",
+        "Showing up knowing more than they expected.",
+        "Planning your first day like a holiday.",
+        "Got it written down: meeting at 10, lunch at 12."
+      ],
+      "D": [
+        "The Detective",
+        "Within an hour, you know how the office really works.",
+        "You notice who actually makes the decisions, which printer works and whose mug is whose. You read the handbook nobody reads and ask the questions everyone was too shy to ask.",
+        "Figuring everything out without being told.",
+        "Asking even for the guest wi-fi password.",
+        "Just checking: is this mug someone's?"
+      ],
+      "M": [
+        "The Maestro",
+        "You end day one friends with the whole team.",
+        "You chat at the coffee machine, learn everyone's name and help the other newbie find the meeting room. By the end of the day, you know whose birthday is coming up and you're invited to Friday lunch.",
+        "Making everyone feel at home, including you.",
+        "Chatting so much you forget to set up your laptop.",
+        "Hi! Does anyone know where the meeting room is?"
+      ],
+      "F": [
+        "The Finisher",
+        "You deliver your first task before lunch.",
+        "You don't wait for the full training. You grabbed the laptop, asked for a task and delivered it. While the other newbies are still reading the handbook, you're asking what's next.",
+        "Showing results on day one.",
+        "Starting the task before getting your login.",
+        "Done. Anything else?"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles depending on the day: you plan the night before, observe in the first few hours, chat at the coffee machine and speed up when the first task lands.",
+        "Being what day one needs right now.",
+        "Nobody knowing if you're the quiet new hire or the chatty one.",
+        "Depends. Is the coffee free?"
+      ]
+    },
+    "S2": {
+      "A": "you still like showing up prepared.",
+      "D": "you notice everything before you act.",
+      "M": "you turn the team into a crew.",
+      "F": "when it counts, you just grab the task and deliver."
+    },
+    "Q": [
+      [
+        "Day 1 at work and nobody gave you a login. You...",
+        {
+          "A": "Emailed for it yesterday",
+          "D": "Find out who has the logins",
+          "M": "Make friends with the next desk",
+          "F": "Start something offline"
+        }
+      ],
+      [
+        "The night before your first day, you...",
+        {
+          "A": "Lay out my clothes and test the route",
+          "D": "Read everything about the company and the team",
+          "M": "Message people who already work there",
+          "F": "Go to bed early, that's it"
+        }
+      ],
+      [
+        "Coffee break. You...",
+        {
+          "A": "Use it to go over my notes",
+          "D": "Figure out whose mug is whose",
+          "M": "Chat with the whole team",
+          "F": "Grab a coffee and head back to my desk"
+        }
+      ],
+      [
+        "You get your first task. You...",
+        {
+          "A": "Make a plan for how to deliver it",
+          "D": "Ask three questions before starting",
+          "M": "Find out who else is involved and bring them in",
+          "F": "Start right away and deliver the same day"
+        }
+      ],
+      [
+        "You forgot a colleague's name. You...",
+        {
+          "A": "Check the list I wrote down",
+          "D": "Sneak a look at their badge",
+          "M": "Keep chatting until someone says it",
+          "F": "Just ask again, no big deal"
+        }
+      ],
+      [
+        "Your role among the new hires is...",
+        {
+          "A": "The one who came prepared",
+          "D": "The one who figures out how it all works",
+          "M": "The one who gets everyone mingling",
+          "F": "The one who delivers the first task"
+        }
+      ],
+      [
+        "Your biggest flaw on day one:",
+        {
+          "A": "Planning so much I look nervous",
+          "D": "Asking questions even about the chair",
+          "M": "Chatting so much my laptop isn't set up",
+          "F": "Starting before I understand the task"
+        }
+      ],
+      [
+        "Day one's over. You...",
+        {
+          "A": "Already sorting out the week's plan",
+          "D": "Go over everything I learned",
+          "M": "Leave with an invite to Friday lunch",
+          "F": "Send: \"first task done\""
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "上班第一天你是哪个泡泡？",
+    "lead": "新工牌、一堆要记的名字，还不知道咖啡在哪。你是这4种里的哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "周末你就提前走了一遍通勤路线。",
+        "你提前了解了公司，准备好衣服，提前十五分钟到。你还有一个专门记名字、缩写和密码的本子。有你在，第一周就像第十周。",
+        "比大家预想的懂得更多。",
+        "把上班第一天当成旅行来规划。",
+        "我记下了：10点开会，12点午饭。"
+      ],
+      "D": [
+        "侦探",
+        "一小时之内，你就摸清了办公室真正的运作方式。",
+        "你会注意到真正拍板的是谁、哪台打印机能用、哪个杯子是谁的。你会读那本没人读的员工手册，还会问大家不好意思问的问题。",
+        "不用别人解释就全搞懂。",
+        "连访客Wi-Fi密码都要问一遍。",
+        "确认一下：这个杯子有人用吗？"
+      ],
+      "M": [
+        "指挥家",
+        "第一天结束，你和整个团队都成了朋友。",
+        "你在咖啡机旁聊天，记住每个人的名字，还帮另一个新人找到会议室。到了下班，你已经知道谁快过生日了，还被约了周五的午饭。",
+        "让每个人都有归属感，包括你自己。",
+        "聊得太开心，忘了设置电脑。",
+        "你好！有人知道会议室在哪吗？"
+      ],
+      "F": [
+        "终结者",
+        "午饭前你就交了第一个任务。",
+        "你不等完整的培训。拿到电脑，要了个任务，就交了。别的新人还在看手册，你已经在问下一个任务了。",
+        "第一天就拿出成果。",
+        "还没拿到系统账号就开始干活。",
+        "好了，做完了。还有别的吗？"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据当天的需要换角色：前一晚做规划，头几个小时仔细观察，咖啡时间和大家聊天，第一个任务来了就加速。",
+        "成为第一天此刻最需要的人。",
+        "没人知道你是安静的新人还是话多的那个。",
+        "看情况。咖啡免费吗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢有准备地出现。",
+      "D": "你行动前会先观察一切。",
+      "M": "你让团队变成一伙人。",
+      "F": "关键时刻，你只管接任务、交成果。"
+    },
+    "Q": [
+      [
+        "上班第一天，没人给你账号。你……",
+        {
+          "A": "我昨天就发邮件要了",
+          "D": "找出谁管账号",
+          "M": "先和邻座交朋友",
+          "F": "先做不用电脑的事"
+        }
+      ],
+      [
+        "上班前一晚，你……",
+        {
+          "A": "准备好衣服，查好路线",
+          "D": "把公司和团队的资料都看一遍",
+          "M": "给已经在那上班的人发消息",
+          "F": "早点睡，就这样"
+        }
+      ],
+      [
+        "咖啡时间。你……",
+        {
+          "A": "趁机复习一下笔记",
+          "D": "搞清楚哪个杯子是谁的",
+          "M": "和整个团队聊天",
+          "F": "拿杯咖啡回座位"
+        }
+      ],
+      [
+        "你拿到了第一个任务。你……",
+        {
+          "A": "先做个计划，想好怎么交付",
+          "D": "开始前先问三个问题",
+          "M": "找出还有谁参与，把大家拉到一起",
+          "F": "马上开始，当天就交"
+        }
+      ],
+      [
+        "你忘了一个同事的名字。你……",
+        {
+          "A": "翻一下我记的名单",
+          "D": "偷偷瞄一眼他的工牌",
+          "M": "一直聊，等别人叫出他的名字",
+          "F": "直接再问一次，没什么"
+        }
+      ],
+      [
+        "你在新人里的角色是……",
+        {
+          "A": "有备而来的那个",
+          "D": "摸清一切的那个",
+          "M": "让大家熟起来的那个",
+          "F": "第一个交任务的那个"
+        }
+      ],
+      [
+        "你上班第一天最大的毛病：",
+        {
+          "A": "准备太多，看起来很紧张",
+          "D": "连椅子的事都要问",
+          "M": "聊太多，电脑还没设置好",
+          "F": "还没搞懂任务就开始做"
+        }
+      ],
+      [
+        "第一天结束了。你……",
+        {
+          "A": "已经在安排这周的计划",
+          "D": "把学到的东西复习一遍",
+          "M": "带着周五午饭的邀请下班",
+          "F": "发消息：“第一个任务完成”"
+        }
+      ]
+    ]
+  }
+}
