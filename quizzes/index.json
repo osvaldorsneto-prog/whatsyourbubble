@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "pet-do-amigo",
+   "url": "/q/?s=pet-do-amigo",
+   "criado_em": "2026-11-23",
+   "categoria": "pets",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é cuidando do pet do amigo?",
+    "en": "What's your bubble pet-sitting for a friend?",
+    "zh": "帮朋友照顾宠物时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "mimica",
+   "url": "/q/?s=mimica",
+   "criado_em": "2026-11-23",
+   "categoria": "jogos",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é na mímica?",
+    "en": "What's your bubble at charades?",
+    "zh": "玩你比我猜时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "banheiro-de-manha",
+   "url": "/q/?s=banheiro-de-manha",
+   "criado_em": "2026-11-23",
+   "categoria": "familia",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no banheiro de manhã?",
+    "en": "What's your bubble in the morning bathroom rush?",
+    "zh": "早上抢卫生间时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "prova-surpresa",
    "url": "/q/?s=prova-surpresa",
    "criado_em": "2026-11-22",

@@ -1,0 +1,384 @@
+{
+  "slug": "mimica",
+  "criado_em": "2026-11-23",
+  "categoria": "jogos",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é na mímica?",
+    "lead": "Sem falar nada, só com gestos e muita coragem. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você combina os sinais antes do jogo começar.",
+        "Pra você, mímica tem estratégia: dedos pro número de palavras, mão na orelha pra “parece com”. Você divide tudo em partes, e seu time sempre sabe o que esperar.",
+        "Explicar qualquer palavra por partes.",
+        "Inventar tanto sinal que o time esquece metade.",
+        "Lembra: mão na orelha é “parece com”."
+      ],
+      "D": [
+        "O Detetive",
+        "Você percebe na hora quem soprou a resposta.",
+        "Você lê o papel com calma, confere se todo mundo seguiu as regras e repara em cada detalhe do gesto. Com você, ninguém ganha falando baixinho.",
+        "Pegar qualquer trapaça no ato.",
+        "Parar o jogo pra discutir se um “hmm” conta como falar.",
+        "Opa, isso foi um som. Vale?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do placar, do tempo e ainda joga.",
+        "Você separa os times, controla o cronômetro, anima quem está tímido e ainda faz a melhor mímica da noite. O jogo inteiro roda porque você está em todo lugar ao mesmo tempo.",
+        "Fazer até o mais tímido levantar e jogar.",
+        "Esquecer do cronômetro justo na sua vez.",
+        "Quem é o próximo? Já virei a ampulheta!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você levanta e faz. Sem vergonha, sem enrolar.",
+        "Você não perde tempo pensando no gesto ideal. Vai lá na frente, usa o corpo inteiro e não para até alguém gritar a resposta. Seu time acerta porque você não desiste.",
+        "Transformar qualquer palavra em acerto.",
+        "Exagerar no gesto e derrubar o copo de alguém.",
+        "Acertou! Próximo papel!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o jogo pede: combina sinais quando o time é novo, fiscaliza quando a disputa aperta, organiza a roda quando a turma cresce e vai sem medo quando o tempo está acabando.",
+        "Ser o que o time precisa naquela rodada.",
+        "Ninguém saber se você vai explicar ou sair pulando.",
+        "Depende. Qual é a palavra?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de combinar tudo antes.",
+      "D": "você não deixa passar nenhuma regra.",
+      "M": "você mantém a roda inteira jogando.",
+      "F": "na hora H, você levanta e faz."
+    },
+    "Q": [
+      [
+        "Sua palavra na mímica é LIQUIDIFICADOR. Você...",
+        {
+          "A": "Divido em sílabas, por partes",
+          "D": "Leio o papel três vezes antes",
+          "M": "Imito motor, copo e suco juntos",
+          "F": "Giro o braço até alguém acertar"
+        }
+      ],
+      [
+        "Antes da partida começar, você...",
+        {
+          "A": "Combino os sinais com o meu time",
+          "D": "Leio as regras pra ninguém roubar",
+          "M": "Separo os times, os papéis e o cronômetro",
+          "F": "Já levanto: quem vai primeiro?"
+        }
+      ],
+      [
+        "Seu time está chutando tudo errado. Você...",
+        {
+          "A": "Volto pro começo e mudo a estratégia",
+          "D": "Paro e vejo qual parte não entenderam",
+          "M": "Aponto pra um, faço sinal pro outro e sigo",
+          "F": "Faço o mesmo gesto, só que maior"
+        }
+      ],
+      [
+        "O outro time acertou rápido demais. Você...",
+        {
+          "A": "Anoto como fizeram pra usar depois",
+          "D": "Desconfio: alguém viu o papel?",
+          "M": "Animo o meu time pra próxima rodada",
+          "F": "Peço logo o próximo papel"
+        }
+      ],
+      [
+        "Seu papel na roda de mímica é...",
+        {
+          "A": "Quem organiza a ordem das rodadas",
+          "D": "Quem fiscaliza se alguém falou",
+          "M": "Quem cuida do placar, do tempo e da bagunça",
+          "F": "Quem vai lá na frente sem pensar duas vezes"
+        }
+      ],
+      [
+        "Faltam 10 segundos e ninguém acertou. Você...",
+        {
+          "A": "Uso o sinal combinado de “filme”",
+          "D": "Repito o gesto com todo detalhe",
+          "M": "Faço três gestos de uma vez",
+          "F": "Deito no chão se for preciso"
+        }
+      ],
+      [
+        "Seu maior defeito na mímica:",
+        {
+          "A": "Combinar tanto sinal que ninguém lembra",
+          "D": "Reclamar de cada regrinha quebrada",
+          "M": "Querer jogar e ainda apresentar o jogo",
+          "F": "Exagerar e derrubar alguma coisa na sala"
+        }
+      ],
+      [
+        "Acabou a partida. Você...",
+        {
+          "A": "Já penso em palavras pra próxima",
+          "D": "Confiro se o placar fechou certinho",
+          "M": "Marco a revanche com todo mundo",
+          "F": "Comemoro e vou pegar mais pipoca"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at charades?",
+    "lead": "No talking, just gestures and a lot of nerve. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You agree on the signals before the game starts.",
+        "For you, charades is all strategy: fingers for the number of words, a tug of the ear for “sounds like”. You break everything into parts, and your team always knows what's coming.",
+        "Acting out any word piece by piece.",
+        "Inventing so many signals the team forgets half.",
+        "Remember: ear means “sounds like”."
+      ],
+      "D": [
+        "The Detective",
+        "You spot instantly who whispered the answer.",
+        "You read the card calmly, check everyone sticks to the rules and notice every detail of a gesture. With you around, nobody wins by muttering.",
+        "Catching any cheating red-handed.",
+        "Stopping the game to debate whether “hmm” counts as talking.",
+        "Hang on, that was a sound. Does it count?"
+      ],
+      "M": [
+        "The Maestro",
+        "You keep score, keep time and still play.",
+        "You pick the teams, run the timer, coax the shy ones up and still do the best mime of the night. The whole game runs because you're everywhere at once.",
+        "Getting even the shyest person up to play.",
+        "Forgetting the timer on your own turn.",
+        "Who's next? I've already flipped the sand timer!"
+      ],
+      "F": [
+        "The Finisher",
+        "You get up and do it. No shame, no stalling.",
+        "You don't waste time looking for the perfect gesture. You go up, use your whole body and don't stop until someone shouts the answer. Your team scores because you never give up.",
+        "Turning any word into a point.",
+        "Going too big and knocking over someone's drink.",
+        "Got it! Next card!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the game needs: you set up signals for a new team, referee when it gets tight, run the circle when the group grows and go for it when time's running out.",
+        "Being whatever your team needs this round.",
+        "Nobody knowing if you'll explain or start jumping around.",
+        "Depends. What's the word?"
+      ]
+    },
+    "S2": {
+      "A": "you still like agreeing everything beforehand.",
+      "D": "you don't let a single rule slide.",
+      "M": "you keep the whole circle playing.",
+      "F": "when it counts, you get up and do it."
+    },
+    "Q": [
+      [
+        "Your charades word is BLENDER. You...",
+        {
+          "A": "Break it into syllables",
+          "D": "Read the card three times first",
+          "M": "Act out motor, jug and juice at once",
+          "F": "Spin my arm until someone gets it"
+        }
+      ],
+      [
+        "Before the game starts, you...",
+        {
+          "A": "Agree on signals with my team",
+          "D": "Read the rules so nobody cheats",
+          "M": "Sort the teams, the cards and the timer",
+          "F": "Stand up: who's going first?"
+        }
+      ],
+      [
+        "Your team keeps guessing wrong. You...",
+        {
+          "A": "Go back to the start and change tactics",
+          "D": "Stop and work out which part they missed",
+          "M": "Point at one, signal another and keep going",
+          "F": "Do the same gesture, only bigger"
+        }
+      ],
+      [
+        "The other team guessed way too fast. You...",
+        {
+          "A": "Note how they did it for later",
+          "D": "Get suspicious: did someone see the card?",
+          "M": "Fire up my team for the next round",
+          "F": "Ask for the next card straight away"
+        }
+      ],
+      [
+        "Your role in the charades circle is...",
+        {
+          "A": "The one who sets the order of turns",
+          "D": "The one checking nobody talks",
+          "M": "The one handling score, time and chaos",
+          "F": "The one who goes up without a second thought"
+        }
+      ],
+      [
+        "10 seconds left and nobody's got it. You...",
+        {
+          "A": "Use our agreed signal for “film”",
+          "D": "Repeat the gesture in full detail",
+          "M": "Do three gestures at once",
+          "F": "Lie on the floor if that's what it takes"
+        }
+      ],
+      [
+        "Your biggest flaw at charades:",
+        {
+          "A": "Agreeing so many signals nobody remembers",
+          "D": "Complaining about every tiny broken rule",
+          "M": "Wanting to play and host at the same time",
+          "F": "Going too big and knocking something over"
+        }
+      ],
+      [
+        "The game is over. You...",
+        {
+          "A": "Already think up words for next time",
+          "D": "Check the final score adds up",
+          "M": "Set up the rematch with everyone",
+          "F": "Celebrate and go get more popcorn"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "玩你比我猜时你是哪个泡泡？",
+    "lead": "不许说话，全靠比划和胆量。这4种人里你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "游戏开始前，你就和队友约好了暗号。",
+        "对你来说，比划也讲策略：伸几根手指代表几个字，摸耳朵代表“发音像”。你把每个词拆开来演，队友总知道接下来是什么。",
+        "把任何词拆成几部分演出来。",
+        "暗号定太多，队友忘了一半。",
+        "记住：摸耳朵就是“发音像”。"
+      ],
+      "D": [
+        "侦探",
+        "谁偷偷提示了答案，你一眼就看出来。",
+        "你会冷静地看纸条，检查大家有没有守规则，留意每个动作的细节。有你在，谁也别想靠小声嘀咕赢。",
+        "当场抓住任何作弊。",
+        "为了“嗯”算不算说话停下来争论。",
+        "等等，刚才出声了，这算吗？"
+      ],
+      "M": [
+        "指挥家",
+        "你又记分又计时，自己还上场。",
+        "你分队、掐表、鼓励害羞的人上场，自己还贡献了当晚最精彩的表演。整场游戏能转起来，是因为你哪儿都在。",
+        "让最害羞的人也站起来玩。",
+        "轮到自己时忘了看计时器。",
+        "下一个是谁？沙漏我已经翻好了！"
+      ],
+      "F": [
+        "终结者",
+        "你站起来就演，不害羞也不磨蹭。",
+        "你不浪费时间想完美动作。直接上前，全身都用上，不喊出答案绝不停。你的队能得分，是因为你从不放弃。",
+        "把任何词都演成得分。",
+        "动作太大，碰倒了别人的杯子。",
+        "猜对了！下一张！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据游戏需要切换角色：新队伍时定暗号，比分胶着时当裁判，人多时组织大家，时间快到时豁出去演。",
+        "成为这一轮队伍最需要的人。",
+        "没人知道你是要解释还是要开始蹦。",
+        "看情况。词是什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢事先约好一切。",
+      "D": "你不会放过任何一条规则。",
+      "M": "你能让整圈人都玩起来。",
+      "F": "关键时刻，你站起来就演。"
+    },
+    "Q": [
+      [
+        "你要比划的词是“榨汁机”。你……",
+        {
+          "A": "拆成几部分一点点演",
+          "D": "先把纸条看三遍",
+          "M": "马达、杯子、果汁一起演",
+          "F": "一直转胳膊直到有人猜中"
+        }
+      ],
+      [
+        "游戏开始前，你……",
+        {
+          "A": "和队友约好暗号",
+          "D": "先读规则，免得有人作弊",
+          "M": "分好队、准备纸条和计时器",
+          "F": "已经站起来了：谁先来？"
+        }
+      ],
+      [
+        "你的队一直猜错。你……",
+        {
+          "A": "从头来，换个策略",
+          "D": "停下来看看哪部分他们没懂",
+          "M": "指指这个、示意那个，继续演",
+          "F": "同一个动作，做得更大"
+        }
+      ],
+      [
+        "对方队猜得太快了。你……",
+        {
+          "A": "记下他们的方法以后用",
+          "D": "起疑心：是不是有人看到纸条了？",
+          "M": "给自己队打气，准备下一轮",
+          "F": "马上要下一张纸条"
+        }
+      ],
+      [
+        "你在比划圈子里的角色是……",
+        {
+          "A": "安排轮流顺序的人",
+          "D": "盯着有没有人说话的人",
+          "M": "同时管比分、时间和混乱场面的人",
+          "F": "想都不想就上前的人"
+        }
+      ],
+      [
+        "只剩10秒，还没人猜中。你……",
+        {
+          "A": "用约好的“电影”暗号",
+          "D": "把动作完整地再做一遍",
+          "M": "同时做三个动作",
+          "F": "需要的话直接躺地上"
+        }
+      ],
+      [
+        "你玩比划时最大的毛病：",
+        {
+          "A": "暗号定太多，没人记得住",
+          "D": "每条小规则被破坏都要抱怨",
+          "M": "又想玩又想当主持",
+          "F": "动作太大，碰倒了东西"
+        }
+      ],
+      [
+        "游戏结束了。你……",
+        {
+          "A": "已经在想下次的词",
+          "D": "核对最后比分对不对",
+          "M": "和大家约好再战",
+          "F": "庆祝一下，再去拿点爆米花"
+        }
+      ]
+    ]
+  }
+}

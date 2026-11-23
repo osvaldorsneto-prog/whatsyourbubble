@@ -1,0 +1,384 @@
+{
+  "slug": "pet-do-amigo",
+  "criado_em": "2026-11-23",
+  "categoria": "pets",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é cuidando do pet do amigo?",
+    "lead": "Seu amigo viajou e deixou o bichinho com você. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você recebe o pet com a rotina toda anotada.",
+        "Antes do amigo viajar, você já sabe o horário da ração, do passeio e da soneca. Segue tudo direitinho, e o bichinho nem percebe que o dono saiu.",
+        "Manter a rotina do pet como se nada tivesse mudado.",
+        "Recusar brincadeira fora do horário.",
+        "Passeio é às 18h. Agora são 17h58."
+      ],
+      "D": [
+        "O Detetive",
+        "Você repara em cada latido diferente.",
+        "Você confere o pote, a água, a porta e até o humor do bichinho. Qualquer coisa fora do normal, você percebe antes. O dono viaja tranquilo porque sabe que você está de olho.",
+        "Notar qualquer mudança antes de virar problema.",
+        "Mandar mensagem pro dono por causa de um bocejo.",
+        "Ele sempre deita desse lado ou é novidade?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do pet, das plantas e da casa toda.",
+        "Você dá comida, passeia, rega as plantas do amigo, recolhe as cartas e ainda manda vídeo fofo. Quando o dono volta, a casa está melhor do que ele deixou.",
+        "Cuidar de tudo e ainda virar o tio favorito.",
+        "Mimar tanto que ele chora quando você vai embora.",
+        "Já reguei, já passeei, já mandei vídeo!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Comeu, passeou, dormiu. Missão cumprida.",
+        "Você não complica: o bichinho comeu, saiu, brincou e está bem. Sem drama e sem relatório de três páginas. O amigo volta e encontra tudo resolvido.",
+        "Resolver qualquer imprevisto com calma.",
+        "Esquecer de mandar notícia e deixar o dono aflito.",
+        "Tá tudo certo. Ele tá dormindo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o bichinho pede: segue a rotina quando ele é certinho, fica de olho quando ele está diferente, cuida de tudo quando a casa é grande e só resolve quando o tempo aperta.",
+        "Ser o que o pet precisa naquele momento.",
+        "O dono nunca saber que tipo de notícia vai receber.",
+        "Depende. É gato ou cachorro?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de seguir a rotina à risca.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você cuida do pet e da casa ao mesmo tempo.",
+      "F": "no fim, você resolve sem drama."
+    },
+    "Q": [
+      [
+        "O pet do amigo te encara como um estranho. Você...",
+        {
+          "A": "Sigo a lista que o dono mandou",
+          "D": "Mando foto pro dono toda hora",
+          "M": "Ofereço petisco, bola e sofá",
+          "F": "Sento no chão até ele me aceitar"
+        }
+      ],
+      [
+        "O dono te manda um áudio de 6 minutos com instruções. Você...",
+        {
+          "A": "Transformo tudo numa lista com horários",
+          "D": "Ouço duas vezes e pergunto o que ficou vago",
+          "M": "Ouço acelerado enquanto arrumo as coisas dele",
+          "F": "Respondo “pode deixar” e ouço depois"
+        }
+      ],
+      [
+        "O bichinho não quis comer a ração. Você...",
+        {
+          "A": "Uso o plano B que eu já tinha anotado",
+          "D": "Confiro o pote, a ração e a água",
+          "M": "Ligo pro dono enquanto distraio o bichinho",
+          "F": "Coloco um petisco por cima e pronto"
+        }
+      ],
+      [
+        "Sua função cuidando do pet é...",
+        {
+          "A": "Manter a rotina igualzinha à de casa",
+          "D": "Perceber qualquer coisa diferente",
+          "M": "Cuidar do pet, das plantas e da casa do amigo",
+          "F": "Garantir que ele comeu, passeou e dormiu"
+        }
+      ],
+      [
+        "Sumiu uma meia sua. Você...",
+        {
+          "A": "Já tinha guardado tudo longe do alcance",
+          "D": "Sigo o rastro até a caminha dele",
+          "M": "Procuro enquanto ponho água e ligo a TV pra ele",
+          "F": "Deixo com ele, virou brinquedo"
+        }
+      ],
+      [
+        "O dono pede notícias. Você manda...",
+        {
+          "A": "Um resumo: comida, passeio e sono",
+          "D": "Fotos de todos os ângulos",
+          "M": "Vídeo, foto, áudio e figurinha",
+          "F": "“Tá ótimo” e uma foto"
+        }
+      ],
+      [
+        "Seu maior defeito cuidando do pet do amigo:",
+        {
+          "A": "Seguir a lista mesmo quando ele quer brincar",
+          "D": "Ligar pro dono por qualquer barulho estranho",
+          "M": "Mimar tanto que ele não quer voltar pra casa",
+          "F": "Esquecer de mandar notícia o dia inteiro"
+        }
+      ],
+      [
+        "O amigo voltou de viagem. Você...",
+        {
+          "A": "Entrego o pet e o resumo dos dias",
+          "D": "Confiro se devolvi coleira, pote e brinquedo",
+          "M": "Já me ofereço pra próxima viagem",
+          "F": "Entrego, ganho um abraço e vou embora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble pet-sitting for a friend?",
+    "lead": "Your friend went away and left their pet with you. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You take the pet in with the whole routine written down.",
+        "Before your friend even leaves, you know feeding time, walk time and nap time. You follow it all to the letter, and the pet barely notices the owner has gone.",
+        "Keeping the pet's routine as if nothing had changed.",
+        "Turning down playtime because it's not on the schedule.",
+        "Walk is at 6pm. It's 5:58."
+      ],
+      "D": [
+        "The Detective",
+        "You notice every bark that sounds a bit different.",
+        "You check the bowl, the water, the door and even the pet's mood. Anything out of the ordinary, you spot it first. Your friend travels relaxed because they know you're watching.",
+        "Noticing any change before it becomes a problem.",
+        "Messaging the owner about a yawn.",
+        "Does he always lie on this side, or is that new?"
+      ],
+      "M": [
+        "The Maestro",
+        "You look after the pet, the plants and the whole flat.",
+        "You feed, walk, water your friend's plants, bring in the post and still send cute videos. When the owner gets back, the place is nicer than they left it.",
+        "Handling everything and becoming the favourite.",
+        "Spoiling them so much they cry when you leave.",
+        "Watered, walked and sent the video!"
+      ],
+      "F": [
+        "The Finisher",
+        "Fed, walked, asleep. Mission accomplished.",
+        "You keep it simple: the pet ate, went out, played and is fine. No drama, no three-page report. Your friend comes home to everything sorted.",
+        "Handling any surprise calmly.",
+        "Forgetting to send updates and worrying the owner.",
+        "All good. He's asleep."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the pet needs: you follow the routine when they like order, keep watch when they seem off, take care of everything when there's a lot to do and just get it done when time is short.",
+        "Being whatever the pet needs right now.",
+        "The owner never knowing what kind of update they'll get.",
+        "Depends. Cat or dog?"
+      ]
+    },
+    "S2": {
+      "A": "you still like following the routine to the letter.",
+      "D": "you don't let a single detail slip.",
+      "M": "you look after the pet and the home at once.",
+      "F": "in the end, you sort it without any fuss."
+    },
+    "Q": [
+      [
+        "Your friend's pet stares at you like a stranger. You...",
+        {
+          "A": "Follow the list the owner sent",
+          "D": "Send the owner a photo every hour",
+          "M": "Offer treats, a ball and the sofa",
+          "F": "Sit on the floor until they accept me"
+        }
+      ],
+      [
+        "The owner sends a 6-minute voice note of instructions. You...",
+        {
+          "A": "Turn it into a timed checklist",
+          "D": "Listen twice and ask about the vague bits",
+          "M": "Play it at double speed while tidying their things",
+          "F": "Reply “no problem” and listen later"
+        }
+      ],
+      [
+        "The pet won't touch their food. You...",
+        {
+          "A": "Use the plan B I'd already written down",
+          "D": "Check the bowl, the food and the water",
+          "M": "Call the owner while distracting the pet",
+          "F": "Pop a treat on top and job done"
+        }
+      ],
+      [
+        "Your job while pet-sitting is...",
+        {
+          "A": "Keeping the routine exactly like home",
+          "D": "Noticing anything unusual",
+          "M": "Looking after the pet, the plants and the flat",
+          "F": "Making sure they ate, walked and slept"
+        }
+      ],
+      [
+        "One of your socks has vanished. You...",
+        {
+          "A": "Had already put everything out of reach",
+          "D": "Follow the trail to their bed",
+          "M": "Search while filling the water and putting the TV on",
+          "F": "Let them keep it, it's a toy now"
+        }
+      ],
+      [
+        "The owner asks for an update. You send...",
+        {
+          "A": "A summary: food, walk and sleep",
+          "D": "Photos from every angle",
+          "M": "Video, photo, voice note and a sticker",
+          "F": "“All great” and one photo"
+        }
+      ],
+      [
+        "Your biggest flaw while pet-sitting:",
+        {
+          "A": "Sticking to the list even when they want to play",
+          "D": "Calling the owner over every odd noise",
+          "M": "Spoiling them so much they don't want to go home",
+          "F": "Forgetting to send any update all day"
+        }
+      ],
+      [
+        "Your friend is back from the trip. You...",
+        {
+          "A": "Hand over the pet and a summary of the days",
+          "D": "Check I've returned the lead, bowl and toy",
+          "M": "Already offer to do it next time",
+          "F": "Hand them over, get a hug and head off"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "帮朋友照顾宠物时你是哪个泡泡？",
+    "lead": "朋友出远门，把宠物交给了你。这4种人里你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你接过宠物时，作息表已经写好了。",
+        "朋友还没出发，你就知道几点喂饭、几点遛弯、几点午睡。你一丝不苟地照做，小家伙几乎没发现主人不在。",
+        "让宠物的作息像什么都没变一样。",
+        "不在计划里的玩耍一律拒绝。",
+        "六点遛弯，现在才五点五十八。"
+      ],
+      "D": [
+        "侦探",
+        "每一声不太一样的叫声你都能注意到。",
+        "你检查饭盆、水、门，甚至小家伙的心情。只要有一点不对劲，你总是先发现。朋友能安心出门，因为知道有你盯着。",
+        "在小问题变大之前就发现它。",
+        "它打个哈欠你都要给主人发消息。",
+        "它一直睡这边吗，还是今天才这样？"
+      ],
+      "M": [
+        "指挥家",
+        "你照顾宠物、植物，还顺便管了整个家。",
+        "你喂饭、遛弯、给朋友的植物浇水、收信，还发可爱视频。主人回来时，家里比走的时候还整齐。",
+        "什么都照顾到，还成了它最爱的人。",
+        "宠得太好，你走的时候它都舍不得。",
+        "浇过水了，遛过了，视频也发了！"
+      ],
+      "F": [
+        "终结者",
+        "吃了，遛了，睡了。任务完成。",
+        "你不搞复杂：小家伙吃了、出门了、玩了，状态很好。不闹腾，也没有三页纸的报告。朋友回来，一切都安排妥当。",
+        "冷静处理各种意外。",
+        "忘了发消息，让主人干着急。",
+        "一切正常，它在睡觉。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据小家伙的需要切换角色：它爱规律时按表来，它不对劲时盯紧点，事情多时全都照顾到，时间紧时直接搞定。",
+        "成为宠物此刻最需要的人。",
+        "主人永远不知道会收到什么样的消息。",
+        "看情况。是猫还是狗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢严格按作息来。",
+      "D": "你不会放过任何细节。",
+      "M": "你能同时照顾宠物和整个家。",
+      "F": "最后，你总能不慌不忙地搞定。"
+    },
+    "Q": [
+      [
+        "朋友的宠物盯着你，好像你是陌生人。你……",
+        {
+          "A": "照着主人发来的清单做",
+          "D": "每小时给主人发一张照片",
+          "M": "零食、球、沙发一起奉上",
+          "F": "坐在地上等它接受我"
+        }
+      ],
+      [
+        "主人发来一条6分钟的语音交代事项。你……",
+        {
+          "A": "整理成带时间的清单",
+          "D": "听两遍，把没说清的问清楚",
+          "M": "一边倍速听一边收拾它的东西",
+          "F": "先回“放心吧”，晚点再听"
+        }
+      ],
+      [
+        "小家伙不肯吃饭。你……",
+        {
+          "A": "用我早就记下的B计划",
+          "D": "检查饭盆、粮和水",
+          "M": "一边给主人打电话一边逗它",
+          "F": "上面放块零食，搞定"
+        }
+      ],
+      [
+        "你照顾宠物时的角色是……",
+        {
+          "A": "让作息和在家时一模一样",
+          "D": "注意到任何不寻常的地方",
+          "M": "宠物、植物和朋友家一起照顾",
+          "F": "确保它吃了、遛了、睡了"
+        }
+      ],
+      [
+        "你的一只袜子不见了。你……",
+        {
+          "A": "早就把东西都收到它够不着的地方",
+          "D": "顺着线索找到它的窝",
+          "M": "一边找一边加水，还给它开电视",
+          "F": "送它了，现在是玩具了"
+        }
+      ],
+      [
+        "主人问近况。你发……",
+        {
+          "A": "一份小结：吃饭、遛弯、睡觉",
+          "D": "各个角度的照片",
+          "M": "视频、照片、语音加表情包",
+          "F": "“很好”加一张照片"
+        }
+      ],
+      [
+        "你帮朋友照顾宠物时最大的毛病：",
+        {
+          "A": "它想玩时也照着清单来",
+          "D": "听到一点怪声就给主人打电话",
+          "M": "宠得它都不想回家了",
+          "F": "一整天忘了发消息"
+        }
+      ],
+      [
+        "朋友旅行回来了。你……",
+        {
+          "A": "交还宠物，附上这几天的小结",
+          "D": "检查牵引绳、饭盆和玩具都还了没",
+          "M": "主动说下次还找我",
+          "F": "交还宠物，拥抱一下就走"
+        }
+      ]
+    ]
+  }
+}

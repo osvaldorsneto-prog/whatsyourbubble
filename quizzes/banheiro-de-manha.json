@@ -1,0 +1,384 @@
+{
+  "slug": "banheiro-de-manha",
+  "criado_em": "2026-11-23",
+  "categoria": "familia",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no banheiro de manhã?",
+    "lead": "Toda manhã é a mesma disputa pela porta do banheiro. Qual desses 4 é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você tem horário marcado no banheiro e cumpre.",
+        "Na sua casa, o banheiro tem escala, e foi você que fez. Você sabe quem toma banho primeiro, quanto cada um demora e quando a fila vai travar. Graças a você, a manhã anda.",
+        "Fazer a casa inteira caber em um banheiro só.",
+        "Ficar bravo quando alguém fura a escala por dois minutos.",
+        "Seu horário era 7h10. Agora são 7h12."
+      ],
+      "D": [
+        "O Detetive",
+        "Você percebe quem deixou a tampa da pasta aberta.",
+        "Nada escapa de você: a toalha fora do lugar, o xampu que alguém usou, o chuveiro pingando. Você confere tudo no espelho antes de sair e ainda descobre quem gastou a água quente.",
+        "Descobrir quem acabou com a água quente.",
+        "Conferir tanto o espelho que vira o último da fila.",
+        "Quem deixou a toalha molhada no chão?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você seca o cabelo, faz o café e organiza a fila.",
+        "Enquanto um toma banho, você já acordou o outro, achou a escova que sumiu e colocou o café no fogo. A manhã da casa inteira passa pelas suas mãos, e ninguém sai sem toalha.",
+        "Fazer a casa inteira sair pronta e no horário.",
+        "Cuidar de todo mundo e escovar o dente no carro.",
+        "Entra que eu seco o cabelo aqui fora!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Banho de 4 minutos e você já tá pronto.",
+        "Você entra, resolve e sai. Sem demora no espelho, sem drama. Enquanto a casa ainda discute quem é o próximo, você já está de mochila nas costas na porta.",
+        "Ficar pronto antes de alguém perceber que você entrou.",
+        "Sair com pasta de dente no canto da boca.",
+        "Pronto. Próximo!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a manhã pede: monta a escala em dia de prova, confere tudo em dia de entrevista, organiza a casa quando todo mundo atrasa e toma banho relâmpago quando precisa.",
+        "Ser o que a manhã da casa precisa naquele momento.",
+        "Ninguém saber se você vai demorar 4 ou 40 minutos.",
+        "Depende. Que horas é a reunião?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de ter seu horário no banheiro.",
+      "D": "você não sai sem conferir o espelho.",
+      "M": "você organiza a manhã de todo mundo.",
+      "F": "na correria, você entra, resolve e sai."
+    },
+    "Q": [
+      [
+        "Um banheiro pra casa inteira e todo mundo atrasado. Você...",
+        {
+          "A": "Acordo 20 min antes de todos",
+          "D": "Bato na porta a cada minuto",
+          "M": "Monto a escala de quem entra",
+          "F": "Escovo o dente na pia da cozinha"
+        }
+      ],
+      [
+        "Alguém está há 25 minutos no banho. Você...",
+        {
+          "A": "Lembro que o combinado era banho de 10",
+          "D": "Encosto na porta pra ver se o chuveiro ainda tá ligado",
+          "M": "Aproveito pra fazer o café e acordar o resto",
+          "F": "Me arrumo no espelho do corredor mesmo"
+        }
+      ],
+      [
+        "Acabou a pasta de dente. Você...",
+        {
+          "A": "Pego a reserva que eu deixei no armário",
+          "D": "Espremo o tubo até a última gota",
+          "M": "Coloco na lista e aviso a casa toda",
+          "F": "Uso a de viagem que tava na mochila"
+        }
+      ],
+      [
+        "Sua função no banheiro da casa é...",
+        {
+          "A": "Criar a ordem de quem usa primeiro",
+          "D": "Descobrir quem deixou a tampa da pasta aberta",
+          "M": "Organizar toalhas, escovas e a fila ao mesmo tempo",
+          "F": "Destravar a fila quando tudo emperra"
+        }
+      ],
+      [
+        "O espelho embaçou todo depois do banho. Você...",
+        {
+          "A": "Já tinha deixado a janela aberta",
+          "D": "Passo a mão e confiro o cabelo fio por fio",
+          "M": "Seco o espelho e o cabelo com o mesmo secador",
+          "F": "Me arrumo no embaçado mesmo"
+        }
+      ],
+      [
+        "Alguém grita “sai logo, tô atrasado!”. Você...",
+        {
+          "A": "Respondo que meu horário vai até 7h15",
+          "D": "Confiro no relógio se é verdade",
+          "M": "Negocio: entra pra escovar enquanto eu me seco",
+          "F": "Saio na hora e termino de me arrumar no quarto"
+        }
+      ],
+      [
+        "Seu maior defeito na hora do banheiro:",
+        {
+          "A": "Brigar quando alguém fura a escala",
+          "D": "Demorar conferindo tudo no espelho",
+          "M": "Deixar cinco coisas pela metade ao mesmo tempo",
+          "F": "Sair com pasta de dente no canto da boca"
+        }
+      ],
+      [
+        "Fim da correria, todo mundo saiu. Você...",
+        {
+          "A": "Já penso na escala de amanhã",
+          "D": "Confiro se ninguém deixou o chuveiro pingando",
+          "M": "Recolho as toalhas, fecho as tampas e arrumo tudo",
+          "F": "Saí por último e cheguei na hora mesmo assim"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in the morning bathroom rush?",
+    "lead": "Every morning it's the same battle for the bathroom door. Which of these 4 are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You have a bathroom slot, and you stick to it.",
+        "In your house the bathroom has a rota, and you wrote it. You know who showers first, how long everyone takes and when the queue will jam. Thanks to you, the morning moves.",
+        "Fitting a whole household into one bathroom.",
+        "Getting cross when someone runs two minutes over.",
+        "Your slot was 7:10. It's now 7:12."
+      ],
+      "D": [
+        "The Detective",
+        "You know exactly who left the toothpaste cap off.",
+        "Nothing gets past you: the towel in the wrong place, the shampoo someone borrowed, the dripping shower. You check everything in the mirror before leaving, and you always work out who used up the hot water.",
+        "Finding out who used up all the hot water.",
+        "Checking the mirror so long you end up last in line.",
+        "Who left the wet towel on the floor?"
+      ],
+      "M": [
+        "The Maestro",
+        "You dry your hair, make coffee and run the queue.",
+        "While one person showers, you've already woken the next, found the missing hairbrush and put the coffee on. The whole house's morning goes through you, and nobody leaves without a towel.",
+        "Getting the whole house out the door on time.",
+        "Looking after everyone and brushing your teeth in the car.",
+        "Go in, I'll dry my hair out here!"
+      ],
+      "F": [
+        "The Finisher",
+        "Four-minute shower and you're ready to go.",
+        "You go in, get it done and come out. No lingering at the mirror, no drama. While the house is still arguing about who's next, you're at the door with your bag on.",
+        "Being ready before anyone notices you went in.",
+        "Leaving with toothpaste in the corner of your mouth.",
+        "Done. Next!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the morning needs: you plan the rota on exam days, check every detail before an interview, run the house when everyone's late and take a lightning shower when you have to.",
+        "Being whatever the morning needs right now.",
+        "Nobody knowing if you'll take 4 minutes or 40.",
+        "Depends. What time's the meeting?"
+      ]
+    },
+    "S2": {
+      "A": "you still like having your own bathroom slot.",
+      "D": "you don't leave without checking the mirror.",
+      "M": "you run everyone's morning.",
+      "F": "when it's busy, you go in, get it done and get out."
+    },
+    "Q": [
+      [
+        "One bathroom, the whole house, everyone's late. You...",
+        {
+          "A": "Get up 20 minutes before everyone",
+          "D": "Knock on the door every minute",
+          "M": "Write a rota of who goes when",
+          "F": "Brush my teeth at the kitchen sink"
+        }
+      ],
+      [
+        "Someone's been in the shower for 25 minutes. You...",
+        {
+          "A": "Remind them the deal was 10 minutes",
+          "D": "Listen at the door to check the water's still running",
+          "M": "Use the time to make coffee and wake the others",
+          "F": "Get ready in the hallway mirror instead"
+        }
+      ],
+      [
+        "The toothpaste has run out. You...",
+        {
+          "A": "Grab the spare I keep in the cupboard",
+          "D": "Squeeze the tube down to the very last bit",
+          "M": "Add it to the list and tell the whole house",
+          "F": "Use the travel one from my bag"
+        }
+      ],
+      [
+        "Your role in the family bathroom is...",
+        {
+          "A": "Deciding who goes first",
+          "D": "Finding out who left the cap off",
+          "M": "Handling towels, brushes and the queue at once",
+          "F": "Getting the queue moving when it's stuck"
+        }
+      ],
+      [
+        "The mirror is all steamed up after the shower. You...",
+        {
+          "A": "Already opened the window beforehand",
+          "D": "Wipe it and check my hair strand by strand",
+          "M": "Dry the mirror and my hair with the same hairdryer",
+          "F": "Get ready in the fog anyway"
+        }
+      ],
+      [
+        "Someone shouts “hurry up, I'm late!”. You...",
+        {
+          "A": "Point out my slot runs until 7:15",
+          "D": "Check the clock to see if it's true",
+          "M": "Do a deal: you brush, I'll dry off",
+          "F": "Come straight out and finish in my room"
+        }
+      ],
+      [
+        "Your biggest flaw at bathroom time:",
+        {
+          "A": "Arguing when someone ignores the rota",
+          "D": "Taking ages checking everything in the mirror",
+          "M": "Leaving five things half done at once",
+          "F": "Walking out with toothpaste on my face"
+        }
+      ],
+      [
+        "The rush is over and everyone's gone. You...",
+        {
+          "A": "Already think about tomorrow's rota",
+          "D": "Check nobody left the shower dripping",
+          "M": "Pick up towels, close lids and tidy up",
+          "F": "Left last and still got there on time"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "早上抢卫生间时你是哪个泡泡？",
+    "lead": "每天早上都要为卫生间的门抢一回。这4种人里你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你在卫生间有固定时段，而且准时。",
+        "你家的卫生间有排班表，还是你排的。你知道谁先洗、每人要多久、什么时候会堵住。多亏有你，早上才能顺利运转。",
+        "让全家人共用一个卫生间也不乱。",
+        "有人超时两分钟就不高兴。",
+        "你的时段是7:10，现在已经7:12了。"
+      ],
+      "D": [
+        "侦探",
+        "谁没盖牙膏盖，你一眼就知道。",
+        "什么都逃不过你的眼睛：放错地方的毛巾、被人用过的洗发水、滴水的花洒。出门前你会对着镜子检查一遍，还总能查出是谁把热水用光了。",
+        "查出是谁把热水用光了。",
+        "照镜子太久，排到了最后一个。",
+        "谁把湿毛巾扔地上了？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边吹头发一边煮咖啡，还管着排队。",
+        "有人在洗澡，你已经叫醒了下一个，找到了失踪的梳子，还把咖啡煮上了。全家的早晨都经过你的手，没人会忘带毛巾。",
+        "让全家人准时出门。",
+        "照顾完所有人，自己在车上刷牙。",
+        "你进去吧，我在外面吹头发！"
+      ],
+      "F": [
+        "终结者",
+        "四分钟洗完澡，你已经准备好了。",
+        "你进去，搞定，出来。不磨蹭，不纠结。家里人还在争下一个是谁，你已经背着包站在门口了。",
+        "别人还没发现你进去，你已经好了。",
+        "出门时嘴角还有牙膏。",
+        "好了，下一个！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据早上的情况切换角色：考试那天排好时间，面试那天检查每个细节，大家都迟到时管着全家，赶时间时来个闪电澡。",
+        "成为这个早上最需要的人。",
+        "没人知道你要用4分钟还是40分钟。",
+        "看情况。会议几点开始？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢在卫生间有自己的时段。",
+      "D": "你不照一下镜子是不会出门的。",
+      "M": "你能安排好所有人的早晨。",
+      "F": "一忙起来，你就进去、搞定、出来。"
+    },
+    "Q": [
+      [
+        "全家只有一个卫生间，大家都快迟到了。你……",
+        {
+          "A": "比所有人早起20分钟",
+          "D": "每分钟敲一次门",
+          "M": "排好谁先谁后",
+          "F": "去厨房水槽刷牙"
+        }
+      ],
+      [
+        "有人已经洗了25分钟。你……",
+        {
+          "A": "提醒他说好了只洗10分钟",
+          "D": "贴着门听听水是不是还开着",
+          "M": "趁机煮咖啡、叫醒其他人",
+          "F": "干脆在走廊镜子前收拾"
+        }
+      ],
+      [
+        "牙膏用完了。你……",
+        {
+          "A": "拿出我放在柜子里的备用的",
+          "D": "把牙膏挤到最后一点",
+          "M": "记到购物清单上，再通知全家",
+          "F": "用包里那支旅行装"
+        }
+      ],
+      [
+        "你在家里卫生间的角色是……",
+        {
+          "A": "决定谁先用的人",
+          "D": "查出谁没盖牙膏盖的人",
+          "M": "同时管毛巾、梳子和排队的人",
+          "F": "队伍卡住时让它动起来的人"
+        }
+      ],
+      [
+        "洗完澡镜子全是雾。你……",
+        {
+          "A": "早就提前开了窗",
+          "D": "擦一擦，一根根检查头发",
+          "M": "用同一个吹风机吹镜子和头发",
+          "F": "对着雾蒙蒙的镜子照样收拾"
+        }
+      ],
+      [
+        "有人喊：“快点，我要迟到了！”你……",
+        {
+          "A": "告诉他我的时段到7:15",
+          "D": "看看表，确认是不是真的",
+          "M": "商量一下：你刷牙，我擦干",
+          "F": "马上出来，回房间接着收拾"
+        }
+      ],
+      [
+        "你在卫生间时间的最大毛病：",
+        {
+          "A": "有人不按排班就要吵",
+          "D": "对着镜子检查太久",
+          "M": "同时做五件事，件件做一半",
+          "F": "出门时脸上还有牙膏"
+        }
+      ],
+      [
+        "早上的忙乱结束了，大家都走了。你……",
+        {
+          "A": "已经在想明天的排班",
+          "D": "检查有没有人没关紧花洒",
+          "M": "收毛巾、盖盖子、整理好一切",
+          "F": "最后一个出门，照样准时到"
+        }
+      ]
+    ]
+  }
+}
