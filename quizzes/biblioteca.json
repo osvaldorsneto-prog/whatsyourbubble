@@ -1,0 +1,384 @@
+{
+  "slug": "biblioteca",
+  "criado_em": "2026-11-24",
+  "categoria": "estudos",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é estudando na biblioteca?",
+    "lead": "Silêncio, tomada disputada e uma pilha de matéria. Qual bolha é você na biblioteca?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você chega com o plano de estudo e a mesa escolhida.",
+        "Pra você, biblioteca boa começa antes de sair de casa. Você sabe que capítulo estudar, quanto tempo cada um leva e qual mesa tem tomada. Por isso rende o dobro em metade do tempo.",
+        "Transformar uma tarde em matéria estudada de verdade.",
+        "Montar o cronograma e gastar a primeira hora nele.",
+        "Das 14h às 15h é capítulo 3. Tá no plano."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma página passa sem ser conferida.",
+        "Você confere a edição do livro, a fonte de cada informação e se o resumo bate com a aula. Nada te escapa, nem a nota de rodapé. É você quem acha o erro que ninguém viu.",
+        "Achar o detalhe que vai cair na prova.",
+        "Conferir tanto que o capítulo não anda.",
+        "Peraí, essa edição é a mesma da aula?"
+      ],
+      "M": [
+        "O Maestro",
+        "Três livros abertos, notebook ligado e o grupo no celular.",
+        "Você estuda várias coisas ao mesmo tempo: um livro de um lado, o resumo do outro, o notebook no meio e o grupo de estudos tirando dúvida. Parece bagunça, mas tudo avança junto.",
+        "Fazer várias matérias andarem juntas.",
+        "Abrir tanta coisa que a mesa não cabe.",
+        "Me passa aquele livro? Tô em três ao mesmo tempo."
+      ],
+      "F": [
+        "O Finalizador",
+        "Resumo feito é melhor que resumo bonito.",
+        "Você senta, estuda e termina. Sem caneta de cinco cores, sem caderno perfeito. Enquanto os outros arrumam o material, você já fechou o capítulo e foi tomar um café.",
+        "Chegar ao fim da matéria de verdade.",
+        "Fazer um resumo que só você entende.",
+        "Terminei o capítulo. Bora pro próximo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a prova pede: planeja quando a matéria é grande, confere quando o detalhe importa, abre tudo quando o tempo aperta e fecha o capítulo quando é hora.",
+        "Ser o estudante que aquela matéria precisa.",
+        "Ninguém saber em que mesa você vai estar.",
+        "Depende. Qual é a matéria?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de chegar com um plano.",
+      "D": "você não deixa nenhuma página sem conferir.",
+      "M": "você estuda várias coisas ao mesmo tempo.",
+      "F": "na hora certa, você fecha o livro com tudo feito."
+    },
+    "Q": [
+      [
+        "Alguém abre um salgadinho na biblioteca silenciosa. Você...",
+        {
+          "A": "Já trouxe fone pra isso",
+          "D": "Procuro a placa de proibido comer",
+          "M": "Mudo de mesa, de livro e de plano",
+          "F": "Peço um pouco também"
+        }
+      ],
+      [
+        "Você chega e todas as mesas com tomada estão ocupadas. Você...",
+        {
+          "A": "Isso nunca acontece, eu chego às 8h",
+          "D": "Confiro mesa por mesa, alguém sempre sai",
+          "M": "Divido a tomada com um benjamim e três amigos",
+          "F": "Estudo até a bateria acabar e pronto"
+        }
+      ],
+      [
+        "O livro que você precisa está emprestado. Você...",
+        {
+          "A": "Já tinha reservado na semana passada",
+          "D": "Confere se tem outra edição na estante",
+          "M": "Pede o PDF no grupo, foto no celular e resumo do colega",
+          "F": "Estuda pelo resumo e segue a vida"
+        }
+      ],
+      [
+        "No grupo de estudos, você é...",
+        {
+          "A": "Quem divide os capítulos",
+          "D": "Quem confere se as respostas estão certas",
+          "M": "Quem responde dúvida de todo mundo ao mesmo tempo",
+          "F": "Quem termina primeiro e manda a sua parte"
+        }
+      ],
+      [
+        "O bibliotecário faz \"shhh\" pra sua mesa. Você pensa:",
+        {
+          "A": "\"Eu avisei que era a mesa silenciosa\"",
+          "D": "\"Foi a gente mesmo ou a mesa do lado?\"",
+          "M": "\"Tá, mas vou terminar de explicar baixinho\"",
+          "F": "\"Pronto, foco total agora\""
+        }
+      ],
+      [
+        "Faltam 20 minutos pra biblioteca fechar. Você...",
+        {
+          "A": "Já estava no último item do plano",
+          "D": "Revisa o que estudou antes de ir",
+          "M": "Pega mais dois livros emprestados pra levar",
+          "F": "Termina o capítulo correndo e sai"
+        }
+      ],
+      [
+        "Seu maior defeito na biblioteca:",
+        {
+          "A": "Planejo tanto que estudo pouco",
+          "D": "Confiro tanto que não saio da página 3",
+          "M": "Abro tanto livro que me perco",
+          "F": "Faço o resumo rápido demais"
+        }
+      ],
+      [
+        "Dia de estudo acabou. Você...",
+        {
+          "A": "Anota o que fica pra amanhã",
+          "D": "Confere se devolveu tudo certinho",
+          "M": "Já marca a próxima sessão com o grupo",
+          "F": "Fecha o caderno e vai comer"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble studying in the library?",
+    "lead": "Silence, a fight over plug sockets and a pile of reading. Which bubble are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You arrive with a study plan and a table picked out.",
+        "For you, a good library day starts before you leave home. You know which chapter to tackle, how long each takes and which table has a socket. That's why you get twice as much done in half the time.",
+        "Turning one afternoon into real progress.",
+        "Spending the first hour perfecting the schedule.",
+        "Two to three is chapter 3. It's in the plan."
+      ],
+      "D": [
+        "The Detective",
+        "No page gets past you unchecked.",
+        "You check the book's edition, the source of every fact and whether the summary matches the lecture. Nothing escapes you, not even the footnotes. You're the one who spots the mistake nobody else saw.",
+        "Finding the detail that'll come up in the exam.",
+        "Checking so much the chapter never moves on.",
+        "Hang on, is this the same edition as the lecture?"
+      ],
+      "M": [
+        "The Maestro",
+        "Three books open, laptop on and the study group on your phone.",
+        "You study several things at once: a book on one side, notes on the other, the laptop in the middle and the group chat answering questions. Looks chaotic, but it all moves forward together.",
+        "Keeping several subjects moving at once.",
+        "Opening so much stuff it won't fit on the table.",
+        "Pass me that book? I'm in three at once."
+      ],
+      "F": [
+        "The Finisher",
+        "Done notes beat pretty notes.",
+        "You sit down, study and finish. No five-colour pens, no perfect notebook. While others arrange their highlighters, you've closed the chapter and gone for a coffee.",
+        "Actually getting to the end of the reading.",
+        "Writing notes only you can understand.",
+        "Chapter done. Next one."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the exam needs: you plan when the syllabus is huge, check when details matter, open everything when time's tight and wrap up the chapter when it's time.",
+        "Being the student that subject needs.",
+        "Nobody knowing which table you'll be at.",
+        "Depends. Which subject?"
+      ]
+    },
+    "S2": {
+      "A": "you still like turning up with a plan.",
+      "D": "you never leave a page unchecked.",
+      "M": "you study several things at once.",
+      "F": "when it counts, you close the book with it all done."
+    },
+    "Q": [
+      [
+        "Someone opens a bag of crisps in the silent library. You...",
+        {
+          "A": "Brought headphones for exactly this",
+          "D": "Look for the no-food sign",
+          "M": "Switch table, book and plan",
+          "F": "Ask if I can have some"
+        }
+      ],
+      [
+        "You arrive and every table with a socket is taken. You...",
+        {
+          "A": "Never happens, I'm here at 8am",
+          "D": "Check table by table, someone always leaves",
+          "M": "Share one socket with an adaptor and three friends",
+          "F": "Study till the battery dies, that's that"
+        }
+      ],
+      [
+        "The book you need is on loan. You...",
+        {
+          "A": "Already reserved it last week",
+          "D": "Check the shelf for another edition",
+          "M": "Get the PDF, a phone photo and a friend's notes",
+          "F": "Study from the summary and move on"
+        }
+      ],
+      [
+        "In the study group, you're...",
+        {
+          "A": "The one who splits up the chapters",
+          "D": "The one checking the answers are right",
+          "M": "The one answering everyone's questions at once",
+          "F": "The one who finishes first and sends their part"
+        }
+      ],
+      [
+        "The librarian shushes your table. You think:",
+        {
+          "A": "\"I did say this was the quiet table\"",
+          "D": "\"Was it us or the next table?\"",
+          "M": "\"Fine, but I'll finish explaining in a whisper\"",
+          "F": "\"Right, full focus now\""
+        }
+      ],
+      [
+        "Twenty minutes till the library closes. You...",
+        {
+          "A": "Was already on the last item of the plan",
+          "D": "Review what I covered before leaving",
+          "M": "Borrow two more books to take home",
+          "F": "Rush to finish the chapter and leave"
+        }
+      ],
+      [
+        "Your biggest library flaw:",
+        {
+          "A": "I plan so much I barely study",
+          "D": "I check so much I'm stuck on page 3",
+          "M": "I open so many books I lose track",
+          "F": "I write my notes too fast"
+        }
+      ],
+      [
+        "Study day's over. You...",
+        {
+          "A": "Note what's left for tomorrow",
+          "D": "Check I've returned everything properly",
+          "M": "Book the next session with the group",
+          "F": "Close the notebook and go eat"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "在图书馆学习时，你是哪个泡泡？",
+    "lead": "安静、抢插座、一大堆要看的书。在图书馆你是哪个泡泡？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你带着学习计划来，座位也早就选好了。",
+        "对你来说，图书馆的好日子从出门前就开始了。你知道看哪一章、每章要多久、哪张桌子有插座。所以你用一半的时间学到两倍的东西。",
+        "把一个下午变成实实在在的进度。",
+        "第一个小时都花在完善时间表上。",
+        "两点到三点看第三章，计划里写着呢。"
+      ],
+      "D": [
+        "侦探",
+        "没有一页能逃过你的检查。",
+        "你会核对书的版本、每个知识点的出处，还有笔记和课堂讲的对不对得上。连脚注都逃不过你的眼睛。别人没发现的错，都是你找出来的。",
+        "找到考试会考的那个细节。",
+        "查得太细，一章怎么都看不完。",
+        "等等，这和老师用的是同一版吗？"
+      ],
+      "M": [
+        "指挥家",
+        "三本书摊开，电脑开着，手机里还有学习群。",
+        "你同时学好几样：一边是书，一边是笔记，中间是电脑，学习群里还在答疑。看着乱，但样样都在往前走。",
+        "让几门课一起推进。",
+        "摊开的东西太多，桌子放不下。",
+        "把那本书递给我？我同时在看三本。"
+      ],
+      "F": [
+        "终结者",
+        "写完的笔记胜过好看的笔记。",
+        "你坐下、学习、学完。不用五色笔，不要完美笔记本。别人还在摆荧光笔，你已经看完一章去买咖啡了。",
+        "真正把要看的内容看完。",
+        "写的笔记只有自己看得懂。",
+        "这章看完了，下一章。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据考试的需要切换角色：内容多时就规划，细节重要时就核对，时间紧时全部摊开，该收尾时就把这章搞定。",
+        "成为那门课最需要的学生。",
+        "谁也不知道你今天坐哪张桌子。",
+        "看情况。哪门课？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢带着计划来。",
+      "D": "你不会放过任何一页不检查。",
+      "M": "你能同时学好几样东西。",
+      "F": "关键时刻，你合上书时一切都搞定了。"
+    },
+    "Q": [
+      [
+        "安静的图书馆里，有人撕开了一包薯片。你……",
+        {
+          "A": "早就带了耳机",
+          "D": "去找“禁止饮食”的牌子",
+          "M": "换桌、换书、换计划",
+          "F": "问他能不能分我一点"
+        }
+      ],
+      [
+        "你到了，带插座的桌子全被占了。你……",
+        {
+          "A": "不可能，我八点就到",
+          "D": "一桌一桌看，总有人会走",
+          "M": "一个插线板，和三个朋友一起用",
+          "F": "学到没电为止，就这样"
+        }
+      ],
+      [
+        "你要的书被借走了。你……",
+        {
+          "A": "上周就预约好了",
+          "D": "去书架找找别的版本",
+          "M": "群里要PDF、拍照、借同学笔记",
+          "F": "看看总结就继续"
+        }
+      ],
+      [
+        "在学习小组里，你是……",
+        {
+          "A": "分配章节的那个人",
+          "D": "核对答案对不对的那个人",
+          "M": "同时回答所有人问题的那个人",
+          "F": "最先做完、把自己那部分发出来的那个人"
+        }
+      ],
+      [
+        "管理员对你们这桌“嘘”了一声。你心想：",
+        {
+          "A": "“我早说了这是安静区”",
+          "D": "“是我们，还是隔壁桌？”",
+          "M": "“好，我小声讲完”",
+          "F": "“好了，现在全神贯注”"
+        }
+      ],
+      [
+        "离图书馆关门还有二十分钟。你……",
+        {
+          "A": "计划已经做到最后一项",
+          "D": "走之前把学过的复习一遍",
+          "M": "再借两本书带回家",
+          "F": "赶紧看完这一章就走"
+        }
+      ],
+      [
+        "你在图书馆最大的毛病：",
+        {
+          "A": "规划太多，学得太少",
+          "D": "核对太多，卡在第三页",
+          "M": "书开太多，自己都乱了",
+          "F": "笔记写得太快"
+        }
+      ],
+      [
+        "一天的学习结束了。你……",
+        {
+          "A": "记下明天要做的",
+          "D": "确认书都还对了",
+          "M": "和小组约好下一次",
+          "F": "合上本子去吃饭"
+        }
+      ]
+    ]
+  }
+}

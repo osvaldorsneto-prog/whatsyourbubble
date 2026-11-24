@@ -1,0 +1,384 @@
+{
+  "slug": "marmita",
+  "criado_em": "2026-11-24",
+  "categoria": "comida",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é na marmita da semana?",
+    "lead": "Domingo à noite, potes na pia e uma semana inteira pela frente. Qual bolha é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Seu cardápio da semana fica pronto antes do mercado.",
+        "Pra você, marmita boa começa no papel. Segunda frango, terça carne moída, quarta peixe. Você sabe quantos potes, quanto arroz e o que congela. Por isso nunca almoça bolacha na quarta.",
+        "Transformar uma tarde de domingo em cinco almoços.",
+        "Planejar o cardápio de um mês e não ter pote pra tudo.",
+        "Quarta é dia de peixe. Tá na lista."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum pote fecha sem inspeção.",
+        "Você confere a validade de tudo, cheira o feijão de ontem e etiqueta cada pote com a data. Com você, ninguém abre a marmita na sexta e leva susto.",
+        "Saber exatamente o que ainda está bom pra comer.",
+        "Cheirar tanto o pote que o almoço esfria.",
+        "Isso aqui é de quando? Tem etiqueta?"
+      ],
+      "M": [
+        "O Maestro",
+        "Quatro bocas do fogão, forno e panela de arroz ao mesmo tempo.",
+        "Você cozinha tudo junto: o arroz na panela, o frango no forno, o legume no vapor e o feijão de pressão. Em uma hora a cozinha vira uma fábrica e a semana inteira está resolvida.",
+        "Fazer cinco almoços no tempo de um.",
+        "Ligar tudo junto e esquecer o forno ligado.",
+        "Mexe o arroz pra mim? Tô no frango."
+      ],
+      "F": [
+        "O Finalizador",
+        "Marmita feita é melhor que marmita perfeita.",
+        "Você não espera a receita ideal nem o pote combinando. Arroz, feijão, uma proteína e pronto: cinco potes na geladeira. Enquanto os outros salvam receitas no celular, você já tá almoçando.",
+        "Garantir o almoço da semana de verdade.",
+        "Comer a mesma coisa cinco dias seguidos.",
+        "Arroz, feijão, ovo. Fechou a semana."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a semana pede: planeja quando a agenda aperta, confere quando a geladeira tá cheia, cozinha tudo junto quando dá tempo e resolve no improviso quando não dá.",
+        "Ser o que a sua semana precisa naquele domingo.",
+        "Ninguém saber o que vai ter na sua marmita.",
+        "Depende. O que tem na geladeira?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de um cardápio no papel.",
+      "D": "você não fecha um pote sem conferir.",
+      "M": "você cozinha várias coisas ao mesmo tempo.",
+      "F": "na hora do aperto, você enche os potes e pronto."
+    },
+    "Q": [
+      [
+        "Domingo à noite e nenhuma marmita da semana pronta. Você...",
+        {
+          "A": "Monto o cardápio dos 5 dias",
+          "D": "Cheiro tudo que tem na geladeira",
+          "M": "Ligo as 4 bocas do fogão",
+          "F": "Arroz com ovo, 5 vezes"
+        }
+      ],
+      [
+        "No mercado, a lista da marmita é...",
+        {
+          "A": "Organizada por dia da semana",
+          "D": "Conferida com a despensa antes de sair",
+          "M": "Dividida: eu pego carne, você pega legume",
+          "F": "Na minha cabeça, e tá ótimo"
+        }
+      ],
+      [
+        "Faltam potes com tampa. Você...",
+        {
+          "A": "Já tinha contado os potes no sábado",
+          "D": "Testa tampa por tampa até achar o par",
+          "M": "Usa pote de sorvete e papel-alumínio junto",
+          "F": "Põe um prato em cima e segue"
+        }
+      ],
+      [
+        "Seu papel quando a família faz marmita junto é...",
+        {
+          "A": "Quem decide o cardápio",
+          "D": "Quem prova o tempero e a validade",
+          "M": "Quem cuida do fogão inteiro",
+          "F": "Quem fecha e empilha os potes"
+        }
+      ],
+      [
+        "Na quarta, o colega abre a marmita dele e o cheiro é ótimo. Você pensa:",
+        {
+          "A": "\"Vou pôr isso no cardápio da semana que vem\"",
+          "D": "\"Que tempero é esse? Vou perguntar\"",
+          "M": "\"Dá pra fazer junto com o meu frango\"",
+          "F": "\"Troca comigo?\""
+        }
+      ],
+      [
+        "A geladeira do trabalho tá lotada. Você...",
+        {
+          "A": "Trouxe a bolsa térmica, já previa isso",
+          "D": "Confere se não pegaram a sua por engano",
+          "M": "Reorganiza a geladeira inteira pra caber",
+          "F": "Encaixa onde der e fecha rápido"
+        }
+      ],
+      [
+        "Seu maior defeito na marmita:",
+        {
+          "A": "Planejo tanto que o domingo acaba",
+          "D": "Confiro tanto que jogo fora coisa boa",
+          "M": "Faço tudo junto e queimo alguma coisa",
+          "F": "Repito o mesmo prato a semana toda"
+        }
+      ],
+      [
+        "Sexta-feira, último pote. Você...",
+        {
+          "A": "Já anota o cardápio da próxima semana",
+          "D": "Confere se ainda está bom antes de comer",
+          "M": "Já pensa no que dá pra fazer junto no domingo",
+          "F": "Come e lava o pote na hora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at weekly meal prep?",
+    "lead": "Sunday night, empty tubs and a whole week ahead. Which bubble are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your week's menu is done before you hit the shops.",
+        "For you, good meal prep starts on paper. Monday chicken, Tuesday mince, Wednesday fish. You know how many tubs, how much rice and what goes in the freezer. That's why you never end up lunching on biscuits.",
+        "Turning one Sunday afternoon into five lunches.",
+        "Planning a month of menus and not owning enough tubs.",
+        "Wednesday is fish. It's on the list."
+      ],
+      "D": [
+        "The Detective",
+        "No tub gets sealed without inspection.",
+        "You check every use-by date, sniff yesterday's beans and label each tub with the date. With you around, nobody opens their lunch on Friday and gets a nasty surprise.",
+        "Knowing exactly what's still good to eat.",
+        "Sniffing the tub so long your lunch goes cold.",
+        "When is this from? Is there a label?"
+      ],
+      "M": [
+        "The Maestro",
+        "Four burners, the oven and the rice cooker, all at once.",
+        "You cook everything together: rice on, chicken in the oven, veg steaming, beans in the pressure cooker. In one hour the kitchen becomes a factory and the whole week is sorted.",
+        "Making five lunches in the time of one.",
+        "Switching everything on and forgetting the oven.",
+        "Can you stir the rice? I'm on the chicken."
+      ],
+      "F": [
+        "The Finisher",
+        "Packed beats perfect.",
+        "You don't wait for the ideal recipe or matching tubs. Rice, beans, some protein and done: five tubs in the fridge. While others save recipes on their phone, you're already eating.",
+        "Actually getting the week's lunches sorted.",
+        "Eating the same thing five days in a row.",
+        "Rice, beans, egg. Week sorted."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the week demands: you plan when the diary is packed, check when the fridge is full, cook it all at once when there's time and improvise when there isn't.",
+        "Being exactly what your week needs that Sunday.",
+        "Nobody knowing what's in your lunchbox.",
+        "Depends. What's in the fridge?"
+      ]
+    },
+    "S2": {
+      "A": "you still like a menu written down.",
+      "D": "you never seal a tub without checking.",
+      "M": "you cook several things at once.",
+      "F": "when time's short, you fill the tubs and go."
+    },
+    "Q": [
+      [
+        "Sunday night and not one lunch prepped for the week. You...",
+        {
+          "A": "Plan a menu for all 5 days",
+          "D": "Sniff everything in the fridge",
+          "M": "Fire up all 4 burners",
+          "F": "Rice and egg, five times"
+        }
+      ],
+      [
+        "At the supermarket, your meal prep list is...",
+        {
+          "A": "Organised by day of the week",
+          "D": "Checked against the cupboard before leaving",
+          "M": "Split up: I get meat, you get veg",
+          "F": "In my head, and that's fine"
+        }
+      ],
+      [
+        "You're out of tubs with lids. You...",
+        {
+          "A": "Already counted them on Saturday",
+          "D": "Try lid after lid until one fits",
+          "M": "Use an ice cream tub and foil together",
+          "F": "Put a plate on top and carry on"
+        }
+      ],
+      [
+        "Your role when the household meal preps together is...",
+        {
+          "A": "The one who picks the menu",
+          "D": "The one tasting the seasoning and checking dates",
+          "M": "The one running the whole hob",
+          "F": "The one sealing and stacking the tubs"
+        }
+      ],
+      [
+        "On Wednesday a colleague opens their lunch and it smells amazing. You think:",
+        {
+          "A": "\"That's going on next week's menu\"",
+          "D": "\"What seasoning is that? I'll ask\"",
+          "M": "\"I could make that alongside my chicken\"",
+          "F": "\"Swap with me?\""
+        }
+      ],
+      [
+        "The office fridge is completely full. You...",
+        {
+          "A": "Brought a cool bag, saw this coming",
+          "D": "Check nobody took yours by mistake",
+          "M": "Rearrange the whole fridge to make room",
+          "F": "Wedge it in wherever and shut the door fast"
+        }
+      ],
+      [
+        "Your biggest meal prep flaw:",
+        {
+          "A": "I plan so long Sunday's over",
+          "D": "I check so much I bin good food",
+          "M": "I cook everything at once and burn something",
+          "F": "I eat the same dish all week"
+        }
+      ],
+      [
+        "Friday, last tub. You...",
+        {
+          "A": "Already write next week's menu",
+          "D": "Check it's still OK before eating",
+          "M": "Plan what to cook together on Sunday",
+          "F": "Eat it and wash the tub straight away"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "备一周便当时，你是哪个泡泡？",
+    "lead": "周日晚上，空饭盒摆在水槽边，一整周等着你。你是哪个泡泡？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没去超市，你这周的菜单就定好了。",
+        "对你来说，好便当从纸上开始。周一鸡肉，周二肉末，周三鱼。你知道要几个饭盒、多少米、哪些要冷冻。所以你从来不会周三中午啃饼干。",
+        "把一个周日下午变成五顿午饭。",
+        "排了一个月的菜单，饭盒却不够用。",
+        "周三吃鱼，清单上写着呢。"
+      ],
+      "D": [
+        "侦探",
+        "没有一个饭盒能不经检查就盖上。",
+        "你检查每样东西的保质期，闻一闻昨天的豆子，还给每个饭盒贴上日期。有你在，没人会在周五打开便当时被吓一跳。",
+        "准确知道哪些还能吃。",
+        "闻饭盒闻太久，午饭都凉了。",
+        "这是哪天做的？有标签吗？"
+      ],
+      "M": [
+        "指挥家",
+        "四个灶眼、烤箱和电饭煲同时开工。",
+        "你什么都一起做：电饭煲煮饭，烤箱烤鸡，蒸锅蒸菜，高压锅炖豆子。一小时内厨房变成工厂，一整周的午饭全搞定。",
+        "用一顿饭的时间做出五顿。",
+        "全都开着，忘了关烤箱。",
+        "帮我搅一下饭？我在弄鸡肉。"
+      ],
+      "F": [
+        "终结者",
+        "做好的便当胜过完美的便当。",
+        "你不等完美的菜谱，也不等配套的饭盒。米饭、豆子、一份肉，搞定：冰箱里五个饭盒。别人还在手机上收藏菜谱，你已经在吃了。",
+        "真正把一周的午饭搞定。",
+        "连续五天吃同一样东西。",
+        "米饭、豆子、鸡蛋，这周搞定。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据这一周的需要切换角色：忙的时候提前规划，冰箱满的时候仔细检查，有空就一起开火，没空就随机应变。",
+        "成为这个周日你的一周最需要的人。",
+        "谁也猜不到你饭盒里装的是什么。",
+        "看情况。冰箱里有什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢把菜单写下来。",
+      "D": "你不检查就不会盖上饭盒。",
+      "M": "你能同时做好几样菜。",
+      "F": "时间紧的时候，你装满饭盒就走。"
+    },
+    "Q": [
+      [
+        "周日晚上，这周的便当一个都没做。你……",
+        {
+          "A": "排好五天的菜单",
+          "D": "把冰箱里的东西挨个闻一遍",
+          "M": "四个灶眼全部点火",
+          "F": "蛋炒饭，做五份"
+        }
+      ],
+      [
+        "去超市时，你的便当清单是……",
+        {
+          "A": "按星期几分好的",
+          "D": "出门前先和储物柜对一遍",
+          "M": "分工：我买肉，你买菜",
+          "F": "在脑子里，够用了"
+        }
+      ],
+      [
+        "带盖的饭盒不够了。你……",
+        {
+          "A": "周六就数过饭盒了",
+          "D": "一个盖子一个盖子试，直到配上",
+          "M": "冰淇淋盒加锡纸一起用",
+          "F": "上面盖个盘子，继续"
+        }
+      ],
+      [
+        "全家一起做便当时，你的角色是……",
+        {
+          "A": "定菜单的那个人",
+          "D": "尝味道、查日期的那个人",
+          "M": "掌管整个灶台的那个人",
+          "F": "负责盖盖子、摞饭盒的那个人"
+        }
+      ],
+      [
+        "周三，同事打开便当，香得不得了。你心想：",
+        {
+          "A": "“下周菜单加上这个”",
+          "D": "“这是什么调料？去问问”",
+          "M": "“可以和我的鸡肉一起做”",
+          "F": "“跟我换吗？”"
+        }
+      ],
+      [
+        "公司冰箱塞满了。你……",
+        {
+          "A": "带了保温袋，早料到了",
+          "D": "看看是不是有人拿错了我的",
+          "M": "把整个冰箱重新整理一遍",
+          "F": "哪有空塞哪，赶紧关门"
+        }
+      ],
+      [
+        "你做便当最大的毛病：",
+        {
+          "A": "规划太久，周日都过完了",
+          "D": "检查太多，好东西也扔了",
+          "M": "同时做太多，总有一样烧焦",
+          "F": "一整周吃同一道菜"
+        }
+      ],
+      [
+        "周五，最后一个饭盒。你……",
+        {
+          "A": "已经在写下周的菜单",
+          "D": "吃之前先确认还能吃",
+          "M": "开始想周日能一起做什么",
+          "F": "吃完马上把饭盒洗了"
+        }
+      ]
+    ]
+  }
+}

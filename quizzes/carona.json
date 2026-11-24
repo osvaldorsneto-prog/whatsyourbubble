@@ -1,0 +1,384 @@
+{
+  "slug": "carona",
+  "criado_em": "2026-11-24",
+  "categoria": "viagem",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é na carona?",
+    "lead": "Carro cheio, GPS ligado e alguém pedindo pra mudar a música. Qual bolha é você na carona?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta a rota da carona antes de ligar o carro.",
+        "Pra você, carona boa começa com o roteiro. Quem busca primeiro, por onde passar e a que horas todo mundo chega. Por isso, quando você dirige, ninguém espera na calçada.",
+        "Buscar cinco pessoas sem rodar à toa.",
+        "Planejar tanto a rota que sai atrasado.",
+        "Primeiro a Ana, depois o Léo. Tá no roteiro."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum endereço passa sem confirmação.",
+        "Você confere o endereço, o número do prédio e o portão certo. Pergunta se é casa ou apartamento. Com você, ninguém passa vinte minutos rodando o quarteirão.",
+        "Achar o portão certo de primeira.",
+        "Confirmar tanto que todo mundo já desceu pra rua.",
+        "É o portão da frente ou o dos fundos?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você dirige, cuida do GPS, da música e da conversa.",
+        "Você toca tudo ao mesmo tempo: segue o mapa, escolhe a música, responde o grupo pelo áudio e ainda faz todo mundo rir. O carro vira uma festa e chega todo mundo junto.",
+        "Fazer a carona virar parte do passeio.",
+        "Prestar atenção em tudo e perder a saída.",
+        "Alguém vê o mapa? Eu tô na música."
+      ],
+      "F": [
+        "O Finalizador",
+        "Chegar é melhor que chegar perfeito.",
+        "Você não espera rota ideal nem playlist pronta. Liga o carro, busca quem tiver que buscar e pronto, chegou. Enquanto os outros discutem o caminho, você já estacionou.",
+        "Levar todo mundo pro lugar de verdade.",
+        "Pegar o caminho mais longo sem perceber.",
+        "Entra aí, a gente vai vendo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a carona pede: planeja quando tem muita gente, confere quando o endereço é estranho, anima quando o trânsito para e acelera quando tá todo mundo atrasado.",
+        "Ser o que a carona precisa naquele momento.",
+        "Ninguém saber se você vai dirigir ou ir de passageiro.",
+        "Depende. Quem tá no carro?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de uma rota bem montada.",
+      "D": "você não sai sem confirmar o endereço.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você liga o carro e vai."
+    },
+    "Q": [
+      [
+        "O amigo da carona diz \"é logo ali\" há 20 minutos. Você...",
+        {
+          "A": "Peço o endereço exato no mapa",
+          "D": "Pergunto: ali onde, exatamente?",
+          "M": "Dirijo, procuro e troco a música",
+          "F": "Paro: daqui você vai a pé"
+        }
+      ],
+      [
+        "Cinco amigos pedem carona pra mesma festa. Você...",
+        {
+          "A": "Monto a ordem de quem buscar primeiro",
+          "D": "Confirmo o endereço de cada um",
+          "M": "Crio um grupo e organizo tudo pelo áudio",
+          "F": "Falo \"desçam em 5 minutos\" e saio"
+        }
+      ],
+      [
+        "Você chega e o amigo ainda tá \"descendo\". Você...",
+        {
+          "A": "Já tinha avisado a hora com antecedência",
+          "D": "Mando mensagem: tá descendo mesmo?",
+          "M": "Aproveito pra responder o grupo e ver o mapa",
+          "F": "Buzino de leve e espero"
+        }
+      ],
+      [
+        "Na carona, seu papel é...",
+        {
+          "A": "Quem montou a rota",
+          "D": "Quem confere o GPS e as placas",
+          "M": "Quem cuida da música e da conversa",
+          "F": "Quem garante que todo mundo chegou"
+        }
+      ],
+      [
+        "Alguém pede pra passar no posto pra comprar lanche. Você pensa:",
+        {
+          "A": "\"Tem um posto na rota daqui a 10 minutos\"",
+          "D": "\"Esse posto tem fila? Vou ver no mapa\"",
+          "M": "\"Aproveito e abasteço o carro também\"",
+          "F": "\"Rapidinho, hein\""
+        }
+      ],
+      [
+        "O GPS manda fazer o retorno pela terceira vez. Você...",
+        {
+          "A": "Sigo o caminho que eu já tinha decorado",
+          "D": "Abro outro app pra comparar",
+          "M": "Dirijo, recalculo e acalmo todo mundo",
+          "F": "Sigo as placas e pronto"
+        }
+      ],
+      [
+        "Seu maior defeito na carona:",
+        {
+          "A": "Planejo tanto que saio atrasado",
+          "D": "Confirmo tanto que todo mundo cansa",
+          "M": "Converso tanto que perco a saída",
+          "F": "Vou pelo caminho mais longo sem perceber"
+        }
+      ],
+      [
+        "Deixou o último amigo em casa. Você...",
+        {
+          "A": "Anoto a rota que funcionou melhor",
+          "D": "Espero ele entrar e confiro se fechou o portão",
+          "M": "Já combino a carona da volta",
+          "F": "Vou embora e chego em casa"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when giving a lift?",
+    "lead": "A full car, sat nav on and someone asking to change the song. Which bubble are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You plan the pick-up route before starting the engine.",
+        "For you, a good lift starts with a route. Who to grab first, which way to go and when everyone arrives. That's why, when you drive, nobody waits on the pavement.",
+        "Picking up five people without a single detour.",
+        "Planning the route so long you leave late.",
+        "Ana first, then Leo. It's in the plan."
+      ],
+      "D": [
+        "The Detective",
+        "No address goes unconfirmed.",
+        "You check the address, the building number and the right gate. You ask if it's a house or a flat. With you, nobody spends twenty minutes circling the block.",
+        "Finding the right gate first time.",
+        "Confirming so much everyone's already outside.",
+        "Is it the front gate or the back one?"
+      ],
+      "M": [
+        "The Maestro",
+        "You drive, run the sat nav, the music and the chat.",
+        "You handle it all at once: follow the map, pick the music, reply to the group by voice note and keep everyone laughing. The car turns into a party and everyone arrives together.",
+        "Making the drive part of the fun.",
+        "Paying attention to everything and missing the exit.",
+        "Can someone check the map? I'm on music."
+      ],
+      "F": [
+        "The Finisher",
+        "Arriving beats arriving perfectly.",
+        "You don't wait for the ideal route or a finished playlist. Engine on, pick up whoever needs picking up, done, you're there. While others argue about the way, you've already parked.",
+        "Actually getting everyone there.",
+        "Taking the long way without noticing.",
+        "Hop in, we'll figure it out."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the trip needs: you plan when there's a crowd, check when the address is odd, liven things up in traffic and step on it when everyone's late.",
+        "Being what the lift needs right then.",
+        "Nobody knowing if you'll drive or ride along.",
+        "Depends. Who's in the car?"
+      ]
+    },
+    "S2": {
+      "A": "you still like a well-planned route.",
+      "D": "you never set off without confirming the address.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you start the car and go."
+    },
+    "Q": [
+      [
+        "Your passenger has said \"it's just here\" for 20 minutes. You...",
+        {
+          "A": "Ask for the exact address on the map",
+          "D": "Ask: just where, exactly?",
+          "M": "Drive, search and change the song",
+          "F": "Stop: you can walk from here"
+        }
+      ],
+      [
+        "Five friends want a lift to the same party. You...",
+        {
+          "A": "Work out who to pick up first",
+          "D": "Confirm everyone's address",
+          "M": "Start a group chat and sort it by voice note",
+          "F": "Say \"be outside in 5\" and leave"
+        }
+      ],
+      [
+        "You arrive and your friend is still \"coming down\". You...",
+        {
+          "A": "Already told them the time well in advance",
+          "D": "Text: are you actually coming down?",
+          "M": "Use the time to answer the group and check the map",
+          "F": "Give a little beep and wait"
+        }
+      ],
+      [
+        "On the drive, your role is...",
+        {
+          "A": "The one who planned the route",
+          "D": "The one checking the sat nav and the signs",
+          "M": "The one running the music and the chat",
+          "F": "The one making sure everyone got there"
+        }
+      ],
+      [
+        "Someone asks to stop at a petrol station for snacks. You think:",
+        {
+          "A": "\"There's one on the route in 10 minutes\"",
+          "D": "\"Is there a queue there? Let me check the map\"",
+          "M": "\"I'll fill up the car while we're there\"",
+          "F": "\"Quickly, though\""
+        }
+      ],
+      [
+        "The sat nav says make a U-turn for the third time. You...",
+        {
+          "A": "Follow the route I'd already memorised",
+          "D": "Open another app to compare",
+          "M": "Drive, recalculate and calm everyone down",
+          "F": "Follow the road signs and that's that"
+        }
+      ],
+      [
+        "Your biggest flaw when giving a lift:",
+        {
+          "A": "I plan so much I leave late",
+          "D": "I confirm so much everyone gets tired",
+          "M": "I chat so much I miss the exit",
+          "F": "I take the long way without noticing"
+        }
+      ],
+      [
+        "You've dropped off the last friend. You...",
+        {
+          "A": "Note which route worked best",
+          "D": "Wait till they're inside and the gate's shut",
+          "M": "Already arrange the lift back",
+          "F": "Head off and get home"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "开车载朋友时，你是哪个泡泡？",
+    "lead": "车坐满了，导航开着，还有人要求换歌。你是哪个泡泡？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没发动车，你就把接人路线排好了。",
+        "对你来说，好的顺风车从路线开始。先接谁、走哪条路、大家几点到。所以你开车的时候，没人在路边干等。",
+        "接五个人一点冤枉路都不绕。",
+        "路线排太久，出门晚了。",
+        "先接小安，再接小李。路线上写着呢。"
+      ],
+      "D": [
+        "侦探",
+        "没有一个地址能不经确认。",
+        "你会核对地址、楼号和哪个门。还会问是独栋还是公寓。有你在，没人会绕着街区转二十分钟。",
+        "一次就找到正确的门。",
+        "确认太多次，大家都已经下楼等着了。",
+        "是前门还是后门？"
+      ],
+      "M": [
+        "指挥家",
+        "你一边开车，一边管导航、音乐和聊天。",
+        "你什么都同时管：跟着地图走，挑歌，用语音回群消息，还能把大家逗笑。车里变成派对，大家一起到达。",
+        "让路上也变成好玩的一部分。",
+        "什么都顾着，结果错过了出口。",
+        "谁帮我看下地图？我在选歌。"
+      ],
+      "F": [
+        "终结者",
+        "到达胜过完美到达。",
+        "你不等最佳路线，也不等歌单。发动、接人、到了。别人还在争论怎么走，你已经停好车了。",
+        "真正把大家送到地方。",
+        "走了远路自己都没发现。",
+        "上车吧，边走边看。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据这一趟的需要切换角色：人多时就规划，地址奇怪时就核对，堵车时活跃气氛，大家都迟到时就加速。",
+        "成为这一趟最需要的人。",
+        "谁也不知道你是开车还是坐车。",
+        "看情况。车上都有谁？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢规划好的路线。",
+      "D": "不确认地址你不会出发。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你发动车子就走。"
+    },
+    "Q": [
+      [
+        "坐你车的朋友说“马上就到”，已经说了二十分钟。你……",
+        {
+          "A": "让他在地图上发准确地址",
+          "D": "问他：到底是哪儿？",
+          "M": "边开边找，顺便换首歌",
+          "F": "停车：剩下的你走过去吧"
+        }
+      ],
+      [
+        "五个朋友都想搭你的车去同一个派对。你……",
+        {
+          "A": "排好先接谁后接谁",
+          "D": "挨个确认每个人的地址",
+          "M": "建个群，用语音安排好一切",
+          "F": "说一句“五分钟后楼下见”就出发"
+        }
+      ],
+      [
+        "你到了，朋友还在“下楼了”。你……",
+        {
+          "A": "早就提前告诉他时间了",
+          "D": "发消息：你真的在下楼吗？",
+          "M": "趁机回群消息、看地图",
+          "F": "轻轻按一下喇叭，等着"
+        }
+      ],
+      [
+        "在车上，你的角色是……",
+        {
+          "A": "规划路线的那个人",
+          "D": "盯导航和路牌的那个人",
+          "M": "管音乐和聊天的那个人",
+          "F": "确保每个人都送到的那个人"
+        }
+      ],
+      [
+        "有人要求去加油站买零食。你心想：",
+        {
+          "A": "“路线上十分钟后就有一个”",
+          "D": "“那边排队吗？我看下地图”",
+          "M": "“正好顺便加个油”",
+          "F": "“快点啊”"
+        }
+      ],
+      [
+        "导航第三次让你掉头。你……",
+        {
+          "A": "按我早就记住的路走",
+          "D": "打开另一个导航对比一下",
+          "M": "边开边重新规划，还安抚大家",
+          "F": "跟着路牌走就行"
+        }
+      ],
+      [
+        "你开车载人时最大的毛病：",
+        {
+          "A": "规划太多，出门晚了",
+          "D": "确认太多，大家都烦了",
+          "M": "聊得太嗨，错过出口",
+          "F": "走了远路自己都没发现"
+        }
+      ],
+      [
+        "送完最后一个朋友。你……",
+        {
+          "A": "记下哪条路线最好",
+          "D": "等他进门、关好大门再走",
+          "M": "马上约好回程的车",
+          "F": "直接开回家"
+        }
+      ]
+    ]
+  }
+}

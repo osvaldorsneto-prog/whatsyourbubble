@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "marmita",
+   "url": "/q/?s=marmita",
+   "criado_em": "2026-11-24",
+   "categoria": "comida",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é na marmita da semana?",
+    "en": "What's your bubble at weekly meal prep?",
+    "zh": "备一周便当时，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "carona",
+   "url": "/q/?s=carona",
+   "criado_em": "2026-11-24",
+   "categoria": "viagem",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é na carona?",
+    "en": "What's your bubble when giving a lift?",
+    "zh": "开车载朋友时，你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "biblioteca",
+   "url": "/q/?s=biblioteca",
+   "criado_em": "2026-11-24",
+   "categoria": "estudos",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é estudando na biblioteca?",
+    "en": "What's your bubble studying in the library?",
+    "zh": "在图书馆学习时，你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "pet-do-amigo",
    "url": "/q/?s=pet-do-amigo",
    "criado_em": "2026-11-23",
