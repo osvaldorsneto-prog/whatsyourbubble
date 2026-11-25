@@ -1,0 +1,384 @@
+{
+  "slug": "piquenique",
+  "criado_em": "2026-11-25",
+  "categoria": "comida",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é no piquenique?",
+    "lead": "Todo piquenique tem os mesmos 4 tipos de gente na toalha. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você escolheu a sombra certa três dias antes.",
+        "Pra você, piquenique bom começa no mapa. Você vê a previsão do tempo, escolhe a árvore, divide quem leva o quê e ainda lembra do saco de lixo. Com você, nada fica faltando na toalha.",
+        "Pensar em tudo que ninguém lembrou de levar.",
+        "Planejar tanto que a sombra muda de lugar.",
+        "Eu trouxe toalha extra, por via das dúvidas."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma formiga chega perto sem você perceber.",
+        "Você confere se a grama tá seca, se o suco tá gelado e se o pote fechou direito. Você vê a nuvem antes de todo mundo. Graças a você, ninguém senta em cima do bolo.",
+        "Perceber o problema antes de ele chegar na toalha.",
+        "Inspecionar tanto o chão que demora pra sentar.",
+        "Antes de sentar, deixa eu ver se tem formiga."
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida da comida, da música e da bola ao mesmo tempo.",
+        "Você estende a toalha, serve os sanduíches, põe a música, chama a turma pro jogo e ainda tira a foto do grupo. Enquanto os outros relaxam, você mantém o piquenique inteiro acontecendo.",
+        "Fazer todo mundo se sentir em casa no parque.",
+        "Cuidar de tanta coisa que esquece de comer.",
+        "Quem quer suco? Já já começa o jogo!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Toalha no chão, comida na mão. Pronto.",
+        "Você não precisa da sombra perfeita nem da cesta bonita. Joga a toalha na primeira grama que vê, abre o pacote de biscoito e pronto, piquenique começou. Simples e sempre funciona.",
+        "Transformar qualquer gramado num piquenique.",
+        "Sentar no primeiro lugar, mesmo que seja no sol.",
+        "Aqui tá ótimo. Bora comer!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o dia: planeja quando o grupo é grande, confere quando o céu fecha, cuida de todo mundo quando a turma chega e só senta e come quando é pra relaxar.",
+        "Ser o que o piquenique precisa naquela hora.",
+        "Ninguém saber que tarefa te dar.",
+        "Depende. É piquenique de festa ou de preguiça?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda adora uma lista do que levar.",
+      "D": "você ainda confere o céu e o chão.",
+      "M": "você ainda cuida de todo mundo na toalha.",
+      "F": "na hora certa, você só senta e come."
+    },
+    "Q": [
+      [
+        "As formigas chegaram no piquenique antes de você. Você...",
+        {
+          "A": "Mudo pro meu lugar reserva",
+          "D": "Descubro de onde elas vêm",
+          "M": "Salvo o bolo e distraio a turma",
+          "F": "Sacudo a toalha e como"
+        }
+      ],
+      [
+        "Alguém sugere um piquenique no domingo. Você...",
+        {
+          "A": "Vejo a previsão e escolho o parque",
+          "D": "Pergunto se vai chover mesmo e quem confirma",
+          "M": "Crio o grupo e divido quem leva o quê",
+          "F": "Falo \"fechou\" e apareço com um pacote de pão"
+        }
+      ],
+      [
+        "Na hora de montar a cesta, você...",
+        {
+          "A": "Faço uma lista com comida, talheres e guardanapo",
+          "D": "Confiro se cada pote fechou direitinho",
+          "M": "Levo comida pra todo mundo, até pra quem não vem",
+          "F": "Ponho o que tiver na geladeira numa sacola"
+        }
+      ],
+      [
+        "O céu começa a fechar. Você...",
+        {
+          "A": "Já sei onde fica o coreto mais perto",
+          "D": "Olho o radar e calculo quanto tempo falta",
+          "M": "Recolho tudo rapidinho com a ajuda de todo mundo",
+          "F": "Continuo comendo até cair a primeira gota"
+        }
+      ],
+      [
+        "Seu papel no piquenique:",
+        {
+          "A": "Quem escolheu o lugar e a hora",
+          "D": "Quem conferiu a toalha antes de sentar",
+          "M": "Quem serve, põe música e chama pro jogo",
+          "F": "Quem abriu a comida primeiro"
+        }
+      ],
+      [
+        "Alguém esqueceu o abridor. Você...",
+        {
+          "A": "Tiro um da bolsa, eu sempre trago",
+          "D": "Confiro todas as mochilas antes de desistir",
+          "M": "Pergunto pra família da toalha do lado",
+          "F": "Dou um jeito com a chave de casa"
+        }
+      ],
+      [
+        "Seu maior defeito no piquenique:",
+        {
+          "A": "Levo tanta coisa que precisa de duas viagens",
+          "D": "Demoro tanto procurando formiga que a comida esquenta",
+          "M": "Sirvo todo mundo e esqueço de comer",
+          "F": "Sento no primeiro lugar, mesmo no sol forte"
+        }
+      ],
+      [
+        "Fim do piquenique. Você...",
+        {
+          "A": "Anoto o que faltou pra lembrar da próxima vez",
+          "D": "Confiro se ninguém esqueceu nada na grama",
+          "M": "Já marco o próximo com a turma",
+          "F": "Dobro a toalha de qualquer jeito e vou embora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at a picnic?",
+    "lead": "Every picnic has the same 4 kinds of people on the blanket. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You picked the perfect shady spot three days ago.",
+        "For you, a good picnic starts with a map. You check the forecast, choose the tree, sort out who brings what and even remember the bin bag. With you around, nothing's missing from the blanket.",
+        "Thinking of everything nobody else remembered.",
+        "Planning so long the shade moves somewhere else.",
+        "I brought a spare blanket, just in case."
+      ],
+      "D": [
+        "The Detective",
+        "No ant gets near the food without you noticing.",
+        "You check the grass is dry, the juice is cold and every lid is on tight. You spot the cloud before anyone else. Thanks to you, nobody sits on the cake.",
+        "Spotting the problem before it reaches the blanket.",
+        "Inspecting the ground so long it takes ages to sit down.",
+        "Before we sit, let me check for ants."
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the food, the music and the ball all at once.",
+        "You spread the blanket, hand out the sandwiches, put the music on, get a game going and still take the group photo. While everyone else relaxes, you keep the whole picnic going.",
+        "Making everyone feel at home in the park.",
+        "Looking after so much you forget to eat.",
+        "Who wants juice? Game starts in a minute!"
+      ],
+      "F": [
+        "The Finisher",
+        "Blanket down, food out. Done.",
+        "You don't need the perfect shade or a pretty basket. You throw the blanket on the first patch of grass, open a packet of biscuits and the picnic has begun. Simple, and it always works.",
+        "Turning any patch of grass into a picnic.",
+        "Sitting in the first spot, even if it's in full sun.",
+        "This'll do. Let's eat!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the day needs: you plan when the group is big, check when the sky darkens, look after everyone when the crowd arrives and just sit and eat when it's time to chill.",
+        "Being what the picnic needs right then.",
+        "Nobody knowing which job to give you.",
+        "Depends. Is this a party picnic or a lazy one?"
+      ]
+    },
+    "S2": {
+      "A": "you still love a packing list.",
+      "D": "you still keep an eye on the sky and the grass.",
+      "M": "you still look after everyone on the blanket.",
+      "F": "when it counts, you just sit down and eat."
+    },
+    "Q": [
+      [
+        "The ants got to the picnic before you did. You...",
+        {
+          "A": "Move to my backup spot",
+          "D": "Work out where they're coming from",
+          "M": "Rescue the cake and distract everyone",
+          "F": "Shake the blanket and eat"
+        }
+      ],
+      [
+        "Someone suggests a picnic on Sunday. You...",
+        {
+          "A": "Check the forecast and pick the park",
+          "D": "Ask if it's really going to rain and who's confirmed",
+          "M": "Start the group chat and split who brings what",
+          "F": "Say \"deal\" and turn up with a loaf of bread"
+        }
+      ],
+      [
+        "Packing the basket, you...",
+        {
+          "A": "Make a list: food, cutlery and napkins",
+          "D": "Check every container is properly sealed",
+          "M": "Bring food for everyone, even people who aren't coming",
+          "F": "Put whatever's in the fridge in a carrier bag"
+        }
+      ],
+      [
+        "The sky starts clouding over. You...",
+        {
+          "A": "Already know where the nearest shelter is",
+          "D": "Check the radar and work out how long we've got",
+          "M": "Pack everything up fast with everyone's help",
+          "F": "Keep eating until the first drop falls"
+        }
+      ],
+      [
+        "Your role at the picnic:",
+        {
+          "A": "The one who picked the place and time",
+          "D": "The one who checked the blanket before sitting",
+          "M": "The one serving, playing music and starting the game",
+          "F": "The one who opened the food first"
+        }
+      ],
+      [
+        "Someone forgot the bottle opener. You...",
+        {
+          "A": "Pull one out of my bag, I always bring one",
+          "D": "Check every backpack before giving up",
+          "M": "Ask the family on the next blanket over",
+          "F": "Improvise with my house key"
+        }
+      ],
+      [
+        "Your biggest flaw at a picnic:",
+        {
+          "A": "I bring so much it takes two trips",
+          "D": "I hunt for ants so long the food gets warm",
+          "M": "I serve everyone and forget to eat",
+          "F": "I sit in the first spot, even in blazing sun"
+        }
+      ],
+      [
+        "The picnic's over. You...",
+        {
+          "A": "Note what was missing for next time",
+          "D": "Check nobody left anything on the grass",
+          "M": "Already plan the next one with the group",
+          "F": "Fold the blanket any old way and head off"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "野餐时你是哪个泡泡？",
+    "lead": "每次野餐，餐布上都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "三天前你就选好了最完美的树荫。",
+        "对你来说，好的野餐从地图开始。你会看天气预报、挑好大树、分配谁带什么，连垃圾袋都记得带。有你在，餐布上什么都不缺。",
+        "想到所有别人忘了带的东西。",
+        "规划太久，树荫都挪地方了。",
+        "我多带了一块餐布，以防万一。"
+      ],
+      "D": [
+        "侦探",
+        "任何一只蚂蚁靠近，你都第一个发现。",
+        "你会检查草地干不干、果汁冰不冰、盒子盖没盖紧。乌云还没飘过来你就看见了。多亏有你，没人一屁股坐在蛋糕上。",
+        "在问题到达餐布之前就发现它。",
+        "检查地面太久，迟迟坐不下来。",
+        "先别坐，我看看有没有蚂蚁。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管着吃的、音乐和球。",
+        "你铺餐布、分三明治、放音乐、组织大家玩游戏，还顺手拍了合照。别人在放松，你让整场野餐都热热闹闹。",
+        "让每个人在公园里都像在家一样自在。",
+        "照顾太多事，自己忘了吃。",
+        "谁要果汁？游戏马上开始！"
+      ],
+      "F": [
+        "终结者",
+        "餐布一铺，吃的一拿，开动。",
+        "你不需要完美的树荫，也不需要好看的野餐篮。看到第一块草地就铺餐布，撕开一包饼干，野餐就开始了。简单，而且每次都管用。",
+        "把任何一块草地变成野餐现场。",
+        "随便坐第一个位置，哪怕正晒着太阳。",
+        "这儿就挺好。开吃！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据当天的情况换角色：人多时负责规划，天阴时负责观察，朋友都到了就照顾大家，想放松时就坐下来吃。",
+        "成为这一刻野餐最需要的人。",
+        "没人知道该给你分配什么活。",
+        "看情况。是热闹野餐还是躺平野餐？"
+      ]
+    },
+    "S2": {
+      "A": "你还是很爱列一份携带清单。",
+      "D": "你还是会留意天空和草地。",
+      "M": "你还是会照顾餐布上的每一个人。",
+      "F": "关键时刻，你坐下就吃。"
+    },
+    "Q": [
+      [
+        "蚂蚁比你先到了野餐现场。你……",
+        {
+          "A": "换到我选好的备用地点",
+          "D": "找出它们是从哪来的",
+          "M": "抢救蛋糕，顺便安抚大家",
+          "F": "抖抖餐布，接着吃"
+        }
+      ],
+      [
+        "有人提议周日去野餐。你……",
+        {
+          "A": "看天气预报，挑好公园",
+          "D": "先问是不是真会下雨、谁确定来",
+          "M": "建群，分配谁带什么",
+          "F": "说一句“行”，带着一袋面包出现"
+        }
+      ],
+      [
+        "收拾野餐篮时，你会……",
+        {
+          "A": "列清单：吃的、餐具、纸巾",
+          "D": "检查每个盒子都盖紧了",
+          "M": "给所有人带吃的，连不来的人都算上",
+          "F": "把冰箱里有的东西装进一个袋子"
+        }
+      ],
+      [
+        "天开始变阴了。你……",
+        {
+          "A": "早就知道最近的凉亭在哪",
+          "D": "看雷达图，算还有多少时间",
+          "M": "叫大家一起飞快地收拾",
+          "F": "继续吃，直到掉下第一滴雨"
+        }
+      ],
+      [
+        "你在野餐中的角色：",
+        {
+          "A": "选地点和时间的人",
+          "D": "坐下前检查餐布的人",
+          "M": "又分吃的、又放音乐、又组织游戏的人",
+          "F": "第一个打开零食的人"
+        }
+      ],
+      [
+        "有人忘了带开瓶器。你……",
+        {
+          "A": "从包里拿出一个，我每次都带",
+          "D": "把每个背包翻一遍再放弃",
+          "M": "去问旁边那块餐布的一家人",
+          "F": "用家门钥匙想办法撬开"
+        }
+      ],
+      [
+        "你野餐时最大的毛病：",
+        {
+          "A": "带的东西太多，要跑两趟",
+          "D": "找蚂蚁找太久，吃的都不凉了",
+          "M": "忙着给大家分吃的，自己忘了吃",
+          "F": "随便坐第一个位置，哪怕大太阳"
+        }
+      ],
+      [
+        "野餐结束了。你……",
+        {
+          "A": "记下这次缺了什么，下次带上",
+          "D": "检查有没有人把东西落在草地上",
+          "M": "马上和大家约好下一次",
+          "F": "随手叠一下餐布就走"
+        }
+      ]
+    ]
+  }
+}

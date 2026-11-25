@@ -1,0 +1,384 @@
+{
+  "slug": "boliche",
+  "criado_em": "2026-11-25",
+  "categoria": "esporte",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no boliche?",
+    "lead": "Toda pista de boliche tem os mesmos 4 tipos de jogador. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você estuda a pista antes de jogar a primeira bola.",
+        "Pra você, boliche é geometria. Você escolhe o peso da bola, a marca no chão e o ângulo certo. Pode demorar no primeiro arremesso, mas quando acerta, sabe exatamente por quê.",
+        "Achar a jogada certa pra cada pino que sobrou.",
+        "Calcular tanto que a fila atrás de você suspira.",
+        "Mira na segunda setinha, um pouquinho pro lado."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum pino derrubado escapa da sua contagem.",
+        "Você confere o placar, o sapato, o peso da bola e se o pino caiu mesmo ou só balançou. Ninguém ganha uma rodada errada com você na mesa.",
+        "Pegar o erro do placar antes de todo mundo.",
+        "Conferir tanto que esquece que é sua vez.",
+        "Peraí, esse pino caiu ou foi o vento?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida da pista, do placar e da batata frita.",
+        "Você reserva a pista, organiza os times, pede o lanche e ainda comemora o strike dos outros. Enquanto a galera joga, você mantém a noite inteira animada.",
+        "Fazer a noite de boliche funcionar pra todo mundo.",
+        "Animar tanto que perde a própria vez.",
+        "Quem pediu a batata? Ah, é sua vez!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Pega a bola, joga, comemora. Próximo!",
+        "Você não fica estudando a pista. Pega a primeira bola que serve e manda. Às vezes vai pra canaleta, às vezes é strike, mas a rodada nunca trava por sua causa.",
+        "Manter o jogo andando no ritmo certo.",
+        "Jogar com a bola de outra pessoa.",
+        "Sem ensaio. Lá vai!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de estilo conforme a partida: estuda a jogada quando vale, confere o placar quando precisa, anima o time quando a noite esfria e só joga quando o importante é se divertir.",
+        "Ser o jogador que o time precisa naquela rodada.",
+        "Ninguém saber se você vai mirar ou só jogar.",
+        "Depende. É pra ganhar ou pra rir?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de mirar com calma.",
+      "D": "você ainda confere cada pino que cai.",
+      "M": "você ainda cuida da turma inteira.",
+      "F": "na hora certa, você só pega a bola e joga."
+    },
+    "Q": [
+      [
+        "Sua bola foi direto pra canaleta. De novo. Você...",
+        {
+          "A": "Mudo o ângulo da mira",
+          "D": "Confiro se a bola é a certa",
+          "M": "Rio e peço mais batata",
+          "F": "Jogo a próxima sem pensar"
+        }
+      ],
+      [
+        "Alguém chama pra jogar boliche hoje. Você...",
+        {
+          "A": "Vejo horário, preço e reservo a pista",
+          "D": "Pergunto quem vai e se tem pista livre mesmo",
+          "M": "Chamo mais gente e já monto os times",
+          "F": "Falo \"partiu\" e já tô no carro"
+        }
+      ],
+      [
+        "Hora de escolher a bola. Você...",
+        {
+          "A": "Testo o peso e o tamanho do furo com calma",
+          "D": "Confiro três bolas antes de decidir",
+          "M": "Ajudo todo mundo a achar a sua",
+          "F": "Pego a mais bonita e pronto"
+        }
+      ],
+      [
+        "Sobrou um pino lá no canto. Você...",
+        {
+          "A": "Mudo de posição e calculo a diagonal",
+          "D": "Analiso por que ele não caiu da primeira vez",
+          "M": "Peço pro time torcer bem alto",
+          "F": "Jogo com força e torço pro melhor"
+        }
+      ],
+      [
+        "Seu papel no grupo do boliche:",
+        {
+          "A": "Quem ensina a mirar nas setinhas",
+          "D": "Quem confere o placar",
+          "M": "Quem cuida de tudo, do lanche à música",
+          "F": "Quem joga rápido pra rodada não parar"
+        }
+      ],
+      [
+        "O placar marcou um ponto errado. Você...",
+        {
+          "A": "Explico como a pontuação deveria funcionar",
+          "D": "Refaço a conta rodada por rodada",
+          "M": "Chamo o atendente e enquanto isso o jogo segue",
+          "F": "Deixo pra lá, ninguém tá jogando campeonato"
+        }
+      ],
+      [
+        "Seu maior defeito no boliche:",
+        {
+          "A": "Demoro tanto pra mirar que a fila reclama",
+          "D": "Desconfio de cada pino que balança",
+          "M": "Converso tanto que esqueço que é minha vez",
+          "F": "Jogo tão rápido que nem vejo onde mirei"
+        }
+      ],
+      [
+        "Fim da partida. Você...",
+        {
+          "A": "Anoto o que ajustar na próxima vez",
+          "D": "Tiro foto do placar pra provar quem ganhou",
+          "M": "Já marco a revanche com todo mundo",
+          "F": "Devolvo o sapato e vou comer"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the bowling alley?",
+    "lead": "Every bowling lane has the same 4 kinds of player. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You study the lane before you throw a single ball.",
+        "For you, bowling is geometry. You pick the ball weight, the mark on the floor and the right angle. Your first throw might take a while, but when you hit, you know exactly why.",
+        "Finding the right shot for every pin left standing.",
+        "Calculating so long the queue behind you starts sighing.",
+        "Aim for the second arrow, slightly to the right."
+      ],
+      "D": [
+        "The Detective",
+        "Not a single pin escapes your count.",
+        "You check the scoreboard, the shoes, the ball weight and whether that pin really fell or just wobbled. Nobody gets away with a wrong score while you're around.",
+        "Spotting the scoring mistake before anyone else.",
+        "Checking so much you forget it's your turn.",
+        "Hang on, did that pin fall or was it the breeze?"
+      ],
+      "M": [
+        "The Maestro",
+        "You run the lane, the scoreboard and the chips order.",
+        "You book the lane, sort the teams, order the snacks and still cheer everyone else's strikes. While the others bowl, you keep the whole night buzzing.",
+        "Making bowling night work for everyone.",
+        "Hyping everyone up so much you miss your own turn.",
+        "Who ordered the chips? Oh, it's your go!"
+      ],
+      "F": [
+        "The Finisher",
+        "Grab the ball, bowl, celebrate. Next!",
+        "You don't study the lane. You grab the first ball that fits and let it fly. Sometimes it's a gutter ball, sometimes a strike, but the game never stalls because of you.",
+        "Keeping the game moving at the right pace.",
+        "Bowling with someone else's ball.",
+        "No practice swings. Here goes!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch styles as the game goes: you plan the shot when it matters, check the score when needed, lift the team when the night slows down and just bowl when the point is having fun.",
+        "Being the player the team needs that round.",
+        "Nobody knowing if you'll aim or just throw.",
+        "Depends. Are we playing to win or to laugh?"
+      ]
+    },
+    "S2": {
+      "A": "you still like to take your time aiming.",
+      "D": "you still check every pin that falls.",
+      "M": "you still look after the whole group.",
+      "F": "when it counts, you just grab the ball and bowl."
+    },
+    "Q": [
+      [
+        "Gutter ball. Again. You...",
+        {
+          "A": "Change my angle",
+          "D": "Check it's the right ball",
+          "M": "Laugh and order more chips",
+          "F": "Bowl again without thinking"
+        }
+      ],
+      [
+        "Someone suggests bowling tonight. You...",
+        {
+          "A": "Check times, prices and book a lane",
+          "D": "Ask who's coming and if there's really a lane free",
+          "M": "Invite more people and start picking teams",
+          "F": "Say \"let's go\" and I'm already out the door"
+        }
+      ],
+      [
+        "Time to pick a ball. You...",
+        {
+          "A": "Test the weight and finger holes carefully",
+          "D": "Try three balls before deciding",
+          "M": "Help everyone find theirs",
+          "F": "Grab the prettiest one and go"
+        }
+      ],
+      [
+        "One pin is left standing in the corner. You...",
+        {
+          "A": "Move over and work out the diagonal",
+          "D": "Analyse why it didn't fall the first time",
+          "M": "Get the team cheering as loud as possible",
+          "F": "Throw it hard and hope for the best"
+        }
+      ],
+      [
+        "Your role in the bowling group:",
+        {
+          "A": "The one teaching everyone to aim for the arrows",
+          "D": "The one checking the scoreboard",
+          "M": "The one handling everything, from snacks to music",
+          "F": "The one bowling fast so the round keeps moving"
+        }
+      ],
+      [
+        "The scoreboard shows the wrong score. You...",
+        {
+          "A": "Explain how the scoring is supposed to work",
+          "D": "Redo the maths frame by frame",
+          "M": "Call the staff over and keep the game going",
+          "F": "Let it go, it's only for fun"
+        }
+      ],
+      [
+        "Your biggest flaw at bowling:",
+        {
+          "A": "I take so long to aim the queue complains",
+          "D": "I don't trust any pin that wobbles",
+          "M": "I chat so much I forget it's my turn",
+          "F": "I bowl so fast I don't even see where I aimed"
+        }
+      ],
+      [
+        "The game's over. You...",
+        {
+          "A": "Note what to adjust next time",
+          "D": "Take a photo of the scoreboard as proof",
+          "M": "Set up the rematch with everyone",
+          "F": "Hand the shoes back and go eat"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "打保龄球时你是哪个泡泡？",
+    "lead": "每条保龄球道上都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "第一球还没出手，你已经把球道研究透了。",
+        "对你来说，保龄球就是几何题。你会挑好球的重量、地上的标记和角度。第一球可能准备得久一点，但打中的时候，你清楚知道为什么。",
+        "为每一个剩下的瓶找到最佳打法。",
+        "算得太久，后面排队的人开始叹气。",
+        "瞄第二个箭头，稍微偏右一点。"
+      ],
+      "D": [
+        "侦探",
+        "每一个倒下的瓶都逃不过你的统计。",
+        "你会检查计分板、鞋子、球的重量，还有那个瓶是真倒了还是只晃了一下。有你在，谁也别想多算一分。",
+        "比谁都先发现计分错误。",
+        "检查得太认真，忘了轮到自己。",
+        "等等，那个瓶是倒了还是被风吹的？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管着球道、计分板和薯条。",
+        "你订球道、分队伍、点小吃，还给别人的全中欢呼。大家在打球，你让整个晚上都热热闹闹。",
+        "让保龄球之夜每个人都玩得开心。",
+        "忙着给大家加油，错过了自己的回合。",
+        "谁点的薯条？哦，轮到你了！"
+      ],
+      "F": [
+        "终结者",
+        "拿球、出手、庆祝。下一个！",
+        "你不研究球道。拿起第一个顺手的球就扔。有时进沟，有时全中，但比赛从来不会因为你卡住。",
+        "让比赛保持好节奏。",
+        "拿了别人的球去打。",
+        "不用试，走你！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据比赛换风格：关键时刻认真瞄准，需要时检查比分，冷场时给大家打气，只为好玩时就随手一扔。",
+        "成为这一局队伍最需要的人。",
+        "没人知道你是要瞄准还是随便扔。",
+        "看情况。是要赢，还是要笑？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢慢慢瞄准。",
+      "D": "你还是会核对每一个倒下的瓶。",
+      "M": "你还是会照顾好整群人。",
+      "F": "关键时刻，你拿起球就扔。"
+    },
+    "Q": [
+      [
+        "球又进沟了。又一次。你……",
+        {
+          "A": "调整瞄准角度",
+          "D": "检查是不是球拿错了",
+          "M": "笑一笑，再点份薯条",
+          "F": "不多想，接着扔"
+        }
+      ],
+      [
+        "有人提议今晚去打保龄球。你……",
+        {
+          "A": "查时间、价格，订好球道",
+          "D": "先问谁去、球道是不是真有空",
+          "M": "再拉几个人，顺便把队分好",
+          "F": "说一句“走”，人已经出门了"
+        }
+      ],
+      [
+        "该选球了。你……",
+        {
+          "A": "仔细试重量和指孔大小",
+          "D": "试三个球再决定",
+          "M": "帮每个人找到合适的球",
+          "F": "拿最好看的那个就走"
+        }
+      ],
+      [
+        "角落里剩了一个瓶。你……",
+        {
+          "A": "换个位置，算好斜线",
+          "D": "分析它第一次为什么没倒",
+          "M": "让全队大声加油",
+          "F": "用力扔出去，听天由命"
+        }
+      ],
+      [
+        "你在保龄球小队里的角色：",
+        {
+          "A": "教大家瞄箭头的人",
+          "D": "盯着计分板的人",
+          "M": "从小吃到音乐什么都管的人",
+          "F": "出手快、让比赛不停的人"
+        }
+      ],
+      [
+        "计分板算错了一分。你……",
+        {
+          "A": "给大家讲计分规则应该怎么算",
+          "D": "一局一局重新算",
+          "M": "叫工作人员来，同时让比赛继续",
+          "F": "算了，开心最重要"
+        }
+      ],
+      [
+        "你打保龄球时最大的毛病：",
+        {
+          "A": "瞄准太久，后面的人开始催",
+          "D": "每个晃一下的瓶都不放心",
+          "M": "聊得太开心，忘了轮到自己",
+          "F": "扔得太快，连瞄哪都没看"
+        }
+      ],
+      [
+        "比赛结束了。你……",
+        {
+          "A": "记下下次要调整的地方",
+          "D": "拍下计分板，证明谁赢了",
+          "M": "马上和大家约好再战一局",
+          "F": "还了鞋子，去吃饭"
+        }
+      ]
+    ]
+  }
+}

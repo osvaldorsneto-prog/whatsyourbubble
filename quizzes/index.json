@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "piquenique",
+   "url": "/q/?s=piquenique",
+   "criado_em": "2026-11-25",
+   "categoria": "comida",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é no piquenique?",
+    "en": "What's your bubble at a picnic?",
+    "zh": "野餐时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "chave-perdida",
+   "url": "/q/?s=chave-perdida",
+   "criado_em": "2026-11-25",
+   "categoria": "casa",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é quando perde a chave?",
+    "en": "What's your bubble when you lose your keys?",
+    "zh": "找不到钥匙时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "boliche",
+   "url": "/q/?s=boliche",
+   "criado_em": "2026-11-25",
+   "categoria": "esporte",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no boliche?",
+    "en": "What's your bubble at the bowling alley?",
+    "zh": "打保龄球时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "marmita",
    "url": "/q/?s=marmita",
    "criado_em": "2026-11-24",

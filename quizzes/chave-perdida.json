@@ -1,0 +1,384 @@
+{
+  "slug": "chave-perdida",
+  "criado_em": "2026-11-25",
+  "categoria": "casa",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é quando perde a chave?",
+    "lead": "Todo mundo já ficou na frente da porta apalpando os bolsos. Qual é o seu jeito de achar a chave?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você tem um lugar certo pra chave e um plano B pra ele.",
+        "Pra você, chave perdida é falha de sistema. Você tem gancho na parede, cópia com alguém de confiança e uma rotina de saída. Quando some, você refaz o caminho passo a passo até achar.",
+        "Montar um sistema pra chave nunca mais sumir.",
+        "Planejar tanto o porta-chaves que esquece de pendurar.",
+        "Calma. Onde foi a última vez que eu entrei?"
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum bolso escapa da sua investigação.",
+        "Você revira tudo com método: bolso por bolso, bolsa por bolsa, sofá por sofá. Você lembra até de que lado da mesa a chave estava. Quase sempre é você quem acha.",
+        "Achar a chave onde ninguém mais procurou.",
+        "Conferir o mesmo bolso pela quinta vez.",
+        "Ninguém mexe em nada. Vou olhar de novo."
+      ],
+      "M": [
+        "O Maestro",
+        "Você organiza uma busca com a casa inteira.",
+        "Você liga pra quem tem cópia, põe alguém no quarto, outro na cozinha e ainda pede um café enquanto isso. Pode demorar, mas ninguém fica perdido na busca.",
+        "Pôr todo mundo pra procurar ao mesmo tempo.",
+        "Coordenar tanto que esquece de olhar no próprio bolso.",
+        "Você vê a sala, eu ligo pra minha irmã."
+      ],
+      "F": [
+        "O Finalizador",
+        "Chave sumiu? Problema resolvido em dez minutos.",
+        "Você não perde tempo procurando. Liga pro chaveiro, pega a cópia ou entra pela janela da área. Enquanto os outros reviram o sofá, você já tá em casa tomando água.",
+        "Resolver a situação antes de virar drama.",
+        "Pagar chaveiro com a chave no bolso do casaco.",
+        "Esquece. Já chamei o chaveiro."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de estratégia conforme o sumiço: refaz o caminho quando dá, revira os bolsos quando precisa, chama reforço quando a coisa aperta e resolve quando o tempo acaba.",
+        "Ser exatamente o que a busca precisa.",
+        "Ninguém saber qual estratégia você vai usar.",
+        "Depende. Tá atrasado ou dá pra procurar?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda adora um porta-chaves organizado.",
+      "D": "você ainda confere cada bolso com calma.",
+      "M": "você ainda põe todo mundo pra ajudar.",
+      "F": "quando aperta, você resolve e pronto."
+    },
+    "Q": [
+      [
+        "A chave sumiu e tava na sua mão agora mesmo. Você...",
+        {
+          "A": "Refaço o caminho de cabeça",
+          "D": "Reviro bolso por bolso",
+          "M": "Ponho a casa toda pra procurar",
+          "F": "Chamo o chaveiro na hora"
+        }
+      ],
+      [
+        "Onde a sua chave costuma ficar?",
+        {
+          "A": "No gancho da porta, sempre",
+          "D": "No bolso esquerdo, e eu confiro três vezes antes de sair",
+          "M": "Depende do dia, mas alguém sempre sabe",
+          "F": "Onde eu largar. Ela sempre aparece"
+        }
+      ],
+      [
+        "Você chega em casa, mão cheia de sacolas, e cadê a chave?",
+        {
+          "A": "Apoio tudo no chão e penso por onde passei",
+          "D": "Esvazio a bolsa inteira ali mesmo",
+          "M": "Mando mensagem pro vizinho e pra família ao mesmo tempo",
+          "F": "Toco a campainha até alguém abrir"
+        }
+      ],
+      [
+        "Alguém diz \"olhou no bolso do casaco?\". Você pensa:",
+        {
+          "A": "\"Já tá na minha lista, é o próximo\"",
+          "D": "\"Olhei. Mas vou olhar de novo\"",
+          "M": "\"Boa! Alguém vê o casaco enquanto eu vejo a mochila\"",
+          "F": "\"Tô sem casaco hoje. Próxima ideia\""
+        }
+      ],
+      [
+        "Seu papel quando alguém da casa perde a chave:",
+        {
+          "A": "Quem pergunta onde foi a última vez que viu",
+          "D": "Quem levanta todas as almofadas do sofá",
+          "M": "Quem divide os cômodos entre a turma",
+          "F": "Quem já foi buscar a cópia"
+        }
+      ],
+      [
+        "Depois de meia hora, a chave tava na geladeira. Você...",
+        {
+          "A": "Decido que a chave nunca mais entra na cozinha",
+          "D": "Tento entender como ela foi parar ali",
+          "M": "Mando foto no grupo da família pra todo mundo rir",
+          "F": "Pego e sigo o dia como se nada tivesse acontecido"
+        }
+      ],
+      [
+        "Seu maior defeito com chaves:",
+        {
+          "A": "Faço tantas cópias que perco a conta de quem tem",
+          "D": "Volto pra conferir se tranquei a porta",
+          "M": "Empresto pra todo mundo e não sei com quem tá",
+          "F": "Largo em qualquer lugar porque dou um jeito depois"
+        }
+      ],
+      [
+        "Pra nunca mais perder a chave, você...",
+        {
+          "A": "Instalo um porta-chaves com etiqueta pra cada uma",
+          "D": "Faço um checklist mental antes de sair",
+          "M": "Deixo uma cópia com três pessoas diferentes",
+          "F": "Ponho um chaveiro enorme que não tem como sumir"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble when you lose your keys?",
+    "lead": "We've all stood at the front door patting every pocket. How do you find your keys?",
+    "T": {
+      "A": [
+        "The Architect",
+        "Your keys have a set place, and that place has a backup plan.",
+        "To you, lost keys are a system failure. You've got a hook by the door, a spare with someone you trust and a routine for leaving the house. When they vanish, you retrace your steps one by one until they turn up.",
+        "Building a system so the keys never go missing again.",
+        "Planning the key hook so carefully you forget to use it.",
+        "Okay. When did I last come in?"
+      ],
+      "D": [
+        "The Detective",
+        "No pocket escapes your investigation.",
+        "You search methodically: pocket by pocket, bag by bag, sofa cushion by sofa cushion. You even remember which side of the table they were on. It's almost always you who finds them.",
+        "Finding the keys where nobody else looked.",
+        "Checking the same pocket for the fifth time.",
+        "Nobody touch anything. I'm looking again."
+      ],
+      "M": [
+        "The Maestro",
+        "You turn a lost key into a whole-house search party.",
+        "You ring whoever has a spare, send one person to the bedroom, another to the kitchen, and put the kettle on while you're at it. It might take a while, but nobody's searching blind.",
+        "Getting everyone looking at the same time.",
+        "Coordinating so much you never check your own pocket.",
+        "You take the lounge, I'll call my sister."
+      ],
+      "F": [
+        "The Finisher",
+        "Keys gone? Sorted in ten minutes.",
+        "You don't waste time searching. You call a locksmith, grab the spare or climb in through the back window. While everyone else is flipping the sofa, you're already inside with a cup of tea.",
+        "Fixing it before it turns into a drama.",
+        "Paying a locksmith with the keys in your coat pocket.",
+        "Forget it. Locksmith's on the way."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch tactics depending on the disappearance: retrace your steps when there's time, turn out your pockets when needed, call in backup when it gets serious and just sort it when time's up.",
+        "Being exactly what the search needs.",
+        "Nobody knowing which tactic you'll go for.",
+        "Depends. Are we late or can we look?"
+      ]
+    },
+    "S2": {
+      "A": "you still love a tidy key hook.",
+      "D": "you still check every pocket calmly.",
+      "M": "you still get everyone helping out.",
+      "F": "when it counts, you just sort it."
+    },
+    "Q": [
+      [
+        "Your keys were in your hand a second ago. Now? Gone. You...",
+        {
+          "A": "Retrace my steps in my head",
+          "D": "Check every pocket, one by one",
+          "M": "Get the whole house searching",
+          "F": "Call a locksmith right away"
+        }
+      ],
+      [
+        "Where do your keys usually live?",
+        {
+          "A": "On the hook by the door, always",
+          "D": "Left pocket, and I check three times before I leave",
+          "M": "Depends on the day, but someone always knows",
+          "F": "Wherever I drop them. They always turn up"
+        }
+      ],
+      [
+        "You get home, arms full of shopping, and where are the keys?",
+        {
+          "A": "Put it all down and think about where I've been",
+          "D": "Empty my whole bag right there on the step",
+          "M": "Text the neighbour and the family at the same time",
+          "F": "Ring the bell until someone lets me in"
+        }
+      ],
+      [
+        "Someone asks \"did you check your coat pocket?\". You think:",
+        {
+          "A": "\"It's on my list, it's next\"",
+          "D": "\"I did. But I'll check again\"",
+          "M": "\"Good shout! Someone check the coat, I'll do the backpack\"",
+          "F": "\"Not wearing a coat today. Next idea\""
+        }
+      ],
+      [
+        "Your role when someone at home loses their keys:",
+        {
+          "A": "The one asking where they last saw them",
+          "D": "The one lifting every sofa cushion",
+          "M": "The one splitting the rooms between everyone",
+          "F": "The one who's already gone to get the spare"
+        }
+      ],
+      [
+        "After half an hour, the keys turn up in the fridge. You...",
+        {
+          "A": "Decide keys are banned from the kitchen forever",
+          "D": "Try to work out how they ended up there",
+          "M": "Send a photo to the family chat so everyone can laugh",
+          "F": "Grab them and carry on like nothing happened"
+        }
+      ],
+      [
+        "Your biggest flaw with keys:",
+        {
+          "A": "I make so many spares I lose track of who has them",
+          "D": "I go back to check I actually locked the door",
+          "M": "I lend them to everyone and forget who has them",
+          "F": "I leave them anywhere because I'll sort it later"
+        }
+      ],
+      [
+        "To never lose your keys again, you...",
+        {
+          "A": "Put up a key rack with a label for each one",
+          "D": "Run a mental checklist before leaving",
+          "M": "Leave a spare with three different people",
+          "F": "Get a keyring so huge it can't go missing"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "找不到钥匙时你是哪个泡泡？",
+    "lead": "谁没在家门口把所有口袋拍了一遍？你是怎么找钥匙的？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你的钥匙有固定位置，连位置都有备用方案。",
+        "对你来说，钥匙丢了就是系统出了问题。门边有挂钩，信得过的人手里有备用钥匙，出门有固定流程。真找不到时，你会一步一步回想走过的路，直到找到为止。",
+        "建一套让钥匙再也不会丢的系统。",
+        "钥匙挂钩设计得太完美，结果忘了挂。",
+        "别急。我上次进门是什么时候？"
+      ],
+      "D": [
+        "侦探",
+        "没有一个口袋能逃过你的搜查。",
+        "你找东西很有方法：一个口袋一个口袋、一个包一个包、一个沙发垫一个沙发垫地翻。你连钥匙放在桌子哪一边都记得。最后找到的几乎总是你。",
+        "在别人没找过的地方找到钥匙。",
+        "同一个口袋翻了第五遍。",
+        "谁都别动。我再找一遍。"
+      ],
+      "M": [
+        "指挥家",
+        "丢一把钥匙，你能组织全家大搜查。",
+        "你打电话给有备用钥匙的人，派一个人去卧室、一个去厨房，顺手还烧了壶水。可能要花点时间，但没人是在瞎找。",
+        "让所有人同时开找。",
+        "忙着指挥，忘了翻自己的口袋。",
+        "你找客厅，我给我姐打电话。"
+      ],
+      "F": [
+        "终结者",
+        "钥匙没了？十分钟搞定。",
+        "你不浪费时间找。直接叫开锁师傅、去拿备用钥匙，或者从阳台窗户进去。别人还在翻沙发，你已经在家里喝上水了。",
+        "在小事变成大戏之前解决它。",
+        "钥匙就在外套口袋里，却已经付了开锁钱。",
+        "算了，开锁师傅已经在路上了。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据情况换策略：有时间就回想路线，需要时就翻遍口袋，情况紧急就叫人帮忙，时间到了就直接解决。",
+        "成为这次寻找最需要的那种人。",
+        "没人猜得到你会用哪一招。",
+        "看情况。赶时间吗，还是能慢慢找？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢整整齐齐的钥匙挂钩。",
+      "D": "你还是会冷静地检查每个口袋。",
+      "M": "你还是会叫上所有人一起帮忙。",
+      "F": "关键时刻，你直接搞定。"
+    },
+    "Q": [
+      [
+        "钥匙刚才还在手里，现在没了。你……",
+        {
+          "A": "在脑子里回放刚才的路线",
+          "D": "一个口袋一个口袋地翻",
+          "M": "发动全家一起找",
+          "F": "马上叫开锁师傅"
+        }
+      ],
+      [
+        "你的钥匙平时放在哪？",
+        {
+          "A": "门边的挂钩上，雷打不动",
+          "D": "左边口袋，出门前摸三遍",
+          "M": "看心情，但总有人知道在哪",
+          "F": "随手一放，反正总会出现"
+        }
+      ],
+      [
+        "你提着一堆购物袋到家门口，钥匙呢？",
+        {
+          "A": "先把东西放下，想想去过哪里",
+          "D": "当场把包里的东西全倒出来",
+          "M": "同时给邻居和家人发消息",
+          "F": "一直按门铃，直到有人开门"
+        }
+      ],
+      [
+        "有人问：“外套口袋看了吗？”你心想：",
+        {
+          "A": "“在我的清单上，下一个就是”",
+          "D": "“看过了。但我再看一遍”",
+          "M": "“好主意！谁去看外套，我来翻背包”",
+          "F": "“我今天没穿外套。下一个主意”"
+        }
+      ],
+      [
+        "家里有人找不到钥匙时，你的角色是：",
+        {
+          "A": "问他最后一次在哪见到的人",
+          "D": "把沙发垫全掀起来的人",
+          "M": "给大家分配房间的人",
+          "F": "已经去拿备用钥匙的人"
+        }
+      ],
+      [
+        "找了半小时，钥匙在冰箱里。你……",
+        {
+          "A": "宣布钥匙从此禁止进厨房",
+          "D": "想搞清楚它是怎么跑进去的",
+          "M": "拍照发到家族群让大家笑一笑",
+          "F": "拿起来，当作什么都没发生"
+        }
+      ],
+      [
+        "你在钥匙这件事上最大的毛病：",
+        {
+          "A": "配了太多备用钥匙，记不清谁有",
+          "D": "走到楼下又回去确认门锁了没",
+          "M": "借给所有人，不知道现在在谁手上",
+          "F": "随手乱放，反正之后总有办法"
+        }
+      ],
+      [
+        "为了再也不丢钥匙，你会……",
+        {
+          "A": "装一个钥匙架，每把都贴标签",
+          "D": "出门前在心里过一遍清单",
+          "M": "在三个不同的人那里各放一把备用",
+          "F": "挂一个大到不可能丢的钥匙扣"
+        }
+      ]
+    ]
+  }
+}
