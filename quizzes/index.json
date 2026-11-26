@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "pneu-furado",
+   "url": "/q/?s=pneu-furado",
+   "criado_em": "2026-11-26",
+   "categoria": "viagem",
+   "mascote": "M",
+   "titulo": {
+    "pt": "Que bolha você é com o pneu furado?",
+    "en": "What's your bubble with a flat tyre?",
+    "zh": "爆胎时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "parque-de-diversoes",
+   "url": "/q/?s=parque-de-diversoes",
+   "criado_em": "2026-11-26",
+   "categoria": "role",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é no parque de diversões?",
+    "en": "What's your bubble at a theme park?",
+    "zh": "在游乐园你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "maquina-de-cafe",
+   "url": "/q/?s=maquina-de-cafe",
+   "criado_em": "2026-11-26",
+   "categoria": "trabalho",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é com a máquina de café?",
+    "en": "What's your bubble at the office coffee machine?",
+    "zh": "在办公室咖啡机前你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "piquenique",
    "url": "/q/?s=piquenique",
    "criado_em": "2026-11-25",

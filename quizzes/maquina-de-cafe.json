@@ -1,0 +1,384 @@
+{
+  "slug": "maquina-de-cafe",
+  "criado_em": "2026-11-26",
+  "categoria": "trabalho",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é com a máquina de café?",
+    "lead": "Todo escritório tem os mesmos 4 tipos na fila do café. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já sabe o horário em que a fila do café fica vazia.",
+        "Pra você, café bom é café planejado. Você conhece o horário de pico, quem repõe o pó e onde fica o filtro reserva. Graças a você, a copa nunca fica na mão.",
+        "Garantir café pra todo mundo antes da reunião.",
+        "Montar um rodízio de café que ninguém leu.",
+        "Às 10h15 a fila zera. Confia."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma xícara passa sem você conferir de quem é.",
+        "Você percebe quando o café tá fraco, quando a jarra tá ali há horas e quem deixou a xícara na pia. Nada na copa escapa do seu radar, e por isso ela funciona.",
+        "Descobrir o problema da máquina antes do técnico.",
+        "Investigar tanto o café que ele esfria.",
+        "Esse café foi passado que horas?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você faz café, responde mensagem e resolve a pauta na fila.",
+        "A copa é seu segundo escritório. Enquanto o café sai, você combina o almoço, alinha o projeto e ainda enche a xícara de quem chegou. Tudo ao mesmo tempo.",
+        "Transformar a fila do café em reunião produtiva.",
+        "Sair da copa sem o próprio café.",
+        "Já que tá aqui, me ajuda com uma coisinha?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Café pronto é melhor que café perfeito.",
+        "Você não espera a máquina ideal nem o grão especial. Apertou, saiu, bebeu, voltou pro trabalho. Enquanto discutem a marca do pó, você já entregou duas tarefas.",
+        "Fazer o café sair de qualquer jeito.",
+        "Beber o café de ontem sem perceber.",
+        "Tá quente? Então serve."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a copa pede: planeja quando o pó tá acabando, confere quando o café tá estranho, organiza a fila quando lota e resolve quando a máquina trava.",
+        "Ser o que a copa precisa naquele momento.",
+        "Ninguém saber se você vem pro café ou pra reunião.",
+        "Depende. Qual é o problema da máquina hoje?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo no horário certo.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você resolve mil coisas enquanto o café sai.",
+      "F": "na hora certa, você aperta o botão e vai."
+    },
+    "Q": [
+      [
+        "A máquina de café quebrou às 9h. Você...",
+        {
+          "A": "Já tinha café solúvel na gaveta",
+          "D": "Leio o manual atrás do erro",
+          "M": "Organizo uma vaquinha pra padaria",
+          "F": "Dou um tapinha e ela volta"
+        }
+      ],
+      [
+        "Tem fila de 6 pessoas na copa. Você...",
+        {
+          "A": "Volto às 10h15, quando esvazia",
+          "D": "Conto quantos cafés cada um vai fazer",
+          "M": "Aproveito a fila pra alinhar dois assuntos",
+          "F": "Pego um chá e pronto"
+        }
+      ],
+      [
+        "O pó de café acabou. Você...",
+        {
+          "A": "Crio uma lista de reposição da copa",
+          "D": "Descubro quem fez o último café",
+          "M": "Mando no grupo, peço ajuda e acho um pacote",
+          "F": "Saio e compro um na esquina"
+        }
+      ],
+      [
+        "Alguém deixou a jarra vazia na máquina. Você pensa:",
+        {
+          "A": "\"Precisamos de uma regra pra isso\"",
+          "D": "\"Eu sei exatamente quem foi\"",
+          "M": "\"Faço mais e aviso o pessoal\"",
+          "F": "\"Faço outro e sigo a vida\""
+        }
+      ],
+      [
+        "Seu papel na copa do escritório é...",
+        {
+          "A": "Quem sabe onde fica tudo",
+          "D": "Quem percebe quando o café tá fraco",
+          "M": "Quem transforma a copa em ponto de encontro",
+          "F": "Quem faz o café sair, custe o que custar"
+        }
+      ],
+      [
+        "Chegou uma máquina nova cheia de botões. Você...",
+        {
+          "A": "Leio as instruções antes de encostar",
+          "D": "Testo cada botão pra ver o que faz",
+          "M": "Ensino três colegas enquanto aprendo",
+          "F": "Aperto o botão maior e vejo o que sai"
+        }
+      ],
+      [
+        "Seu maior defeito na hora do café:",
+        {
+          "A": "Planejo tanto que perco a pausa",
+          "D": "Confiro tanto que o café esfria",
+          "M": "Converso tanto que esqueço a xícara",
+          "F": "Bebo qualquer coisa que estiver quente"
+        }
+      ],
+      [
+        "Fim do expediente e a copa tá uma bagunça. Você...",
+        {
+          "A": "Proponho uma escala de limpeza",
+          "D": "Confiro se a máquina ficou desligada",
+          "M": "Junto a galera e arruma em 5 minutos",
+          "F": "Lavo minha xícara e vou embora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at the office coffee machine?",
+    "lead": "Every office has the same 4 people in the coffee queue. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You know exactly when the coffee queue is empty.",
+        "For you, good coffee is planned coffee. You know the rush hour, who refills the beans and where the spare filters live. Thanks to you, the kitchen is never caught out.",
+        "Making sure everyone has coffee before the meeting.",
+        "Drawing up a coffee rota nobody reads.",
+        "The queue clears at 10:15. Trust me."
+      ],
+      "D": [
+        "The Detective",
+        "No mug goes unclaimed on your watch.",
+        "You notice when the coffee's weak, when the pot's been sitting there and who left a mug in the sink. Nothing in the kitchen escapes your radar, and that's why it works.",
+        "Diagnosing the machine before the engineer does.",
+        "Investigating the coffee so long it goes cold.",
+        "What time was this pot made?"
+      ],
+      "M": [
+        "The Maestro",
+        "You make coffee, answer messages and settle the agenda in the queue.",
+        "The kitchen is your second office. While the coffee brews, you sort out lunch, align on the project and top up whoever just walked in. All at once.",
+        "Turning the coffee queue into a productive meeting.",
+        "Leaving the kitchen without your own coffee.",
+        "While you're here, can you help with one tiny thing?"
+      ],
+      "F": [
+        "The Finisher",
+        "Coffee now beats perfect coffee.",
+        "You don't wait for the ideal machine or the special beans. Press, pour, drink, back to work. While others debate the roast, you've finished two tasks.",
+        "Getting coffee out of the machine no matter what.",
+        "Drinking yesterday's coffee without noticing.",
+        "Is it hot? Then it's fine."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the kitchen needs: you plan when supplies run low, check when the coffee tastes off, manage the queue when it's packed and fix things when the machine jams.",
+        "Being whatever the kitchen needs right now.",
+        "Nobody knowing if you came for coffee or a meeting.",
+        "Depends. What's wrong with the machine today?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything on schedule.",
+      "D": "you don't let a single detail slip.",
+      "M": "you sort out a dozen things while the coffee brews.",
+      "F": "when it counts, you press the button and go."
+    },
+    "Q": [
+      [
+        "The coffee machine breaks at 9am. You...",
+        {
+          "A": "Had instant coffee in my drawer",
+          "D": "Read the manual to find the error",
+          "M": "Organise a coffee run for everyone",
+          "F": "Give it a tap and it works"
+        }
+      ],
+      [
+        "There are 6 people queuing in the kitchen. You...",
+        {
+          "A": "Come back at 10:15 when it clears",
+          "D": "Count how many coffees each person is making",
+          "M": "Use the queue to sort out two things",
+          "F": "Grab a tea and that's that"
+        }
+      ],
+      [
+        "The coffee's run out. You...",
+        {
+          "A": "Start a restock list for the kitchen",
+          "D": "Find out who made the last pot",
+          "M": "Post in the chat, ask around and find a bag",
+          "F": "Pop out and buy some round the corner"
+        }
+      ],
+      [
+        "Someone left the empty pot on the machine. You think:",
+        {
+          "A": "\"We need a rule for this\"",
+          "D": "\"I know exactly who it was\"",
+          "M": "\"I'll make more and tell everyone\"",
+          "F": "\"I'll make another and move on\""
+        }
+      ],
+      [
+        "Your role in the office kitchen is...",
+        {
+          "A": "The one who knows where everything is",
+          "D": "The one who notices when the coffee's stale",
+          "M": "The one who turns the kitchen into a hangout",
+          "F": "The one who gets coffee out, whatever it takes"
+        }
+      ],
+      [
+        "A new machine arrives with loads of buttons. You...",
+        {
+          "A": "Read the instructions before touching it",
+          "D": "Test every button to see what it does",
+          "M": "Teach three colleagues while learning it",
+          "F": "Press the biggest button and see what happens"
+        }
+      ],
+      [
+        "Your biggest flaw at coffee time:",
+        {
+          "A": "I plan so much I miss the break",
+          "D": "I check so much the coffee goes cold",
+          "M": "I chat so much I forget my mug",
+          "F": "I'll drink anything that's hot"
+        }
+      ],
+      [
+        "End of the day and the kitchen's a mess. You...",
+        {
+          "A": "Suggest a cleaning rota",
+          "D": "Check the machine's switched off",
+          "M": "Rally the team and tidy it in 5 minutes",
+          "F": "Wash my mug and head home"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "在办公室咖啡机前你是哪个泡泡？",
+    "lead": "每个办公室排队接咖啡的都是这4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你早就知道几点咖啡机前没人排队。",
+        "对你来说，好咖啡要靠规划。你知道高峰时段、谁负责补咖啡豆、备用滤纸放在哪。有你在，茶水间从不掉链子。",
+        "保证开会前人人都有咖啡喝。",
+        "排了一张没人看的咖啡值日表。",
+        "十点一刻就没人排队了，信我。"
+      ],
+      "D": [
+        "侦探",
+        "每个杯子是谁的，你都一清二楚。",
+        "咖啡淡了、壶放久了、谁把杯子丢在水槽里，你全都看在眼里。茶水间的事逃不过你的雷达，所以它才运转得好。",
+        "比维修师傅先找到机器的毛病。",
+        "研究太久，咖啡都凉了。",
+        "这壶咖啡是几点煮的？"
+      ],
+      "M": [
+        "指挥家",
+        "排队接咖啡的时候，你顺便回消息、定议程。",
+        "茶水间是你的第二个办公室。等咖啡的工夫，你约好午饭、对齐项目，还给刚进来的同事倒上一杯。全都同时进行。",
+        "把排队接咖啡变成高效会议。",
+        "离开茶水间时忘了自己的咖啡。",
+        "既然你在，帮我个小忙呗？"
+      ],
+      "F": [
+        "终结者",
+        "有咖啡喝就行，不用完美。",
+        "你不等更好的机器，也不挑特别的豆子。按键、接杯、喝完、回去干活。别人还在争论烘焙度，你已经交了两份活。",
+        "不管怎样都能让咖啡流出来。",
+        "喝了昨天的咖啡都没发现。",
+        "热的吗？那就行。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据茶水间的需要切换角色：快没货时提前规划，味道不对时仔细检查，人多时维持秩序，机器卡住时直接解决。",
+        "成为此刻茶水间最需要的人。",
+        "没人知道你是来喝咖啡还是来开会的。",
+        "看情况。今天机器又怎么了？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切按时进行。",
+      "D": "你不放过任何一个细节。",
+      "M": "等咖啡的工夫你能办好一堆事。",
+      "F": "关键时刻，你按下按钮就走。"
+    },
+    "Q": [
+      [
+        "早上9点，咖啡机坏了。你……",
+        {
+          "A": "抽屉里早备好速溶咖啡",
+          "D": "翻说明书查错误代码",
+          "M": "组织大家一起去买咖啡",
+          "F": "拍它一下，又好了"
+        }
+      ],
+      [
+        "茶水间排了6个人。你……",
+        {
+          "A": "十点一刻再来，那时没人",
+          "D": "数数每个人要接几杯",
+          "M": "趁排队把两件事谈妥",
+          "F": "改泡杯茶，完事"
+        }
+      ],
+      [
+        "咖啡豆用完了。你……",
+        {
+          "A": "建一张茶水间补货清单",
+          "D": "查出最后一壶是谁煮的",
+          "M": "群里喊一声，到处问，找到一包",
+          "F": "下楼去街角买一包"
+        }
+      ],
+      [
+        "有人把空壶留在了机器上。你心想：",
+        {
+          "A": "“这事得定个规矩”",
+          "D": "“我知道是谁干的”",
+          "M": "“我再煮一壶，通知大家”",
+          "F": "“再煮一壶，继续干活”"
+        }
+      ],
+      [
+        "你在办公室茶水间的角色是……",
+        {
+          "A": "知道所有东西放哪的人",
+          "D": "发现咖啡放久了的人",
+          "M": "把茶水间变成聚会点的人",
+          "F": "无论如何都能弄出咖啡的人"
+        }
+      ],
+      [
+        "新来了一台满是按钮的咖啡机。你……",
+        {
+          "A": "先看说明书再动手",
+          "D": "每个按钮都试一遍",
+          "M": "边学边教会三个同事",
+          "F": "按最大的那个按钮看看会怎样"
+        }
+      ],
+      [
+        "你喝咖啡时最大的毛病：",
+        {
+          "A": "规划太多，错过了休息时间",
+          "D": "检查太久，咖啡都凉了",
+          "M": "聊得太多，忘了杯子",
+          "F": "只要是热的就喝"
+        }
+      ],
+      [
+        "下班了，茶水间一团乱。你……",
+        {
+          "A": "提议排个打扫值日表",
+          "D": "检查咖啡机有没有关",
+          "M": "叫上大家5分钟收拾好",
+          "F": "洗好自己的杯子就走"
+        }
+      ]
+    ]
+  }
+}

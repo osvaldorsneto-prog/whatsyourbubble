@@ -1,0 +1,384 @@
+{
+  "slug": "parque-de-diversoes",
+  "criado_em": "2026-11-26",
+  "categoria": "role",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é no parque de diversões?",
+    "lead": "Todo passeio no parque tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você chega no parque com a rota dos brinquedos pronta.",
+        "Pra você, parque bom é parque com estratégia. Você sabe qual brinquedo lota primeiro, a que horas a fila diminui e onde é o melhor lugar pra almoçar. Ninguém aproveita tanto quanto quem vai com você.",
+        "Fazer o grupo ir em todos os brinquedos num dia só.",
+        "Seguir tanto o roteiro que esquece de improvisar.",
+        "Primeiro a montanha-russa, depois a gente almoça."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum brinquedo te leva sem você ler a placa antes.",
+        "Você confere a altura mínima, o tempo de fila e onde fica cada saída. Sabe qual brinquedo molha e qual gira demais. Graças a você, ninguém sai do parque passando mal.",
+        "Achar a fila mais curta escondida.",
+        "Analisar tanto que o brinquedo fecha.",
+        "Esse aqui molha? Tô vendo gente encharcada ali."
+      ],
+      "M": [
+        "O Maestro",
+        "Você segura a fila, o lanche e o grupo ao mesmo tempo.",
+        "Você cuida de tudo junto: guarda o lugar na fila, segura as mochilas, compra pipoca e ainda reúne quem se perdeu. Enquanto os outros vão em um brinquedo, você mantém o passeio inteiro rodando.",
+        "Ninguém do grupo se perder.",
+        "Segurar tanta coisa que não vai em nenhum brinquedo.",
+        "Vai lá que eu seguro a mochila de todo mundo."
+      ],
+      "F": [
+        "O Finalizador",
+        "Brinquedo bom é o que tem fila curta agora.",
+        "Você não perde tempo decidindo. Viu fila pequena, entrou. Enquanto o grupo discute o roteiro, você já foi em três brinquedos e voltou com algodão-doce.",
+        "Aproveitar o parque de verdade.",
+        "Entrar num brinquedo sem saber o que ele faz.",
+        "Tá vazio? Vamos nesse!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o parque pede: planeja quando tá lotado, confere quando o brinquedo é radical, cuida do grupo quando alguém some e corre pra fila quando é hora.",
+        "Ser o que o passeio precisa naquele momento.",
+        "Ninguém saber se você vai topar a montanha-russa.",
+        "Depende. Qual tá com menos fila?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo com roteiro.",
+      "D": "você não entra em nada sem conferir antes.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de pensar e vai."
+    },
+    "Q": [
+      [
+        "A fila da montanha-russa é de 2 horas. Você...",
+        {
+          "A": "Volto no horário que eu já previ",
+          "D": "Cronometro se a fila anda mesmo",
+          "M": "Guardo lugar e vou buscar pipoca",
+          "F": "Vou no carrinho bate-bate"
+        }
+      ],
+      [
+        "Na noite antes do parque, você...",
+        {
+          "A": "Monto a ordem dos brinquedos no mapa",
+          "D": "Confiro horário, previsão do tempo e regras",
+          "M": "Combino carona, lanche e ponto de encontro",
+          "F": "Durmo. Amanhã a gente vê"
+        }
+      ],
+      [
+        "Alguém do grupo sumiu. Você...",
+        {
+          "A": "Lembro todo mundo do ponto de encontro",
+          "D": "Refaço o caminho atrás das pistas",
+          "M": "Mando mensagem pra todos e divido a busca",
+          "F": "Subo num banco e grito o nome"
+        }
+      ],
+      [
+        "Seu papel no passeio é...",
+        {
+          "A": "Quem montou o roteiro",
+          "D": "Quem lê todas as placas",
+          "M": "Quem segura as mochilas e o grupo",
+          "F": "Quem já tá na próxima fila"
+        }
+      ],
+      [
+        "O brinquedo é bem radical. Você pensa:",
+        {
+          "A": "\"Deixei esse pro fim, de propósito\"",
+          "D": "\"Deixa eu ver uma volta antes\"",
+          "M": "\"Vou, mas quem segura os óculos?\"",
+          "F": "\"Bora, antes que eu desista\""
+        }
+      ],
+      [
+        "Começa a chover no parque. Você...",
+        {
+          "A": "Já sabia e trouxe capa pra todo mundo",
+          "D": "Confiro quais brinquedos continuam abertos",
+          "M": "Levo o grupo pro brinquedo coberto",
+          "F": "Aproveito que as filas sumiram"
+        }
+      ],
+      [
+        "Seu maior defeito no parque:",
+        {
+          "A": "Sigo o roteiro até quando ninguém aguenta",
+          "D": "Analiso tanto que perco a vez",
+          "M": "Cuido de todo mundo e não vou em nada",
+          "F": "Entro na fila sem saber o que é"
+        }
+      ],
+      [
+        "Fim do dia no parque. Você...",
+        {
+          "A": "Anoto o que ficou pra próxima vez",
+          "D": "Confiro se ninguém esqueceu nada",
+          "M": "Junto todo mundo pra foto final",
+          "F": "Vou em mais um antes de fechar"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble at a theme park?",
+    "lead": "Every theme park day has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You arrive at the park with the ride route already mapped.",
+        "For you, a good park day needs a strategy. You know which ride fills up first, when the queues drop and the best spot for lunch. Nobody gets more out of the day than whoever comes with you.",
+        "Getting the group on every ride in one day.",
+        "Sticking to the plan so hard you forget to improvise.",
+        "Rollercoaster first, then lunch."
+      ],
+      "D": [
+        "The Detective",
+        "No ride takes you before you've read the sign.",
+        "You check the height limit, the wait time and where every exit is. You know which ride soaks you and which spins too much. Thanks to you, nobody leaves feeling queasy.",
+        "Finding the hidden short queue.",
+        "Analysing so long the ride closes.",
+        "Does this one get you wet? Those people look soaked."
+      ],
+      "M": [
+        "The Maestro",
+        "You hold the queue, the snacks and the group at once.",
+        "You handle it all together: saving the place in line, minding the bags, buying popcorn and rounding up whoever got lost. While others ride, you keep the whole day running.",
+        "Making sure nobody in the group gets lost.",
+        "Holding so much stuff you never get on a ride.",
+        "Go on, I'll hold everyone's bags."
+      ],
+      "F": [
+        "The Finisher",
+        "The best ride is the one with no queue right now.",
+        "You don't waste time deciding. Short queue? In you go. While the group argues about the plan, you've done three rides and come back with candy floss.",
+        "Actually enjoying the park.",
+        "Getting on a ride without knowing what it does.",
+        "It's empty? Let's do this one!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the park needs: you plan when it's packed, check when a ride looks wild, look after the group when someone vanishes and sprint for the queue when it's time.",
+        "Being whatever the day needs right now.",
+        "Nobody knowing if you'll do the rollercoaster.",
+        "Depends. Which one has the shortest queue?"
+      ]
+    },
+    "S2": {
+      "A": "you still like having a route.",
+      "D": "you don't get on anything without checking first.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop thinking and go."
+    },
+    "Q": [
+      [
+        "The rollercoaster queue is 2 hours long. You...",
+        {
+          "A": "Come back at the time I'd planned",
+          "D": "Time whether the queue actually moves",
+          "M": "Save our spot and go get popcorn",
+          "F": "Head to the bumper cars"
+        }
+      ],
+      [
+        "The night before the park, you...",
+        {
+          "A": "Map out the order of the rides",
+          "D": "Check opening times, the forecast and the rules",
+          "M": "Sort lifts, snacks and a meeting point",
+          "F": "Sleep. We'll figure it out tomorrow"
+        }
+      ],
+      [
+        "Someone in the group has vanished. You...",
+        {
+          "A": "Remind everyone of the meeting point",
+          "D": "Retrace our steps looking for clues",
+          "M": "Message everyone and split up the search",
+          "F": "Stand on a bench and shout their name"
+        }
+      ],
+      [
+        "Your role on the day out is...",
+        {
+          "A": "The one who made the plan",
+          "D": "The one who reads every sign",
+          "M": "The one holding the bags and the group",
+          "F": "The one already in the next queue"
+        }
+      ],
+      [
+        "The ride looks really intense. You think:",
+        {
+          "A": "\"I saved this one for last, on purpose\"",
+          "D": "\"Let me watch it go round once\"",
+          "M": "\"I'm in, but who's holding the glasses?\"",
+          "F": "\"Let's go before I change my mind\""
+        }
+      ],
+      [
+        "It starts raining at the park. You...",
+        {
+          "A": "Saw it coming and brought ponchos for all",
+          "D": "Check which rides are still open",
+          "M": "Take the group to the indoor ride",
+          "F": "Enjoy the fact the queues just vanished"
+        }
+      ],
+      [
+        "Your biggest flaw at a theme park:",
+        {
+          "A": "I stick to the plan even when we're all shattered",
+          "D": "I analyse so much I miss my turn",
+          "M": "I look after everyone and never ride anything",
+          "F": "I join queues without knowing what they're for"
+        }
+      ],
+      [
+        "End of the day at the park. You...",
+        {
+          "A": "Note what we missed for next time",
+          "D": "Check nobody's left anything behind",
+          "M": "Gather everyone for a final photo",
+          "F": "Squeeze in one more ride before closing"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "在游乐园你是哪个泡泡？",
+    "lead": "每次去游乐园都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没进园，你就把游玩路线排好了。",
+        "对你来说，玩游乐园要讲策略。你知道哪个项目最先排满、几点排队人少、哪里吃午饭最好。跟你一起去的人，总能玩得最尽兴。",
+        "一天之内带大家玩遍所有项目。",
+        "太按计划走，忘了随机应变。",
+        "先坐过山车，再去吃饭。"
+      ],
+      "D": [
+        "侦探",
+        "不看完告示牌，你绝不上任何项目。",
+        "你会查身高限制、排队时间和每个出口在哪。哪个项目会湿身、哪个转得太猛，你都知道。有你在，没人会玩到头晕想吐。",
+        "找到隐藏的短队伍。",
+        "研究太久，项目都关门了。",
+        "这个会湿身吗？那边的人都湿透了。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时管着排队、零食和整个小队。",
+        "你什么都一起管：帮大家占位、看包、买爆米花，还把走散的人找回来。别人去玩，你让整趟行程顺利运转。",
+        "确保小队里没人走丢。",
+        "手里拿太多东西，一个项目都没玩成。",
+        "去吧，大家的包我来拿。"
+      ],
+      "F": [
+        "终结者",
+        "最好玩的项目，就是现在不用排队的那个。",
+        "你不浪费时间纠结。队短？直接进。别人还在争路线，你已经玩了三个项目，手里还拿着棉花糖。",
+        "真正玩得开心。",
+        "还没搞清楚是什么项目就上去了。",
+        "没人排？就玩这个！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据游乐园的情况切换角色：人多时规划，项目刺激时先检查，有人走散时照顾大家，该冲的时候冲去排队。",
+        "成为此刻这趟行程最需要的人。",
+        "没人知道你到底敢不敢坐过山车。",
+        "看情况。哪个排队最短？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢有路线可循。",
+      "D": "你不先检查就不上任何项目。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你不再多想，直接冲。"
+    },
+    "Q": [
+      [
+        "过山车要排2个小时。你……",
+        {
+          "A": "按我算好的时间再来",
+          "D": "掐表看队伍到底动没动",
+          "M": "占好位，先去买爆米花",
+          "F": "转身去玩碰碰车"
+        }
+      ],
+      [
+        "去游乐园的前一晚，你……",
+        {
+          "A": "在地图上排好项目顺序",
+          "D": "查开放时间、天气和园区规定",
+          "M": "安排好接送、零食和集合点",
+          "F": "睡觉。明天再说"
+        }
+      ],
+      [
+        "小队里有人不见了。你……",
+        {
+          "A": "提醒大家去集合点",
+          "D": "沿原路找线索",
+          "M": "给所有人发消息，分头去找",
+          "F": "站到长椅上大喊他的名字"
+        }
+      ],
+      [
+        "你在这趟出游中的角色是……",
+        {
+          "A": "做路线规划的人",
+          "D": "每块告示牌都看的人",
+          "M": "拿着大家的包、管着全队的人",
+          "F": "已经在排下一个项目的人"
+        }
+      ],
+      [
+        "这个项目看起来超刺激。你心想：",
+        {
+          "A": "“我特意把它留到最后”",
+          "D": "“先看它转一圈再说”",
+          "M": "“我去，但谁帮我拿眼镜？”",
+          "F": "“趁我还没反悔，走！”"
+        }
+      ],
+      [
+        "游乐园开始下雨了。你……",
+        {
+          "A": "早有预料，给每人带了雨衣",
+          "D": "查查哪些项目还开着",
+          "M": "带大家去室内项目",
+          "F": "趁队伍都散了赶紧玩"
+        }
+      ],
+      [
+        "你在游乐园最大的毛病：",
+        {
+          "A": "大家都累瘫了还要按计划走",
+          "D": "分析太久，错过了轮到我",
+          "M": "照顾所有人，自己什么都没玩",
+          "F": "不知道排的是什么就先排上"
+        }
+      ],
+      [
+        "游乐园的一天结束了。你……",
+        {
+          "A": "记下没玩到的，下次再来",
+          "D": "检查有没有人落下东西",
+          "M": "召集大家拍最后一张合照",
+          "F": "关门前再冲一个项目"
+        }
+      ]
+    ]
+  }
+}

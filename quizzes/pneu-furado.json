@@ -1,0 +1,384 @@
+{
+  "slug": "pneu-furado",
+  "criado_em": "2026-11-26",
+  "categoria": "viagem",
+  "mascote": "M",
+  "pt": {
+    "titulo": "Que bolha você é com o pneu furado?",
+    "lead": "Todo pneu furado reúne os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você já sabia onde estava o estepe antes de sair de casa.",
+        "Pra você, imprevisto é só um plano B que ainda não foi usado. Você conhece o carro, sabe onde fica cada ferramenta e já calculou o atraso. Com você, o pneu furado vira só uma parada técnica.",
+        "Ter a ferramenta certa no lugar certo.",
+        "Explicar o passo a passo antes de começar.",
+        "Calma, o estepe tá embaixo do tapete."
+      ],
+      "D": [
+        "O Detetive",
+        "Antes de trocar, você descobre o que furou o pneu.",
+        "Você confere a calibragem do estepe, procura o prego e lê o manual inteiro. Ninguém aperta um parafuso errado do seu lado. Graças a você, o pneu não fura de novo dez minutos depois.",
+        "Achar a causa antes de qualquer um.",
+        "Investigar tanto que anoitece.",
+        "Olha aqui: foi esse parafusinho."
+      ],
+      "M": [
+        "O Maestro",
+        "Você troca o pneu, distrai o grupo e avisa quem espera.",
+        "Você cuida de tudo junto: segura a lanterna, passa a chave, manda mensagem pra quem tá esperando e ainda mantém o clima bom. Enquanto um aperta o parafuso, você faz a viagem continuar.",
+        "Transformar o perrengue num momento do grupo.",
+        "Fazer tanta coisa que some uma porca.",
+        "Você segura, você ilumina e eu aviso o pessoal."
+      ],
+      "F": [
+        "O Finalizador",
+        "Pneu trocado é melhor que pneu discutido.",
+        "Você não fica esperando o tutorial carregar. Pega o macaco, troca o pneu e volta pro volante. Enquanto os outros ainda procuram a chave, você já tá com as mãos sujas e o carro pronto.",
+        "Botar o carro na estrada de novo.",
+        "Esquecer o pneu furado no acostamento.",
+        "Me dá a chave que eu resolvo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme a estrada pede: planeja quando falta ferramenta, confere quando algo não encaixa, cuida do grupo quando bate o cansaço e troca o pneu quando é hora.",
+        "Ser o que a viagem precisa naquele momento.",
+        "Ninguém saber se você vai trocar ou filmar.",
+        "Depende. Já acharam o macaco?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de ter um plano B.",
+      "D": "você não deixa nenhum parafuso sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você pega a chave e resolve."
+    },
+    "Q": [
+      [
+        "O pneu furou e ninguém acha o macaco. Você...",
+        {
+          "A": "Sei que tá debaixo do tapete",
+          "D": "Abro o manual na página certa",
+          "M": "Esvazio o porta-malas com todo mundo",
+          "F": "Peço um macaco no posto"
+        }
+      ],
+      [
+        "Antes de uma viagem de carro, você...",
+        {
+          "A": "Planejo paradas e tempo de estrada",
+          "D": "Confiro óleo, água e todos os pneus",
+          "M": "Combino quem leva lanche, música e carregador",
+          "F": "Encho o tanque e pé na estrada"
+        }
+      ],
+      [
+        "O parafuso da roda não sai de jeito nenhum. Você...",
+        {
+          "A": "Já tinha uma chave maior no porta-malas",
+          "D": "Confiro se tô girando pro lado certo",
+          "M": "Chamo reforço e alguém segura a lanterna",
+          "F": "Subo na chave com o pé"
+        }
+      ],
+      [
+        "Seu papel na troca do pneu é...",
+        {
+          "A": "Quem sabia onde estava tudo",
+          "D": "Quem confere cada parafuso",
+          "M": "Quem coordena e mantém o clima bom",
+          "F": "Quem troca o pneu de fato"
+        }
+      ],
+      [
+        "Alguém diz \"acho que o estepe tá murcho\". Você pensa:",
+        {
+          "A": "\"Eu calibrei semana passada\"",
+          "D": "\"Deixa eu apertar pra ver\"",
+          "M": "\"Já procuro um posto no mapa\"",
+          "F": "\"Dá pra chegar até o próximo posto\""
+        }
+      ],
+      [
+        "O sol tá se pondo e o pneu ainda não foi trocado. Você...",
+        {
+          "A": "Pego a lanterna que já tinha separado",
+          "D": "Sinalizo o carro antes de continuar",
+          "M": "Ilumino com o celular e animo a turma",
+          "F": "Acelero o ritmo e termino rapidinho"
+        }
+      ],
+      [
+        "Seu maior defeito com pneu furado:",
+        {
+          "A": "Explico tanto que demora pra começar",
+          "D": "Confiro tanto que escurece",
+          "M": "Faço tanta coisa que perco uma porca",
+          "F": "Esqueço o pneu furado no acostamento"
+        }
+      ],
+      [
+        "Pneu trocado, viagem seguindo. Você...",
+        {
+          "A": "Já anoto: consertar o pneu amanhã",
+          "D": "Paro no primeiro posto pra calibrar",
+          "M": "Mando a foto do perrengue no grupo",
+          "F": "Volto pro volante como se nada fosse"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with a flat tyre?",
+    "lead": "Every flat tyre brings out the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You knew where the spare was before you left home.",
+        "For you, a surprise is just a plan B you haven't used yet. You know the car, where every tool lives and how late you'll be. With you around, a flat tyre is just a pit stop.",
+        "Having the right tool in the right place.",
+        "Explaining every step before starting.",
+        "Relax, the spare's under the boot mat."
+      ],
+      "D": [
+        "The Detective",
+        "Before changing it, you find out what punctured the tyre.",
+        "You check the spare's pressure, hunt for the nail and read the whole manual. Nobody tightens the wrong bolt on your watch. Thanks to you, the tyre doesn't go flat again ten minutes later.",
+        "Finding the cause before anyone else.",
+        "Investigating so long it gets dark.",
+        "Look here: it was this tiny screw."
+      ],
+      "M": [
+        "The Maestro",
+        "You change the tyre, entertain the group and update whoever's waiting.",
+        "You handle it all together: holding the torch, passing the wrench, texting whoever's waiting and keeping spirits up. While one person tightens the bolts, you keep the trip going.",
+        "Turning a disaster into a group moment.",
+        "Doing so much that a wheel nut goes missing.",
+        "You hold, you shine the light, I'll text the others."
+      ],
+      "F": [
+        "The Finisher",
+        "A changed tyre beats a discussed tyre.",
+        "You don't wait for the tutorial to load. Grab the jack, swap the tyre, back behind the wheel. While others are still looking for the wrench, your hands are dirty and the car's ready.",
+        "Getting the car back on the road.",
+        "Leaving the flat tyre on the hard shoulder.",
+        "Give me the wrench, I've got this."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the road needs: you plan when a tool is missing, check when something won't fit, look after the group when everyone's tired and change the tyre when it's time.",
+        "Being whatever the trip needs right now.",
+        "Nobody knowing if you'll change it or film it.",
+        "Depends. Has anyone found the jack yet?"
+      ]
+    },
+    "S2": {
+      "A": "you still like having a plan B.",
+      "D": "you don't leave a single bolt unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you grab the wrench and fix it."
+    },
+    "Q": [
+      [
+        "Flat tyre, and nobody can find the jack. You...",
+        {
+          "A": "Know it's under the boot mat",
+          "D": "Open the manual at the right page",
+          "M": "Empty the boot with everyone",
+          "F": "Borrow one from the petrol station"
+        }
+      ],
+      [
+        "Before a road trip, you...",
+        {
+          "A": "Plan the stops and driving times",
+          "D": "Check oil, water and every tyre",
+          "M": "Sort who brings snacks, music and chargers",
+          "F": "Fill the tank and hit the road"
+        }
+      ],
+      [
+        "The wheel nut just won't budge. You...",
+        {
+          "A": "Already had a bigger wrench in the boot",
+          "D": "Check I'm turning it the right way",
+          "M": "Call for backup and get someone on the torch",
+          "F": "Stand on the wrench"
+        }
+      ],
+      [
+        "Your role in changing the tyre is...",
+        {
+          "A": "The one who knew where everything was",
+          "D": "The one checking every bolt",
+          "M": "The one coordinating and keeping spirits up",
+          "F": "The one actually changing the tyre"
+        }
+      ],
+      [
+        "Someone says \"I think the spare's flat too\". You think:",
+        {
+          "A": "\"I pumped it up last week\"",
+          "D": "\"Let me squeeze it and see\"",
+          "M": "\"I'm finding a petrol station on the map\"",
+          "F": "\"It'll get us to the next garage\""
+        }
+      ],
+      [
+        "The sun's setting and the tyre's still not done. You...",
+        {
+          "A": "Grab the torch I'd already packed",
+          "D": "Put the warning triangle out first",
+          "M": "Light it with my phone and cheer everyone on",
+          "F": "Speed up and finish it in a flash"
+        }
+      ],
+      [
+        "Your biggest flaw with a flat tyre:",
+        {
+          "A": "I explain so much it takes ages to start",
+          "D": "I check so much it gets dark",
+          "M": "I do so much I lose a wheel nut",
+          "F": "I leave the old tyre on the hard shoulder"
+        }
+      ],
+      [
+        "Tyre changed, trip back on. You...",
+        {
+          "A": "Make a note: get the tyre fixed tomorrow",
+          "D": "Stop at the first garage to check the pressure",
+          "M": "Post the photo of the drama in the group chat",
+          "F": "Get back behind the wheel like nothing happened"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "爆胎时你是哪个泡泡？",
+    "lead": "每次爆胎都会出现同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "出门前你就知道备胎放在哪。",
+        "对你来说，意外只是还没用上的B计划。你了解这辆车，知道每样工具放哪，连会晚到多久都算好了。有你在，爆胎只是一次进站维修。",
+        "把对的工具放在对的地方。",
+        "动手之前先把步骤讲一遍。",
+        "别急，备胎在后备箱垫子下面。"
+      ],
+      "D": [
+        "侦探",
+        "换胎之前，你先查出是什么扎破了轮胎。",
+        "你会检查备胎气压、找出那颗钉子、把说明书从头读到尾。有你在，没人会拧错螺丝。正因为有你，轮胎不会十分钟后又瘪了。",
+        "比谁都先找到原因。",
+        "研究太久，天都黑了。",
+        "你看：就是这颗小螺丝。"
+      ],
+      "M": [
+        "指挥家",
+        "你一边换胎，一边逗大家开心，还通知等你的人。",
+        "你什么都一起管：举手电、递扳手、给等着的人发消息，还让大家保持好心情。有人在拧螺丝，你让这趟旅程继续下去。",
+        "把一场狼狈变成小队的回忆。",
+        "忙得太多，弄丢了一颗螺母。",
+        "你扶着，你照亮，我去通知其他人。"
+      ],
+      "F": [
+        "终结者",
+        "换好的轮胎胜过讨论中的轮胎。",
+        "你不等教程视频加载。拿起千斤顶，换胎，回到驾驶座。别人还在找扳手，你已经满手油污、车也准备好了。",
+        "让车重新上路。",
+        "把破轮胎忘在了路边。",
+        "扳手给我，我来搞定。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据路上的情况切换角色：缺工具时想办法，装不上时仔细检查，大家累了时照顾小队，该换胎时就动手。",
+        "成为此刻这趟旅程最需要的人。",
+        "没人知道你是来换胎还是来拍视频的。",
+        "看情况。千斤顶找到了吗？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢留一个B计划。",
+      "D": "你不放过任何一颗没检查的螺丝。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你拿起扳手直接搞定。"
+    },
+    "Q": [
+      [
+        "爆胎了，可谁也找不到千斤顶。你……",
+        {
+          "A": "我知道它在垫子下面",
+          "D": "把说明书翻到那一页",
+          "M": "和大家一起清空后备箱",
+          "F": "去加油站借一个"
+        }
+      ],
+      [
+        "自驾出发前，你……",
+        {
+          "A": "规划好休息站和行车时间",
+          "D": "检查机油、水和每个轮胎",
+          "M": "安排谁带零食、歌单和充电器",
+          "F": "加满油，直接出发"
+        }
+      ],
+      [
+        "车轮螺丝怎么都拧不动。你……",
+        {
+          "A": "后备箱里早备了更大的扳手",
+          "D": "确认自己没拧反方向",
+          "M": "叫人帮忙，再找个人打手电",
+          "F": "直接站上扳手踩"
+        }
+      ],
+      [
+        "换胎时你的角色是……",
+        {
+          "A": "知道东西都在哪的人",
+          "D": "检查每颗螺丝的人",
+          "M": "协调大家、维持气氛的人",
+          "F": "真正动手换胎的人"
+        }
+      ],
+      [
+        "有人说“备胎好像也没气了”。你心想：",
+        {
+          "A": "“我上周刚打过气”",
+          "D": "“让我捏一下看看”",
+          "M": "“我马上在地图上找加油站”",
+          "F": "“撑到下一个加油站没问题”"
+        }
+      ],
+      [
+        "太阳快下山了，胎还没换好。你……",
+        {
+          "A": "拿出早就准备好的手电筒",
+          "D": "先摆好警示三角牌",
+          "M": "用手机照明，给大家打气",
+          "F": "加快速度，三下五除二搞定"
+        }
+      ],
+      [
+        "你遇到爆胎时最大的毛病：",
+        {
+          "A": "讲解太多，迟迟不动手",
+          "D": "检查太久，天都黑了",
+          "M": "做的事太多，弄丢一颗螺母",
+          "F": "把旧轮胎忘在路边"
+        }
+      ],
+      [
+        "胎换好了，继续上路。你……",
+        {
+          "A": "记下来：明天去补胎",
+          "D": "到第一个加油站就去测胎压",
+          "M": "把狼狈照片发到群里",
+          "F": "回到驾驶座，像什么都没发生"
+        }
+      ]
+    ]
+  }
+}
