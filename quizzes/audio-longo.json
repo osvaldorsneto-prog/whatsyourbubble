@@ -1,0 +1,384 @@
+{
+  "slug": "audio-longo",
+  "criado_em": "2026-11-27",
+  "categoria": "celular",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é com áudio longo?",
+    "lead": "Todo mundo tem um amigo que manda áudio de 7 minutos. Qual bolha você é?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você ouve áudio com método: velocidade, fone e hora certa.",
+        "Pra você, áudio longo pede estratégia. Você escolhe a hora, põe no 2x e já anota os pontos importantes. Quando responde, ninguém precisa perguntar de novo.",
+        "Transformar 7 minutos de áudio em 3 tópicos claros.",
+        "Esperar a hora perfeita pra ouvir e responder só amanhã.",
+        "Deixa eu ouvir com calma no almoço."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum detalhe do áudio passa batido.",
+        "Você ouve até o fim, volta naquela parte que ficou baixa e pega o recado escondido no minuto 5. Se alguém pergunta o que foi combinado, é você que sabe.",
+        "Achar a informação importante no meio da história.",
+        "Ouvir tantas vezes que a conversa já mudou de assunto.",
+        "Peraí, no minuto 4 ele falou outra coisa."
+      ],
+      "M": [
+        "O Maestro",
+        "Você ouve áudio, cozinha e responde outro grupo ao mesmo tempo.",
+        "Pra você, áudio é trilha sonora. Você escuta lavando a louça, andando na rua e respondendo três conversas. E ainda devolve um áudio na mesma energia.",
+        "Dar conta de cinco conversas sem largar nenhuma.",
+        "Responder o áudio certo na conversa errada.",
+        "Tô ouvindo, tô ouvindo, pode continuar."
+      ],
+      "F": [
+        "O Finalizador",
+        "Você responde o essencial e segue a vida.",
+        "Você não precisa de 7 minutos pra entender o recado. Ouve o começo, pega a ideia e responde em uma linha. Enquanto os outros ainda estão no minuto 2, a conversa já andou.",
+        "Destravar a conversa com uma resposta curta.",
+        "Responder antes de chegar na parte que importava.",
+        "Resumindo: sim, eu vou."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda o jeito de ouvir conforme o áudio pede: separa um tempo quando é longo, confere quando é importante, ouve fazendo outra coisa quando é papo e responde rápido quando é simples.",
+        "Saber na hora que tipo de áudio chegou.",
+        "Ninguém saber se você vai responder em 1 minuto ou em 1 dia.",
+        "Depende. É fofoca ou é combinado?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de ouvir tudo com método.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você dá conta de várias conversas ao mesmo tempo.",
+      "F": "na hora certa, você resume e responde."
+    },
+    "Q": [
+      [
+        "Seu amigo mandou um áudio de 7 minutos. Você...",
+        {
+          "A": "Ouço no 2x, de fone, anotando",
+          "D": "Ouço duas vezes pra não perder nada",
+          "M": "Ouço cozinhando e respondo outro",
+          "F": "Respondo \"verdade\" sem ouvir"
+        }
+      ],
+      [
+        "O áudio começa com \"então, deixa eu te contar...\". Você...",
+        {
+          "A": "Separo um tempo pra ouvir direito",
+          "D": "Já sei que vem história e presto atenção",
+          "M": "Dou play e sigo fazendo minhas coisas",
+          "F": "Pulo pro final pra ver se tem pergunta"
+        }
+      ],
+      [
+        "Você precisa explicar algo complicado. Você...",
+        {
+          "A": "Escrevo um texto organizado em tópicos",
+          "D": "Mando texto e confiro se a pessoa entendeu",
+          "M": "Mando áudio andando, no meio de outras tarefas",
+          "F": "Ligo logo e resolvo em 2 minutos"
+        }
+      ],
+      [
+        "O áudio tem barulho de vento bem no meio. Você...",
+        {
+          "A": "Ouço de novo num lugar silencioso",
+          "D": "Volto 3 vezes até entender a palavra",
+          "M": "Peço pra quem tá do lado ouvir junto",
+          "F": "Respondo \"oi? não entendi, resume aí\""
+        }
+      ],
+      [
+        "Chegaram 6 áudios seguidos da mesma pessoa. Você...",
+        {
+          "A": "Ouço todos em ordem, no 2x, de uma vez",
+          "D": "Ouço todos e anoto o que mudou entre eles",
+          "M": "Ouço um enquanto respondo os outros grupos",
+          "F": "Ouço só o último, que deve ter o resumo"
+        }
+      ],
+      [
+        "Seu jeito de responder um áudio longo:",
+        {
+          "A": "Uma mensagem respondendo cada ponto",
+          "D": "Uma resposta citando cada parte do áudio",
+          "M": "Um áudio na mesma energia, andando pela casa",
+          "F": "Um \"fechado\" e um emoji"
+        }
+      ],
+      [
+        "Seu maior defeito com áudios:",
+        {
+          "A": "Espero a hora ideal e respondo no dia seguinte",
+          "D": "Ouço tantas vezes que perco o timing",
+          "M": "Respondo o áudio na conversa errada",
+          "F": "Respondo antes de ouvir a parte importante"
+        }
+      ],
+      [
+        "No fim, o áudio era só pra saber se você vai no sábado. Você...",
+        {
+          "A": "Respondo com horário e o que levar",
+          "D": "Confirmo o endereço e a hora certinho",
+          "M": "Aviso o grupo todo e já combino a carona",
+          "F": "\"Vou.\" Pronto."
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with long voice notes?",
+    "lead": "Everyone has that friend who sends 7-minute voice notes. Which bubble are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You handle voice notes with a system: speed, headphones, timing.",
+        "For you, a long voice note needs a strategy. You pick your moment, play it at 2x and jot down the key points. When you reply, nobody has to ask twice.",
+        "Turning 7 minutes of audio into 3 clear points.",
+        "Waiting for the perfect moment and replying tomorrow.",
+        "Let me listen properly over lunch."
+      ],
+      "D": [
+        "The Detective",
+        "No detail in a voice note gets past you.",
+        "You listen to the end, rewind the quiet bit and catch the real message hiding at minute 5. If anyone asks what was agreed, you are the one who knows.",
+        "Finding the important bit in the middle of the story.",
+        "Replaying it so often the chat has moved on.",
+        "Hang on, at minute 4 she said something else."
+      ],
+      "M": [
+        "The Maestro",
+        "You listen, cook and reply to another chat all at once.",
+        "For you, voice notes are background music. You listen while washing up, walking and answering three other chats. And you still send one back with the same energy.",
+        "Keeping five conversations going without dropping one.",
+        "Answering the right voice note in the wrong chat.",
+        "I'm listening, I'm listening, keep going."
+      ],
+      "F": [
+        "The Finisher",
+        "You reply to what matters and get on with your day.",
+        "You don't need 7 minutes to get the message. You hear the start, get the idea and reply in one line. While others are still on minute 2, the chat has moved on.",
+        "Unblocking the chat with one short reply.",
+        "Replying before the part that actually mattered.",
+        "Long story short: yes, I'm in."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change how you listen depending on the note: you make time when it's long, check when it matters, multitask when it's just chat and reply fast when it's simple.",
+        "Knowing instantly what kind of voice note just arrived.",
+        "Nobody knowing if you'll reply in a minute or a day.",
+        "Depends. Is it gossip or actual plans?"
+      ]
+    },
+    "S2": {
+      "A": "you still like to listen with a system.",
+      "D": "you don't let a single detail slip.",
+      "M": "you juggle several chats at once.",
+      "F": "when it counts, you sum it up and reply."
+    },
+    "Q": [
+      [
+        "Your friend sent a 7-minute voice note. You...",
+        {
+          "A": "Play it at 2x with headphones and notes",
+          "D": "Listen twice so I miss nothing",
+          "M": "Listen while cooking, reply to another chat",
+          "F": "Reply \"so true\" without listening"
+        }
+      ],
+      [
+        "The voice note starts with \"so, let me tell you...\". You...",
+        {
+          "A": "Set aside time to listen properly",
+          "D": "Know a story's coming and pay attention",
+          "M": "Hit play and carry on with my stuff",
+          "F": "Skip to the end to see if there's a question"
+        }
+      ],
+      [
+        "You need to explain something complicated. You...",
+        {
+          "A": "Write a tidy message in bullet points",
+          "D": "Text it and check they understood",
+          "M": "Send a voice note while doing other things",
+          "F": "Just call and sort it in 2 minutes"
+        }
+      ],
+      [
+        "There's wind noise right in the middle of the note. You...",
+        {
+          "A": "Listen again somewhere quiet",
+          "D": "Rewind 3 times until I catch the word",
+          "M": "Get the person next to me to listen too",
+          "F": "Reply \"what? just give me the summary\""
+        }
+      ],
+      [
+        "6 voice notes in a row from the same person. You...",
+        {
+          "A": "Play them all in order, at 2x, in one go",
+          "D": "Listen to all and note what changed",
+          "M": "Listen to one while replying to other chats",
+          "F": "Play only the last one, it'll have the summary"
+        }
+      ],
+      [
+        "How you reply to a long voice note:",
+        {
+          "A": "One message answering every point",
+          "D": "A reply quoting each part of the note",
+          "M": "A voice note back, same energy, pacing the house",
+          "F": "A \"deal\" and an emoji"
+        }
+      ],
+      [
+        "Your biggest voice note flaw:",
+        {
+          "A": "I wait for the ideal moment and reply the next day",
+          "D": "I replay it so often I miss the moment",
+          "M": "I reply in the wrong chat",
+          "F": "I reply before hearing the important part"
+        }
+      ],
+      [
+        "Turns out the note was just asking if you're coming Saturday. You...",
+        {
+          "A": "Reply with a time and what to bring",
+          "D": "Confirm the address and time exactly",
+          "M": "Tell the whole group and sort out lifts",
+          "F": "\"Yes.\" Done."
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "面对超长语音，你是哪个泡泡？",
+    "lead": "每个人都有一个爱发7分钟语音的朋友。你是哪个泡泡？",
+    "T": {
+      "A": [
+        "建筑师",
+        "听语音你也有方法：倍速、耳机、挑好时间。",
+        "对你来说，长语音需要策略。你挑好时间，开2倍速，顺手记下重点。你回复之后，没人需要再问一遍。",
+        "把7分钟语音变成3个清楚的要点。",
+        "等最佳时机，等到第二天才回。",
+        "等我午饭时好好听。"
+      ],
+      "D": [
+        "侦探",
+        "语音里的任何细节都逃不过你。",
+        "你会听到最后，倒回去听声音小的那段，还能抓住藏在第5分钟的重点。有人问到底约了什么，只有你知道。",
+        "在一大段故事里找到关键信息。",
+        "反复听太多遍，群里早就换话题了。",
+        "等等，第4分钟他说的不是这样。"
+      ],
+      "M": [
+        "指挥家",
+        "你边听语音边做饭，还顺手回了另一个群。",
+        "对你来说，语音就是背景音乐。你边洗碗边听，边走路边回三个聊天，还能用同样的热情回一条语音。",
+        "同时应付五个对话，一个都不漏。",
+        "把对的语音回到了错的聊天里。",
+        "在听在听，你继续说。"
+      ],
+      "F": [
+        "终结者",
+        "你只回重点，然后继续过日子。",
+        "你不需要7分钟才明白意思。听个开头，抓住重点，一句话回复。别人还在听第2分钟，对话已经往前走了。",
+        "用一句短回复让聊天继续推进。",
+        "重要的部分还没听到就回了。",
+        "总之：行，我去。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据语音调整听法：长的就留出时间，重要的就仔细核对，闲聊就边做事边听，简单的就秒回。",
+        "一听就知道来的是哪种语音。",
+        "没人知道你是一分钟回还是一天后回。",
+        "看情况。是八卦还是正事？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢有方法地听完一切。",
+      "D": "你不会漏掉任何细节。",
+      "M": "你能同时应付好几个对话。",
+      "F": "关键时刻，你会总结一句直接回。"
+    },
+    "Q": [
+      [
+        "朋友发来一条7分钟的语音。你……",
+        {
+          "A": "戴耳机开2倍速，边听边记",
+          "D": "听两遍，一个字都不漏",
+          "M": "边做饭边听，顺手回别的群",
+          "F": "没听就回“确实”"
+        }
+      ],
+      [
+        "语音开头是“那个，我跟你说哦……”。你……",
+        {
+          "A": "专门留出时间好好听",
+          "D": "知道要开始讲故事了，认真听",
+          "M": "点开播放，继续忙我的",
+          "F": "直接拖到最后看有没有问题"
+        }
+      ],
+      [
+        "你需要解释一件复杂的事。你……",
+        {
+          "A": "分点写一段整齐的文字",
+          "D": "发文字，再确认对方看懂了",
+          "M": "边忙别的边发语音",
+          "F": "直接打电话，2分钟搞定"
+        }
+      ],
+      [
+        "语音中间全是风声。你……",
+        {
+          "A": "找个安静的地方重听",
+          "D": "倒回去听3遍，直到听清那个词",
+          "M": "叫旁边的人一起听",
+          "F": "回一句“啥？总结一下”"
+        }
+      ],
+      [
+        "同一个人连发了6条语音。你……",
+        {
+          "A": "按顺序2倍速一口气听完",
+          "D": "全听完，记下每条之间的变化",
+          "M": "听一条，同时回别的群",
+          "F": "只听最后一条，总结应该在那"
+        }
+      ],
+      [
+        "你回复长语音的方式：",
+        {
+          "A": "一条消息逐点回复",
+          "D": "引用语音的每一部分来回复",
+          "M": "回一条同样热情的语音，边走边说",
+          "F": "一个“好的”加一个表情"
+        }
+      ],
+      [
+        "你在语音上最大的毛病：",
+        {
+          "A": "等最佳时机，第二天才回",
+          "D": "反复听太多遍，错过了时机",
+          "M": "回到了错的聊天里",
+          "F": "还没听到重点就回了"
+        }
+      ],
+      [
+        "结果那条语音只是问你周六去不去。你……",
+        {
+          "A": "直接回时间和要带什么",
+          "D": "把地址和时间确认清楚",
+          "M": "通知整个群，顺便安排拼车",
+          "F": "“去。”完事。"
+        }
+      ]
+    ]
+  }
+}

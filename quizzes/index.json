@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "mosquito-no-quarto",
+   "url": "/q/?s=mosquito-no-quarto",
+   "criado_em": "2026-11-27",
+   "categoria": "casa",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é com um mosquito no quarto?",
+    "en": "What's your bubble with a mosquito in the room?",
+    "zh": "房间里有蚊子时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "aula-de-danca",
+   "url": "/q/?s=aula-de-danca",
+   "criado_em": "2026-11-27",
+   "categoria": "esporte",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é na aula de dança?",
+    "en": "What's your bubble in a dance class?",
+    "zh": "跳舞课上你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "audio-longo",
+   "url": "/q/?s=audio-longo",
+   "criado_em": "2026-11-27",
+   "categoria": "celular",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é com áudio longo?",
+    "en": "What's your bubble with long voice notes?",
+    "zh": "面对超长语音，你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "pneu-furado",
    "url": "/q/?s=pneu-furado",
    "criado_em": "2026-11-26",

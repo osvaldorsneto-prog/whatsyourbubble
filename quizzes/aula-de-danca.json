@@ -1,0 +1,384 @@
+{
+  "slug": "aula-de-danca",
+  "criado_em": "2026-11-27",
+  "categoria": "esporte",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é na aula de dança?",
+    "lead": "Música alta, espelho na frente e passo novo pra aprender. Qual bolha você é?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você aprende a coreografia passo a passo, na ordem.",
+        "Pra você, dança começa na contagem. Você divide a coreografia em partes, decora a sequência e ensaia em casa. Na apresentação, você sabe exatamente o que vem depois.",
+        "Decorar a coreografia inteira na ordem certa.",
+        "Contar tão alto que esquece de curtir a música.",
+        "Calma: 5, 6, 7, 8... agora!"
+      ],
+      "D": [
+        "O Detetive",
+        "Você repara em cada detalhe do passo.",
+        "Você vê o braço, o pé e até pra onde o professor olha. Se tem um detalhe diferente no vídeo, você nota. É você que a turma procura quando ninguém lembra o passo.",
+        "Pegar o detalhe que todo mundo deixou passar.",
+        "Analisar tanto o passo que a música acaba.",
+        "Peraí, nessa parte o braço vai pra cima."
+      ],
+      "M": [
+        "O Maestro",
+        "Você dança, ajuda o colega e ainda anima a turma.",
+        "Você acompanha a música, avisa quem se perdeu e ainda puxa o grito no refrão. Com você, a aula vira festa e ninguém fica pra trás.",
+        "Manter a turma inteira no ritmo.",
+        "Ajudar todo mundo e esquecer o próprio passo.",
+        "Vem, vem, todo mundo junto agora!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você entra no ritmo e vai até o fim da música.",
+        "Você não espera saber tudo pra começar. Errou o passo? Inventa outro e segue no ritmo. Enquanto os outros ainda estão pensando, você já dançou a música inteira.",
+        "Terminar a coreografia aconteça o que acontecer.",
+        "Improvisar tanto que vira outra dança.",
+        "Errei? Ninguém percebeu. Segue!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de jeito conforme a aula pede: conta quando a coreografia é nova, repara quando o passo é difícil, anima quando a turma cansa e vai com tudo quando a música começa.",
+        "Ser o que a aula precisa naquele momento.",
+        "Ninguém saber em que fila te colocar.",
+        "Depende. Qual é a música?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo contado e ensaiado.",
+      "D": "você não deixa nenhum detalhe passar.",
+      "M": "você mantém todo mundo no ritmo.",
+      "F": "na hora certa, você para de pensar e dança."
+    },
+    "Q": [
+      [
+        "O professor diz \"agora sem olhar pro pé!\". Você...",
+        {
+          "A": "Conto de cabeça: 5, 6, 7, 8...",
+          "D": "Olho pro pé de canto de olho",
+          "M": "Sorrio e copio quem tá do lado",
+          "F": "Vou com tudo e improviso"
+        }
+      ],
+      [
+        "Primeira aula, turma nova. Você...",
+        {
+          "A": "Chego cedo e escolho um lugar bom pra ver",
+          "D": "Fico atrás pra observar todo mundo antes",
+          "M": "Já converso com a turma e faço amizade",
+          "F": "Vou pra frente e começo a dançar"
+        }
+      ],
+      [
+        "O professor passa um passo bem difícil. Você...",
+        {
+          "A": "Divido em partes e treino uma de cada vez",
+          "D": "Peço pra ele mostrar de novo, mais devagar",
+          "M": "Treino junto com o colega do lado",
+          "F": "Tento direto até sair algo parecido"
+        }
+      ],
+      [
+        "Você errou o passo bem na frente do espelho. Você...",
+        {
+          "A": "Volto pra contagem e entro no próximo tempo",
+          "D": "Paro pra entender onde errei",
+          "M": "Rio, faço uma careta e sigo animado",
+          "F": "Transformo o erro num passo novo"
+        }
+      ],
+      [
+        "Faltam 2 semanas pra apresentação. Você...",
+        {
+          "A": "Monto um cronograma de ensaio em casa",
+          "D": "Gravo meu ensaio e comparo com o do professor",
+          "M": "Organizo um ensaio extra com a turma",
+          "F": "Danço a música inteira todo dia, do jeito que der"
+        }
+      ],
+      [
+        "Seu lugar favorito na sala:",
+        {
+          "A": "No meio, onde dá pra ver tudo",
+          "D": "Perto do espelho, pra conferir cada movimento",
+          "M": "Onde a turma estiver mais animada",
+          "F": "Na frente, sem medo"
+        }
+      ],
+      [
+        "Seu maior defeito na aula de dança:",
+        {
+          "A": "Conto tão alto que atrapalho quem tá do lado",
+          "D": "Analiso tanto que fico parado",
+          "M": "Ajudo todo mundo e esqueço meu passo",
+          "F": "Improviso e invento outra coreografia"
+        }
+      ],
+      [
+        "A aula acabou. Você...",
+        {
+          "A": "Anoto a sequência pra treinar em casa",
+          "D": "Vejo o vídeo da aula pra achar meus erros",
+          "M": "Chamo a turma pra comer alguma coisa",
+          "F": "Saio dançando até o ponto de ônibus"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble in a dance class?",
+    "lead": "Loud music, a mirror in front and new steps to learn. Which bubble are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You learn the routine step by step, in order.",
+        "For you, dancing starts with counting. You split the routine into chunks, memorise the sequence and practise at home. On the day, you know exactly what comes next.",
+        "Memorising the whole routine in the right order.",
+        "Counting so loudly you forget to enjoy the music.",
+        "Easy: 5, 6, 7, 8... now!"
+      ],
+      "D": [
+        "The Detective",
+        "You notice every detail of every step.",
+        "You see the arm, the foot and even where the teacher is looking. If something is different in the video, you spot it. You are who the class asks when nobody remembers the step.",
+        "Catching the detail everyone else missed.",
+        "Analysing the step so long the song ends.",
+        "Wait, in this part the arm goes up."
+      ],
+      "M": [
+        "The Maestro",
+        "You dance, help your classmate and hype up the room.",
+        "You keep up with the music, help whoever got lost and lead the shout in the chorus. With you, class turns into a party and nobody gets left behind.",
+        "Keeping the whole class on the beat.",
+        "Helping everyone and forgetting your own step.",
+        "Come on, everybody together now!"
+      ],
+      "F": [
+        "The Finisher",
+        "You find the beat and keep going to the end.",
+        "You don't wait to know everything before you start. Missed a step? Make up another and stay on the beat. While others are still thinking, you've danced the whole song.",
+        "Finishing the routine no matter what.",
+        "Improvising so much it becomes a different dance.",
+        "Messed up? Nobody noticed. Keep going!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change your style as the class needs: count when the routine is new, study when the step is hard, hype when the class gets tired and go all in when the music starts.",
+        "Being whatever the class needs right now.",
+        "Nobody knowing which row to put you in.",
+        "Depends. What's the song?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything counted and rehearsed.",
+      "D": "you don't let a single detail slip.",
+      "M": "you keep everyone on the beat.",
+      "F": "when it counts, you stop thinking and dance."
+    },
+    "Q": [
+      [
+        "The teacher says \"now don't look at your feet!\". You...",
+        {
+          "A": "Count in my head: 5, 6, 7, 8...",
+          "D": "Peek at my feet sideways",
+          "M": "Smile and copy whoever's next to me",
+          "F": "Go all in and improvise"
+        }
+      ],
+      [
+        "First class, new group. You...",
+        {
+          "A": "Arrive early and pick a spot with a good view",
+          "D": "Stay at the back to watch everyone first",
+          "M": "Start chatting and making friends",
+          "F": "Go to the front and start dancing"
+        }
+      ],
+      [
+        "The teacher shows a really hard step. You...",
+        {
+          "A": "Break it into parts and practise one at a time",
+          "D": "Ask to see it again, slower",
+          "M": "Practise it with the person next to me",
+          "F": "Just try until something similar comes out"
+        }
+      ],
+      [
+        "You get the step wrong right in front of the mirror. You...",
+        {
+          "A": "Go back to counting and come in on the next beat",
+          "D": "Stop to work out where I went wrong",
+          "M": "Laugh, pull a face and keep going",
+          "F": "Turn the mistake into a new move"
+        }
+      ],
+      [
+        "2 weeks until the show. You...",
+        {
+          "A": "Make a practice schedule at home",
+          "D": "Film myself and compare with the teacher's video",
+          "M": "Organise an extra rehearsal with the class",
+          "F": "Dance the whole song every day, however it goes"
+        }
+      ],
+      [
+        "Your favourite spot in the room:",
+        {
+          "A": "In the middle, where I can see everything",
+          "D": "Near the mirror, to check every move",
+          "M": "Wherever the class is most fired up",
+          "F": "Right at the front, no fear"
+        }
+      ],
+      [
+        "Your biggest flaw in dance class:",
+        {
+          "A": "I count so loudly I distract whoever's next to me",
+          "D": "I analyse so much I stand still",
+          "M": "I help everyone and forget my own step",
+          "F": "I improvise and invent a new routine"
+        }
+      ],
+      [
+        "Class is over. You...",
+        {
+          "A": "Write down the sequence to practise at home",
+          "D": "Watch the class video to find my mistakes",
+          "M": "Invite the class to grab a bite",
+          "F": "Dance all the way to the bus stop"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "跳舞课上你是哪个泡泡？",
+    "lead": "音乐很响，前面一面大镜子，还有新舞步要学。你是哪个泡泡？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你一步一步、按顺序学会整支舞。",
+        "对你来说，跳舞从数拍子开始。你把舞蹈拆成几段，记住顺序，回家再练。到了表演那天，你清楚地知道下一步是什么。",
+        "按正确顺序记住整支舞。",
+        "数拍子太大声，忘了享受音乐。",
+        "别急：5、6、7、8……开始！"
+      ],
+      "D": [
+        "侦探",
+        "每个舞步的细节你都看在眼里。",
+        "你会注意手臂、脚，甚至老师的视线方向。视频里有一点不一样，你都能发现。没人记得舞步时，大家都来问你。",
+        "发现所有人都漏掉的细节。",
+        "分析舞步太久，音乐都放完了。",
+        "等等，这一段手臂是往上抬的。"
+      ],
+      "M": [
+        "指挥家",
+        "你边跳舞边帮同学，还能带动全场气氛。",
+        "你跟着音乐，提醒跟丢的同学，副歌时还带头喊。有你在，舞蹈课变成派对，没有人掉队。",
+        "让全班都跟上节奏。",
+        "帮了所有人，却忘了自己的动作。",
+        "来来来，大家一起！"
+      ],
+      "F": [
+        "终结者",
+        "你踩上节拍，一直跳到音乐结束。",
+        "你不用全部学会才开始。跳错了？换个动作继续踩点。别人还在想，你已经把整首歌跳完了。",
+        "无论如何都把舞跳完。",
+        "即兴太多，变成了另一支舞。",
+        "跳错了？没人发现。继续！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据课堂需要切换状态：新舞就数拍子，难的动作就仔细研究，大家累了就带气氛，音乐一响就全力投入。",
+        "成为此刻课堂最需要的人。",
+        "没人知道该把你排在哪一排。",
+        "看情况。放什么歌？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都数好、练好。",
+      "D": "你不会漏掉任何细节。",
+      "M": "你让所有人都跟上节奏。",
+      "F": "关键时刻，你停止思考，直接跳。"
+    },
+    "Q": [
+      [
+        "老师说：“现在不许看脚！”你……",
+        {
+          "A": "心里默数：5、6、7、8……",
+          "D": "用余光偷偷看脚",
+          "M": "微笑着跟旁边的人学",
+          "F": "全力投入，剩下的即兴"
+        }
+      ],
+      [
+        "第一节课，新同学。你……",
+        {
+          "A": "早点到，挑个看得清的位置",
+          "D": "站在后面，先观察大家",
+          "M": "马上跟大家聊天交朋友",
+          "F": "站到最前面开始跳"
+        }
+      ],
+      [
+        "老师教了一个超难的动作。你……",
+        {
+          "A": "拆成几段，一段一段练",
+          "D": "请老师再慢慢示范一遍",
+          "M": "和旁边的同学一起练",
+          "F": "直接试，跳到差不多为止"
+        }
+      ],
+      [
+        "你在镜子正前方跳错了。你……",
+        {
+          "A": "回到数拍子，从下一拍接上",
+          "D": "停下来想清楚哪里错了",
+          "M": "笑一下，做个鬼脸继续跳",
+          "F": "把错误变成一个新动作"
+        }
+      ],
+      [
+        "离表演还有2周。你……",
+        {
+          "A": "在家做一份练习计划",
+          "D": "录下自己跳的，和老师的视频对比",
+          "M": "组织全班加练一次",
+          "F": "每天把整首歌跳一遍，跳成啥样算啥样"
+        }
+      ],
+      [
+        "你在教室里最喜欢的位置：",
+        {
+          "A": "中间，什么都看得见",
+          "D": "靠近镜子，检查每个动作",
+          "M": "哪里气氛最好就站哪里",
+          "F": "最前面，毫不害怕"
+        }
+      ],
+      [
+        "你在舞蹈课上最大的毛病：",
+        {
+          "A": "数拍子太大声，影响旁边的人",
+          "D": "分析太多，站着不动",
+          "M": "帮所有人，忘了自己的动作",
+          "F": "即兴发挥，编出一支新舞"
+        }
+      ],
+      [
+        "下课了。你……",
+        {
+          "A": "记下动作顺序，回家练",
+          "D": "看课堂视频，找自己的错误",
+          "M": "叫大家一起去吃点东西",
+          "F": "一路跳到公交站"
+        }
+      ]
+    ]
+  }
+}

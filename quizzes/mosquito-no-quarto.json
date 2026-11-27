@@ -1,0 +1,384 @@
+{
+  "slug": "mosquito-no-quarto",
+  "criado_em": "2026-11-27",
+  "categoria": "casa",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é com um mosquito no quarto?",
+    "lead": "Luz apagada, silêncio total... e aquele zumbido no ouvido. Qual bolha você é?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta um plano antes do mosquito aparecer.",
+        "Pra você, noite tranquila começa cedo. Tela na janela, repelente na tomada e porta fechada antes de escurecer. Quando você prepara o quarto, o mosquito nem tenta.",
+        "Resolver o zumbido antes dele existir.",
+        "Planejar tanto a defesa que esquece de dormir.",
+        "Fechou a janela antes das seis? Então tá tranquilo."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhum mosquito se esconde de você.",
+        "Você acende a luz, olha cada canto da parede e sabe exatamente onde ele pousou. Enquanto os outros desistem, você segue a pista até achar o culpado.",
+        "Achar o mosquito em qualquer canto do quarto.",
+        "Passar uma hora procurando e ele já ter ido embora.",
+        "Ele tá ali. Atrás da cortina. Eu sei."
+      ],
+      "M": [
+        "O Maestro",
+        "Você liga o ventilador, o repelente e o lençol de uma vez.",
+        "Você não confia numa solução só. Liga o ventilador, acende o repelente, fecha a janela e ainda avisa a casa toda. Ninguém acorda picado no seu turno.",
+        "Montar várias defesas ao mesmo tempo.",
+        "Ligar tanta coisa que o quarto vira uma turbina.",
+        "Liga o ventilador que eu pego o repelente!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Você resolve o mosquito e volta a dormir.",
+        "Você não perde a noite com estratégia. Se enrola no lençol, põe o ventilador no máximo e dorme. Enquanto os outros ainda estão procurando, você já tá no terceiro sonho.",
+        "Voltar a dormir em qualquer situação.",
+        "Acordar com três picadas e fingir que não foi nada.",
+        "Ele que se vire. Boa noite."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de tática conforme a noite pede: previne quando dá, procura quando ele some, liga tudo quando é uma invasão e volta a dormir quando cansa.",
+        "Ter a tática certa pra cada mosquito.",
+        "Ninguém saber se você vai procurar ou dormir.",
+        "Depende. É um só ou é uma esquadrilha?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de prevenir antes do problema.",
+      "D": "você não sossega enquanto não acha o culpado.",
+      "M": "você ativa várias soluções ao mesmo tempo.",
+      "F": "na hora certa, você deixa pra lá e dorme."
+    },
+    "Q": [
+      [
+        "3h da manhã e um mosquito zumbindo no seu ouvido. Você...",
+        {
+          "A": "Acendo a luz e monto a estratégia",
+          "D": "Fico imóvel esperando ele pousar",
+          "M": "Ventilador, repelente e lençol, tudo junto",
+          "F": "Me enrolo no lençol e durmo"
+        }
+      ],
+      [
+        "Noite de calor, hora de dormir. Você...",
+        {
+          "A": "Fecho a janela e ligo o repelente às 18h",
+          "D": "Olho teto e paredes antes de apagar a luz",
+          "M": "Ventilador, repelente e porta fechada, tudo junto",
+          "F": "Deito e confio na sorte"
+        }
+      ],
+      [
+        "Você acende a luz e o mosquito sumiu. Você...",
+        {
+          "A": "Penso onde ele costuma se esconder e vou lá",
+          "D": "Inspeciono cada canto até achar",
+          "M": "Chamo alguém pra ajudar a procurar",
+          "F": "Apago a luz e tento dormir de novo"
+        }
+      ],
+      [
+        "Seu kit anti-mosquito ideal:",
+        {
+          "A": "Tela na janela, instalada com antecedência",
+          "D": "Uma lanterna pra achar ele no escuro",
+          "M": "Ventilador, repelente e mosquiteiro",
+          "F": "Um lençol bem grande"
+        }
+      ],
+      [
+        "Alguém da casa diz \"não tem mosquito nenhum\". Você...",
+        {
+          "A": "Lembro que a janela ficou aberta a tarde toda",
+          "D": "Mostro a picada nova no braço como prova",
+          "M": "Já distribuo repelente pra todo mundo",
+          "F": "Falo \"então tá\" e durmo de capuz"
+        }
+      ],
+      [
+        "Você finalmente achou o mosquito na parede. Você...",
+        {
+          "A": "Chego devagar, calculando o ângulo",
+          "D": "Confiro se é ele mesmo antes de agir",
+          "M": "Peço pra alguém segurar a lanterna",
+          "F": "Vou com a toalha na hora, sem pensar"
+        }
+      ],
+      [
+        "Seu maior defeito contra o mosquito:",
+        {
+          "A": "Planejo tanto que já amanheceu",
+          "D": "Procuro tanto que perco o sono",
+          "M": "Ligo tanta coisa que o quarto parece uma turbina",
+          "F": "Ignoro e acordo todo picado"
+        }
+      ],
+      [
+        "Amanheceu. Você...",
+        {
+          "A": "Já compro tela pra janela",
+          "D": "Conto as picadas e descubro por onde ele entrou",
+          "M": "Conto a saga no grupo da família",
+          "F": "Tomo café e esqueço que aconteceu"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with a mosquito in the room?",
+    "lead": "Lights off, total silence... then that buzz in your ear. Which bubble are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You have a plan before the mosquito even shows up.",
+        "For you, a quiet night starts early. Screens on the windows, repellent plugged in and the door shut before dark. When you prep the room, the mosquito doesn't stand a chance.",
+        "Solving the buzz before it exists.",
+        "Planning the defence so long you forget to sleep.",
+        "Window shut before six? Then we're fine."
+      ],
+      "D": [
+        "The Detective",
+        "No mosquito can hide from you.",
+        "You switch the light on, scan every corner of the wall and know exactly where it landed. While others give up, you follow the trail until you find the culprit.",
+        "Spotting the mosquito in any corner of the room.",
+        "Searching for an hour after it already left.",
+        "It's there. Behind the curtain. I know it."
+      ],
+      "M": [
+        "The Maestro",
+        "You switch on the fan, the repellent and the sheet at once.",
+        "You never trust just one fix. Fan on, repellent on, window shut, and you warn the whole house too. Nobody wakes up bitten on your watch.",
+        "Setting up several defences at the same time.",
+        "Turning on so much the room sounds like a jet engine.",
+        "Turn on the fan, I'll grab the repellent!"
+      ],
+      "F": [
+        "The Finisher",
+        "You deal with the mosquito and go back to sleep.",
+        "You don't waste the night on strategy. Wrap up in the sheet, fan on full and sleep. While everyone else is still searching, you're on your third dream.",
+        "Falling back asleep no matter what.",
+        "Waking up with three bites and acting like nothing happened.",
+        "Its problem, not mine. Good night."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch tactics as the night requires: prevent when you can, search when it vanishes, turn everything on when it's an invasion and go back to sleep when you're done.",
+        "Having the right tactic for every mosquito.",
+        "Nobody knowing if you'll search or sleep.",
+        "Depends. Is it one, or a whole squadron?"
+      ]
+    },
+    "S2": {
+      "A": "you still like to prevent problems early.",
+      "D": "you don't rest until you find the culprit.",
+      "M": "you run several fixes at the same time.",
+      "F": "when it counts, you let it go and sleep."
+    },
+    "Q": [
+      [
+        "3am and a mosquito is buzzing in your ear. You...",
+        {
+          "A": "Turn the light on and make a plan",
+          "D": "Freeze and wait for it to land",
+          "M": "Fan, repellent and sheet, all at once",
+          "F": "Wrap up in the sheet and sleep"
+        }
+      ],
+      [
+        "Hot night, time for bed. You...",
+        {
+          "A": "Shut the window and plug in repellent at 6pm",
+          "D": "Scan the ceiling and walls before lights out",
+          "M": "Fan, repellent and door shut, all together",
+          "F": "Lie down and trust my luck"
+        }
+      ],
+      [
+        "You switch the light on and the mosquito is gone. You...",
+        {
+          "A": "Think where it usually hides and go there",
+          "D": "Inspect every corner until I find it",
+          "M": "Call someone to help me search",
+          "F": "Turn the light off and try to sleep again"
+        }
+      ],
+      [
+        "Your ideal anti-mosquito kit:",
+        {
+          "A": "Window screens, fitted well in advance",
+          "D": "A torch to find it in the dark",
+          "M": "Fan, repellent and a mosquito net",
+          "F": "A really big sheet"
+        }
+      ],
+      [
+        "Someone at home says \"there's no mosquito\". You...",
+        {
+          "A": "Point out the window was open all afternoon",
+          "D": "Show my fresh bite as evidence",
+          "M": "Hand out repellent to everyone",
+          "F": "Say \"okay then\" and sleep in a hoodie"
+        }
+      ],
+      [
+        "You finally spot the mosquito on the wall. You...",
+        {
+          "A": "Move in slowly, working out the angle",
+          "D": "Make sure it's really the one first",
+          "M": "Ask someone to hold the torch",
+          "F": "Go in with a towel, no thinking"
+        }
+      ],
+      [
+        "Your biggest flaw against mosquitoes:",
+        {
+          "A": "I plan so long it's already morning",
+          "D": "I search so long I lose my sleep",
+          "M": "I turn on so much the room sounds like a jet",
+          "F": "I ignore it and wake up covered in bites"
+        }
+      ],
+      [
+        "Morning comes. You...",
+        {
+          "A": "Order window screens right away",
+          "D": "Count the bites and work out how it got in",
+          "M": "Tell the whole saga in the family chat",
+          "F": "Have breakfast and forget it happened"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "房间里有蚊子时你是哪个泡泡？",
+    "lead": "关了灯，一片安静……然后耳边传来那个嗡嗡声。你是哪个泡泡？",
+    "T": {
+      "A": [
+        "建筑师",
+        "蚊子还没出现，你就已经有计划了。",
+        "对你来说，安稳的夜晚从傍晚就开始了。纱窗装好，驱蚊器插上，天黑前关好门。只要你提前准备，蚊子根本没机会。",
+        "在嗡嗡声出现之前就解决问题。",
+        "防御计划做太久，忘了睡觉。",
+        "六点前关窗了吗？那就没问题。"
+      ],
+      "D": [
+        "侦探",
+        "没有一只蚊子能躲过你。",
+        "你开灯，扫视墙上的每个角落，准确知道它停在哪。别人都放弃了，你还顺着线索一直找到“真凶”。",
+        "在房间任何角落都能找到蚊子。",
+        "找了一个小时，它早就飞走了。",
+        "它就在那儿，窗帘后面，我知道。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时打开风扇、驱蚊器，再拉好被子。",
+        "你从不只靠一个办法。开风扇、插驱蚊器、关窗，还顺便提醒全家。有你在，没人会被咬醒。",
+        "同时布置好几道防线。",
+        "开的东西太多，房间吵得像飞机起飞。",
+        "你开风扇，我去拿驱蚊器！"
+      ],
+      "F": [
+        "终结者",
+        "你搞定蚊子，然后接着睡。",
+        "你不会把一整晚浪费在战术上。裹好被子，风扇开到最大，倒头就睡。别人还在找蚊子，你已经做到第三个梦了。",
+        "不管发生什么都能接着睡。",
+        "醒来身上三个包，还假装没事。",
+        "随它去吧。晚安。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你会根据夜晚的情况换战术：能预防就预防，它躲起来就去找，大规模入侵就全部开启，累了就接着睡。",
+        "对每只蚊子都有合适的办法。",
+        "没人知道你是要找蚊子还是要睡觉。",
+        "看情况。是一只还是一整支小队？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢提前预防问题。",
+      "D": "找不到“真凶”你就不会罢休。",
+      "M": "你会同时启动好几个办法。",
+      "F": "关键时刻，你会放下一切去睡觉。"
+    },
+    "Q": [
+      [
+        "凌晨3点，一只蚊子在你耳边嗡嗡叫。你……",
+        {
+          "A": "开灯，制定作战计划",
+          "D": "一动不动，等它落下",
+          "M": "风扇、驱蚊器、被子一起上",
+          "F": "裹紧被子继续睡"
+        }
+      ],
+      [
+        "闷热的夜晚，该睡觉了。你……",
+        {
+          "A": "傍晚6点就关窗插上驱蚊器",
+          "D": "关灯前先检查天花板和墙",
+          "M": "风扇、驱蚊器、关门，一起搞定",
+          "F": "直接躺下，靠运气"
+        }
+      ],
+      [
+        "你一开灯，蚊子不见了。你……",
+        {
+          "A": "想想它通常躲在哪，直接去找",
+          "D": "检查每个角落直到找到",
+          "M": "叫人一起帮忙找",
+          "F": "关灯，再试着睡"
+        }
+      ],
+      [
+        "你理想的防蚊套装：",
+        {
+          "A": "提前装好的纱窗",
+          "D": "一个能在黑暗中找到它的手电筒",
+          "M": "风扇、驱蚊器加蚊帐",
+          "F": "一条超大的被子"
+        }
+      ],
+      [
+        "家里有人说“根本没有蚊子”。你……",
+        {
+          "A": "提醒他窗户开了一整个下午",
+          "D": "把新鲜的包亮出来当证据",
+          "M": "马上给每个人发驱蚊液",
+          "F": "说“好吧”，然后戴着帽子睡"
+        }
+      ],
+      [
+        "你终于发现蚊子停在墙上。你……",
+        {
+          "A": "慢慢靠近，算好角度",
+          "D": "先确认是不是它本尊",
+          "M": "叫人帮忙拿着手电筒",
+          "F": "拿起毛巾直接冲，不多想"
+        }
+      ],
+      [
+        "你对付蚊子时最大的毛病：",
+        {
+          "A": "计划太久，天都亮了",
+          "D": "找太久，觉都没了",
+          "M": "开的东西太多，房间像飞机场",
+          "F": "不管它，醒来全身是包"
+        }
+      ],
+      [
+        "天亮了。你……",
+        {
+          "A": "马上下单买纱窗",
+          "D": "数包，顺便查出它从哪进来的",
+          "M": "在家庭群里讲完整个故事",
+          "F": "吃个早饭，就当没发生过"
+        }
+      ]
+    ]
+  }
+}
