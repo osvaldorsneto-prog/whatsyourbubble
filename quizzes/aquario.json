@@ -58,7 +58,7 @@
       [
         "O peixe ignora a ração cara que você comprou. Você...",
         {
-          "A": "Monto um cardápio semanal pra ele",
+          "A": "Monto um cardápio pra ele",
           "D": "Leio o rótulo da ração de novo",
           "M": "Testo três rações ao mesmo tempo",
           "F": "Ele come quando tiver fome"
