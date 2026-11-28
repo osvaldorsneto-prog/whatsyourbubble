@@ -1,0 +1,384 @@
+{
+  "slug": "caca-ao-tesouro",
+  "criado_em": "2026-11-28",
+  "categoria": "jogos",
+  "mascote": "D",
+  "pt": {
+    "titulo": "Que bolha você é na caça ao tesouro?",
+    "lead": "Toda caça ao tesouro tem os mesmos 4 tipos de jogador. Qual é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta a estratégia antes de ler a primeira pista.",
+        "Pra você, caça ao tesouro se ganha no plano. Você divide o terreno, define a ordem das pistas e sabe onde já procurou. Seu time nunca anda em círculo.",
+        "Transformar bagunça em mapa.",
+        "Planejar tanto que outro time acha o tesouro.",
+        "Calma. Primeiro a gente divide a casa em zonas."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma pista escapa da sua lupa.",
+        "Você lê cada pista três vezes e repara na letra, na rima e no papel. O detalhe que todo mundo ignora é exatamente o que você encontra. Metade do tesouro é mérito seu.",
+        "Achar o detalhe que ninguém viu.",
+        "Analisar tanto a pista que outro já resolveu.",
+        "Repara: por que essa palavra tá em maiúscula?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você comanda o time, as pistas e o relógio ao mesmo tempo.",
+        "Você manda um pro jardim, outro pra cozinha, segura a pista e ainda vigia o relógio. Com você, o time inteiro joga junto e ninguém fica parado.",
+        "Fazer o time inteiro jogar junto.",
+        "Coordenar tanto que esquece onde guardou a pista.",
+        "Você vê a estante, eu leio, vocês dois no quintal!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Pista boa é pista resolvida rápido.",
+        "Você não perde tempo discutindo a rima. Pensa num lugar, corre até lá e volta com a próxima pista. Enquanto os outros debatem, você já está duas pistas na frente.",
+        "Fazer o jogo andar.",
+        "Revirar a casa inteira antes de ler a pista até o fim.",
+        "Deve ser embaixo do sofá. Já fui!"
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme o jogo pede: planeja no começo, investiga a pista difícil, organiza o time quando bagunça e corre quando a resposta é óbvia.",
+        "Ser o que o time precisa naquele momento.",
+        "Seu time nunca saber se você vai correr ou pensar.",
+        "Depende. Qual é a próxima pista?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de pensar e corre."
+    },
+    "Q": [
+      [
+        "A primeira pista é um poema que ninguém entende. Você...",
+        {
+          "A": "Desenho um mapa antes de dar um passo",
+          "D": "Leio o poema em voz alta mais 5 vezes",
+          "M": "Divido o time: cada um num canto",
+          "F": "Saio abrindo todas as gavetas"
+        }
+      ],
+      [
+        "Antes de começar, você...",
+        {
+          "A": "Pergunto as regras e até onde vale procurar",
+          "D": "Reparo por onde o organizador andou",
+          "M": "Monto o time e distribuo as funções",
+          "F": "Já tô na porta esperando o \"valendo\""
+        }
+      ],
+      [
+        "A pista diz \"onde a água dorme\". Você...",
+        {
+          "A": "Listo todos os lugares com água da casa",
+          "D": "Penso no duplo sentido de cada palavra",
+          "M": "Mando um pra cada torneira ao mesmo tempo",
+          "F": "Corro pro banheiro"
+        }
+      ],
+      [
+        "Seu papel no time é...",
+        {
+          "A": "Quem fez a estratégia",
+          "D": "Quem decifra as pistas",
+          "M": "Quem organiza todo mundo",
+          "F": "Quem chega primeiro em cada lugar"
+        }
+      ],
+      [
+        "O outro time está na sua frente. Você...",
+        {
+          "A": "Revejo o plano e corto caminho",
+          "D": "Tento ver qual pista eles estão segurando",
+          "M": "Reorganizo o time pra ganhar velocidade",
+          "F": "Aperto o passo e pronto"
+        }
+      ],
+      [
+        "Vocês acham uma pista falsa. Você...",
+        {
+          "A": "Risco do mapa e sigo o plano",
+          "D": "Fico intrigado: quem colocou isso aqui?",
+          "M": "Aviso o time todo e redistribuo as buscas",
+          "F": "Jogo fora e vou atrás da próxima"
+        }
+      ],
+      [
+        "Seu maior defeito na caça ao tesouro:",
+        {
+          "A": "Planejo tanto que a gente sai por último",
+          "D": "Analiso tanto que outro time resolve antes",
+          "M": "Coordeno tanto que perco a pista que tava comigo",
+          "F": "Reviro a casa antes de ler a pista inteira"
+        }
+      ],
+      [
+        "Vocês acharam o tesouro! Você...",
+        {
+          "A": "Já sugiro como organizar a próxima rodada",
+          "D": "Confiro se é mesmo o tesouro e não outra pista",
+          "M": "Junto todo mundo pra foto da vitória",
+          "F": "Abro a caixa na hora"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a treasure hunt?",
+    "lead": "Every treasure hunt has the same 4 kinds of player. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You have a strategy before reading the first clue.",
+        "For you, a treasure hunt is won in the plan. You split the area, decide the order and keep track of where you've looked. Your team never goes round in circles.",
+        "Turning chaos into a map.",
+        "Planning so long another team finds the treasure.",
+        "Hold on. First let's split the house into zones."
+      ],
+      "D": [
+        "The Detective",
+        "No clue escapes your magnifying glass.",
+        "You read each clue three times and notice the handwriting, the rhyme and the paper. The detail everyone ignores is exactly what you find. Half the treasure is down to you.",
+        "Finding the detail nobody else saw.",
+        "Studying a clue so long someone else solves it.",
+        "Look: why is this word in capitals?"
+      ],
+      "M": [
+        "The Maestro",
+        "You run the team, the clues and the clock all at once.",
+        "You send one person to the garden, another to the kitchen, hold the clue and keep an eye on the time. With you, the whole team plays together and nobody stands around.",
+        "Getting the whole team playing together.",
+        "Coordinating so much you forget where you put the clue.",
+        "You check the shelf, I'll read, you two take the garden!"
+      ],
+      "F": [
+        "The Finisher",
+        "A clue solved fast is a good clue.",
+        "You don't waste time debating the rhyme. You think of a spot, run there and come back with the next clue. While the others are still discussing, you're two clues ahead.",
+        "Keeping the game moving.",
+        "Turning the house upside down before finishing the clue.",
+        "Bet it's under the sofa. On it!"
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the game needs: plan at the start, crack the tricky clue, organise the team when it gets messy and sprint when the answer is obvious.",
+        "Being whatever the team needs right now.",
+        "Your team never knowing if you'll think or run.",
+        "Depends. What's the next clue?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop thinking and run."
+    },
+    "Q": [
+      [
+        "The first clue is a poem nobody understands. You...",
+        {
+          "A": "Draw a map before taking a step",
+          "D": "Read the poem out loud five more times",
+          "M": "Split the team: one per corner",
+          "F": "Start opening every drawer"
+        }
+      ],
+      [
+        "Before it starts, you...",
+        {
+          "A": "Ask about the rules and where we can search",
+          "D": "Notice where the organiser was walking around",
+          "M": "Pick the team and hand out jobs",
+          "F": "Wait by the door for \"go!\""
+        }
+      ],
+      [
+        "The clue says \"where the water sleeps\". You...",
+        {
+          "A": "List every place in the house with water",
+          "D": "Look for the double meaning in each word",
+          "M": "Send someone to every tap at once",
+          "F": "Sprint to the bathroom"
+        }
+      ],
+      [
+        "Your role on the team is...",
+        {
+          "A": "The one who made the strategy",
+          "D": "The one who cracks the clues",
+          "M": "The one organising everyone",
+          "F": "The one who gets to each spot first"
+        }
+      ],
+      [
+        "The other team is ahead of you. You...",
+        {
+          "A": "Rethink the plan and take a shortcut",
+          "D": "Try to see which clue they're holding",
+          "M": "Reshuffle the team to speed up",
+          "F": "Just pick up the pace"
+        }
+      ],
+      [
+        "You find a fake clue. You...",
+        {
+          "A": "Cross it off the map and stick to the plan",
+          "D": "Get curious: who put this here?",
+          "M": "Tell the whole team and reassign the search",
+          "F": "Bin it and go after the next one"
+        }
+      ],
+      [
+        "Your biggest flaw on a treasure hunt:",
+        {
+          "A": "I plan so much we set off last",
+          "D": "I analyse so much another team solves it first",
+          "M": "I coordinate so much I lose the clue I had",
+          "F": "I search the house before reading the whole clue"
+        }
+      ],
+      [
+        "You found the treasure! You...",
+        {
+          "A": "Suggest how to organise the next round",
+          "D": "Check it's really the treasure and not another clue",
+          "M": "Gather everyone for the victory photo",
+          "F": "Open the box straight away"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "寻宝游戏里你是哪个泡泡？",
+    "lead": "每场寻宝游戏都有同样的4种玩家。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没读第一条线索，你就有了策略。",
+        "对你来说，寻宝靠计划取胜。你划分区域、安排顺序，记得哪里已经找过。你的队伍从不绕圈子。",
+        "把混乱变成地图。",
+        "计划太久，宝藏被别队找到了。",
+        "别急，先把房子分成几个区。"
+      ],
+      "D": [
+        "侦探",
+        "没有线索逃得过你的放大镜。",
+        "每条线索你都读三遍，连字迹、押韵和纸张都不放过。大家忽略的细节，正是你找到的。宝藏有一半是你的功劳。",
+        "找到别人没看到的细节。",
+        "研究线索太久，别人已经解开了。",
+        "你看，这个字为什么要加粗？"
+      ],
+      "M": [
+        "指挥家",
+        "你同时指挥队伍、线索和时间。",
+        "你派一个人去花园，一个去厨房，自己拿着线索还盯着时间。有你在，整个队伍一起玩，没有人闲着。",
+        "让整个队伍一起动起来。",
+        "指挥太投入，忘了线索放哪儿了。",
+        "你看书架，我来读，你们俩去院子！"
+      ],
+      "F": [
+        "终结者",
+        "解得快的线索才是好线索。",
+        "你不浪费时间讨论押韵。想到一个地方，冲过去，带着下一条线索回来。别人还在讨论，你已经领先两条线索了。",
+        "让游戏一直往前走。",
+        "线索还没读完就把房子翻了个遍。",
+        "肯定在沙发底下，我去了！"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据游戏的需要切换角色：开始时做计划，难题来了就破解，乱了就组织队伍，答案明显时就冲。",
+        "成为此刻队伍最需要的人。",
+        "队友永远不知道你是要想还是要跑。",
+        "看情况。下一条线索是什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你少想多冲。"
+    },
+    "Q": [
+      [
+        "第一条线索是一首谁都看不懂的诗。你……",
+        {
+          "A": "先画张地图再迈步",
+          "D": "把诗大声再读五遍",
+          "M": "分工：每人搜一个角落",
+          "F": "开始拉开所有抽屉"
+        }
+      ],
+      [
+        "开始之前，你……",
+        {
+          "A": "问清规则和搜索范围",
+          "D": "观察组织者刚才在哪儿转悠",
+          "M": "组好队，分配任务",
+          "F": "已经站在门口等“开始”"
+        }
+      ],
+      [
+        "线索写着“水睡觉的地方”。你……",
+        {
+          "A": "列出家里所有有水的地方",
+          "D": "琢磨每个字的双关意思",
+          "M": "同时派人去每个水龙头",
+          "F": "冲向浴室"
+        }
+      ],
+      [
+        "你在队里的角色是……",
+        {
+          "A": "定策略的那个人",
+          "D": "破解线索的那个人",
+          "M": "组织大家的那个人",
+          "F": "每次第一个冲到的那个人"
+        }
+      ],
+      [
+        "另一队领先了。你……",
+        {
+          "A": "调整计划，抄近路",
+          "D": "偷看他们手里是哪条线索",
+          "M": "重新分工，加快速度",
+          "F": "加快脚步就是了"
+        }
+      ],
+      [
+        "你们找到一条假线索。你……",
+        {
+          "A": "从地图上划掉，按计划继续",
+          "D": "好奇：这是谁放的？",
+          "M": "通知全队，重新分配搜索",
+          "F": "扔掉，去找下一条"
+        }
+      ],
+      [
+        "你玩寻宝最大的毛病：",
+        {
+          "A": "计划太久，我们最后才出发",
+          "D": "分析太久，别队先解开了",
+          "M": "指挥太投入，弄丢了自己手里的线索",
+          "F": "线索还没读完就开始翻箱倒柜"
+        }
+      ],
+      [
+        "你们找到宝藏了！你……",
+        {
+          "A": "马上建议下一轮怎么安排",
+          "D": "确认这真是宝藏，不是另一条线索",
+          "M": "叫大家一起拍胜利合照",
+          "F": "当场打开盒子"
+        }
+      ]
+    ]
+  }
+}

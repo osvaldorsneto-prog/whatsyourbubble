@@ -1,0 +1,384 @@
+{
+  "slug": "ferias-em-familia",
+  "criado_em": "2026-11-28",
+  "categoria": "familia",
+  "mascote": "F",
+  "pt": {
+    "titulo": "Que bolha você é nas férias em família?",
+    "lead": "Toda viagem em família tem os mesmos 4 tipos de gente. Qual deles é você?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você monta o roteiro das férias meses antes.",
+        "Pra você, férias boas começam na planilha. Você sabe onde cada um dorme, a que horas sai o passeio e onde almoçar. Graças a você, ninguém fica perdido.",
+        "Fazer as férias caberem no tempo e no bolso.",
+        "Planejar tanto que não sobra tempo pra descansar.",
+        "Às 9h café, às 10h praia, às 13h almoço. Anotaram?"
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma reserva passa sem conferência.",
+        "Você confere a reserva, o horário do voo e se alguém esqueceu o carregador. Problema pequeno não vira grande com você por perto. A família viaja tranquila por sua causa.",
+        "Evitar o perrengue antes dele acontecer.",
+        "Conferir tanto as malas que o carro sai atrasado.",
+        "Todo mundo pegou o documento? Mostra aí."
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida do roteiro, dos lanches e do humor da família.",
+        "Você resolve o quarto, os lanches, a música do carro e quem quer ir aonde. Enquanto cada um pensa em si, você mantém a família inteira feliz e junta.",
+        "Deixar todo mundo feliz ao mesmo tempo.",
+        "Cuidar de todos e esquecer a própria mala.",
+        "Quem quer lanche? E quem escolhe a próxima música?"
+      ],
+      "F": [
+        "O Finalizador",
+        "Férias boas são férias que acontecem.",
+        "Você não espera o roteiro perfeito. Escolhe o lugar, fecha a reserva e põe todo mundo no carro. Enquanto os outros discutem o destino, você já está na estrada.",
+        "Tirar as férias do papel.",
+        "Esquecer um detalhe que o Detetive teria visto.",
+        "Fechei. Arruma a mala que a gente sai amanhã."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda de papel conforme as férias pedem: planeja quando precisa, confere antes de sair, cuida de todos na estrada e resolve quando o plano muda.",
+        "Ser o que a família precisa naquele momento.",
+        "Ninguém saber se você vai planejar ou improvisar.",
+        "Depende. Pra onde a gente vai mesmo?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de discutir e vai."
+    },
+    "Q": [
+      [
+        "Alguém pergunta \"falta muito?\" com 10 minutos de viagem. Você...",
+        {
+          "A": "Mostro o roteiro com cada parada",
+          "D": "Confiro o GPS: faltam 5h47",
+          "M": "Solto a playlist e distribuo lanches",
+          "F": "Respondo \"quase\" e sigo em frente"
+        }
+      ],
+      [
+        "Na hora de escolher o destino, você...",
+        {
+          "A": "Faço uma planilha comparando três opções",
+          "D": "Leio as avaliações de cada hotel",
+          "M": "Faço uma votação no grupo da família",
+          "F": "Escolho e já faço a reserva"
+        }
+      ],
+      [
+        "Na véspera da viagem, você...",
+        {
+          "A": "Sigo minha lista de mala item por item",
+          "D": "Confiro documentos, reservas e a previsão do tempo",
+          "M": "Ajudo todo mundo a fechar as malas",
+          "F": "Faço a mala em 10 minutos"
+        }
+      ],
+      [
+        "Seu papel nas férias é...",
+        {
+          "A": "Quem fez o roteiro",
+          "D": "Quem guarda as reservas e os documentos",
+          "M": "Quem cuida de todo mundo",
+          "F": "Quem decide na hora quando ninguém decide"
+        }
+      ],
+      [
+        "O passeio planejado foi cancelado pela chuva. Você...",
+        {
+          "A": "Já tinha um plano B",
+          "D": "Vejo a previsão hora a hora",
+          "M": "Organizo um jogo de cartas pra todo mundo",
+          "F": "Pego a família e vamos pro cinema"
+        }
+      ],
+      [
+        "Ninguém concorda onde almoçar. Você...",
+        {
+          "A": "Mostro a lista de restaurantes que separei",
+          "D": "Confiro avaliação e preço de cada opção",
+          "M": "Acho um lugar que agrada todo mundo",
+          "F": "Entro no primeiro que tiver mesa"
+        }
+      ],
+      [
+        "Seu maior defeito nas férias em família:",
+        {
+          "A": "Planejo tanto que não sobra tempo livre",
+          "D": "Confiro tanto que a gente sai atrasado",
+          "M": "Cuido de todos e esqueço minhas coisas",
+          "F": "Decido rápido demais e alguém reclama"
+        }
+      ],
+      [
+        "Fim das férias. Você...",
+        {
+          "A": "Já começo a pensar nas próximas",
+          "D": "Confiro se ninguém esqueceu nada no quarto",
+          "M": "Junto todo mundo pra última foto",
+          "F": "Ponho as malas no carro e bora pra casa"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble on a family holiday?",
+    "lead": "Every family holiday has the same 4 kinds of people. Which one are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You plan the holiday itinerary months ahead.",
+        "For you, a good holiday starts with a spreadsheet. You know where everyone sleeps, when the trips leave and where to eat. Thanks to you, nobody gets lost.",
+        "Making the holiday fit the time and the budget.",
+        "Planning so much there's no time left to relax.",
+        "Breakfast at 9, beach at 10, lunch at 1. Got that?"
+      ],
+      "D": [
+        "The Detective",
+        "No booking goes unchecked.",
+        "You check the booking, the flight time and whether someone forgot their charger. Small problems never grow with you around. The family travels relaxed because of you.",
+        "Stopping the hassle before it happens.",
+        "Checking the bags so long the car leaves late.",
+        "Has everyone got their passport? Show me."
+      ],
+      "M": [
+        "The Maestro",
+        "You handle the plans, the snacks and the family's mood.",
+        "You sort the rooms, the snacks, the car music and who wants to go where. While everyone thinks about themselves, you keep the whole family happy and together.",
+        "Keeping everyone happy at the same time.",
+        "Looking after everyone and forgetting your own bag.",
+        "Who wants a snack? And who picks the next song?"
+      ],
+      "F": [
+        "The Finisher",
+        "The best holiday is the one that actually happens.",
+        "You don't wait for the perfect plan. You pick the place, book it and get everyone in the car. While the others debate where to go, you're already on the road.",
+        "Getting the holiday off the ground.",
+        "Missing a detail the Detective would have spotted.",
+        "Booked. Pack your bags, we leave tomorrow."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You switch roles as the holiday needs: you plan when it matters, check before leaving, look after everyone on the road and sort it out when plans change.",
+        "Being whatever the family needs right now.",
+        "Nobody knowing if you'll plan or improvise.",
+        "Depends. Where are we going again?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop debating and go."
+    },
+    "Q": [
+      [
+        "Someone asks \"are we there yet?\" ten minutes in. You...",
+        {
+          "A": "Show the itinerary with every stop",
+          "D": "Check the GPS: 5h47 to go",
+          "M": "Put on music and hand out snacks",
+          "F": "Say \"nearly\" and keep driving"
+        }
+      ],
+      [
+        "Choosing where to go, you...",
+        {
+          "A": "Make a spreadsheet comparing three options",
+          "D": "Read the reviews of every hotel",
+          "M": "Run a vote in the family group chat",
+          "F": "Pick one and book it"
+        }
+      ],
+      [
+        "The night before the trip, you...",
+        {
+          "A": "Follow my packing list item by item",
+          "D": "Check documents, bookings and the forecast",
+          "M": "Help everyone close their bags",
+          "F": "Pack in ten minutes"
+        }
+      ],
+      [
+        "Your role on the holiday is...",
+        {
+          "A": "The one who made the itinerary",
+          "D": "The one holding the bookings and documents",
+          "M": "The one looking after everyone",
+          "F": "The one who decides when nobody else will"
+        }
+      ],
+      [
+        "The planned trip is rained off. You...",
+        {
+          "A": "Already had a plan B",
+          "D": "Check the forecast hour by hour",
+          "M": "Organise a card game for everyone",
+          "F": "Take the family to the cinema"
+        }
+      ],
+      [
+        "Nobody agrees where to have lunch. You...",
+        {
+          "A": "Show the list of restaurants I saved",
+          "D": "Check the reviews and prices of each one",
+          "M": "Find somewhere everyone likes",
+          "F": "Walk into the first place with a free table"
+        }
+      ],
+      [
+        "Your biggest flaw on a family holiday:",
+        {
+          "A": "I plan so much there's no free time",
+          "D": "I check so much we leave late",
+          "M": "I look after everyone and forget my own stuff",
+          "F": "I decide too fast and someone complains"
+        }
+      ],
+      [
+        "The holiday's over. You...",
+        {
+          "A": "Start thinking about the next one",
+          "D": "Check nothing's been left in the room",
+          "M": "Gather everyone for one last photo",
+          "F": "Load the car and head home"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "家庭旅行时你是哪个泡泡？",
+    "lead": "每次家庭旅行都有同样的4种人。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "你提前几个月就排好了旅行行程。",
+        "对你来说，好的假期从表格开始。谁睡哪儿、几点出发、去哪儿吃饭，你都清清楚楚。有你在，没人会迷路。",
+        "让假期刚好装进时间和预算。",
+        "计划太满，没时间休息。",
+        "9点早餐，10点海边，1点午饭。记下了吗？"
+      ],
+      "D": [
+        "侦探",
+        "没有一个预订能逃过你的检查。",
+        "你会核对预订、航班时间，还有谁忘了带充电器。有你在，小问题不会变成大麻烦。全家能安心出行，都是因为你。",
+        "在麻烦发生之前就挡住它。",
+        "检查行李太久，车都晚出发了。",
+        "大家证件都带了吗？拿出来看看。"
+      ],
+      "M": [
+        "指挥家",
+        "你同时照顾行程、零食和全家的心情。",
+        "你安排房间、零食、车里的音乐，还有谁想去哪儿。大家各想各的，你却让一家人都开心地在一起。",
+        "让所有人同时开心。",
+        "照顾了所有人，忘了自己的行李。",
+        "谁要零食？下一首歌谁来选？"
+      ],
+      "F": [
+        "终结者",
+        "能成行的假期才是最好的假期。",
+        "你不等完美的计划。选好地方、订好房、把大家塞进车里。别人还在争论去哪儿，你已经上路了。",
+        "让假期真正成行。",
+        "漏掉一个侦探肯定会发现的细节。",
+        "订好了。收拾行李，明天出发。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据假期的需要切换角色：需要时做计划，出发前检查，路上照顾大家，计划有变时直接搞定。",
+        "成为此刻家人最需要的人。",
+        "没人知道你这次是要计划还是即兴。",
+        "看情况。我们到底去哪儿来着？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你不再争论，直接出发。"
+    },
+    "Q": [
+      [
+        "才开车10分钟，就有人问“还有多久？”。你……",
+        {
+          "A": "拿出行程，每一站都标好了",
+          "D": "看导航：还有5小时47分",
+          "M": "放音乐，发零食",
+          "F": "说“快了”，继续开"
+        }
+      ],
+      [
+        "选目的地的时候，你……",
+        {
+          "A": "做表格比较三个选项",
+          "D": "看每家酒店的评价",
+          "M": "在家族群里发起投票",
+          "F": "选一个直接订"
+        }
+      ],
+      [
+        "出发前一晚，你……",
+        {
+          "A": "按清单一件件收拾行李",
+          "D": "核对证件、预订和天气预报",
+          "M": "帮每个人把行李箱合上",
+          "F": "10分钟收拾完行李"
+        }
+      ],
+      [
+        "你在旅行中的角色是……",
+        {
+          "A": "做行程的那个人",
+          "D": "保管预订和证件的那个人",
+          "M": "照顾所有人的那个人",
+          "F": "没人拿主意时拍板的那个人"
+        }
+      ],
+      [
+        "计划好的行程因为下雨取消了。你……",
+        {
+          "A": "早就准备了B计划",
+          "D": "看逐小时天气预报",
+          "M": "组织大家一起打牌",
+          "F": "带全家去看电影"
+        }
+      ],
+      [
+        "大家对午饭去哪儿吃意见不一。你……",
+        {
+          "A": "拿出我收藏好的餐厅清单",
+          "D": "查每家的评价和价格",
+          "M": "找一家所有人都喜欢的",
+          "F": "走进第一家有空位的"
+        }
+      ],
+      [
+        "你家庭旅行最大的毛病：",
+        {
+          "A": "计划太满，没有自由时间",
+          "D": "检查太多，出发总是晚",
+          "M": "照顾所有人，忘了自己的东西",
+          "F": "决定太快，总有人抱怨"
+        }
+      ],
+      [
+        "假期结束了。你……",
+        {
+          "A": "开始想下一次去哪儿",
+          "D": "检查房间里有没有落东西",
+          "M": "叫大家拍最后一张合照",
+          "F": "把行李装上车，回家"
+        }
+      ]
+    ]
+  }
+}

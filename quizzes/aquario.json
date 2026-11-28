@@ -1,0 +1,384 @@
+{
+  "slug": "aquario",
+  "criado_em": "2026-11-28",
+  "categoria": "pets",
+  "mascote": "A",
+  "pt": {
+    "titulo": "Que bolha você é com o aquário?",
+    "lead": "Todo dono de aquário cai num destes 4 tipos. Qual é o seu?",
+    "T": {
+      "A": [
+        "O Arquiteto",
+        "Você planejou o aquário antes de comprar o primeiro peixe.",
+        "Pra você, aquário bom começa no projeto. Você escolheu o tamanho, as plantas e quem convive com quem. Por isso seus peixes moram num condomínio de luxo.",
+        "Montar o aquário certo desde o primeiro dia.",
+        "Passar semanas planejando e o aquário seguir vazio.",
+        "Esse peixe só entra na fase dois do projeto."
+      ],
+      "D": [
+        "O Detetive",
+        "Nenhuma gota de água passa sem teste.",
+        "Você mede temperatura, pH e até o humor do peixe. Se algo muda um pouquinho, você percebe na hora. É por isso que seu aquário está sempre impecável.",
+        "Perceber qualquer mudança antes de virar problema.",
+        "Testar tanto a água que o peixe se sente cobaia.",
+        "Espera, esse peixe tá meio pálido ou é a luz?"
+      ],
+      "M": [
+        "O Maestro",
+        "Você cuida dos peixes, das plantas e do filtro ao mesmo tempo.",
+        "Enquanto troca a água, você poda a planta, limpa o vidro e ainda explica tudo pra visita. Seu aquário tem vida porque você cuida de tudo junto.",
+        "Manter o aquário inteiro funcionando.",
+        "Abrir tanta frente que esquece a tampa aberta.",
+        "Segura a mangueira que eu já volto com a rede!"
+      ],
+      "F": [
+        "O Finalizador",
+        "Aquário montado é melhor que aquário perfeito.",
+        "Você não espera o aquário dos sonhos. Comprou, encheu, ligou o filtro e pronto, os peixes já estão nadando. Enquanto outros pesquisam, o seu já está bonito na sala.",
+        "Tirar o aquário da ideia e colocar na sala.",
+        "Pular a parte do manual que parecia opcional.",
+        "Tá limpinho, tá nadando, tá ótimo."
+      ],
+      "S": [
+        "A Bolha Secreta",
+        "Você não cabe numa bolha só.",
+        "Você muda conforme o aquário pede: planeja quando vai mudar tudo, testa quando algo parece estranho, cuida de tudo no dia da limpeza e resolve quando precisa.",
+        "Ser o que o aquário precisa naquele momento.",
+        "Nem os peixes saberem o que esperar de você.",
+        "Depende. O que o peixe tá pedindo hoje?"
+      ]
+    },
+    "S2": {
+      "A": "você ainda gosta de tudo planejado.",
+      "D": "você não deixa nada passar sem conferir.",
+      "M": "você cuida de mil coisas ao mesmo tempo.",
+      "F": "na hora certa, você para de pensar e resolve."
+    },
+    "Q": [
+      [
+        "O peixe ignora a ração cara que você comprou. Você...",
+        {
+          "A": "Monto um cardápio semanal pra ele",
+          "D": "Leio o rótulo da ração de novo",
+          "M": "Testo três rações ao mesmo tempo",
+          "F": "Ele come quando tiver fome"
+        }
+      ],
+      [
+        "Na loja, na hora de escolher os peixes, você...",
+        {
+          "A": "Já chego com a lista de quem combina com quem",
+          "D": "Pergunto o tamanho adulto e o temperamento de cada um",
+          "M": "Escolho peixe, planta, pedra e enfeite de uma vez",
+          "F": "Aponto pro mais bonito e levo"
+        }
+      ],
+      [
+        "A água ficou meio verde. Você...",
+        {
+          "A": "Refaço o plano de luz e de limpeza",
+          "D": "Faço todos os testes pra achar a causa",
+          "M": "Troco a água, limpo o filtro e mudo a luz junto",
+          "F": "Troco metade da água e pronto"
+        }
+      ],
+      [
+        "Seu papel no aquário é...",
+        {
+          "A": "Quem desenhou a decoração",
+          "D": "Quem mede a água toda semana",
+          "M": "Quem cuida de peixe, planta e filtro",
+          "F": "Quem garante que os peixes comeram"
+        }
+      ],
+      [
+        "Uma visita bate no vidro do aquário. Você...",
+        {
+          "A": "Explico onde cada peixe gosta de ficar",
+          "D": "Conto quantos peixes se esconderam",
+          "M": "Mostro tudo e ofereço um café",
+          "F": "Peço com jeitinho pra parar e sigo a conversa"
+        }
+      ],
+      [
+        "Você vai viajar por uma semana. Você...",
+        {
+          "A": "Deixo um calendário de alimentação por dia",
+          "D": "Confiro o alimentador automático três vezes",
+          "M": "Combino com o vizinho e deixo tudo separado",
+          "F": "Ligo o alimentador automático e embarco"
+        }
+      ],
+      [
+        "Seu maior defeito com o aquário:",
+        {
+          "A": "Planejo tanto que demoro pra montar",
+          "D": "Testo tanto a água que o peixe fica tímido",
+          "M": "Mexo em tudo junto e esqueço a tampa aberta",
+          "F": "Pulo umas etapas do manual"
+        }
+      ],
+      [
+        "O aquário finalmente ficou lindo. Você...",
+        {
+          "A": "Já penso no próximo, ainda maior",
+          "D": "Anoto os valores da água pra manter sempre assim",
+          "M": "Mando foto pra todo mundo e chamo a família pra ver",
+          "F": "Sento no sofá e fico vendo os peixes"
+        }
+      ]
+    ]
+  },
+  "en": {
+    "titulo": "What's your bubble with a fish tank?",
+    "lead": "Every fish tank owner is one of these 4 types. Which are you?",
+    "T": {
+      "A": [
+        "The Architect",
+        "You planned the tank before buying a single fish.",
+        "For you, a great tank starts with a blueprint. You picked the size, the plants and who gets along with whom. That's why your fish live in a luxury flat.",
+        "Setting up the right tank from day one.",
+        "Planning for weeks while the tank sits empty.",
+        "That fish moves in during phase two."
+      ],
+      "D": [
+        "The Detective",
+        "No drop of water goes untested.",
+        "You measure temperature, pH and possibly the fish's mood. If anything shifts even a little, you notice straight away. That's why your tank is always spotless.",
+        "Spotting any change before it becomes a problem.",
+        "Testing so often the fish thinks it's an experiment.",
+        "Wait, is that fish a bit pale or is it the light?"
+      ],
+      "M": [
+        "The Maestro",
+        "You look after the fish, plants and filter all at once.",
+        "While changing the water you trim the plants, wipe the glass and give your guests a full tour. Your tank thrives because you handle everything together.",
+        "Keeping the whole tank running.",
+        "Juggling so much you leave the lid off.",
+        "Hold the hose, I'll be right back with the net!"
+      ],
+      "F": [
+        "The Finisher",
+        "A tank that's running beats a perfect tank.",
+        "You don't wait for the dream setup. Bought it, filled it, switched on the filter and the fish are swimming. While others are still researching, yours already looks great in the living room.",
+        "Turning the idea into an actual tank.",
+        "Skipping the bit of the manual that looked optional.",
+        "It's clean, they're swimming, it's great."
+      ],
+      "S": [
+        "The Secret Bubble",
+        "You don't fit in just one bubble.",
+        "You change as the tank needs: you plan big changes, test when something looks odd, juggle everything on cleaning day and just sort it when it's time.",
+        "Being whatever the tank needs right now.",
+        "Not even the fish know what to expect from you.",
+        "Depends. What's the fish asking for today?"
+      ]
+    },
+    "S2": {
+      "A": "you still like everything planned.",
+      "D": "you don't let anything slip past unchecked.",
+      "M": "you juggle a thousand things at once.",
+      "F": "when it counts, you stop thinking and get it done."
+    },
+    "Q": [
+      [
+        "Your fish ignores the fancy food you just bought. You...",
+        {
+          "A": "Draw up a weekly menu for it",
+          "D": "Read the label again",
+          "M": "Try three foods at once",
+          "F": "It'll eat when it's hungry"
+        }
+      ],
+      [
+        "At the shop, picking the fish, you...",
+        {
+          "A": "Arrive with a list of who gets along with whom",
+          "D": "Ask about the adult size and temper of each one",
+          "M": "Pick fish, plants, rocks and ornaments in one go",
+          "F": "Point at the prettiest one and take it"
+        }
+      ],
+      [
+        "The water's gone a bit green. You...",
+        {
+          "A": "Redo the lighting and cleaning plan",
+          "D": "Run every test to find the cause",
+          "M": "Change the water, clean the filter and adjust the light together",
+          "F": "Swap half the water and call it done"
+        }
+      ],
+      [
+        "Your role with the tank is...",
+        {
+          "A": "The one who designed the layout",
+          "D": "The one who tests the water every week",
+          "M": "The one looking after fish, plants and filter",
+          "F": "The one making sure the fish got fed"
+        }
+      ],
+      [
+        "A guest taps on the glass. You...",
+        {
+          "A": "Explain where each fish likes to hang out",
+          "D": "Count how many fish just hid",
+          "M": "Give the full tour and offer a cuppa",
+          "F": "Kindly ask them to stop and carry on chatting"
+        }
+      ],
+      [
+        "You're going away for a week. You...",
+        {
+          "A": "Leave a feeding calendar, day by day",
+          "D": "Check the automatic feeder three times",
+          "M": "Sort it with the neighbour and leave everything labelled",
+          "F": "Set the automatic feeder and go"
+        }
+      ],
+      [
+        "Your biggest flaw as a fish keeper:",
+        {
+          "A": "I plan so much the tank takes ages to set up",
+          "D": "I test the water so often the fish get shy",
+          "M": "I fiddle with everything and leave the lid open",
+          "F": "I skip a few steps in the manual"
+        }
+      ],
+      [
+        "The tank finally looks amazing. You...",
+        {
+          "A": "Start planning the next, bigger one",
+          "D": "Write down the water readings to keep it that way",
+          "M": "Send photos to everyone and call the family over",
+          "F": "Sit on the sofa and watch the fish"
+        }
+      ]
+    ]
+  },
+  "zh": {
+    "titulo": "养鱼时你是哪个泡泡？",
+    "lead": "每个养鱼的人都是这4种之一。你是哪一种？",
+    "T": {
+      "A": [
+        "建筑师",
+        "还没买第一条鱼，你就把鱼缸规划好了。",
+        "对你来说，好鱼缸从设计图开始。尺寸、水草、谁和谁能住一起，你都想好了。所以你的鱼住的是豪华公寓。",
+        "从第一天起就把鱼缸搭对。",
+        "规划了好几周，鱼缸还是空的。",
+        "这条鱼要等第二期工程再入住。"
+      ],
+      "D": [
+        "侦探",
+        "每一滴水都要先检测。",
+        "你会测水温、pH值，甚至鱼的心情。哪怕有一点点变化，你也马上发现。所以你的鱼缸永远干干净净。",
+        "在变成问题之前发现任何变化。",
+        "测水太勤，鱼都以为自己是实验对象。",
+        "等等，这条鱼是有点白，还是灯光问题？"
+      ],
+      "M": [
+        "指挥家",
+        "鱼、水草和过滤器，你同时照顾。",
+        "换水的同时，你还修剪水草、擦玻璃，顺便给客人讲解一遍。你的鱼缸生机勃勃，因为你什么都一起管。",
+        "让整个鱼缸正常运转。",
+        "同时忙太多，忘了盖盖子。",
+        "帮我拿一下水管，我去拿网兜！"
+      ],
+      "F": [
+        "终结者",
+        "能用的鱼缸胜过完美的鱼缸。",
+        "你不等梦想中的鱼缸。买回来、加水、开过滤器，鱼已经游起来了。别人还在查资料，你的鱼缸已经在客厅里很好看了。",
+        "把想法变成真正的鱼缸。",
+        "跳过说明书里看起来不重要的部分。",
+        "水清了，鱼在游，挺好。"
+      ],
+      "S": [
+        "秘密泡泡",
+        "一个泡泡装不下你。",
+        "你根据鱼缸的需要切换角色：大改时规划，看着不对劲时检测，清洁日什么都管，该搞定时就搞定。",
+        "成为此刻鱼缸最需要的人。",
+        "连鱼都不知道你下一步要干嘛。",
+        "看情况。今天鱼想要什么？"
+      ]
+    },
+    "S2": {
+      "A": "你还是喜欢一切都有计划。",
+      "D": "你不会让任何东西不经检查就过关。",
+      "M": "你能同时照顾一千件事。",
+      "F": "关键时刻，你少想多做。"
+    },
+    "Q": [
+      [
+        "鱼完全不吃你买的高级鱼食。你……",
+        {
+          "A": "给它做一份每周菜单",
+          "D": "再把包装说明读一遍",
+          "M": "同时试三种鱼食",
+          "F": "饿了它自然会吃"
+        }
+      ],
+      [
+        "在店里挑鱼时，你……",
+        {
+          "A": "带着一张谁和谁合得来的清单去",
+          "D": "问清楚每条鱼长大多大、脾气怎样",
+          "M": "鱼、水草、石头和摆件一次全挑好",
+          "F": "指着最好看的那条就买"
+        }
+      ],
+      [
+        "水有点发绿了。你……",
+        {
+          "A": "重新制定灯光和清洁计划",
+          "D": "把所有检测都做一遍找原因",
+          "M": "换水、洗过滤器、调灯光同时进行",
+          "F": "换一半水，搞定"
+        }
+      ],
+      [
+        "你在鱼缸这件事上的角色是……",
+        {
+          "A": "设计造景的那个人",
+          "D": "每周测水的那个人",
+          "M": "同时照顾鱼、水草和过滤器的那个人",
+          "F": "确保鱼都吃上饭的那个人"
+        }
+      ],
+      [
+        "客人敲了敲鱼缸玻璃。你……",
+        {
+          "A": "介绍每条鱼最喜欢待在哪儿",
+          "D": "数一数有几条鱼躲起来了",
+          "M": "带大家参观一圈，再泡杯茶",
+          "F": "礼貌地请他别敲，继续聊天"
+        }
+      ],
+      [
+        "你要出门一周。你……",
+        {
+          "A": "留一份每天喂食的日历",
+          "D": "把自动喂食器检查三遍",
+          "M": "拜托邻居，把东西都分好贴上标签",
+          "F": "设好自动喂食器，出发"
+        }
+      ],
+      [
+        "你养鱼最大的毛病：",
+        {
+          "A": "规划太久，鱼缸迟迟搭不起来",
+          "D": "测水太勤，鱼都变害羞了",
+          "M": "什么都一起弄，结果忘了盖盖子",
+          "F": "说明书总跳过几步"
+        }
+      ],
+      [
+        "鱼缸终于变得超美。你……",
+        {
+          "A": "开始规划下一个更大的",
+          "D": "记下水质数据，以后一直保持",
+          "M": "给所有人发照片，叫家人来看",
+          "F": "坐在沙发上看鱼"
+        }
+      ]
+    ]
+  }
+}

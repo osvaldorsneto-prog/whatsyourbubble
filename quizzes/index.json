@@ -1,6 +1,42 @@
 {
  "quizzes": [
   {
+   "slug": "ferias-em-familia",
+   "url": "/q/?s=ferias-em-familia",
+   "criado_em": "2026-11-28",
+   "categoria": "familia",
+   "mascote": "F",
+   "titulo": {
+    "pt": "Que bolha você é nas férias em família?",
+    "en": "What's your bubble on a family holiday?",
+    "zh": "家庭旅行时你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "caca-ao-tesouro",
+   "url": "/q/?s=caca-ao-tesouro",
+   "criado_em": "2026-11-28",
+   "categoria": "jogos",
+   "mascote": "D",
+   "titulo": {
+    "pt": "Que bolha você é na caça ao tesouro?",
+    "en": "What's your bubble on a treasure hunt?",
+    "zh": "寻宝游戏里你是哪个泡泡？"
+   }
+  },
+  {
+   "slug": "aquario",
+   "url": "/q/?s=aquario",
+   "criado_em": "2026-11-28",
+   "categoria": "pets",
+   "mascote": "A",
+   "titulo": {
+    "pt": "Que bolha você é com o aquário?",
+    "en": "What's your bubble with a fish tank?",
+    "zh": "养鱼时你是哪个泡泡？"
+   }
+  },
+  {
    "slug": "mosquito-no-quarto",
    "url": "/q/?s=mosquito-no-quarto",
    "criado_em": "2026-11-27",
